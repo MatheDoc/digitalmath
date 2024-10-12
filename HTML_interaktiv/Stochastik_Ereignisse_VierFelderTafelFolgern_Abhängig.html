@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>Stochastik_Ereignisse</title>
+
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #333;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .einleitung {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    p {
+        color: #555;
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    ol {
+        margin: 0 auto;
+        padding: 0;
+        list-style-position: inside;
+        max-width: 800px;
+    }
+
+    li {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        line-height: 2;
+    }
+
+    input[type="number"] {
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 80px;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    #feedback1, #feedback2, #feedback3, #feedback4, #feedback5,
+    #feedback6, #feedback7, #feedback8, #feedback9, #feedback10 {
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+        li {
+            padding: 15px;
+        }
+
+        input[type="number"] {
+            width: 60px;
+        }
+    }
+    </style>
+    </head>
+<body>
+<h1>07 VierFelderTafelFolgern/Abhängig</h1>
+<h2>01 </h2>
+<div class="einleitung">Ein Hersteller von Halbleitern erhält Aufträge von Groß- und Kleinkunden. Alle Kunden können zwischen Basis- und Premium-Qualität wählen. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Großkunde bestellt Halbleiter.</p> <p>B: Ein Halbleiter wird in Premium-Qualität bestellt.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEOUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/mYBAduQOwEBAGcBAQBmtf7+///bkTsBAY/a/mW1/rZnAQAAZbX+/v/btrbb/7X+//+2ZzqP2pA7AZE7AQE6OgE6j9r+/gEBOgEBZtuRO4+1kDoBAf7bkAFltQBltTsBAAE6kAA6jwEBZZCQtpGRtjoAOjsBOjuQ2mcBZrb+/joBOomJib61InAAAABadFJOU////8//////////////////////////////////////////////////////////////////////////////////////////////////////////////////71uUUpUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAzdSURBVHhe7Z17Y1O3GYe9LSvU2YHMcVzGTDOY09KskKRNWo+tAXqB3Ri7b/3+X2TvRTrS0dHROXYUWzS/5w9bOjgCnSevLkavPQJF8qMf/2Q02gHl8dPRe7egpkigpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligplgGqzH5hSAT75n72s1wNeY5J9fQ5jWMALdHo/dNMR+3oSYDUJMHqMkD1KSAml6gJg9QkweoSQE1vUBNHqAmD1tVM941+/LRz8yVDqAmD8PVVHeMmdFdc6UDqOmk2vu5KSmTfVOIMUxNdaepY7p/YEoRoKbJTH6fP5DivV/IpclInczu/1KeoyT6MptzkzJ6zR58KJemI3UyO/yV1KNATRO+/9Ueuxk/VCNUU0dhFDVIqaH7T6MYuRnvqhGq3RNHFEXdYQM1TSQ0qr1Hv95ZHEns0JWPNIp2JnS1ix41JOHRxzuLxzrzzw4/MmuA6aNP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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass der Auftrag eines Großkunden Basis-Qualität erfordert.<br>
+        <input type="number" id="answer1" placeholder="Antwort">
+        <button onclick="checkAnswer(1, 0.53, 0.0001)">Überprüfen</button>
+        <span id="feedback1"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Auftrag in Basis-Qualität von einem Kleinkunden stammt.<br>
+        <input type="number" id="answer2" placeholder="Antwort">
+        <button onclick="checkAnswer(2, 0.6096, 0.0001)">Überprüfen</button>
+        <span id="feedback2"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Bestellung von einem Kleinkunden stammt und Basis-Qualität erfordert.<br>
+        <input type="number" id="answer3" placeholder="Antwort">
+        <button onclick="checkAnswer(3, 0.1738, 0.0001)">Überprüfen</button>
+        <span id="feedback3"></span>
+        </li>
+<li>\( P(B) \).<br>
+        <input type="number" id="answer4" placeholder="Antwort">
+        <button onclick="checkAnswer(4, 0.7149, 0.0001)">Überprüfen</button>
+        <span id="feedback4"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer5" placeholder="Antwort">
+        <button onclick="checkAnswer(5, 0.3838, 0.0001)">Überprüfen</button>
+        <span id="feedback5"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Bestellung von einem Großkunden stammt und Premium-Qualität erfordert oder von einem Kleinkunden stammt und Basis-Qualität erfordert.<br>
+        <input type="number" id="answer6" placeholder="Antwort">
+        <button onclick="checkAnswer(6, 0.2725, 0.0001)">Überprüfen</button>
+        <span id="feedback6"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Art eines Kunden hat eine Auswirkung auf die Qualität der bestellen Halbleiter. <br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>02 </h2>
+<div class="einleitung">Eine Zugbegleiterin kontrolliert die Fahrscheine und das Einhalten einer pandemiebedingten Maskenpflicht in einem ICE von Hamburg nach München. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Passagier hat einen gültigen Fahrschein.</p> <p>B: Ein Passagier trägt eine Maske.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEXUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/mYBAduQOwEBADsBAbZnAbX+/tuROwA6j9r+/mcBAQA6OrX+/wBmtf+2ZzqP2pA7AY/a/gE6OgEBZgEBZQBltf7+/5C2kAE6jwEBOo+1kDoBAZE7AQEAZf7bkP/bkWW1/jsBAGYBZpGRtmcBZrb+/joAOjoBOjsBOjuQ2v/btrbb/wAAZZCQtgE6kImJibCR1vQAAABddFJOU////8//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7zZmqjAAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA1JSURBVHhe7Z1rY9TGFYa37TYQuTJgr7eEmlDoOiXbArZx4ybGhJaGhNal93v+/+/oucxIo9FoJK3Hu0P8Ph92dfMY6dkzM1rOsSYgS773/R9MJlOQHz+cfHADarIEarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarIFarJlsBpTXwgS8YG5rt0MV2PeU3IFbV5BD3BzMvnQLKbjJtQkAGrSADVpgJoYUNML1KQBatIANTGgpheoSQPUpGGjaootc18++ZHZ0gHUpGG4mnLbmJncMls6gJpOytt3zJKys2sWQgxTU243dcx298xSAKhpMpfP849l8e5Hsmlnok7m934i70Ei5zLf5yal95rf/1g2zSbqZP7gp7IeBGqa8PUvb7Ob4qEaoTV15EdRg5gauv7Ui5GbYkuN0NpdcURR1B02UNNEQqO8/ehn08WBxA5t+USjaLpDW7voUUMSHv18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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(A\cup\overline{A}) \).<br>
+        <input type="number" id="answer7" placeholder="Antwort">
+        <button onclick="checkAnswer(7, 1, 0.0001)">Überprüfen</button>
+        <span id="feedback7"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Passagier, der keine Maske trägt, auch keinen gültigen Fahrschein hat.<br>
+        <input type="number" id="answer8" placeholder="Antwort">
+        <button onclick="checkAnswer(8, 0.2139, 0.0001)">Überprüfen</button>
+        <span id="feedback8"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Passagier keine Maske trägt.<br>
+        <input type="number" id="answer9" placeholder="Antwort">
+        <button onclick="checkAnswer(9, 0.5048, 0.0001)">Überprüfen</button>
+        <span id="feedback9"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Passagier mit gültigen Fahrschein keine Maske trägt<br>
+        <input type="number" id="answer10" placeholder="Antwort">
+        <button onclick="checkAnswer(10, 0.62, 0.0001)">Überprüfen</button>
+        <span id="feedback10"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Passagier keinen gültigen Fahrschein hat und keine Maske trägt.<br>
+        <input type="number" id="answer11" placeholder="Antwort">
+        <button onclick="checkAnswer(11, 0.108, 0.0001)">Überprüfen</button>
+        <span id="feedback11"></span>
+        </li>
+<li>\( P(A\cup B) \).<br>
+        <input type="number" id="answer12" placeholder="Antwort">
+        <button onclick="checkAnswer(12, 0.892, 0.0001)">Überprüfen</button>
+        <span id="feedback12"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>03 </h2>
+<div class="einleitung">Ein Eisstand bietet Getränke an: Schokolade und Kaffee, jeweils entweder heiß oder kalt zubereitet. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde bestellt eine Schokolade.</p> <p>B: Ein Kunde bestellt ein heißes Getränk.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEUUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/tuQOwEBAGcBAQA6j9r+/rZnAbX+/mW1/gA6Ov/btrbb//+2ZzqP2pA7AY/a/gFmtf7+/wBmtQBltZC2kDsBAAE6jzsBAZE7AQEAZbX+///bkduROwAAZQFltQEBZWYBZmYBAZGRtjoAOjsBOjuQ2gE6OgEBOo+1kDoBAf7bkAEBZpCQtjoBOomJifXz/QQAAABcdFJOU////8/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////vdz2mBwAAAAlwSFlzAAAOwwAADsMBx2+oZAAADUZJREFUeF7tnQt727YVhrXNq1M6cjJH1txMqWtX7lJtuazOutnpnDZzVmeX7NZt3fr//8fODbyAJEjaEIU03/s8sQBKhg2+OgCo4JgTkCQ/+OGPJpMtkB4/nry3DTVJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJAjXJ0luN5ReCSLxn57Wd/mrsMSZraHMNI8CtyeR9K8bjFtREAGriADVxgJoQUNMJ1MQBauIANSGgphOoiQPUxGGjarIduy6f3LYjLUBNHPqrme6amckdO9IC1LQyvfsTKyl796zQRD81092qjtm9fSs1ADVV5vJ+/qkUDz6QQ3sTdTK//zN5bCTQl/mCm5TRa/7gQzk0m6iT+eFHUm8Eaqrw+Z/eZTfZkRqhmjryo6hCSA2dfxrFyE22o0aodiCOKIrawwZqqkhoTO8ef7y1PJHYoSOfaBRt7dHRNjrUkITjn28tH+rM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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Kunde eine Eisschokolade bestellt.<br>
+        <input type="number" id="answer13" placeholder="Antwort">
+        <button onclick="checkAnswer(13, 0.0432, 0.0001)">Überprüfen</button>
+        <span id="feedback13"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein bestelltes heißes Getränk ein Kaffee ist.<br>
+        <input type="number" id="answer14" placeholder="Antwort">
+        <button onclick="checkAnswer(14, 0.8808, 0.0001)">Überprüfen</button>
+        <span id="feedback14"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde eine Schokolade oder ein heißes Getränk bestellt.<br>
+        <input type="number" id="answer15" placeholder="Antwort">
+        <button onclick="checkAnswer(15, 0.4358, 0.0001)">Überprüfen</button>
+        <span id="feedback15"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine bestellte Schokolade heiß erwünscht ist.<br>
+        <input type="number" id="answer16" placeholder="Antwort">
+        <button onclick="checkAnswer(16, 0.52, 0.0001)">Überprüfen</button>
+        <span id="feedback16"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde weder eine Schokolade noch einen Kaffee bestellt.<br>
+        <input type="number" id="answer17" placeholder="Antwort">
+        <button onclick="checkAnswer(17, 0, 0.0001)">Überprüfen</button>
+        <span id="feedback17"></span>
+        </li>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer18" placeholder="Antwort">
+        <button onclick="checkAnswer(18, 0.6074, 0.0001)">Überprüfen</button>
+        <span id="feedback18"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Wahl eines bestellten Getränks beeinflusst nicht die gewünschte Temperatur.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>04 </h2>
+<div class="einleitung">Ein angeblich verzauberter Würfel wird geworfen. Bevor man wirft, kann man einen Zauberspruch aufsagen. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Es wird eine Sechs geworfen.</p> <p>B: Es wird ein Zauberspruch aufgesagt.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEIUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/jsBANuQOwEBALZnATqP2v7+/9uRO//btrbb/wA6OpA7Af+2Z4/a/pE7AWW1/gEBOpC2kJC1kAE6jzsBAdr+/v/bkWYBAf7bkLX+/gEAZbX+/wA6jwBmtQBltQEBZQE6kGcBAWYAZjoAOjsBOjuQ2gEBZgFltZGRtjoBOomJiSy71KsAAABYdFJOU////8///////////////////////////////////////////////////////////////////////////////////////////////////////////////+9beWOQAAAACXBIWXMAAA7DAAAOwwHHb6hkAAANEklEQVR4Xu2da3/bthWHtU1rUrmKXVlmPc+JF1duHa1J7DhbknZp5zjr2rTz7uv3/yY7FwAEQRIkZVhG6v/zwgIh+fgHPsKFMo44Alnyi1/+ajQag/z49eiDO1CTJVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLVCTLb3VmPxCkIgPzHltp78a85iSa4h5DSPA3dHoQ1NMx12oSQDUpAFq0gA1MaCmE6hJA9SkAWpiQE0nUJMGqEnDjaqZbJjr8tFHpqYFqElDfzXTe8bMaNPUtAA1rUy3PjYlZbZtCk30UzO9V9Ux394xpQagpkoh7+dPpLj7G6majdRJsfdbeWwk0pZin0PK6FXcfyBV85E6KQ5+J8eNQE0VPv/TLXYzeahG6Egdhb2oQkwNnX8axcjNZEON0NGuOKJe1N5toKaKdI3p1uGn48WR9B2q+Ux70XhGtW10qCEJh5+PF8c68xcHn5k1wPzwkTw2ATVVdNSa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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer19" placeholder="Antwort">
+        <button onclick="checkAnswer(19, 0.192, 0.0001)">Überprüfen</button>
+        <span id="feedback19"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Sechs geworfen oder ein Zauberspruch aufgesagt wird.<br>
+        <input type="number" id="answer20" placeholder="Antwort">
+        <button onclick="checkAnswer(20, 0.9664, 0.0001)">Überprüfen</button>
+        <span id="feedback20"></span>
+        </li>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer21" placeholder="Antwort">
+        <button onclick="checkAnswer(21, 0.305, 0.0001)">Überprüfen</button>
+        <span id="feedback21"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer22" placeholder="Antwort">
+        <button onclick="checkAnswer(22, 0.22, 0.0001)">Überprüfen</button>
+        <span id="feedback22"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass keine Sechs geworfen und ein Zauberspruch aufgesagt wird.<br>
+        <input type="number" id="answer23" placeholder="Antwort">
+        <button onclick="checkAnswer(23, 0.2464, 0.0001)">Überprüfen</button>
+        <span id="feedback23"></span>
+        </li>
+<li>\( P(A\cup B) - P(A\cap B) \).<br>
+        <input type="number" id="answer24" placeholder="Antwort">
+        <button onclick="checkAnswer(24, 0.4048, 0.0001)">Überprüfen</button>
+        <span id="feedback24"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>05 </h2>
+<div class="einleitung">Für das Controlling bei der Deutschen Bundesbank bewerben sich Mathematiker und Wirtschaftswissenschaftler mit Bachelor- oder Masterabschluss. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Bewerber ist Mathematiker.</p> <p>B: Ein Bewerber hat einen Bachelor.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/jsBANuQOwEBAAA6j9r+/mcBAbZnATqP2v7+/wA6OpA7Af+2Z4/a/gEBZrX+/gFmtduROwBmtWW1/gEBOpC2kJC1kAE6jzsBAZE7Af/bkWYBAf7bkAEAZbX+/wBltQE6kGYAZmcBZrb+/joAOjoBOjsBOjuQ2v/btrbb/wE6OgEBZY+1kDoBAQFltZCQtomJiaElNs0AAABedFJOU////8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////++OmlQzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAMQklEQVR4Xu2d+UMbxxXH1VaNnaWLCQjVdUVcXJFi2tjYYMfEDo7bYHL1vo/8//9G3zF7anZ2Fo3Ec/h+fkB7sGOvPvtm3op52hEwyQ9++KPRaAzs8ePRe7egxiRQYxaoMQvUmAVqzAI1ZoEas0CNWaDGLFBjFqgxC9SYBWrMAjVmgRqzQI1ZoMYsUGMWqDEL1JgFaswCNWaBGrNAjVmgxixQYxaoMQvUmAVqzAI1ZoEas0CNWaDGLFBjlmg1rr4QJOI99752E6/GvaZkBW2uoAe4PRq97xbTcRtqEgA1aYCaNEBNCKjpBWrSADVpgJoQUNML1KQBatJwrWqyDXdfPvqJ29IB1KQhXk2+6cyM7rgtHUBNJ/nWB25J2d5xCz7i1OSbTR2TnV235AFqmkzlev6pLN79mWzaHqmT6b2fy6uXwLlMZ9yk9F7TvQ9l02SkTqb3fyHrXqCmCb//+Ra7yfbVCK2po3YUNQipofefejFyk22oEVq7K44oirrDBmqaSGjkWw9+OZ4fSOzQlo80isbbtLWLHjUk4cGvxvND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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer25" placeholder="Antwort">
+        <button onclick="checkAnswer(25, 0.966, 0.0001)">Überprüfen</button>
+        <span id="feedback25"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer26" placeholder="Antwort">
+        <button onclick="checkAnswer(26, 0.504, 0.0001)">Überprüfen</button>
+        <span id="feedback26"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Bewerber einen Bachelor in Mathematik oder einen Master in Wirtschaftswissenschaften hat.<br>
+        <input type="number" id="answer27" placeholder="Antwort">
+        <button onclick="checkAnswer(27, 0.67, 0.0001)">Überprüfen</button>
+        <span id="feedback27"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Mathematiker einen Master hat.<br>
+        <input type="number" id="answer28" placeholder="Antwort">
+        <button onclick="checkAnswer(28, 0.37, 0.0001)">Überprüfen</button>
+        <span id="feedback28"></span>
+        </li>
+<li>\( P_B(A) \).<br>
+        <input type="number" id="answer29" placeholder="Antwort">
+        <button onclick="checkAnswer(29, 0.9368, 0.0001)">Überprüfen</button>
+        <span id="feedback29"></span>
+        </li>
+<li>\( P(B) \).<br>
+        <input type="number" id="answer30" placeholder="Antwort">
+        <button onclick="checkAnswer(30, 0.538, 0.0001)">Überprüfen</button>
+        <span id="feedback30"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>06 </h2>
+<div class="einleitung">Praktische Führerscheinprüfung: In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Der Prüfling besteht.</p> <p>B: Der Prüfer ist ausgeschlafen.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD/UExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/jsBANuQOwEBALZnATqP2v7+/2cBAQA6j9r+/v/btrbb/wA6Ov+2Z5A7AY/a/gFmtduROwBmtWW1/gEBOpC2kAEBZrX+/wE6jzsBAf/bkZE7AbX+/gEAZQBltZCQtjoAOjsBOjuQ2mYBAQEBZQFltToBOomJiV918wIAAABVdFJOU////8///////////////////////////////////////////////////////////////////////////////////////////////////////////+/gG42LAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAMjElEQVR4Xu2dC3sTxxWG1VYNRFSE2EKl1OBC5YSoBWwwaWMSSJPUQK+0zf//LT233Zmd3Z2dlcbyEH/v88SaGeQho1dzWXGOdgKK5Gc//8VkMgXl8cvJR9egpkigpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpligpliS1Vh+IcjER/a69pOuxh5zcgF9XsAKcH0y+diK+bgONRmAmjxATR6gJgbUDAI1eYCaPEBNDKgZBGryADV5uFQ1sxt2XT75lbX0ADV5SFczv2lmJp9YSw9Q08v81qdWUvb2rdBFmpr5zaaOxf5tK3UANU2W8n7+tRTv/Eaa9ibqZHn3t/LYSWQsywPuUlav5b370rSYqJPl4e+k3gnUNOHXf36L3cweqBGqqaNwFjWIqaHXn1YxcjO7oUaodkcc0SzqnzZQ00SmxvzWw99PV0cyd6jlM51F0z1q7WNADUl4+Pl09Uh3/uXhZ3YGWDz8Qh67gJomumrt0Typ1q+9/Wr+rCMr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pligpligpligpligpligpligpligpligpligpligpligpligplhUDSgSqCkWUnPNphAojGuTH6+BErn24/8By1Jv38goGs8AAAAASUVORK5CYII="</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass bei einem nicht ausgeschlafenen Prüfer ein Prüfling durchfällt.<br>
+        <input type="number" id="answer31" placeholder="Antwort">
+        <button onclick="checkAnswer(31, 0.8759, 0.0001)">Überprüfen</button>
+        <span id="feedback31"></span>
+        </li>
+<li>\( P(\overline{A}\cup \overline{B}) \).<br>
+        <input type="number" id="answer32" placeholder="Antwort">
+        <button onclick="checkAnswer(32, 0.3501, 0.0001)">Überprüfen</button>
+        <span id="feedback32"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer33" placeholder="Antwort">
+        <button onclick="checkAnswer(33, 0.03, 0.0001)">Überprüfen</button>
+        <span id="feedback33"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Prüfer ausgeschlafen ist oder nicht.<br>
+        <input type="number" id="answer34" placeholder="Antwort">
+        <button onclick="checkAnswer(34, 1, 0.0001)">Überprüfen</button>
+        <span id="feedback34"></span>
+        </li>
+<li>\( P(A\cap\overline{B}) \).<br>
+        <input type="number" id="answer35" placeholder="Antwort">
+        <button onclick="checkAnswer(35, 0.0201, 0.0001)">Überprüfen</button>
+        <span id="feedback35"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Prüfer nicht ausgeschlafen ist.<br>
+        <input type="number" id="answer36" placeholder="Antwort">
+        <button onclick="checkAnswer(36, 0.162, 0.0001)">Überprüfen</button>
+        <span id="feedback36"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>07 </h2>
+<div class="einleitung">In einem Sportgeschäft werden Hanteln aus Metall und Kunststoff angeboten. Zur Schonung der Handgelenke sind einige Hanteln zudem mit einem drehbaren Griff ausgestattet. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Eine Hantel ist aus Metall.</p> <p>B: Eine Hantel hat einen drehbaren Griff.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEFUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/mYBAQBmtduQOwEBAGcBAf7+/wA6j9r+/gBltQA6Ov+2ZzqP2pA7AY/a/rZnAbX+/gFltZC2kAE6jzsBAQEBOtuRO5E7AQEAZWW1/jsBAP/bkbX+/wEBZZCQtjoAOjsBOjuQ2v/btrbb/wFmtQE6kAAAZQEBZjoBOomJiY0LfqcAAABXdFJOU////8//////////////////////////////////////////////////////////////////////////////////////////////////////////////77UQ7RIAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAx9SURBVHhe7Z0Le9u2FYa1TWtSuXRcR9GyTKmXVO4yrelsp+vcVFmXJVuy+7pL//9P2TkHV4IgCMkwhcTf+zy1QFpGS706IKjiEyegSn7wwx9NJlNQHz+efHALaqoEaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqoFaqolW43OF4JCfKBf137y1ejHklxDn9cwAtyeTD7UzXLchpoCQE0ZoKYMUJMCagaBmjJATRmgJgXUDAI1ZYCaMuxVzexAX5dPPtJ7eoCaMuSraQ61mckdvacHqOmlOfpYtxTHd3UjRp6a5rCtY373nm5FgJo2C3k//0Sa938qu44nysniwc/kMUriWBZL7lJGr8XDT2TXfKKcLE5+LttRoKYNv/7NEbuZPVJGaEs5CquoRUoNvf40ipGb2YEyQlv3xRFVUX/ZQE0bKY3m6PGn09Wp1A7t+UxV0fSY9vYxoIYkPP7FdPVEnfkXJ5/pOcD88S/lMQbUtFGj1jHV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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P_B(A) \).<br>
+        <input type="number" id="answer37" placeholder="Antwort">
+        <button onclick="checkAnswer(37, 0.9434, 0.0001)">Überprüfen</button>
+        <span id="feedback37"></span>
+        </li>
+<li>\( P(\overline{A}\cap B) + P(A\cap\overline{B}) \).<br>
+        <input type="number" id="answer38" placeholder="Antwort">
+        <button onclick="checkAnswer(38, 0.1247, 0.0001)">Überprüfen</button>
+        <span id="feedback38"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer39" placeholder="Antwort">
+        <button onclick="checkAnswer(39, 0.9563, 0.0001)">Überprüfen</button>
+        <span id="feedback39"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Hantel keinen drehbaren Griff hat.<br>
+        <input type="number" id="answer40" placeholder="Antwort">
+        <button onclick="checkAnswer(40, 0.2273, 0.0001)">Überprüfen</button>
+        <span id="feedback40"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Metallhantel einen drehbaren Griff hat.<br>
+        <input type="number" id="answer41" placeholder="Antwort">
+        <button onclick="checkAnswer(41, 0.9, 0.0001)">Überprüfen</button>
+        <span id="feedback41"></span>
+        </li>
+<li>\( P(A\cap\overline{B}) \).<br>
+        <input type="number" id="answer42" placeholder="Antwort">
+        <button onclick="checkAnswer(42, 0.081, 0.0001)">Überprüfen</button>
+        <span id="feedback42"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Das Material einer Hantel beeinflusst die Art die Griffes.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>08 </h2>
+<div class="einleitung">Eine Fußballspielerin nimmt vor einigen Spielen Doping ein. Spiele können entweder gewonnen oder verloren werden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Sie gewinnt ein Spiel.</p> <p>B: Sie dopt in einem Spiel.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/gBmtduQOwEBALZnAduROwA6j9r+/mW1/gA6OmYBAbX+//+2ZzqP2pA7AY/a/v/btrbb/wEBZrX+/v7+/5E7AZC2kAE6jzsBAf/bkQFmtWcBAQEBZQAAZQBltQFltTsBAGYBZmcBZrb+/gEAZToAOjsBOjuQ2gE6OgEBOo+1kDoBAf7bkJCQtpGRtjoBOomJic+EZ2gAAABedFJOU////8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////++OmlQzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAANEElEQVR4Xu2da3/UxhWH1dYNZI0cYuwtpSYudEmpW8AmpNRAC6aBuKXpvek13/9r9FzmppE0ktZjeYj/zwvvSLse/6Rnz8xofc6qAkXyne9+r6o2QHl8v/rgCtQUCdQUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUC9QUy2g1pr4QZOIDc177Ga/GPObkHPo8hxHgalV9aJr5uAo1GYCaPEBNHqAmBdQMAjV5gJo8QE0KqBkEavIANXm4UDWLTXNdXl0ze3qAmjyMV1NvGTPVR2ZPD1DTS339Y9NStm+YRhfj1NRbTR07N3ZNqwOoabKU9/MPpHnzh7Jru1Iny1s/ksdOEsey3OMuZfRa3v5Edu1U6mS5/2PZ7gRqmvD5r6+zm8UdNUJb6iiOogYpNXT+aRQjN4tNNUJbN8URRVF/2EBNEwmN+vrdn2ys7kns0J5PNYo2tmlvHwNq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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass sie ein Spiel verliert oder nicht dopt.<br>
+        <input type="number" id="answer43" placeholder="Antwort">
+        <button onclick="checkAnswer(43, 0.5669, 0.0001)">Überprüfen</button>
+        <span id="feedback43"></span>
+        </li>
+<li>\( P(\overline{A}\cap \overline{B}) \).<br>
+        <input type="number" id="answer44" placeholder="Antwort">
+        <button onclick="checkAnswer(44, 0.0725, 0.0001)">Überprüfen</button>
+        <span id="feedback44"></span>
+        </li>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer45" placeholder="Antwort">
+        <button onclick="checkAnswer(45, 0.3494, 0.0001)">Überprüfen</button>
+        <span id="feedback45"></span>
+        </li>
+<li>\( P_A(B) \).<br>
+        <input type="number" id="answer46" placeholder="Antwort">
+        <button onclick="checkAnswer(46, 0.61, 0.0001)">Überprüfen</button>
+        <span id="feedback46"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass sie ein Spiel weder gewinnt noch verliert.<br>
+        <input type="number" id="answer47" placeholder="Antwort">
+        <button onclick="checkAnswer(47, 0, 0.0001)">Überprüfen</button>
+        <span id="feedback47"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass sie unter Dopingeinfluss ein Spiel verliert.<br>
+        <input type="number" id="answer48" placeholder="Antwort">
+        <button onclick="checkAnswer(48, 0.3343, 0.0001)">Überprüfen</button>
+        <span id="feedback48"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>09 </h2>
+<div class="einleitung">Ein Unternehmen stellt fest, ob seine Mitarbeiter im Home-Office oder in Präsenz arbeiten. Es gibt Voll- und Teilzeitkräfte. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Mitarbeiter arbeitet im Home-Office.</p> <p>B: Ein Mitarbeiter arbeitet in Vollzeit.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/jsBANuQOwEBADsBAWcBAQA6j9r+/rZnATqP2v7+/2W1/gA6OpA7Af+2Z4/a/gE6OrX+/gBmtduROwEBOv/btrbb/5C2kJC1kAE6j4+1kDoBAZE7Af/bkWYBAf7bkLX+/wEBZgBltQFmtQAAZQE6kAFltQEBZWYBZjoAOjsBOjuQ2mcBZrb+/pCQtjoBOomJiQaaZioAAABedFJOU////8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////++OmlQzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAANV0lEQVR4Xu2dC3vbthWGtc1rUrm0E0dWs8ypF1duXK1NbKd2VrvLpeu6xW3T3e/9/39j5waQBEmQsmEJab73eWoRlIQ80KsDgOo50ghkyU9++rPRaA3kx89H79yAmiyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmwZrMbqC0Ei3rHXtZvhauw2JdfQ5zXMADdHo3ftMB03oSYBUJMGqEkD1MSAml6gJg1QkwaoiQE1vUBNGqAmDStVM1636/LRe3amA6hJw3A1xYaZGW3amQ6gppPi1m07Urbu2EEbw9QUG3UdkzvbdtQC1NSZyvv5fTm8+ws5tTVSJ9N7v5TbViJjme5wlzJ7Te9/IKcmI3Uy3f2VtFuBmjr8+he32M34gRqhljoKo6hGTA29/jSLkZvxuhqh1l1xRFHUHTZQU0dCo7i19+HabF9ih858pFG0tkVnu+hR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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Mitarbeiter vollzeit im Home-Office oder teilzeit in Präsenz arbeitet.<br>
+        <input type="number" id="answer49" placeholder="Antwort">
+        <button onclick="checkAnswer(49, 0.8678, 0.0001)">Überprüfen</button>
+        <span id="feedback49"></span>
+        </li>
+<li>\( P(A) \).<br>
+        <input type="number" id="answer50" placeholder="Antwort">
+        <button onclick="checkAnswer(50, 0.39, 0.0001)">Überprüfen</button>
+        <span id="feedback50"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Mitarbeiter vollzeit und in Präsenz arbeitet.<br>
+        <input type="number" id="answer51" placeholder="Antwort">
+        <button onclick="checkAnswer(51, 0.0854, 0.0001)">Überprüfen</button>
+        <span id="feedback51"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer52" placeholder="Antwort">
+        <button onclick="checkAnswer(52, 0.12, 0.0001)">Überprüfen</button>
+        <span id="feedback52"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Vollzeitkraft in Präsenz arbeitet.<br>
+        <input type="number" id="answer53" placeholder="Antwort">
+        <button onclick="checkAnswer(53, 0.1993, 0.0001)">Überprüfen</button>
+        <span id="feedback53"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer54" placeholder="Antwort">
+        <button onclick="checkAnswer(54, 0.9146, 0.0001)">Überprüfen</button>
+        <span id="feedback54"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>10 </h2>
+<div class="einleitung">Die Geschäftsleitung des Restaurants interessiert sich dafür, wie kinderfreundlich die konkurrierenden Restaurants der Stadt sind. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Restaurant verfügt über einen Biergarten.</p> <p>B: Ein Restaurant verfügt über eine Spielecke.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEUUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/mYBAduQOwEBAP/bkTsBAbZnAWW1/jqP2v7+///btrbb/7X+/wBmtf+2Z5A7AY/a/pE7AQE6OtuROwEBOgE6j4+1kDoBAdr+/mcBAf7bkAEAZbX+/gEBZgFmtQA6jwBltTsBAAFltZCQtjoAOjoBOjsBOjuQ2gA6OgEBZZC2kGYAZmcBZrb+/omJib1VFnoAAABcdFJOU////8/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////vdz2mBwAAAAlwSFlzAAAOwwAADsMBx2+oZAAADE1JREFUeF7tnQ1727YVRrVNq1O6TF1HUbNOqZdU7lJtTRxrydY4cd1u9Zq0yz67buv//x+7XyRICgRBB5aR5j3PE4kgTdjg0QVABVeagCz5yU9/NplMQX78fPLWDtRkCdRkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkC9RkS7Qayy8EiXjLrms/8WrsOSWXUOcl9ADXJpO3bTMd16AmAVCTBqhJA9SEgJpBoCYNUJMGqAkBNYNATRqgJg1XqqbYtfvyyTu2pweoSUO8mvK6mZm8a3t6gJpeyr33bEvZv2EbPuLUlNfbOmY3btqWB6hpM5fX8/uyeesXsmt/ok7mH/xSnr0E2jJfcJXSe81vfyi7ZhN1Mj/4lZS9QE0bvv7lHrsp7qgRKqmjbhS1CKmh60+9GLkpdtUIlW6JI4qi/rCBmjYSGuXe3Y+my0OJHdrzsUbRdJ/29jGghiTc/fV0eU9H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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Restaurant über keinen Biergarten aber über eine Spielecke verfügt.<br>
+        <input type="number" id="answer55" placeholder="Antwort">
+        <button onclick="checkAnswer(55, 0.372, 0.0001)">Überprüfen</button>
+        <span id="feedback55"></span>
+        </li>
+<li>\( P(\overline{A}\cup \overline{B}) \).<br>
+        <input type="number" id="answer56" placeholder="Antwort">
+        <button onclick="checkAnswer(56, 0.904, 0.0001)">Überprüfen</button>
+        <span id="feedback56"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Restaurant über keine Spielecke verfügt.<br>
+        <input type="number" id="answer57" placeholder="Antwort">
+        <button onclick="checkAnswer(57, 0.532, 0.0001)">Überprüfen</button>
+        <span id="feedback57"></span>
+        </li>
+<li>\( P_A(B) \).<br>
+        <input type="number" id="answer58" placeholder="Antwort">
+        <button onclick="checkAnswer(58, 0.16, 0.0001)">Überprüfen</button>
+        <span id="feedback58"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Restaurant mit Spielecke über einen Biergarten verfügt.<br>
+        <input type="number" id="answer59" placeholder="Antwort">
+        <button onclick="checkAnswer(59, 0.2051, 0.0001)">Überprüfen</button>
+        <span id="feedback59"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Restaurant über einen Biergarten und einen Spielplatz oder über keins von beiden verfügt. <br>
+        <input type="number" id="answer60" placeholder="Antwort">
+        <button onclick="checkAnswer(60, 0.124, 0.0001)">Überprüfen</button>
+        <span id="feedback60"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Ob ein Restaurant einen Biergarten hat oder nicht, hat einen Einfluss darauf, ob es auch über eine Spielecke verfügt.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>11 </h2>
+<div class="einleitung">In einem Gartencenter wird konventionelle und nachhaltige Holzkohle angeboten. Beide Kohlearten sind als teure Originalprodukte oder günstige Nachahmerprodukte erhältlich. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde kauft nachhaltige Holzkohle.</p> <p>B: Ein Kunde kauft ein Originalprodukt.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD8UExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/tuQOwEBALZnAbX+/mcBAQA6j9r+/v/bkTsBAY/a/gA6Ov+2ZzqP2pA7AQFmtf7+/9uROwBmtQEBZQBltZC2kDsBAAE6j5E7AQEBZgEBOgEAZbX+/2W1/pCQtmYBAToAOjoBOjsBOjuQ2v/btrbb/4mJidM9Z/0AAABUdFJOU////8//////////////////////////////////////////////////////////////////////////////////////////////////////////79y59acAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAzMSURBVHhe7Z39YxO3Gce9LSvUmYEF47HOlMFMC94gIQW6lALtKNvasdf+///LnjdJdzqd7i5RHNF8Pz9g6ewo0X0s6TmjxzcDVfKzn/9iNtsD9fHL2UdXoKZKoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaoKZaRqux/EJQiI/svPYzXo09luQc2jyHGeDqbPaxFctxFWoKADVlgJoyQE0OqBkEasoANWWAmhxQMwjUlAFqynChaub7dl0++5Ud6QFqyjBezeKamZldtyM9QE0vixu/tpJycNMKKcapWVxr61jevGWlBFDTZiXv599I8fZv5dDBTJ2sPvmdPCbJ9GW15iZl9lrd+VQOLWfqZHX391JPAjVt+PwvbrCb+T01QjV1FI+iFjk1dP5pFiM38301QrXb4ohGUf+wgZo2MjQWN+7/YW/zQMYOHflMR9HeAR3tY0ANSbj/+d7moa78q7ufWQywvP9IHlNATRudtQ5onLj56+CmGz/bzIw2pGZvSePEzV/Lm3+08bO9+yc5kgJq2oiQ+T0aH1udxnjwWHFloyfFkJr5Po2arS41PHisuFo/5ockUNNG1GxntKrY9MVaNg9klbGHJENqtmuKzZakh2Atm4cSq9FD72IDNW00QqMJTEaOBQNWPq0aidBoApORwwMolKEmIqfGrSdeB09iusqcZdQwXgeHAFs5CjURY9TYhLaVUTTjGe7MamxC28oo0g8DoCZilBpZ+y040yF0ljBAkLXfLm50CCEMiBilRkrOhsxoZwqefWm11ksamdEQPEeMUiPTF1/gaIVGz1kuOQUJy/gCRys0enDJGTGqTXeh6TntBzUB90GNBx/UxIxr0y40PWFAJRjVF3eh6QkDKgHU9IL/FBjg4tRMYpyaSUBNGaCmDFCTA2oGgZoyQE0ZoCYH1AwCNWW4lGpAUTBqCoAJrQxQUwaoyQE1g0BNGaCmDFCTA2oGgZoyQE0ZoCYH1AwCNWWAml6iPRbZLRZQk6WImjjxMtSzG5O6bcrO5rBr9oCrotqXFjeoIFsEQ6lJui9Ru7LbWfdu7m0eamnJx5K70bpqnhzSax/71x7Rj95+SoXFMR3/4pkcfP7iky/5FYtjetaONdiZGhLQTLzk+vwe17Pb+Tptrujsz+95m1tu4YCrocTDcCv5tryh02XeBpJ9sXb9vtr19b35vlbn+39+IAkDvOl5mdxe21FzcvjVrfnLu19a9Wj9+NbimM/+0dev9l4fvnnFBw9nqubom6dU+ZaPNdmlGrJAb2HNtbC6nMDMJti4Td1s7vMAQjX5hJai7YNJNe7Hbe+ZbkCXzbX0p979C6uhY4/o2NvUsInVzF9+x6998ZW+dnHMhZNDG0Xzd9+RpJO/Pn39N1Gjx/7Og6rJTtU0Ei/lXx1Aua3jcZt67v2J1/POG9FDyZ6Ypsa3y6kbTooKWly7Lmk28/3b39NvOEzlC8RqVIoKkipLoYM6MFQNUZEaOWG6CVbqeiZzCRdxm/ZaP9BWtJTI/vNGieH5SZGR2iLVF9+uqrEUAUmy2d75VDOgVof3H23evnEns0msxgbIkVfDphbHMo/JbKeFhprFsekK7FRNI/GyERb4WShFjxo/EjYPLAoIJVrCGgu6rEEtcmosNcCpoSprUTU0mfVEAb1q7uhIoGVG5jdSM39HS74LDxpqXh/+ELe8MzWigt7UNtWwKjqZXD6TmkSEpnKszc2DeNBMVMMjx9SMj9AiNVTnP24mo4bldEbN8xcXG6EJDTX2lj6NGne+LTijBkJJn9AXLm7EK01eTWdCkwQBVSPB2ZP1mDAgmtAUCgbUiARs/OjVLI47K80FqHETmtTFyhQ1+lq/yIdq9ASda613zUwLA1w2521acFjK/GUqA2ogDFA0GGDcYuPUJGIAYvdqGmGAvlntHZsmalMXdS+zX42Mx6SZpBrXrgXP8l0oJoiQUTNFjVtcLHhW/PRGC0tr1KTNXIAak8L/ruTbfqYEzzJl6SzF40JL4ZiWSJK2LJNch2RfrA1aavhqU77WYXHNVh5VQ1UKnsdNaHtP6JJzcczX/3Lx+Q92yrOYTGonh/LBgFdz5JecFrtXo+9vDQvkPT7lkpMXEZpd6LTrYJOPYuisNksSD/BL9JCPCBzpvoR2ZZ1ZctXlpelas3jPjY0KA3g5oZ9nAbzskJaZu/LnCdKe4OZm376Sz2kItxI5dqUmECdeTvugJpA1mmOgL/YVKJPoqvG0Q4Ep7F5NnHgZxlOK3jY3/8z9WI58Xzb/yuRs9tGvZvPv/pT2AS5ATZn/FDjIjbUs+b4sbemfRL+ao/+kJsBRXICaSZxDm6P6Mo3MhHZ6oKYEUFMGqCkD1OSAmkGgpgxQUwaoyTFezWXmY9JTmkE3UHNBYEIrANaaMkBNGaAmB9QMAjVlgJoyQE0OqBkEasoANTlk76uQ2eckQE2Oc1Dj9rp0drt0gJocpdUgYXAcu1JzXgmDvioD0fY/yU40PtjYoh5I96UvYVBumyr7n2QfWvrGAl01UcJgoyo70bh4xMdk81koNdmZGhJAZ4/6XjRhMFRDmiAJoWb/+z+uU6GzhTPZF2uomzDI34q+XfNXoy/vfL+3XI/Kr9E9myFh0FVZCG/i5D9O0jZk42YotdilGrJAb+vzSRhsVP0e6uhZR6ov7qW206mVMOiqUnrJu2s7xGqihEFf5U21NpQ0Ne05HQslecKzUzXFEwajqha86iiJ0JHqi29IFYRMAalOVhNlCliVFRy55LP5O96dfnL1h1u6G51L+oxjp2rk1JVMGOxU6QQ3Nu62kwgdqb74hlRBM2FQqm7f4OJ9crGJ1UT5Nb76bP7uazc2Tg6/ePb8Bec9n1x1pRY7VSOZSXoeyyQMNqo+TdACc3lFSCdskFPTzUqTG9tLjXmSvitXnxpL2whV+doA24/+/IVb+0Opyc7UyJ9Eb2CbfVjV2RMGW1VLE3SpMrKM8S+NW5+mhtolOTZqNm/HRWgZNZwY+JyzOquK0ISGGguhTqNG2uhUJTbT2EJ+TZREaOTUpCe0vaWOm8X75ErTr6YzoWkWtK46HLC95vw0C9NiNztX4yY0qYuVKWr0taa3U6UzzCGwLC70a+JnjVRf/EvVRRQG2GLTEwMQo8MAW2tIkkZkfCyU5MWe3aspmTAYVe1Chn8Bj50JavIJg3RhQ6Om30xHTZQw6Ks0QniO47FToxqTwv+eOWEwVBtpgita0uQyNCQRtkj2xRqitaWdMCj35Vqt+Yn019MIsZooYbBVfUMXMjSXaZWnMU1/rmFC0/dyoYTBUJUVX0p0mmcz+XUarEVm0moa7co64xMGuSAl+cSGGJXL2U4YbFRJgeUOap4g+wilFrtSE0DC4Eh2rwYJgyO5ADVIGBzHBaiZxDm0Oaov08hMaKcHakoANWWAmjJATQ6oGQRqygA1ZYCaHOPVgKJATbVATbVcvrXmHNpEGFCGUX2ZBtSUAWrKADU5oGYQqCkD1JQBanJAzSBQUwaoKQPU5ICaQaCmTZR96ff4NbM6U2T60rzlIxGqslEweTsBYbwad8PHEXy4akIap6BJAmyE9zx3b/kY6O/LahZu+chVn9Ape56nbKzt42htt30YwQerRneZNzamc8HvbE/fuUbp7YsmCkQZnFy1UvK+j8JYNe0bPg7wwaqJ0gA0edebOpUaa9KlboRMjvm+7FNP3vdRmLDWXAI1PlnJqeHTqmlPUuhfbHr7Yk2GDE5dZqi6Wt//fPMwmZcuQE0Tp8ZGh0uQMTWSaNPDoBrJEAhquLp5mIsCoKZFpIbqgqrZdG/5GDiNmmIR2iWc0BTb6a45T30MqulOaEsN084cBhCXLwxQNBjIxQBEb196wwArJW8uKEBNkziNU5DpbcBMvxpqkmNkFzyHhE6oSdHfZjurU+6vKF9H1HPLx0B/X7Z0yam3fIwTOvkYJrQ2mTZbWZ3yZRuNBM7Et2w4Mn2RJjkIiBI6NY/z7GFA817Qg3zAajwTszrH9GViQueEUTOen4CaqVmdI/oyNaETatJMzeoc0ZepCZ1QU4ZRfZkG1JQBasoANTmgZhCoKQPUlAFqckDNIFBThkupBhSloJrz4DxGjT3+BLhQNSAH1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FQL1FSLqgFVAjXVQmqu2BAClXFl9uMVUCNXfvw/6id+hwTKlCsAAAAASUVORK5CYII="</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Kunde ein konventionelles Nachahmerprodukt kauft.<br>
+        <input type="number" id="answer61" placeholder="Antwort">
+        <button onclick="checkAnswer(61, 0.032, 0.0001)">Überprüfen</button>
+        <span id="feedback61"></span>
+        </li>
+<li>\( P_{\overline{B}}(\overline{A}) \).<br>
+        <input type="number" id="answer62" placeholder="Antwort">
+        <button onclick="checkAnswer(62, 0.4651, 0.0001)">Überprüfen</button>
+        <span id="feedback62"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass gekaufte nachhaltige Holzkohle ein Nachahmerprodukt ist.<br>
+        <input type="number" id="answer63" placeholder="Antwort">
+        <button onclick="checkAnswer(63, 0.04, 0.0001)">Überprüfen</button>
+        <span id="feedback63"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde ein Nachahmerprodukt kauft.<br>
+        <input type="number" id="answer64" placeholder="Antwort">
+        <button onclick="checkAnswer(64, 0.0688, 0.0001)">Überprüfen</button>
+        <span id="feedback64"></span>
+        </li>
+<li>\( P(A\cup B) - P(A\cap B) \).<br>
+        <input type="number" id="answer65" placeholder="Antwort">
+        <button onclick="checkAnswer(65, 0.0848, 0.0001)">Überprüfen</button>
+        <span id="feedback65"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde konventionelle Holzkohle oder ein Nachahmerprodukt kauft.<br>
+        <input type="number" id="answer66" placeholder="Antwort">
+        <button onclick="checkAnswer(66, 0.1168, 0.0001)">Überprüfen</button>
+        <span id="feedback66"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>12 </h2>
+<div class="einleitung">Ein Geschäft für Heimwerkerbedarf bietet Wandfarbe in den Farben weiß und beige an, jeweils entweder matt oder glänzend. Genau ein Produkt ist im Sonderangebot. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Weiße Farbe ist im Sonderangebot.</p> <p>B: Matte Farbe ist im Sonderangebot.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEOUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/rX+/9uQOwEBAGcBAQBmtf7+/9uRO7ZnAQAAZbX+/v/bkTsBAWW1/v/btrbb/2YBAf+2ZzqP2pA7AY/a/pE7AQE6j9r+/gE6OgEBOo+1kDoBATsBAP7bkAFltQEBZgA6jwBltQEBZWYAZpCQtpGRtjoAOjsBOjuQ2gFmtQEAZToBOomJiZn1WRcAAABadFJOU////8//////////////////////////////////////////////////////////////////////////////////////////////////////////////////71uUUpUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAzYSURBVHhe7Z1rn9PGFYfV1g3EGwHZ9bqEmhKoSajbDWw2W9i0LJfQtLSU9N7m+3+RnstIMxpJo5F3rB3C/3mxnrHs4Sc9nps5xypAlvzoxz8pihnIj58WH1yBmiyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyBmmyJVmPyC0EiPjDXtZ94NeYxJTtocwcjwNWi+NAU03EVahIANWmAmjRATQioGQRq0gA1aYCaEFAzCNSkAWrScKlq5ntmX158ZJ7pAWrSEK+mvGbMFNfNMz1ATS/ljY9NSdk/MIUu4tSU15o6FgeHptQB1DRZyuf5Z1K8+Yk8tV+ok+Wtn8tjJ4FzWa64SRm9lrd/IU8tCnWyvPOp1DuBmiZ8/csb7GZ+V41QTR35vahBSA1dfxrFyM18T41Q7aY4ol7U322gpol0jfLGvV/O1vel79Azn2kvmu3Ts30MqCEJ9z6frR/ozL+885lZAyzu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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer67" placeholder="Antwort">
+        <button onclick="checkAnswer(67, 0.9908, 0.0001)">Überprüfen</button>
+        <span id="feedback67"></span>
+        </li>
+<li>\( P(A\cup B) \).<br>
+        <input type="number" id="answer68" placeholder="Antwort">
+        <button onclick="checkAnswer(68, 0.7129, 0.0001)">Überprüfen</button>
+        <span id="feedback68"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass weiße Farbe im Sonderangebot ist und dass sie es nicht ist.<br>
+        <input type="number" id="answer69" placeholder="Antwort">
+        <button onclick="checkAnswer(69, 0, 0.0001)">Überprüfen</button>
+        <span id="feedback69"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass beige Farbe im Sonderangebote ist.<br>
+        <input type="number" id="answer70" placeholder="Antwort">
+        <button onclick="checkAnswer(70, 0.99, 0.0001)">Überprüfen</button>
+        <span id="feedback70"></span>
+        </li>
+<li>\( P(\overline{A}\cap \overline{B}) \).<br>
+        <input type="number" id="answer71" placeholder="Antwort">
+        <button onclick="checkAnswer(71, 0.2871, 0.0001)">Überprüfen</button>
+        <span id="feedback71"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass weiße Farbe im Sonderangebot glänzend ist.<br>
+        <input type="number" id="answer72" placeholder="Antwort">
+        <button onclick="checkAnswer(72, 0.35, 0.0001)">Überprüfen</button>
+        <span id="feedback72"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>13 </h2>
+<div class="einleitung">Personen werden damit erpresst, dass Hacker angeblich Mitschnitte einer Webcam besitzen, die die Person beim Pornokonsum zeigt. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Opfer ist minderjährig.</p> <p>B: Ein Opfer alarmiert die Polizei.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEUUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/mYBAduQOwEBAAA6j9r+/mcBAQBltf7+///bkTsBAWW1/gA6OrX+/wBmtf+2ZzqP2pA7AY/a/gEBZrX+/gFltZE7AQE6OpC2kAE6j9uROwEBOo+1kDoBAf7bkLZnATsBAAAAZWYAZmcBZrb+/joAOjoBOjsBOjuQ2v/btrbb/wFmtQEBZWYBZomJiS6J24sAAABcdFJOU////8/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////vdz2mBwAAAAlwSFlzAAAOwwAADsMBx2+oZAAADCVJREFUeF7tnQtbG8cVhtVWDY7oYgKy6qY41FSkjtrYOCTQJuDYoY3TFvd+z///Hz2Xmb1pdnYWRtJx+N7nibW7wMDsqzMzq5yzOwIm+d73fzAajYE9fjh6ZwtqTAI1ZoEas0CNWaDGLFBjFqgxC9SYBWrMAjVmgRqzQI1ZoMYsUGMWqDEL1JgFaswCNWaBGrNAjVmgxixQYxaoMQvUmAVqzAI1ZoEas0CNWaDGLFBjFqgxC9SYBWrMAjVmSVbj6gtBJt5x57WbdDXuNScraHMFI8C90ehdt5mPe1CTAajJA9TkAWpiQE0vUJMHqMkD1MSAml6gJg9Qk4eNqplsu+vy0Y/ckQ6gJg/paoodZ2Z03x3pAGo6KXbfc1vK3r7bCJGmpthp6pjuP3BbAaCmyUzezz+WzYc/kUN7I3Uye/+n8hok0pfZATcpo9fs0QdyaDpSJ7PDn8l+EKhpwue/2GU3k8dqhPbUUTuKGsTU0PmnUYzcTLbVCO09FEcURd1hAzVNJDSK3aOfj+fHEjt05EONovEeHe2iRw1JOPrFeP5EZ/7Z4Ydu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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Opfer erwachsen ist oder die Polizei alarmiert.<br>
+        <input type="number" id="answer73" placeholder="Antwort">
+        <button onclick="checkAnswer(73, 0.832, 0.0001)">Überprüfen</button>
+        <span id="feedback73"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Opfer, das die Polizei alarmiert, minderjährig ist.<br>
+        <input type="number" id="answer74" placeholder="Antwort">
+        <button onclick="checkAnswer(74, 0.9268, 0.0001)">Überprüfen</button>
+        <span id="feedback74"></span>
+        </li>
+<li>\( P(A\cup B) - P(A\cap B) \).<br>
+        <input type="number" id="answer75" placeholder="Antwort">
+        <button onclick="checkAnswer(75, 0.21, 0.0001)">Überprüfen</button>
+        <span id="feedback75"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer76" placeholder="Antwort">
+        <button onclick="checkAnswer(76, 0.24, 0.0001)">Überprüfen</button>
+        <span id="feedback76"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Opfer minderjährig ist und die Polizei alarmiert.<br>
+        <input type="number" id="answer77" placeholder="Antwort">
+        <button onclick="checkAnswer(77, 0.532, 0.0001)">Überprüfen</button>
+        <span id="feedback77"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Opfer minderjährig ist.<br>
+        <input type="number" id="answer78" placeholder="Antwort">
+        <button onclick="checkAnswer(78, 0.7, 0.0001)">Überprüfen</button>
+        <span id="feedback78"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>14 </h2>
+<div class="einleitung">In einer Glaserei können bei der Produktion von hochwertigen Weingläsern zwei Fehler auftreten: Risse und Blaseneinschlüsse. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Glas hat einen Riss.</p> <p>B: Ein Glas hat einen Blaseneinschluss.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/mYBAduQOwEBAP/bkTsBAbZnAWW1/mcBAQBltf7+///btrbb/wFmtQBmtf+2ZzqP2pA7AY/a/pE7AQE6OgFltQE6jwEBOo+1kDoBAduRO/7bkNr+/gEBZrX+/rX+/zsBAAA6jwEBZQE6kJCQtjoAOjsBOjuQ2mYBZmcBZrb+/gAAZQA6OpC2kGYAZjoBOomJiZPHI+4AAABedFJOU////8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////++OmlQzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAM5ElEQVR4Xu2da2PbthWGtc1rUrl0XEfRskyJl1RuM61tHKtetsRJ3bVbumTd/b71//+NnQtIXAiClA3RSPM+HyyQouGAjw4AMjjiBBTJ977/g8lkB5THDyfvXIOaIoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYoGaYhmsxuQXgky8Y85rN8PVmNecbKHOLfQA1yeTd00xH9ehJgNQkweoyQPUpICaXqAmD1CTB6hJATW9QE0eoCYPV6pmumuuyyfvmT0dQE0ehqup9oyZyQ2zpwOo6aTaf9+UlIObphBjmJpqz9cxu3nLlCJAjc9cPs8/kuLtH8uug4k6md/5ibxGSbRlvuAqpfea370nu2YTdTI//KlsR4EaHz7/1T67md5XI7SljsIo8kipofNPvRi5me6qEdq6LY4oirrDBmp8JDSq/Qcf7CyPJHZoz4caRTsHtLeLHjUk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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Glas keinen Fehler aufweist.<br>
+        <input type="number" id="answer79" placeholder="Antwort">
+        <button onclick="checkAnswer(79, 0.2537, 0.0001)">Überprüfen</button>
+        <span id="feedback79"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Glas mit Riss einen Blaseneinschluss hat.<br>
+        <input type="number" id="answer80" placeholder="Antwort">
+        <button onclick="checkAnswer(80, 0.51, 0.0001)">Überprüfen</button>
+        <span id="feedback80"></span>
+        </li>
+<li>\( P_B(A) \).<br>
+        <input type="number" id="answer81" placeholder="Antwort">
+        <button onclick="checkAnswer(81, 0.6225, 0.0001)">Überprüfen</button>
+        <span id="feedback81"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Glas keinen Riss hat.<br>
+        <input type="number" id="answer82" placeholder="Antwort">
+        <button onclick="checkAnswer(82, 0.43, 0.0001)">Überprüfen</button>
+        <span id="feedback82"></span>
+        </li>
+<li>\( P(A\cup B) \).<br>
+        <input type="number" id="answer83" placeholder="Antwort">
+        <button onclick="checkAnswer(83, 0.7463, 0.0001)">Überprüfen</button>
+        <span id="feedback83"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Glas genau einen Fehler aufweist.<br>
+        <input type="number" id="answer84" placeholder="Antwort">
+        <button onclick="checkAnswer(84, 0.4556, 0.0001)">Überprüfen</button>
+        <span id="feedback84"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die beiden Fehler hängen nicht voneinander ab.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>15 </h2>
+<div class="einleitung">Amalia sucht auf einer Online-Partnerbörse den Mann fürs Leben. Neben der äußerlichen Attraktivität ist es für sie wichtig, dass ihr Partner nicht raucht. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein vorgeschlagener Partner ist attraktiv.</p> <p>B: Ein vorgeschlagener Partner raucht.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAERUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/mYBAQBmtduQOwEBAGcBAf7+/7ZnATqP2gA6j9r+/mW1/gA6Ov+2Z5A7AY/a/tuRO7X+/gBltf/btrbb/5C2kAE6jzsBAQEBOpE7Af/bkQEAZQFmtQAAZTsBALX+/wFltQEBZZCQtjoAOjsBOjuQ2gE6OgEBZo+1kDoBAf7bkGYBZjoBOomJiUpQ5pAAAABbdFJOU////8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////+8oS/GsAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAMuUlEQVR4Xu2dC3vbthWGtU2rU7p0XEfRvMyOl0xuXW3JbNdJNjtOu9WJ13X3dbf+/x+ycwEIECRBSoYlpP7e56kJ6IIWfHUAUMURRyBLfvDDH41GY5AfPx59sAE1WQI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12QI12TJYjckvBIn4wJzXboarMceU3EKbtzAC3BuNPjTFdNyDmgRATRqgJg1QEwNqeoGaNEBNGqAmBtT0AjVpgJo0rFVNsWmuy0cfmUc6gJo0DFdTbhkzo/vmkQ6gppNy+2NTUnYemEIbw9SUW3UdkwcPTakFqKkzlc/zT6S4+1N5aGekTqaPfibHViJ9me5xkzJ6Tfcfy0OTkTqZHvxc6q1ATR0+/+U2uymeqBGqqaMwimrE1ND5p1GM3BSbaoRqu+KIoqg7bKCmjoRGuf30F+PZocQOPfKJRtF4hx7tokcNSXj66Xh2pDP/9OAT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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein vorgeschlagener Partner entweder attraktiv ist oder raucht.<br>
+        <input type="number" id="answer85" placeholder="Antwort">
+        <button onclick="checkAnswer(85, 0.8168, 0.0001)">Überprüfen</button>
+        <span id="feedback85"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein vorgeschlagener, attraktiver Partner raucht.<br>
+        <input type="number" id="answer86" placeholder="Antwort">
+        <button onclick="checkAnswer(86, 0.41, 0.0001)">Überprüfen</button>
+        <span id="feedback86"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein vorgeschlagener Partner unattraktiv ist.<br>
+        <input type="number" id="answer87" placeholder="Antwort">
+        <button onclick="checkAnswer(87, 0.81, 0.0001)">Überprüfen</button>
+        <span id="feedback87"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer88" placeholder="Antwort">
+        <button onclick="checkAnswer(88, 0.0779, 0.0001)">Überprüfen</button>
+        <span id="feedback88"></span>
+        </li>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer89" placeholder="Antwort">
+        <button onclick="checkAnswer(89, 0.9005, 0.0001)">Überprüfen</button>
+        <span id="feedback89"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer90" placeholder="Antwort">
+        <button onclick="checkAnswer(90, 0.8879, 0.0001)">Überprüfen</button>
+        <span id="feedback90"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>16 </h2>
+<div class="einleitung">Ein Unternehmen produziert Smartwatches, die vor dem Verkauf durch ein automatisiertes Verfahren ausgiebig getestet werden. Smartwatches mit Fehlern werden aussortiert. Allerdings kommt es auch vor, dass einige fehlerfreie Smartwatches aussortiert werden und dass einige fehlerbehaftete Smartwatches nicht aussortiert werden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Eine Smartwatch ist fehlerfrei.</p> <p>B: Eine Smartwatch wird aussortiert.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEUUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/jsBANuQOwEBALZnATqP2v7+/2cBAQA6j9r+/v/bkTsBAWW1/o/a/v/btrbb//+2Z5A7AbX+/gBmtZE7AQE6OgEBZrX+/wE6jwEBOo+1kDoBAduRO/7bkAAAZZCQtmYBZgBltToAOjsBOjuQ2gA6OmYBAZC2kAFltQEBZWcBZrb+/pGRtjoBOomJif+0fYUAAABcdFJOU////8/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////vdz2mBwAAAAlwSFlzAAAOwwAADsMBx2+oZAAADMFJREFUeF7tnf1jE7cZx70ta6jTS5kxLmOBDOp01BuQQCBpt/BS2m7sfWPv/f//jz0vkk4n3+l0jmyL5vv5AZ/OWK388SPpzPP4RqBIfvDDH41GO6A8fjz6YBdqigRqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqiiVZjakvBJn4wLyv3aSrMY85WUOfa5gBro1GH5rDfFyDmgxATR6gJg9QEwNqeoGaPEBNHqAmBtT0AjV5gJo8bFXNeM9cl48+Mmc6gJo8pKup9o2Z0cfmTAdQ00l1/SfmSJncMAdtpKmp9ps6pjdumqMWoKbJTD7Pn8jhrZ/KqclIncxu/0weW4mMZXbAXcrsNbtzV05NR+pkdvhzabcCNU34/a+us5vxPTVCLXUURlGDmBp6/2kWIzfjPTVCrVviiKKoO2ygpomERnX9/qc78yOJHTrzmUbRzoTOdtGjhiTc/8XO/IGu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OIBEjS4z80eJaryCjVqNBo3ZBtAspsvM2fm20tFVBX2ezczBqjIVDPpNb4d2aTV0qP/TfMcnvvUwz2VplQJRNd7UVZ1yTceWKwUkahhPDYcRvS0rq7FTUN1sFAxedkKTpmwG5LZCqkbQzYDHoAnNF3ZxzWrSzYDPxtXYCU3aYmWwGn1BvXC7ZvOJy24DpClzmb0HpL2e0c2AR6gmtg04c0XqRB1BZ7YKyrF5NdkLBuvmSmrC3swKw4IYeys7P2qmd4JrzlBNUDDIODWNurR6y3zyrzqWlM2rMVL4z0wFg65ZFwzK30pT0+iNhPAtoKt9EiJFh3uuAFrUyLkX9hcEHKGaoGBQzhg1crnJj//+D5t59nxn/N+ntDU4CC9rtqBGP5+6LZCPt53lW2nvs1kwWDddwaDpP+V3Axq9sQf79YyUCUrloKBqXvC5/lrOoGDwwmweSIr+ngP19JpnSf6eRo62+PNBNSgYTGTzalAwmMgW1KBgMI0tqBnEGvpMGsswIhPa6kBNDqAmD1CTB6iJATW9QE0eoCYPUBMjXQ3ICtQUC9QUy9Vba9bQJ7YBeUgayzCgJg9QkweoiQE1vUBNHqAmD1ATA2p6gZo8QE0eoCYG1PQCNU2aJZiSHchZaba6ujNRJzKWuoyTMPd/4koBvQ1kd0JZuprW2zy28/6qCUowuQhjUvtov02a0D0WTqzVMs4aKX3S20AGlRseyWqaNZ1x3ls1mnTussgFLRgUIonUnWOhLhuZ6MKCCziY8V532KSq6bjNYzvvrZpmVYBSq2meb9I5FtOlq99g6lYONcQVUBNULAlaj8HECkM6x2Je1Lgxp6mEkqOg3skDanysGj+BWorcmFjQ9KuxFTWECZr6NpDtQI1Pi5r5kRXSXIIChqhxC4/cBhJR49Orpg4PLV8SGrEU0qvGm9B8TfxDGx1Ajc/SNsDbnrXfxdbSOZblbYC5c6pi78vZAtT4BCWYvhnzKzVddI6FuiQp/uZ56l/jLBA1Dbr7DAo6PR2Ry02meywLuuSUMk7ejlHb3p3T3gYy/EEnB9Q0aRR02q9nOIjcRq2dyFikS15ddM/sbpeqt4HsNJOsxqvp7Oc9VuMYWNCZMpbGtU0/A6Imne+BmqElmAljmf+v8T1aL1DTztASzISxTBtfo/UDNXlIGsswoCYPUJMHqIkBNb1ATR6gJg9QEwNqeoGaPFxJNSArGdWsg3VEjXn8HrBVNSAG1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BQL1BSLqgFFAjXFQmp2TQiBwtgdfbcLSmT3u/8D+nxwEUFxul0AAAAASUVORK5CYII="</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{A}\cap B) \).<br>
+        <input type="number" id="answer91" placeholder="Antwort">
+        <button onclick="checkAnswer(91, 0.6351, 0.0001)">Überprüfen</button>
+        <span id="feedback91"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine aussortierte Smartwatch fehlerbehaftet ist.<br>
+        <input type="number" id="answer92" placeholder="Antwort">
+        <button onclick="checkAnswer(92, 0.7707, 0.0001)">Überprüfen</button>
+        <span id="feedback92"></span>
+        </li>
+<li>\( P(A\cup B) \).<br>
+        <input type="number" id="answer93" placeholder="Antwort">
+        <button onclick="checkAnswer(93, 0.9051, 0.0001)">Überprüfen</button>
+        <span id="feedback93"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Smartwatch aussortiert wird.<br>
+        <input type="number" id="answer94" placeholder="Antwort">
+        <button onclick="checkAnswer(94, 0.8241, 0.0001)">Überprüfen</button>
+        <span id="feedback94"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Smartwatch entweder fehlerfrei ist oder aussortiert wird.<br>
+        <input type="number" id="answer95" placeholder="Antwort">
+        <button onclick="checkAnswer(95, 0.7161, 0.0001)">Überprüfen</button>
+        <span id="feedback95"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine fehlerfreie Smartwatch nicht aussortiert wird.<br>
+        <input type="number" id="answer96" placeholder="Antwort">
+        <button onclick="checkAnswer(96, 0.3, 0.0001)">Überprüfen</button>
+        <span id="feedback96"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Das automatisierte Testverfahren ist überflüssig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>17 </h2>
+<div class="einleitung">Der Besitzer einer Imbissbude interessiert sich dafür, in welchen Größen Pommes bestellt werden und ob die Pommes mit Ketchup oder Mayonnaise bestellt wird. Es gibt nur große und kleine Pommes. Zudem wird jede Pommes mit Ketchup oder Mayonnaise bestellt. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Es wird eine große Pommes bestellt.</p> <p>B: Es wird eine Pommes mit Ketchup bestellt.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/rX+/9uQOwEBAGcBAQA6j9r+/rZnAQAAZbX+/gA6OmYBAf+2ZzqP2pA7AY/a/gBmtf7+/2W1/gE6j5C2kDsBAZE7ATsBAP/bkQFltduROwBltQEBZZCQtpGRtjoAOjoBOjsBOjuQ2v/btrbb/wEBZgEBOmYBZomJicvfaPAAAABWdFJOU////8/////////////////////////////////////////////////////////////////////////////////////////////////////////////v0v9DEAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAC0xJREFUeF7tnQ13G0cVhgWIOpVZ18iKCEWpsSu3QZDGBhPipEmLiSlfLaXQ//9XuHPvzH7OzsxKI+mmfp9zas2sqzln9tGdD2eudgRU8qMf/2Q0GgN9/HT03gHUqARq1AI1aoEatUCNWqBGLVCjFqhRC9SoBWrUAjVqgRq1QI1aoEYtUKMWqFEL1KgFatQCNWqBGrVAjVqgRi1QoxaoUQvUqAVq1AI1aoEatUCNWqBGLVCjFqhRC9SoBWrUkqzG5heCTLxn72s/6Wrsa0620OYWRoAHo9H7tpiPB1CTAajJA9TkAWpCQE0UqMkD1OQBakJATRSoyQPU5GGvaiaHdl8++pm90gPU5CFdTXFkzYw+sFd6gJpeiuOf25IwPbEFH2lqiqOmjtnJQ1vyADVN5vx5/gUXH/2SL01H4mT+4a/41UugL/OFaZJHr/njj/jSbCRO5qe/5roXqGli7n9xbNxMzsQI1cRRO4oahNTQ/adRjNxMDsUI1R6xI4qi/rCBmiYcGsXx+cfj5QXHDl35RKJoPKWrfUTUkITzT8fLJzLzz08/sWuA2flv+NUH1DSRUWtKceLGr+mJi59VYESLqRnPKE7c+DU7+a2Nn9Xp7/iKD6hpwkImZxQfKxnGTPDY4txGj4+YmskhRc1KphoTPLY4Xzw1L16gpgmrWY1oVrHDl9GyvOBZxr54ialZLWhtNiM9hNGyfMJrNXrpnWygpoms0GgA48ixiwFbXlcNr9BoAOPIMQFUlaGmRUiNm09KHWYQk1lmk6gxlDrMEmDFV6GmRYoaO6CtOIpGZoTbWI0d0FYcRfLHAKhpkaSG5367OJMQ2mQZwPDcbzc3EkJYBrRIUsMlZ4NHtI0Wz2VpvpAtDY9oWDy3SFLDw5fZ4EiFomeTLSfDyzKzwZEKRQ+2nC2S2nQbzZJ1/1BT4f5QU4I/1LRJa9NuNEuqgPKQ1Be30SypAsoD1PSCfxSIsD81g0hTMwioyQPU5AFqQkBNFKjJA9TkAWpCQE0UqMnDvVQDsoKoyQAGtDxATR6gJgTURIGaPEBNHqAmBNREgZo8QE0eoCYE1ESBmjxATS+tMxbBIxZQEySLmnbiZVUPHkwKtclnnGvnZ5cXtqWp+cXQM8+t1vi0s5zdHC+fSGlG1x59xpda9Kh5dkmNPHUncYorqv3+D43S+Jr+lz8+N6UOO1NDt62eeGnqkzNTDx7nC7Q5p7s/Oau8khCprEyr0+oXbbx9sa2V52oXH4wnh1KdHP7pwqiZLZ6OixfeM5x+NTeXLx9OXp1+bqvXj5+Prxev3zRKl188LK6+ZEttdqmGLJy7xEtbN5ZCh2D725Rj51VGAMWiHHRu/6KDry/uTfbsmRxA58O11PLpn40aOb45v/QdSveqmbz6kjQub1/WDrBN/kJWqlJx9ZL83Dz4wnfGbadqaomX/FMCKHR0vL9Nufc2tUZwamTArAanFr6+lK2Z1A0nRQSREk6zWT4xUpZvfedrvWpEighytNTc3Zrh7u7WCOqwUzV8I+UQLNfl/oUSLvrbtO+qh5x1PB+df8xn0nvw9aVsTdTYFAFOslk9/siqMVKKF69T1dxc8jRzXVdTXMkUY0sipbj6697V1BIva8uCwNiToKZ22tmF3/IitAoIqrGpAU4NVY0WVlMcmWlm+XawGhcnhq/kmivJNHN3+7e9qmEV9FG2Q5BRRbfQlLOrWWOF1q/GRI7kDc7Nems02kTN3a0LGlu6oXcS+1Vjb1tdjQkjuiObqekOaLw44wD1E1LTGdA4QUDUMMWL5LmmO6AVV4+spqpEyGKgw87VuAGN62xlPTXyLs8ywPOLJr6+lG9qLwNcNqcNJxrQkldonWVAaw1QIouBDrtXU1sGyIfVfmL99LbJC/Gm1g3UuNbs4pm/C8UKImpRM3vs23N61dBEbyancvHcZ2Z8/fd6rWT3aqwU83PO3/bjpggv/W2aIas4Ng2Y7SJf4Ybk2sABzbVGsWF2m/y1DsVRGSpGzeQf9N+rkTfX1qtm/Iy2nDJymc3n+Pr0cyupLE3++YY8Lbzbmj2okU+1LAv4k73elpPeZ8YZjkCJPYYWGsWxKfSa8auptcbzzMxUrRmrxnyl4If+VFu/GtrxUyMmIsy0w3+dIV6+qUqkhdp0xlrsSk1FO/Fy3T/UVATddon0xX4FyiB61JQ09jap7F5NO/GyiicfCW0u/xVqoEu4L8uvAzmbfUTULL/pz2vvZw9qcv+jwDQUdR7CfZnZqX8QETXX//YPWWH2oGYQW2gzqS/DiA1oawE1OYCaPEBNHqAmBNREgZo8QE0eoCZEupr7zPukJzdRN1CzJzCgZQBzTR6gJg9QEwJqokBNHqAmD1ATAmqiQE0eoCbE5MzuqkLnnBioCbEFNXLoxRD7x2OoCZFbDRIG09iVmlpmwLYTBjkkA+ef/H1pt2YOopk8QTlZKweglm+HnUNrJAy602evy3NofAj97nbf59CMgB0lDJrkAfeATh/evrQSBskMafn2P6Sm+gL72WLYEcFWwiBTXJk8QSmZrJrry70fEeTY2EnCICOpaX58fXGtuZNONlWAqNTMv/vsWc+DUrxqfAmD46/+60Rw6ea759WVFjtVwx9oKfHPrSQMMkPVlK3Zk5vVEc7GYx8GqfEnDLqU2rKkQw3fyK0nDBrk5L8fX1/K1sRI7REp66vxJQzaa/WSDjU7ShgkOKeqh5AaewLdPjLd1GQZYIe3tdTUEjY8QaNADfeVxi87BBlV20oYNE32B02aGhM+/LAnqdr1waZqqlznqqRkriFqauyHezM1NQelGkmx6SOkxg5oxZGRYp8ASXDODbHpgFZpqkp61LgBjetsZT018i7vMiC0BiB8fSlba8w15WLA5adtuAy4u3Ur56qkSc22EwZjZrxqWgmD8gA7iR2DW0sPUtNOGKRQ6ealqVJjpZifW0kYDH09DePtSythcL44ecjfUVP8jy/Z8Bmkpp0w2NhulkGjSY180GVZwKPReltOeh81IBEoscec0A2WUi2cmvj70koYNAszM/dzmqD8nWbo9wZQbNQTBkmCWy9XJQ3fG1CBhMFEdq8GCYOJ7EENEgbT2IOaQWyhzaS+DCM2oK0F1OQAavIANXmAmhBQEwVq8gA1eYCaEOlqQFagRi1Qo5b7N9dsoU0sA/KQ1JdhQE0eoCYPUBMCaqJATR6gJg9QEwJqokBNHqAmD1ATAmqiQI2HZgpmLI2TifWl/txHl84xKvNtvKSr6U/d7PCOq2kldJqDU6tAGicT6Uv9uY+O6vSzn2Q114ve1M0O77YaSRRopho0kgd8hPvSeO6jY2We/RQgVU0odbPDu63Gk8mxqZrqgU9SNzRrHgbMNfdFjSf/ice4IOG+VI9J4ypT5UP3ADUdnBp3ipq/+yaQrcOkqbGpg4Zo0EBNl7YakZMlampqWhOPB6jp4BvQxtNI3KSpqQVKXZMfqOngWwZEJ5twX7rLgDIRuh+o6eBJ6DQbm02ipvXcR2LW3OP4gJouzYROztyRBNEAkb5Uz32UlPTYdtMANR6aCZ2mFjMTU1M991GmnVVs5Uykqrmx6aC+1M0O77qakvSEzqS+GNKzOgdETTo/FDUDEjpT1QzI6oSaAAMSOlPVDMjqhJo8pKoZANTkAWryADUhoCYK1OQBavIANSGgJgrU5OFeqgFZyahmG2wjauzrD4C9qgEhoEYtUKMWqFEL1KgFatQCNWqBGrVAjVqgRi1QoxaoUQvUqAVq1AI1aoEatUCNWqBGLVCjFqhRC9SoBWrUAjVqgRq1QI1aoEYtUKMWqFEL1KgFatQCNWqBGrVAjVpEDVAJ1KiF1BzYEALKOBh9fwA0cvD9/wHzQTwT0y14DAAAAABJRU5ErkJggg=="</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(A\cap\overline{A}) \).<br>
+        <input type="number" id="answer97" placeholder="Antwort">
+        <button onclick="checkAnswer(97, 0, 0.0001)">Überprüfen</button>
+        <span id="feedback97"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine kleine Pommes mit Mayonnaise bestellt wird.<br>
+        <input type="number" id="answer98" placeholder="Antwort">
+        <button onclick="checkAnswer(98, 0.651, 0.0001)">Überprüfen</button>
+        <span id="feedback98"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass die Bestellung einer großen Pommes mit Mayonnaise ist.<br>
+        <input type="number" id="answer99" placeholder="Antwort">
+        <button onclick="checkAnswer(99, 0.4, 0.0001)">Überprüfen</button>
+        <span id="feedback99"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine kleine Pommes oder eine Pommes mit Ketchup bestellt wird.<br>
+        <input type="number" id="answer100" placeholder="Antwort">
+        <button onclick="checkAnswer(100, 0.88, 0.0001)">Überprüfen</button>
+        <span id="feedback100"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass die Bestellung einer Pommes mit Mayonnaise eine große Pommes ist.<br>
+        <input type="number" id="answer101" placeholder="Antwort">
+        <button onclick="checkAnswer(101, 0.1556, 0.0001)">Überprüfen</button>
+        <span id="feedback101"></span>
+        </li>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer102" placeholder="Antwort">
+        <button onclick="checkAnswer(102, 0.771, 0.0001)">Überprüfen</button>
+        <span id="feedback102"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Es gibt einen Zusammenhang zwischen der Größe einer bestellten Pommes und dem gewünschte Dressing.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>18 </h2>
+<div class="einleitung">Ein Unternehmen verkauft neue und gebrauchte Beamer. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde kauft Neuware.</p> <p>B: Ein Kunde reklamiert das Produkt.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEFUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/jsBANuQOwEBADsBAY/a/rZnAbX+/mW1/gAAZf+2ZzqP2pA7AWcBAQA6j9r+/v/btrbb/wE6jwEBZrX+/wEBOv7+///bkQBmtZE7AQFmtQFltQBltQEBZWYAZpCQtpGRttuROzoAOjoBOjsBOjuQ2gA6OmYBAZC2kImJifGXwqMAAABXdFJOU////8//////////////////////////////////////////////////////////////////////////////////////////////////////////////77UQ7RIAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAxtSURBVHhe7Z1rYxPHFYbVVo2J6BLHFiqlBhcqEqMWsDGtwWkbUkPS9JLeaP7/T+m5zGV3dnZ2VxpLQ3ifD9bMyhoz+2guK87RTkCR/OjHP5lMpqA8fjr5aA9qigRqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqigVqimWwGpNfCDLxkTmv3QxXYx5zcg1tXsMMcGMy+dgU83EDajIANXmAmjxATQqo6QVq8gA1eYCaFFDTC9TkAWrysFM1s5vmunzyM3OkA6jJw3A11S1jZvKJOdIB1HRS7X9qSsrBoSnEGKamutXUMT+8bUoRoKbJQt7PP5finV/IoYOJOlnc/aU8Rkn0ZXHETcrstbh3Xw7NJ+pkcfwrqUeBmiZ8/qt9djN7oEaopo7CUdQgpYbOP81i5GZ2U41Q7Y44olHUPWygpokMjWr/4a+ny0cydujIZzqKpgd0tIseNSTh4efT5Ymu/Ivjz8weYP7wsTzGgJomOmsd0Dix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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass eine nicht reklamierte Ware gebraucht ist.<br>
+        <input type="number" id="answer103" placeholder="Antwort">
+        <button onclick="checkAnswer(103, 0.9077, 0.0001)">Überprüfen</button>
+        <span id="feedback103"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde Gebrauchtware kauft und diese reklamiert.<br>
+        <input type="number" id="answer104" placeholder="Antwort">
+        <button onclick="checkAnswer(104, 0.081, 0.0001)">Überprüfen</button>
+        <span id="feedback104"></span>
+        </li>
+<li>\( P(B\cap\overline{B}) \).<br>
+        <input type="number" id="answer105" placeholder="Antwort">
+        <button onclick="checkAnswer(105, 0, 0.0001)">Überprüfen</button>
+        <span id="feedback105"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde Neuware kauft oder die Ware reklamiert.<br>
+        <input type="number" id="answer106" placeholder="Antwort">
+        <button onclick="checkAnswer(106, 0.271, 0.0001)">Überprüfen</button>
+        <span id="feedback106"></span>
+        </li>
+<li>\( P(B) \).<br>
+        <input type="number" id="answer107" placeholder="Antwort">
+        <button onclick="checkAnswer(107, 0.1969, 0.0001)">Überprüfen</button>
+        <span id="feedback107"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde Gebrauchtware reklamiert.<br>
+        <input type="number" id="answer108" placeholder="Antwort">
+        <button onclick="checkAnswer(108, 0.1, 0.0001)">Überprüfen</button>
+        <span id="feedback108"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Ob es sich bei einem Produkt um Neu- oder Gebrauchtware handelt, hat einen Einfluss darauf, ob es reklamiert wird.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>19 </h2>
+<div class="einleitung">Eine Influencerin stellt ihren Followern zwei neue Lippenstifte vor: "Ambition" und "Bonny". Sie möchte von ihren Followern wissen, wie sie die beiden Lippenstifte finden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Einem Follower gefällt Ambition.</p> <p>B: Einem Follower gefällt Bonny.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEOUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/jsBANuQOwEBALZnATqP2v7+/2cBAQA6j9r+/v/bkTsBAWW1/o/a/gBmtf+2Z5A7AbX+/pE7AQE6OgEBZrX+/wE6jwEBOo+1kDoBAduRO/7bkAAAZQBltToAOjsBOjuQ2v/btrbb/2YBAQFltQE6kAEBZZCQtmcBZrb+/pGRtjoBOomJicl/3tsAAABadFJOU////8//////////////////////////////////////////////////////////////////////////////////////////////////////////////////71uUUpUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAxpSURBVHhe7Z3/fxO3GcdvW9ZQM9M0OFfGTNOkpqVegQQCSUuA0nZj676x7+v//4/s+aKTdPKdTpcotiif9w/k5Iv1Qve2pOec57ErUCQ/+/kvqmoLlMcvq/e2oaZIoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYoKZYktWY+kKQiffMde0nXY35mZMr6PMKVoBrVfW+OczHNajJANTkAWryADUxoGYQqMkD1OQBamJAzSBQkweoycNG1Uyum/vy6lfmkR6gJg/paqY3jJnqA/NID1DTy3TnQ3Ok7N40B12kqZneaOuY3dwzRx1ATZtaXs8fyeGtX8tDu5U6qW//Rn52EhlLPecuZfWq73wsD80qdVLvfyLtTqCmDV//6Q67mRyoEWqpo3AWtYipoetPqxi5mVxXI9S6JY5oFvVPG6hpI1NjunP46dbirswdeuQznUVbu/RoHwNqSMLh51uLe7rz1/ufmRhg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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass einem Follower Ambition gefällt.<br>
+        <input type="number" id="answer109" placeholder="Antwort">
+        <button onclick="checkAnswer(109, 0.89, 0.0001)">Überprüfen</button>
+        <span id="feedback109"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass einem Follower, dem Ambition gefällt, auch Bonny gefällt.<br>
+        <input type="number" id="answer110" placeholder="Antwort">
+        <button onclick="checkAnswer(110, 0.9, 0.0001)">Überprüfen</button>
+        <span id="feedback110"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass einem Follower Ambition gefällt, Bonny aber nicht.<br>
+        <input type="number" id="answer111" placeholder="Antwort">
+        <button onclick="checkAnswer(111, 0.089, 0.0001)">Überprüfen</button>
+        <span id="feedback111"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass einem Follower beide oder keiner der Lippenstifte gefällt.<br>
+        <input type="number" id="answer112" placeholder="Antwort">
+        <button onclick="checkAnswer(112, 0.8879, 0.0001)">Überprüfen</button>
+        <span id="feedback112"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer113" placeholder="Antwort">
+        <button onclick="checkAnswer(113, 0.911, 0.0001)">Überprüfen</button>
+        <span id="feedback113"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass einem Follower, dem Bonny nicht gefällt, auch Ambition nicht gefällt.<br>
+        <input type="number" id="answer114" placeholder="Antwort">
+        <button onclick="checkAnswer(114, 0.494, 0.0001)">Überprüfen</button>
+        <span id="feedback114"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>20 </h2>
+<div class="einleitung">Ein Lebensmittelkonzern verschafft sich einen Überblick darüber, welche seiner Produkte biologisch und regional sind. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Produkt ist biologisch.</p> <p>B: Ein Produkt ist regional.</p> <p>Der Sachverhalt ist in der folgenden Vier-Felder-Tafel dargestellt.</p> <p><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAZoAAADaCAMAAACo93SJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaUExURQAAAN7e3oqKiomJif///wICAv39/YmJiQEBAf7+/v//25A6AWa2/v//tmYBADqQ2mYAADqQ27ZmAABmtrZmAf7///+2Zma2/wAAZrb//wAAOpDb/wEAAAEAZrb+/wEAOpDa/5A6AAA6kNv////bkDoAAJCQZtr//zoBANr+/9uQOv7/25Da/ma1/jsBANuQOwEBAGcBAQBmtf7+/7ZnAduROwA6j9r+/gA6Ov/btrbb/5A7Af+2ZzqP2o/a/gEBZrX+/gEBZQBltZC2kAEBOpC1kAE6jzsBAZE7AQEAZWYBAf7bkLX+/wFmtWW1/gE6kP/bkWYBZmcBZrb+/joAOjsBOjuQ2gE6Oo+1kDoBAQAAZWYAZjoBOomJidPCsmEAAABedFJOU////8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////++OmlQzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAANcklEQVR4Xu2da2PbthWGtc1rUnpKMkdhs8ypZ1fuHK2L7UTestlpsjWbvbTdvPu1//9v7FwAAgRJkLRhCWne54MNkjJa6NEBQOUcaQKy5Dvf/d5ksgHy4/uTD25BTZZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbZATbYMVmPqC0EiPjDPazfD1ZjfKbmBPm9gBrg9mXxomum4DTUJgJo0QE0aoCYG1PQCNWmAmjRATQyo6QVq0gA1aVirmmLT3JdPfmDOdAA1aRiuZnrHmJncNWc6gJpOpvd+aFrK1n3TaGOYmumduo7Z/Qem1QLU1Cnl9fyRNB/+SE5tTdRJ+ejH8ruVyFjKbe5SZq/y8cdyajZRJ+XOT+S4Faipw8//9B67KXbVCB2pozCKasTU0PNPsxi5KTbVCB09FEcURd1hAzV1JDSm9/Y+2ZjvS+zQmU81ija26GwX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"</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(A) \).<br>
+        <input type="number" id="answer115" placeholder="Antwort">
+        <button onclick="checkAnswer(115, 0.56, 0.0001)">Überprüfen</button>
+        <span id="feedback115"></span>
+        </li>
+<li>\( P(B\cap\overline{B}) \).<br>
+        <input type="number" id="answer116" placeholder="Antwort">
+        <button onclick="checkAnswer(116, 0, 0.0001)">Überprüfen</button>
+        <span id="feedback116"></span>
+        </li>
+<li>\( P_{\overline{B}}(\overline{A}) \).<br>
+        <input type="number" id="answer117" placeholder="Antwort">
+        <button onclick="checkAnswer(117, 0.356, 0.0001)">Überprüfen</button>
+        <span id="feedback117"></span>
+        </li>
+<li>\( P(\overline{A}\cup \overline{B}) \).<br>
+        <input type="number" id="answer118" placeholder="Antwort">
+        <button onclick="checkAnswer(118, 0.5912, 0.0001)">Überprüfen</button>
+        <span id="feedback118"></span>
+        </li>
+<li>\( P(\overline{A}\cap \overline{B}) \).<br>
+        <input type="number" id="answer119" placeholder="Antwort">
+        <button onclick="checkAnswer(119, 0.0836, 0.0001)">Überprüfen</button>
+        <span id="feedback119"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer120" placeholder="Antwort">
+        <button onclick="checkAnswer(120, 0.27, 0.0001)">Überprüfen</button>
+        <span id="feedback120"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+
+    <script type="text/javascript">
+        // Funktion zur Überprüfung der Antworten
+        function checkAnswer(questionId, correctAnswer, tolerance) {
+            var userAnswer = parseFloat(document.getElementById("answer" + questionId).value);
+            var feedback = document.getElementById("feedback" + questionId);
+            if (isNaN(userAnswer)) {
+                feedback.textContent = "Bitte eine gültige Zahl eingeben.";
+                feedback.style.color = "orange";
+                feedback.style.opacity = 1;
+            } else if (Math.abs(userAnswer - correctAnswer) <= tolerance) {
+                feedback.textContent = "Richtig!";
+                feedback.style.color = "green";
+                feedback.style.opacity = 1;
+            } else {
+                feedback.textContent = "Falsch! Die richtige Antwort ist: " + correctAnswer;
+                feedback.style.color = "red";
+                feedback.style.opacity = 1;
+            }
+            // Sanfter Übergang für die Feedback-Nachricht
+            feedback.style.transition = "opacity 0.5s ease-in-out";
+        }
+    </script>
+    </body>
+</html>

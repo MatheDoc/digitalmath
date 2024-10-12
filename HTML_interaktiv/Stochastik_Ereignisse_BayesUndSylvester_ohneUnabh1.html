@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>Stochastik_Ereignisse</title>
+
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #333;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .einleitung {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    p {
+        color: #555;
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    ol {
+        margin: 0 auto;
+        padding: 0;
+        list-style-position: inside;
+        max-width: 800px;
+    }
+
+    li {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        line-height: 2;
+    }
+
+    input[type="number"] {
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 80px;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    #feedback1, #feedback2, #feedback3, #feedback4, #feedback5,
+    #feedback6, #feedback7, #feedback8, #feedback9, #feedback10 {
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+        li {
+            padding: 15px;
+        }
+
+        input[type="number"] {
+            width: 60px;
+        }
+    }
+    </style>
+    </head>
+<body>
+<h1>03 BayesUndSylvester/ohneUnabh1</h1>
+<h2>01 </h2>
+<div class="einleitung">Ein Hersteller von Halbleitern erhält Aufträge von Groß- und Kleinkunden. Alle Kunden können zwischen Basis- und Premium-Qualität wählen. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Großkunde bestellt Halbleiter.</p> <p>B: Ein Halbleiter wird in Premium-Qualität bestellt.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Großkunde Halbleiter bestellt, 11% beträgt, dass \( P(B) \)\( = \)\( 0,4 \) und dass \( P(A\cup B) \)\( = \)\( 0,466 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{A}) \).<br>
+        <input type="number" id="answer1" placeholder="Antwort">
+        <button onclick="checkAnswer(1, 0.89, 0.0001)">Überprüfen</button>
+        <span id="feedback1"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer2" placeholder="Antwort">
+        <button onclick="checkAnswer(2, 0.044, 0.0001)">Überprüfen</button>
+        <span id="feedback2"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Auftrag in Premium-Qualität von einem Großkunden stammt.<br>
+        <input type="number" id="answer3" placeholder="Antwort">
+        <button onclick="checkAnswer(3, 0.11, 0.0001)">Überprüfen</button>
+        <span id="feedback3"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Auftrag in Premium-Qualität von einem Kleinkunden stammt.<br>
+        <input type="number" id="answer4" placeholder="Antwort">
+        <button onclick="checkAnswer(4, 0.89, 0.0001)">Überprüfen</button>
+        <span id="feedback4"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Bestellung von einem Kleinkunden stammt und Premium-Qualität erfordert.<br>
+        <input type="number" id="answer5" placeholder="Antwort">
+        <button onclick="checkAnswer(5, 0.356, 0.0001)">Überprüfen</button>
+        <span id="feedback5"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass der Auftrag eines Kleinkunden Premium-Qualität erfordert.<br>
+        <input type="number" id="answer6" placeholder="Antwort">
+        <button onclick="checkAnswer(6, 0.4, 0.0001)">Überprüfen</button>
+        <span id="feedback6"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer7" placeholder="Antwort">
+        <button onclick="checkAnswer(7, 0.934, 0.0001)">Überprüfen</button>
+        <span id="feedback7"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>02 </h2>
+<div class="einleitung">Eine Zugbegleiterin kontrolliert die Fahrscheine und das Einhalten einer pandemiebedingten Maskenpflicht in einem ICE von Hamburg nach München. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Passagier hat einen gültigen Fahrschein.</p> <p>B: Ein Passagier trägt eine Maske.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,37 \), dass die Wahrscheinlichkeit, dass ein Passagier eine Maske trägt, 34% beträgt und dass die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat oder eine Maske trägt, 58,42% beträgt.</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{A}) \).<br>
+        <input type="number" id="answer8" placeholder="Antwort">
+        <button onclick="checkAnswer(8, 0.63, 0.0001)">Überprüfen</button>
+        <span id="feedback8"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer9" placeholder="Antwort">
+        <button onclick="checkAnswer(9, 0.1258, 0.0001)">Überprüfen</button>
+        <span id="feedback9"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Passagier mit gültigen Fahrschein eine Maske trägt<br>
+        <input type="number" id="answer10" placeholder="Antwort">
+        <button onclick="checkAnswer(10, 0.34, 0.0001)">Überprüfen</button>
+        <span id="feedback10"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer11" placeholder="Antwort">
+        <button onclick="checkAnswer(11, 0.66, 0.0001)">Überprüfen</button>
+        <span id="feedback11"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat und keine Maske trägt.<br>
+        <input type="number" id="answer12" placeholder="Antwort">
+        <button onclick="checkAnswer(12, 0.2442, 0.0001)">Überprüfen</button>
+        <span id="feedback12"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Passagier, der keine Maske trägt, einen gültigen Fahrschein hat.<br>
+        <input type="number" id="answer13" placeholder="Antwort">
+        <button onclick="checkAnswer(13, 0.37, 0.0001)">Überprüfen</button>
+        <span id="feedback13"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer14" placeholder="Antwort">
+        <button onclick="checkAnswer(14, 0.7858, 0.0001)">Überprüfen</button>
+        <span id="feedback14"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Ob ein Passagier einen gültigen Fahrschein besitzt oder nicht, hat einen Einfluss darauf, ob er eine Maske trägt.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>03 </h2>
+<div class="einleitung">Ein Eisstand bietet Getränke an: Schokolade und Kaffee, jeweils entweder heiß oder kalt zubereitet. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde bestellt eine Schokolade.</p> <p>B: Ein Kunde bestellt ein heißes Getränk.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Kunde eine Schokolade bestellt, 26% beträgt, dass \( P(B) \)\( = \)\( 0,83 \) und dass \( P(A\cup B) \)\( = \)\( 0,8742 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer15" placeholder="Antwort">
+        <button onclick="checkAnswer(15, 0.17, 0.0001)">Überprüfen</button>
+        <span id="feedback15"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer16" placeholder="Antwort">
+        <button onclick="checkAnswer(16, 0.2158, 0.0001)">Überprüfen</button>
+        <span id="feedback16"></span>
+        </li>
+<li>\( P_B(A) \).<br>
+        <input type="number" id="answer17" placeholder="Antwort">
+        <button onclick="checkAnswer(17, 0.26, 0.0001)">Überprüfen</button>
+        <span id="feedback17"></span>
+        </li>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer18" placeholder="Antwort">
+        <button onclick="checkAnswer(18, 0.74, 0.0001)">Überprüfen</button>
+        <span id="feedback18"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde einen heißen Kaffee bestellt.<br>
+        <input type="number" id="answer19" placeholder="Antwort">
+        <button onclick="checkAnswer(19, 0.6142, 0.0001)">Überprüfen</button>
+        <span id="feedback19"></span>
+        </li>
+<li>\( P_{\overline{A}}(B) \).<br>
+        <input type="number" id="answer20" placeholder="Antwort">
+        <button onclick="checkAnswer(20, 0.83, 0.0001)">Überprüfen</button>
+        <span id="feedback20"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer21" placeholder="Antwort">
+        <button onclick="checkAnswer(21, 0.9558, 0.0001)">Überprüfen</button>
+        <span id="feedback21"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>04 </h2>
+<div class="einleitung">Ein angeblich verzauberter Würfel wird geworfen. Bevor man wirft, kann man einen Zauberspruch aufsagen. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Es wird eine Sechs geworfen.</p> <p>B: Es wird ein Zauberspruch aufgesagt.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,23 \), dass \( P(B) \)\( = \)\( 0,12 \) und dass die Wahrscheinlichkeit, dass eine Sechs geworfen oder ein Zauberspruch aufgesagt wird, 32,24% beträgt.</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{A}) \).<br>
+        <input type="number" id="answer22" placeholder="Antwort">
+        <button onclick="checkAnswer(22, 0.77, 0.0001)">Überprüfen</button>
+        <span id="feedback22"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Sechs geworfen und ein Zauberspruch aufgesagt wird.<br>
+        <input type="number" id="answer23" placeholder="Antwort">
+        <button onclick="checkAnswer(23, 0.0276, 0.0001)">Überprüfen</button>
+        <span id="feedback23"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Sechs geworfen wird, wenn ein Zauberspruch aufgesagt wurde.<br>
+        <input type="number" id="answer24" placeholder="Antwort">
+        <button onclick="checkAnswer(24, 0.23, 0.0001)">Überprüfen</button>
+        <span id="feedback24"></span>
+        </li>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer25" placeholder="Antwort">
+        <button onclick="checkAnswer(25, 0.77, 0.0001)">Überprüfen</button>
+        <span id="feedback25"></span>
+        </li>
+<li>\( P(\overline{A}\cap B) \).<br>
+        <input type="number" id="answer26" placeholder="Antwort">
+        <button onclick="checkAnswer(26, 0.0924, 0.0001)">Überprüfen</button>
+        <span id="feedback26"></span>
+        </li>
+<li>\( P_{\overline{A}}(B) \).<br>
+        <input type="number" id="answer27" placeholder="Antwort">
+        <button onclick="checkAnswer(27, 0.12, 0.0001)">Überprüfen</button>
+        <span id="feedback27"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass keine Sechs geworfen oder ein Zauberspruch aufgesagt wird.<br>
+        <input type="number" id="answer28" placeholder="Antwort">
+        <button onclick="checkAnswer(28, 0.7976, 0.0001)">Überprüfen</button>
+        <span id="feedback28"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Der Zauberspruch wirkt nicht.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>05 </h2>
+<div class="einleitung">Für das Controlling bei der Deutschen Bundesbank bewerben sich Mathematiker und Wirtschaftswissenschaftler mit Bachelor- oder Masterabschluss. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Bewerber ist Mathematiker.</p> <p>B: Ein Bewerber hat einen Bachelor.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,51 \), dass \( P(B) \)\( = \)\( 0,592 \) und dass die Wahrscheinlichkeit, dass ein Bewerber Mathematiker ist oder einen Bachelor hat, 75,01% beträgt.</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer29" placeholder="Antwort">
+        <button onclick="checkAnswer(29, 0.408, 0.0001)">Überprüfen</button>
+        <span id="feedback29"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Bewerber einen Bachelor in Mathematik hat.<br>
+        <input type="number" id="answer30" placeholder="Antwort">
+        <button onclick="checkAnswer(30, 0.3519, 0.0001)">Überprüfen</button>
+        <span id="feedback30"></span>
+        </li>
+<li>\( P_B(A) \).<br>
+        <input type="number" id="answer31" placeholder="Antwort">
+        <button onclick="checkAnswer(31, 0.5944, 0.0001)">Überprüfen</button>
+        <span id="feedback31"></span>
+        </li>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer32" placeholder="Antwort">
+        <button onclick="checkAnswer(32, 0.4056, 0.0001)">Überprüfen</button>
+        <span id="feedback32"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Bewerber einen Bachelor in Wirtschaftswissenschaft hat.<br>
+        <input type="number" id="answer33" placeholder="Antwort">
+        <button onclick="checkAnswer(33, 0.2401, 0.0001)">Überprüfen</button>
+        <span id="feedback33"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Wirtschaftswissenschaftler einen Bachelor hat.<br>
+        <input type="number" id="answer34" placeholder="Antwort">
+        <button onclick="checkAnswer(34, 0.49, 0.0001)">Überprüfen</button>
+        <span id="feedback34"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Bewerber Wirtschaftswissenschaftler ist oder einen Bachelor hat.<br>
+        <input type="number" id="answer35" placeholder="Antwort">
+        <button onclick="checkAnswer(35, 0.8419, 0.0001)">Überprüfen</button>
+        <span id="feedback35"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Fachrichtung eines Bewerbers hat einen Einfluss darauf, ob der Bewerber einen Bachelor oder Master hat.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>06 </h2>
+<div class="einleitung">Praktische Führerscheinprüfung: In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Der Prüfling besteht.</p> <p>B: Der Prüfer ist ausgeschlafen.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,22 \), dass die Wahrscheinlichkeit, dass ein Prüfer ausgeschlafen ist, 24% beträgt und dass die Wahrscheinlichkeit, dass ein Prüfling besteht oder ein Prüfer ausgeschlafen ist, 40,72% beträgt.</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Prüfer nicht ausgeschlafen ist.<br>
+        <input type="number" id="answer36" placeholder="Antwort">
+        <button onclick="checkAnswer(36, 0.76, 0.0001)">Überprüfen</button>
+        <span id="feedback36"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Prüfling besteht und ein Prüfer ausgeschlafen ist.<br>
+        <input type="number" id="answer37" placeholder="Antwort">
+        <button onclick="checkAnswer(37, 0.0528, 0.0001)">Überprüfen</button>
+        <span id="feedback37"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Prüfer ausgeschlafen ist, wenn ein Prüfling besteht.<br>
+        <input type="number" id="answer38" placeholder="Antwort">
+        <button onclick="checkAnswer(38, 0.24, 0.0001)">Überprüfen</button>
+        <span id="feedback38"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer39" placeholder="Antwort">
+        <button onclick="checkAnswer(39, 0.76, 0.0001)">Überprüfen</button>
+        <span id="feedback39"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Prüfling besteht und ein Prüfer nicht ausgeschlafen ist.<br>
+        <input type="number" id="answer40" placeholder="Antwort">
+        <button onclick="checkAnswer(40, 0.1672, 0.0001)">Überprüfen</button>
+        <span id="feedback40"></span>
+        </li>
+<li>\( P_{\overline{B}}(A) \).<br>
+        <input type="number" id="answer41" placeholder="Antwort">
+        <button onclick="checkAnswer(41, 0.22, 0.0001)">Überprüfen</button>
+        <span id="feedback41"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Prüfling besteht oder ein Prüfer nicht ausgeschlafen ist.<br>
+        <input type="number" id="answer42" placeholder="Antwort">
+        <button onclick="checkAnswer(42, 0.8128, 0.0001)">Überprüfen</button>
+        <span id="feedback42"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Es gibt keinen Zusammenhang zwischen dem Bestehen einer Prüfung und der Müdigkeit eines Prüfers.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>07 </h2>
+<div class="einleitung">In einem Sportgeschäft werden Hanteln aus Metall und Kunststoff angeboten. Zur Schonung der Handgelenke sind einige Hanteln zudem mit einem drehbaren Griff ausgestattet. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Eine Hantel ist aus Metall.</p> <p>B: Eine Hantel hat einen drehbaren Griff.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,46 \), dass \( P(B) \)\( = \)\( 0,33 \) und dass \( P(A\cup B) \)\( = \)\( 0,6382 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass eine Hantel aus Kunststoff ist.<br>
+        <input type="number" id="answer43" placeholder="Antwort">
+        <button onclick="checkAnswer(43, 0.54, 0.0001)">Überprüfen</button>
+        <span id="feedback43"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer44" placeholder="Antwort">
+        <button onclick="checkAnswer(44, 0.1518, 0.0001)">Überprüfen</button>
+        <span id="feedback44"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Hantel mit drehbaren Griff aus Metall ist.<br>
+        <input type="number" id="answer45" placeholder="Antwort">
+        <button onclick="checkAnswer(45, 0.46, 0.0001)">Überprüfen</button>
+        <span id="feedback45"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Hantel mit drehbaren Griff aus Kunststoff ist.<br>
+        <input type="number" id="answer46" placeholder="Antwort">
+        <button onclick="checkAnswer(46, 0.54, 0.0001)">Überprüfen</button>
+        <span id="feedback46"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Hantel aus Kunststoff ist und einen drehbaren Griff hat.<br>
+        <input type="number" id="answer47" placeholder="Antwort">
+        <button onclick="checkAnswer(47, 0.1782, 0.0001)">Überprüfen</button>
+        <span id="feedback47"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Kunststoffhantel einen drehbaren Griff hat.<br>
+        <input type="number" id="answer48" placeholder="Antwort">
+        <button onclick="checkAnswer(48, 0.33, 0.0001)">Überprüfen</button>
+        <span id="feedback48"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer49" placeholder="Antwort">
+        <button onclick="checkAnswer(49, 0.6918, 0.0001)">Überprüfen</button>
+        <span id="feedback49"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Das Material einer Hantel beeinflusst die Art die Griffes.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>08 </h2>
+<div class="einleitung">Eine Fußballspielerin nimmt vor einigen Spielen Doping ein. Spiele können entweder gewonnen oder verloren werden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Sie gewinnt ein Spiel.</p> <p>B: Sie dopt in einem Spiel.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass sie ein Spiel gewinnt, 94% beträgt, dass \( P(B) \)\( = \)\( 0,18 \) und dass die Wahrscheinlichkeit, dass sie ein Spiel gewinnt oder dopt, 95,08% beträgt.</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass sie in einem Spiel nicht dopt.<br>
+        <input type="number" id="answer50" placeholder="Antwort">
+        <button onclick="checkAnswer(50, 0.82, 0.0001)">Überprüfen</button>
+        <span id="feedback50"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer51" placeholder="Antwort">
+        <button onclick="checkAnswer(51, 0.1692, 0.0001)">Überprüfen</button>
+        <span id="feedback51"></span>
+        </li>
+<li>\( P_A(B) \).<br>
+        <input type="number" id="answer52" placeholder="Antwort">
+        <button onclick="checkAnswer(52, 0.18, 0.0001)">Überprüfen</button>
+        <span id="feedback52"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer53" placeholder="Antwort">
+        <button onclick="checkAnswer(53, 0.82, 0.0001)">Überprüfen</button>
+        <span id="feedback53"></span>
+        </li>
+<li>\( P(A\cap\overline{B}) \).<br>
+        <input type="number" id="answer54" placeholder="Antwort">
+        <button onclick="checkAnswer(54, 0.7708, 0.0001)">Überprüfen</button>
+        <span id="feedback54"></span>
+        </li>
+<li>\( P_{\overline{B}}(A) \).<br>
+        <input type="number" id="answer55" placeholder="Antwort">
+        <button onclick="checkAnswer(55, 0.94, 0.0001)">Überprüfen</button>
+        <span id="feedback55"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer56" placeholder="Antwort">
+        <button onclick="checkAnswer(56, 0.9892, 0.0001)">Überprüfen</button>
+        <span id="feedback56"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>09 </h2>
+<div class="einleitung">Ein Unternehmen stellt fest, ob seine Mitarbeiter im Home-Office oder in Präsenz arbeiten. Es gibt Voll- und Teilzeitkräfte. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Mitarbeiter arbeitet im Home-Office.</p> <p>B: Ein Mitarbeiter arbeitet in Vollzeit.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,62 \), dass \( P(B) \)\( = \)\( 0,4532 \) und dass \( P(A\cup B) \)\( = \)\( 0,943 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{A}) \).<br>
+        <input type="number" id="answer57" placeholder="Antwort">
+        <button onclick="checkAnswer(57, 0.38, 0.0001)">Überprüfen</button>
+        <span id="feedback57"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer58" placeholder="Antwort">
+        <button onclick="checkAnswer(58, 0.1302, 0.0001)">Überprüfen</button>
+        <span id="feedback58"></span>
+        </li>
+<li>\( P_A(B) \).<br>
+        <input type="number" id="answer59" placeholder="Antwort">
+        <button onclick="checkAnswer(59, 0.21, 0.0001)">Überprüfen</button>
+        <span id="feedback59"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Mitarbeiter im Home-Office teilzeit arbeitet.<br>
+        <input type="number" id="answer60" placeholder="Antwort">
+        <button onclick="checkAnswer(60, 0.79, 0.0001)">Überprüfen</button>
+        <span id="feedback60"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Mitarbeiter teilzeit und im Home-Office arbeitet.<br>
+        <input type="number" id="answer61" placeholder="Antwort">
+        <button onclick="checkAnswer(61, 0.4898, 0.0001)">Überprüfen</button>
+        <span id="feedback61"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine Teilzeitkraft im Home-Office arbeitet.<br>
+        <input type="number" id="answer62" placeholder="Antwort">
+        <button onclick="checkAnswer(62, 0.8958, 0.0001)">Überprüfen</button>
+        <span id="feedback62"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Mitarbeiter im Home-Office oder teilzeit arbeitet.<br>
+        <input type="number" id="answer63" placeholder="Antwort">
+        <button onclick="checkAnswer(63, 0.677, 0.0001)">Überprüfen</button>
+        <span id="feedback63"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>10 </h2>
+<div class="einleitung">Die Geschäftsleitung des Restaurants interessiert sich dafür, wie kinderfreundlich die konkurrierenden Restaurants der Stadt sind. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Restaurant verfügt über einen Biergarten.</p> <p>B: Ein Restaurant verfügt über eine Spielecke.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,83 \), dass die Wahrscheinlichkeit, dass ein Restaurant über eine Spielecke verfügt, 67% beträgt und dass die Wahrscheinlichkeit, dass ein Restaurant über einen Biergarten oder eine Spielecke verfügt, 94,39% beträgt.</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Restaurant über keinen Biergarten verfügt.<br>
+        <input type="number" id="answer64" placeholder="Antwort">
+        <button onclick="checkAnswer(64, 0.17, 0.0001)">Überprüfen</button>
+        <span id="feedback64"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Restaurant über einen Biergarten und eine Spielecke verfügt.<br>
+        <input type="number" id="answer65" placeholder="Antwort">
+        <button onclick="checkAnswer(65, 0.5561, 0.0001)">Überprüfen</button>
+        <span id="feedback65"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Restaurant mit Spielecke über einen Biergarten verfügt.<br>
+        <input type="number" id="answer66" placeholder="Antwort">
+        <button onclick="checkAnswer(66, 0.83, 0.0001)">Überprüfen</button>
+        <span id="feedback66"></span>
+        </li>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer67" placeholder="Antwort">
+        <button onclick="checkAnswer(67, 0.17, 0.0001)">Überprüfen</button>
+        <span id="feedback67"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Restaurant über keinen Biergarten aber über eine Spielecke verfügt.<br>
+        <input type="number" id="answer68" placeholder="Antwort">
+        <button onclick="checkAnswer(68, 0.1139, 0.0001)">Überprüfen</button>
+        <span id="feedback68"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Restaurant ohne Biergarten über eine Spielecke verfügt.<br>
+        <input type="number" id="answer69" placeholder="Antwort">
+        <button onclick="checkAnswer(69, 0.67, 0.0001)">Überprüfen</button>
+        <span id="feedback69"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer70" placeholder="Antwort">
+        <button onclick="checkAnswer(70, 0.7261, 0.0001)">Überprüfen</button>
+        <span id="feedback70"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>11 </h2>
+<div class="einleitung">In einem Gartencenter wird konventionelle und nachhaltige Holzkohle angeboten. Beide Kohlearten sind als teure Originalprodukte oder günstige Nachahmerprodukte erhältlich. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde kauft nachhaltige Holzkohle.</p> <p>B: Ein Kunde kauft ein Originalprodukt.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Kunde nachhaltige Holzkohle kauft, 33% beträgt, dass \( P(B) \)\( = \)\( 0,1336 \) und dass \( P(A\cup B) \)\( = \)\( 0,4372 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer71" placeholder="Antwort">
+        <button onclick="checkAnswer(71, 0.8664, 0.0001)">Überprüfen</button>
+        <span id="feedback71"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer72" placeholder="Antwort">
+        <button onclick="checkAnswer(72, 0.0264, 0.0001)">Überprüfen</button>
+        <span id="feedback72"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein gekauftes Originalprodukt nachhaltig ist.<br>
+        <input type="number" id="answer73" placeholder="Antwort">
+        <button onclick="checkAnswer(73, 0.1976, 0.0001)">Überprüfen</button>
+        <span id="feedback73"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein gekauftes Originalprodukt konventionell ist.<br>
+        <input type="number" id="answer74" placeholder="Antwort">
+        <button onclick="checkAnswer(74, 0.8024, 0.0001)">Überprüfen</button>
+        <span id="feedback74"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Kunde ein konventionelles Originalprodukt kauft.<br>
+        <input type="number" id="answer75" placeholder="Antwort">
+        <button onclick="checkAnswer(75, 0.1072, 0.0001)">Überprüfen</button>
+        <span id="feedback75"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass gekaufte konventionelle Holzkohle ein Originalprodukt ist.<br>
+        <input type="number" id="answer76" placeholder="Antwort">
+        <button onclick="checkAnswer(76, 0.16, 0.0001)">Überprüfen</button>
+        <span id="feedback76"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer77" placeholder="Antwort">
+        <button onclick="checkAnswer(77, 0.6964, 0.0001)">Überprüfen</button>
+        <span id="feedback77"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ökobilanz der gekauften Holzkohle hat keinen Effekt darauf, ob es sich um Original- oder Nachahmerprodukt handelt.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>12 </h2>
+<div class="einleitung">Ein Geschäft für Heimwerkerbedarf bietet Wandfarbe in den Farben weiß und beige an, jeweils entweder matt oder glänzend. Genau ein Produkt ist im Sonderangebot. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Weiße Farbe ist im Sonderangebot.</p> <p>B: Matte Farbe ist im Sonderangebot.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass weiße Farbe im Sonderangebot ist, 96% beträgt, dass \( P(B) \)\( = \)\( 0,91 \) und dass \( P(A\cup B) \)\( = \)\( 0,9964 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass glänzende Farbe im Sonderangebot ist.<br>
+        <input type="number" id="answer78" placeholder="Antwort">
+        <button onclick="checkAnswer(78, 0.09, 0.0001)">Überprüfen</button>
+        <span id="feedback78"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer79" placeholder="Antwort">
+        <button onclick="checkAnswer(79, 0.8736, 0.0001)">Überprüfen</button>
+        <span id="feedback79"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass matte Farbe im Sonderangebot weiß ist.<br>
+        <input type="number" id="answer80" placeholder="Antwort">
+        <button onclick="checkAnswer(80, 0.96, 0.0001)">Überprüfen</button>
+        <span id="feedback80"></span>
+        </li>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer81" placeholder="Antwort">
+        <button onclick="checkAnswer(81, 0.04, 0.0001)">Überprüfen</button>
+        <span id="feedback81"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass beige, matte Farbe im Sonderangebot ist.<br>
+        <input type="number" id="answer82" placeholder="Antwort">
+        <button onclick="checkAnswer(82, 0.0364, 0.0001)">Überprüfen</button>
+        <span id="feedback82"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass beige Farbe im Sonderangebot matt ist.<br>
+        <input type="number" id="answer83" placeholder="Antwort">
+        <button onclick="checkAnswer(83, 0.91, 0.0001)">Überprüfen</button>
+        <span id="feedback83"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass beige oder matte Farbe im Sonderangebot ist.<br>
+        <input type="number" id="answer84" placeholder="Antwort">
+        <button onclick="checkAnswer(84, 0.9136, 0.0001)">Überprüfen</button>
+        <span id="feedback84"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch abhängig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>13 </h2>
+<div class="einleitung">Personen werden damit erpresst, dass Hacker angeblich Mitschnitte einer Webcam besitzen, die die Person beim Pornokonsum zeigt. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Opfer ist minderjährig.</p> <p>B: Ein Opfer alarmiert die Polizei.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,73 \), dass die Wahrscheinlichkeit, dass ein Opfer die Polizei alarmiert, 77,88% beträgt und dass die Wahrscheinlichkeit, dass ein Opfer minderjährig ist oder die Polizei alarmiert, 82,99% beträgt.</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer85" placeholder="Antwort">
+        <button onclick="checkAnswer(85, 0.2212, 0.0001)">Überprüfen</button>
+        <span id="feedback85"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Opfer minderjährig ist und die Polizei alarmiert.<br>
+        <input type="number" id="answer86" placeholder="Antwort">
+        <button onclick="checkAnswer(86, 0.6789, 0.0001)">Überprüfen</button>
+        <span id="feedback86"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Opfer, das die Polizei alarmiert, minderjährig ist.<br>
+        <input type="number" id="answer87" placeholder="Antwort">
+        <button onclick="checkAnswer(87, 0.8717, 0.0001)">Überprüfen</button>
+        <span id="feedback87"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Opfer, das die Polizei alarmiert, erwachsen ist.<br>
+        <input type="number" id="answer88" placeholder="Antwort">
+        <button onclick="checkAnswer(88, 0.1283, 0.0001)">Überprüfen</button>
+        <span id="feedback88"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Opfer erwachsen ist und die Polizei alarmiert.<br>
+        <input type="number" id="answer89" placeholder="Antwort">
+        <button onclick="checkAnswer(89, 0.0999, 0.0001)">Überprüfen</button>
+        <span id="feedback89"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein erwachsenes Opfer die Polizei alarmiert.<br>
+        <input type="number" id="answer90" placeholder="Antwort">
+        <button onclick="checkAnswer(90, 0.37, 0.0001)">Überprüfen</button>
+        <span id="feedback90"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer91" placeholder="Antwort">
+        <button onclick="checkAnswer(91, 0.9489, 0.0001)">Überprüfen</button>
+        <span id="feedback91"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Das Alter des Opfers hat eine Auswirkung darauf, ob die Polizei alarmiert wird.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>14 </h2>
+<div class="einleitung">In einer Glaserei können bei der Produktion von hochwertigen Weingläsern zwei Fehler auftreten: Risse und Blaseneinschlüsse. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Glas hat einen Riss.</p> <p>B: Ein Glas hat einen Blaseneinschluss.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,96 \), dass \( P(B) \)\( = \)\( 0,2528 \) und dass \( P(A\cup B) \)\( = \)\( 0,9632 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Glas keinen Blaseneinschluss hat.<br>
+        <input type="number" id="answer92" placeholder="Antwort">
+        <button onclick="checkAnswer(92, 0.7472, 0.0001)">Überprüfen</button>
+        <span id="feedback92"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer93" placeholder="Antwort">
+        <button onclick="checkAnswer(93, 0.2496, 0.0001)">Überprüfen</button>
+        <span id="feedback93"></span>
+        </li>
+<li>\( P_A(B) \).<br>
+        <input type="number" id="answer94" placeholder="Antwort">
+        <button onclick="checkAnswer(94, 0.26, 0.0001)">Überprüfen</button>
+        <span id="feedback94"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Glas mit Riss keinen Blaseneinschluss hat.<br>
+        <input type="number" id="answer95" placeholder="Antwort">
+        <button onclick="checkAnswer(95, 0.74, 0.0001)">Überprüfen</button>
+        <span id="feedback95"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Glas einen Riss aber keinen Blaseneinschluss hat.<br>
+        <input type="number" id="answer96" placeholder="Antwort">
+        <button onclick="checkAnswer(96, 0.7104, 0.0001)">Überprüfen</button>
+        <span id="feedback96"></span>
+        </li>
+<li>\( P_{\overline{B}}(A) \).<br>
+        <input type="number" id="answer97" placeholder="Antwort">
+        <button onclick="checkAnswer(97, 0.9507, 0.0001)">Überprüfen</button>
+        <span id="feedback97"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Glas einen Riss oder keinen Blaseneinschluss hat.<br>
+        <input type="number" id="answer98" placeholder="Antwort">
+        <button onclick="checkAnswer(98, 0.9968, 0.0001)">Überprüfen</button>
+        <span id="feedback98"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Die Ereignisse A und B sind stochastisch unabhängig.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>15 </h2>
+<div class="einleitung">Amalia sucht auf einer Online-Partnerbörse den Mann fürs Leben. Neben der äußerlichen Attraktivität ist es für sie wichtig, dass ihr Partner nicht raucht. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein vorgeschlagener Partner ist attraktiv.</p> <p>B: Ein vorgeschlagener Partner raucht.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein vorgeschlagener Partner attraktiv ist, 78% beträgt, dass \( P(B) \)\( = \)\( 0,08 \) und dass \( P(A\cup B) \)\( = \)\( 0,7976 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{A}) \).<br>
+        <input type="number" id="answer99" placeholder="Antwort">
+        <button onclick="checkAnswer(99, 0.22, 0.0001)">Überprüfen</button>
+        <span id="feedback99"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein vorgeschlagener Partner ein attraktiver Raucher ist.<br>
+        <input type="number" id="answer100" placeholder="Antwort">
+        <button onclick="checkAnswer(100, 0.0624, 0.0001)">Überprüfen</button>
+        <span id="feedback100"></span>
+        </li>
+<li>\( P_A(B) \).<br>
+        <input type="number" id="answer101" placeholder="Antwort">
+        <button onclick="checkAnswer(101, 0.08, 0.0001)">Überprüfen</button>
+        <span id="feedback101"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein vorgeschlagener, attraktiver Partner nicht raucht.<br>
+        <input type="number" id="answer102" placeholder="Antwort">
+        <button onclick="checkAnswer(102, 0.92, 0.0001)">Überprüfen</button>
+        <span id="feedback102"></span>
+        </li>
+<li>\( P(A\cap\overline{B}) \).<br>
+        <input type="number" id="answer103" placeholder="Antwort">
+        <button onclick="checkAnswer(103, 0.7176, 0.0001)">Überprüfen</button>
+        <span id="feedback103"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein vorgeschlagener Nichtraucher attraktiv ist.<br>
+        <input type="number" id="answer104" placeholder="Antwort">
+        <button onclick="checkAnswer(104, 0.78, 0.0001)">Überprüfen</button>
+        <span id="feedback104"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer105" placeholder="Antwort">
+        <button onclick="checkAnswer(105, 0.9824, 0.0001)">Überprüfen</button>
+        <span id="feedback105"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Es gibt einen Zusammenhang zwischen der Attraktivität eines vorgeschlagenen Rauchers und seinem Rauchverhalten.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>16 </h2>
+<div class="einleitung">Ein Unternehmen produziert Smartwatches, die vor dem Verkauf durch ein automatisiertes Verfahren ausgiebig getestet werden. Smartwatches mit Fehlern werden aussortiert. Allerdings kommt es auch vor, dass einige fehlerfreie Smartwatches aussortiert werden und dass einige fehlerbehaftete Smartwatches nicht aussortiert werden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Eine Smartwatch ist fehlerfrei.</p> <p>B: Eine Smartwatch wird aussortiert.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass eine Smartwatch fehlerfrei ist, 82% beträgt, dass die Wahrscheinlichkeit, dass eine Smartwatch aussortiert wird, 57,48% beträgt und dass die Wahrscheinlichkeit, dass eine Smartwatch fehlerfrei ist oder aussortiert wird, 82,9% beträgt.</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer106" placeholder="Antwort">
+        <button onclick="checkAnswer(106, 0.4252, 0.0001)">Überprüfen</button>
+        <span id="feedback106"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer107" placeholder="Antwort">
+        <button onclick="checkAnswer(107, 0.5658, 0.0001)">Überprüfen</button>
+        <span id="feedback107"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine fehlerfreie Smartwatch aussortiert wird.<br>
+        <input type="number" id="answer108" placeholder="Antwort">
+        <button onclick="checkAnswer(108, 0.69, 0.0001)">Überprüfen</button>
+        <span id="feedback108"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine fehlerfreie Smartwatch nicht aussortiert wird.<br>
+        <input type="number" id="answer109" placeholder="Antwort">
+        <button onclick="checkAnswer(109, 0.31, 0.0001)">Überprüfen</button>
+        <span id="feedback109"></span>
+        </li>
+<li>\( P(A\cap\overline{B}) \).<br>
+        <input type="number" id="answer110" placeholder="Antwort">
+        <button onclick="checkAnswer(110, 0.2542, 0.0001)">Überprüfen</button>
+        <span id="feedback110"></span>
+        </li>
+<li>\( P_{\overline{B}}(A) \).<br>
+        <input type="number" id="answer111" placeholder="Antwort">
+        <button onclick="checkAnswer(111, 0.5978, 0.0001)">Überprüfen</button>
+        <span id="feedback111"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer112" placeholder="Antwort">
+        <button onclick="checkAnswer(112, 0.991, 0.0001)">Überprüfen</button>
+        <span id="feedback112"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Fehlerbehaftet Smartwatches werden mit einer anderen Wahrscheinlichkeit als fehlerfreie Smartwatches aussortiert.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>17 </h2>
+<div class="einleitung">Der Besitzer einer Imbissbude interessiert sich dafür, in welchen Größen Pommes bestellt werden und ob die Pommes mit Ketchup oder Mayonnaise bestellt wird. Es gibt nur große und kleine Pommes. Zudem wird jede Pommes mit Ketchup oder Mayonnaise bestellt. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Es wird eine große Pommes bestellt.</p> <p>B: Es wird eine Pommes mit Ketchup bestellt.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,91 \), dass \( P(B) \)\( = \)\( 0,8737 \) und dass \( P(A\cup B) \)\( = \)\( 0,9829 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{B}) \).<br>
+        <input type="number" id="answer113" placeholder="Antwort">
+        <button onclick="checkAnswer(113, 0.1263, 0.0001)">Überprüfen</button>
+        <span id="feedback113"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine große Pommes mit Ketchup bestellt wird.<br>
+        <input type="number" id="answer114" placeholder="Antwort">
+        <button onclick="checkAnswer(114, 0.8008, 0.0001)">Überprüfen</button>
+        <span id="feedback114"></span>
+        </li>
+<li>\( P_A(B) \).<br>
+        <input type="number" id="answer115" placeholder="Antwort">
+        <button onclick="checkAnswer(115, 0.88, 0.0001)">Überprüfen</button>
+        <span id="feedback115"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer116" placeholder="Antwort">
+        <button onclick="checkAnswer(116, 0.12, 0.0001)">Überprüfen</button>
+        <span id="feedback116"></span>
+        </li>
+<li>\( P(A\cap\overline{B}) \).<br>
+        <input type="number" id="answer117" placeholder="Antwort">
+        <button onclick="checkAnswer(117, 0.1092, 0.0001)">Überprüfen</button>
+        <span id="feedback117"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass die Bestellung einer Pommes mit Mayonnaise eine große Pommes ist.<br>
+        <input type="number" id="answer118" placeholder="Antwort">
+        <button onclick="checkAnswer(118, 0.8646, 0.0001)">Überprüfen</button>
+        <span id="feedback118"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer119" placeholder="Antwort">
+        <button onclick="checkAnswer(119, 0.9271, 0.0001)">Überprüfen</button>
+        <span id="feedback119"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Es gibt einen Zusammenhang zwischen der Größe einer bestellten Pommes und dem gewünschte Dressing.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>18 </h2>
+<div class="einleitung">Ein Unternehmen verkauft neue und gebrauchte Beamer. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde kauft Neuware.</p> <p>B: Ein Kunde reklamiert das Produkt.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,59 \), dass \( P(B) \)\( = \)\( 0,4693 \) und dass \( P(A\cup B) \)\( = \)\( 0,7171 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>\( P(\overline{A}) \).<br>
+        <input type="number" id="answer120" placeholder="Antwort">
+        <button onclick="checkAnswer(120, 0.41, 0.0001)">Überprüfen</button>
+        <span id="feedback120"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer121" placeholder="Antwort">
+        <button onclick="checkAnswer(121, 0.3422, 0.0001)">Überprüfen</button>
+        <span id="feedback121"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass eine reklamierte Ware neu ist.<br>
+        <input type="number" id="answer122" placeholder="Antwort">
+        <button onclick="checkAnswer(122, 0.7292, 0.0001)">Überprüfen</button>
+        <span id="feedback122"></span>
+        </li>
+<li>\( P_B(\overline{A}) \).<br>
+        <input type="number" id="answer123" placeholder="Antwort">
+        <button onclick="checkAnswer(123, 0.2708, 0.0001)">Überprüfen</button>
+        <span id="feedback123"></span>
+        </li>
+<li>\( P(\overline{A}\cap B) \).<br>
+        <input type="number" id="answer124" placeholder="Antwort">
+        <button onclick="checkAnswer(124, 0.1271, 0.0001)">Überprüfen</button>
+        <span id="feedback124"></span>
+        </li>
+<li>\( P_{\overline{A}}(B) \).<br>
+        <input type="number" id="answer125" placeholder="Antwort">
+        <button onclick="checkAnswer(125, 0.31, 0.0001)">Überprüfen</button>
+        <span id="feedback125"></span>
+        </li>
+<li>\( P(\overline{A}\cup B) \).<br>
+        <input type="number" id="answer126" placeholder="Antwort">
+        <button onclick="checkAnswer(126, 0.7522, 0.0001)">Überprüfen</button>
+        <span id="feedback126"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Ob es sich bei einem Produkt um Neu- oder Gebrauchtware handelt, hat einen Einfluss darauf, ob es reklamiert wird.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+<h2>19 </h2>
+<div class="einleitung">Eine Influencerin stellt ihren Followern zwei neue Lippenstifte vor: "Ambition" und "Bonny". Sie möchte von ihren Followern wissen, wie sie die beiden Lippenstifte finden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Einem Follower gefällt Ambition.</p> <p>B: Einem Follower gefällt Bonny.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass einem Follower Ambition gefällt, 32% beträgt, dass \( P(B) \)\( = \)\( 0,4296 \) und dass \( P(A\cup B) \)\( = \)\( 0,4424 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass einem Follower Ambition nicht gefällt.<br>
+        <input type="number" id="answer127" placeholder="Antwort">
+        <button onclick="checkAnswer(127, 0.68, 0.0001)">Überprüfen</button>
+        <span id="feedback127"></span>
+        </li>
+<li>\( P(A\cap B) \).<br>
+        <input type="number" id="answer128" placeholder="Antwort">
+        <button onclick="checkAnswer(128, 0.3072, 0.0001)">Überprüfen</button>
+        <span id="feedback128"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass einem Follower, dem Ambition gefällt, auch Bonny gefällt.<br>
+        <input type="number" id="answer129" placeholder="Antwort">
+        <button onclick="checkAnswer(129, 0.96, 0.0001)">Überprüfen</button>
+        <span id="feedback129"></span>
+        </li>
+<li>\( P_A(\overline{B}) \).<br>
+        <input type="number" id="answer130" placeholder="Antwort">
+        <button onclick="checkAnswer(130, 0.04, 0.0001)">Überprüfen</button>
+        <span id="feedback130"></span>
+        </li>
+<li>\( P(A\cap\overline{B}) \).<br>
+        <input type="number" id="answer131" placeholder="Antwort">
+        <button onclick="checkAnswer(131, 0.0128, 0.0001)">Überprüfen</button>
+        <span id="feedback131"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass einem Follower, dem Bonny nicht gefällt, Ambition gefällt.<br>
+        <input type="number" id="answer132" placeholder="Antwort">
+        <button onclick="checkAnswer(132, 0.0224, 0.0001)">Überprüfen</button>
+        <span id="feedback132"></span>
+        </li>
+<li>\( P(A\cup\overline{B}) \).<br>
+        <input type="number" id="answer133" placeholder="Antwort">
+        <button onclick="checkAnswer(133, 0.8776, 0.0001)">Überprüfen</button>
+        <span id="feedback133"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Ob einem Follower Ambition gefällt, keinen Einfluss darauf, ob ihm auch Bonny gefällt.<br>{1:MCH:~Richtig~=Falsch}</li>
+</ol>
+<h2>20 </h2>
+<div class="einleitung">Ein Lebensmittelkonzern verschafft sich einen Überblick darüber, welche seiner Produkte biologisch und regional sind. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Produkt ist biologisch.</p> <p>B: Ein Produkt ist regional.</p> <p>Es ist bekannt, dass \( P(A) \)\( = \)\( 0,36 \), dass die Wahrscheinlichkeit, dass ein Produkt regional ist, 47% beträgt und dass \( P(A\cup B) \)\( = \)\( 0,6608 \).</p> <p>Berechnen Sie (Angabe als Dezimalzahl auf 4 NKS gerundet) </div>
+<ol>
+<li>die Wahrscheinlichkeit, dass ein Produkt nicht biologisch.<br>
+        <input type="number" id="answer134" placeholder="Antwort">
+        <button onclick="checkAnswer(134, 0.64, 0.0001)">Überprüfen</button>
+        <span id="feedback134"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Produkt biologisch und regional ist.<br>
+        <input type="number" id="answer135" placeholder="Antwort">
+        <button onclick="checkAnswer(135, 0.1692, 0.0001)">Überprüfen</button>
+        <span id="feedback135"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein regionales Produkt biologisch ist.<br>
+        <input type="number" id="answer136" placeholder="Antwort">
+        <button onclick="checkAnswer(136, 0.36, 0.0001)">Überprüfen</button>
+        <span id="feedback136"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein regionales Produkt nicht biologisch ist.<br>
+        <input type="number" id="answer137" placeholder="Antwort">
+        <button onclick="checkAnswer(137, 0.64, 0.0001)">Überprüfen</button>
+        <span id="feedback137"></span>
+        </li>
+<li>\( P(\overline{A}\cap B) \).<br>
+        <input type="number" id="answer138" placeholder="Antwort">
+        <button onclick="checkAnswer(138, 0.3008, 0.0001)">Überprüfen</button>
+        <span id="feedback138"></span>
+        </li>
+<li>\( P_{\overline{A}}(B) \).<br>
+        <input type="number" id="answer139" placeholder="Antwort">
+        <button onclick="checkAnswer(139, 0.47, 0.0001)">Überprüfen</button>
+        <span id="feedback139"></span>
+        </li>
+<li>die Wahrscheinlichkeit, dass ein Produkt nicht biologisch oder regional ist.<br>
+        <input type="number" id="answer140" placeholder="Antwort">
+        <button onclick="checkAnswer(140, 0.8092, 0.0001)">Überprüfen</button>
+        <span id="feedback140"></span>
+        </li>
+<li>Überprüfen Sie die folgende Behauptung:Ein Bioprodukt ist mit der gleichen Wahrscheinlichkeit regional wie ein beliebig ausgewähltes Produkt.<br>{1:MCH:~=Richtig~Falsch}</li>
+</ol>
+
+    <script type="text/javascript">
+        // Funktion zur Überprüfung der Antworten
+        function checkAnswer(questionId, correctAnswer, tolerance) {
+            var userAnswer = parseFloat(document.getElementById("answer" + questionId).value);
+            var feedback = document.getElementById("feedback" + questionId);
+            if (isNaN(userAnswer)) {
+                feedback.textContent = "Bitte eine gültige Zahl eingeben.";
+                feedback.style.color = "orange";
+                feedback.style.opacity = 1;
+            } else if (Math.abs(userAnswer - correctAnswer) <= tolerance) {
+                feedback.textContent = "Richtig!";
+                feedback.style.color = "green";
+                feedback.style.opacity = 1;
+            } else {
+                feedback.textContent = "Falsch! Die richtige Antwort ist: " + correctAnswer;
+                feedback.style.color = "red";
+                feedback.style.opacity = 1;
+            }
+            // Sanfter Übergang für die Feedback-Nachricht
+            feedback.style.transition = "opacity 0.5s ease-in-out";
+        }
+    </script>
+    </body>
+</html>
