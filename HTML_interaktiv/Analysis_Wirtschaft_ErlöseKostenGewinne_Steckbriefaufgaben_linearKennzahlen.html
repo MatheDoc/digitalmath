@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>Analysis_Wirtschaft_ErlöseKostenGewinne</title>
+
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        background-color: #4e73df;
+        color: white;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #333;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .einleitung {
+        margin: 0 auto;
+        max-width: 700px;
+    }
+
+    p {
+        color: #555;
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    ol {
+        margin: 0 auto;
+        padding: 0;
+        list-style-position: inside;
+        max-width: 700px;
+    }
+
+    li {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="number"] {
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 80px;
+    }
+
+    button {
+        background-color: #4e73df;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 10px; 
+    }
+
+    button:hover {
+        background-color: #2e59d9;
+    }
+
+    #feedback1, #feedback2, #feedback3, #feedback4, #feedback5,
+    #feedback6, #feedback7, #feedback8, #feedback9, #feedback10 {
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+        li {
+            padding: 15px;
+        }
+
+        input[type="number"] {
+            width: 60px;
+        }
+    }
+
+    /* Feste Bildbreite */
+    img {
+        width: 700px;
+    } 
+
+    </style>
+    </head>
+<body>
+<h1>06 Steckbriefaufgaben/linearKennzahlen</h1>
+<h2>01 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 360 GE.</p> <p>Die Gewinnschwelle beträgt 15 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer1" placeholder="Antwort">
+        <button onclick="checkAnswer(1, 0, 0)">Überprüfen</button>
+        <span id="feedback1"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer2" placeholder="Antwort">
+        <button onclick="checkAnswer(2, 0, 0)">Überprüfen</button>
+        <span id="feedback2"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer3" placeholder="Antwort">
+        <button onclick="checkAnswer(3, 24, 0)">Überprüfen</button>
+        <span id="feedback3"></span>
+        \( x \) + 
+        <input type="number" id="answer4" placeholder="Antwort">
+        <button onclick="checkAnswer(4, -360, 0)">Überprüfen</button>
+        <span id="feedback4"></span>
+        </li>
+</ol>
+<h2>02 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1037 GE.</p> <p>Die Gewinnschwelle beträgt 61 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer5" placeholder="Antwort">
+        <button onclick="checkAnswer(5, 0, 0)">Überprüfen</button>
+        <span id="feedback5"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer6" placeholder="Antwort">
+        <button onclick="checkAnswer(6, 0, 0)">Überprüfen</button>
+        <span id="feedback6"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer7" placeholder="Antwort">
+        <button onclick="checkAnswer(7, 17, 0)">Überprüfen</button>
+        <span id="feedback7"></span>
+        \( x \) + 
+        <input type="number" id="answer8" placeholder="Antwort">
+        <button onclick="checkAnswer(8, -1037, 0)">Überprüfen</button>
+        <span id="feedback8"></span>
+        </li>
+</ol>
+<h2>03 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 378 GE.</p> <p>Die Gewinnschwelle beträgt 42 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer9" placeholder="Antwort">
+        <button onclick="checkAnswer(9, 0, 0)">Überprüfen</button>
+        <span id="feedback9"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer10" placeholder="Antwort">
+        <button onclick="checkAnswer(10, 0, 0)">Überprüfen</button>
+        <span id="feedback10"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer11" placeholder="Antwort">
+        <button onclick="checkAnswer(11, 9, 0)">Überprüfen</button>
+        <span id="feedback11"></span>
+        \( x \) + 
+        <input type="number" id="answer12" placeholder="Antwort">
+        <button onclick="checkAnswer(12, -378, 0)">Überprüfen</button>
+        <span id="feedback12"></span>
+        </li>
+</ol>
+<h2>04 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 99 GE.</p> <p>Die Sättigungsmenge beträgt 11 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Preis-Absatz-Funktion.<br>\( p(x)= \)
+        <input type="number" id="answer13" placeholder="Antwort">
+        <button onclick="checkAnswer(13, 0, 0)">Überprüfen</button>
+        <span id="feedback13"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer14" placeholder="Antwort">
+        <button onclick="checkAnswer(14, 0, 0)">Überprüfen</button>
+        <span id="feedback14"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer15" placeholder="Antwort">
+        <button onclick="checkAnswer(15, -9, 0)">Überprüfen</button>
+        <span id="feedback15"></span>
+        \( x \) + 
+        <input type="number" id="answer16" placeholder="Antwort">
+        <button onclick="checkAnswer(16, 99, 0)">Überprüfen</button>
+        <span id="feedback16"></span>
+        </li>
+</ol>
+<h2>05 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 273,8 GE.</p> <p>Die Sättigungsmenge beträgt 74 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Preis-Absatz-Funktion.<br>\( p(x)= \)
+        <input type="number" id="answer17" placeholder="Antwort">
+        <button onclick="checkAnswer(17, 0, 0)">Überprüfen</button>
+        <span id="feedback17"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer18" placeholder="Antwort">
+        <button onclick="checkAnswer(18, 0, 0)">Überprüfen</button>
+        <span id="feedback18"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer19" placeholder="Antwort">
+        <button onclick="checkAnswer(19, -3.7, 0)">Überprüfen</button>
+        <span id="feedback19"></span>
+        \( x \) + 
+        <input type="number" id="answer20" placeholder="Antwort">
+        <button onclick="checkAnswer(20, 273.8, 0)">Überprüfen</button>
+        <span id="feedback20"></span>
+        </li>
+</ol>
+<h2>06 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 162 GE.</p> <p>Die Gewinnschwelle beträgt 81 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer21" placeholder="Antwort">
+        <button onclick="checkAnswer(21, 0, 0)">Überprüfen</button>
+        <span id="feedback21"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer22" placeholder="Antwort">
+        <button onclick="checkAnswer(22, 0, 0)">Überprüfen</button>
+        <span id="feedback22"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer23" placeholder="Antwort">
+        <button onclick="checkAnswer(23, 2, 0)">Überprüfen</button>
+        <span id="feedback23"></span>
+        \( x \) + 
+        <input type="number" id="answer24" placeholder="Antwort">
+        <button onclick="checkAnswer(24, -162, 0)">Überprüfen</button>
+        <span id="feedback24"></span>
+        </li>
+</ol>
+<h2>07 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 17 GE.</p> <p>Die Sättigungsmenge beträgt 34 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Preis-Absatz-Funktion.<br>\( p(x)= \)
+        <input type="number" id="answer25" placeholder="Antwort">
+        <button onclick="checkAnswer(25, 0, 0)">Überprüfen</button>
+        <span id="feedback25"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer26" placeholder="Antwort">
+        <button onclick="checkAnswer(26, 0, 0)">Überprüfen</button>
+        <span id="feedback26"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer27" placeholder="Antwort">
+        <button onclick="checkAnswer(27, -0.5, 0)">Überprüfen</button>
+        <span id="feedback27"></span>
+        \( x \) + 
+        <input type="number" id="answer28" placeholder="Antwort">
+        <button onclick="checkAnswer(28, 17, 0)">Überprüfen</button>
+        <span id="feedback28"></span>
+        </li>
+</ol>
+<h2>08 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 2068 GE.</p> <p>Die Gewinnschwelle beträgt 94 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer29" placeholder="Antwort">
+        <button onclick="checkAnswer(29, 0, 0)">Überprüfen</button>
+        <span id="feedback29"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer30" placeholder="Antwort">
+        <button onclick="checkAnswer(30, 0, 0)">Überprüfen</button>
+        <span id="feedback30"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer31" placeholder="Antwort">
+        <button onclick="checkAnswer(31, 22, 0)">Überprüfen</button>
+        <span id="feedback31"></span>
+        \( x \) + 
+        <input type="number" id="answer32" placeholder="Antwort">
+        <button onclick="checkAnswer(32, -2068, 0)">Überprüfen</button>
+        <span id="feedback32"></span>
+        </li>
+</ol>
+<h2>09 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 400 GE.</p> <p>Die Gewinnschwelle beträgt 40 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer33" placeholder="Antwort">
+        <button onclick="checkAnswer(33, 0, 0)">Überprüfen</button>
+        <span id="feedback33"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer34" placeholder="Antwort">
+        <button onclick="checkAnswer(34, 0, 0)">Überprüfen</button>
+        <span id="feedback34"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer35" placeholder="Antwort">
+        <button onclick="checkAnswer(35, 10, 0)">Überprüfen</button>
+        <span id="feedback35"></span>
+        \( x \) + 
+        <input type="number" id="answer36" placeholder="Antwort">
+        <button onclick="checkAnswer(36, -400, 0)">Überprüfen</button>
+        <span id="feedback36"></span>
+        </li>
+</ol>
+<h2>10 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1593 GE.</p> <p>Die Gewinnschwelle beträgt 59 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer37" placeholder="Antwort">
+        <button onclick="checkAnswer(37, 0, 0)">Überprüfen</button>
+        <span id="feedback37"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer38" placeholder="Antwort">
+        <button onclick="checkAnswer(38, 0, 0)">Überprüfen</button>
+        <span id="feedback38"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer39" placeholder="Antwort">
+        <button onclick="checkAnswer(39, 27, 0)">Überprüfen</button>
+        <span id="feedback39"></span>
+        \( x \) + 
+        <input type="number" id="answer40" placeholder="Antwort">
+        <button onclick="checkAnswer(40, -1593, 0)">Überprüfen</button>
+        <span id="feedback40"></span>
+        </li>
+</ol>
+<h2>11 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 66,3 GE.</p> <p>Die Sättigungsmenge beträgt 51 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Preis-Absatz-Funktion.<br>\( p(x)= \)
+        <input type="number" id="answer41" placeholder="Antwort">
+        <button onclick="checkAnswer(41, 0, 0)">Überprüfen</button>
+        <span id="feedback41"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer42" placeholder="Antwort">
+        <button onclick="checkAnswer(42, 0, 0)">Überprüfen</button>
+        <span id="feedback42"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer43" placeholder="Antwort">
+        <button onclick="checkAnswer(43, -1.3, 0)">Überprüfen</button>
+        <span id="feedback43"></span>
+        \( x \) + 
+        <input type="number" id="answer44" placeholder="Antwort">
+        <button onclick="checkAnswer(44, 66.3, 0)">Überprüfen</button>
+        <span id="feedback44"></span>
+        </li>
+</ol>
+<h2>12 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 94,6 GE.</p> <p>Die Sättigungsmenge beträgt 11 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Preis-Absatz-Funktion.<br>\( p(x)= \)
+        <input type="number" id="answer45" placeholder="Antwort">
+        <button onclick="checkAnswer(45, 0, 0)">Überprüfen</button>
+        <span id="feedback45"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer46" placeholder="Antwort">
+        <button onclick="checkAnswer(46, 0, 0)">Überprüfen</button>
+        <span id="feedback46"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer47" placeholder="Antwort">
+        <button onclick="checkAnswer(47, -8.6, 0)">Überprüfen</button>
+        <span id="feedback47"></span>
+        \( x \) + 
+        <input type="number" id="answer48" placeholder="Antwort">
+        <button onclick="checkAnswer(48, 94.6, 0)">Überprüfen</button>
+        <span id="feedback48"></span>
+        </li>
+</ol>
+<h2>13 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 170 GE.</p> <p>Die Gewinnschwelle beträgt 34 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer49" placeholder="Antwort">
+        <button onclick="checkAnswer(49, 0, 0)">Überprüfen</button>
+        <span id="feedback49"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer50" placeholder="Antwort">
+        <button onclick="checkAnswer(50, 0, 0)">Überprüfen</button>
+        <span id="feedback50"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer51" placeholder="Antwort">
+        <button onclick="checkAnswer(51, 5, 0)">Überprüfen</button>
+        <span id="feedback51"></span>
+        \( x \) + 
+        <input type="number" id="answer52" placeholder="Antwort">
+        <button onclick="checkAnswer(52, -170, 0)">Überprüfen</button>
+        <span id="feedback52"></span>
+        </li>
+</ol>
+<h2>14 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 624 GE.</p> <p>Die Gewinnschwelle beträgt 24 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer53" placeholder="Antwort">
+        <button onclick="checkAnswer(53, 0, 0)">Überprüfen</button>
+        <span id="feedback53"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer54" placeholder="Antwort">
+        <button onclick="checkAnswer(54, 0, 0)">Überprüfen</button>
+        <span id="feedback54"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer55" placeholder="Antwort">
+        <button onclick="checkAnswer(55, 26, 0)">Überprüfen</button>
+        <span id="feedback55"></span>
+        \( x \) + 
+        <input type="number" id="answer56" placeholder="Antwort">
+        <button onclick="checkAnswer(56, -624, 0)">Überprüfen</button>
+        <span id="feedback56"></span>
+        </li>
+</ol>
+<h2>15 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 371 GE.</p> <p>Die Sättigungsmenge beträgt 53 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Preis-Absatz-Funktion.<br>\( p(x)= \)
+        <input type="number" id="answer57" placeholder="Antwort">
+        <button onclick="checkAnswer(57, 0, 0)">Überprüfen</button>
+        <span id="feedback57"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer58" placeholder="Antwort">
+        <button onclick="checkAnswer(58, 0, 0)">Überprüfen</button>
+        <span id="feedback58"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer59" placeholder="Antwort">
+        <button onclick="checkAnswer(59, -7, 0)">Überprüfen</button>
+        <span id="feedback59"></span>
+        \( x \) + 
+        <input type="number" id="answer60" placeholder="Antwort">
+        <button onclick="checkAnswer(60, 371, 0)">Überprüfen</button>
+        <span id="feedback60"></span>
+        </li>
+</ol>
+<h2>16 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 93 GE.</p> <p>Die Gewinnschwelle beträgt 3 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer61" placeholder="Antwort">
+        <button onclick="checkAnswer(61, 0, 0)">Überprüfen</button>
+        <span id="feedback61"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer62" placeholder="Antwort">
+        <button onclick="checkAnswer(62, 0, 0)">Überprüfen</button>
+        <span id="feedback62"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer63" placeholder="Antwort">
+        <button onclick="checkAnswer(63, 31, 0)">Überprüfen</button>
+        <span id="feedback63"></span>
+        \( x \) + 
+        <input type="number" id="answer64" placeholder="Antwort">
+        <button onclick="checkAnswer(64, -93, 0)">Überprüfen</button>
+        <span id="feedback64"></span>
+        </li>
+</ol>
+<h2>17 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 989 GE.</p> <p>Die Gewinnschwelle beträgt 43 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer65" placeholder="Antwort">
+        <button onclick="checkAnswer(65, 0, 0)">Überprüfen</button>
+        <span id="feedback65"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer66" placeholder="Antwort">
+        <button onclick="checkAnswer(66, 0, 0)">Überprüfen</button>
+        <span id="feedback66"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer67" placeholder="Antwort">
+        <button onclick="checkAnswer(67, 23, 0)">Überprüfen</button>
+        <span id="feedback67"></span>
+        \( x \) + 
+        <input type="number" id="answer68" placeholder="Antwort">
+        <button onclick="checkAnswer(68, -989, 0)">Überprüfen</button>
+        <span id="feedback68"></span>
+        </li>
+</ol>
+<h2>18 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 2,2 GE.</p> <p>Die Sättigungsmenge beträgt 22 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Preis-Absatz-Funktion.<br>\( p(x)= \)
+        <input type="number" id="answer69" placeholder="Antwort">
+        <button onclick="checkAnswer(69, 0, 0)">Überprüfen</button>
+        <span id="feedback69"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer70" placeholder="Antwort">
+        <button onclick="checkAnswer(70, 0, 0)">Überprüfen</button>
+        <span id="feedback70"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer71" placeholder="Antwort">
+        <button onclick="checkAnswer(71, -0.1, 0)">Überprüfen</button>
+        <span id="feedback71"></span>
+        \( x \) + 
+        <input type="number" id="answer72" placeholder="Antwort">
+        <button onclick="checkAnswer(72, 2.2, 0)">Überprüfen</button>
+        <span id="feedback72"></span>
+        </li>
+</ol>
+<h2>19 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 432 GE.</p> <p>Die Gewinnschwelle beträgt 36 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Gewinnfunktion.<br>\( G(x)= \)
+        <input type="number" id="answer73" placeholder="Antwort">
+        <button onclick="checkAnswer(73, 0, 0)">Überprüfen</button>
+        <span id="feedback73"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer74" placeholder="Antwort">
+        <button onclick="checkAnswer(74, 0, 0)">Überprüfen</button>
+        <span id="feedback74"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer75" placeholder="Antwort">
+        <button onclick="checkAnswer(75, 12, 0)">Überprüfen</button>
+        <span id="feedback75"></span>
+        \( x \) + 
+        <input type="number" id="answer76" placeholder="Antwort">
+        <button onclick="checkAnswer(76, -432, 0)">Überprüfen</button>
+        <span id="feedback76"></span>
+        </li>
+</ol>
+<h2>20 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 395,2 GE.</p> <p>Die Sättigungsmenge beträgt 76 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die lineare Preis-Absatz-Funktion.<br>\( p(x)= \)
+        <input type="number" id="answer77" placeholder="Antwort">
+        <button onclick="checkAnswer(77, 0, 0)">Überprüfen</button>
+        <span id="feedback77"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer78" placeholder="Antwort">
+        <button onclick="checkAnswer(78, 0, 0)">Überprüfen</button>
+        <span id="feedback78"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer79" placeholder="Antwort">
+        <button onclick="checkAnswer(79, -5.2, 0)">Überprüfen</button>
+        <span id="feedback79"></span>
+        \( x \) + 
+        <input type="number" id="answer80" placeholder="Antwort">
+        <button onclick="checkAnswer(80, 395.2, 0)">Überprüfen</button>
+        <span id="feedback80"></span>
+        </li>
+</ol>
+
+    <script type="text/javascript">
+        // Funktion zur Überprüfung der Antworten
+        function checkAnswer(questionId, correctAnswer, tolerance) {
+            var userAnswer = parseFloat(document.getElementById("answer" + questionId).value);
+            var feedback = document.getElementById("feedback" + questionId);
+            if (isNaN(userAnswer)) {
+                feedback.textContent = "Bitte eine gültige Zahl eingeben.";
+                feedback.style.color = "orange";
+                feedback.style.opacity = 1;
+            } else if (Math.abs(userAnswer - correctAnswer) <= tolerance) {
+                feedback.textContent = "Richtig!";
+                feedback.style.color = "green";
+                feedback.style.opacity = 1;
+            } else {
+                feedback.textContent = "Falsch! Die richtige Antwort ist: " + correctAnswer;
+                feedback.style.color = "red";
+                feedback.style.opacity = 1;
+            }
+            // Sanfter Übergang für die Feedback-Nachricht
+            feedback.style.transition = "opacity 0.5s ease-in-out";
+        }
+    </script>
+    </body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>Analysis_Wirtschaft_ErlöseKostenGewinne</title>
+
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        background-color: #4e73df;
+        color: white;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #333;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .einleitung {
+        margin: 0 auto;
+        max-width: 700px;
+    }
+
+    p {
+        color: #555;
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    ol {
+        margin: 0 auto;
+        padding: 0;
+        list-style-position: inside;
+        max-width: 700px;
+    }
+
+    li {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="number"] {
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 80px;
+    }
+
+    button {
+        background-color: #4e73df;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 10px; 
+    }
+
+    button:hover {
+        background-color: #2e59d9;
+    }
+
+    #feedback1, #feedback2, #feedback3, #feedback4, #feedback5,
+    #feedback6, #feedback7, #feedback8, #feedback9, #feedback10 {
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+        li {
+            padding: 15px;
+        }
+
+        input[type="number"] {
+            width: 60px;
+        }
+    }
+
+    /* Feste Bildbreite */
+    img {
+        width: 700px;
+    } 
+
+    </style>
+    </head>
+<body>
+<h1>06 Steckbriefaufgaben/kubischKennzahlen</h1>
+<h2>01 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 691,2 GE.</p> <p>Die Stückkosten bei 25 ME betragen 78,148 GE/ME.</p> <p>Das Betriebsoptimum beträgt 24 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 78 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer1" placeholder="Antwort">
+        <button onclick="checkAnswer(1, 0.1, 0)">Überprüfen</button>
+        <span id="feedback1"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer2" placeholder="Antwort">
+        <button onclick="checkAnswer(2, -3.6, 0)">Überprüfen</button>
+        <span id="feedback2"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer3" placeholder="Antwort">
+        <button onclick="checkAnswer(3, 78, 0)">Überprüfen</button>
+        <span id="feedback3"></span>
+        \( x \) + 
+        <input type="number" id="answer4" placeholder="Antwort">
+        <button onclick="checkAnswer(4, 691.2, 0)">Überprüfen</button>
+        <span id="feedback4"></span>
+        </li>
+</ol>
+<h2>02 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 4 ME betragen 44 GE.</p> <p>Die Stückkosten bei 2 ME betragen 15 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 2 ME statt.</p> <p>Das Betriebsoptimum beträgt 4 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer5" placeholder="Antwort">
+        <button onclick="checkAnswer(5, 0.5, 0)">Überprüfen</button>
+        <span id="feedback5"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer6" placeholder="Antwort">
+        <button onclick="checkAnswer(6, -3, 0)">Überprüfen</button>
+        <span id="feedback6"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer7" placeholder="Antwort">
+        <button onclick="checkAnswer(7, 11, 0)">Überprüfen</button>
+        <span id="feedback7"></span>
+        \( x \) + 
+        <input type="number" id="answer8" placeholder="Antwort">
+        <button onclick="checkAnswer(8, 16, 0)">Überprüfen</button>
+        <span id="feedback8"></span>
+        </li>
+</ol>
+<h2>03 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 19 ME betragen 4895,4 GE.</p> <p>Die variablen Stückkosten bei 13 ME betragen 166,2 GE/ME.</p> <p>Das Betriebsoptimum beträgt 18 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 256,6 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer9" placeholder="Antwort">
+        <button onclick="checkAnswer(9, 0.8, 0)">Überprüfen</button>
+        <span id="feedback9"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer10" placeholder="Antwort">
+        <button onclick="checkAnswer(10, -24, 0)">Überprüfen</button>
+        <span id="feedback10"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer11" placeholder="Antwort">
+        <button onclick="checkAnswer(11, 343, 0)">Überprüfen</button>
+        <span id="feedback11"></span>
+        \( x \) + 
+        <input type="number" id="answer12" placeholder="Antwort">
+        <button onclick="checkAnswer(12, 1555.2, 0)">Überprüfen</button>
+        <span id="feedback12"></span>
+        </li>
+</ol>
+<h2>04 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1382,4 GE.</p> <p>Die Stückkosten bei 5 ME betragen 397,48 GE/ME.</p> <p>Das Betriebsoptimum beträgt 24 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 152 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer13" placeholder="Antwort">
+        <button onclick="checkAnswer(13, 0.2, 0)">Überprüfen</button>
+        <span id="feedback13"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer14" placeholder="Antwort">
+        <button onclick="checkAnswer(14, -7.2, 0)">Überprüfen</button>
+        <span id="feedback14"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer15" placeholder="Antwort">
+        <button onclick="checkAnswer(15, 152, 0)">Überprüfen</button>
+        <span id="feedback15"></span>
+        \( x \) + 
+        <input type="number" id="answer16" placeholder="Antwort">
+        <button onclick="checkAnswer(16, 1382.4, 0)">Überprüfen</button>
+        <span id="feedback16"></span>
+        </li>
+</ol>
+<h2>05 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 16 ME betragen 15900 GE.</p> <p>Die variablen Stückkosten bei 36 ME betragen 277 GE/ME.</p> <p>Die Grenzkosten bei 37 ME betragen 884,5 ME/GE.</p> <p>Das Betriebsminimum beträgt 21 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer17" placeholder="Antwort">
+        <button onclick="checkAnswer(17, 0.5, 0)">Überprüfen</button>
+        <span id="feedback17"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer18" placeholder="Antwort">
+        <button onclick="checkAnswer(18, -21, 0)">Überprüfen</button>
+        <span id="feedback18"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer19" placeholder="Antwort">
+        <button onclick="checkAnswer(19, 385, 0)">Überprüfen</button>
+        <span id="feedback19"></span>
+        \( x \) + 
+        <input type="number" id="answer20" placeholder="Antwort">
+        <button onclick="checkAnswer(20, 13068, 0)">Überprüfen</button>
+        <span id="feedback20"></span>
+        </li>
+</ol>
+<h2>06 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 12 ME betragen 2976 GE.</p> <p>Die variablen Stückkosten bei 19 ME betragen 110,5 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 8 ME statt.</p> <p>Das Betriebsoptimum beträgt 18 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer21" placeholder="Antwort">
+        <button onclick="checkAnswer(21, 0.5, 0)">Überprüfen</button>
+        <span id="feedback21"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer22" placeholder="Antwort">
+        <button onclick="checkAnswer(22, -12, 0)">Überprüfen</button>
+        <span id="feedback22"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer23" placeholder="Antwort">
+        <button onclick="checkAnswer(23, 158, 0)">Überprüfen</button>
+        <span id="feedback23"></span>
+        \( x \) + 
+        <input type="number" id="answer24" placeholder="Antwort">
+        <button onclick="checkAnswer(24, 1944, 0)">Überprüfen</button>
+        <span id="feedback24"></span>
+        </li>
+</ol>
+<h2>07 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1080 GE.</p> <p>Die variablen Stückkosten bei 18 ME betragen 87 GE/ME.</p> <p>Das Betriebsminimum beträgt 9 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 54,6 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer25" placeholder="Antwort">
+        <button onclick="checkAnswer(25, 0.4, 0)">Überprüfen</button>
+        <span id="feedback25"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer26" placeholder="Antwort">
+        <button onclick="checkAnswer(26, -7.2, 0)">Überprüfen</button>
+        <span id="feedback26"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer27" placeholder="Antwort">
+        <button onclick="checkAnswer(27, 87, 0)">Überprüfen</button>
+        <span id="feedback27"></span>
+        \( x \) + 
+        <input type="number" id="answer28" placeholder="Antwort">
+        <button onclick="checkAnswer(28, 1080, 0)">Überprüfen</button>
+        <span id="feedback28"></span>
+        </li>
+</ol>
+<h2>08 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 19 ME betragen 990,9 GE.</p> <p>Die variablen Stückkosten bei 21 ME betragen 33,1 GE/ME.</p> <p>Das Betriebsminimum beträgt 15 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 29,5 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer29" placeholder="Antwort">
+        <button onclick="checkAnswer(29, 0.1, 0)">Überprüfen</button>
+        <span id="feedback29"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer30" placeholder="Antwort">
+        <button onclick="checkAnswer(30, -3, 0)">Überprüfen</button>
+        <span id="feedback30"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer31" placeholder="Antwort">
+        <button onclick="checkAnswer(31, 52, 0)">Überprüfen</button>
+        <span id="feedback31"></span>
+        \( x \) + 
+        <input type="number" id="answer32" placeholder="Antwort">
+        <button onclick="checkAnswer(32, 400, 0)">Überprüfen</button>
+        <span id="feedback32"></span>
+        </li>
+</ol>
+<h2>09 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 388,8 GE.</p> <p>Die Stückkosten bei 4 ME betragen 185,4 GE/ME.</p> <p>Das Betriebsminimum beträgt 15 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 64 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer33" placeholder="Antwort">
+        <button onclick="checkAnswer(33, 0.2, 0)">Überprüfen</button>
+        <span id="feedback33"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer34" placeholder="Antwort">
+        <button onclick="checkAnswer(34, -6, 0)">Überprüfen</button>
+        <span id="feedback34"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer35" placeholder="Antwort">
+        <button onclick="checkAnswer(35, 109, 0)">Überprüfen</button>
+        <span id="feedback35"></span>
+        \( x \) + 
+        <input type="number" id="answer36" placeholder="Antwort">
+        <button onclick="checkAnswer(36, 388.8, 0)">Überprüfen</button>
+        <span id="feedback36"></span>
+        </li>
+</ol>
+<h2>10 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 16 ME betragen 892,8 GE.</p> <p>Die Stückkosten bei 2 ME betragen 207 GE/ME.</p> <p>Die Grenzkosten bei 6 ME betragen 3,8 ME/GE.</p> <p>Das Betriebsminimum beträgt 9 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer37" placeholder="Antwort">
+        <button onclick="checkAnswer(37, 0.4, 0)">Überprüfen</button>
+        <span id="feedback37"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer38" placeholder="Antwort">
+        <button onclick="checkAnswer(38, -7.2, 0)">Überprüfen</button>
+        <span id="feedback38"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer39" placeholder="Antwort">
+        <button onclick="checkAnswer(39, 47, 0)">Überprüfen</button>
+        <span id="feedback39"></span>
+        \( x \) + 
+        <input type="number" id="answer40" placeholder="Antwort">
+        <button onclick="checkAnswer(40, 345.6, 0)">Überprüfen</button>
+        <span id="feedback40"></span>
+        </li>
+</ol>
+<h2>11 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 577,6 GE.</p> <p>Die variablen Stückkosten bei 17 ME betragen 153,6 GE/ME.</p> <p>Das Betriebsminimum beträgt 18 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 152,8 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer41" placeholder="Antwort">
+        <button onclick="checkAnswer(41, 0.8, 0)">Überprüfen</button>
+        <span id="feedback41"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer42" placeholder="Antwort">
+        <button onclick="checkAnswer(42, -28.8, 0)">Überprüfen</button>
+        <span id="feedback42"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer43" placeholder="Antwort">
+        <button onclick="checkAnswer(43, 412, 0)">Überprüfen</button>
+        <span id="feedback43"></span>
+        \( x \) + 
+        <input type="number" id="answer44" placeholder="Antwort">
+        <button onclick="checkAnswer(44, 577.6, 0)">Überprüfen</button>
+        <span id="feedback44"></span>
+        </li>
+</ol>
+<h2>12 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 24 ME betragen 2863 GE.</p> <p>Die variablen Stückkosten bei 24 ME betragen 42,2 GE/ME.</p> <p>Das Betriebsminimum beträgt 18 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 38,6 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer45" placeholder="Antwort">
+        <button onclick="checkAnswer(45, 0.1, 0)">Überprüfen</button>
+        <span id="feedback45"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer46" placeholder="Antwort">
+        <button onclick="checkAnswer(46, -3.6, 0)">Überprüfen</button>
+        <span id="feedback46"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer47" placeholder="Antwort">
+        <button onclick="checkAnswer(47, 71, 0)">Überprüfen</button>
+        <span id="feedback47"></span>
+        \( x \) + 
+        <input type="number" id="answer48" placeholder="Antwort">
+        <button onclick="checkAnswer(48, 1850.2, 0)">Überprüfen</button>
+        <span id="feedback48"></span>
+        </li>
+</ol>
+<h2>13 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 29 ME betragen 8874,5 GE.</p> <p>Die Stückkosten bei 4 ME betragen 1168 GE/ME.</p> <p>Das Betriebsoptimum beträgt 26 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 296,8 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer49" placeholder="Antwort">
+        <button onclick="checkAnswer(49, 0.9, 0)">Überprüfen</button>
+        <span id="feedback49"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer50" placeholder="Antwort">
+        <button onclick="checkAnswer(50, -43.2, 0)">Überprüfen</button>
+        <span id="feedback50"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer51" placeholder="Antwort">
+        <button onclick="checkAnswer(51, 718, 0)">Überprüfen</button>
+        <span id="feedback51"></span>
+        \( x \) + 
+        <input type="number" id="answer52" placeholder="Antwort">
+        <button onclick="checkAnswer(52, 2433.6, 0)">Überprüfen</button>
+        <span id="feedback52"></span>
+        </li>
+</ol>
+<h2>14 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 13690 GE.</p> <p>Die Stückkosten bei 5 ME betragen 3488,5 GE/ME.</p> <p>Das Betriebsminimum beträgt 27 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 508,5 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer53" placeholder="Antwort">
+        <button onclick="checkAnswer(53, 0.5, 0)">Überprüfen</button>
+        <span id="feedback53"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer54" placeholder="Antwort">
+        <button onclick="checkAnswer(54, -27, 0)">Überprüfen</button>
+        <span id="feedback54"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer55" placeholder="Antwort">
+        <button onclick="checkAnswer(55, 873, 0)">Überprüfen</button>
+        <span id="feedback55"></span>
+        \( x \) + 
+        <input type="number" id="answer56" placeholder="Antwort">
+        <button onclick="checkAnswer(56, 13690, 0)">Überprüfen</button>
+        <span id="feedback56"></span>
+        </li>
+</ol>
+<h2>15 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 40 ME betragen 9636,8 GE.</p> <p>Die Stückkosten bei 25 ME betragen 313,172 GE/ME.</p> <p>Das Betriebsoptimum beträgt 43 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 239,3 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer57" placeholder="Antwort">
+        <button onclick="checkAnswer(57, 0.1, 0)">Überprüfen</button>
+        <span id="feedback57"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer58" placeholder="Antwort">
+        <button onclick="checkAnswer(58, -5.4, 0)">Überprüfen</button>
+        <span id="feedback58"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer59" placeholder="Antwort">
+        <button onclick="checkAnswer(59, 149, 0)">Überprüfen</button>
+        <span id="feedback59"></span>
+        \( x \) + 
+        <input type="number" id="answer60" placeholder="Antwort">
+        <button onclick="checkAnswer(60, 5916.8, 0)">Überprüfen</button>
+        <span id="feedback60"></span>
+        </li>
+</ol>
+<h2>16 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 2073,6 GE.</p> <p>Die Stückkosten bei 2 ME betragen 1138,6 GE/ME.</p> <p>Die Grenzkosten bei 26 ME betragen 206,6 ME/GE.</p> <p>Das Betriebsminimum beträgt 15 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer61" placeholder="Antwort">
+        <button onclick="checkAnswer(61, 0.2, 0)">Überprüfen</button>
+        <span id="feedback61"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer62" placeholder="Antwort">
+        <button onclick="checkAnswer(62, -6, 0)">Überprüfen</button>
+        <span id="feedback62"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer63" placeholder="Antwort">
+        <button onclick="checkAnswer(63, 113, 0)">Überprüfen</button>
+        <span id="feedback63"></span>
+        \( x \) + 
+        <input type="number" id="answer64" placeholder="Antwort">
+        <button onclick="checkAnswer(64, 2073.6, 0)">Überprüfen</button>
+        <span id="feedback64"></span>
+        </li>
+</ol>
+<h2>17 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 9 ME betragen 1479,5 GE.</p> <p>Die variablen Stückkosten bei 16 ME betragen 80 GE/ME.</p> <p>Das Betriebsminimum beträgt 9 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 55,5 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer65" placeholder="Antwort">
+        <button onclick="checkAnswer(65, 0.5, 0)">Überprüfen</button>
+        <span id="feedback65"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer66" placeholder="Antwort">
+        <button onclick="checkAnswer(66, -9, 0)">Überprüfen</button>
+        <span id="feedback66"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer67" placeholder="Antwort">
+        <button onclick="checkAnswer(67, 96, 0)">Überprüfen</button>
+        <span id="feedback67"></span>
+        \( x \) + 
+        <input type="number" id="answer68" placeholder="Antwort">
+        <button onclick="checkAnswer(68, 980, 0)">Überprüfen</button>
+        <span id="feedback68"></span>
+        </li>
+</ol>
+<h2>18 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 392 GE.</p> <p>Die Stückkosten bei 2 ME betragen 342 GE/ME.</p> <p>Das Betriebsoptimum beträgt 14 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 126 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer69" placeholder="Antwort">
+        <button onclick="checkAnswer(69, 0.5, 0)">Überprüfen</button>
+        <span id="feedback69"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer70" placeholder="Antwort">
+        <button onclick="checkAnswer(70, -12, 0)">Überprüfen</button>
+        <span id="feedback70"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer71" placeholder="Antwort">
+        <button onclick="checkAnswer(71, 168, 0)">Überprüfen</button>
+        <span id="feedback71"></span>
+        \( x \) + 
+        <input type="number" id="answer72" placeholder="Antwort">
+        <button onclick="checkAnswer(72, 392, 0)">Überprüfen</button>
+        <span id="feedback72"></span>
+        </li>
+</ol>
+<h2>19 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 6220,8 GE.</p> <p>Die variablen Stückkosten bei 22 ME betragen 454,8 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 12 ME statt.</p> <p>Das Betriebsoptimum beträgt 24 ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer73" placeholder="Antwort">
+        <button onclick="checkAnswer(73, 0.9, 0)">Überprüfen</button>
+        <span id="feedback73"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer74" placeholder="Antwort">
+        <button onclick="checkAnswer(74, -32.4, 0)">Überprüfen</button>
+        <span id="feedback74"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer75" placeholder="Antwort">
+        <button onclick="checkAnswer(75, 732, 0)">Überprüfen</button>
+        <span id="feedback75"></span>
+        \( x \) + 
+        <input type="number" id="answer76" placeholder="Antwort">
+        <button onclick="checkAnswer(76, 6220.8, 0)">Überprüfen</button>
+        <span id="feedback76"></span>
+        </li>
+</ol>
+<h2>20 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 25 ME betragen 1988,5 GE.</p> <p>Die variablen Stückkosten bei 36 ME betragen 73,4 GE/ME.</p> <p>Das Betriebsoptimum beträgt 26 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 79,4 GE/ME.</p></div>
+<ol>
+<li>Bestimmen Sie die kubische Kostenfunktion.<br>\( K(x)= \)
+        <input type="number" id="answer77" placeholder="Antwort">
+        <button onclick="checkAnswer(77, 0.1, 0)">Überprüfen</button>
+        <span id="feedback77"></span>
+        \( x^3 \) + 
+        <input type="number" id="answer78" placeholder="Antwort">
+        <button onclick="checkAnswer(78, -4.2, 0)">Überprüfen</button>
+        <span id="feedback78"></span>
+        \( x^2 \) + 
+        <input type="number" id="answer79" placeholder="Antwort">
+        <button onclick="checkAnswer(79, 95, 0)">Überprüfen</button>
+        <span id="feedback79"></span>
+        \( x \) + 
+        <input type="number" id="answer80" placeholder="Antwort">
+        <button onclick="checkAnswer(80, 676, 0)">Überprüfen</button>
+        <span id="feedback80"></span>
+        </li>
+</ol>
+
+    <script type="text/javascript">
+        // Funktion zur Überprüfung der Antworten
+        function checkAnswer(questionId, correctAnswer, tolerance) {
+            var userAnswer = parseFloat(document.getElementById("answer" + questionId).value);
+            var feedback = document.getElementById("feedback" + questionId);
+            if (isNaN(userAnswer)) {
+                feedback.textContent = "Bitte eine gültige Zahl eingeben.";
+                feedback.style.color = "orange";
+                feedback.style.opacity = 1;
+            } else if (Math.abs(userAnswer - correctAnswer) <= tolerance) {
+                feedback.textContent = "Richtig!";
+                feedback.style.color = "green";
+                feedback.style.opacity = 1;
+            } else {
+                feedback.textContent = "Falsch! Die richtige Antwort ist: " + correctAnswer;
+                feedback.style.color = "red";
+                feedback.style.opacity = 1;
+            }
+            // Sanfter Übergang für die Feedback-Nachricht
+            feedback.style.transition = "opacity 0.5s ease-in-out";
+        }
+    </script>
+    </body>
+</html>

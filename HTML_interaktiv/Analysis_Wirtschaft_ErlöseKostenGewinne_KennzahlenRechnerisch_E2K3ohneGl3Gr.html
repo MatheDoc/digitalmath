@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>Analysis_Wirtschaft_ErlöseKostenGewinne</title>
+
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        background-color: #4e73df;
+        color: white;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #333;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .einleitung {
+        margin: 0 auto;
+        max-width: 700px;
+    }
+
+    p {
+        color: #555;
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    ol {
+        margin: 0 auto;
+        padding: 0;
+        list-style-position: inside;
+        max-width: 700px;
+    }
+
+    li {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="number"] {
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 80px;
+    }
+
+    button {
+        background-color: #4e73df;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 10px; 
+    }
+
+    button:hover {
+        background-color: #2e59d9;
+    }
+
+    #feedback1, #feedback2, #feedback3, #feedback4, #feedback5,
+    #feedback6, #feedback7, #feedback8, #feedback9, #feedback10 {
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+        li {
+            padding: 15px;
+        }
+
+        input[type="number"] {
+            width: 60px;
+        }
+    }
+
+    /* Feste Bildbreite */
+    img {
+        width: 700px;
+    } 
+
+    </style>
+    </head>
+<body>
+<h1>03 KennzahlenRechnerisch/E2K3ohneGl3Gr</h1>
+<h2>01 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,24x^2+13x \)</p> <p>\( K(x)=0,0026x^3-0,18x^2+4,8x+68 \)</p> <p>\( G(x)=-0,0026x^3-0,06x^2+8,2x-68 \)</p> <p>\( p(x)=-0,24x+13 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer1" placeholder="Antwort">
+        <button onclick="checkAnswer(1, 54.1667, 0.1)">Überprüfen</button>
+        <span id="feedback1"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer2" placeholder="Antwort">
+        <button onclick="checkAnswer(2, 23.0769, 0.1)">Überprüfen</button>
+        <span id="feedback2"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer3" placeholder="Antwort">
+        <button onclick="checkAnswer(3, 68, 0.1)">Überprüfen</button>
+        <span id="feedback3"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer4" placeholder="Antwort">
+        <button onclick="checkAnswer(4, 13, 0.1)">Überprüfen</button>
+        <span id="feedback4"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer5" placeholder="Antwort">
+        <button onclick="checkAnswer(5, 176.0417, 0.1)">Überprüfen</button>
+        <span id="feedback5"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer6" placeholder="Antwort">
+        <button onclick="checkAnswer(6, 25.6312, 0.1)">Überprüfen</button>
+        <span id="feedback6"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer7" placeholder="Antwort">
+        <button onclick="checkAnswer(7, 6.8485, 0.1)">Überprüfen</button>
+        <span id="feedback7"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer8" placeholder="Antwort">
+        <button onclick="checkAnswer(8, 58.9779, 0.1)">Überprüfen</button>
+        <span id="feedback8"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer9" placeholder="Antwort">
+        <button onclick="checkAnswer(9, 27.0833, 0.1)">Überprüfen</button>
+        <span id="feedback9"></span>
+        </li>
+</ol>
+<h2>02 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,73x^2+44x \)</p> <p>\( K(x)=0,0077x^3-0,43x^2+15x+130 \)</p> <p>\( G(x)=-0,0077x^3-0,3x^2+29x-130 \)</p> <p>\( p(x)=-0,73x+44 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer10" placeholder="Antwort">
+        <button onclick="checkAnswer(10, 60.274, 0.1)">Überprüfen</button>
+        <span id="feedback10"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer11" placeholder="Antwort">
+        <button onclick="checkAnswer(11, 18.6147, 0.1)">Überprüfen</button>
+        <span id="feedback11"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer12" placeholder="Antwort">
+        <button onclick="checkAnswer(12, 130, 0.1)">Überprüfen</button>
+        <span id="feedback12"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer13" placeholder="Antwort">
+        <button onclick="checkAnswer(13, 24.7499, 0.1)">Überprüfen</button>
+        <span id="feedback13"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer14" placeholder="Antwort">
+        <button onclick="checkAnswer(14, 25.9326, 0.1)">Überprüfen</button>
+        <span id="feedback14"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer15" placeholder="Antwort">
+        <button onclick="checkAnswer(15, 44, 0.1)">Überprüfen</button>
+        <span id="feedback15"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer16" placeholder="Antwort">
+        <button onclick="checkAnswer(16, 287.2422, 0.1)">Überprüfen</button>
+        <span id="feedback16"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer17" placeholder="Antwort">
+        <button onclick="checkAnswer(17, 30.137, 0.1)">Überprüfen</button>
+        <span id="feedback17"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer18" placeholder="Antwort">
+        <button onclick="checkAnswer(18, 663.0137, 0.1)">Überprüfen</button>
+        <span id="feedback18"></span>
+        </li>
+</ol>
+<h2>03 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-1,7x^2+47x \)</p> <p>\( K(x)=0,036x^3-0,98x^2+19x+57 \)</p> <p>\( G(x)=-0,036x^3-0,72x^2+28x-57 \)</p> <p>\( p(x)=-1,7x+47 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer19" placeholder="Antwort">
+        <button onclick="checkAnswer(19, 47, 0.1)">Überprüfen</button>
+        <span id="feedback19"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer20" placeholder="Antwort">
+        <button onclick="checkAnswer(20, 27.6471, 0.1)">Überprüfen</button>
+        <span id="feedback20"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer21" placeholder="Antwort">
+        <button onclick="checkAnswer(21, 28.7073, 0.1)">Überprüfen</button>
+        <span id="feedback21"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer22" placeholder="Antwort">
+        <button onclick="checkAnswer(22, 13.8235, 0.1)">Überprüfen</button>
+        <span id="feedback22"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer23" placeholder="Antwort">
+        <button onclick="checkAnswer(23, 324.8529, 0.1)">Überprüfen</button>
+        <span id="feedback23"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer24" placeholder="Antwort">
+        <button onclick="checkAnswer(24, 9.0741, 0.1)">Überprüfen</button>
+        <span id="feedback24"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer25" placeholder="Antwort">
+        <button onclick="checkAnswer(25, 116.0725, 0.1)">Überprüfen</button>
+        <span id="feedback25"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer26" placeholder="Antwort">
+        <button onclick="checkAnswer(26, 57, 0.1)">Überprüfen</button>
+        <span id="feedback26"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer27" placeholder="Antwort">
+        <button onclick="checkAnswer(27, 10.7604, 0.1)">Überprüfen</button>
+        <span id="feedback27"></span>
+        </li>
+</ol>
+<h2>04 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-3,8x^2+59x \)</p> <p>\( K(x)=0,18x^3-2,8x^2+25x+68 \)</p> <p>\( G(x)=-0,18x^3-x^2+34x-68 \)</p> <p>\( p(x)=-3,8x+59 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer28" placeholder="Antwort">
+        <button onclick="checkAnswer(28, 229.0132, 0.1)">Überprüfen</button>
+        <span id="feedback28"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer29" placeholder="Antwort">
+        <button onclick="checkAnswer(29, 15.5263, 0.1)">Überprüfen</button>
+        <span id="feedback29"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer30" placeholder="Antwort">
+        <button onclick="checkAnswer(30, 59, 0.1)">Überprüfen</button>
+        <span id="feedback30"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer31" placeholder="Antwort">
+        <button onclick="checkAnswer(31, 7.7632, 0.1)">Überprüfen</button>
+        <span id="feedback31"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer32" placeholder="Antwort">
+        <button onclick="checkAnswer(32, 61.5016, 0.1)">Überprüfen</button>
+        <span id="feedback32"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer33" placeholder="Antwort">
+        <button onclick="checkAnswer(33, 35.0741, 0.1)">Überprüfen</button>
+        <span id="feedback33"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer34" placeholder="Antwort">
+        <button onclick="checkAnswer(34, 5.1852, 0.1)">Überprüfen</button>
+        <span id="feedback34"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer35" placeholder="Antwort">
+        <button onclick="checkAnswer(35, 68, 0.1)">Überprüfen</button>
+        <span id="feedback35"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer36" placeholder="Antwort">
+        <button onclick="checkAnswer(36, 6.2963, 0.1)">Überprüfen</button>
+        <span id="feedback36"></span>
+        </li>
+</ol>
+<h2>05 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-x^2+64x \)</p> <p>\( K(x)=0,031x^3-0,88x^2+16x+120 \)</p> <p>\( G(x)=-0,031x^3-0,12x^2+48x-120 \)</p> <p>\( p(x)=-x+64 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer37" placeholder="Antwort">
+        <button onclick="checkAnswer(37, 64, 0.1)">Überprüfen</button>
+        <span id="feedback37"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer38" placeholder="Antwort">
+        <button onclick="checkAnswer(38, 120, 0.1)">Überprüfen</button>
+        <span id="feedback38"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer39" placeholder="Antwort">
+        <button onclick="checkAnswer(39, 9.4624, 0.1)">Überprüfen</button>
+        <span id="feedback39"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer40" placeholder="Antwort">
+        <button onclick="checkAnswer(40, 64, 0.1)">Überprüfen</button>
+        <span id="feedback40"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer41" placeholder="Antwort">
+        <button onclick="checkAnswer(41, 1024, 0.1)">Überprüfen</button>
+        <span id="feedback41"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer42" placeholder="Antwort">
+        <button onclick="checkAnswer(42, 548.443, 0.1)">Überprüfen</button>
+        <span id="feedback42"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer43" placeholder="Antwort">
+        <button onclick="checkAnswer(43, 42.5352, 0.1)">Überprüfen</button>
+        <span id="feedback43"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer44" placeholder="Antwort">
+        <button onclick="checkAnswer(44, 21.4648, 0.1)">Überprüfen</button>
+        <span id="feedback44"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer45" placeholder="Antwort">
+        <button onclick="checkAnswer(45, 32, 0.1)">Überprüfen</button>
+        <span id="feedback45"></span>
+        </li>
+</ol>
+<h2>06 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-8,4x^2+130x \)</p> <p>\( K(x)=0,27x^3-5,2x^2+46x+180 \)</p> <p>\( G(x)=-0,27x^3-3,2x^2+84x-180 \)</p> <p>\( p(x)=-8,4x+130 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer46" placeholder="Antwort">
+        <button onclick="checkAnswer(46, 7.7381, 0.1)">Überprüfen</button>
+        <span id="feedback46"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer47" placeholder="Antwort">
+        <button onclick="checkAnswer(47, 158.5968, 0.1)">Überprüfen</button>
+        <span id="feedback47"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer48" placeholder="Antwort">
+        <button onclick="checkAnswer(48, 502.9762, 0.1)">Überprüfen</button>
+        <span id="feedback48"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer49" placeholder="Antwort">
+        <button onclick="checkAnswer(49, 6.9723, 0.1)">Überprüfen</button>
+        <span id="feedback49"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer50" placeholder="Antwort">
+        <button onclick="checkAnswer(50, 180, 0.1)">Überprüfen</button>
+        <span id="feedback50"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer51" placeholder="Antwort">
+        <button onclick="checkAnswer(51, 15.4762, 0.1)">Überprüfen</button>
+        <span id="feedback51"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer52" placeholder="Antwort">
+        <button onclick="checkAnswer(52, 130, 0.1)">Überprüfen</button>
+        <span id="feedback52"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer53" placeholder="Antwort">
+        <button onclick="checkAnswer(53, 71.4323, 0.1)">Überprüfen</button>
+        <span id="feedback53"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer54" placeholder="Antwort">
+        <button onclick="checkAnswer(54, 6.4198, 0.1)">Überprüfen</button>
+        <span id="feedback54"></span>
+        </li>
+</ol>
+<h2>07 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,21x^2+16x \)</p> <p>\( K(x)=0,0018x^3-0,15x^2+6x+91 \)</p> <p>\( G(x)=-0,0018x^3-0,06x^2+10x-91 \)</p> <p>\( p(x)=-0,21x+16 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer55" placeholder="Antwort">
+        <button onclick="checkAnswer(55, 16, 0.1)">Überprüfen</button>
+        <span id="feedback55"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer56" placeholder="Antwort">
+        <button onclick="checkAnswer(56, 33.3333, 0.1)">Überprüfen</button>
+        <span id="feedback56"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer57" placeholder="Antwort">
+        <button onclick="checkAnswer(57, 27.7778, 0.1)">Überprüfen</button>
+        <span id="feedback57"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer58" placeholder="Antwort">
+        <button onclick="checkAnswer(58, 38.0952, 0.1)">Überprüfen</button>
+        <span id="feedback58"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer59" placeholder="Antwort">
+        <button onclick="checkAnswer(59, 304.7619, 0.1)">Überprüfen</button>
+        <span id="feedback59"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer60" placeholder="Antwort">
+        <button onclick="checkAnswer(60, 91, 0.1)">Überprüfen</button>
+        <span id="feedback60"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer61" placeholder="Antwort">
+        <button onclick="checkAnswer(61, 9, 0.1)">Überprüfen</button>
+        <span id="feedback61"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer62" placeholder="Antwort">
+        <button onclick="checkAnswer(62, 76.1905, 0.1)">Überprüfen</button>
+        <span id="feedback62"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer63" placeholder="Antwort">
+        <button onclick="checkAnswer(63, 109, 0.1)">Überprüfen</button>
+        <span id="feedback63"></span>
+        </li>
+</ol>
+<h2>08 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,59x^2+41x \)</p> <p>\( K(x)=0,0068x^3-0,41x^2+13x+140 \)</p> <p>\( G(x)=-0,0068x^3-0,18x^2+28x-140 \)</p> <p>\( p(x)=-0,59x+41 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer64" placeholder="Antwort">
+        <button onclick="checkAnswer(64, 34.7458, 0.1)">Überprüfen</button>
+        <span id="feedback64"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer65" placeholder="Antwort">
+        <button onclick="checkAnswer(65, 354.8275, 0.1)">Überprüfen</button>
+        <span id="feedback65"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer66" placeholder="Antwort">
+        <button onclick="checkAnswer(66, 712.2881, 0.1)">Überprüfen</button>
+        <span id="feedback66"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer67" placeholder="Antwort">
+        <button onclick="checkAnswer(67, 23.7362, 0.1)">Überprüfen</button>
+        <span id="feedback67"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer68" placeholder="Antwort">
+        <button onclick="checkAnswer(68, 20.098, 0.1)">Überprüfen</button>
+        <span id="feedback68"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer69" placeholder="Antwort">
+        <button onclick="checkAnswer(69, 69.4915, 0.1)">Überprüfen</button>
+        <span id="feedback69"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer70" placeholder="Antwort">
+        <button onclick="checkAnswer(70, 41, 0.1)">Überprüfen</button>
+        <span id="feedback70"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer71" placeholder="Antwort">
+        <button onclick="checkAnswer(71, 29.2606, 0.1)">Überprüfen</button>
+        <span id="feedback71"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer72" placeholder="Antwort">
+        <button onclick="checkAnswer(72, 140, 0.1)">Überprüfen</button>
+        <span id="feedback72"></span>
+        </li>
+</ol>
+<h2>09 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-6,3x^2+110x \)</p> <p>\( K(x)=0,27x^3-4,8x^2+43x+160 \)</p> <p>\( G(x)=-0,27x^3-1,5x^2+67x-160 \)</p> <p>\( p(x)=-6,3x+110 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer73" placeholder="Antwort">
+        <button onclick="checkAnswer(73, 17.4603, 0.1)">Überprüfen</button>
+        <span id="feedback73"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer74" placeholder="Antwort">
+        <button onclick="checkAnswer(74, 160, 0.1)">Überprüfen</button>
+        <span id="feedback74"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer75" placeholder="Antwort">
+        <button onclick="checkAnswer(75, 5.9259, 0.1)">Überprüfen</button>
+        <span id="feedback75"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer76" placeholder="Antwort">
+        <button onclick="checkAnswer(76, 110, 0.1)">Überprüfen</button>
+        <span id="feedback76"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer77" placeholder="Antwort">
+        <button onclick="checkAnswer(77, 480.1587, 0.1)">Überprüfen</button>
+        <span id="feedback77"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer78" placeholder="Antwort">
+        <button onclick="checkAnswer(78, 144.2561, 0.1)">Überprüfen</button>
+        <span id="feedback78"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer79" placeholder="Antwort">
+        <button onclick="checkAnswer(79, 63.1935, 0.1)">Überprüfen</button>
+        <span id="feedback79"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer80" placeholder="Antwort">
+        <button onclick="checkAnswer(80, 7.4296, 0.1)">Überprüfen</button>
+        <span id="feedback80"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer81" placeholder="Antwort">
+        <button onclick="checkAnswer(81, 8.7302, 0.1)">Überprüfen</button>
+        <span id="feedback81"></span>
+        </li>
+</ol>
+<h2>10 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-8,4x^2+130x \)</p> <p>\( K(x)=0,27x^3-5,2x^2+46x+180 \)</p> <p>\( G(x)=-0,27x^3-3,2x^2+84x-180 \)</p> <p>\( p(x)=-8,4x+130 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer82" placeholder="Antwort">
+        <button onclick="checkAnswer(82, 7.7381, 0.1)">Überprüfen</button>
+        <span id="feedback82"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer83" placeholder="Antwort">
+        <button onclick="checkAnswer(83, 158.5968, 0.1)">Überprüfen</button>
+        <span id="feedback83"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer84" placeholder="Antwort">
+        <button onclick="checkAnswer(84, 502.9762, 0.1)">Überprüfen</button>
+        <span id="feedback84"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer85" placeholder="Antwort">
+        <button onclick="checkAnswer(85, 6.9723, 0.1)">Überprüfen</button>
+        <span id="feedback85"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer86" placeholder="Antwort">
+        <button onclick="checkAnswer(86, 180, 0.1)">Überprüfen</button>
+        <span id="feedback86"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer87" placeholder="Antwort">
+        <button onclick="checkAnswer(87, 15.4762, 0.1)">Überprüfen</button>
+        <span id="feedback87"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer88" placeholder="Antwort">
+        <button onclick="checkAnswer(88, 130, 0.1)">Überprüfen</button>
+        <span id="feedback88"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer89" placeholder="Antwort">
+        <button onclick="checkAnswer(89, 71.4323, 0.1)">Überprüfen</button>
+        <span id="feedback89"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer90" placeholder="Antwort">
+        <button onclick="checkAnswer(90, 6.4198, 0.1)">Überprüfen</button>
+        <span id="feedback90"></span>
+        </li>
+</ol>
+<h2>11 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,42x^2+22x \)</p> <p>\( K(x)=0,0044x^3-0,29x^2+9,1x+66 \)</p> <p>\( G(x)=-0,0044x^3-0,13x^2+12,9x-66 \)</p> <p>\( p(x)=-0,42x+22 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer91" placeholder="Antwort">
+        <button onclick="checkAnswer(91, 288.0952, 0.1)">Überprüfen</button>
+        <span id="feedback91"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer92" placeholder="Antwort">
+        <button onclick="checkAnswer(92, 22.9275, 0.1)">Überprüfen</button>
+        <span id="feedback92"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer93" placeholder="Antwort">
+        <button onclick="checkAnswer(93, 66, 0.1)">Überprüfen</button>
+        <span id="feedback93"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer94" placeholder="Antwort">
+        <button onclick="checkAnswer(94, 22, 0.1)">Überprüfen</button>
+        <span id="feedback94"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer95" placeholder="Antwort">
+        <button onclick="checkAnswer(95, 52.381, 0.1)">Überprüfen</button>
+        <span id="feedback95"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer96" placeholder="Antwort">
+        <button onclick="checkAnswer(96, 108.3975, 0.1)">Überprüfen</button>
+        <span id="feedback96"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer97" placeholder="Antwort">
+        <button onclick="checkAnswer(97, 21.9697, 0.1)">Überprüfen</button>
+        <span id="feedback97"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer98" placeholder="Antwort">
+        <button onclick="checkAnswer(98, 26.1905, 0.1)">Überprüfen</button>
+        <span id="feedback98"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer99" placeholder="Antwort">
+        <button onclick="checkAnswer(99, 12.3704, 0.1)">Überprüfen</button>
+        <span id="feedback99"></span>
+        </li>
+</ol>
+<h2>12 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,18x^2+16x \)</p> <p>\( K(x)=0,0022x^3-0,21x^2+9x+100 \)</p> <p>\( G(x)=-0,0022x^3+0,03x^2+7x-100 \)</p> <p>\( p(x)=-0,18x+16 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer100" placeholder="Antwort">
+        <button onclick="checkAnswer(100, 9.2629, 0.1)">Überprüfen</button>
+        <span id="feedback100"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer101" placeholder="Antwort">
+        <button onclick="checkAnswer(101, 100, 0.1)">Überprüfen</button>
+        <span id="feedback101"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer102" placeholder="Antwort">
+        <button onclick="checkAnswer(102, 44.4444, 0.1)">Überprüfen</button>
+        <span id="feedback102"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer103" placeholder="Antwort">
+        <button onclick="checkAnswer(103, 88.673, 0.1)">Überprüfen</button>
+        <span id="feedback103"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer104" placeholder="Antwort">
+        <button onclick="checkAnswer(104, 31.8182, 0.1)">Überprüfen</button>
+        <span id="feedback104"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer105" placeholder="Antwort">
+        <button onclick="checkAnswer(105, 37.4281, 0.1)">Überprüfen</button>
+        <span id="feedback105"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer106" placeholder="Antwort">
+        <button onclick="checkAnswer(106, 355.5556, 0.1)">Überprüfen</button>
+        <span id="feedback106"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer107" placeholder="Antwort">
+        <button onclick="checkAnswer(107, 16, 0.1)">Überprüfen</button>
+        <span id="feedback107"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer108" placeholder="Antwort">
+        <button onclick="checkAnswer(108, 88.8889, 0.1)">Überprüfen</button>
+        <span id="feedback108"></span>
+        </li>
+</ol>
+<h2>13 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-11x^2+110x \)</p> <p>\( K(x)=1,2x^3-10x^2+51x+85 \)</p> <p>\( G(x)=-1,2x^3-x^2+59x-85 \)</p> <p>\( p(x)=-11x+110 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer109" placeholder="Antwort">
+        <button onclick="checkAnswer(109, 5, 0.1)">Überprüfen</button>
+        <span id="feedback109"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer110" placeholder="Antwort">
+        <button onclick="checkAnswer(110, 275, 0.1)">Überprüfen</button>
+        <span id="feedback110"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer111" placeholder="Antwort">
+        <button onclick="checkAnswer(111, 58.9194, 0.1)">Überprüfen</button>
+        <span id="feedback111"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer112" placeholder="Antwort">
+        <button onclick="checkAnswer(112, 85, 0.1)">Überprüfen</button>
+        <span id="feedback112"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer113" placeholder="Antwort">
+        <button onclick="checkAnswer(113, 3.7801, 0.1)">Überprüfen</button>
+        <span id="feedback113"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer114" placeholder="Antwort">
+        <button onclick="checkAnswer(114, 68.4193, 0.1)">Überprüfen</button>
+        <span id="feedback114"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer115" placeholder="Antwort">
+        <button onclick="checkAnswer(115, 10, 0.1)">Überprüfen</button>
+        <span id="feedback115"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer116" placeholder="Antwort">
+        <button onclick="checkAnswer(116, 110, 0.1)">Überprüfen</button>
+        <span id="feedback116"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer117" placeholder="Antwort">
+        <button onclick="checkAnswer(117, 2.7778, 0.1)">Überprüfen</button>
+        <span id="feedback117"></span>
+        </li>
+</ol>
+<h2>14 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,62x^2+42x \)</p> <p>\( K(x)=0,0087x^3-0,49x^2+15x+92 \)</p> <p>\( G(x)=-0,0087x^3-0,13x^2+27x-92 \)</p> <p>\( p(x)=-0,62x+42 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer118" placeholder="Antwort">
+        <button onclick="checkAnswer(118, 42, 0.1)">Überprüfen</button>
+        <span id="feedback118"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer119" placeholder="Antwort">
+        <button onclick="checkAnswer(119, 371.2584, 0.1)">Überprüfen</button>
+        <span id="feedback119"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer120" placeholder="Antwort">
+        <button onclick="checkAnswer(120, 92, 0.1)">Überprüfen</button>
+        <span id="feedback120"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer121" placeholder="Antwort">
+        <button onclick="checkAnswer(121, 27.5659, 0.1)">Überprüfen</button>
+        <span id="feedback121"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer122" placeholder="Antwort">
+        <button onclick="checkAnswer(122, 18.7739, 0.1)">Überprüfen</button>
+        <span id="feedback122"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer123" placeholder="Antwort">
+        <button onclick="checkAnswer(123, 67.7419, 0.1)">Überprüfen</button>
+        <span id="feedback123"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer124" placeholder="Antwort">
+        <button onclick="checkAnswer(124, 24.9091, 0.1)">Überprüfen</button>
+        <span id="feedback124"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer125" placeholder="Antwort">
+        <button onclick="checkAnswer(125, 711.2903, 0.1)">Überprüfen</button>
+        <span id="feedback125"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer126" placeholder="Antwort">
+        <button onclick="checkAnswer(126, 33.871, 0.1)">Überprüfen</button>
+        <span id="feedback126"></span>
+        </li>
+</ol>
+<h2>15 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,49x^2+34x \)</p> <p>\( K(x)=0,0043x^3-0,29x^2+10x+130 \)</p> <p>\( G(x)=-0,0043x^3-0,2x^2+24x-130 \)</p> <p>\( p(x)=-0,49x+34 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer127" placeholder="Antwort">
+        <button onclick="checkAnswer(127, 589.7959, 0.1)">Überprüfen</button>
+        <span id="feedback127"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer128" placeholder="Antwort">
+        <button onclick="checkAnswer(128, 19.1378, 0.1)">Überprüfen</button>
+        <span id="feedback128"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer129" placeholder="Antwort">
+        <button onclick="checkAnswer(129, 22.4806, 0.1)">Überprüfen</button>
+        <span id="feedback129"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer130" placeholder="Antwort">
+        <button onclick="checkAnswer(130, 34.6939, 0.1)">Überprüfen</button>
+        <span id="feedback130"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer131" placeholder="Antwort">
+        <button onclick="checkAnswer(131, 69.3878, 0.1)">Überprüfen</button>
+        <span id="feedback131"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer132" placeholder="Antwort">
+        <button onclick="checkAnswer(132, 34, 0.1)">Überprüfen</button>
+        <span id="feedback132"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer133" placeholder="Antwort">
+        <button onclick="checkAnswer(133, 293.9646, 0.1)">Überprüfen</button>
+        <span id="feedback133"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer134" placeholder="Antwort">
+        <button onclick="checkAnswer(134, 130, 0.1)">Überprüfen</button>
+        <span id="feedback134"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer135" placeholder="Antwort">
+        <button onclick="checkAnswer(135, 30.331, 0.1)">Überprüfen</button>
+        <span id="feedback135"></span>
+        </li>
+</ol>
+<h2>16 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-1,6x^2+65x \)</p> <p>\( K(x)=0,037x^3-1,1x^2+23x+130 \)</p> <p>\( G(x)=-0,037x^3-0,5x^2+42x-130 \)</p> <p>\( p(x)=-1,6x+65 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer136" placeholder="Antwort">
+        <button onclick="checkAnswer(136, 130, 0.1)">Überprüfen</button>
+        <span id="feedback136"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer137" placeholder="Antwort">
+        <button onclick="checkAnswer(137, 20.3125, 0.1)">Überprüfen</button>
+        <span id="feedback137"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer138" placeholder="Antwort">
+        <button onclick="checkAnswer(138, 263.0948, 0.1)">Überprüfen</button>
+        <span id="feedback138"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer139" placeholder="Antwort">
+        <button onclick="checkAnswer(139, 65, 0.1)">Überprüfen</button>
+        <span id="feedback139"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer140" placeholder="Antwort">
+        <button onclick="checkAnswer(140, 660.1563, 0.1)">Überprüfen</button>
+        <span id="feedback140"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer141" placeholder="Antwort">
+        <button onclick="checkAnswer(141, 40.625, 0.1)">Überprüfen</button>
+        <span id="feedback141"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer142" placeholder="Antwort">
+        <button onclick="checkAnswer(142, 15.4622, 0.1)">Überprüfen</button>
+        <span id="feedback142"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer143" placeholder="Antwort">
+        <button onclick="checkAnswer(143, 9.9099, 0.1)">Überprüfen</button>
+        <span id="feedback143"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer144" placeholder="Antwort">
+        <button onclick="checkAnswer(144, 40.2605, 0.1)">Überprüfen</button>
+        <span id="feedback144"></span>
+        </li>
+</ol>
+<h2>17 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,35x^2+29x \)</p> <p>\( K(x)=0,0034x^3-0,29x^2+12x+120 \)</p> <p>\( G(x)=-0,0034x^3-0,06x^2+17x-120 \)</p> <p>\( p(x)=-0,35x+29 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer145" placeholder="Antwort">
+        <button onclick="checkAnswer(145, 255.7806, 0.1)">Überprüfen</button>
+        <span id="feedback145"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer146" placeholder="Antwort">
+        <button onclick="checkAnswer(146, 35.3641, 0.1)">Überprüfen</button>
+        <span id="feedback146"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer147" placeholder="Antwort">
+        <button onclick="checkAnswer(147, 29, 0.1)">Überprüfen</button>
+        <span id="feedback147"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer148" placeholder="Antwort">
+        <button onclick="checkAnswer(148, 120, 0.1)">Überprüfen</button>
+        <span id="feedback148"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer149" placeholder="Antwort">
+        <button onclick="checkAnswer(149, 41.4286, 0.1)">Überprüfen</button>
+        <span id="feedback149"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer150" placeholder="Antwort">
+        <button onclick="checkAnswer(150, 16.6226, 0.1)">Überprüfen</button>
+        <span id="feedback150"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer151" placeholder="Antwort">
+        <button onclick="checkAnswer(151, 600.7143, 0.1)">Überprüfen</button>
+        <span id="feedback151"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer152" placeholder="Antwort">
+        <button onclick="checkAnswer(152, 82.8571, 0.1)">Überprüfen</button>
+        <span id="feedback152"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer153" placeholder="Antwort">
+        <button onclick="checkAnswer(153, 28.4314, 0.1)">Überprüfen</button>
+        <span id="feedback153"></span>
+        </li>
+</ol>
+<h2>18 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,49x^2+29x \)</p> <p>\( K(x)=0,0048x^3-0,42x^2+13x+86 \)</p> <p>\( G(x)=-0,0048x^3-0,07x^2+16x-86 \)</p> <p>\( p(x)=-0,49x+29 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer154" placeholder="Antwort">
+        <button onclick="checkAnswer(154, 28.8248, 0.1)">Überprüfen</button>
+        <span id="feedback154"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer155" placeholder="Antwort">
+        <button onclick="checkAnswer(155, 29.5918, 0.1)">Überprüfen</button>
+        <span id="feedback155"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer156" placeholder="Antwort">
+        <button onclick="checkAnswer(156, 59.1837, 0.1)">Überprüfen</button>
+        <span id="feedback156"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer157" placeholder="Antwort">
+        <button onclick="checkAnswer(157, 29, 0.1)">Überprüfen</button>
+        <span id="feedback157"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer158" placeholder="Antwort">
+        <button onclick="checkAnswer(158, 202.0777, 0.1)">Überprüfen</button>
+        <span id="feedback158"></span>
+        </li>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer159" placeholder="Antwort">
+        <button onclick="checkAnswer(159, 29.1667, 0.1)">Überprüfen</button>
+        <span id="feedback159"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer160" placeholder="Antwort">
+        <button onclick="checkAnswer(160, 14.8758, 0.1)">Überprüfen</button>
+        <span id="feedback160"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer161" placeholder="Antwort">
+        <button onclick="checkAnswer(161, 86, 0.1)">Überprüfen</button>
+        <span id="feedback161"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer162" placeholder="Antwort">
+        <button onclick="checkAnswer(162, 429.0816, 0.1)">Überprüfen</button>
+        <span id="feedback162"></span>
+        </li>
+</ol>
+<h2>19 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-1,8x^2+67x \)</p> <p>\( K(x)=0,033x^3-1,1x^2+25x+93 \)</p> <p>\( G(x)=-0,033x^3-0,7x^2+42x-93 \)</p> <p>\( p(x)=-1,8x+67 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer163" placeholder="Antwort">
+        <button onclick="checkAnswer(163, 11.1111, 0.1)">Überprüfen</button>
+        <span id="feedback163"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer164" placeholder="Antwort">
+        <button onclick="checkAnswer(164, 37.2222, 0.1)">Überprüfen</button>
+        <span id="feedback164"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer165" placeholder="Antwort">
+        <button onclick="checkAnswer(165, 18.6111, 0.1)">Überprüfen</button>
+        <span id="feedback165"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer166" placeholder="Antwort">
+        <button onclick="checkAnswer(166, 623.4722, 0.1)">Überprüfen</button>
+        <span id="feedback166"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer167" placeholder="Antwort">
+        <button onclick="checkAnswer(167, 67, 0.1)">Überprüfen</button>
+        <span id="feedback167"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer168" placeholder="Antwort">
+        <button onclick="checkAnswer(168, 93, 0.1)">Überprüfen</button>
+        <span id="feedback168"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer169" placeholder="Antwort">
+        <button onclick="checkAnswer(169, 268.3118, 0.1)">Überprüfen</button>
+        <span id="feedback169"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer170" placeholder="Antwort">
+        <button onclick="checkAnswer(170, 14.7063, 0.1)">Überprüfen</button>
+        <span id="feedback170"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer171" placeholder="Antwort">
+        <button onclick="checkAnswer(171, 40.5287, 0.1)">Überprüfen</button>
+        <span id="feedback171"></span>
+        </li>
+</ol>
+<h2>20 </h2>
+<div class="einleitung"><p>Es liegen folgende Informationen vor:</p> <p>\( E(x)=-0,2x^2+19x \)</p> <p>\( K(x)=0,0027x^3-0,14x^2+5,5x+84 \)</p> <p>\( G(x)=-0,0027x^3-0,06x^2+13,5x-84 \)</p> <p>\( p(x)=-0,2x+19 \)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)</p></div>
+<ol>
+<li>die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.<br>
+        <input type="number" id="answer172" placeholder="Antwort">
+        <button onclick="checkAnswer(172, 17.284, 0.1)">Überprüfen</button>
+        <span id="feedback172"></span>
+        </li>
+<li>die Sättigungsmenge.<br>
+        <input type="number" id="answer173" placeholder="Antwort">
+        <button onclick="checkAnswer(173, 95, 0.1)">Überprüfen</button>
+        <span id="feedback173"></span>
+        </li>
+<li>die gewinnmaximale Menge.<br>
+        <input type="number" id="answer174" placeholder="Antwort">
+        <button onclick="checkAnswer(174, 34.084, 0.1)">Überprüfen</button>
+        <span id="feedback174"></span>
+        </li>
+<li>den maximalen Erlös.<br>
+        <input type="number" id="answer175" placeholder="Antwort">
+        <button onclick="checkAnswer(175, 451.25, 0.1)">Überprüfen</button>
+        <span id="feedback175"></span>
+        </li>
+<li>den maximalen Gewinn.<br>
+        <input type="number" id="answer176" placeholder="Antwort">
+        <button onclick="checkAnswer(176, 199.5216, 0.1)">Überprüfen</button>
+        <span id="feedback176"></span>
+        </li>
+<li>die Fixkosten.<br>
+        <input type="number" id="answer177" placeholder="Antwort">
+        <button onclick="checkAnswer(177, 84, 0.1)">Überprüfen</button>
+        <span id="feedback177"></span>
+        </li>
+<li>den Höchstpreis.<br>
+        <input type="number" id="answer178" placeholder="Antwort">
+        <button onclick="checkAnswer(178, 19, 0.1)">Überprüfen</button>
+        <span id="feedback178"></span>
+        </li>
+<li>die erlösmaximale Menge.<br>
+        <input type="number" id="answer179" placeholder="Antwort">
+        <button onclick="checkAnswer(179, 47.5, 0.1)">Überprüfen</button>
+        <span id="feedback179"></span>
+        </li>
+<li>den gewinnmaximalen Verkaufspreis.<br>
+        <input type="number" id="answer180" placeholder="Antwort">
+        <button onclick="checkAnswer(180, 12.1832, 0.1)">Überprüfen</button>
+        <span id="feedback180"></span>
+        </li>
+</ol>
+
+    <script type="text/javascript">
+        // Funktion zur Überprüfung der Antworten
+        function checkAnswer(questionId, correctAnswer, tolerance) {
+            var userAnswer = parseFloat(document.getElementById("answer" + questionId).value);
+            var feedback = document.getElementById("feedback" + questionId);
+            if (isNaN(userAnswer)) {
+                feedback.textContent = "Bitte eine gültige Zahl eingeben.";
+                feedback.style.color = "orange";
+                feedback.style.opacity = 1;
+            } else if (Math.abs(userAnswer - correctAnswer) <= tolerance) {
+                feedback.textContent = "Richtig!";
+                feedback.style.color = "green";
+                feedback.style.opacity = 1;
+            } else {
+                feedback.textContent = "Falsch! Die richtige Antwort ist: " + correctAnswer;
+                feedback.style.color = "red";
+                feedback.style.opacity = 1;
+            }
+            // Sanfter Übergang für die Feedback-Nachricht
+            feedback.style.transition = "opacity 0.5s ease-in-out";
+        }
+    </script>
+    </body>
+</html>
