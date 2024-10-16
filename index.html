@@ -195,7 +195,7 @@
                             // Teile die URLs und erstelle Links
                             var links = urls.split(',').map(function(url) {
                                 var sammlungsname = data[1] + '_' + data[2] + '_' + data[3] + '_' + url.trim() + '.json';
-                                return '<a href=https://mathedoc.github.io/digitalmath/quiz.html?sammlung=' + sammlungsname + '" target="_blank">' + url.trim() + '</a>';
+                                return '<a href="https://mathedoc.github.io/digitalmath/quiz.html?sammlung=' + sammlungsname + '" target="_blank">' + url.trim() + '</a>';
                             });
                             
                             // Setze die Zelle mit den Links
