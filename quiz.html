@@ -94,7 +94,7 @@
             const params = new URLSearchParams(window.location.search);
             const sammlung = params.get('sammlung');
 
-            fetch(`Aufgaben/JSON/${sammlung}`)
+            fetch(`JSON/${sammlung}`)
                 .then(response => response.json())
                 .then(data => zeigeZufaelligeAufgabe(data))
                 .catch(error => {
