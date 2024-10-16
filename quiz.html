@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgaben mit JavaScript</title>
+    
+    <!-- Einbinden der externen CSS-Datei -->
+    <link rel="stylesheet" href="styles.css"> 
+    <!-- MathJax Skript einbinden -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['\\(','\\)']],  // für inline Math (z.B. \( ... \))
+                displayMath: [['\\[','\\]'], ['$$','$$']] // für Block Math (z.B. \[ ... \] oder $$ ... $$)
+            },
+            "HTML-CSS": {
+                availableFonts: ["TeX"],
+                linebreaks: { automatic: true }
+            }
+        });
+    </script>
+
+</head>
+ 
+<body>
+    <h1>
+        KennzahlenRechnerisch_E2K3 
+    </h1>
+    
+    <div id="aufgabe"></div>
+
+    <script>
+        function checkAnswer(questionId, correctAnswer, tolerance) {
+            const userAnswer = parseFloat(document.getElementById(`answer${questionId}`).value);
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
+
+            if (!isNaN(userAnswer)) {
+                if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
+                    feedbackElement.textContent = "Richtig!";
+                    feedbackElement.style.color = "green";
+                } else {
+                    feedbackElement.textContent = "Falsch! Die richtige Antwort ist: " + correctAnswer;
+                    feedbackElement.style.color = "red";
+                }
+                feedbackElement.style.transition = "opacity 0.5s ease-in-out";
+                feedbackElement.style.opacity = 1;
+            } else {
+                feedbackElement.textContent = "Bitte eine gültige Zahl eingeben.";
+                feedbackElement.style.color = "orange";
+            }
+        }
+
+        function replaceNumericalWithInteractive(htmlContent) {
+            let questionId = 1;
+            const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
+            function replacer(match, correctAnswer, tolerance) {
+                const interactiveHtml = `
+                    <input type="number" id="answer${questionId}" placeholder="Antwort">
+                    <button onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})">Überprüfen</button>
+                    <span id="feedback${questionId}"></span>
+                `;
+                questionId++;
+                return interactiveHtml;
+            }
+            return htmlContent.replace(pattern, replacer);
+        }
+
+        function zeigeZufaelligeAufgabe(data) {
+            const randomIndex = Math.floor(Math.random() * data.length);
+            const selectedTask = data[randomIndex];
+
+            const aufgabeDiv = document.getElementById('aufgabe');
+            let htmlContent =
+                `<div class="einleitung">
+                    <button class="neueAufgabe" onclick="zeigeNeueAufgabe()">Neu</button><br>
+                    <p>${selectedTask.einleitung}</p>
+                </div>
+                <div class="nachfolgend">
+                    <ol aria-label="Liste von Aufgaben">`;
+            selectedTask.fragen.forEach((frage, index) => {
+                htmlContent += `<li>${frage}<br>${selectedTask.antworten[index]}</li>`;
+            });
+            htmlContent += `</ol>
+                </div>`;
+            aufgabeDiv.innerHTML = replaceNumericalWithInteractive(htmlContent);
+            // MathJax Neurendering auslösen
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeDiv]);
+        }
+
+        // Funktion zum Neuladen der Aufgabe
+        function zeigeNeueAufgabe() {
+            const params = new URLSearchParams(window.location.search);
+            const sammlung = params.get('sammlung');
+
+            fetch(`Aufgaben/JSON/${sammlung}`)
+                .then(response => response.json())
+                .then(data => zeigeZufaelligeAufgabe(data))
+                .catch(error => {
+                    console.error('Fehler beim Laden der JSON-Datei:', error);
+                    document.getElementById('aufgabe').innerText = 'Es gab ein Problem beim Laden der Aufgaben.';
+                });
+        }
+
+        // Initiales Laden einer zufälligen Aufgabe
+        zeigeNeueAufgabe();
+    </script>  
+</body>
+</html>
