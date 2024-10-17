@@ -62,7 +62,7 @@
         table.dataTable tr th:nth-child(4),
         table.dataTable tr td:nth-child(4) {
         display: none;
-}
+        }
 
         /* Responsive für mobile Geräte */
         @media (max-width: 768px) {
@@ -112,7 +112,7 @@
         .copyBtn {
             margin-left: 5px;
             font-size: 12px;
-            padding: 2px 8px;
+            padding: 8px 8px;
             background-color: #4e73df;
             color: white;
             border: none;
@@ -123,6 +123,8 @@
         .copyBtn:hover {
             background-color: #2e59d9;
         }
+        
+
 
         .buttonrow {
             display: flex; /* Flexbox für die Anordnung */
@@ -380,21 +382,20 @@
 
 <h2>Yes, we can math!</h2>
 
-<!-- Export- und Import-Buttons -->
-
-
-<div class="buttonrow">
-    <span>
-        <button id="hideUnchecked">Auswahl anzeigen</button>
-        <button id="showAll">Alle anzeigen</button>
-    </span>
-    <span>
-        <input type="text" id="importJson" placeholder="JSON hier einfügen" />
-        <button id="importConfig">Konfiguration importieren</button>
-        <button id="exportSelection">Konfiguration exportieren</button>
-        <button id="shareLink">Link erzeugen</button>
-    </span>
-</div>
+<!-- Export- und Import-Buttons
+    <div class="buttonrow">
+        <span>
+            
+            
+        </span>
+        <span>
+            <input type="text" id="importJson" placeholder="JSON hier einfügen" />
+            <button id="importConfig">Konfiguration importieren</button>
+            <button id="exportSelection">Konfiguration exportieren</button>
+            <button id="shareLink">Link erzeugen</button>
+        </span>
+    </div>
+ -->
 
 <table id="dropdowns" class="display">
     <tbody>
@@ -409,12 +410,12 @@
             <td>Situation: </td>
             <td></td>
         </tr>
+        <tr>
+            <td>Markierung: </td>
+            <td><button class="copyBtn" id="hideUnchecked">Auswahl</button><button class="copyBtn" id="showAll">Alle</button></td>
+        </tr>        
     </tbody>
 </table>
-
-
-
-
 
 <div id="content"></div>
 

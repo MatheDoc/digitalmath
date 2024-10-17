@@ -3,59 +3,350 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamische Dropdowns mit DataTable</title>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-</head>
-<body>
-    <select id="dropdown1">
-        <option value="">Bitte wählen</option>
-        <!-- Optionen werden hier dynamisch hinzugefügt -->
-    </select>
+    <title>Ich-Kann-Liste</title>
 
-    <select id="dropdown2">
-        <option value="">Bitte wählen</option>
-        <!-- Optionen werden hier dynamisch hinzugefügt -->
-    </select>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
 
-    <table id="example" class="display">
-        <thead>
-            <tr>
-                <th>Spalte 1</th>
-                <th>Spalte 2</th>
-                <!-- Füge hier weitere Spalten nach Bedarf hinzu -->
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Wert 1A</td>
-                <td>Wert 2A</td>
-            </tr>
-            <tr>
-                <td>Wert 1A</td>
-                <td>Wert 2B</td>
-            </tr>
-            <tr>
-                <td>Wert 1B</td>
-                <td>Wert 2A</td>
-            </tr>
-            <tr>
-                <td>Wert 1B</td>
-                <td>Wert 2C</td>
-            </tr>
-            <tr>
-                <td>Wert 1C</td>
-                <td>Wert 2A</td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css" rel="stylesheet" />
+
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
+
+    <style>
+        /* Modernisierte Button-Stile */
+        button {
+            background-color: #4e73df;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: #2e59d9;
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            background-color: #1e3fa8;
+            transform: translateY(0);
+        }
+
+        /* Styling für Select2, damit es zum Layout passt */
+        .select2-container {
+            width: 150px !important;
+        }
+
+        /* Modernere Hover-Effekte */
+        table.dataTable tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Blendet die zweite Spalte aus */
+        table.dataTable tr th:nth-child(2),
+        table.dataTable tr td:nth-child(2),
+        table.dataTable tr th:nth-child(3),
+        table.dataTable tr td:nth-child(3),
+        table.dataTable tr th:nth-child(4),
+        table.dataTable tr td:nth-child(4) {
+        display: none;
+        }
+
+        /* Responsive für mobile Geräte */
+        @media (max-width: 768px) {
+            .select2-container {
+                width: 100% !important;
+            }
+        }
+
+        /* Stil für die gesamte Seite */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+
+        /* Überschrift stilisieren */
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 2em;
+            color: #4e73df;
+        }
+
+        /* Inhalt in der Mitte zentrieren */
+        #content {
+            margin: 20px;
+        }
+
+        /* Footer Stil */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        footer a {
+            color: #4e73df;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling für den Copy-Button in der 4. Spalte */
+        .copyBtn {
+            margin-left: 5px;
+            font-size: 12px;
+            padding: 8px 8px;
+            background-color: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .copyBtn:hover {
+            background-color: #2e59d9;
+        }
+        
+
+
+        .buttonrow {
+            display: flex; /* Flexbox für die Anordnung */
+            justify-content: space-between; /* Abstand zwischen den Elementen */
+            align-items: center; /* Vertikale Ausrichtung */
+            padding: 10px; /* Innenabstand */
+        }
+
+    </style>
 
     <script>
         $(document).ready(function() {
-            const table = $('#example').DataTable();
+            async function loadHTML() {
+                try {
+                    document.getElementById('content').innerHTML = '<p>Lade Daten...</p>'; // Ladeindikator
+                    const response = await fetch('liste.html'); // Stellen Sie sicher, dass diese Datei vorhanden ist
+                    if (!response.ok) {
+                        throw new Error('Netzwerkantwort war nicht ok');
+                    }
+                    const html = await response.text();
+                    document.getElementById('content').innerHTML = html;
 
-            // Funktion, um ein Dropdown mit Werten zu füllen
+                    // Initialisiere die DataTable nach dem Laden des Inhalts
+                    var table = $('#meineTabelle').DataTable({
+                        "pageLength": -1,
+                        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "Alle"]],
+                        "language": {
+                            "lengthMenu": "Zeige _MENU_ Einträge",
+                            "info": "Zeige Eintrag _START_ bis _END_ von _TOTAL_ Einträgen",
+                            "paginate": {
+                                "previous": "Zurück",
+                                "next": "Weiter"
+                            }
+                        },
+                        "ordering": false, // Deaktiviert die Sortierung für alle Spalten
+                        "columnDefs": [{
+                            "targets": 0,
+                            "orderable": false,
+                            "className": "dt-body-center dt-head-center",
+                            "render": function(data, type, row) {
+                                return '<input type="checkbox" class="rowCheckbox" />';
+                            }
+                        }]
+                    });
+
+
+
+
+            // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
+            $('#hideUnchecked').on('click', function() {
+                table.rows().every(function() {
+                    var row = $(this.node());
+                    var checkbox = row.find('input.rowCheckbox');
+                    if (!checkbox.is(':checked')) {
+                        row.hide(); // Verstecke die Zeile
+                    } else {
+                        row.show(); // Zeige die Zeile
+                    }
+                });
+                table.draw(); // Zeichne die Tabelle neu
+            });
+
+            // Funktion zum Zeigen aller Zeilen
+            $('#showAll').on('click', function() {
+                table.rows().every(function() {
+                    var row = $(this.node());
+                    var checkbox = row.find('input.rowCheckbox');     
+                    row.show(); // Zeige die Zeile
+                });
+                table.draw(); // Zeichne die Tabelle neu
+            });
+
+                    // Füge Links zur 6. Spalte hinzu
+                    table.rows().every(function(rowIdx) {
+                        var data = this.data();
+                        var urls = data[5]; // 5. Spalte (index 4)
+                        // Angang der URL
+                        
+                        if (urls) {
+                            // Teile die URLs und erstelle Links
+                            var links = urls.split(',').map(function(url) {
+                                var sammlungsname = data[1] + '_' + data[2] + '_' + data[3] + '_' + url.trim() + '.json';
+                                return 'sammlung=' + sammlungsname;
+                            });
+                            
+                            // Setze die Zelle mit den Links
+                            table.cell(rowIdx, 5).data('<a href="https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '" target="_blank">Quiz</a>'); // Links mit Zeilenumbruch trennen 
+                        }
+                    });
+
+                    // Fügt den Copy-Button zur 4. Spalte hinzu
+                    table.rows().every(function(rowIdx) {
+                        var data = this.data();
+                        var ichKannText = data[4]; // 4. Spalte (index 3)
+                        
+                        // Fügen Sie einen kleinen Button zum Kopieren hinzu
+                        var copyButton = '<button class="copyBtn">Copy</button>';
+                        table.cell(rowIdx, 4).data(ichKannText + copyButton);
+                    });
+
+                    // Event-Listener für die Copy-Buttons
+                    $('#meineTabelle').on('click', '.copyBtn', function() {
+                        var row = $(this).closest('tr');
+                        var gebiet =  table.cell(row, 1).data();
+                        var feld = table.cell(row, 2).data();
+                        var situation = table.cell(row, 3).data();
+                        var textToCopy = gebiet + ': '+ situation + ': Erläuterung - Beispiel - Übung: Ich kann ' + table.cell(row, 3).data(); // Holen Sie den Text der 4. Spalte
+                        var textToCopy = gebiet + ': '+ feld + ': ' + situation + ': Erkläre schülergerecht: Ich kann ' + table.cell(row, 4).data();
+
+                        // Text vor dem Button extrahieren
+                        textToCopy = textToCopy.split('<button')[0].trim();
+
+                        // Kopieren in die Zwischenablage
+                        navigator.clipboard.writeText(textToCopy).then(() => {
+                            // Meldung
+                        });
+                    });
+
+                    // Funktion zum Auswählen/Auswählen aller Checkboxen
+                    $('#checkAll').on('click', function() {
+                        var rows = table.rows({ 'search': 'applied' }).nodes(); // Holt alle sichtbaren Zeilen
+                        $('input.rowCheckbox', rows).prop('checked', this.checked); // Setzt den Status der Checkboxen
+                    });
+
+                    // Dropdowns erstellen
+                    const gebietDropdown = $('<select id="gebietFilter" multiple="multiple" style="width: 100%;"></select>');
+                    const feldDropdown= $('<select id="feldFilter" multiple="multiple" style="width: 100%;"></select>');
+                    const situationDropdown = $('<select id="situationFilter" multiple="multiple" style="width: 100%;"></select>');
+                    
+                    // Anhängen der Dropdowns an die Kopfzeile
+                    $('#dropdowns tbody tr:nth-child(1) td:nth-child(2)').append(gebietDropdown); 
+                    $('#dropdowns tbody tr:nth-child(2) td:nth-child(2)').append(feldDropdown); 
+                    $('#dropdowns tbody tr:nth-child(3) td:nth-child(2)').append(situationDropdown); 
+
+                    // Initialisiere Select2 auf den Dropdown-Menüs
+                    $('#gebietFilter, #feldFilter,#situationFilter').select2({
+                        placeholder: "Wähle aus...",
+                        allowClear: true
+                    });
+
+                    // Fülle Dropdowns nach dem Laden des Inhalts
+                    fillDropdown(1, '#gebietFilter', table);
+                    fillDropdown(2, '#feldFilter', table);
+                    fillDropdown(3, '#situationFilter', table);
+
+                    // Event-Listener für Dropdowns
+                    $('#gebietFilter, #feldFilter, #situationFilter').on('change', function() {
+                        filterTable(table);
+                    });
+
+                    // Export-Button
+                    $('#exportSelection').on('click', function() {
+                        const selectedRows = [];
+                        table.$('.rowCheckbox:checked').each(function() {
+                            const row = $(this).closest('tr');
+                            const rowData = table.row(row).data();
+                            selectedRows.push(rowData);
+                        });
+                        const json = JSON.stringify(selectedRows);
+                        navigator.clipboard.writeText(json).then(() => {
+                            //alert('Ausgewählte Konfiguration wurde in die Zwischenablage kopiert!');
+                        });
+                    });
+
+                    // Import-Button
+                    $('#importConfig').on('click', function() {
+                        const json = $('#importJson').val();
+                        try {
+                            const importedData = JSON.parse(json);
+                            // Überprüfen, ob die Daten in der Tabelle sind
+                            table.rows().every(function() {
+                                const rowData = this.data();
+                                const isSelected = importedData.some(item => JSON.stringify(item) === JSON.stringify(rowData));
+                                const checkbox = $(this.node()).find('.rowCheckbox');
+                                checkbox.prop('checked', isSelected);
+                            });
+                            // alert('Konfiguration erfolgreich importiert!');
+                        } catch (e) {
+                            alert('Ungültiges JSON-Format');
+                        }
+                    });
+
+                    // Teilen-Link generieren
+                    $('#shareLink').on('click', function() {
+                        const selectedRows = [];
+                        table.$('.rowCheckbox:checked').each(function() {
+                            const row = $(this).closest('tr');
+                            const rowData = table.row(row).data();
+                            selectedRows.push(rowData);
+                        });
+                        const json = JSON.stringify(selectedRows);
+                        const encodedJson = encodeURIComponent(json);
+                        const shareableLink = `${window.location.href}?config=${encodedJson}`;
+                        navigator.clipboard.writeText(shareableLink).then(() => {
+                            // alert('Link der gewählten Konfiguration wurde in die Zwischenablage kopiert: ' + shareableLink);
+                        });
+                    });
+
+                    // Überprüfen, ob ein "config"-Parameter in der URL vorhanden ist
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const configJson = urlParams.get('config');
+                    if (configJson) {
+                        try {
+                            const importedData = JSON.parse(decodeURIComponent(configJson));
+                            // Überprüfen, ob die Daten in der Tabelle sind
+                            table.rows().every(function() {
+                                const rowData = this.data();
+                                const isSelected = importedData.some(item => JSON.stringify(item) === JSON.stringify(rowData));
+                                const checkbox = $(this.node()).find('.rowCheckbox');
+                                checkbox.prop('checked', isSelected);
+                            });
+                        } catch (e) {
+                            console.error('Ungültige Konfigurationsdaten');
+                        }
+                    }
+                } catch (error) {
+                    console.error('Fehler beim Laden der HTML-Datei:', error);
+                    document.getElementById('content').innerHTML = '<p>Fehler beim Laden der Daten.</p>';
+                }
+            }
+
+            // Funktion, um Dropdowns basierend auf den Tabellendaten zu füllen
             function fillDropdown(columnIndex, dropdownSelector, table) {
                 const uniqueValues = [];
                 table.column(columnIndex).data().each(function(value) {
@@ -63,11 +354,6 @@
                         uniqueValues.push(value);
                     }
                 });
-
-                // Leere das Dropdown und füge den Standardwert hinzu
-                $(dropdownSelector).empty().append($('<option>', { value: '', text: 'Bitte wählen' }));
-                
-                // Füge die einzigartigen Werte hinzu
                 uniqueValues.forEach(function(value) {
                     $(dropdownSelector).append($('<option>', {
                         value: value,
@@ -76,84 +362,67 @@
                 });
             }
 
-            // Fülle beide Dropdowns zu Beginn
-            fillDropdown(0, '#dropdown1', table);
-            fillDropdown(1, '#dropdown2', table);
-
-            // Funktion, um das zweite Dropdown basierend auf der Auswahl im ersten Dropdown zu füllen
-            function updateDropdown2(selectedValue) {
-                const filteredValues = [];
-                
-                // Leere das zweite Dropdown
-                $('#dropdown2').empty().append($('<option>', { value: '', text: 'Bitte wählen' }));
-
-                table.rows().every(function() {
-                    const data = this.data();
-                    // Wenn der Wert in der ersten Spalte dem ausgewählten Wert entspricht, füge den Wert aus der zweiten Spalte hinzu
-                    if (data[0] === selectedValue) {
-                        const valueToAdd = data[1];
-                        if (filteredValues.indexOf(valueToAdd) === -1) {
-                            filteredValues.push(valueToAdd);
-                        }
-                    }
-                });
-
-                // Fülle das zweite Dropdown mit gefilterten Werten
-                filteredValues.forEach(function(value) {
-                    $('#dropdown2').append($('<option>', {
-                        value: value,
-                        text: value
-                    }));
-                });
+            // Funktion zum Filtern der Tabelle basierend auf den Dropdown-Auswahlen
+            function filterTable(table) {
+                const gebietValue = $('#gebietFilter').val();
+                const feldValue = $('#feldFilter').val();
+                const situationValue = $('#situationFilter').val();
+                table.column(1).search(gebietValue ? gebietValue.join('|') : '', true, false);
+                table.column(2).search(feldValue ? feldValue.join('|') : '', true, false);
+                table.column(3).search(situationValue ? situationValue.join('|') : '', true, false);
+                table.draw();
             }
 
-            // Funktion, um das erste Dropdown basierend auf der Auswahl im zweiten Dropdown zu füllen
-            function updateDropdown1(selectedValue) {
-                const filteredValues = [];
-
-                // Leere das erste Dropdown
-                $('#dropdown1').empty().append($('<option>', { value: '', text: 'Bitte wählen' }));
-
-                table.rows().every(function() {
-                    const data = this.data();
-                    // Wenn der Wert in der zweiten Spalte dem ausgewählten Wert entspricht, füge den Wert aus der ersten Spalte hinzu
-                    if (data[1] === selectedValue) {
-                        const valueToAdd = data[0];
-                        if (filteredValues.indexOf(valueToAdd) === -1) {
-                            filteredValues.push(valueToAdd);
-                        }
-                    }
-                });
-
-                // Fülle das erste Dropdown mit gefilterten Werten
-                filteredValues.forEach(function(value) {
-                    $('#dropdown1').append($('<option>', {
-                        value: value,
-                        text: value
-                    }));
-                });
-            }
-
-            // Ereignisbindung für das erste Dropdown
-            $('#dropdown1').change(function() {
-                const selectedValue = $(this).val(); // Den gewählten Wert abrufen
-                if (selectedValue) {
-                    updateDropdown2(selectedValue); // Das zweite Dropdown basierend auf der Auswahl füllen
-                } else {
-                    $('#dropdown2').empty().append($('<option>', { value: '', text: 'Bitte wählen' })); // Leere das zweite Dropdown
-                }
-            });
-
-            // Ereignisbindung für das zweite Dropdown
-            $('#dropdown2').change(function() {
-                const selectedValue = $(this).val(); // Den gewählten Wert abrufen
-                if (selectedValue) {
-                    updateDropdown1(selectedValue); // Das erste Dropdown basierend auf der Auswahl füllen
-                } else {
-                    $('#dropdown1').empty().append($('<option>', { value: '', text: 'Bitte wählen' })); // Leere das erste Dropdown
-                }
-            });
+            // Ruft die Funktion auf, um die HTML-Datei zu laden
+            loadHTML();
         });
     </script>
+</head>
+<body>
+
+<h2>Yes, we can math!</h2>
+
+<!-- Export- und Import-Buttons
+    <div class="buttonrow">
+        <span>
+            
+            
+        </span>
+        <span>
+            <input type="text" id="importJson" placeholder="JSON hier einfügen" />
+            <button id="importConfig">Konfiguration importieren</button>
+            <button id="exportSelection">Konfiguration exportieren</button>
+            <button id="shareLink">Link erzeugen</button>
+        </span>
+    </div>
+ -->
+
+<table id="dropdowns" class="display">
+    <tbody>
+        <tr>
+            <td>Gebiet: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Feld: </td>
+            <td></td>
+        </tr>        <tr>
+            <td>Situation: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Markierung: </td>
+            <td><button class="copyBtn" id="hideUnchecked">Auswahl</button><button class="copyBtn" id="showAll">Alle</button></td>
+        </tr>        
+    </tbody>
+</table>
+
+<div id="content"></div>
+
+<footer>
+    <p>&copy; 2024 Dr. Sven Führing. Dieses Werk steht unter einer 
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Lizenz (CC BY 4.0)</a>.</p>
+</footer>
+
 </body>
 </html>
