@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamische Dropdowns mit DataTable</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <select id="dropdown1">
+        <option value="">Bitte wählen</option>
+        <!-- Optionen werden hier dynamisch hinzugefügt -->
+    </select>
+
+    <select id="dropdown2">
+        <option value="">Bitte wählen</option>
+        <!-- Optionen werden hier dynamisch hinzugefügt -->
+    </select>
+
+    <table id="example" class="display">
+        <thead>
+            <tr>
+                <th>Spalte 1</th>
+                <th>Spalte 2</th>
+                <!-- Füge hier weitere Spalten nach Bedarf hinzu -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wert 1A</td>
+                <td>Wert 2A</td>
+            </tr>
+            <tr>
+                <td>Wert 1A</td>
+                <td>Wert 2B</td>
+            </tr>
+            <tr>
+                <td>Wert 1B</td>
+                <td>Wert 2A</td>
+            </tr>
+            <tr>
+                <td>Wert 1B</td>
+                <td>Wert 2C</td>
+            </tr>
+            <tr>
+                <td>Wert 1C</td>
+                <td>Wert 2A</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        $(document).ready(function() {
+            const table = $('#example').DataTable();
+
+            // Funktion, um ein Dropdown mit Werten zu füllen
+            function fillDropdown(columnIndex, dropdownSelector, table) {
+                const uniqueValues = [];
+                table.column(columnIndex).data().each(function(value) {
+                    if (uniqueValues.indexOf(value) === -1) {
+                        uniqueValues.push(value);
+                    }
+                });
+
+                // Leere das Dropdown und füge den Standardwert hinzu
+                $(dropdownSelector).empty().append($('<option>', { value: '', text: 'Bitte wählen' }));
+                
+                // Füge die einzigartigen Werte hinzu
+                uniqueValues.forEach(function(value) {
+                    $(dropdownSelector).append($('<option>', {
+                        value: value,
+                        text: value
+                    }));
+                });
+            }
+
+            // Fülle beide Dropdowns zu Beginn
+            fillDropdown(0, '#dropdown1', table);
+            fillDropdown(1, '#dropdown2', table);
+
+            // Funktion, um das zweite Dropdown basierend auf der Auswahl im ersten Dropdown zu füllen
+            function updateDropdown2(selectedValue) {
+                const filteredValues = [];
+                
+                // Leere das zweite Dropdown
+                $('#dropdown2').empty().append($('<option>', { value: '', text: 'Bitte wählen' }));
+
+                table.rows().every(function() {
+                    const data = this.data();
+                    // Wenn der Wert in der ersten Spalte dem ausgewählten Wert entspricht, füge den Wert aus der zweiten Spalte hinzu
+                    if (data[0] === selectedValue) {
+                        const valueToAdd = data[1];
+                        if (filteredValues.indexOf(valueToAdd) === -1) {
+                            filteredValues.push(valueToAdd);
+                        }
+                    }
+                });
+
+                // Fülle das zweite Dropdown mit gefilterten Werten
+                filteredValues.forEach(function(value) {
+                    $('#dropdown2').append($('<option>', {
+                        value: value,
+                        text: value
+                    }));
+                });
+            }
+
+            // Funktion, um das erste Dropdown basierend auf der Auswahl im zweiten Dropdown zu füllen
+            function updateDropdown1(selectedValue) {
+                const filteredValues = [];
+
+                // Leere das erste Dropdown
+                $('#dropdown1').empty().append($('<option>', { value: '', text: 'Bitte wählen' }));
+
+                table.rows().every(function() {
+                    const data = this.data();
+                    // Wenn der Wert in der zweiten Spalte dem ausgewählten Wert entspricht, füge den Wert aus der ersten Spalte hinzu
+                    if (data[1] === selectedValue) {
+                        const valueToAdd = data[0];
+                        if (filteredValues.indexOf(valueToAdd) === -1) {
+                            filteredValues.push(valueToAdd);
+                        }
+                    }
+                });
+
+                // Fülle das erste Dropdown mit gefilterten Werten
+                filteredValues.forEach(function(value) {
+                    $('#dropdown1').append($('<option>', {
+                        value: value,
+                        text: value
+                    }));
+                });
+            }
+
+            // Ereignisbindung für das erste Dropdown
+            $('#dropdown1').change(function() {
+                const selectedValue = $(this).val(); // Den gewählten Wert abrufen
+                if (selectedValue) {
+                    updateDropdown2(selectedValue); // Das zweite Dropdown basierend auf der Auswahl füllen
+                } else {
+                    $('#dropdown2').empty().append($('<option>', { value: '', text: 'Bitte wählen' })); // Leere das zweite Dropdown
+                }
+            });
+
+            // Ereignisbindung für das zweite Dropdown
+            $('#dropdown2').change(function() {
+                const selectedValue = $(this).val(); // Den gewählten Wert abrufen
+                if (selectedValue) {
+                    updateDropdown1(selectedValue); // Das erste Dropdown basierend auf der Auswahl füllen
+                } else {
+                    $('#dropdown1').empty().append($('<option>', { value: '', text: 'Bitte wählen' })); // Leere das erste Dropdown
+                }
+            });
+        });
+    </script>
+</body>
+</html>
