@@ -243,9 +243,9 @@
                     const situationDropdown = $('<select id="situationFilter" multiple="multiple" style="width: 100%;"></select>');
                     
                     // Anhängen der Dropdowns an die Kopfzeile
-                    $('#meineTabelle thead tr:first-child th:nth-child(2)').append('<br>', gebietDropdown);
-                    $('#meineTabelle thead tr:first-child th:nth-child(3)').append('<br>', feldDropdown);
-                    $('#meineTabelle thead tr:first-child th:nth-child(4)').append('<br>', situationDropdown);
+                    $('#dropdowns tbody tr:nth-child(1) td:nth-child(2)').append(gebietDropdown); 
+                    $('#dropdowns tbody tr:nth-child(2) td:nth-child(2)').append(feldDropdown); 
+                    $('#dropdowns tbody tr:nth-child(3) td:nth-child(2)').append(situationDropdown); 
 
                     // Initialisiere Select2 auf den Dropdown-Menüs
                     $('#gebietFilter, #feldFilter,#situationFilter').select2({
@@ -385,7 +385,21 @@
     </span>
 </div>
 
-
+<table id="dropdowns" class="display">
+    <tbody>
+        <tr>
+            <td>Gebiet: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Feld: </td>
+            <td></td>
+        </tr>        <tr>
+            <td>Situation: </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 
