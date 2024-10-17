@@ -69,6 +69,11 @@
             const params = new URLSearchParams(window.location.search);
             const sammlungen = params.getAll('sammlung'); // Holt alle Sammlungen aus der URL
 
+
+    // Den Container vor dem Hinzufügen neuer Aufgaben leeren
+    const aufgabeContainer = document.getElementById('aufgabe');
+    aufgabeContainer.innerHTML = '';
+
             if (sammlungen.length > 0) {
                 // Für jede Sammlung eine Anfrage senden und Aufgaben anzeigen
                 sammlungen.forEach(sammlung => {
