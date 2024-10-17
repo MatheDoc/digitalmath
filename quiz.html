@@ -65,70 +65,61 @@
             return htmlContent.replace(pattern, replacer);
         }
 
-        function zeigeNeueAufgabe(taskId) {
-    const params = new URLSearchParams(window.location.search);
-    const sammlungen = params.getAll('sammlung'); // Holt alle Sammlungen aus der URL
+        function zeigeNeueAufgabe() {
+            const params = new URLSearchParams(window.location.search);
+            const sammlungen = params.getAll('sammlung'); // Holt alle Sammlungen aus der URL
 
-    // Den Container für die aktuelle Aufgabe leeren
-    const aufgabeContainer = document.getElementById(taskId);
-    aufgabeContainer.innerHTML = ''; // Vor dem Laden einer neuen Aufgabe wird der Container geleert
-
-    if (sammlungen.length > 0) {
-        // Für jede Sammlung eine Anfrage senden und Aufgaben anzeigen
-        sammlungen.forEach(sammlung => {
-            fetch(`Aufgaben/JSON/${sammlung}`)
-                .then(response => response.json())
-                .then(data => zeigeZufaelligeAufgabeAusSammlung(sammlung, data, taskId))
-                .catch(error => {
-                    console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
-                    aufgabeContainer.innerHTML = `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${sammlung}.</p>`;
+            if (sammlungen.length > 0) {
+                // Für jede Sammlung eine Anfrage senden und Aufgaben anzeigen
+                sammlungen.forEach(sammlung => {
+                    fetch(`Aufgaben/JSON/${sammlung}`)
+                        .then(response => response.json())
+                        .then(data => zeigeZufaelligeAufgabeAusSammlung(sammlung, data))
+                        .catch(error => {
+                            console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
+                            document.getElementById('aufgabe').innerHTML += `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${sammlung}.</p>`;
+                        });
                 });
-        });
-    } else {
-        console.error('Keine Sammlung in der URL gefunden.');
-        aufgabeContainer.innerHTML = '<p>Keine Sammlung gefunden.</p>';
-    }
-}
+            } else {
+                console.error('Keine Sammlung in der URL gefunden.');
+                document.getElementById('aufgabe').innerText = 'Keine Sammlung gefunden.';
+            }
+        }
 
+        function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
+            if (aufgaben.length > 0) {
+                const randomIndex = Math.floor(Math.random() * aufgaben.length);
+                const selectedTask = aufgaben[randomIndex];
 
-function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
-    if (aufgaben.length > 0) {
-        const randomIndex = Math.floor(Math.random() * aufgaben.length);
-        const selectedTask = aufgaben[randomIndex];
+                // Erstelle HTML-Elemente für jede Sammlung und füge die Aufgabe hinzu
+                const aufgabeContainer = document.getElementById('aufgabe');
+                let htmlContent =
+                    `<h2>Test</h2><div class="einleitung">
+                        <button class="neueAufgabe" onclick="zeigeNeueAufgabe()">Neu</button><br>
+                        <p>${selectedTask.einleitung}</p>
+                    </div>
+                    <div class="nachfolgend">
+                        <ol aria-label="Liste von Aufgaben">`;
 
-        // Erstelle HTML-Elemente für die Aufgabe mit einer eindeutigen ID
-        const taskId = `task-${randomIndex}`; // Hier wird eine eindeutige ID basierend auf dem Index der Aufgabe erstellt
-        const aufgabeContainer = document.getElementById('aufgabe');
-        let htmlContent =
-            `<div id="${taskId}"><h2>Aufgabe aus Sammlung: ${sammlung}</h2>
-            <div class="einleitung">
-                <button class="neueAufgabe" onclick="zeigeNeueAufgabe('${taskId}')">Neu</button><br>
-                <p>${selectedTask.einleitung}</p>
-            </div>
-            <div class="nachfolgend">
-                <ol aria-label="Liste von Aufgaben">`;
+                selectedTask.fragen.forEach((frage, index) => {
+                    htmlContent += `<li>${frage}<br>${selectedTask.antworten[index]}</li>`;
+                });
 
-        selectedTask.fragen.forEach((frage, index) => {
-            htmlContent += `<li>${frage}<br>${selectedTask.antworten[index]}</li>`;
-        });
+                htmlContent += `</ol>
+                    </div>`;
 
-        htmlContent += `</ol>
-            </div>
-            </div>`; // Schließen der Aufgabe-Container-Div
+                // Füge das erstellte HTML der Seite hinzu
+                const aufgabenElement = document.createElement('div');
+                aufgabenElement.innerHTML = replaceNumericalWithInteractive(htmlContent);
+                aufgabeContainer.appendChild(aufgabenElement);
 
-        // Füge das erstellte HTML der Seite hinzu
-        const aufgabenElement = document.createElement('div');
-        aufgabenElement.innerHTML = replaceNumericalWithInteractive(htmlContent);
-        aufgabeContainer.appendChild(aufgabenElement);
-
-        // MathJax Neurendering auslösen (falls MathJax benötigt wird)
-        MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
-    } else {
-        console.error(`Keine Aufgaben in der Sammlung ${sammlung} gefunden.`);
-        document.getElementById('aufgabe').innerHTML += `<p>Keine Aufgaben in der Sammlung ${sammlung} gefunden.</p>`;
-    }
-}
-
+                // MathJax Neurendering auslösen (falls MathJax benötigt wird)
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
+            } else {
+                console.error(`Keine Aufgaben in der Sammlung ${sammlung} gefunden.`);
+                document.getElementById('aufgabe').innerHTML += `<p>Keine Aufgaben in der Sammlung ${sammlung} gefunden.</p>`;
+            }
+        }
 
 
 
