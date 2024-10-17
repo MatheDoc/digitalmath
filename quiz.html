@@ -25,9 +25,7 @@
 </head>
  
 <body>
-    <h1>
-        KennzahlenRechnerisch_E2K3 
-    </h1>
+    <h1>Yes, we can math!</h1>
     
     <div id="aufgabe"></div>
 
@@ -67,41 +65,63 @@
             return htmlContent.replace(pattern, replacer);
         }
 
-        function zeigeZufaelligeAufgabe(data) {
-            const randomIndex = Math.floor(Math.random() * data.length);
-            const selectedTask = data[randomIndex];
-
-            const aufgabeDiv = document.getElementById('aufgabe');
-            let htmlContent =
-                `<div class="einleitung">
-                    <button class="neueAufgabe" onclick="zeigeNeueAufgabe()">Neu</button><br>
-                    <p>${selectedTask.einleitung}</p>
-                </div>
-                <div class="nachfolgend">
-                    <ol aria-label="Liste von Aufgaben">`;
-            selectedTask.fragen.forEach((frage, index) => {
-                htmlContent += `<li>${frage}<br>${selectedTask.antworten[index]}</li>`;
-            });
-            htmlContent += `</ol>
-                </div>`;
-            aufgabeDiv.innerHTML = replaceNumericalWithInteractive(htmlContent);
-            // MathJax Neurendering auslösen
-            MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeDiv]);
-        }
-
-        // Funktion zum Neuladen der Aufgabe
         function zeigeNeueAufgabe() {
             const params = new URLSearchParams(window.location.search);
-            const sammlung = params.get('sammlung');
+            const sammlungen = params.getAll('sammlung'); // Holt alle Sammlungen aus der URL
 
-            fetch(`Aufgaben/JSON/${sammlung}`)
-                .then(response => response.json())
-                .then(data => zeigeZufaelligeAufgabe(data))
-                .catch(error => {
-                    console.error('Fehler beim Laden der JSON-Datei:', error);
-                    document.getElementById('aufgabe').innerText = 'Es gab ein Problem beim Laden der Aufgaben.';
+            if (sammlungen.length > 0) {
+                // Für jede Sammlung eine Anfrage senden und Aufgaben anzeigen
+                sammlungen.forEach(sammlung => {
+                    fetch(`Aufgaben/JSON/${sammlung}`)
+                        .then(response => response.json())
+                        .then(data => zeigeZufaelligeAufgabeAusSammlung(sammlung, data))
+                        .catch(error => {
+                            console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
+                            document.getElementById('aufgabe').innerHTML += `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${sammlung}.</p>`;
+                        });
                 });
+            } else {
+                console.error('Keine Sammlung in der URL gefunden.');
+                document.getElementById('aufgabe').innerText = 'Keine Sammlung gefunden.';
+            }
         }
+
+        function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
+            if (aufgaben.length > 0) {
+                const randomIndex = Math.floor(Math.random() * aufgaben.length);
+                const selectedTask = aufgaben[randomIndex];
+
+                // Erstelle HTML-Elemente für jede Sammlung und füge die Aufgabe hinzu
+                const aufgabeContainer = document.getElementById('aufgabe');
+                let htmlContent =
+                    `<h2>Test</h2><div class="einleitung">
+                        <button class="neueAufgabe" onclick="zeigeNeueAufgabe()">Neu</button><br>
+                        <p>${selectedTask.einleitung}</p>
+                    </div>
+                    <div class="nachfolgend">
+                        <ol aria-label="Liste von Aufgaben">`;
+
+                selectedTask.fragen.forEach((frage, index) => {
+                    htmlContent += `<li>${frage}<br>${selectedTask.antworten[index]}</li>`;
+                });
+
+                htmlContent += `</ol>
+                    </div>`;
+
+                // Füge das erstellte HTML der Seite hinzu
+                const aufgabenElement = document.createElement('div');
+                aufgabenElement.innerHTML = replaceNumericalWithInteractive(htmlContent);
+                aufgabeContainer.appendChild(aufgabenElement);
+
+                // MathJax Neurendering auslösen (falls MathJax benötigt wird)
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
+            } else {
+                console.error(`Keine Aufgaben in der Sammlung ${sammlung} gefunden.`);
+                document.getElementById('aufgabe').innerHTML += `<p>Keine Aufgaben in der Sammlung ${sammlung} gefunden.</p>`;
+            }
+        }
+
+
 
         // Initiales Laden einer zufälligen Aufgabe
         zeigeNeueAufgabe();

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ich-Kann-Liste</title>
 
+    <!-- Einbinden der externen CSS-Datei -->
+    <link rel="stylesheet" href="styles.css"> 
+
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
 
@@ -19,121 +22,6 @@
 
     <!-- Select2 JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
-
-    <style>
-        /* Modernisierte Button-Stile */
-        button {
-            background-color: #4e73df;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        button:hover {
-            background-color: #2e59d9;
-            transform: translateY(-2px);
-        }
-
-        button:active {
-            background-color: #1e3fa8;
-            transform: translateY(0);
-        }
-
-        /* Styling für Select2, damit es zum Layout passt */
-        .select2-container {
-            width: 150px !important;
-        }
-
-        /* Modernere Hover-Effekte */
-        table.dataTable tbody tr:hover {
-            background-color: #f1f1f1;
-        }
-
-        /* Blendet die zweite Spalte aus */
-        table.dataTable tr th:nth-child(2),
-        table.dataTable tr td:nth-child(2),
-        table.dataTable tr th:nth-child(3),
-        table.dataTable tr td:nth-child(3),
-        table.dataTable tr th:nth-child(4),
-        table.dataTable tr td:nth-child(4) {
-        display: none;
-        }
-
-        /* Responsive für mobile Geräte */
-        @media (max-width: 768px) {
-            .select2-container {
-                width: 100% !important;
-            }
-        }
-
-        /* Stil für die gesamte Seite */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f7f9fc;
-            color: #333;
-        }
-
-        /* Überschrift stilisieren */
-        h2 {
-            text-align: center;
-            margin: 20px 0;
-            font-size: 2em;
-            color: #4e73df;
-        }
-
-        /* Inhalt in der Mitte zentrieren */
-        #content {
-            margin: 20px;
-        }
-
-        /* Footer Stil */
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #888;
-        }
-
-        footer a {
-            color: #4e73df;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Styling für den Copy-Button in der 4. Spalte */
-        .copyBtn {
-            margin-left: 5px;
-            font-size: 12px;
-            padding: 8px 8px;
-            background-color: #4e73df;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-
-        .copyBtn:hover {
-            background-color: #2e59d9;
-        }
-        
-
-
-        .buttonrow {
-            display: flex; /* Flexbox für die Anordnung */
-            justify-content: space-between; /* Abstand zwischen den Elementen */
-            align-items: center; /* Vertikale Ausrichtung */
-            padding: 10px; /* Innenabstand */
-        }
-
-    </style>
 
     <script>
         $(document).ready(function() {
@@ -207,11 +95,11 @@
                             // Teile die URLs und erstelle Links
                             var links = urls.split(',').map(function(url) {
                                 var sammlungsname = data[1] + '_' + data[2] + '_' + data[3] + '_' + url.trim() + '.json';
-                                return '<a href="https://mathedoc.github.io/digitalmath/quiz.html?sammlung=' + sammlungsname + '" target="_blank">' + url.trim() + '</a>';
+                                return 'sammlung=' + sammlungsname;
                             });
                             
                             // Setze die Zelle mit den Links
-                            table.cell(rowIdx, 5).data(links.join('<br>')); // Links mit Komma trennen 
+                            table.cell(rowIdx, 5).data('<a href="https://mathedoc.github.io/digitalmath/quiz2.html?' + links.join('&') + '" target="_blank">Quiz</a>'); // Links mit Zeilenumbruch trennen 
                         }
                     });
 
@@ -380,7 +268,7 @@
 </head>
 <body>
 
-<h2>Yes, we can math!</h2>
+<h1>Yes, we can math!</h1>
 
 <!-- Export- und Import-Buttons
     <div class="buttonrow">
@@ -397,7 +285,7 @@
     </div>
  -->
 
-<table id="dropdowns" class="display">
+<table id="dropdowns">
     <tbody>
         <tr>
             <td>Gebiet: </td>
@@ -406,7 +294,8 @@
         <tr>
             <td>Feld: </td>
             <td></td>
-        </tr>        <tr>
+        </tr>
+        <tr>
             <td>Situation: </td>
             <td></td>
         </tr>
