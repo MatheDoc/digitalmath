@@ -1,0 +1,194 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4e73df;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color:  #1e3fa8;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 99%;
+}
+
+.einleitung {
+    margin: 0 auto;
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 658px;
+    /* position: sticky;*/
+    top: 0; /* bleibt an der Oberseite des Viewports haften */
+}
+
+.nachfolgend {
+    margin-top: 20px; /* Anpassen je nach Höhe der einleitenden Box */
+}
+
+/* Stile für die geordnete Liste innerhalb der Klasse .nachfolgend */
+.nachfolgend ol {
+    margin: 0 auto;
+    padding: 0;
+    list-style-position: inside;
+    max-width: 700px;
+}
+
+/* Stile für die Listenelemente innerhalb der Klasse .nachfolgend */
+.nachfolgend li {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+p {
+    color: #555;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80px;
+}
+
+button {
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: #2e59d9;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #1e3fa8;
+    transform: translateY(0);
+}
+
+.neueAufgabe {
+    background-color:#4e73df;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 0px;
+    margin-right: -20px;
+    float: right;
+}
+
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    li {
+        padding: 15px;
+    }
+
+    input[type="number"] {
+        width: 60px;
+    }
+}
+
+/* Feste Bildbreite */
+img {
+    margin: 0 auto;
+    width: 400px;
+} 
+
+/* Footer Stil */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #888;
+    }
+
+footer a {
+    color: #4e73df;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styling für Select2, damit es zum Layout passt */
+    .select2-container {
+        width: 150px !important;
+    }
+
+    /* Responsive für mobile Geräte */
+    @media (max-width: 768px) {
+        .select2-container {
+            width: 100% !important;
+        }
+    }
+
+
+
+
+        /* Modernere Hover-Effekte */
+        table.dataTable tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Blendet die zweite Spalte aus */
+        table.dataTable tr th:nth-child(2),
+        table.dataTable tr td:nth-child(2),
+        table.dataTable tr th:nth-child(3),
+        table.dataTable tr td:nth-child(3),
+        table.dataTable tr th:nth-child(4),
+        table.dataTable tr td:nth-child(4) {
+        display: none;
+        }
+
+        /* Styling für den Copy-Button */
+        .copyBtn {
+            margin-left: 5px;
+            font-size: 12px;
+            padding: 8px 8px;
+            background-color: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }

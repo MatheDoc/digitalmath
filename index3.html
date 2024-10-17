@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ich-Kann-Liste</title>
 
+    <!-- Einbinden der externen CSS-Datei -->
+    <link rel="stylesheet" href="styles.css"> 
+    
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
 
@@ -21,6 +24,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
 
     <style>
+
+
+
         /* Modernisierte Button-Stile */
         button {
             background-color: #4e73df;
@@ -52,6 +58,16 @@
         /* Modernere Hover-Effekte */
         table.dataTable tbody tr:hover {
             background-color: #f1f1f1;
+        }
+
+        /* Blendet die zweite Spalte aus */
+        table.dataTable tr th:nth-child(2),
+        table.dataTable tr td:nth-child(2),
+        table.dataTable tr th:nth-child(3),
+        table.dataTable tr td:nth-child(3),
+        table.dataTable tr th:nth-child(4),
+        table.dataTable tr td:nth-child(4) {
+        display: none;
         }
 
         /* Responsive für mobile Geräte */
@@ -102,7 +118,7 @@
         .copyBtn {
             margin-left: 5px;
             font-size: 12px;
-            padding: 2px 8px;
+            padding: 8px 8px;
             background-color: #4e73df;
             color: white;
             border: none;
@@ -113,6 +129,8 @@
         .copyBtn:hover {
             background-color: #2e59d9;
         }
+        
+
 
         .buttonrow {
             display: flex; /* Flexbox für die Anordnung */
@@ -370,20 +388,20 @@
 
 <h2>Yes, we can math!</h2>
 
-<!-- Export- und Import-Buttons -->
-
-<div class="buttonrow">
-    <span>
-        <button id="hideUnchecked">Auswahl anzeigen</button>
-        <button id="showAll">Alle anzeigen</button>
-    </span>
-    <span>
-        <input type="text" id="importJson" placeholder="JSON hier einfügen" />
-        <button id="importConfig">Konfiguration importieren</button>
-        <button id="exportSelection">Konfiguration exportieren</button>
-        <button id="shareLink">Link erzeugen</button>
-    </span>
-</div>
+<!-- Export- und Import-Buttons
+    <div class="buttonrow">
+        <span>
+            
+            
+        </span>
+        <span>
+            <input type="text" id="importJson" placeholder="JSON hier einfügen" />
+            <button id="importConfig">Konfiguration importieren</button>
+            <button id="exportSelection">Konfiguration exportieren</button>
+            <button id="shareLink">Link erzeugen</button>
+        </span>
+    </div>
+ -->
 
 <table id="dropdowns" class="display">
     <tbody>
@@ -398,12 +416,12 @@
             <td>Situation: </td>
             <td></td>
         </tr>
+        <tr>
+            <td>Markierung: </td>
+            <td><button class="copyBtn" id="hideUnchecked">Auswahl</button><button class="copyBtn" id="showAll">Alle</button></td>
+        </tr>        
     </tbody>
 </table>
-
-
-
-
 
 <div id="content"></div>
 

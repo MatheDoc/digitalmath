@@ -6,7 +6,7 @@
     <title>Ich-Kann-Liste</title>
 
     <!-- Einbinden der externen CSS-Datei -->
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles2.css"> 
 
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
@@ -22,49 +22,6 @@
 
     <!-- Select2 JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
-
-    <style>
-
-        /* Styling für Select2, damit es zum Layout passt */
-        .select2-container {
-            width: 150px !important;
-        }
-
-        /* Responsive für mobile Geräte */
-        @media (max-width: 768px) {
-            .select2-container {
-                width: 100% !important;
-            }
-        }
-
-        /* Modernere Hover-Effekte */
-        table.dataTable tbody tr:hover {
-            background-color: #f1f1f1;
-        }
-
-        /* Blendet die zweite Spalte aus */
-        table.dataTable tr th:nth-child(2),
-        table.dataTable tr td:nth-child(2),
-        table.dataTable tr th:nth-child(3),
-        table.dataTable tr td:nth-child(3),
-        table.dataTable tr th:nth-child(4),
-        table.dataTable tr td:nth-child(4) {
-        display: none;
-        }
-
-        /* Styling für den Copy-Button */
-        .copyBtn {
-            margin-left: 5px;
-            font-size: 12px;
-            padding: 8px 8px;
-            background-color: #4e73df;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-
-    </style>
 
     <script>
         $(document).ready(function() {
@@ -311,7 +268,7 @@
 </head>
 <body>
 
-<h2>Yes, we can math!</h2>
+<h1>Yes, we can math!</h1>
 
 <!-- Export- und Import-Buttons
     <div class="buttonrow">
@@ -328,7 +285,7 @@
     </div>
  -->
 
-<table id="dropdowns" class="display">
+<table id="dropdowns">
     <tbody>
         <tr>
             <td>Gebiet: </td>
@@ -337,7 +294,8 @@
         <tr>
             <td>Feld: </td>
             <td></td>
-        </tr>        <tr>
+        </tr>
+        <tr>
             <td>Situation: </td>
             <td></td>
         </tr>
