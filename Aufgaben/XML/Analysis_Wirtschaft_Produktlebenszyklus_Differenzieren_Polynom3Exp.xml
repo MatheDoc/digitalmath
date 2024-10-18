@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Analysis_Wirtschaft_Produktlebenszyklus/01 Differenzieren/Polynom3Exp</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(2t^3+7t^2+7t-7)e^{-6,1t}+6 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-12,2:0}\\( t^3 +  \\){1:NUMERICAL:=-36,7:0}\\( t^2 +  \\){1:NUMERICAL:=-28,7:0}\\( t +  \\){1:NUMERICAL:=49,7:0}\\( \cdot e^{-6,1t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(3t^3+8t^2+9t-6)e^{9,7t}-4 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=29,1:0}\\( t^3 +  \\){1:NUMERICAL:=86,6:0}\\( t^2 +  \\){1:NUMERICAL:=103,3:0}\\( t +  \\){1:NUMERICAL:=-49,2:0}\\( \cdot e^{9,7t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-6t^3+2t^2-8t-6)e^{-1,8t}+6 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=10,8:0}\\( t^3 +  \\){1:NUMERICAL:=-21,6:0}\\( t^2 +  \\){1:NUMERICAL:=18,4:0}\\( t +  \\){1:NUMERICAL:=2,8:0}\\( \cdot e^{-1,8t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(3t^3-7t^2-9t-2)e^{-0,6t} \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-1,8:0}\\( t^3 +  \\){1:NUMERICAL:=13,2:0}\\( t^2 +  \\){1:NUMERICAL:=-8,6:0}\\( t +  \\){1:NUMERICAL:=-7,8:0}\\( \cdot e^{-0,6t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(9t^3+4t^2-9t+7)e^{9,8t}-2 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=88,2:0}\\( t^3 +  \\){1:NUMERICAL:=66,2:0}\\( t^2 +  \\){1:NUMERICAL:=-80,2:0}\\( t +  \\){1:NUMERICAL:=59,6:0}\\( \cdot e^{9,8t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-6t^3+6t^2-4t-3)e^{-2,2t} \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=13,2:0}\\( t^3 +  \\){1:NUMERICAL:=-31,2:0}\\( t^2 +  \\){1:NUMERICAL:=20,8:0}\\( t +  \\){1:NUMERICAL:=2,6:0}\\( \cdot e^{-2,2t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-4t^3-2t^2+6t-5)e^{2,3t}-9 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-9,2:0}\\( t^3 +  \\){1:NUMERICAL:=-16,6:0}\\( t^2 +  \\){1:NUMERICAL:=9,8:0}\\( t +  \\){1:NUMERICAL:=-5,5:0}\\( \cdot e^{2,3t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-7t^3+3t^2+2t+4)e^{5,8t}-1 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-40,6:0}\\( t^3 +  \\){1:NUMERICAL:=-3,6:0}\\( t^2 +  \\){1:NUMERICAL:=17,6:0}\\( t +  \\){1:NUMERICAL:=25,2:0}\\( \cdot e^{5,8t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(6t^3-6t^2+4t-5)e^{6,9t}+4 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=41,4:0}\\( t^3 +  \\){1:NUMERICAL:=-23,4:0}\\( t^2 +  \\){1:NUMERICAL:=15,6:0}\\( t +  \\){1:NUMERICAL:=-30,5:0}\\( \cdot e^{6,9t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-7t^3-2t^2-7t-8)e^{7,6t}+4 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-53,2:0}\\( t^3 +  \\){1:NUMERICAL:=-36,2:0}\\( t^2 +  \\){1:NUMERICAL:=-57,2:0}\\( t +  \\){1:NUMERICAL:=-67,8:0}\\( \cdot e^{7,6t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(7t^3-7t^2+6t-2)e^{5,8t}+9 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=40,6:0}\\( t^3 +  \\){1:NUMERICAL:=-19,6:0}\\( t^2 +  \\){1:NUMERICAL:=20,8:0}\\( t +  \\){1:NUMERICAL:=-5,6:0}\\( \cdot e^{5,8t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(8t^3+4t^2+5t-4)e^{4,2t}+2 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=33,6:0}\\( t^3 +  \\){1:NUMERICAL:=40,8:0}\\( t^2 +  \\){1:NUMERICAL:=29:0}\\( t +  \\){1:NUMERICAL:=-11,8:0}\\( \cdot e^{4,2t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-8t^3-6t^2+8t+2)e^{7,1t} \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-56,8:0}\\( t^3 +  \\){1:NUMERICAL:=-66,6:0}\\( t^2 +  \\){1:NUMERICAL:=44,8:0}\\( t +  \\){1:NUMERICAL:=22,2:0}\\( \cdot e^{7,1t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-4t^3-3t^2+4t+2)e^{-6,4t} \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=25,6:0}\\( t^3 +  \\){1:NUMERICAL:=7,2:0}\\( t^2 +  \\){1:NUMERICAL:=-31,6:0}\\( t +  \\){1:NUMERICAL:=-8,8:0}\\( \cdot e^{-6,4t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-4t^3+4t^2-2t-4)e^{9,8t}-3 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-39,2:0}\\( t^3 +  \\){1:NUMERICAL:=27,2:0}\\( t^2 +  \\){1:NUMERICAL:=-11,6:0}\\( t +  \\){1:NUMERICAL:=-41,2:0}\\( \cdot e^{9,8t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(2t^3+5t^2+4t+9)e^{-3,2t}-6 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-6,4:0}\\( t^3 +  \\){1:NUMERICAL:=-10:0}\\( t^2 +  \\){1:NUMERICAL:=-2,8:0}\\( t +  \\){1:NUMERICAL:=-24,8:0}\\( \cdot e^{-3,2t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-2t^3+5t^2-9t-3)e^{-7,7t}+2 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=15,4:0}\\( t^3 +  \\){1:NUMERICAL:=-44,5:0}\\( t^2 +  \\){1:NUMERICAL:=79,3:0}\\( t +  \\){1:NUMERICAL:=14,1:0}\\( \cdot e^{-7,7t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(7t^3-9t^2+2t+4)e^{8,2t}-5 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=57,4:0}\\( t^3 +  \\){1:NUMERICAL:=-52,8:0}\\( t^2 +  \\){1:NUMERICAL:=-1,6:0}\\( t +  \\){1:NUMERICAL:=34,8:0}\\( \cdot e^{8,2t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(5t^3+6t^2+7t+5)e^{-7,1t} \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-35,5:0}\\( t^3 +  \\){1:NUMERICAL:=-27,6:0}\\( t^2 +  \\){1:NUMERICAL:=-37,7:0}\\( t +  \\){1:NUMERICAL:=-28,5:0}\\( \cdot e^{-7,1t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p></p><p>Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=(-9t^3+3t^2-4t-5)e^{5,3t}+6 \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=-47,7:0}\\( t^3 +  \\){1:NUMERICAL:=-11,1:0}\\( t^2 +  \\){1:NUMERICAL:=-15,2:0}\\( t +  \\){1:NUMERICAL:=-30,5:0}\\( \cdot e^{5,3t} \\)</p>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
