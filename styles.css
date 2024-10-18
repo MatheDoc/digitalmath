@@ -33,6 +33,16 @@ table{
     margin: 0 auto;
     max-width: 99%;
 }
+.dataTables_length {
+    display: none;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+    display: none;
+}
 
 .einleitung {
     margin: 0 auto;
@@ -73,7 +83,6 @@ table{
 p {
     color: #555;
     font-size: 1.1em;
-    text-align: left;
 }
 
 
@@ -146,7 +155,7 @@ footer {
     margin-top: 50px;
     font-size: 0.9em;
     color: #888;
-    }
+}
 
 footer a {
     color: #4e73df;
@@ -188,8 +197,11 @@ footer a:hover {
         color:#4e73df;
         transition: color 0.3s;
         cursor: pointer;
-        border: #888;
+        border: 2px solid #4e73df;
+        border-radius: 5px;
+        padding: 2px;
     }
+
     .reload-icon:hover {
         color: #2e59d9;
         transform: translateY(-2px);        
