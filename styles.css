@@ -170,6 +170,26 @@ footer a:hover {
     }
 
 
+    .copy-icon {
+        color: #4e73df;
+        transition: color 0.3s;
+        cursor: pointer; 
+    }
+    .copy-icon:hover {
+        color: #2e59d9;
+        transform: translateY(-2px);        
+    }
+
+    .reload-icon {
+        color:#28a745;
+        transition: color 0.3s;
+        cursor: pointer; 
+    }
+    .reload-icon:hover {
+        color: #218838;
+        transform: translateY(-2px);        
+    }
+
 
 
         /* Modernere Hover-Effekte */

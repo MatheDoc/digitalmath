@@ -11,6 +11,9 @@
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
 
+     <!-- Font CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <!-- Select2 CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css" rel="stylesheet" />
 
@@ -109,12 +112,12 @@
                         var ichKannText = data[4]; // 4. Spalte (index 3)
                         
                         // Fügen Sie einen kleinen Button zum Kopieren hinzu
-                        var copyButton = '<button class="copyBtn">Copy</button>';
-                        table.cell(rowIdx, 4).data(ichKannText + copyButton);
+                        var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon"></i>' //<button class="copyBtn">Copy</button>';
+                        table.cell(rowIdx, 4).data(ichKannText + ' ' + copyButton);
                     });
 
                     // Event-Listener für die Copy-Buttons
-                    $('#meineTabelle').on('click', '.copyBtn', function() {
+                    $('#meineTabelle').on('click', '.copy-icon', function() {
                         var row = $(this).closest('tr');
                         var gebiet =  table.cell(row, 1).data();
                         var feld = table.cell(row, 2).data();
@@ -123,7 +126,7 @@
                         var textToCopy = gebiet + ': '+ feld + ': ' + situation + ': Erkläre schülergerecht: Ich kann ' + table.cell(row, 4).data();
 
                         // Text vor dem Button extrahieren
-                        textToCopy = textToCopy.split('<button')[0].trim();
+                        textToCopy = textToCopy.split('<i')[0].trim();
 
                         // Kopieren in die Zwischenablage
                         navigator.clipboard.writeText(textToCopy).then(() => {
