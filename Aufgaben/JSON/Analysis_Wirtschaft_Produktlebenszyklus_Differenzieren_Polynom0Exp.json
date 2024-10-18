@@ -2,7 +2,7 @@
 {
 "einleitung":"",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-2e^{-4,5t}+4 \\)."
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-2\\cdot e^{-4,5t}+4 \\)."
 ],
 "antworten":[
 "\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=9:0}\\( \\cdot e^{-4,5t} \\)"
