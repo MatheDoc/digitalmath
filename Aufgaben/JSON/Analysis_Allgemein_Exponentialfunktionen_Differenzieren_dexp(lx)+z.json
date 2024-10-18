@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-8e^{-0,6t} \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=4,8:0}\( )\cdot e^{-0,6t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=7e^{-3,2t}-8 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-22,4:0}\( )\cdot e^{-3,2t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-3e^{6,4t} \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-19,2:0}\( )\cdot e^{6,4t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-5e^{2,9t}+4 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-14,5:0}\( )\cdot e^{2,9t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-6e^{-2,5t} \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=15:0}\( )\cdot e^{-2,5t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=5e^{5,2t}-2 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=26:0}\( )\cdot e^{5,2t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-9e^{-8,4t}-6 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=75,6:0}\( )\cdot e^{-8,4t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-6e^{7,4t}-8 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-44,4:0}\( )\cdot e^{7,4t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=7e^{-7t} \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-49:0}\( )\cdot e^{-7t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=4e^{-7,1t}+4 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-28,4:0}\( )\cdot e^{-7,1t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-2e^{-3,1t} \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=6,2:0}\( )\cdot e^{-3,1t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-4e^{9,4t}+2 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-37,6:0}\( )\cdot e^{9,4t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=5e^{8,9t} \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=44,5:0}\( )\cdot e^{8,9t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-5e^{-1,8t}-9 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=9:0}\( )\cdot e^{-1,8t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=8e^{5t} \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=40:0}\( )\cdot e^{5t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-5e^{-4,1t}-6 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=20,5:0}\( )\cdot e^{-4,1t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-6e^{-3,7t}+3 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=22,2:0}\( )\cdot e^{-3,7t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=3e^{-3,7t}+2 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-11,1:0}\( )\cdot e^{-3,7t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-9e^{-9,5t} \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=85,5:0}\( )\cdot e^{-9,5t} \)"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\( E(t)=(-1,9t^3+26t^2)e^{-0,6t}\)</p> <p></p> <p>und</p> <p>\( K(t)=(-0,513t^3+7,02t^2)e^{-0,6t}\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an.Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"Bestimmen Sie die Ableitung der Funktion</p> <p>\\( u(t)=-4e^{6t}+9 \\)."
+],
+"antworten":[
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-24:0}\( )\cdot e^{6t} \)"
+]
+}
+]

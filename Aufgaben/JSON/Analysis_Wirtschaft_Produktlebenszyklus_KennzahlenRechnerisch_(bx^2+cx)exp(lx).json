@@ -1,0 +1,462 @@
+﻿[
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2,5t^2+25t)e^{-0,5t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(1,25t^2-17,5t+25)e^{-0,5t} \\)</p> <p>\\( u''(t)=(-0,625t^2+11,25t-30)e^{-0,5t} \\)</p> <p>\\( u'''(t)=(0,3125t^2-6,875t+26,25)e^{-0,5t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den jährlichen Umsatz nach 4 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"die jährliche Veränderung des Umsatzes nach 4 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=8,1201:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=10:0,1}",
+"{1:NUMERICAL:=-3,3834:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=1,6148:0,1}",
+"{1:NUMERICAL:=3,2555:0,1}",
+"{1:NUMERICAL:=15,0981:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-0,8t^2+21t)e^{-0,2t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,16t^2-5,8t+21)e^{-0,2t} \\)</p> <p>\\( u''(t)=(-0,032t^2+1,48t-10)e^{-0,2t} \\)</p> <p>\\( u'''(t)=(0,0064t^2-0,36t+3,48)e^{-0,2t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den jährlichen Umsatz nach 9 Jahren.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"die jährliche Veränderung des Umsatzes nach 4 Jahren.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=26,25:0,1}",
+"{1:NUMERICAL:=20,5301:0,1}",
+"{1:NUMERICAL:=4,0799:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=8,2165:0,1}",
+"{1:NUMERICAL:=0,1618:0,1}",
+"{1:NUMERICAL:=31,9986:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-3,1t^2+27t)e^{-0,5t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(1,55t^2-19,7t+27)e^{-0,5t} \\)</p> <p>\\( u''(t)=(-0,775t^2+12,95t-33,2)e^{-0,5t} \\)</p> <p>\\( u'''(t)=(0,3875t^2-8,025t+29,55)e^{-0,5t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"die jährliche Veränderung des Umsatzes nach 2 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"den jährlichen Umsatz nach 7 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=-2,2809:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=1,1203:0,1}",
+"{1:NUMERICAL:=3,1621:0,1}",
+"{1:NUMERICAL:=1,5627:0,1}",
+"{1:NUMERICAL:=8,7097:0,1}",
+"{1:NUMERICAL:=15,8498:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2,6t^2+23t)e^{-0,6t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(1,56t^2-19t+23)e^{-0,6t} \\)</p> <p>\\( u''(t)=(-0,936t^2+14,52t-32,8)e^{-0,6t} \\)</p> <p>\\( u'''(t)=(0,5616t^2-10,584t+34,2)e^{-0,6t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"die jährliche Veränderung des Umsatzes nach 2 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"den jährlichen Umsatz nach 2 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=2,7446:0,1}",
+"{1:NUMERICAL:=-2,6385:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=10,7225:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=8,8462:0,1}",
+"{1:NUMERICAL:=1,3631:0,1}",
+"{1:NUMERICAL:=11,7054:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-0,9t^2+24t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,27t^2-9t+24)e^{-0,3t} \\)</p> <p>\\( u''(t)=(-0,081t^2+3,24t-16,2)e^{-0,3t} \\)</p> <p>\\( u'''(t)=(0,0243t^2-1,134t+8,1)e^{-0,3t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den jährlichen Umsatz nach 20 Jahren.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"die jährliche Veränderung des Umsatzes nach 13 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=26,6667:0,1}",
+"{1:NUMERICAL:=0,2975:0,1}",
+"{1:NUMERICAL:=2,923:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=-0,9589:0,1}",
+"{1:NUMERICAL:=5,8579:0,1}",
+"{1:NUMERICAL:=25,9888:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,9t^2+24t)e^{-0,4t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,76t^2-13,4t+24)e^{-0,4t} \\)</p> <p>\\( u''(t)=(-0,304t^2+6,88t-23)e^{-0,4t} \\)</p> <p>\\( u'''(t)=(0,1216t^2-3,36t+16,08)e^{-0,4t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den jährlichen Umsatz nach 6 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"die jährliche Veränderung des Umsatzes nach 4 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=12,6316:0,1}",
+"{1:NUMERICAL:=6,8583:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=-3,5211:0,1}",
+"{1:NUMERICAL:=4,0778:0,1}",
+"{1:NUMERICAL:=2,0232:0,1}",
+"{1:NUMERICAL:=18,1541:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2,1t^2+24t)e^{-0,4t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,84t^2-13,8t+24)e^{-0,4t} \\)</p> <p>\\( u''(t)=(-0,336t^2+7,2t-23,4)e^{-0,4t} \\)</p> <p>\\( u'''(t)=(0,1344t^2-3,552t+16,56)e^{-0,4t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"die jährliche Veränderung des Umsatzes nach 4 Jahren.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den jährlichen Umsatz nach 4 Jahren.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=3,9948:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=-3,5857:0,1}",
+"{1:NUMERICAL:=1,9771:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=11,4286:0,1}",
+"{1:NUMERICAL:=12,5983:0,1}",
+"{1:NUMERICAL:=17,7947:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-3,7t^2+26t)e^{-0,8t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(2,96t^2-28,2t+26)e^{-0,8t} \\)</p> <p>\\( u''(t)=(-2,368t^2+28,48t-49)e^{-0,8t} \\)</p> <p>\\( u'''(t)=(1,8944t^2-27,52t+67,68)e^{-0,8t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"die jährliche Veränderung des Umsatzes nach 2 Jahren.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den jährlichen Umsatz nach 3 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=7,027:0,1}",
+"{1:NUMERICAL:=2,0804:0,1}",
+"{1:NUMERICAL:=-3,7472:0,1}",
+"{1:NUMERICAL:=1,0343:0,1}",
+"{1:NUMERICAL:=4,0551:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=10,0258:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-3,9t^2+26t)e^{-0,6t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(2,34t^2-23,4t+26)e^{-0,6t} \\)</p> <p>\\( u''(t)=(-1,404t^2+18,72t-39)e^{-0,6t} \\)</p> <p>\\( u'''(t)=(0,8424t^2-14,04t+42,12)e^{-0,6t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"die jährliche Veränderung des Umsatzes nach 2 Jahren.",
+"den jährlichen Umsatz nach 5 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=2,5842:0,1}",
+"{1:NUMERICAL:=6,6667:0,1}",
+"{1:NUMERICAL:=-3,4457:0,1}",
+"{1:NUMERICAL:=1,6181:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=1,2732:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=12,4756:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-0,6t^2+22t)e^{-0,2t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,12t^2-5,6t+22)e^{-0,2t} \\)</p> <p>\\( u''(t)=(-0,024t^2+1,36t-10)e^{-0,2t} \\)</p> <p>\\( u'''(t)=(0,0048t^2-0,32t+3,36)e^{-0,2t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den jährlichen Umsatz nach 31 Jahren.",
+"die jährliche Veränderung des Umsatzes nach 5 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=36,6667:0,1}",
+"{1:NUMERICAL:=0,2139:0,1}",
+"{1:NUMERICAL:=-1,1036:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=4,3304:0,1}",
+"{1:NUMERICAL:=8,6837:0,1}",
+"{1:NUMERICAL:=35,3375:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-0,8t^2+22t)e^{-0,2t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,16t^2-6t+22)e^{-0,2t} \\)</p> <p>\\( u''(t)=(-0,032t^2+1,52t-10,4)e^{-0,2t} \\)</p> <p>\\( u'''(t)=(0,0064t^2-0,368t+3,6)e^{-0,2t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"die jährliche Veränderung des Umsatzes nach 10 Jahren.",
+"den jährlichen Umsatz nach 17 Jahren.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=8,2884:0,1}",
+"{1:NUMERICAL:=4,1191:0,1}",
+"{1:NUMERICAL:=-2,9774:0,1}",
+"{1:NUMERICAL:=4,7657:0,1}",
+"{1:NUMERICAL:=27,5:0,1}",
+"{1:NUMERICAL:=33,8044:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-3,6t^2+26t)e^{-0,6t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(2,16t^2-22,8t+26)e^{-0,6t} \\)</p> <p>\\( u''(t)=(-1,296t^2+18t-38,4)e^{-0,6t} \\)</p> <p>\\( u'''(t)=(0,7776t^2-13,392t+41,04)e^{-0,6t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"die jährliche Veränderung des Umsatzes nach 2 Jahren.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"den jährlichen Umsatz nach 5 Jahren.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=2,6322:0,1}",
+"{1:NUMERICAL:=7,2222:0,1}",
+"{1:NUMERICAL:=-3,3011:0,1}",
+"{1:NUMERICAL:=1,3006:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=1,9915:0,1}",
+"{1:NUMERICAL:=12,7052:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-5t^2+30t)e^{-0,8t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(4t^2-34t+30)e^{-0,8t} \\)</p> <p>\\( u''(t)=(-3,2t^2+35,2t-58)e^{-0,8t} \\)</p> <p>\\( u'''(t)=(2,56t^2-34,56t+81,6)e^{-0,8t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"den jährlichen Umsatz nach 2 Jahren.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"die jährliche Veränderung des Umsatzes nach 2 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=8,0759:0,1}",
+"{1:NUMERICAL:=6:0,1}",
+"{1:NUMERICAL:=1:0,1}",
+"{1:NUMERICAL:=-4,4417:0,1}",
+"{1:NUMERICAL:=2,018:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=11,2332:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-0,3t^2+21t)e^{-0,1t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,03t^2-2,7t+21)e^{-0,1t} \\)</p> <p>\\( u''(t)=(-0,003t^2+0,33t-4,8)e^{-0,1t} \\)</p> <p>\\( u'''(t)=(0,0003t^2-0,039t+0,81)e^{-0,1t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"die jährliche Veränderung des Umsatzes nach 4 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"den jährlichen Umsatz nach 12 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=7,159:0,1}",
+"{1:NUMERICAL:=17,2509:0,1}",
+"{1:NUMERICAL:=70:0,1}",
+"{1:NUMERICAL:=8,5995:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=62,8894:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=67,034:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2,1t^2+28t)e^{-0,4t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,84t^2-15,4t+28)e^{-0,4t} \\)</p> <p>\\( u''(t)=(-0,336t^2+7,84t-26,6)e^{-0,4t} \\)</p> <p>\\( u'''(t)=(0,1344t^2-3,808t+18,48)e^{-0,4t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den jährlichen Umsatz nach 5 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"die jährliche Veränderung des Umsatzes nach 6 Jahren.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=2,0467:0,1}",
+"{1:NUMERICAL:=11,8418:0,1}",
+"{1:NUMERICAL:=4,1206:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=-3,0989:0,1}",
+"{1:NUMERICAL:=13,3333:0,1}",
+"{1:NUMERICAL:=21,3939:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-3t^2+21t)e^{-0,6t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(1,8t^2-18,6t+21)e^{-0,6t} \\)</p> <p>\\( u''(t)=(-1,08t^2+14,76t-31,2)e^{-0,6t} \\)</p> <p>\\( u'''(t)=(0,648t^2-11,016t+33,48)e^{-0,6t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den jährlichen Umsatz nach 3 Jahren.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"die jährliche Veränderung des Umsatzes nach 3 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=5,9508:0,1}",
+"{1:NUMERICAL:=1,2901:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=7:0,1}",
+"{1:NUMERICAL:=-3,0746:0,1}",
+"{1:NUMERICAL:=2,6137:0,1}",
+"{1:NUMERICAL:=10,1907:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,8t^2+24t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,54t^2-10,8t+24)e^{-0,3t} \\)</p> <p>\\( u''(t)=(-0,162t^2+4,32t-18)e^{-0,3t} \\)</p> <p>\\( u'''(t)=(0,0486t^2-1,62t+9,72)e^{-0,3t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den jährlichen Umsatz nach 11 Jahren.",
+"die jährliche Veränderung des Umsatzes nach 2 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=2,5464:0,1}",
+"{1:NUMERICAL:=5,1684:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=13,3333:0,1}",
+"{1:NUMERICAL:=1,704:0,1}",
+"{1:NUMERICAL:=2,5026:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=23,032:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,1t^2+20t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,33t^2-8,2t+20)e^{-0,3t} \\)</p> <p>\\( u''(t)=(-0,099t^2+3,12t-14,2)e^{-0,3t} \\)</p> <p>\\( u'''(t)=(0,0297t^2-1,134t+7,38)e^{-0,3t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den jährlichen Umsatz nach 5 Jahren.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"die jährliche Veränderung des Umsatzes nach 6 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=5,5172:0,1}",
+"{1:NUMERICAL:=18,1818:0,1}",
+"{1:NUMERICAL:=16,1769:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=2,7415:0,1}",
+"{1:NUMERICAL:=-2,863:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=20,4575:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-0,8t^2+20t)e^{-0,2t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,16t^2-5,6t+20)e^{-0,2t} \\)</p> <p>\\( u''(t)=(-0,032t^2+1,44t-9,6)e^{-0,2t} \\)</p> <p>\\( u'''(t)=(0,0064t^2-0,352t+3,36)e^{-0,2t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den jährlichen Umsatz nach 19 Jahren.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"die jährliche Veränderung des Umsatzes nach 10 Jahren.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=8,1387:0,1}",
+"{1:NUMERICAL:=4,0371:0,1}",
+"{1:NUMERICAL:=2,0402:0,1}",
+"{1:NUMERICAL:=25:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=-2,7067:0,1}",
+"{1:NUMERICAL:=30,1962:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2,1t^2+29t)e^{-0,4t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.Runden Sie bei den folgenden Aufgaben Ihre Ergebnisse auf zwei NKS.</p> <p>Weitere Informationen:</p> <p>\\( u'(t)=(0,84t^2-15,8t+29)e^{-0,4t} \\)</p> <p>\\( u''(t)=(-0,336t^2+8t-27,4)e^{-0,4t} \\)</p> <p>\\( u'''(t)=(0,1344t^2-3,872t+18,96)e^{-0,4t} \\)</p> <p>Bestimmen Sie (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS)",
+"fragen":[
+"den Zeitpunkt, an dem der Umsatz am stärksten zurückgeht.",
+", ob entweder das Produkt in Zukunft vom Markt genommen wird oder ob ein langfristig zu erwartender jährlicher Umsatz vorliegt. Bestimmen Sie dementsprechend entweder den Zeitpunkt, an dem das Produkt vom Markt genommen wird, oder den langfristig zu erwartenden jährlichen Umsatz.",
+"die jährliche Veränderung des Umsatzes nach 3 Jahren.",
+"den jährlichen Umsatz nach 3 Jahren.",
+"den Zeitpunkt, an dem der Umsatz am stärksten ansteigt.",
+"den Zeitpunkt, an dem der höchste jährliche Umsatz erzielt wird.",
+"den jährlichen Umsatz, der bei der Produkteinführung erzielt wird.",
+"die Höhe des höchsten jährlichen Umsatzes."
+],
+"antworten":[
+"{1:NUMERICAL:=4,1475:0,1}",
+"{1:NUMERICAL:=13,8095:0,1}",
+"{1:NUMERICAL:=-3,2649:0,1}",
+"{1:NUMERICAL:=20,5113:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=2,0613:0,1}",
+"{1:NUMERICAL:=0:0,1}",
+"{1:NUMERICAL:=22,2971:0,1}"
+]
+}
+]
