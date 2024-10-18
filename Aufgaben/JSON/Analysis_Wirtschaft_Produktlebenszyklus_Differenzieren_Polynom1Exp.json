@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Gegeben: \\( u(t)=(-3t-5)e^{7,6t}-8 \\)",
+"einleitung":"Gegeben: \\( u(t)=(-2t-5)e^{6,5t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-22,8:0}\\( t +  \\){1:NUMERICAL:=-41:0}\\( )e^{7,6t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-13:0}\\( t +  \\){1:NUMERICAL:=-34,5:0}\\( )e^{6,5t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(6t-3)e^{9t}+9 \\)",
+"einleitung":"Gegeben: \\( u(t)=(5t-3)e^{8t}-9 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=54:0}\\( t +  \\){1:NUMERICAL:=-21:0}\\( )e^{9t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=40:0}\\( t +  \\){1:NUMERICAL:=-19:0}\\( )e^{8t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(7t-5)e^{7,4t} \\)",
+"einleitung":"Gegeben: \\( u(t)=(7t-5)e^{6,3t}+2 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=51,8:0}\\( t +  \\){1:NUMERICAL:=-30:0}\\( )e^{7,4t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=44,1:0}\\( t +  \\){1:NUMERICAL:=-24,5:0}\\( )e^{6,3t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(4t+9)e^{6,3t}-7 \\)",
+"einleitung":"Gegeben: \\( u(t)=(4t+9)e^{5,2t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=25,2:0}\\( t +  \\){1:NUMERICAL:=60,7:0}\\( )e^{6,3t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=20,8:0}\\( t +  \\){1:NUMERICAL:=50,8:0}\\( )e^{5,2t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(-7t-5)e^{6t} \\)",
+"einleitung":"Gegeben: \\( u(t)=(-7t-5)e^{4,9t}+2 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-42:0}\\( t +  \\){1:NUMERICAL:=-37:0}\\( )e^{6t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-34,3:0}\\( t +  \\){1:NUMERICAL:=-31,5:0}\\( )e^{4,9t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(8t+2)e^{1,9t} \\)",
+"einleitung":"Gegeben: \\( u(t)=(8t+2)e^{0,8t}+1 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=15,2:0}\\( t +  \\){1:NUMERICAL:=11,8:0}\\( )e^{1,9t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=6,4:0}\\( t +  \\){1:NUMERICAL:=9,6:0}\\( )e^{0,8t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(8t-5)e^{2,4t}+3 \\)",
+"einleitung":"Gegeben: \\( u(t)=(8t-5)e^{1,4t}-3 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=19,2:0}\\( t +  \\){1:NUMERICAL:=-4:0}\\( )e^{2,4t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=11,2:0}\\( t +  \\){1:NUMERICAL:=1:0}\\( )e^{1,4t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(9t-2)e^{9,3t} \\)",
+"einleitung":"Gegeben: \\( u(t)=(9t-2)e^{8,2t}+6 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=83,7:0}\\( t +  \\){1:NUMERICAL:=-9,6:0}\\( )e^{9,3t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=73,8:0}\\( t +  \\){1:NUMERICAL:=-7,4:0}\\( )e^{8,2t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(9t+7)e^{-0,3t}-3 \\)",
+"einleitung":"Gegeben: \\( u(t)=(9t+7)e^{-9t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-2,7:0}\\( t +  \\){1:NUMERICAL:=6,9:0}\\( )e^{-0,3t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-81:0}\\( t +  \\){1:NUMERICAL:=-54:0}\\( )e^{-9t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(4t+8)e^{-7,7t}-7 \\)",
+"einleitung":"Gegeben: \\( u(t)=(4t+8)e^{-6,6t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-30,8:0}\\( t +  \\){1:NUMERICAL:=-57,6:0}\\( )e^{-7,7t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-26,4:0}\\( t +  \\){1:NUMERICAL:=-48,8:0}\\( )e^{-6,6t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(-7t+6)e^{-3,2t} \\)",
+"einleitung":"Gegeben: \\( u(t)=(-7t+6)e^{-2,1t}+2 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=22,4:0}\\( t +  \\){1:NUMERICAL:=-26,2:0}\\( )e^{-3,2t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=14,7:0}\\( t +  \\){1:NUMERICAL:=-19,6:0}\\( )e^{-2,1t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(-7t+2)e^{5,5t}-9 \\)",
+"einleitung":"Gegeben: \\( u(t)=(-7t+3)e^{4,4t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-38,5:0}\\( t +  \\){1:NUMERICAL:=4:0}\\( )e^{5,5t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-30,8:0}\\( t +  \\){1:NUMERICAL:=6,2:0}\\( )e^{4,4t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(8t-5)e^{-4,9t} \\)",
+"einleitung":"Gegeben: \\( u(t)=(8t-5)e^{-3,8t}+7 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-39,2:0}\\( t +  \\){1:NUMERICAL:=32,5:0}\\( )e^{-4,9t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-30,4:0}\\( t +  \\){1:NUMERICAL:=27:0}\\( )e^{-3,8t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(-5t-3)e^{4,2t} \\)",
+"einleitung":"Gegeben: \\( u(t)=(-4t-3)e^{3,1t}+7 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-21:0}\\( t +  \\){1:NUMERICAL:=-17,6:0}\\( )e^{4,2t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-12,4:0}\\( t +  \\){1:NUMERICAL:=-13,3:0}\\( )e^{3,1t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(2t-4)e^{-4,5t}-4 \\)",
+"einleitung":"Gegeben: \\( u(t)=(2t-4)e^{-3,4t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-9:0}\\( t +  \\){1:NUMERICAL:=20:0}\\( )e^{-4,5t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-6,8:0}\\( t +  \\){1:NUMERICAL:=15,6:0}\\( )e^{-3,4t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(6t-9)e^{-4,8t}+8 \\)",
+"einleitung":"Gegeben: \\( u(t)=(6t-9)e^{-3,7t}-8 \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-28,8:0}\\( t +  \\){1:NUMERICAL:=49,2:0}\\( )e^{-4,8t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-22,2:0}\\( t +  \\){1:NUMERICAL:=39,3:0}\\( )e^{-3,7t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(-8t-2)e^{-2,8t}-7 \\)",
+"einleitung":"Gegeben: \\( u(t)=(-8t-2)e^{-1,7t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=22,4:0}\\( t +  \\){1:NUMERICAL:=-2,4:0}\\( )e^{-2,8t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=13,6:0}\\( t +  \\){1:NUMERICAL:=-4,6:0}\\( )e^{-1,7t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(6t+4)e^{3,8t}-4 \\)",
+"einleitung":"Gegeben: \\( u(t)=(6t+4)e^{2,7t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=22,8:0}\\( t +  \\){1:NUMERICAL:=21,2:0}\\( )e^{3,8t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=16,2:0}\\( t +  \\){1:NUMERICAL:=16,8:0}\\( )e^{2,7t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(2t+5)e^{6,2t}-9 \\)",
+"einleitung":"Gegeben: \\( u(t)=(2t+5)e^{5,1t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=12,4:0}\\( t +  \\){1:NUMERICAL:=33:0}\\( )e^{6,2t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=10,2:0}\\( t +  \\){1:NUMERICAL:=27,5:0}\\( )e^{5,1t} \\)"
 ]
 },
 {
-"einleitung":"Gegeben: \\( u(t)=(2t+4)e^{-4,6t}-2 \\)",
+"einleitung":"Gegeben: \\( u(t)=(2t+4)e^{-3,6t} \\)",
 "fragen":[
-"Bestimmen Sie die Ableitung der Funktion\\( u(t) \\)."
+"Bestimmen Sie die Ableitung der Funktion \\( u(t) \\)."
 ],
 "antworten":[
-"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-9,2:0}\\( t +  \\){1:NUMERICAL:=-16,4:0}\\( )e^{-4,6t} \\)"
+"\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=-7,2:0}\\( t +  \\){1:NUMERICAL:=-12,4:0}\\( )e^{-3,6t} \\)"
 ]
 }
 ]

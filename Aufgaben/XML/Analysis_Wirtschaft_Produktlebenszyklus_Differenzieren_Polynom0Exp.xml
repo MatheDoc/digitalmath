@@ -17,7 +17,7 @@
     <text>01 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-8e^{-6t}+8 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=48:0}\\( )e^{-6t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-6e^{-5,2t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=31,2:0}\\( )e^{-5,2t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -26,7 +26,7 @@
     <text>02 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=7e^{-9,6t}-7 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-67,2:0}\\( )e^{-9,6t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=3e^{-4,3t}-6 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-12,9:0}\\( )e^{-4,3t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -35,7 +35,7 @@
     <text>03 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-8e^{9,2t}+3 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-73,6:0}\\( )e^{9,2t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-4e^{3,8t}+3 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-15,2:0}\\( )e^{3,8t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -44,7 +44,7 @@
     <text>04 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-5e^{9,3t}-3 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-46,5:0}\\( )e^{9,3t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-9e^{3,9t}-2 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-35,1:0}\\( )e^{3,9t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -53,7 +53,7 @@
     <text>05 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-3e^{-5,3t}+9 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=15,9:0}\\( )e^{-5,3t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-7e^{-9,7t}+8 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=67,9:0}\\( )e^{-9,7t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -62,7 +62,7 @@
     <text>06 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=6e^{1,8t}-1 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=10,8:0}\\( )e^{1,8t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=2e^{6,2t}-9 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=12,4:0}\\( )e^{6,2t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -71,7 +71,7 @@
     <text>07 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-7e^{-1,3t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=9,1:0}\\( )e^{-1,3t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-3e^{-5,8t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=17,4:0}\\( )e^{-5,8t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -80,7 +80,7 @@
     <text>08 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-6e^{4t}-7 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-24:0}\\( )e^{4t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-2e^{8,4t}-6 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-16,8:0}\\( )e^{8,4t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -89,7 +89,7 @@
     <text>09 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=2e^{-7,2t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-14,4:0}\\( )e^{-7,2t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=4e^{-3,7t}-3 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-14,8:0}\\( )e^{-3,7t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -98,7 +98,7 @@
     <text>10 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=7e^{-6,3t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-44,1:0}\\( )e^{-6,3t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=9e^{-2,8t}+5 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-25,2:0}\\( )e^{-2,8t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -107,7 +107,7 @@
     <text>11 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-7e^{-5,9t}+1 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=41,3:0}\\( )e^{-5,9t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-2e^{-4,8t}+8 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=9,6:0}\\( )e^{-4,8t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -116,7 +116,7 @@
     <text>12 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-4e^{5,9t}-1 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-23,6:0}\\( )e^{5,9t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-7e^{4,9t}-8 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-34,3:0}\\( )e^{4,9t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -125,7 +125,7 @@
     <text>13 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=3e^{1,9t}+7 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=5,7:0}\\( )e^{1,9t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=5e^{0,9t}+5 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=4,5:0}\\( )e^{0,9t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -134,7 +134,7 @@
     <text>14 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-5e^{-8,2t}-8 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=41:0}\\( )e^{-8,2t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-7e^{-7,2t}-5 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=50,4:0}\\( )e^{-7,2t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -143,7 +143,7 @@
     <text>15 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=6e^{7,8t}+4 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=46,8:0}\\( )e^{7,8t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=8e^{6,7t}+2 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=53,6:0}\\( )e^{6,7t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -152,7 +152,7 @@
     <text>16 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-5e^{-0,7t}-5 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=3,5:0}\\( )e^{-0,7t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-8e^{-9,4t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=75,2:0}\\( )e^{-9,4t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -161,7 +161,7 @@
     <text>17 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-9e^{-3,8t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=34,2:0}\\( )e^{-3,8t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-3e^{-2,8t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=8,4:0}\\( )e^{-2,8t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -170,7 +170,7 @@
     <text>18 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=3e^{-0,3t}-1 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-0,9:0}\\( )e^{-0,3t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=6e^{-9,1t}-8 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-54,6:0}\\( )e^{-9,1t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -179,7 +179,7 @@
     <text>19 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-4e^{-9,7t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=38,8:0}\\( )e^{-9,7t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-6e^{-8,7t} \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=52,2:0}\\( )e^{-8,7t} \\)</p>]]></text>
   </questiontext>
 </question>
 
@@ -188,7 +188,7 @@
     <text>20 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Gegeben: \\( u(t)=-4e^{2,6t}-8 \\)</p><p>Bestimmen Sie die Ableitung der Funktion\\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-10,4:0}\\( )e^{2,6t} \\)</p>]]></text>
+    <text><![CDATA[<p>Gegeben: \\( u(t)=-6e^{1,5t}-6 \\)</p><p>Bestimmen Sie die Ableitung der Funktion \\( u(t) \\).<br>\\( u'(t) = ( \\){1:NUMERICAL:=0:0}\\( t^3 +  \\){1:NUMERICAL:=0:0}\\( t^2 +  \\){1:NUMERICAL:=0:0}\\( t +  \\){1:NUMERICAL:=-9:0}\\( )e^{1,5t} \\)</p>]]></text>
   </questiontext>
 </question>
 
