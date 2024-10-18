@@ -26,51 +26,46 @@
  
 <body>
     <h1>Yes, we can math!</h1>
-    
+    <h2 id="aufgabenTitel">Quiz<button class="copyBtn" onclick="window.location.reload();">Neu</button></h2>
     <div id="aufgabe"></div>
 
     <script>
-function checkAnswer(buttonElement) {
-    const questionId = buttonElement.getAttribute("data-question-id");
-    const correctAnswer = parseFloat(buttonElement.getAttribute("data-correct-answer"));
-    const tolerance = parseFloat(buttonElement.getAttribute("data-tolerance"));
-    const userAnswer = parseFloat(document.getElementById(`answer${questionId}`).value);
-    const feedbackElement = document.getElementById(`feedback${questionId}`);
+        let aufgabenZaehler = 1; // Initialisiere den Zähler
+        let questionId = 1; // Eindeutige Frage-ID innerhalb einer Aufgabe
 
-    if (!isNaN(userAnswer)) {
-        if (Math.abs(userAnswer - correctAnswer) <= tolerance) {
-            feedbackElement.textContent = "Richtig!";
-            feedbackElement.style.color = "green";
-        } else {
-            feedbackElement.textContent = "Falsch! Die richtige Antwort ist: " + correctAnswer;
-            feedbackElement.style.color = "red";
+        function checkAnswer(questionId, correctAnswer, tolerance) {
+            const userAnswer = parseFloat(document.getElementById(`answer${questionId}`).value);
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
+
+            if (!isNaN(userAnswer)) {
+                if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
+                    feedbackElement.textContent = "Richtig!";
+                    feedbackElement.style.color = "green";
+                } else {
+                    feedbackElement.textContent = "Falsch! Die richtige Antwort ist: " + correctAnswer;
+                    feedbackElement.style.color = "red";
+                }
+                feedbackElement.style.transition = "opacity 0.5s ease-in-out";
+                feedbackElement.style.opacity = 1;
+            } else {
+                feedbackElement.textContent = "Bitte eine gültige Zahl eingeben.";
+                feedbackElement.style.color = "orange";
+            }
         }
-        feedbackElement.style.transition = "opacity 0.5s ease-in-out";
-        feedbackElement.style.opacity = 1;
-    } else {
-        feedbackElement.textContent = "Bitte eine gültige Zahl eingeben.";
-        feedbackElement.style.color = "orange";
-    }
-}
 
-
-function replaceNumericalWithInteractive(htmlContent) {
-    let questionId = 1;
-    const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
-    
-    function replacer(match, correctAnswer, tolerance) {
-        const interactiveHtml = `
-            <input type="number" id="answer${questionId}" placeholder="Antwort">
-            <button data-question-id="${questionId}" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}" onclick="checkAnswer(this)">Überprüfen</button>
-            <span id="feedback${questionId}"></span>
-        `;
-        questionId++;
-        return interactiveHtml;
-    }
-    
-    return htmlContent.replace(pattern, replacer);
-}
-
+        function replaceNumericalWithInteractive(htmlContent) {
+            const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
+            function replacer(match, correctAnswer, tolerance) {
+                const interactiveHtml = `
+                    <input type="number" id="answer${questionId}" placeholder="Antwort">
+                    <button onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})">Überprüfen</button>
+                    <span id="feedback${questionId}"></span>
+                `;
+                questionId++; // Eindeutige ID für jede Frage
+                return interactiveHtml;
+            }
+            return htmlContent.replace(pattern, replacer);
+        }
 
         function zeigeNeueAufgabe() {
             const params = new URLSearchParams(window.location.search);
@@ -101,7 +96,8 @@ function replaceNumericalWithInteractive(htmlContent) {
                 // Erstelle HTML-Elemente für jede Sammlung und füge die Aufgabe hinzu
                 const aufgabeContainer = document.getElementById('aufgabe');
                 let htmlContent =
-                    `<h2>Test</h2><div class="einleitung">
+                    `<h3>Aufgabe ${aufgabenZaehler}</h3>
+                    <div class="einleitung">
                         <button class="neueAufgabe" onclick="zeigeNeueAufgabe()">Neu</button><br>
                         <p>${selectedTask.einleitung}</p>
                     </div>
@@ -115,20 +111,23 @@ function replaceNumericalWithInteractive(htmlContent) {
                 htmlContent += `</ol>
                     </div>`;
 
+
                 // Füge das erstellte HTML der Seite hinzu
                 const aufgabenElement = document.createElement('div');
+                aufgabenElement.id = `aufgabe-${aufgabenZaehler}`
                 aufgabenElement.innerHTML = replaceNumericalWithInteractive(htmlContent);
                 aufgabeContainer.appendChild(aufgabenElement);
 
                 // MathJax Neurendering auslösen (falls MathJax benötigt wird)
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
+
+                // Erhöhe den Aufgabenzähler
+                aufgabenZaehler++; // Zähler erhöhen
             } else {
                 console.error(`Keine Aufgaben in der Sammlung ${sammlung} gefunden.`);
                 document.getElementById('aufgabe').innerHTML += `<p>Keine Aufgaben in der Sammlung ${sammlung} gefunden.</p>`;
             }
         }
-
-
 
         // Initiales Laden einer zufälligen Aufgabe
         zeigeNeueAufgabe();

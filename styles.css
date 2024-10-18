@@ -14,6 +14,13 @@ h1 {
 }
 
 h2 {
+    margin-top: 30px;
+    color:  #4e73df;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h3 {
     background-color: #6d88da;
     color: white;
     margin-top: 30px;
@@ -114,6 +121,7 @@ button:active {
     margin-top: 0px;
     margin-right: -20px;
     float: right;
+    display: none;
 }
 
 @media (max-width: 768px) {
