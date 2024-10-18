@@ -135,8 +135,9 @@ button:active {
 }
 
 img {
+    display: flex;
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
 } 
 
 footer {
