@@ -107,17 +107,15 @@ button {
     margin-top: 10px; 
 }
 */
-
+/*
 button:hover {
-    background-color: #2e59d9;
-    transform: translateY(-2px);
+
 }
 
 button:active {
-    background-color: #1e3fa8;
-    transform: translateY(0);
-}
 
+}
+*/
 .neueAufgabe {
     background-color:#4e73df;
     color: white;
@@ -178,7 +176,7 @@ footer a:hover {
         }
     }
 
-    .info-icon, .copy-icon, .test-icon, .reload-icon {
+    .info-icon, .copy-icon, .test-icon, .reload-icon, .check-icon {
         background-color: transparent;
         transition: background-color 0.3s, color 0.3s;
         cursor: pointer;
@@ -209,8 +207,13 @@ footer a:hover {
     .reload-icon:hover {
         color: #5882ff;        
     }
-
-
+    .check-icon{
+        color: #5882ffb0;
+        margin-left: 0px;
+    }
+    .check-icon:hover{
+        color: #5882ff;
+    }
 
 
 
