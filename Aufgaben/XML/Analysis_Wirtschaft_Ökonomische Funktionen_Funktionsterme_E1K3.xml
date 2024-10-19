@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Analysis_Wirtschaft_Ökonomische Funktionen/01 Funktionsterme/E1K3</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=6,8 \\)</p> <p>\\( K(x)=0,012x^3-0,56x^2+9,5x+31 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=6,8:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">\\( G(x)= \\){1:NUMERICAL:=-0,012:0}\\( x^3 \\) + {1:NUMERICAL:=0,56:0}\\( x^2 \\) + {1:NUMERICAL:=-2,7:0}\\( x \\) + {1:NUMERICAL:=-31:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=4,9 \\)</p> <p>\\( G(x)=-0,0011x^3+0,11x^2+0,5x-63 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=4,9:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">\\( K(x)= \\){1:NUMERICAL:=0,0011:0}\\( x^3 \\) + {1:NUMERICAL:=-0,11:0}\\( x^2 \\) + {1:NUMERICAL:=4,4:0}\\( x \\) + {1:NUMERICAL:=63:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=6,1 \\)</p> <p>\\( K(x)=0,0026x^3-0,24x^2+7,6x+69 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( G(x)= \\){1:NUMERICAL:=-0,0026:0}\\( x^3 \\) + {1:NUMERICAL:=0,24:0}\\( x^2 \\) + {1:NUMERICAL:=-1,5:0}\\( x \\) + {1:NUMERICAL:=-69:0}<br></li></ol><ol><li value="2">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=6,1:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=7 \\)</p> <p>\\( G(x)=-0,0022x^3+0,24x^2-4x-100 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=7:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">\\( K(x)= \\){1:NUMERICAL:=0,0022:0}\\( x^3 \\) + {1:NUMERICAL:=-0,24:0}\\( x^2 \\) + {1:NUMERICAL:=11:0}\\( x \\) + {1:NUMERICAL:=100:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=12 \\)</p> <p>\\( K(x)=0,0055x^3-0,38x^2+11x+160 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( G(x)= \\){1:NUMERICAL:=-0,0055:0}\\( x^3 \\) + {1:NUMERICAL:=0,38:0}\\( x^2 \\) + {1:NUMERICAL:=1:0}\\( x \\) + {1:NUMERICAL:=-160:0}<br></li></ol><ol><li value="2">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=12:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=7,8 \\)</p> <p>\\( G(x)=-0,0031x^3+0,23x^2+x-67 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( K(x)= \\){1:NUMERICAL:=0,0031:0}\\( x^3 \\) + {1:NUMERICAL:=-0,23:0}\\( x^2 \\) + {1:NUMERICAL:=6,8:0}\\( x \\) + {1:NUMERICAL:=67:0}<br></li></ol><ol><li value="2">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=7,8:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( G(x)=-1,3x^3+15x^2-17x-110 \\)</p> <p>\\( E(x)=58x \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( K(x)= \\){1:NUMERICAL:=1,3:0}\\( x^3 \\) + {1:NUMERICAL:=-15:0}\\( x^2 \\) + {1:NUMERICAL:=75:0}\\( x \\) + {1:NUMERICAL:=110:0}<br></li></ol><ol><li value="2">\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=0:0}\\( x \\) + {1:NUMERICAL:=58:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( K(x)=0,0013x^3-0,19x^2+11x+120 \\)</p> <p>\\( G(x)=-0,0013x^3+0,19x^2-4,5x-120 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=0:0}\\( x \\) + {1:NUMERICAL:=6,5:0}<br></li></ol><ol><li value="2">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=6,5:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( E(x)=46x \\)</p> <p>\\( G(x)=-1,3x^3+15x^2-17x-93 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=0:0}\\( x \\) + {1:NUMERICAL:=46:0}<br></li></ol><ol><li value="2">\\( K(x)= \\){1:NUMERICAL:=1,3:0}\\( x^3 \\) + {1:NUMERICAL:=-15:0}\\( x^2 \\) + {1:NUMERICAL:=63:0}\\( x \\) + {1:NUMERICAL:=93:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=7,3 \\)</p> <p>\\( K(x)=0,0042x^3-0,35x^2+11x+62 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( G(x)= \\){1:NUMERICAL:=-0,0042:0}\\( x^3 \\) + {1:NUMERICAL:=0,35:0}\\( x^2 \\) + {1:NUMERICAL:=-3,7:0}\\( x \\) + {1:NUMERICAL:=-62:0}<br></li></ol><ol><li value="2">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=7,3:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( G(x)=-0,058x^3+1,7x^2-x-120 \\)</p> <p>\\( E(x)=24x \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( K(x)= \\){1:NUMERICAL:=0,058:0}\\( x^3 \\) + {1:NUMERICAL:=-1,7:0}\\( x^2 \\) + {1:NUMERICAL:=25:0}\\( x \\) + {1:NUMERICAL:=120:0}<br></li></ol><ol><li value="2">\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=0:0}\\( x \\) + {1:NUMERICAL:=24:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=8,5 \\)</p> <p>\\( K(x)=0,0016x^3-0,24x^2+12x+110 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=8,5:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">\\( G(x)= \\){1:NUMERICAL:=-0,0016:0}\\( x^3 \\) + {1:NUMERICAL:=0,24:0}\\( x^2 \\) + {1:NUMERICAL:=-3,5:0}\\( x \\) + {1:NUMERICAL:=-110:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=29 \\)</p> <p>\\( K(x)=0,26x^3-5,4x^2+39x+140 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( G(x)= \\){1:NUMERICAL:=-0,26:0}\\( x^3 \\) + {1:NUMERICAL:=5,4:0}\\( x^2 \\) + {1:NUMERICAL:=-10:0}\\( x \\) + {1:NUMERICAL:=-140:0}<br></li></ol><ol><li value="2">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=29:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( K(x)=0,0068x^3-0,4x^2+10x+87 \\)</p> <p>\\( p(x)=8,5 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=8,5:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">\\( G(x)= \\){1:NUMERICAL:=-0,0068:0}\\( x^3 \\) + {1:NUMERICAL:=0,4:0}\\( x^2 \\) + {1:NUMERICAL:=-1,5:0}\\( x \\) + {1:NUMERICAL:=-87:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( G(x)=-0,18x^3+4,4x^2-6x-69 \\)</p> <p>\\( p(x)=32 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=32:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">\\( K(x)= \\){1:NUMERICAL:=0,18:0}\\( x^3 \\) + {1:NUMERICAL:=-4,4:0}\\( x^2 \\) + {1:NUMERICAL:=38:0}\\( x \\) + {1:NUMERICAL:=69:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( E(x)=11x \\)</p> <p>\\( G(x)=-0,0023x^3+0,26x^2-x-140 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=0:0}\\( x \\) + {1:NUMERICAL:=11:0}<br></li></ol><ol><li value="2">\\( K(x)= \\){1:NUMERICAL:=0,0023:0}\\( x^3 \\) + {1:NUMERICAL:=-0,26:0}\\( x^2 \\) + {1:NUMERICAL:=12:0}\\( x \\) + {1:NUMERICAL:=140:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( E(x)=58x \\)</p> <p>\\( K(x)=1,8x^3-19x^2+72x+94 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( G(x)= \\){1:NUMERICAL:=-1,8:0}\\( x^3 \\) + {1:NUMERICAL:=19:0}\\( x^2 \\) + {1:NUMERICAL:=-14:0}\\( x \\) + {1:NUMERICAL:=-94:0}<br></li></ol><ol><li value="2">\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=0:0}\\( x \\) + {1:NUMERICAL:=58:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( G(x)=-0,016x^3+0,86x^2-6x-85 \\)</p> <p>\\( E(x)=11x \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=0:0}\\( x \\) + {1:NUMERICAL:=11:0}<br></li></ol><ol><li value="2">\\( K(x)= \\){1:NUMERICAL:=0,016:0}\\( x^3 \\) + {1:NUMERICAL:=-0,86:0}\\( x^2 \\) + {1:NUMERICAL:=17:0}\\( x \\) + {1:NUMERICAL:=85:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=8,5 \\)</p> <p>\\( K(x)=0,0016x^3-0,24x^2+12x+110 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=8,5:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">\\( G(x)= \\){1:NUMERICAL:=-0,0016:0}\\( x^3 \\) + {1:NUMERICAL:=0,24:0}\\( x^2 \\) + {1:NUMERICAL:=-3,5:0}\\( x \\) + {1:NUMERICAL:=-110:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben:</p> <p>\\( p(x)=29 \\)</p> <p>\\( K(x)=0,26x^3-5,4x^2+39x+140 \\)</p> <p>Bestimmen Sie die Koeffizienten der angegebenen Funktionen:</p><ol><li value="1">\\( G(x)= \\){1:NUMERICAL:=-0,26:0}\\( x^3 \\) + {1:NUMERICAL:=5,4:0}\\( x^2 \\) + {1:NUMERICAL:=-10:0}\\( x \\) + {1:NUMERICAL:=-140:0}<br></li></ol><ol><li value="2">\\( E(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=29:0}\\( x \\) + {1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+</quiz>

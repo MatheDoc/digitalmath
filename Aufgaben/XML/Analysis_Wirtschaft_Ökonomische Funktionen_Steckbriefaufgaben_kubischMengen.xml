@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Analysis_Wirtschaft_Ökonomische Funktionen/06 Steckbriefaufgaben/kubischMengen</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 3 ME betragen 170,4 GE.</p> <p>Die Kosten für 6 ME betragen 226,2 GE.</p> <p>Die Kosten für 8 ME betragen 257,4 GE.</p> <p>Die Kosten für 11 ME betragen 319,2 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,2:0}\\( x^3 \\) + {1:NUMERICAL:=-4:0}\\( x^2 \\) + {1:NUMERICAL:=42:0}\\( x \\) + {1:NUMERICAL:=75:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 2 ME betragen 79,4 GE.</p> <p>Die Kosten für 6 ME betragen 97,8 GE.</p> <p>Die Kosten für 9 ME betragen 113,7 GE.</p> <p>Die Kosten für 14 ME betragen 288,2 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,3:0}\\( x^3 \\) + {1:NUMERICAL:=-5:0}\\( x^2 \\) + {1:NUMERICAL:=29:0}\\( x \\) + {1:NUMERICAL:=39:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 3 ME betragen 106,4 GE.</p> <p>Die Kosten für 5 ME betragen 134 GE.</p> <p>Die Kosten für 9 ME betragen 222,8 GE.</p> <p>Die Kosten für 15 ME betragen 584 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,2:0}\\( x^3 \\) + {1:NUMERICAL:=-2:0}\\( x^2 \\) + {1:NUMERICAL:=20:0}\\( x \\) + {1:NUMERICAL:=59:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 4 ME betragen 41,6 GE.</p> <p>Die Gewinne für 8 ME betragen 72,8 GE.</p> <p>Die Gewinne für 12 ME betragen -4,8 GE.</p> <p>Die Gewinne für 21 ME betragen -776,1 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,1:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=31:0}\\( x \\) + {1:NUMERICAL:=-60:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 3 ME betragen 18,9 GE.</p> <p>Die Gewinne für 6 ME betragen 91,2 GE.</p> <p>Die Gewinne für 14 ME betragen -411,2 GE.</p> <p>Die Gewinne für 17 ME betragen -998,9 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,3:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=52:0}\\( x \\) + {1:NUMERICAL:=-120:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 4 ME betragen 165,84 GE.</p> <p>Die Kosten für 9 ME betragen 240,74 GE.</p> <p>Die Kosten für 21 ME betragen 632,66 GE.</p> <p>Die Kosten für 27 ME betragen 1089,98 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,06:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=20:0}\\( x \\) + {1:NUMERICAL:=98:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 2 ME betragen 68 GE.</p> <p>Die Gewinne für 5 ME betragen 156,5 GE.</p> <p>Die Gewinne für 10 ME betragen -116 GE.</p> <p>Die Gewinne für 14 ME betragen -928 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,5:0}\\( x^3 \\) + {1:NUMERICAL:=-2:0}\\( x^2 \\) + {1:NUMERICAL:=63:0}\\( x \\) + {1:NUMERICAL:=-46:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 2 ME betragen 114,64 GE.</p> <p>Die Kosten für 7 ME betragen 141,44 GE.</p> <p>Die Kosten für 11 ME betragen 148,48 GE.</p> <p>Die Kosten für 15 ME betragen 176 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,08:0}\\( x^3 \\) + {1:NUMERICAL:=-2:0}\\( x^2 \\) + {1:NUMERICAL:=18:0}\\( x \\) + {1:NUMERICAL:=86:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 2 ME betragen 31,4 GE.</p> <p>Die Gewinne für 3 ME betragen 45,1 GE.</p> <p>Die Gewinne für 5 ME betragen 6,5 GE.</p> <p>Die Gewinne für 7 ME betragen -148,1 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,7:0}\\( x^3 \\) + {1:NUMERICAL:=-4:0}\\( x^2 \\) + {1:NUMERICAL:=47:0}\\( x \\) + {1:NUMERICAL:=-41:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 3 ME betragen 179,2 GE.</p> <p>Die Kosten für 5 ME betragen 190 GE.</p> <p>Die Kosten für 10 ME betragen 280 GE.</p> <p>Die Kosten für 13 ME betragen 521,2 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,6:0}\\( x^3 \\) + {1:NUMERICAL:=-9:0}\\( x^2 \\) + {1:NUMERICAL:=48:0}\\( x \\) + {1:NUMERICAL:=100:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 2 ME betragen 66 GE.</p> <p>Die Kosten für 4 ME betragen 90 GE.</p> <p>Die Kosten für 7 ME betragen 163,5 GE.</p> <p>Die Kosten für 9 ME betragen 272,5 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\) + {1:NUMERICAL:=-4:0}\\( x^2 \\) + {1:NUMERICAL:=22:0}\\( x \\) + {1:NUMERICAL:=34:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 3 ME betragen 169,4 GE.</p> <p>Die Kosten für 7 ME betragen 192,6 GE.</p> <p>Die Kosten für 9 ME betragen 201,8 GE.</p> <p>Die Kosten für 15 ME betragen 335 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,2:0}\\( x^3 \\) + {1:NUMERICAL:=-4:0}\\( x^2 \\) + {1:NUMERICAL:=30:0}\\( x \\) + {1:NUMERICAL:=110:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 2 ME betragen 2,4 GE.</p> <p>Die Gewinne für 6 ME betragen 68,8 GE.</p> <p>Die Gewinne für 9 ME betragen 26,2 GE.</p> <p>Die Gewinne für 13 ME betragen -215,4 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,2:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=35:0}\\( x \\) + {1:NUMERICAL:=-62:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 2 ME betragen -12,6 GE.</p> <p>Die Gewinne für 6 ME betragen 65,8 GE.</p> <p>Die Gewinne für 10 ME betragen -35 GE.</p> <p>Die Gewinne für 12 ME betragen -176,6 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,2:0}\\( x^3 \\) + {1:NUMERICAL:=-2:0}\\( x^2 \\) + {1:NUMERICAL:=46:0}\\( x \\) + {1:NUMERICAL:=-95:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 2 ME betragen 121,72 GE.</p> <p>Die Kosten für 8 ME betragen 197,08 GE.</p> <p>Die Kosten für 10 ME betragen 219 GE.</p> <p>Die Kosten für 16 ME betragen 335,64 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,09:0}\\( x^3 \\) + {1:NUMERICAL:=-2:0}\\( x^2 \\) + {1:NUMERICAL:=25:0}\\( x \\) + {1:NUMERICAL:=79:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 5 ME betragen 21,25 GE.</p> <p>Die Gewinne für 8 ME betragen 78,64 GE.</p> <p>Die Gewinne für 15 ME betragen 83,75 GE.</p> <p>Die Gewinne für 25 ME betragen -323,75 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,03:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=36:0}\\( x \\) + {1:NUMERICAL:=-130:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 4 ME betragen 315,2 GE.</p> <p>Die Kosten für 11 ME betragen 385,55 GE.</p> <p>Die Kosten für 18 ME betragen 421,6 GE.</p> <p>Die Kosten für 22 ME betragen 466,4 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,05:0}\\( x^3 \\) + {1:NUMERICAL:=-2:0}\\( x^2 \\) + {1:NUMERICAL:=31:0}\\( x \\) + {1:NUMERICAL:=220:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 6 ME betragen 151,52 GE.</p> <p>Die Gewinne für 13 ME betragen 246,09 GE.</p> <p>Die Gewinne für 19 ME betragen 82,23 GE.</p> <p>Die Gewinne für 27 ME betragen -558,49 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,03:0}\\( x^3 \\) + {1:NUMERICAL:=-2:0}\\( x^2 \\) + {1:NUMERICAL:=60:0}\\( x \\) + {1:NUMERICAL:=-130:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Kosten für 6 ME betragen 315,12 GE.</p> <p>Die Kosten für 9 ME betragen 372,03 GE.</p> <p>Die Kosten für 19 ME betragen 611,13 GE.</p> <p>Die Kosten für 25 ME betragen 918,75 GE.</p><p>Bestimmen Sie die kubische Kostenfunktion.<br>\\( K(x)= \\){1:NUMERICAL:=0,07:0}\\( x^3 \\) + {1:NUMERICAL:=-2:0}\\( x^2 \\) + {1:NUMERICAL:=37:0}\\( x \\) + {1:NUMERICAL:=150:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 7 ME betragen 93,71 GE.</p> <p>Die Gewinne für 14 ME betragen 147,68 GE.</p> <p>Die Gewinne für 19 ME betragen 54,23 GE.</p> <p>Die Gewinne für 25 ME betragen -238,75 GE.</p><p>Bestimmen Sie die kubische Gewinnfunktion.<br>\\( G(x)= \\){1:NUMERICAL:=-0,03:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=39:0}\\( x \\) + {1:NUMERICAL:=-120:0}</p>]]></text>
+  </questiontext>
+</question>
+
+</quiz>

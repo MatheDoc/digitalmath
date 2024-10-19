@@ -229,8 +229,10 @@ footer a:hover {
         table.dataTable tr td:nth-child(3),
         table.dataTable tr th:nth-child(4),
         table.dataTable tr td:nth-child(4),
-        table.dataTable tr th:nth-child(6),
-        table.dataTable tr td:nth-child(6) {
+        table.dataTable tr th:nth-child(5),
+        table.dataTable tr td:nth-child(5),
+        table.dataTable tr th:nth-child(7),
+        table.dataTable tr td:nth-child(7) {
         display: none;
         }
 
