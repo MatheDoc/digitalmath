@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    background-color: #4e73df;
+    background-color: #7e7e7e;
     color: white;
     padding: 10px 0;
     margin-bottom: 20px;
@@ -15,13 +15,13 @@ h1 {
 
 h2 {
     margin-top: 30px;
-    color:  #4e73df;
+    color:  #7e7e7e;
     margin-bottom: 15px;
     text-align: center;
 }
 
 h3 {
-    background-color: #6d88da;
+    background-color: #7e7e7e;
     color: white;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -178,34 +178,39 @@ footer a:hover {
         }
     }
 
-
+    .info-icon, .copy-icon, .test-icon, .reload-icon {
+        background-color: transparent;
+        transition: background-color 0.3s, color 0.3s;
+        cursor: pointer;
+        padding: 2px;
+        margin-left: 5px;
+    }
+    .info-icon {
+        color: #e2a92db0;
+    }
+    .info-icon:hover {
+        color: #e2a92d;
+    }
     .copy-icon {
-        color: #4e73df;
-        transition: color 0.3s;
-        cursor: pointer;
-        border: 2px solid #4e73df;
-        border-radius: 5px;
-        padding: 2px;
+        color: #5882ffb0;
     }
-
     .copy-icon:hover {
-        color: #2e59d9;
-        transform: translateY(-2px);        
+        color: #5882ff;    
     }
-
+    .test-icon {
+        color: #e72f8bb0;
+    }
+    .test-icon:hover {
+        color: #e72f8b;      
+    }
     .reload-icon {
-        color:#4e73df;
-        transition: color 0.3s;
-        cursor: pointer;
-        border: 2px solid #4e73df;
-        border-radius: 5px;
-        padding: 2px;
+        color:#5882ffb0;
+    }
+    .reload-icon:hover {
+        color: #5882ff;        
     }
 
-    .reload-icon:hover {
-        color: #2e59d9;
-        transform: translateY(-2px);        
-    }
+
 
 
 
@@ -220,7 +225,9 @@ footer a:hover {
         table.dataTable tr th:nth-child(3),
         table.dataTable tr td:nth-child(3),
         table.dataTable tr th:nth-child(4),
-        table.dataTable tr td:nth-child(4) {
+        table.dataTable tr td:nth-child(4),
+        table.dataTable tr th:nth-child(6),
+        table.dataTable tr td:nth-child(6) {
         display: none;
         }
 

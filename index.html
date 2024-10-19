@@ -88,34 +88,38 @@
                 table.draw(); // Zeichne die Tabelle neu
             });
 
-                    // Füge Links zur 6. Spalte hinzu
-                    table.rows().every(function(rowIdx) {
-                        var data = this.data();
-                        var urls = data[5]; // 5. Spalte (index 4)
-                        // Angang der URL
+            // Fügt Buttons hinzu
+            table.rows().every(function(rowIdx) {
+            var data = this.data();
+                var ichKannText = data[4]; // 4. Spalte (index 3)
+                    
+                // Fügen Sie einen kleinen Button zum Kopieren hinzu
+                var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
+                var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
+                var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
+                    
+                table.cell(rowIdx, 4).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
+            });
+
+
+
+                   // Event-Listener für die Test-Buttons
+                    $('#meineTabelle').on('click', '.test-icon', function() {
+                        var row = $(this).closest('tr'); // Zeile ermitteln
+                        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
+                        var urls = rowData[5]; // URLs in der 6. Spalte
                         
                         if (urls) {
                             // Teile die URLs und erstelle Links
                             var links = urls.split(',').map(function(url) {
-                                var sammlungsname = data[1] + '_' + data[2] + '_' + data[3] + '_' + url.trim() + '.json';
+                                var sammlungsname = rowData[1] + '_' + rowData[2] + '_' + rowData[3] + '_' + url.trim() + '.json';
                                 return 'sammlung=' + sammlungsname;
                             });
-                            
-                            // Setze die Zelle mit den Links
-                            table.cell(rowIdx, 5).data('<a href="https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '" target="_blank">Quiz</a>'); // Links mit Zeilenumbruch trennen 
+                            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&');
+                            window.open(testUrl, '_blank'); // Öffne URL in einem neuen Tab/Fenster
                         }
                     });
-
-                    // Fügt den Copy-Button zur 4. Spalte hinzu
-                    table.rows().every(function(rowIdx) {
-                        var data = this.data();
-                        var ichKannText = data[4]; // 4. Spalte (index 3)
-                        
-                        // Fügen Sie einen kleinen Button zum Kopieren hinzu
-                        var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon"></i>' //<button class="copyBtn">Copy</button>';
-                        table.cell(rowIdx, 4).data(ichKannText + ' ' + copyButton);
-                    });
-
+                    
                     // Event-Listener für die Copy-Buttons
                     $('#meineTabelle').on('click', '.copy-icon', function() {
                         var row = $(this).closest('tr');
@@ -133,6 +137,9 @@
                             // Meldung
                         });
                     });
+
+
+
 
                     // Funktion zum Auswählen/Auswählen aller Checkboxen
                     $('#checkAll').on('click', function() {
@@ -301,18 +308,18 @@
             <td>Situation: </td>
             <td></td>
         </tr>
-        <tr>
+        <!--<tr>
             <td>Markierung: </td>
             <td><button class="copyBtn" id="hideUnchecked">Auswahl</button><button class="copyBtn" id="showAll">Alle</button></td>
-        </tr>        
+        </tr>-->        
     </tbody>
 </table>
 
 <div id="content"></div>
 
 <footer>
-    <p>&copy; 2024 Dr. Sven Führing. Dieses Werk steht unter einer 
-    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Lizenz (CC BY 4.0)</a>.</p>
+    <p>&copy; 2024 Dr. Sven Führing. .</p>
+    <!-- Dieses Werk steht unter einer <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Lizenz (CC BY 4.0)</a>-->
 </footer>
 
 </body>
