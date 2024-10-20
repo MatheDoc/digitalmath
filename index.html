@@ -111,12 +111,23 @@
                         // Infotext aktualisieren
                         $('#infoText').html(info);
                         
-                        // Positioniere den Infotext relativ zum Icon
-                        var iconOffset = $(this).offset(); // Position des Icons
-                        $('#infoText').css({
-                            top: iconOffset.top + $(this).height() + 5, // 5px Abstand unter dem Icon
-                            left: iconOffset.left
-                        }).fadeIn(); // Zeige den Infotext an
+                        // Überprüfe die Fensterbreite, um die Position zu bestimmen
+                        if ($(window).width() > 768) { // Für Desktop
+                            // Positioniere den Infotext relativ zum Icon
+                            var iconOffset = $(this).offset(); // Position des Icons
+                            $('#infoText').css({
+                                top: iconOffset.top + $(this).height() + 5, // 5px Abstand unter dem Icon
+                                left: iconOffset.left
+                            }).fadeIn(); // Zeige den Infotext an
+                        } else { // Für mobile Geräte
+                            // Info-Box zentrieren
+                            $('#infoText').css({
+                                top: '50%', 
+                                left: '50%',
+                                transform: 'translate(-50%, -50%)', // Zentrierung
+                                position: 'fixed' // Sicherstellen, dass sie fest bleibt
+                            }).fadeIn(); // Zeige den Infotext an
+                        }
                         $('#overlay').fadeIn();   // Zeige das Overlay an
     
                     });
