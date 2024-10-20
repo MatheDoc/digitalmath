@@ -111,12 +111,23 @@
                         // Infotext aktualisieren
                         $('#infoText').html(info);
                         
-                        // Positioniere den Infotext relativ zum Icon
-                        var iconOffset = $(this).offset(); // Position des Icons
-                        $('#infoText').css({
-                            top: iconOffset.top + $(this).height() + 5, // 5px Abstand unter dem Icon
-                            left: iconOffset.left
-                        }).fadeIn(); // Zeige den Infotext an
+                        // Überprüfe die Fensterbreite, um die Position zu bestimmen
+                        if ($(window).width() > 768) { // Für Desktop
+                            // Positioniere den Infotext relativ zum Icon
+                            var iconOffset = $(this).offset(); // Position des Icons
+                            $('#infoText').css({
+                                top: iconOffset.top + $(this).height() + 5, // 5px Abstand unter dem Icon
+                                left: iconOffset.left
+                            }).fadeIn(); // Zeige den Infotext an
+                        } else { // Für mobile Geräte
+                            // Info-Box zentrieren
+                            $('#infoText').css({
+                                top: '50%', 
+                                left: '50%',
+                                transform: 'translate(-50%, -50%)', // Zentrierung
+                                position: 'fixed' // Sicherstellen, dass sie fest bleibt
+                            }).fadeIn(); // Zeige den Infotext an
+                        }
                         $('#overlay').fadeIn();   // Zeige das Overlay an
     
                     });
@@ -142,7 +153,7 @@
                         if (urls) {
                             // Teile die URLs und erstelle Links
                             var links = urls.split(',').map(function(url) {
-                                var sammlungsname = rowData[1] + '_' + rowData[3] + '_' + rowData[4] + '_' + url.trim() + '.json';
+                                var sammlungsname = url.trim() + '.json';
                                 return 'sammlung=' + sammlungsname;
                             });
                             var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&');
@@ -200,9 +211,15 @@
                     fillDropdown(2, '#teilgebietFilter', table);
                     fillDropdown(3, '#schwerpunktFilter', table);
                     fillDropdown(4, '#situationFilter', table);
+                        
 
                     // Event-Listener für Dropdowns
                     $('#gebietFilter, #teilgebietFilter, #schwerpunktFilter, #situationFilter').on('change', function() {
+                        fillDropdown(1, '#gebietFilter', table);
+                    fillDropdown(2, '#teilgebietFilter', table);
+                    fillDropdown(3, '#schwerpunktFilter', table);
+                    fillDropdown(4, '#situationFilter', table);
+                        
                         filterTable(table);
                     });
 
@@ -280,11 +297,14 @@
             // Funktion, um Dropdowns basierend auf den Tabellendaten zu füllen
             function fillDropdown(columnIndex, dropdownSelector, table) {
                 const uniqueValues = [];
-                table.column(columnIndex).data().each(function(value) {
+
+                // Füllen der einzigartigen Werte aus der Tabelle
+                table.rows({ filter: 'applied' }).column(columnIndex).data().each(function(value) {
                     if (uniqueValues.indexOf(value) === -1) {
                         uniqueValues.push(value);
                     }
                 });
+
                 uniqueValues.forEach(function(value) {
                     $(dropdownSelector).append($('<option>', {
                         value: value,

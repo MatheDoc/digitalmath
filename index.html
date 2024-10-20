@@ -153,7 +153,7 @@
                         if (urls) {
                             // Teile die URLs und erstelle Links
                             var links = urls.split(',').map(function(url) {
-                                var sammlungsname = rowData[1] + '_' + rowData[3] + '_' + rowData[4] + '_' + url.trim() + '.json';
+                                var sammlungsname = url.trim() + '.json';
                                 return 'sammlung=' + sammlungsname;
                             });
                             var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&');
