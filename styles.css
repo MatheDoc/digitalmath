@@ -174,12 +174,12 @@ footer a:hover {
         .select2-container {
             width: 100% !important;
         }
-        .info-text {
-            top: 50%; /* Platziere in der Mitte des Bildschirms */
+       /* .info-text {
+            top: 50%; 
             left: 50%;
-            transform: translate(-50%, -50%); /* Korrektur für zentrierte Position */
-            max-width: 90%; /* Größerer Anteil des Bildschirms */
-        }
+            transform: translate(-50%, -50%); 
+            max-width: 90%; 
+        }*/
     }
 
     .info-icon, .copy-icon, .test-icon, .reload-icon, .check-icon {
