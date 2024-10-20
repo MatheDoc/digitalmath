@@ -1,0 +1,222 @@
+﻿[
+{
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Der Kontrolleur erwartet durchschnittlich 100,7 defekte Halbleiter. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der defekten Halbleiter angibt, beträgt \( \sigma = 6,8796 \).",
+"fragen":[
+"Bestimmen Sie Anzahl der insgesamt untersuchten Halbleiter (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet).",
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Halbleiter defekt ist. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)"
+],
+"antworten":[
+"{1:NUMERICAL:=190:0,01}",
+"{1:NUMERICAL:=53:1} %"
+]
+},
+{
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. Die Schaffnerin erwartet durchschnittlich 45,58 Passagiere ohne gültigen Fahrschein. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Passagiere ohne gültigen Fahrschein angibt, beträgt \( \sigma = 5,0971 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Passagier keinen gültigen Fahrschein hat. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Passagiere (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=43:1} %",
+"{1:NUMERICAL:=106:0,01}"
+]
+},
+{
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Der Eisverkäufer erwartet durchschnittlich 30,25 Kundenbestellungen mit Streuseln. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Kundenbestellungen mit Streuseln angibt, beträgt \( \sigma = 4,7631 \).",
+"fragen":[
+"Bestimmen Sie Anzahl der insgesamt untersuchten Kunden (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet).",
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Kunde ein Eis mit Streuseln bestellt. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)"
+],
+"antworten":[
+"{1:NUMERICAL:=121:0,01}",
+"{1:NUMERICAL:=25:1} %"
+]
+},
+{
+"einleitung":"David hat eine gezinkte Münze. David erwartet durchschnittlich 55,44 geworfene Köpfe. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der geworfenen Köpfe angibt, beträgt \( \sigma = 6,618 \).",
+"fragen":[
+"Bestimmen Sie Anzahl der insgesamt untersuchten Münzwürfe (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet).",
+"Bestimmen Sie die Wahrscheinlichkeit, dass bei einem Wurf Kopf geworfen wird. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)"
+],
+"antworten":[
+"{1:NUMERICAL:=264:0,01}",
+"{1:NUMERICAL:=21:1} %"
+]
+},
+{
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Die Ärztin erwartet durchschnittlich 68,4 Bewerber mit erfolgreichem Gesundheitscheck. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck angibt, beträgt \( \sigma = 6,9195 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Bewerber den Check besteht. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Bewerber (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=30:1} %",
+"{1:NUMERICAL:=228:0,01}"
+]
+},
+{
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Der Fahrlehrer erwartet durchschnittlich 84,36 durchgefallene Prüflinge. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der durchgefallenen Prüflinge angibt, beträgt \( \sigma = 4,6833 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Prüfling durch die Prüfung fällt. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Prüflinge (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=74:1} %",
+"{1:NUMERICAL:=114:0,01}"
+]
+},
+{
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Der Zollbeamte erwartet durchschnittlich 47,4 gefälschte Turnschuhe. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der gefälschten Turnschuhe angibt, beträgt \( \sigma = 6,1579 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Turnschuh eine Fälschung ist. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Turnschuhe (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=20:1} %",
+"{1:NUMERICAL:=237:0,01}"
+]
+},
+{
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Die Fußballerin erwartet durchschnittlich 116,76 Fehltreffer. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Fehltreffer angibt, beträgt \( \sigma = 8,2293 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Freistoß das Tor verfehlt. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Freistöße (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=42:1} %",
+"{1:NUMERICAL:=278:0,01}"
+]
+},
+{
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Das Unternehmen erwartet durchschnittlich 69 zufriedene Mitarbeiter. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der zufriedenen Mitarbeiter angibt, beträgt \( \sigma = 7,1937 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Mitarbeiter zufrieden ist. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Mitarbeiter (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=25:1} %",
+"{1:NUMERICAL:=276:0,01}"
+]
+},
+{
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Der Besitzer erwartet durchschnittlich 31,92 vegetarische Gerichte. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der vegetarischen Gerichte angibt, beträgt \( \sigma = 4,9254 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Gericht vegetarisch ist. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Gerichte (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=24:1} %",
+"{1:NUMERICAL:=133:0,01}"
+]
+},
+{
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Die Filialleiterin erwartet durchschnittlich 60,76 unzureichend bewässerte Pflanzen. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der unzureichend bewässerten Pflanzen angibt, beträgt \( \sigma = 6,6142 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass eine Pflanze zu wenig Wasser bekommt. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Pflanzen (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=28:1} %",
+"{1:NUMERICAL:=217:0,01}"
+]
+},
+{
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Der Onlineshop erwartet durchschnittlich 106,26 Werkzeuge mit Akku. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Werkzeuge mit Akku angibt, beträgt \( \sigma = 5,7394 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Werkzeug mit einem Akku ausgestattet ist. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Werkzeuge (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=69:1} %",
+"{1:NUMERICAL:=154:0,01}"
+]
+},
+{
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Das Unternehmen erwartet durchschnittlich 140,25 Computer mit unzureichendem Virenschutz. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Computer mit unzureichendem Virenschutz angibt, beträgt \( \sigma = 5,9214 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Computer nicht ausreichend gegen Viren geschützt ist. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Computer (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=75:1} %",
+"{1:NUMERICAL:=187:0,01}"
+]
+},
+{
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Die Glaserei erwartet durchschnittlich 180,23 Krüge mit Kratzer. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Krüge mit Kratzer angibt, beträgt \( \sigma = 7,7121 \).",
+"fragen":[
+"Bestimmen Sie Anzahl der insgesamt untersuchten Krüge (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet).",
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein Krug einen Kratzer hat. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)"
+],
+"antworten":[
+"{1:NUMERICAL:=269:0,01}",
+"{1:NUMERICAL:=67:1} %"
+]
+},
+{
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. Amalia erwartet durchschnittlich 22,4 Vorschläge mit attraktiven Partnern. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Vorschläge mit attraktiven Partnern angibt, beträgt \( \sigma = 4,2332 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass sie einen vorgeschlagenen Partner attraktiv findet. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten vorgeschlagenen Partner (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=20:1} %",
+"{1:NUMERICAL:=112:0,01}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Das Unternehmen erwartet durchschnittlich 73,75 Smartwatches mit Gutschein. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Smartwatches mit Gutschein angibt, beträgt \( \sigma = 7,4372 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass einer Smartwatch ein Gutschein beigelegt wird. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Smartwatches (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=25:1} %",
+"{1:NUMERICAL:=295:0,01}"
+]
+},
+{
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Der Verkäufer erwartet durchschnittlich 74,06 barbezahlende Kunden. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der barbezahlenden Kunden angibt, beträgt \( \sigma = 6,324 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass eine Kunde bar bezahlt. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Kunden (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=46:1} %",
+"{1:NUMERICAL:=161:0,01}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. Das Unternehmen erwartet durchschnittlich 62,06 Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden angibt, beträgt \( \sigma = 6,638 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass eine Beamerlampe weniger als 4000 Stunden leuchtet. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Beamerlampen (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=29:1} %",
+"{1:NUMERICAL:=214:0,01}"
+]
+},
+{
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. Der potentielle Werbepartner erwartet durchschnittlich 49,5 Follower der Influencerin. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Follower der Influencerin angibt, beträgt \( \sigma = 5,8864 \).",
+"fragen":[
+"Bestimmen Sie Anzahl der insgesamt untersuchten User (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet).",
+"Bestimmen Sie die Wahrscheinlichkeit, dass ein User die Influencerin kennt. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)"
+],
+"antworten":[
+"{1:NUMERICAL:=165:0,01}",
+"{1:NUMERICAL:=30:1} %"
+]
+},
+{
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Der Kassierer erwartet durchschnittlich 59,8 ungenau gewogene Lebensmittel. Die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der ungenau gewogenen Lebensmittel angibt, beträgt \( \sigma = 6,9166 \).",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit, dass das Gewicht eines Lebensmittels nicht ausreichend genau bestimmt wird. (Angabe und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)",
+"Bestimmen Sie Anzahl der insgesamt untersuchten Lebensmittel (Angabe und bei Verwendung als mögliches Zwischenergebnis auf eine ganze Zahl gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=20:1} %",
+"{1:NUMERICAL:=299:0,01}"
+]
+}
+]
