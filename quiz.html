@@ -41,10 +41,10 @@
 
             if (!isNaN(userAnswer)) {
                 if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
-                    feedbackElement.innerHTML = 'Richtig! (Die genaue Antwort lautet' + correctAnswer +'.)';
+                    feedbackElement.innerHTML = 'Richtig! (Die genaue Antwort lautet ' + correctAnswer +'.)';
                     feedbackElement.style.color = "green";
                 } else {
-                    feedbackElement.innerHTML = 'Falsch! Die richtige Antwort lautet' + correctAnswer +'.';
+                    feedbackElement.innerHTML = 'Falsch! Die richtige Antwort lautet ' + correctAnswer +'.';
                     feedbackElement.style.color = "red";
                     document.body.style.backgroundColor = '#f5b9b9';
                 }

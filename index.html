@@ -92,8 +92,7 @@
             table.rows().every(function(rowIdx) {
             var data = this.data();
                 var ichKannText = data[5];
-                    
-                // Fügen Sie einen kleinen Button zum Kopieren hinzu
+            
                 var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
                 var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
                 var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
@@ -101,6 +100,37 @@
                 table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
             });
 
+
+                    // Event-Listener für die Info-Buttons
+                    $('#meineTabelle').on('click', '.info-icon', function(event) {
+                        event.stopPropagation(); // Verhindert, dass das Overlay direkt den Klick abfängt
+                        var row = $(this).closest('tr'); // Zeile ermitteln
+                        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
+                        var info = rowData[7]; // Infos in der 8. Spalte
+                        
+                        // Infotext aktualisieren
+                        $('#infoText').html(info);
+                        
+                        // Positioniere den Infotext relativ zum Icon
+                        var iconOffset = $(this).offset(); // Position des Icons
+                        $('#infoText').css({
+                            top: iconOffset.top + $(this).height() + 5, // 5px Abstand unter dem Icon
+                            left: iconOffset.left
+                        }).fadeIn(); // Zeige den Infotext an
+                        $('#overlay').fadeIn();   // Zeige das Overlay an
+    
+                    });
+
+                    // Ausblenden des Infotextes beim Klicken irgendwo anders auf die Seite
+                    $(document).on('click', function() {
+                        $('#infoText').fadeOut(); // Verstecke den Infotext
+                        $('#overlay').fadeOut();  // Verstecke das Overlay
+                    });
+
+                    // Verhindern, dass der Infotext ausgeblendet wird, wenn man darauf klickt
+                    $('#infoText').on('click', function(event) {
+                        event.stopPropagation(); // Verhindert das Ausblenden beim Klick auf den Infotext
+                    });
 
 
                    // Event-Listener für die Test-Buttons
@@ -325,6 +355,9 @@
 </table>
 
 <div id="content"></div>
+
+<div id="overlay" class="overlay"></div>
+<div id="infoText" class="info-text"></div>
 
 <footer>
     <p>&copy; 2024 Dr. Sven Führing. .</p>
