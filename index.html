@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ich-Kann-Liste</title>
+    <title>Yes, we can math!</title>
 
     <!-- Einbinden der externen CSS-Datei -->
     <link rel="stylesheet" href="styles.css"> 
@@ -326,12 +326,8 @@
 
 <h1>Yes, we can math!</h1>
 
+
 <!-- Export- und Import-Buttons
-    <div class="buttonrow">
-        <span>
-            
-            
-        </span>
         <span>
             <input type="text" id="importJson" placeholder="JSON hier einfügen" />
             <button id="importConfig">Konfiguration importieren</button>
@@ -358,10 +354,14 @@
             <td>Situation: </td>
             <td></td>
         </tr>
-        <!--<tr>
-            <td>Markierung: </td>
-            <td><button class="copyBtn" id="hideUnchecked">Auswahl</button><button class="copyBtn" id="showAll">Alle</button></td>
-        </tr>-->        
+        <tr>
+            <td>Auswahl: </td>
+            <td>
+                <i class="fas fa-binoculars auswahl-icon" id="hideUnchecked" title="Auswahl anzeigen"></i>
+                <i class="fas  fa-list auswahl-icon" id="showAll" title="Alle anzeigen"></i>
+                <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
+            </td>
+        </tr>        
     </tbody>
 </table>
 
@@ -371,8 +371,7 @@
 <div id="infoText" class="info-text"></div>
 
 <footer>
-    <p>&copy; 2024 Dr. Sven Führing</p>
-    <!-- Dieses Werk steht unter einer <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Lizenz (CC BY 4.0)</a>-->
+    &copy; 2024 Dr. Sven Führing <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">(CC BY-NC-SA 4.0)</a>
 </footer>
 
 </body>

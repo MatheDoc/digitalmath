@@ -32,8 +32,14 @@ table{
     border-collapse: collapse;
     margin: 0 auto;
     max-width: 99%;
-    margin-bottom: 40px;
 }
+
+#dropdowns {
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin-bottom: 20px;
+}
+
 .dataTables_length {
     display: none;
 }
@@ -158,18 +164,10 @@ img {
 
 footer {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 0.9em;
     color: #888;
-}
-
-footer a {
-    color: #4e73df;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
 
@@ -181,7 +179,7 @@ footer a:hover {
     @media (max-width: 768px) {
         .select2-container {
             width: 100% !important;
-            max-width: 300px;
+            max-width: 200px;
         }
        /* .info-text {
             top: 50%; 
@@ -191,7 +189,7 @@ footer a:hover {
         }*/
     }
 
-    .info-icon, .copy-icon, .test-icon, .reload-icon, .check-icon {
+    .info-icon, .copy-icon, .test-icon, .reload-icon, .check-icon, .auswahl-icon, .teilen-icon {
         background-color: transparent;
         transition: background-color 0.3s, color 0.3s;
         cursor: pointer;
@@ -231,6 +229,13 @@ footer a:hover {
         color: #5882ff;
     }
 
+    .auswahl-icon{
+        color: #919191b6;
+    }
+
+    .auswahl-icon:hover{
+        color: #919191;
+    }
 
 
         /* Modernere Hover-Effekte */
