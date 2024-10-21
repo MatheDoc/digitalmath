@@ -7,15 +7,24 @@
     
     <!-- Einbinden der externen CSS-Datei -->
     <link rel="stylesheet" href="styles.css"> 
-    <!-- Font CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<!-- Einbinden von jQuery (notwendig für Select2) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Einbinden von Select2 CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
-<!-- Einbinden von Select2 JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+
+     <!-- Font CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css" rel="stylesheet" />
+
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
 
     <!-- MathJax Skript einbinden -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
@@ -45,6 +54,7 @@
 
         function checkAnswer(questionId, correctAnswer, tolerance) {
             const userAnswer = parseFloat(document.getElementById(`answer${questionId}`).value);
+
             const feedbackElement = document.getElementById(`feedback${questionId}`);
 
             if (!isNaN(userAnswer)) {
@@ -68,8 +78,11 @@
             const userAnswer = document.getElementById(`answer${questionId}`).value;
             const feedbackElement = document.getElementById(`feedback${questionId}`);
 
+    // Entfernen Sie das führende `=`, falls vorhanden
+    const sanitizedUserAnswer = userAnswer.replace(/^=/, '').trim(); 
+
             if (userAnswer) {
-                if (userAnswer === correctAnswer) {
+                if (sanitizedUserAnswer.trim() === correctAnswer) {
                     feedbackElement.innerHTML = 'Richtig!';
                     feedbackElement.style.color = "green";
                 } else {
@@ -101,21 +114,38 @@
         }
 
         function replaceMultipleChoiceWithDropdown(htmlContent) {
-            const pattern = /\{\d+:MCH:~=(.+)~(.+)\}/g;
-            function replacer(match, correctAnswer, wrongAnswer) {
-                const interactiveHtml = `
-                    <select id="answer${questionId}" class="select2">
-                        <option value="${correctAnswer}">${correctAnswer}</option>
-                        <option value="${wrongAnswer}">${wrongAnswer}</option>
-                    </select>
-                    <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
-                    <span id="feedback${questionId}"></span>
-                `;
-                questionId++; // Eindeutige ID für jede Frage
-                return interactiveHtml;
-            }
-            return htmlContent.replace(pattern, replacer);
-        }
+    const pattern = /\{\d+:MCH:([^}]*)\}/g; // Regulärer Ausdruck, um die Multiple-Choice-Fragen zu finden
+    
+    function replacer(match, optionsString) { // optionsString wird hier als Argument empfangen
+        // Optionen extrahieren und nur an ~ aufteilen
+        const options = optionsString.split('~'); // Aufteilen nur anhand von ~
+
+        // Korrekten Antwort finden
+        const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim(); // Die Antwort, die mit '=' beginnt, erfassen
+
+        // Dropdown mit Optionen erstellen
+        const optionsHtml = options.map(option => {
+            const trimmedOption = option.trim();
+            // Option so erstellen, dass die korrekte Antwort als "correctAnswer" markiert wird
+            return `<option value="${trimmedOption}">${trimmedOption.replace(/^=/, '')}</option>`;
+        }).join(''); // Optionen in einen String umwandeln
+
+        const interactiveHtml = `
+            <select id="answer${questionId}" class="mch">
+                ${optionsHtml}
+            </select>
+            <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
+            <span id="feedback${questionId}"></span>
+        `;
+        questionId++; // Eindeutige ID für jede Frage
+        return interactiveHtml; // Das erstellte Dropdown zurückgeben
+    }
+
+    // HTML-Inhalt ersetzen und das Dropdown hinzufügen
+    return htmlContent.replace(pattern, replacer);
+}
+
+
 
 
         function zeigeNeueAufgabe() {
@@ -170,12 +200,6 @@
                 interactiveHtml = replaceMultipleChoiceWithDropdown(interactiveHtml);
                 aufgabenElement.innerHTML = interactiveHtml;
                 aufgabeContainer.appendChild(aufgabenElement);
-
-    // Select2 initialisieren
-    $('.select2').select2({
-                        placeholder: "Wähle aus...",
-                        allowClear: true
-                    });
 
 
                 // MathJax Neurendering auslösen (falls MathJax benötigt wird)
