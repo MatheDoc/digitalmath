@@ -38,6 +38,7 @@ table{
     border-collapse: separate;
     border-spacing: 5px;
     margin-bottom: 20px;
+    position: sticky;
 }
 
 .dataTables_length {
@@ -230,7 +231,7 @@ footer {
     }
 
     .auswahl-icon{
-        color: #919191b6;
+        color: #919191cb;
     }
 
     .auswahl-icon:hover{

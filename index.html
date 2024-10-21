@@ -92,11 +92,14 @@
             table.rows().every(function(rowIdx) {
             var data = this.data();
                 var ichKannText = data[5];
-            
+                var aufgaben = data[6];
                 var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
                 var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
                 var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
-                    
+                // Testbutoon ausblenden, falls kein Test vorhanden
+                if (aufgaben === 'NaN') {
+                    testButton = ''
+                }   
                 table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
             });
 
