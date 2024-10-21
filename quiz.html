@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="styles.css"> 
     <!-- Font CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- Einbinden von jQuery (notwendig für Select2) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Einbinden von Select2 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+<!-- Einbinden von Select2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+
     <!-- MathJax Skript einbinden -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
     <script type="text/x-mathjax-config">
@@ -56,6 +64,28 @@
             }
         }
 
+        function checkMultipleChoiceAnswer(questionId, correctAnswer) {
+            const userAnswer = document.getElementById(`answer${questionId}`).value;
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
+
+            if (userAnswer) {
+                if (userAnswer === correctAnswer) {
+                    feedbackElement.innerHTML = 'Richtig!';
+                    feedbackElement.style.color = "green";
+                } else {
+                    feedbackElement.innerHTML = 'Falsch! Die richtige Antwort ist ' + correctAnswer + '.';
+                    feedbackElement.style.color = "red";
+                    document.body.style.backgroundColor = '#f5b9b9';
+                }
+                feedbackElement.style.transition = "opacity 0.5s ease-in-out";
+                feedbackElement.style.opacity = 1;
+            } else {
+                feedbackElement.textContent = "Bitte eine Auswahl treffen";
+                feedbackElement.style.color = "orange";
+            }
+        }
+
+
         function replaceNumericalWithInteractive(htmlContent) {
             const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
             function replacer(match, correctAnswer, tolerance) {
@@ -69,6 +99,24 @@
             }
             return htmlContent.replace(pattern, replacer);
         }
+
+        function replaceMultipleChoiceWithDropdown(htmlContent) {
+            const pattern = /\{\d+:MCH:~=(.+)~(.+)\}/g;
+            function replacer(match, correctAnswer, wrongAnswer) {
+                const interactiveHtml = `
+                    <select id="answer${questionId}" class="select2">
+                        <option value="${correctAnswer}">${correctAnswer}</option>
+                        <option value="${wrongAnswer}">${wrongAnswer}</option>
+                    </select>
+                    <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
+                    <span id="feedback${questionId}"></span>
+                `;
+                questionId++; // Eindeutige ID für jede Frage
+                return interactiveHtml;
+            }
+            return htmlContent.replace(pattern, replacer);
+        }
+
 
         function zeigeNeueAufgabe() {
             const params = new URLSearchParams(window.location.search);
@@ -118,8 +166,17 @@
                 // Füge das erstellte HTML der Seite hinzu
                 const aufgabenElement = document.createElement('div');
                 aufgabenElement.id = `aufgabe-${aufgabenZaehler}`
-                aufgabenElement.innerHTML = replaceNumericalWithInteractive(htmlContent);
+                var interactiveHtml = replaceNumericalWithInteractive(htmlContent);
+                interactiveHtml = replaceMultipleChoiceWithDropdown(interactiveHtml);
+                aufgabenElement.innerHTML = interactiveHtml;
                 aufgabeContainer.appendChild(aufgabenElement);
+
+    // Select2 initialisieren
+    $('.select2').select2({
+                        placeholder: "Wähle aus...",
+                        allowClear: true
+                    });
+
 
                 // MathJax Neurendering auslösen (falls MathJax benötigt wird)
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);

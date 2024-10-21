@@ -3,386 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ich-Kann-Liste</title>
-
+    <title>Aufgaben mit JavaScript</title>
+    
     <!-- Einbinden der externen CSS-Datei -->
     <link rel="stylesheet" href="styles.css"> 
-
-    <!-- DataTables CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
-
-     <!-- Font CSS -->
+    <!-- Font CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <!-- Select2 CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css" rel="stylesheet" />
-
-    <!-- jQuery -->
-    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- DataTables JS -->
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
-
-    <!-- Select2 JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            async function loadHTML() {
-                try {
-                    document.getElementById('content').innerHTML = '<p>Lade Daten...</p>'; // Ladeindikator
-                    const response = await fetch('liste.html'); // Stellen Sie sicher, dass diese Datei vorhanden ist
-                    if (!response.ok) {
-                        throw new Error('Netzwerkantwort war nicht ok');
-                    }
-                    const html = await response.text();
-                    document.getElementById('content').innerHTML = html;
-
-                    // Initialisiere die DataTable nach dem Laden des Inhalts
-                    var table = $('#meineTabelle').DataTable({
-                        "pageLength": -1,
-                        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "Alle"]],
-                        "language": {
-                            "lengthMenu": "Zeige _MENU_ Einträge",
-                            "info": "Zeige Eintrag _START_ bis _END_ von _TOTAL_ Einträgen",
-                            "paginate": {
-                                "previous": "Zurück",
-                                "next": "Weiter"
-                            }
-                        },
-                        "ordering": false, // Deaktiviert die Sortierung für alle Spalten
-                        "columnDefs": [{
-                            "targets": 0,
-                            "orderable": false,
-                            "className": "dt-body-center dt-head-center",
-                            "render": function(data, type, row) {
-                                return '<input type="checkbox" class="rowCheckbox" />';
-                            }
-                        }]
-                    });
-
-
-
-
-            // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
-            $('#hideUnchecked').on('click', function() {
-                table.rows().every(function() {
-                    var row = $(this.node());
-                    var checkbox = row.find('input.rowCheckbox');
-                    if (!checkbox.is(':checked')) {
-                        row.hide(); // Verstecke die Zeile
-                    } else {
-                        row.show(); // Zeige die Zeile
-                    }
-                });
-                table.draw(); // Zeichne die Tabelle neu
-            });
-
-            // Funktion zum Zeigen aller Zeilen
-            $('#showAll').on('click', function() {
-                table.rows().every(function() {
-                    var row = $(this.node());
-                    var checkbox = row.find('input.rowCheckbox');     
-                    row.show(); // Zeige die Zeile
-                });
-                table.draw(); // Zeichne die Tabelle neu
-            });
-
-            // Fügt Buttons hinzu
-            table.rows().every(function(rowIdx) {
-            var data = this.data();
-                var ichKannText = data[5];
-            
-                var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
-                var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
-                var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
-                    
-                table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
-            });
-
-
-                    // Event-Listener für die Info-Buttons
-                    $('#meineTabelle').on('click', '.info-icon', function(event) {
-                        event.stopPropagation(); // Verhindert, dass das Overlay direkt den Klick abfängt
-                        var row = $(this).closest('tr'); // Zeile ermitteln
-                        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
-                        var info = rowData[7]; // Infos in der 8. Spalte
-                        
-                        // Infotext aktualisieren
-                        $('#infoText').html(info);
-                        
-                        // Überprüfe die Fensterbreite, um die Position zu bestimmen
-                        if ($(window).width() > 768) { // Für Desktop
-                            // Positioniere den Infotext relativ zum Icon
-                            var iconOffset = $(this).offset(); // Position des Icons
-                            $('#infoText').css({
-                                top: iconOffset.top + $(this).height() + 5, // 5px Abstand unter dem Icon
-                                left: iconOffset.left
-                            }).fadeIn(); // Zeige den Infotext an
-                        } else { // Für mobile Geräte
-                            // Info-Box zentrieren
-                            $('#infoText').css({
-                                top: '50%', 
-                                left: '50%',
-                                transform: 'translate(-50%, -50%)', // Zentrierung
-                                position: 'fixed' // Sicherstellen, dass sie fest bleibt
-                            }).fadeIn(); // Zeige den Infotext an
-                        }
-                        $('#overlay').fadeIn();   // Zeige das Overlay an
-    
-                    });
-
-                    // Ausblenden des Infotextes beim Klicken irgendwo anders auf die Seite
-                    $(document).on('click', function() {
-                        $('#infoText').fadeOut(); // Verstecke den Infotext
-                        $('#overlay').fadeOut();  // Verstecke das Overlay
-                    });
-
-                    // Verhindern, dass der Infotext ausgeblendet wird, wenn man darauf klickt
-                    $('#infoText').on('click', function(event) {
-                        event.stopPropagation(); // Verhindert das Ausblenden beim Klick auf den Infotext
-                    });
-
-
-                   // Event-Listener für die Test-Buttons
-                    $('#meineTabelle').on('click', '.test-icon', function() {
-                        var row = $(this).closest('tr'); // Zeile ermitteln
-                        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
-                        var urls = rowData[6]; // URLs in der 7. Spalte
-                        
-                        if (urls) {
-                            // Teile die URLs und erstelle Links
-                            var links = urls.split(',').map(function(url) {
-                                var sammlungsname = url.trim() + '.json';
-                                return 'sammlung=' + sammlungsname;
-                            });
-                            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&');
-                            window.open(testUrl, '_blank'); // Öffne URL in einem neuen Tab/Fenster
-                        }
-                    });
-                    
-                    // Event-Listener für die Copy-Buttons
-                    $('#meineTabelle').on('click', '.copy-icon', function() {
-                        var row = $(this).closest('tr');
-                        var gebiet =  table.cell(row, 1).data();
-                        var feld = table.cell(row, 2).data();
-                        var situation = table.cell(row, 3).data();
-                        var textToCopy = gebiet + ': '+ situation + ': Erläuterung - Beispiel - Übung: Ich kann ' + table.cell(row, 3).data(); // Holen Sie den Text der 4. Spalte
-                        var textToCopy = gebiet + ': '+ feld + ': ' + situation + ': Erkläre schülergerecht: Ich kann ' + table.cell(row, 4).data();
-
-                        // Text vor dem Button extrahieren
-                        textToCopy = textToCopy.split('<i')[0].trim();
-
-                        // Kopieren in die Zwischenablage
-                        navigator.clipboard.writeText(textToCopy).then(() => {
-                            // Meldung
-                        });
-                    });
-
-
-
-
-                    // Funktion zum Auswählen/Auswählen aller Checkboxen
-                    $('#checkAll').on('click', function() {
-                        var rows = table.rows({ 'search': 'applied' }).nodes(); // Holt alle sichtbaren Zeilen
-                        $('input.rowCheckbox', rows).prop('checked', this.checked); // Setzt den Status der Checkboxen
-                    });
-
-                    // Dropdowns erstellen
-                    const gebietDropdown = $('<select id="gebietFilter" multiple="multiple" style="width: 100%;"></select>');
-                    const teilgebietDropdown = $('<select id="teilgebietFilter" multiple="multiple" style="width: 100%;"></select>');
-                    const schwerpunktDropdown= $('<select id="schwerpunktFilter" multiple="multiple" style="width: 100%;"></select>');
-                    const situationDropdown = $('<select id="situationFilter" multiple="multiple" style="width: 100%;"></select>');
-                    
-                    // Anhängen der Dropdowns an die Kopfzeile
-                    $('#dropdowns tbody tr:nth-child(1) td:nth-child(2)').append(gebietDropdown); 
-                    $('#dropdowns tbody tr:nth-child(2) td:nth-child(2)').append(teilgebietDropdown); 
-                    $('#dropdowns tbody tr:nth-child(3) td:nth-child(2)').append(schwerpunktDropdown); 
-                    $('#dropdowns tbody tr:nth-child(4) td:nth-child(2)').append(situationDropdown); 
-
-                    // Initialisiere Select2 auf den Dropdown-Menüs
-                    $('#gebietFilter, #teilgebietFilter, #schwerpunktFilter, #situationFilter').select2({
-                        placeholder: "Wähle aus...",
-                        allowClear: true
-                    });
-
-                    // Fülle Dropdowns nach dem Laden des Inhalts
-                    fillDropdown(1, '#gebietFilter', table);
-                    fillDropdown(2, '#teilgebietFilter', table);
-                    fillDropdown(3, '#schwerpunktFilter', table);
-                    fillDropdown(4, '#situationFilter', table);
-                        
-
-                    // Event-Listener für Dropdowns
-                    $('#gebietFilter, #teilgebietFilter, #schwerpunktFilter, #situationFilter').on('change', function() {
-                        fillDropdown(1, '#gebietFilter', table);
-                    fillDropdown(2, '#teilgebietFilter', table);
-                    fillDropdown(3, '#schwerpunktFilter', table);
-                    fillDropdown(4, '#situationFilter', table);
-                        
-                        filterTable(table);
-                    });
-
-                    // Export-Button
-                    $('#exportSelection').on('click', function() {
-                        const selectedRows = [];
-                        table.$('.rowCheckbox:checked').each(function() {
-                            const row = $(this).closest('tr');
-                            const rowData = table.row(row).data();
-                            selectedRows.push(rowData);
-                        });
-                        const json = JSON.stringify(selectedRows);
-                        navigator.clipboard.writeText(json).then(() => {
-                            //alert('Ausgewählte Konfiguration wurde in die Zwischenablage kopiert!');
-                        });
-                    });
-
-                    // Import-Button
-                    $('#importConfig').on('click', function() {
-                        const json = $('#importJson').val();
-                        try {
-                            const importedData = JSON.parse(json);
-                            // Überprüfen, ob die Daten in der Tabelle sind
-                            table.rows().every(function() {
-                                const rowData = this.data();
-                                const isSelected = importedData.some(item => JSON.stringify(item) === JSON.stringify(rowData));
-                                const checkbox = $(this.node()).find('.rowCheckbox');
-                                checkbox.prop('checked', isSelected);
-                            });
-                            // alert('Konfiguration erfolgreich importiert!');
-                        } catch (e) {
-                            alert('Ungültiges JSON-Format');
-                        }
-                    });
-
-                    // Teilen-Link generieren
-                    $('#shareLink').on('click', function() {
-                        const selectedRows = [];
-                        table.$('.rowCheckbox:checked').each(function() {
-                            const row = $(this).closest('tr');
-                            const rowData = table.row(row).data();
-                            selectedRows.push(rowData);
-                        });
-                        const json = JSON.stringify(selectedRows);
-                        const encodedJson = encodeURIComponent(json);
-                        const shareableLink = `${window.location.href}?config=${encodedJson}`;
-                        navigator.clipboard.writeText(shareableLink).then(() => {
-                            // alert('Link der gewählten Konfiguration wurde in die Zwischenablage kopiert: ' + shareableLink);
-                        });
-                    });
-
-                    // Überprüfen, ob ein "config"-Parameter in der URL vorhanden ist
-                    const urlParams = new URLSearchParams(window.location.search);
-                    const configJson = urlParams.get('config');
-                    if (configJson) {
-                        try {
-                            const importedData = JSON.parse(decodeURIComponent(configJson));
-                            // Überprüfen, ob die Daten in der Tabelle sind
-                            table.rows().every(function() {
-                                const rowData = this.data();
-                                const isSelected = importedData.some(item => JSON.stringify(item) === JSON.stringify(rowData));
-                                const checkbox = $(this.node()).find('.rowCheckbox');
-                                checkbox.prop('checked', isSelected);
-                            });
-                        } catch (e) {
-                            console.error('Ungültige Konfigurationsdaten');
-                        }
-                    }
-                } catch (error) {
-                    console.error('Fehler beim Laden der HTML-Datei:', error);
-                    document.getElementById('content').innerHTML = '<p>Fehler beim Laden der Daten.</p>';
-                }
+    <!-- MathJax Skript einbinden -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['\\(','\\)']],  // für inline Math (z.B. \( ... \))
+                displayMath: [['\\[','\\]'], ['$$','$$']] // für Block Math (z.B. \[ ... \] oder $$ ... $$)
+            },
+            "HTML-CSS": {
+                availableFonts: ["TeX"],
+                linebreaks: { automatic: true }
             }
-
-            // Funktion, um Dropdowns basierend auf den Tabellendaten zu füllen
-            function fillDropdown(columnIndex, dropdownSelector, table) {
-                const uniqueValues = [];
-
-                // Füllen der einzigartigen Werte aus der Tabelle
-                table.rows({ filter: 'applied' }).column(columnIndex).data().each(function(value) {
-                    if (uniqueValues.indexOf(value) === -1) {
-                        uniqueValues.push(value);
-                    }
-                });
-
-                uniqueValues.forEach(function(value) {
-                    $(dropdownSelector).append($('<option>', {
-                        value: value,
-                        text: value
-                    }));
-                });
-            }
-
-            // Funktion zum Filtern der Tabelle basierend auf den Dropdown-Auswahlen
-            function filterTable(table) {
-                const gebietValue = $('#gebietFilter').val();
-                const teilgebietValue = $('#teilgebietFilter').val();
-                const schwerpunktValue = $('#schwerpunktFilter').val();
-                const situationValue = $('#situationFilter').val();
-                table.column(1).search(gebietValue ? gebietValue.join('|') : '', true, false);
-                table.column(2).search(teilgebietValue ? teilgebietValue.join('|') : '', true, false);
-                table.column(3).search(schwerpunktValue ? schwerpunktValue.join('|') : '', true, false);
-                table.column(4).search(situationValue ? situationValue.join('|') : '', true, false);
-                table.draw();
-            }
-
-            // Ruft die Funktion auf, um die HTML-Datei zu laden
-            loadHTML();
         });
     </script>
+
 </head>
+ 
 <body>
+    <h1>Yes, we can math!</h1>
+    <h2 id="aufgabenTitel">Quiz <i class="fas fa-redo reload-icon" onclick="window.location.reload();"></i></h2>
+    <div id="aufgabe"></div>
 
-<h1>Yes, we can math!</h1>
+    <script>
+        let aufgabenZaehler = 1; // Initialisiere den Zähler
+        let questionId = 1; // Eindeutige Frage-ID innerhalb einer Aufgabe
 
-<!-- Export- und Import-Buttons
-    <div class="buttonrow">
-        <span>
-            
-            
-        </span>
-        <span>
-            <input type="text" id="importJson" placeholder="JSON hier einfügen" />
-            <button id="importConfig">Konfiguration importieren</button>
-            <button id="exportSelection">Konfiguration exportieren</button>
-            <button id="shareLink">Link erzeugen</button>
-        </span>
-    </div>
- -->
-<table id="dropdowns">
-    <tbody>
-        <tr>
-            <td>Gebiet: </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Teilgebiet: </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Schwerpunkt: </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Situation: </td>
-            <td></td>
-        </tr>
-        <!--<tr>
-            <td>Markierung: </td>
-            <td><button class="copyBtn" id="hideUnchecked">Auswahl</button><button class="copyBtn" id="showAll">Alle</button></td>
-        </tr>-->        
-    </tbody>
-</table>
+        function checkAnswer(questionId, correctAnswer, tolerance) {
+            const userAnswer = parseFloat(document.getElementById(`answer${questionId}`).value);
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
 
-<div id="content"></div>
+            if (!isNaN(userAnswer)) {
+                if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
+                    feedbackElement.innerHTML = 'Richtig! (Die genaue Antwort lautet ' + correctAnswer +'.)';
+                    feedbackElement.style.color = "green";
+                } else {
+                    feedbackElement.innerHTML = 'Falsch! Die richtige Antwort lautet ' + correctAnswer +'.';
+                    feedbackElement.style.color = "red";
+                    document.body.style.backgroundColor = '#f5b9b9';
+                }
+                feedbackElement.style.transition = "opacity 0.5s ease-in-out";
+                feedbackElement.style.opacity = 1;
+            } else {
+                feedbackElement.textContent = "Ungültige Eingabe";
+                feedbackElement.style.color = "orange";
+            }
+        }
 
-<div id="overlay" class="overlay"></div>
-<div id="infoText" class="info-text"></div>
+        function checkMultipleChoiceAnswer(questionId, correctAnswer) {
+            const userAnswer = document.getElementById(`answer${questionId}`).value;
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
 
-<footer>
-    <p>&copy; 2024 Dr. Sven Führing. .</p>
-    <!-- Dieses Werk steht unter einer <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Lizenz (CC BY 4.0)</a>-->
-</footer>
+            if (userAnswer) {
+                if (userAnswer === correctAnswer) {
+                    feedbackElement.innerHTML = 'Richtig!';
+                    feedbackElement.style.color = "green";
+                } else {
+                    feedbackElement.innerHTML = 'Falsch! Die richtige Antwort ist ' + correctAnswer + '.';
+                    feedbackElement.style.color = "red";
+                    document.body.style.backgroundColor = '#f5b9b9';
+                }
+                feedbackElement.style.transition = "opacity 0.5s ease-in-out";
+                feedbackElement.style.opacity = 1;
+            } else {
+                feedbackElement.textContent = "Bitte eine Auswahl treffen";
+                feedbackElement.style.color = "orange";
+            }
+        }
 
+
+        function replaceNumericalWithInteractive(htmlContent) {
+            const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
+            function replacer(match, correctAnswer, tolerance) {
+                const interactiveHtml = `
+                    <input type="number" id="answer${questionId}" placeholder="Antwort">
+                    <i class="fas fa-paper-plane check-icon" onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
+                    <span id="feedback${questionId}"></span>
+                `;
+                questionId++; // Eindeutige ID für jede Frage
+                return interactiveHtml;
+            }
+            return htmlContent.replace(pattern, replacer);
+        }
+
+        function replaceMultipleChoiceWithDropdown(htmlContent) {
+            const pattern = /\{\d+:MCH:~=(.+)~(.+)\}/g;
+            function replacer(match, correctAnswer, wrongAnswer) {
+                const interactiveHtml = `
+                    <select id="answer${questionId}">
+                        <option value="">Wähle aus</option>
+                        <option value="${correctAnswer}">${correctAnswer}</option>
+                        <option value="${wrongAnswer}">${wrongAnswer}</option>
+                    </select>
+                    <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
+                    <span id="feedback${questionId}"></span>
+                `;
+                questionId++; // Eindeutige ID für jede Frage
+                return interactiveHtml;
+            }
+            return htmlContent.replace(pattern, replacer);
+        }
+
+
+        function zeigeNeueAufgabe() {
+            const params = new URLSearchParams(window.location.search);
+            const sammlungen = params.getAll('sammlung'); // Holt alle Sammlungen aus der URL
+
+            if (sammlungen.length > 0) {
+                // Für jede Sammlung eine Anfrage senden und Aufgaben anzeigen
+                sammlungen.forEach(sammlung => {
+                    fetch(`Aufgaben/JSON/${sammlung}`)
+                        .then(response => response.json())
+                        .then(data => zeigeZufaelligeAufgabeAusSammlung(sammlung, data))
+                        .catch(error => {
+                            console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
+                            document.getElementById('aufgabe').innerHTML += `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${sammlung}.</p>`;
+                        });
+                });
+            } else {
+                console.error('Keine Sammlung in der URL gefunden.');
+                document.getElementById('aufgabe').innerText = 'Keine Sammlung gefunden.';
+            }
+        }
+
+        function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
+            if (aufgaben.length > 0) {
+                const randomIndex = Math.floor(Math.random() * aufgaben.length);
+                const selectedTask = aufgaben[randomIndex];
+
+                // Erstelle HTML-Elemente für jede Sammlung und füge die Aufgabe hinzu
+                const aufgabeContainer = document.getElementById('aufgabe');
+                let htmlContent =
+                    `<h3>Aufgabe ${aufgabenZaehler}</h3>
+                    <div class="einleitung">
+                        <button class="neueAufgabe" onclick="zeigeNeueAufgabe()">Neu</button><br>
+                        <p>${selectedTask.einleitung}</p>
+                    </div>
+                    <div class="nachfolgend">
+                        <ol aria-label="Liste von Aufgaben">`;
+
+                selectedTask.fragen.forEach((frage, index) => {
+                    htmlContent += `<li>${frage}<br>${selectedTask.antworten[index]}</li>`;
+                });
+
+                htmlContent += `</ol>
+                    </div>`;
+
+
+                // Füge das erstellte HTML der Seite hinzu
+                const aufgabenElement = document.createElement('div');
+                aufgabenElement.id = `aufgabe-${aufgabenZaehler}`
+                aufgabenElement.innerHTML = replaceNumericalWithInteractive(htmlContent);
+                aufgabeContainer.appendChild(aufgabenElement);
+
+                // MathJax Neurendering auslösen (falls MathJax benötigt wird)
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
+
+                // Erhöhe den Aufgabenzähler
+                aufgabenZaehler++; // Zähler erhöhen
+            } else {
+                console.error(`Keine Aufgaben in der Sammlung ${sammlung} gefunden.`);
+                document.getElementById('aufgabe').innerHTML += `<p>Keine Aufgaben in der Sammlung ${sammlung} gefunden.</p>`;
+            }
+        }
+
+        // Initiales Laden einer zufälligen Aufgabe
+        zeigeNeueAufgabe();
+    </script>  
 </body>
 </html>

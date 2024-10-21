@@ -172,128 +172,136 @@ footer {
 }
 
 
+.select2-container {
+    width: 250px !important;
+}
+
+/* Responsive für mobile Geräte */
+@media (max-width: 768px) {
     .select2-container {
-        width: 250px !important;
+        width: 100% !important;
+        max-width: 200px;
     }
+    /* .info-text {
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        max-width: 90%; 
+    }*/
+}
 
-    /* Responsive für mobile Geräte */
-    @media (max-width: 768px) {
-        .select2-container {
-            width: 100% !important;
-            max-width: 200px;
-        }
-       /* .info-text {
-            top: 50%; 
-            left: 50%;
-            transform: translate(-50%, -50%); 
-            max-width: 90%; 
-        }*/
-    }
+.info-icon, .copy-icon, .test-icon, .reload-icon, .check-icon, .auswahl-icon, .teilen-icon {
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    padding: 2px;
+    margin-left: 5px;
+    position: relative;
+}
+.info-icon {
+    color: #e2a92db0;
+}
+.info-icon:hover {
+    color: #e2a92d;
+}
+.copy-icon {
+    color: #5882ffb0;
+}
+.copy-icon:hover {
+    color: #5882ff;    
+}
+.test-icon {
+    color: #e72f8bb0;
+}
+.test-icon:hover {
+    color: #e72f8b;      
+}
+.reload-icon {
+    color:#5882ffb0;
+}
+.reload-icon:hover {
+    color: #5882ff;        
+}
+.check-icon{
+    color: #5882ffb0;
+    margin-left: 0px;
+}
+.check-icon:hover{
+    color: #5882ff;
+}
 
-    .info-icon, .copy-icon, .test-icon, .reload-icon, .check-icon, .auswahl-icon, .teilen-icon {
-        background-color: transparent;
-        transition: background-color 0.3s, color 0.3s;
-        cursor: pointer;
-        padding: 2px;
-        margin-left: 5px;
-        position: relative;
-    }
-    .info-icon {
-        color: #e2a92db0;
-    }
-    .info-icon:hover {
-        color: #e2a92d;
-    }
-    .copy-icon {
-        color: #5882ffb0;
-    }
-    .copy-icon:hover {
-        color: #5882ff;    
-    }
-    .test-icon {
-        color: #e72f8bb0;
-    }
-    .test-icon:hover {
-        color: #e72f8b;      
-    }
-    .reload-icon {
-        color:#5882ffb0;
-    }
-    .reload-icon:hover {
-        color: #5882ff;        
-    }
-    .check-icon{
-        color: #5882ffb0;
-        margin-left: 0px;
-    }
-    .check-icon:hover{
-        color: #5882ff;
-    }
+.auswahl-icon{
+    color: #919191cb;
+}
 
-    .auswahl-icon{
-        color: #919191cb;
-    }
-
-    .auswahl-icon:hover{
-        color: #919191;
-    }
+.auswahl-icon:hover{
+    color: #919191;
+}
 
 
-        /* Modernere Hover-Effekte */
-        table.dataTable tbody tr:hover {
-            background-color: #f1f1f1;
-        }
+/* Modernere Hover-Effekte */
+table.dataTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
 
-        /* Blendet die zweite Spalte aus */
-        table.dataTable tr th:nth-child(2),
-        table.dataTable tr td:nth-child(2),
-        table.dataTable tr th:nth-child(3),
-        table.dataTable tr td:nth-child(3),
-        table.dataTable tr th:nth-child(4),
-        table.dataTable tr td:nth-child(4),
-        table.dataTable tr th:nth-child(5),
-        table.dataTable tr td:nth-child(5),
-        table.dataTable tr th:nth-child(7),
-        table.dataTable tr td:nth-child(7),
-        table.dataTable tr th:nth-child(8),
-        table.dataTable tr td:nth-child(8)  {
-        display: none;
-        }
+/* Blendet die zweite Spalte aus */
+table.dataTable tr th:nth-child(2),
+table.dataTable tr td:nth-child(2),
+table.dataTable tr th:nth-child(3),
+table.dataTable tr td:nth-child(3),
+table.dataTable tr th:nth-child(4),
+table.dataTable tr td:nth-child(4),
+table.dataTable tr th:nth-child(5),
+table.dataTable tr td:nth-child(5),
+table.dataTable tr th:nth-child(7),
+table.dataTable tr td:nth-child(7),
+table.dataTable tr th:nth-child(8),
+table.dataTable tr td:nth-child(8)  {
+display: none;
+}
 
-        /* Styling für den Copy-Button */
-        .copyBtn {
-            margin-left: 5px;
-            font-size: 12px;
-            padding: 8px 8px;
-            background-color: #4e73df;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
+/* Styling für den Copy-Button */
+.copyBtn {
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 8px 8px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
 
-        /* Die Infobox */
-        .info-text {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            border: 1px solid #ccc;
-            padding: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
-            max-width: 400px;
-            word-wrap: break-word;
-            border-radius: 8px;
-        }
-        
-        /* Hintergrundüberlagerung */
-        .overlay {
-            display: none;
-            position: fixed; /* Bedeckt den gesamten Bildschirm */
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.2); /* Halbtransparente Verdunkelung */
-            z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
-        }
+/* Die Infobox */
+.info-text {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 400px;
+    word-wrap: break-word;
+    border-radius: 8px;
+}
+
+/* Hintergrundüberlagerung */
+.overlay {
+    display: none;
+    position: fixed; /* Bedeckt den gesamten Bildschirm */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Halbtransparente Verdunkelung */
+    z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
+}
+
+.select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
