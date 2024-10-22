@@ -298,10 +298,7 @@ display: none;
     z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
 }
 
-/*.select {
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-}*/
+/* Größe des Dropdowns anpassen */
+select.mch + .select2-container .select2-selection--single {
+    height: 40px; /* Höhe der Auswahlbox */
+}

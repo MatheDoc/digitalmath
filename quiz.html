@@ -201,6 +201,13 @@
                 aufgabenElement.innerHTML = interactiveHtml;
                 aufgabeContainer.appendChild(aufgabenElement);
 
+// Initialisiere Select2 auf den Dropdown-Menüs nach dem Einfügen in das DOM
+$(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
+    placeholder: "Antwort",
+    allowClear: true,
+    minimumResultsForSearch: Infinity
+});
+
 
                 // MathJax Neurendering auslösen (falls MathJax benötigt wird)
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
