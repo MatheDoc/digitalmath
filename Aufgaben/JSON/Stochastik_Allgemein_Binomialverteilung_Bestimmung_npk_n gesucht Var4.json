@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 54% defekt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Halbleiter, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 137 defekte Halbleiter höchstens 49% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=252:0}"
+]
+},
+{
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. Erfahrungsgemäß haben 76% aller Passagiere keinen gültigen Fahrschein.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Passagiere, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 104 Passagiere ohne gültigen Fahrschein höchstens 83% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=142:0}"
+]
+},
+{
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Typischerweise bestellen 46% aller Kunden ein Eis mit Streuseln.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Kunden, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 41 Kundenbestellungen mit Streuseln höchstens 91% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=102:0}"
+]
+},
+{
+"einleitung":"David hat eine gezinkte Münze. Bei einem einmaligen Wurf liegt bei jedem 4. Wurf Kopf oben.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Münzwürfe, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 38 geworfene Köpfe höchstens 52% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=151:0}"
+]
+},
+{
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Erfahrungswerte besagen, dass 39% aller Bewerber den Check erfolgreich absolvieren.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Bewerber, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 49 Bewerber mit erfolgreichem Gesundheitscheck höchstens 33% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=118:0}"
+]
+},
+{
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Jeder 2. Prüfling fällt durch.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Prüflinge, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 100 durchgefallene Prüflinge höchstens 27% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=190:0}"
+]
+},
+{
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 21% aller Schuhe gefälscht.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Turnschuhe, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 41 gefälschte Turnschuhe höchstens 23% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=174:0}"
+]
+},
+{
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie weiß, dass jeder 5. Schuss das Tor verfehlt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Freistöße, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 21 Fehltreffer höchstens 90% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=131:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Bekanntermaßen sind 66% aller Mitarbeiter zufrieden.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mitarbeiter, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 128 zufriedene Mitarbeiter höchstens 63% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=196:0}"
+]
+},
+{
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Allgemeine Statistiken zeigen, dass jeder 4. Gast ein vegetarisches Gericht bestellt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Gerichte, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 21 vegetarische Gerichte höchstens 87% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=101:0}"
+]
+},
+{
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Aus früheren Überprüfungen ist bekannt, dass 39% aller Pflanzen zu wenig Wasser bekommen.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Pflanzen, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 96 unzureichend bewässerte Pflanzen höchstens 72% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=256:0}"
+]
+},
+{
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 41% einen Akku.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Werkzeuge, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 64 Werkzeuge mit Akku höchstens 89% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=174:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Nach offiziellen Angaben haben 38% aller Computer keinen ausreichenden Virenschutz.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Computer, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 52 Computer mit unzureichendem Virenschutz höchstens 50% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=135:0}"
+]
+},
+{
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Analysen zeigen, dass 30% aller Krüge einen Kratzer haben.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Krüge, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 89 Krüge mit Kratzer höchstens 23% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=276:0}"
+]
+},
+{
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. Aus Erfahrung weiß sie, dass sie 63% aller vorgeschlagenen Partner attraktiv findet.",
+"fragen":[
+"Bestimmen Sie die Anzahl der vorgeschlagenen Partner, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 120 attraktive Partnervorschläge höchstens 86% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=201:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Der Zufallsgenerator legt 76% aller Smartwatches einen Gutschein bei.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Smartwatches, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 214 Smartwatches mit Gutschein höchstens 49% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=280:0}"
+]
+},
+{
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 53% bar bezahlt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Kunden, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 146 barbezahlende Kunden höchstens 77% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=286:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. Analysen von Verbraucherschützern zufolge leuchtet jede 5. Beamerlampe weniger als 4000 Stunden.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Beamerlampen, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 20 Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden höchstens 77% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=113:0}"
+]
+},
+{
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. Man weiß, dass jeder 4. User der Influencerin folgt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der User, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 68 Follower der Influencerin höchstens 40% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=263:0}"
+]
+},
+{
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Interne Untersuchungen zeigen, dass in 56% der Fälle das Gewicht nicht ausreichend genau bestimmt wird.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Lebensmittel, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeiten für mindestens 143 ungenau gewogene Lebensmittel höchstens 36% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=249:0}"
+]
+}
+]

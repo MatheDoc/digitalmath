@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  265 Teile. Jeder 4. Halbleiter ist defekt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der defekten Halbleiter, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der defekten Halbleiter höchstens 19% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=59:0}"
+]
+},
+{
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 238 Passagiere. Erfahrungsgemäß haben 34% aller Passagiere keinen gültigen Fahrschein.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Passagiere ohne gültigen Fahrschein, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Passagiere ohne gültigen Fahrschein höchstens 86% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=88:0}"
+]
+},
+{
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 201 Kunden ein Eis. Typischerweise bestellen 61% aller Kunden ein Eis mit Streuseln.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Kundenbestellungen mit Streuseln, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Kundenbestellungen mit Streuseln höchstens 21% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=116:0}"
+]
+},
+{
+"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 187 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 60%.",
+"fragen":[
+"Bestimmen Sie die Anzahl der geworfenen Köpfe, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der geworfenen Köpfe höchstens 22% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=106:0}"
+]
+},
+{
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 291 Bewerber. Erfahrungswerte besagen, dass 42% aller Bewerber den Check erfolgreich absolvieren.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Bewerber mit erfolgreichem Gesundheitscheck höchstens 75% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=127:0}"
+]
+},
+{
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 151 Prüflinge. Jeder 4. Prüfling fällt durch.",
+"fragen":[
+"Bestimmen Sie die Anzahl der durchgefallenen Prüflinge, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der durchgefallenen Prüflinge höchstens 60% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=38:0}"
+]
+},
+{
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 273 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 36% aller Schuhe gefälscht.",
+"fragen":[
+"Bestimmen Sie die Anzahl der gefälschten Turnschuhe, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der gefälschten Turnschuhe höchstens 18% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=90:0}"
+]
+},
+{
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 166 Mal auf das Tor. Sie weiß, dass 21% aller Schüsse das Tor verfehlen.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Fehltreffer, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Fehltreffer höchstens 66% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=36:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 167 Mitarbeiter befragt. Bekanntermaßen sind 69% aller Mitarbeiter zufrieden.",
+"fragen":[
+"Bestimmen Sie die Anzahl der zufriedenen Mitarbeiter, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der zufriedenen Mitarbeiter höchstens 48% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=114:0}"
+]
+},
+{
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 103 Gästen geprüft. Allgemeine Statistiken zeigen, dass 68% aller Gäste vegetarische Gerichte bestellen.",
+"fragen":[
+"Bestimmen Sie die Anzahl der vegetarischen Gerichte, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der vegetarischen Gerichte höchstens 33% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=67:0}"
+]
+},
+{
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 195 Pflanzen. Aus Erfahrung weiß sie, dass jede 4. Pflanze zu wenig Wasser bekommt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der unzureichend bewässerten Pflanzen, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der unzureichend bewässerten Pflanzen höchstens 76% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=52:0}"
+]
+},
+{
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 102 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 61% einen Akku.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Werkzeuge mit Akku, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Werkzeuge mit Akku höchstens 32% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=59:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 148 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben ist jeder 2. Computer nicht ausreichend geschützt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Computer mit unzureichendem Virenschutz, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Computer mit unzureichendem Virenschutz höchstens 21% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=68:0}"
+]
+},
+{
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 278 Krügen. Analysen zeigen, dass 38% aller Krüge einen Kratzer haben.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Krüge mit Kratzer, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Krüge mit Kratzer höchstens 17% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=97:0}"
+]
+},
+{
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 140 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie jeden 5. vorgeschlagenen Partner attraktiv findet.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Vorschläge mit attraktiven Partnern, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Vorschläge mit attraktiven Partnern höchstens 67% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=29:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 155 Stück zusammengefasst. Der Zufallsgenerator legt jeder 5. Smartwatch einen Gutschein bei.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Smartwatches mit Gutschein, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Smartwatches mit Gutschein höchstens 66% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=32:0}"
+]
+},
+{
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 152 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 67% bar bezahlt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der barbezahlenden Kunden, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der barbezahlenden Kunden höchstens 81% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=106:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 115 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 76% aller Beamerlampen weniger als 4000 Stunden.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden höchstens 37% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=85:0}"
+]
+},
+{
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 149 User teil. Man weiß, dass 34% aller User der Influencerin folgen.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Follower der Influencerin, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Follower der Influencerin höchstens 21% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=45:0}"
+]
+},
+{
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 124 Lebensmittel. Interne Untersuchungen zeigen, dass jedes 4. Lebensmittel nicht ausreichend genau gewogen wird.",
+"fragen":[
+"Bestimmen Sie die Anzahl der ungenau gewogenen Lebensmittel, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der ungenau gewogenen Lebensmittel höchstens 74% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=33:0}"
+]
+}
+]

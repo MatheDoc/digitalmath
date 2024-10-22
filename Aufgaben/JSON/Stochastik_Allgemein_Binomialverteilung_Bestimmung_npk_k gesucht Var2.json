@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  300 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 65% defekt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der defekten Halbleiter, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der defekten Halbleiter höchstens 27% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=201:0}"
+]
+},
+{
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 131 Passagiere. Erfahrungsgemäß haben 71% aller Passagiere keinen gültigen Fahrschein.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Passagiere ohne gültigen Fahrschein, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Passagiere ohne gültigen Fahrschein höchstens 51% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=94:0}"
+]
+},
+{
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 160 Kunden ein Eis. Typischerweise bestellen 38% aller Kunden ein Eis mit Streuseln.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Kundenbestellungen mit Streuseln, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Kundenbestellungen mit Streuseln höchstens 48% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=62:0}"
+]
+},
+{
+"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 204 Mal. Bei einem einmaligen Wurf liegt bei jedem 4. Wurf Kopf oben.",
+"fragen":[
+"Bestimmen Sie die Anzahl der geworfenen Köpfe, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der geworfenen Köpfe höchstens 56% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=51:0}"
+]
+},
+{
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 240 Bewerber. Erfahrungswerte besagen, dass 37% aller Bewerber den Check erfolgreich absolvieren.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Bewerber mit erfolgreichem Gesundheitscheck höchstens 88% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=81:0}"
+]
+},
+{
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 106 Prüflinge. Jeder 4. Prüfling fällt durch.",
+"fragen":[
+"Bestimmen Sie die Anzahl der durchgefallenen Prüflinge, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der durchgefallenen Prüflinge höchstens 71% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=25:0}"
+]
+},
+{
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 158 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 26% aller Schuhe gefälscht.",
+"fragen":[
+"Bestimmen Sie die Anzahl der gefälschten Turnschuhe, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der gefälschten Turnschuhe höchstens 43% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=43:0}"
+]
+},
+{
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 110 Mal auf das Tor. Sie weiß, dass jeder 2. Schuss das Tor verfehlt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Fehltreffer, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Fehltreffer höchstens 87% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=50:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 190 Mitarbeiter befragt. Bekanntermaßen ist jeder 4. Mitarbeiter zufrieden.",
+"fragen":[
+"Bestimmen Sie die Anzahl der zufriedenen Mitarbeiter, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der zufriedenen Mitarbeiter höchstens 53% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=48:0}"
+]
+},
+{
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 143 Gästen geprüft. Allgemeine Statistiken zeigen, dass 80% aller Gäste vegetarische Gerichte bestellen.",
+"fragen":[
+"Bestimmen Sie die Anzahl der vegetarischen Gerichte, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der vegetarischen Gerichte höchstens 46% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=116:0}"
+]
+},
+{
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 167 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 56% aller Pflanzen zu wenig Wasser bekommen.",
+"fragen":[
+"Bestimmen Sie die Anzahl der unzureichend bewässerten Pflanzen, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der unzureichend bewässerten Pflanzen höchstens 84% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=88:0}"
+]
+},
+{
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 227 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 43% einen Akku.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Werkzeuge mit Akku, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Werkzeuge mit Akku höchstens 88% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=90:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 257 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 37% aller Computer keinen ausreichenden Virenschutz.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Computer mit unzureichendem Virenschutz, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Computer mit unzureichendem Virenschutz höchstens 31% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=100:0}"
+]
+},
+{
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 192 Krügen. Analysen zeigen, dass 38% aller Krüge einen Kratzer haben.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Krüge mit Kratzer, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Krüge mit Kratzer höchstens 67% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=71:0}"
+]
+},
+{
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 186 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 67% aller vorgeschlagenen Partner attraktiv findet.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Vorschläge mit attraktiven Partnern, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Vorschläge mit attraktiven Partnern höchstens 30% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=129:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 259 Stück zusammengefasst. Der Zufallsgenerator legt 29% aller Smartwatches einen Gutschein bei.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Smartwatches mit Gutschein, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Smartwatches mit Gutschein höchstens 45% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=77:0}"
+]
+},
+{
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 134 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 64% bar bezahlt.",
+"fragen":[
+"Bestimmen Sie die Anzahl der barbezahlenden Kunden, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der barbezahlenden Kunden höchstens 63% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=85:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 102 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 64% aller Beamerlampen weniger als 4000 Stunden.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden höchstens 45% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=67:0}"
+]
+},
+{
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 121 User teil. Man weiß, dass 49% aller User der Influencerin folgen.",
+"fragen":[
+"Bestimmen Sie die Anzahl der Follower der Influencerin, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Follower der Influencerin höchstens 72% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=57:0}"
+]
+},
+{
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 101 Lebensmittel. Interne Untersuchungen zeigen, dass in 57% der Fälle das Gewicht nicht ausreichend genau bestimmt wird.",
+"fragen":[
+"Bestimmen Sie die Anzahl der ungenau gewogenen Lebensmittel, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der ungenau gewogenen Lebensmittel höchstens 47% beträgt."
+],
+"antworten":[
+"{1:NUMERICAL:=59:0}"
+]
+}
+]

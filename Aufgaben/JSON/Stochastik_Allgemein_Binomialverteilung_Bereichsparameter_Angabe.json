@@ -1,342 +1,342 @@
 ﻿[
 {
-"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  81 Teile. Jeder 2. Halbleiter ist defekt.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  36 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 69% defekt.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"In der Stichprobe sind weniger als 51 defekte Halbleiter.",
-"In der Stichprobe sind mehr als 36 und höchstens 47 defekte Halbleiter.",
-"In der Stichprobe sind mindestens 46% defekte Halbleiter.",
-"In der Stichprobe sind genau 46 defekte Halbleiter.",
-"In der Stichprobe sind mindestens 40 defekte Halbleiter."
+"In der Stichprobe sind mehr als 27 defekte Halbleiter.",
+"In der Stichprobe sind genau 29 defekte Halbleiter.",
+"In der Stichprobe sind mindestens 23 und weniger als 28 defekte Halbleiter.",
+"In der Stichprobe sind höchstens 28 defekte Halbleiter.",
+"In der Stichprobe sind höchstens 81% defekte Halbleiter."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=50:0},{1:NUMERICAL:=81:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=37:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=81:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=38:0},{1:NUMERICAL:=81:0},{1:NUMERICAL:=81:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=46:0},{1:NUMERICAL:=46:0},{1:NUMERICAL:=81:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=40:0},{1:NUMERICAL:=81:0},{1:NUMERICAL:=81:0},{1:NUMERICAL:=0,5:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=28:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,69:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=29:0},{1:NUMERICAL:=29:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,69:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=23:0},{1:NUMERICAL:=27:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,69:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=28:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,69:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=29:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,69:0})"
 ]
 },
 {
-"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 38 Passagiere. Erfahrungsgemäß haben 54% aller Passagiere keinen gültigen Fahrschein.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 48 Passagiere. Erfahrungsgemäß haben 77% aller Passagiere keinen gültigen Fahrschein.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den kontrollierten Passagieren haben mehr als 21 keinen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben genau 17 keinen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben höchstens 61% keinen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben mindestens 14 und weniger als 27 keinen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben höchstens 14 keinen gültigen Fahrschein."
+"Von den kontrollierten Passagieren haben weniger als 41 keinen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben genau 41 keinen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben höchstens 67% keinen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben mindestens 31 keinen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben mehr als 33 und höchstens 43 keinen gültigen Fahrschein."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=22:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,54:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=17:0},{1:NUMERICAL:=17:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,54:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,54:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=14:0},{1:NUMERICAL:=26:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,54:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=14:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,54:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=40:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,77:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=41:0},{1:NUMERICAL:=41:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,77:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=32:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,77:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=31:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,77:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=34:0},{1:NUMERICAL:=43:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,77:0})"
 ]
 },
 {
-"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 54 Kunden ein Eis. Typischerweise bestellen 43% aller Kunden ein Eis mit Streuseln.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 60 Kunden ein Eis. Typischerweise bestellen 23% aller Kunden ein Eis mit Streuseln.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den betrachteten Kunden bestellen mehr als 20 ein Eis mit Streuseln.",
-"Von den betrachteten Kunden bestellen höchstens 39% ein Eis mit Streuseln.",
-"Von den betrachteten Kunden bestellen genau 24 ein Eis mit Streuseln.",
-"Von den betrachteten Kunden bestellen höchstens 24 ein Eis mit Streuseln.",
-"Von den betrachteten Kunden bestellen mindestens 22 und weniger als 28 ein Eis mit Streuseln."
+"Von den betrachteten Kunden bestellen mehr als 8 und höchstens 17 ein Eis mit Streuseln.",
+"Von den betrachteten Kunden bestellen genau 17 ein Eis mit Streuseln.",
+"Von den betrachteten Kunden bestellen mindestens 11 ein Eis mit Streuseln.",
+"Von den betrachteten Kunden bestellen weniger als 17 ein Eis mit Streuseln.",
+"Von den betrachteten Kunden bestellen höchstens 18% ein Eis mit Streuseln."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=21:0},{1:NUMERICAL:=54:0},{1:NUMERICAL:=54:0},{1:NUMERICAL:=0,43:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=21:0},{1:NUMERICAL:=54:0},{1:NUMERICAL:=0,43:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=24:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=54:0},{1:NUMERICAL:=0,43:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=54:0},{1:NUMERICAL:=0,43:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=22:0},{1:NUMERICAL:=27:0},{1:NUMERICAL:=54:0},{1:NUMERICAL:=0,43:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=9:0},{1:NUMERICAL:=17:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,23:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=17:0},{1:NUMERICAL:=17:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,23:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=11:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,23:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=16:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,23:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=10:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,23:0})"
 ]
 },
 {
-"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 70 Mal. Bei einem einmaligen Wurf liegt bei jedem 2. Wurf Kopf oben.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 71 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 31%.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"David wirft mehr als 29 Mal Kopf. ",
-"David wirft mindestens 39% Mal Kopf. ",
-"David wirft höchstens 27 Mal Kopf. ",
-"David wirft mindestens 32 und weniger als 38 Mal Kopf. ",
-"David wirft genau 41 Mal Kopf. "
+"David wirft mindestens 16 und weniger als 31 Mal Kopf. ",
+"David wirft höchstens 24 Mal Kopf. ",
+"David wirft höchstens 32% Mal Kopf. ",
+"David wirft genau 25 Mal Kopf. ",
+"David wirft mehr als 23 Mal Kopf. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=30:0},{1:NUMERICAL:=70:0},{1:NUMERICAL:=70:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=28:0},{1:NUMERICAL:=70:0},{1:NUMERICAL:=70:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=27:0},{1:NUMERICAL:=70:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=32:0},{1:NUMERICAL:=37:0},{1:NUMERICAL:=70:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=41:0},{1:NUMERICAL:=41:0},{1:NUMERICAL:=70:0},{1:NUMERICAL:=0,5:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=16:0},{1:NUMERICAL:=30:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,31:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,31:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=22:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,31:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=25:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,31:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=24:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,31:0})"
 ]
 },
 {
-"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 26 Bewerber. Erfahrungswerte besagen, dass 46% aller Bewerber den Check erfolgreich absolvieren.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 83 Bewerber. Erfahrungswerte besagen, dass 39% aller Bewerber den Check erfolgreich absolvieren.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den Bewerbern absolvieren mehr als 7 und höchstens 14 den Check erfolgreich. ",
 "Von den Bewerbern absolvieren höchstens 46% den Check erfolgreich. ",
-"Von den Bewerbern absolvieren genau 10 den Check erfolgreich. ",
-"Von den Bewerbern absolvieren weniger als 9 den Check erfolgreich. ",
-"Von den Bewerbern absolvieren mindestens 10 den Check erfolgreich. "
+"Von den Bewerbern absolvieren mindestens 23 und weniger als 38 den Check erfolgreich. ",
+"Von den Bewerbern absolvieren mehr als 39 den Check erfolgreich. ",
+"Von den Bewerbern absolvieren genau 34 den Check erfolgreich. ",
+"Von den Bewerbern absolvieren höchstens 32 den Check erfolgreich. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=8:0},{1:NUMERICAL:=14:0},{1:NUMERICAL:=26:0},{1:NUMERICAL:=0,46:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=11:0},{1:NUMERICAL:=26:0},{1:NUMERICAL:=0,46:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=10:0},{1:NUMERICAL:=10:0},{1:NUMERICAL:=26:0},{1:NUMERICAL:=0,46:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=8:0},{1:NUMERICAL:=26:0},{1:NUMERICAL:=0,46:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=10:0},{1:NUMERICAL:=26:0},{1:NUMERICAL:=26:0},{1:NUMERICAL:=0,46:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,39:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=23:0},{1:NUMERICAL:=37:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,39:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=40:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,39:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=34:0},{1:NUMERICAL:=34:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,39:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=32:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,39:0})"
 ]
 },
 {
-"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 42 Prüflinge. Jeder 2. Prüfling fällt durch.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 95 Prüflinge. Jeder 4. Prüfling fällt durch.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den Kandidaten bestehen weniger als 24  nicht die Prüfung.",
-"Von den Kandidaten bestehen genau 22  nicht die Prüfung.",
-"Von den Kandidaten bestehen mindestens 16  nicht die Prüfung.",
-"Von den Kandidaten bestehen höchstens 38%  nicht die Prüfung.",
-"Von den Kandidaten bestehen mehr als 14 und höchstens 27  nicht die Prüfung."
+"Von den Kandidaten bestehen mehr als 22 und höchstens 32  nicht die Prüfung.",
+"Von den Kandidaten bestehen höchstens 16%  nicht die Prüfung.",
+"Von den Kandidaten bestehen genau 24  nicht die Prüfung.",
+"Von den Kandidaten bestehen mindestens 18  nicht die Prüfung.",
+"Von den Kandidaten bestehen weniger als 24  nicht die Prüfung."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=42:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=22:0},{1:NUMERICAL:=22:0},{1:NUMERICAL:=42:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=16:0},{1:NUMERICAL:=42:0},{1:NUMERICAL:=42:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=15:0},{1:NUMERICAL:=42:0},{1:NUMERICAL:=0,5:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=15:0},{1:NUMERICAL:=27:0},{1:NUMERICAL:=42:0},{1:NUMERICAL:=0,5:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=23:0},{1:NUMERICAL:=32:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,25:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=15:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,25:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=24:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,25:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=18:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,25:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,25:0})"
 ]
 },
 {
-"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 79 Turnschuhe. Glaubwürdigen Schätzungen zufolge ist jeder 4. Schuh gefälscht.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 47 Turnschuhe. Glaubwürdigen Schätzungen zufolge ist jeder 5. Schuh gefälscht.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den untersuchten Turnschuhen sind genau 13 gefälscht. ",
-"Von den untersuchten Turnschuhen sind mehr als 14 gefälscht. ",
-"Von den untersuchten Turnschuhen sind höchstens 23 gefälscht. ",
-"Von den untersuchten Turnschuhen sind mindestens 16 und weniger als 22 gefälscht. ",
-"Von den untersuchten Turnschuhen sind mindestens 25% gefälscht. "
+"Von den untersuchten Turnschuhen sind weniger als 16 gefälscht. ",
+"Von den untersuchten Turnschuhen sind mindestens 32% gefälscht. ",
+"Von den untersuchten Turnschuhen sind genau 11 gefälscht. ",
+"Von den untersuchten Turnschuhen sind mindestens 13 gefälscht. ",
+"Von den untersuchten Turnschuhen sind mehr als 5 und höchstens 15 gefälscht. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=13:0},{1:NUMERICAL:=13:0},{1:NUMERICAL:=79:0},{1:NUMERICAL:=0,25:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=15:0},{1:NUMERICAL:=79:0},{1:NUMERICAL:=79:0},{1:NUMERICAL:=0,25:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=79:0},{1:NUMERICAL:=0,25:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=16:0},{1:NUMERICAL:=21:0},{1:NUMERICAL:=79:0},{1:NUMERICAL:=0,25:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=20:0},{1:NUMERICAL:=79:0},{1:NUMERICAL:=79:0},{1:NUMERICAL:=0,25:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=15:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=16:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=11:0},{1:NUMERICAL:=11:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=13:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=6:0},{1:NUMERICAL:=15:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,2:0})"
 ]
 },
 {
-"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 95 Mal auf das Tor. Sie weiß, dass 38% aller Schüsse das Tor verfehlen.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 38 Mal auf das Tor. Sie weiß, dass 62% aller Schüsse das Tor verfehlen.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Die Fußballerin trifft genau 34 Mal nicht das Tor. ",
-"Die Fußballerin trifft höchstens 30 Mal nicht das Tor. ",
-"Die Fußballerin trifft mindestens 30 und weniger als 45 Mal nicht das Tor. ",
-"Die Fußballerin trifft höchstens 33% Mal nicht das Tor. ",
-"Die Fußballerin trifft mehr als 26 Mal nicht das Tor. "
+"Die Fußballerin trifft mehr als 26 Mal nicht das Tor. ",
+"Die Fußballerin trifft mindestens 21 und weniger als 26 Mal nicht das Tor. ",
+"Die Fußballerin trifft genau 22 Mal nicht das Tor. ",
+"Die Fußballerin trifft höchstens 22 Mal nicht das Tor. ",
+"Die Fußballerin trifft höchstens 63% Mal nicht das Tor. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=34:0},{1:NUMERICAL:=34:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,38:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=30:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,38:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=30:0},{1:NUMERICAL:=44:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,38:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=31:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,38:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=27:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,38:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=27:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,62:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=21:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,62:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=22:0},{1:NUMERICAL:=22:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,62:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=22:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,62:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=0,62:0})"
 ]
 },
 {
-"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 47 Mitarbeiter befragt. Bekanntermaßen sind 75% aller Mitarbeiter zufrieden.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 49 Mitarbeiter befragt. Bekanntermaßen ist jeder 5. Mitarbeiter zufrieden.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den befragten Mitarbeitern sind mehr als 28 und höchstens 36 zufrieden. ",
-"Von den befragten Mitarbeitern sind mindestens 40 zufrieden. ",
-"Von den befragten Mitarbeitern sind höchstens 81% zufrieden. ",
-"Von den befragten Mitarbeitern sind genau 31 zufrieden. ",
-"Von den befragten Mitarbeitern sind weniger als 42 zufrieden. "
+"Von den befragten Mitarbeitern sind höchstens 24% zufrieden. ",
+"Von den befragten Mitarbeitern sind genau 7 zufrieden. ",
+"Von den befragten Mitarbeitern sind höchstens 6 zufrieden. ",
+"Von den befragten Mitarbeitern sind mehr als 3 zufrieden. ",
+"Von den befragten Mitarbeitern sind mindestens 7 und weniger als 14 zufrieden. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=29:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,75:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=40:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,75:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=38:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,75:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=31:0},{1:NUMERICAL:=31:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,75:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=41:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=0,75:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=11:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=7:0},{1:NUMERICAL:=7:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=6:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=4:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=7:0},{1:NUMERICAL:=13:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})"
 ]
 },
 {
-"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 63 Gästen geprüft. Allgemeine Statistiken zeigen, dass jeder 5. Gast ein vegetarisches Gericht bestellt.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 61 Gästen geprüft. Allgemeine Statistiken zeigen, dass 78% aller Gäste vegetarische Gerichte bestellen.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den kontrollierten Gerichten sind mindestens 15 vegetarisch. ",
-"Von den kontrollierten Gerichten sind weniger als 13 vegetarisch. ",
-"Von den kontrollierten Gerichten sind höchstens 17% vegetarisch. ",
-"Von den kontrollierten Gerichten sind genau 12 vegetarisch. ",
-"Von den kontrollierten Gerichten sind mehr als 10 und höchstens 18 vegetarisch. "
+"Von den kontrollierten Gerichten sind genau 44 vegetarisch. ",
+"Von den kontrollierten Gerichten sind mehr als 42 und höchstens 49 vegetarisch. ",
+"Von den kontrollierten Gerichten sind höchstens 87% vegetarisch. ",
+"Von den kontrollierten Gerichten sind mindestens 45 vegetarisch. ",
+"Von den kontrollierten Gerichten sind weniger als 44 vegetarisch. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=15:0},{1:NUMERICAL:=63:0},{1:NUMERICAL:=63:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=12:0},{1:NUMERICAL:=63:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=10:0},{1:NUMERICAL:=63:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=12:0},{1:NUMERICAL:=12:0},{1:NUMERICAL:=63:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=11:0},{1:NUMERICAL:=18:0},{1:NUMERICAL:=63:0},{1:NUMERICAL:=0,2:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=44:0},{1:NUMERICAL:=44:0},{1:NUMERICAL:=61:0},{1:NUMERICAL:=0,78:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=43:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=61:0},{1:NUMERICAL:=0,78:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=53:0},{1:NUMERICAL:=61:0},{1:NUMERICAL:=0,78:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=45:0},{1:NUMERICAL:=61:0},{1:NUMERICAL:=61:0},{1:NUMERICAL:=0,78:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=43:0},{1:NUMERICAL:=61:0},{1:NUMERICAL:=0,78:0})"
 ]
 },
 {
-"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 78 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 53% aller Pflanzen zu wenig Wasser bekommen.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 93 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 55% aller Pflanzen zu wenig Wasser bekommen.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den geprüften Pflanzen bekommen höchstens 50 zu wenig Wasser.",
-"Von den geprüften Pflanzen bekommen genau 46 zu wenig Wasser.",
-"Von den geprüften Pflanzen bekommen mindestens 38 und weniger als 46 zu wenig Wasser.",
-"Von den geprüften Pflanzen bekommen höchstens 44% zu wenig Wasser.",
-"Von den geprüften Pflanzen bekommen mehr als 40 zu wenig Wasser."
+"Von den geprüften Pflanzen bekommen genau 59 zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen mehr als 49 und höchstens 59 zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen höchstens 61% zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen mindestens 54 zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen weniger als 48 zu wenig Wasser."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=50:0},{1:NUMERICAL:=78:0},{1:NUMERICAL:=0,53:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=46:0},{1:NUMERICAL:=46:0},{1:NUMERICAL:=78:0},{1:NUMERICAL:=0,53:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=38:0},{1:NUMERICAL:=45:0},{1:NUMERICAL:=78:0},{1:NUMERICAL:=0,53:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=34:0},{1:NUMERICAL:=78:0},{1:NUMERICAL:=0,53:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=41:0},{1:NUMERICAL:=78:0},{1:NUMERICAL:=78:0},{1:NUMERICAL:=0,53:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=59:0},{1:NUMERICAL:=59:0},{1:NUMERICAL:=93:0},{1:NUMERICAL:=0,55:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=50:0},{1:NUMERICAL:=59:0},{1:NUMERICAL:=93:0},{1:NUMERICAL:=0,55:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=56:0},{1:NUMERICAL:=93:0},{1:NUMERICAL:=0,55:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=54:0},{1:NUMERICAL:=93:0},{1:NUMERICAL:=93:0},{1:NUMERICAL:=0,55:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=47:0},{1:NUMERICAL:=93:0},{1:NUMERICAL:=0,55:0})"
 ]
 },
 {
-"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 35 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 67% einen Akku.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 24 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 63% einen Akku.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den registrierten Werkzeugen sind mehr als 24 mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind mindestens 18 und weniger als 28 mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind höchstens 69% mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind genau 20 mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind höchstens 18 mit einem Akku ausgestattet."
+"Von den registrierten Werkzeugen sind mehr als 12 und höchstens 17 mit einem Akku ausgestattet.",
+"Von den registrierten Werkzeugen sind höchstens 83% mit einem Akku ausgestattet.",
+"Von den registrierten Werkzeugen sind mindestens 20 mit einem Akku ausgestattet.",
+"Von den registrierten Werkzeugen sind genau 19 mit einem Akku ausgestattet.",
+"Von den registrierten Werkzeugen sind weniger als 13 mit einem Akku ausgestattet."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=25:0},{1:NUMERICAL:=35:0},{1:NUMERICAL:=35:0},{1:NUMERICAL:=0,67:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=18:0},{1:NUMERICAL:=27:0},{1:NUMERICAL:=35:0},{1:NUMERICAL:=0,67:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=35:0},{1:NUMERICAL:=0,67:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=20:0},{1:NUMERICAL:=20:0},{1:NUMERICAL:=35:0},{1:NUMERICAL:=0,67:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=18:0},{1:NUMERICAL:=35:0},{1:NUMERICAL:=0,67:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=13:0},{1:NUMERICAL:=17:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=0,63:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=19:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=0,63:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=20:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=0,63:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=19:0},{1:NUMERICAL:=19:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=0,63:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=12:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=0,63:0})"
 ]
 },
 {
-"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 51 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 56% aller Computer keinen ausreichenden Virenschutz.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 36 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 70% aller Computer keinen ausreichenden Virenschutz.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den untersuchten Computern haben weniger als 30 keinen ausreichenden Virenschutz. ",
+"Von den untersuchten Computern haben höchstens 61% keinen ausreichenden Virenschutz. ",
 "Von den untersuchten Computern haben genau 29 keinen ausreichenden Virenschutz. ",
-"Von den untersuchten Computern haben mehr als 27 und höchstens 31 keinen ausreichenden Virenschutz. ",
-"Von den untersuchten Computern haben mindestens 27 keinen ausreichenden Virenschutz. ",
-"Von den untersuchten Computern haben höchstens 47% keinen ausreichenden Virenschutz. "
+"Von den untersuchten Computern haben mindestens 23 und weniger als 31 keinen ausreichenden Virenschutz. ",
+"Von den untersuchten Computern haben mehr als 21 keinen ausreichenden Virenschutz. ",
+"Von den untersuchten Computern haben höchstens 21 keinen ausreichenden Virenschutz. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=29:0},{1:NUMERICAL:=51:0},{1:NUMERICAL:=0,56:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=29:0},{1:NUMERICAL:=29:0},{1:NUMERICAL:=51:0},{1:NUMERICAL:=0,56:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=28:0},{1:NUMERICAL:=31:0},{1:NUMERICAL:=51:0},{1:NUMERICAL:=0,56:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=27:0},{1:NUMERICAL:=51:0},{1:NUMERICAL:=51:0},{1:NUMERICAL:=0,56:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=51:0},{1:NUMERICAL:=0,56:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=21:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,7:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=29:0},{1:NUMERICAL:=29:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,7:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=23:0},{1:NUMERICAL:=30:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,7:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=22:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,7:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=21:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=0,7:0})"
 ]
 },
 {
-"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 88 Krügen. Analysen zeigen, dass 70% aller Krüge einen Kratzer haben.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 48 Krügen. Analysen zeigen, dass 78% aller Krüge einen Kratzer haben.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"In der Stichprobe sind mindestens 62 Krüge mit Kratzer.",
-"In der Stichprobe sind mehr als 56 und höchstens 65 Krüge mit Kratzer.",
-"In der Stichprobe sind weniger als 64 Krüge mit Kratzer.",
-"In der Stichprobe sind mindestens 72% Krüge mit Kratzer.",
-"In der Stichprobe sind genau 53 Krüge mit Kratzer."
+"In der Stichprobe sind genau 40 Krüge mit Kratzer.",
+"In der Stichprobe sind höchstens 32 Krüge mit Kratzer.",
+"In der Stichprobe sind mehr als 36 Krüge mit Kratzer.",
+"In der Stichprobe sind mindestens 34 und weniger als 40 Krüge mit Kratzer.",
+"In der Stichprobe sind höchstens 77% Krüge mit Kratzer."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=62:0},{1:NUMERICAL:=88:0},{1:NUMERICAL:=88:0},{1:NUMERICAL:=0,7:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=57:0},{1:NUMERICAL:=65:0},{1:NUMERICAL:=88:0},{1:NUMERICAL:=0,7:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=63:0},{1:NUMERICAL:=88:0},{1:NUMERICAL:=0,7:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=64:0},{1:NUMERICAL:=88:0},{1:NUMERICAL:=88:0},{1:NUMERICAL:=0,7:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=53:0},{1:NUMERICAL:=53:0},{1:NUMERICAL:=88:0},{1:NUMERICAL:=0,7:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=40:0},{1:NUMERICAL:=40:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,78:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=32:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,78:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=37:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,78:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=34:0},{1:NUMERICAL:=39:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,78:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=36:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=0,78:0})"
 ]
 },
 {
-"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 23 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 59% aller vorgeschlagenen Partner attraktiv findet.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 59 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 25% aller vorgeschlagenen Partner attraktiv findet.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den vorgeschlagenen Partnern findet Amalia mindestens 10 und weniger als 16 attraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia höchstens 48% attraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia genau 12 attraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia mehr als 11 attraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia höchstens 10 attraktiv. "
+"Von den vorgeschlagenen Partnern findet Amalia mehr als 9 und höchstens 21 attraktiv. ",
+"Von den vorgeschlagenen Partnern findet Amalia mindestens 18 attraktiv. ",
+"Von den vorgeschlagenen Partnern findet Amalia genau 16 attraktiv. ",
+"Von den vorgeschlagenen Partnern findet Amalia weniger als 9 attraktiv. ",
+"Von den vorgeschlagenen Partnern findet Amalia höchstens 29% attraktiv. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=10:0},{1:NUMERICAL:=15:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=0,59:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=11:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=0,59:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=12:0},{1:NUMERICAL:=12:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=0,59:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=12:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=0,59:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=10:0},{1:NUMERICAL:=23:0},{1:NUMERICAL:=0,59:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=10:0},{1:NUMERICAL:=21:0},{1:NUMERICAL:=59:0},{1:NUMERICAL:=0,25:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=18:0},{1:NUMERICAL:=59:0},{1:NUMERICAL:=59:0},{1:NUMERICAL:=0,25:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=16:0},{1:NUMERICAL:=16:0},{1:NUMERICAL:=59:0},{1:NUMERICAL:=0,25:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=8:0},{1:NUMERICAL:=59:0},{1:NUMERICAL:=0,25:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=17:0},{1:NUMERICAL:=59:0},{1:NUMERICAL:=0,25:0})"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 60 Stück zusammengefasst. Der Zufallsgenerator legt 73% aller Smartwatches einen Gutschein bei.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 71 Stück zusammengefasst. Der Zufallsgenerator legt 33% aller Smartwatches einen Gutschein bei.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"In einer Kiste sind höchstens 39 Smartwatches mit Gutschein.",
-"In einer Kiste sind mindestens 78% Smartwatches mit Gutschein.",
-"In einer Kiste sind mehr als 42 Smartwatches mit Gutschein.",
-"In einer Kiste sind genau 48 Smartwatches mit Gutschein.",
-"In einer Kiste sind mindestens 42 und weniger als 47 Smartwatches mit Gutschein."
+"In einer Kiste sind mindestens 17 Smartwatches mit Gutschein.",
+"In einer Kiste sind mehr als 16 und höchstens 26 Smartwatches mit Gutschein.",
+"In einer Kiste sind höchstens 42% Smartwatches mit Gutschein.",
+"In einer Kiste sind weniger als 32 Smartwatches mit Gutschein.",
+"In einer Kiste sind genau 24 Smartwatches mit Gutschein."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=39:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,73:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=47:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,73:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=43:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,73:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=48:0},{1:NUMERICAL:=48:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,73:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=42:0},{1:NUMERICAL:=46:0},{1:NUMERICAL:=60:0},{1:NUMERICAL:=0,73:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=17:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,33:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=17:0},{1:NUMERICAL:=26:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,33:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=29:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,33:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=31:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,33:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=24:0},{1:NUMERICAL:=24:0},{1:NUMERICAL:=71:0},{1:NUMERICAL:=0,33:0})"
 ]
 },
 {
-"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 76 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 62% bar bezahlt.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 83 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 40% bar bezahlt.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Es bezahlen mehr als 43 und höchstens 55 Kunden bar. ",
-"Es bezahlen genau 40 Kunden bar. ",
-"Es bezahlen weniger als 52 Kunden bar. ",
-"Es bezahlen mindestens 59% Kunden bar. ",
-"Es bezahlen mindestens 42 Kunden bar. "
+"Es bezahlen höchstens 31% Kunden bar. ",
+"Es bezahlen mehr als 29 Kunden bar. ",
+"Es bezahlen mindestens 24 und weniger als 42 Kunden bar. ",
+"Es bezahlen genau 32 Kunden bar. ",
+"Es bezahlen höchstens 40 Kunden bar. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=44:0},{1:NUMERICAL:=55:0},{1:NUMERICAL:=76:0},{1:NUMERICAL:=0,62:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=40:0},{1:NUMERICAL:=40:0},{1:NUMERICAL:=76:0},{1:NUMERICAL:=0,62:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=51:0},{1:NUMERICAL:=76:0},{1:NUMERICAL:=0,62:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=45:0},{1:NUMERICAL:=76:0},{1:NUMERICAL:=76:0},{1:NUMERICAL:=0,62:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=42:0},{1:NUMERICAL:=76:0},{1:NUMERICAL:=76:0},{1:NUMERICAL:=0,62:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,4:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=30:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,4:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=24:0},{1:NUMERICAL:=41:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,4:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=32:0},{1:NUMERICAL:=32:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,4:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=40:0},{1:NUMERICAL:=83:0},{1:NUMERICAL:=0,4:0})"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 33 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchtet jede 5. Beamerlampe weniger als 4000 Stunden.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 95 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 48% aller Beamerlampen weniger als 4000 Stunden.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den kontrollierten Beamerlampen leuchten mindestens 5 weniger als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten höchstens 30% weniger als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten mehr als 2 und höchstens 11 weniger als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten genau 8 weniger als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten weniger als 10 weniger als 4000 Stunden."
+"Von den kontrollierten Beamerlampen leuchten höchstens 51 weniger als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten höchstens 44% weniger als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten genau 43 weniger als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten mindestens 44 und weniger als 51 weniger als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten mehr als 47 weniger als 4000 Stunden."
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=5:0},{1:NUMERICAL:=33:0},{1:NUMERICAL:=33:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=9:0},{1:NUMERICAL:=33:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=3:0},{1:NUMERICAL:=11:0},{1:NUMERICAL:=33:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=8:0},{1:NUMERICAL:=8:0},{1:NUMERICAL:=33:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=9:0},{1:NUMERICAL:=33:0},{1:NUMERICAL:=0,2:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=51:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,48:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=41:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,48:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=43:0},{1:NUMERICAL:=43:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,48:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=44:0},{1:NUMERICAL:=50:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,48:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=48:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=95:0},{1:NUMERICAL:=0,48:0})"
 ]
 },
 {
-"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 49 User teil. Man weiß, dass jeder 5. User der Influencerin folgt.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 25 User teil. Man weiß, dass 56% aller User der Influencerin folgen.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den befragten Usern folgen mindestens 9 und weniger als 15 der Influencerin. ",
-"Von den befragten Usern folgen mindestens 18% der Influencerin. ",
-"Von den befragten Usern folgen mehr als 4 der Influencerin. ",
-"Von den befragten Usern folgen genau 14 der Influencerin. ",
-"Von den befragten Usern folgen höchstens 7 der Influencerin. "
+"Von den befragten Usern folgen mehr als 11 und höchstens 19 der Influencerin. ",
+"Von den befragten Usern folgen mindestens 19 der Influencerin. ",
+"Von den befragten Usern folgen höchstens 60% der Influencerin. ",
+"Von den befragten Usern folgen genau 12 der Influencerin. ",
+"Von den befragten Usern folgen weniger als 18 der Influencerin. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=9:0},{1:NUMERICAL:=14:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=9:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=5:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=14:0},{1:NUMERICAL:=14:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=7:0},{1:NUMERICAL:=49:0},{1:NUMERICAL:=0,2:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=12:0},{1:NUMERICAL:=19:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=0,56:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=19:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=0,56:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=15:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=0,56:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=12:0},{1:NUMERICAL:=12:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=0,56:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=17:0},{1:NUMERICAL:=25:0},{1:NUMERICAL:=0,56:0})"
 ]
 },
 {
-"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 65 Lebensmittel. Interne Untersuchungen zeigen, dass in 55% der Fälle das Gewicht nicht ausreichend genau bestimmt wird.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 37 Lebensmittel. Interne Untersuchungen zeigen, dass jedes 5. Lebensmittel nicht ausreichend genau gewogen wird.</p> <p>Geben Sie die Bernoulli-Parameter der folgenden Ereignisse an.",
 "fragen":[
-"Von den ermittelten Gewichten sind höchstens 40 nicht ausreichend genau. ",
-"Von den ermittelten Gewichten sind mindestens 34 und weniger als 40 nicht ausreichend genau. ",
-"Von den ermittelten Gewichten sind mindestens 46% nicht ausreichend genau. ",
-"Von den ermittelten Gewichten sind mehr als 42 nicht ausreichend genau. ",
-"Von den ermittelten Gewichten sind genau 30 nicht ausreichend genau. "
+"Von den ermittelten Gewichten sind mehr als 4 nicht ausreichend genau. ",
+"Von den ermittelten Gewichten sind mindestens 5 und weniger als 11 nicht ausreichend genau. ",
+"Von den ermittelten Gewichten sind genau 5 nicht ausreichend genau. ",
+"Von den ermittelten Gewichten sind höchstens 9 nicht ausreichend genau. ",
+"Von den ermittelten Gewichten sind höchstens 27% nicht ausreichend genau. "
 ],
 "antworten":[
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=40:0},{1:NUMERICAL:=65:0},{1:NUMERICAL:=0,55:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=34:0},{1:NUMERICAL:=39:0},{1:NUMERICAL:=65:0},{1:NUMERICAL:=0,55:0})",
-"Bcd(a,b,n,p)=Bcd({1:NUMERICAL:=30:0},{1:NUMERICAL:=65:0},{1:NUMERICAL:=65:0},{1:NUMERICAL:=0,55:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=43:0},{1:NUMERICAL:=65:0},{1:NUMERICAL:=65:0},{1:NUMERICAL:=0,55:0})",
-"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=30:0},{1:NUMERICAL:=30:0},{1:NUMERICAL:=65:0},{1:NUMERICAL:=0,55:0})"
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=5:0},{1:NUMERICAL:=37:0},{1:NUMERICAL:=37:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=5:0},{1:NUMERICAL:=10:0},{1:NUMERICAL:=37:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=5:0},{1:NUMERICAL:=5:0},{1:NUMERICAL:=37:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=9:0},{1:NUMERICAL:=37:0},{1:NUMERICAL:=0,2:0})",
+"Bcd(a,b,n,p) = Bcd({1:NUMERICAL:=0:0},{1:NUMERICAL:=9:0},{1:NUMERICAL:=37:0},{1:NUMERICAL:=0,2:0})"
 ]
 }
 ]

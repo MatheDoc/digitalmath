@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  236 Teile.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der defekten Halbleiter höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 171 defekte Halbleiter höchstens 67% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,73:0}"
+]
+},
+{
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 200 Passagiere.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Passagiere ohne gültigen Fahrschein höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 107 Passagiere ohne gültigen Fahrschein höchstens 22% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,5:0}"
+]
+},
+{
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 287 Kunden ein Eis.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Kundenbestellungen mit Streuseln höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 192 Kundenbestellungen mit Streuseln höchstens 34% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,65:0}"
+]
+},
+{
+"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 209 Mal.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der geworfenen Köpfe höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 118 geworfene Köpfe höchstens 75% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,58:0}"
+]
+},
+{
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 250 Bewerber.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Bewerber mit erfolgreichem Gesundheitscheck höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 82 Bewerber mit erfolgreichem Gesundheitscheck höchstens 61% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,33:0}"
+]
+},
+{
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 248 Prüflinge.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der durchgefallenen Prüflinge höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 104 durchgefallene Prüflinge höchstens 47% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,41:0}"
+]
+},
+{
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 105 Turnschuhe.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der gefälschten Turnschuhe höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 81 gefälschte Turnschuhe höchstens 49% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,76:0}"
+]
+},
+{
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 189 Mal auf das Tor.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Fehltreffer höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 154 Fehltreffer höchstens 41% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,8:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 126 Mitarbeiter befragt.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der zufriedenen Mitarbeiter höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 71 zufriedene Mitarbeiter höchstens 85% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,6:0}"
+]
+},
+{
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 159 Gästen geprüft.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der vegetarischen Gerichte höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 109 vegetarische Gerichte höchstens 33% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,66:0}"
+]
+},
+{
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 241 Pflanzen.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der unzureichend bewässerten Pflanzen höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 133 unzureichend bewässerte Pflanzen höchstens 86% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,58:0}"
+]
+},
+{
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 285 bestellten Werkzeugen untersucht.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Werkzeuge mit Akku höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 212 Werkzeuge mit Akku höchstens 26% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,72:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 267 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Computer mit unzureichendem Virenschutz höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 130 Computer mit unzureichendem Virenschutz höchstens 74% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,5:0}"
+]
+},
+{
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 133 Krügen.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Krüge mit Kratzer höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 51 Krüge mit Kratzer höchstens 45% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,37:0}"
+]
+},
+{
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 186 Partnervorschläge an.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Vorschläge mit attraktiven Partnern höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 44 attraktive Partnervorschläge höchstens 26% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,21:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 137 Stück zusammengefasst.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Smartwatches mit Gutschein höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 27 Smartwatches mit Gutschein höchstens 72% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,21:0}"
+]
+},
+{
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 271 Kunden.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der barbezahlenden Kunden höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 187 barbezahlende Kunden höchstens 91% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,72:0}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 171 Beamerlampen überprüft.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 28 Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden höchstens 92% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,2:0}"
+]
+},
+{
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 194 User teil.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der Follower der Influencerin höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 46 Follower der Influencerin höchstens 74% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,25:0}"
+]
+},
+{
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 106 Lebensmittel.",
+"fragen":[
+"Bestimmen Sie wie hoch der Anteil der ungenau gewogenen Lebensmittel höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 21 ungenau gewogene Lebensmittel höchstens 61% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,2:0}"
+]
+}
+]
