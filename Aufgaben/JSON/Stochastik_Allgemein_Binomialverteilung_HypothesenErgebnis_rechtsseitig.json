@@ -1,221 +1,221 @@
 ﻿[
 {
-"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. In der Vergangenheit betrug der Anteil der defekten Halbleiter 71%. Der Kontrolleur vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Halbleiter untersucht. Der Ablehnungsbereich der Nullhypothese ist {80,...,100}.",
-"fragen":[
-"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"In der Stichprobe sind 83 defekteHalbleiter. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0274:0,0001}",
-"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
-]
-},
-{
-"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. In der Vergangenheit betrug der Anteil der Passagiere ohne gültigen Fahrschein 47%. Die Schaffnerin vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Passagiere untersucht. Der Ablehnungsbereich der Nullhypothese ist {107,...,200}.",
-"fragen":[
-"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den kontrollierten Passagieren haben 108 keinengültigen Fahrschein. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0384:0,0001}",
-"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
-]
-},
-{
-"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. In der Vergangenheit betrug der Anteil der Kundenbestellungen mit Streuseln 27%. Der Eisverkäufer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Kunden untersucht. Der Ablehnungsbereich der Nullhypothese ist {35,...,100}.",
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. In der Vergangenheit betrug der Anteil der defekten Halbleiter 56%. Der Kontrolleur vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Halbleiter untersucht. Der Ablehnungsbereich der Nullhypothese ist {127,...,200}.",
 "fragen":[
 "Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den betrachteten Kunden bestellen 38 ein Eis mitStreuseln. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"In der Stichprobe sind 128 defekteHalbleiter. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0482:0,0001}",
+"{1:NUMERICAL:=0,0189:0,0001}",
 "{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
 ]
 },
 {
-"einleitung":"David hat eine gezinkte Münze. In der Vergangenheit betrug der Anteil der geworfenen Köpfe 76%. David vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Münzwürfe untersucht. Der Ablehnungsbereich der Nullhypothese ist {83,...,100}.",
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. In der Vergangenheit betrug der Anteil der Passagiere ohne gültigen Fahrschein 21%. Die Schaffnerin vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Passagiere untersucht. Der Ablehnungsbereich der Nullhypothese ist {41,...,150}.",
 "fragen":[
 "Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"David wirft 82 Mal Kopf. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Von den kontrollierten Passagieren haben 42 keinengültigen Fahrschein. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0601:0,0001}",
+"{1:NUMERICAL:=0,0386:0,0001}",
+"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
+]
+},
+{
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. In der Vergangenheit betrug der Anteil der Kundenbestellungen mit Streuseln 31%. Der Eisverkäufer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Kunden untersucht. Der Ablehnungsbereich der Nullhypothese ist {89,...,250}.",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den betrachteten Kunden bestellen 86 ein Eis mitStreuseln. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0675:0,0001}",
 "{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. In der Vergangenheit betrug der Anteil der Bewerber mit erfolgreichem Gesundheitscheck 46%. Die Ärztin vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Bewerber untersucht. Der Ablehnungsbereich der Nullhypothese ist {55,...,100}.",
+"einleitung":"David hat eine gezinkte Münze. In der Vergangenheit betrug der Anteil der geworfenen Köpfe 53%. David vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Münzwürfe untersucht. Der Ablehnungsbereich der Nullhypothese ist {144,...,250}.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den Bewerbern absolvieren 56 den Check erfolgreich. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"David wirft 145 Mal Kopf. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0443:0,0001}",
+"{1:NUMERICAL:=0,0814:0,0001}",
 "{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. In der Vergangenheit betrug der Anteil der durchgefallenen Prüflinge 59%. Der Fahrlehrer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Prüflinge untersucht. Der Ablehnungsbereich der Nullhypothese ist {68,...,100}.",
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. In der Vergangenheit betrug der Anteil der Bewerber mit erfolgreichem Gesundheitscheck 37%. Die Ärztin vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Bewerber untersucht. Der Ablehnungsbereich der Nullhypothese ist {84,...,200}.",
 "fragen":[
 "Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den Kandidaten bestehen 65  nichtdie Prüfung. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Von den Bewerbern absolvieren 81 den Check erfolgreich. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0406:0,0001}",
+"{1:NUMERICAL:=0,0829:0,0001}",
 "{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. In der Vergangenheit betrug der Anteil der gefälschten Turnschuhe 41%. Der Zollbeamte vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Turnschuhe untersucht. Der Ablehnungsbereich der Nullhypothese ist {120,...,250}.",
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. In der Vergangenheit betrug der Anteil der durchgefallenen Prüflinge 56%. Der Fahrlehrer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Prüflinge untersucht. Der Ablehnungsbereich der Nullhypothese ist {180,...,300}.",
 "fragen":[
-"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den untersuchten Turnschuhen sind 117 gefälscht. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den Kandidaten bestehen 181  nichtdie Prüfung. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0148:0,0001}",
+"{1:NUMERICAL:=0,0902:0,0001}",
+"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
+]
+},
+{
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. In der Vergangenheit betrug der Anteil der gefälschten Turnschuhe 65%. Der Zollbeamte vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Turnschuhe untersucht. Der Ablehnungsbereich der Nullhypothese ist {208,...,300}.",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den untersuchten Turnschuhen sind 205 gefälscht. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+],
+"antworten":[
+"{1:NUMERICAL:=0,064:0,0001}",
 "{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Eine Fußballspielerin trainiert Freistöße. In der Vergangenheit betrug der Anteil der Fehltreffer 66%. Die Fußballerin vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Freistöße untersucht. Der Ablehnungsbereich der Nullhypothese ist {111,...,150}.",
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. In der Vergangenheit betrug der Anteil der Fehltreffer 20%. Die Fußballerin vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Freistöße untersucht. Der Ablehnungsbereich der Nullhypothese ist {38,...,150}.",
 "fragen":[
 "Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Die Fußballerin trifft 110 Mal nicht das Tor. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Die Fußballerin trifft 41 Mal nicht das Tor. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,022:0,0001}",
+"{1:NUMERICAL:=0,0659:0,0001}",
+"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
+]
+},
+{
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. In der Vergangenheit betrug der Anteil der zufriedenen Mitarbeiter 41%. Das Unternehmen vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Mitarbeiter untersucht. Der Ablehnungsbereich der Nullhypothese ist {74,...,150}.",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den befragten Mitarbeitern sind 77 zufrieden. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0238:0,0001}",
+"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
+]
+},
+{
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. In der Vergangenheit betrug der Anteil der vegetarischen Gerichte 62%. Der Besitzer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Gerichte untersucht. Der Ablehnungsbereich der Nullhypothese ist {172,...,250}.",
+"fragen":[
+"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den kontrollierten Gerichten sind 175 vegetarisch. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0149:0,0001}",
+"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
+]
+},
+{
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. In der Vergangenheit betrug der Anteil der unzureichend bewässerten Pflanzen 69%. Die Filialleiterin vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Pflanzen untersucht. Der Ablehnungsbereich der Nullhypothese ist {183,...,250}.",
+"fragen":[
+"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den geprüften Pflanzen bekommen 180 zu wenigWasser. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0844:0,0001}",
 "{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. In der Vergangenheit betrug der Anteil der zufriedenen Mitarbeiter 35%. Das Unternehmen vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Mitarbeiter untersucht. Der Ablehnungsbereich der Nullhypothese ist {62,...,150}.",
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. In der Vergangenheit betrug der Anteil der Werkzeuge mit Akku 57%. Der Onlineshop vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Werkzeuge untersucht. Der Ablehnungsbereich der Nullhypothese ist {95,...,150}.",
 "fragen":[
 "Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den befragten Mitarbeitern sind 61 zufrieden. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Von den registrierten Werkzeugen sind 92 mit einem Akkuausgestattet. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0629:0,0001}",
+"{1:NUMERICAL:=0,0681:0,0001}",
 "{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. In der Vergangenheit betrug der Anteil der vegetarischen Gerichte 73%. Der Besitzer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Gerichte untersucht. Der Ablehnungsbereich der Nullhypothese ist {155,...,200}.",
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. In der Vergangenheit betrug der Anteil der Computer mit unzureichendem Virenschutz 46%. Das Unternehmen vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Computer untersucht. Der Ablehnungsbereich der Nullhypothese ist {127,...,250}.",
 "fragen":[
-"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den kontrollierten Gerichten sind 154 vegetarisch. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den untersuchten Computern haben 126 keinen ausreichenden Virenschutz. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0861:0,0001}",
+"{1:NUMERICAL:=0,0724:0,0001}",
 "{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. In der Vergangenheit betrug der Anteil der unzureichend bewässerten Pflanzen 53%. Die Filialleiterin vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Pflanzen untersucht. Der Ablehnungsbereich der Nullhypothese ist {145,...,250}.",
-"fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den geprüften Pflanzen bekommen 146 zu wenigWasser. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0639:0,0001}",
-"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
-]
-},
-{
-"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. In der Vergangenheit betrug der Anteil der Werkzeuge mit Akku 78%. Der Onlineshop vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Werkzeuge untersucht. Der Ablehnungsbereich der Nullhypothese ist {165,...,200}.",
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. In der Vergangenheit betrug der Anteil der Krüge mit Kratzer 35%. Die Glaserei vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Krüge untersucht. Der Ablehnungsbereich der Nullhypothese ist {63,...,150}.",
 "fragen":[
 "Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den registrierten Werkzeugen sind 168 mit einem Akkuausgestattet. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"In der Stichprobe sind 66 Krüge mitKratzer. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0706:0,0001}",
+"{1:NUMERICAL:=0,0448:0,0001}",
 "{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. In der Vergangenheit betrug der Anteil der Computer mit unzureichendem Virenschutz 47%. Das Unternehmen vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Computer untersucht. Der Ablehnungsbereich der Nullhypothese ist {82,...,150}.",
-"fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den untersuchten Computern haben 85 keinen ausreichenden Virenschutz. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0361:0,0001}",
-"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
-]
-},
-{
-"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. In der Vergangenheit betrug der Anteil der Krüge mit Kratzer 24%. Die Glaserei vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Krüge untersucht. Der Ablehnungsbereich der Nullhypothese ist {72,...,250}.",
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. In der Vergangenheit betrug der Anteil der Vorschläge mit attraktiven Partnern 67%. Amalia vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 vorgeschlagenen Partner untersucht. Der Ablehnungsbereich der Nullhypothese ist {219,...,300}.",
 "fragen":[
 "Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"In der Stichprobe sind 75 Krüge mitKratzer. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Von den vorgeschlagenen Partnern findet Amalia 220 attraktiv. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0464:0,0001}",
+"{1:NUMERICAL:=0,0147:0,0001}",
 "{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
 ]
 },
 {
-"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. In der Vergangenheit betrug der Anteil der Vorschläge mit attraktiven Partnern 67%. Amalia vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 vorgeschlagenen Partner untersucht. Der Ablehnungsbereich der Nullhypothese ist {112,...,150}.",
-"fragen":[
-"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den vorgeschlagenen Partnern findet Amalia 113 attraktiv. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0261:0,0001}",
-"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
-]
-},
-{
-"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. In der Vergangenheit betrug der Anteil der Smartwatches mit Gutschein 31%. Das Unternehmen vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Smartwatches untersucht. Der Ablehnungsbereich der Nullhypothese ist {109,...,300}.",
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. In der Vergangenheit betrug der Anteil der Smartwatches mit Gutschein 60%. Das Unternehmen vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Smartwatches untersucht. Der Ablehnungsbereich der Nullhypothese ist {164,...,250}.",
 "fragen":[
 "Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"In einer Kiste sind 112 Smartwatches mitGutschein. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0277:0,0001}",
-"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
-]
-},
-{
-"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. In der Vergangenheit betrug der Anteil der barbezahlenden Kunden 61%. Der Verkäufer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Kunden untersucht. Der Ablehnungsbereich der Nullhypothese ist {195,...,300}.",
-"fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Es bezahlen 192 Kunden bar. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0861:0,0001}",
-"{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
-]
-},
-{
-"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In der Vergangenheit betrug der Anteil der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden 60%. Das Unternehmen vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Beamerlampen untersucht. Der Ablehnungsbereich der Nullhypothese ist {69,...,100}.",
-"fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit für den Fehler 1. Art (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den kontrollierten Beamerlampen leuchten 72 wenigerals 4000 Stunden. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"In einer Kiste sind 163 Smartwatches mitGutschein. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
 "{1:NUMERICAL:=0,0398:0,0001}",
-"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
-]
-},
-{
-"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. In der Vergangenheit betrug der Anteil der Follower der Influencerin 79%. Der potentielle Werbepartner vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 User untersucht. Der Ablehnungsbereich der Nullhypothese ist {126,...,150}.",
-"fragen":[
-"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den befragten Usern folgen 123 der Influencerin. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0771:0,0001}",
 "{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
 ]
 },
 {
-"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. In der Vergangenheit betrug der Anteil der ungenau gewogenen Lebensmittel 43%. Der Kassierer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Lebensmittel untersucht. Der Ablehnungsbereich der Nullhypothese ist {51,...,100}.",
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. In der Vergangenheit betrug der Anteil der barbezahlenden Kunden 80%. Der Verkäufer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Kunden untersucht. Der Ablehnungsbereich der Nullhypothese ist {88,...,100}.",
 "fragen":[
 "Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
-"Von den ermittelten Gewichten sind 50 nicht ausreichend genau. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+"Es bezahlen 85 Kunden bar. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0655:0,0001}",
+"{1:NUMERICAL:=0,0253:0,0001}",
+"{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In der Vergangenheit betrug der Anteil der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden 40%. Das Unternehmen vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Beamerlampen untersucht. Der Ablehnungsbereich der Nullhypothese ist {116,...,250}.",
+"fragen":[
+"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den kontrollierten Beamerlampen leuchten 113 wenigerals 4000 Stunden. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0233:0,0001}",
+"{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
+]
+},
+{
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. In der Vergangenheit betrug der Anteil der Follower der Influencerin 73%. Der potentielle Werbepartner vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 User untersucht. Der Ablehnungsbereich der Nullhypothese ist {196,...,250}.",
+"fragen":[
+"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den befragten Usern folgen 199 der Influencerin. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0299:0,0001}",
+"{1:MULTICHOICE:~Nullhypothese~=Gegenhypothese}"
+]
+},
+{
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. In der Vergangenheit betrug der Anteil der ungenau gewogenen Lebensmittel 64%. Der Kassierer vermutet, dass sich dieser Anteil erhöht hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Lebensmittel untersucht. Der Ablehnungsbereich der Nullhypothese ist {74,...,100}.",
+"fragen":[
+"Bestimmen Sie das erzielte Signifikanzniveau (Angabe als Dezimalzahl auf 4 NKS gerundet).",
+"Von den ermittelten Gewichten sind 71 nicht ausreichend genau. Beurteilen Sie auf Grundlage der Entscheidungsregel, ob weiterhin von der Nullhypothese oder stattdessen von der Gegenhypothese ausgegangen werden soll."
+],
+"antworten":[
+"{1:NUMERICAL:=0,022:0,0001}",
 "{1:MULTICHOICE:~=Nullhypothese~Gegenhypothese}"
 ]
 }

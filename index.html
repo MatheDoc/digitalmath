@@ -167,14 +167,11 @@
                     // Event-Listener für die Copy-Buttons
                     $('#meineTabelle').on('click', '.copy-icon', function() {
                         var row = $(this).closest('tr');
-                        var gebiet =  table.cell(row, 1).data();
-                        var feld = table.cell(row, 2).data();
-                        var situation = table.cell(row, 3).data();
-                        var textToCopy = gebiet + ': '+ situation + ': Erläuterung - Beispiel - Übung: Ich kann ' + table.cell(row, 3).data(); // Holen Sie den Text der 4. Spalte
-                        var textToCopy = gebiet + ': '+ feld + ': ' + situation + ': Erkläre schülergerecht: Ich kann ' + table.cell(row, 4).data();
+                        var text1 =  table.cell(row, 5).data().split('<i')[0].trim();
+                        var text2 = table.cell(row, 7).data();
+                        var textToCopy = 'Erkläre schülergerecht: Ich kann ' + text1  + ' ' + text2;
 
-                        // Text vor dem Button extrahieren
-                        textToCopy = textToCopy.split('<i')[0].trim();
+
 
                         // Kopieren in die Zwischenablage
                         navigator.clipboard.writeText(textToCopy).then(() => {
@@ -219,6 +216,13 @@
                     $('#gebietFilter, #teilgebietFilter, #schwerpunktFilter, #situationFilter').on('change', function() {
                         filterTable(table);
                     });
+
+                    // data-tables Search button
+                    $('#meineTabelle_filter').appendTo('#suchleiste');
+                    // Entfernt den Text "Search:" von der neu platzierten Suchleiste und behält nur das Eingabefeld
+                    $('#meineTabelle_filter label').contents().filter(function() {
+                    return this.nodeType === 3; // Filtert den reinen Text (Textknoten)
+                    }).remove();
 
                     // Export-Button
                     $('#exportSelection').on('click', function() {
@@ -328,7 +332,11 @@
 <body>
 
 <h1>Yes, we can math!</h1>
-
+<p>
+    <i class="fas fa-binoculars auswahl-icon" id="hideUnchecked" title="Auswahl anzeigen"></i>
+    <i class="fas  fa-list auswahl-icon" id="showAll" title="Alle anzeigen"></i>
+    <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
+</p>
 
 <!-- Export- und Import-Buttons
         <span>
@@ -358,15 +366,25 @@
             <td></td>
         </tr>
         <tr>
+            <td>Freitext: </td>
+            <td></td>
+        </tr>
+        <tr>
             <td>Auswahl: </td>
             <td>
-                <i class="fas fa-binoculars auswahl-icon" id="hideUnchecked" title="Auswahl anzeigen"></i>
-                <i class="fas  fa-list auswahl-icon" id="showAll" title="Alle anzeigen"></i>
-                <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
+
             </td>
         </tr>        
     </tbody>
 </table>
+
+
+
+<div id="suchleiste">
+
+</div>
+
+
 
 <div id="content"></div>
 
@@ -374,7 +392,7 @@
 <div id="infoText" class="info-text"></div>
 
 <footer>
-    &copy; 2024 Dr. Sven Führing <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">(CC BY-NC-SA 4.0)</a>
+    &copy; 2024 Dr. Sven Führing. Alle Inhalte sind lizenziert unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">(CC BY-NC-SA 4.0).</a>
 </footer>
 
 </body>
