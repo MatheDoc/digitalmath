@@ -224,7 +224,7 @@ footer {
 }
 .check-icon{
     color: #5882ffb0;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 .check-icon:hover{
     color: #5882ff;
@@ -298,7 +298,10 @@ display: none;
     z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
 }
 
-/* Größe des Dropdowns anpassen */
+/* Größe der sichtbaren Box für das Select2 mit Klasse .mch anpassen */
 select.mch + .select2-container .select2-selection--single {
     height: 40px; /* Höhe der Auswahlbox */
+    display: flex;
+    align-items: center; /* Zentriert den Text vertikal */
 }
+
