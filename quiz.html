@@ -114,36 +114,36 @@
         }
 
         function replaceMultipleChoiceWithDropdown(htmlContent) {
-    const pattern = /\{\d+:MCH:([^}]*)\}/g; // Regulärer Ausdruck, um die Multiple-Choice-Fragen zu finden
-    
-    function replacer(match, optionsString) { // optionsString wird hier als Argument empfangen
-        // Optionen extrahieren und nur an ~ aufteilen
-        const options = optionsString.split('~'); // Aufteilen nur anhand von ~
+            const pattern = /\{\d+:MCH:(.*)\}/g; // Regulärer Ausdruck, um die Multiple-Choice-Fragen zu finden
+            
+            function replacer(match, optionsString) { // optionsString wird hier als Argument empfangen
+                // Optionen extrahieren und nur an ~ aufteilen
+                const options = optionsString.split('~'); // Aufteilen nur anhand von ~
 
-        // Korrekten Antwort finden
-        const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim(); // Die Antwort, die mit '=' beginnt, erfassen
+                // Korrekten Antwort finden
+                const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim(); // Die Antwort, die mit '=' beginnt, erfassen
 
-        // Dropdown mit Optionen erstellen
-        const optionsHtml = options.map(option => {
-            const trimmedOption = option.trim();
-            // Option so erstellen, dass die korrekte Antwort als "correctAnswer" markiert wird
-            return `<option value="${trimmedOption}">${trimmedOption.replace(/^=/, '')}</option>`;
-        }).join(''); // Optionen in einen String umwandeln
+                // Dropdown mit Optionen erstellen
+                const optionsHtml = options.map(option => {
+                    const trimmedOption = option.trim();
+                    // Option so erstellen, dass die korrekte Antwort als "correctAnswer" markiert wird
+                    return `<option value="${trimmedOption}">${trimmedOption.replace(/^=/, '')}</option>`;
+                }).join(''); // Optionen in einen String umwandeln
 
-        const interactiveHtml = `
-            <select id="answer${questionId}" class="mch">
-                ${optionsHtml}
-            </select>
-            <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
-            <span id="feedback${questionId}"></span>
-        `;
-        questionId++; // Eindeutige ID für jede Frage
-        return interactiveHtml; // Das erstellte Dropdown zurückgeben
-    }
+                const interactiveHtml = `
+                    <select id="answer${questionId}" class="mch">
+                        ${optionsHtml}
+                    </select>
+                    <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
+                    <span id="feedback${questionId}"></span>
+                `;
+                questionId++; // Eindeutige ID für jede Frage
+                return interactiveHtml; // Das erstellte Dropdown zurückgeben
+            }
 
-    // HTML-Inhalt ersetzen und das Dropdown hinzufügen
-    return htmlContent.replace(pattern, replacer);
-}
+            // HTML-Inhalt ersetzen und das Dropdown hinzufügen
+            return htmlContent.replace(pattern, replacer);
+        }
 
 
 
@@ -211,7 +211,7 @@
 
                 // MathJax Neurendering auslösen (falls MathJax benötigt wird)
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
-
+                
                 // Erhöhe den Aufgabenzähler
                 aufgabenZaehler++; // Zähler erhöhen
             } else {
