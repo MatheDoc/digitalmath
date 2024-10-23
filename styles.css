@@ -322,7 +322,7 @@ select.mch + .select2-container .select2-selection--single {
     align-items: center;
     margin: auto; /* sorgt dafür, dass das Div in der Mitte des Viewports ist */
     width: 100%;
-    height: 100px;
+    height: 50px;
 }
 
 
