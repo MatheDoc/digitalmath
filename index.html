@@ -223,6 +223,7 @@
                     $('#meineTabelle_filter label').contents().filter(function() {
                     return this.nodeType === 3; // Filtert den reinen Text (Textknoten)
                     }).remove();
+                    $('.dataTables_filter input').attr('placeholder', 'Suchbegriff eingeben');
 
                     // Export-Button
                     $('#exportSelection').on('click', function() {
@@ -332,10 +333,20 @@
 <body>
 
 <h1>Yes, we can math!</h1>
+<div style="display: flex; justify-content: space-between; margin: 20px;">
+    <span>
+        <i class="fas fa-binoculars auswahl-icon" id="hideUnchecked" title="Auswahl anzeigen"></i>
+        <i class="fas  fa-list auswahl-icon" id="showAll" title="Alle anzeigen"></i>
+        <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
+    </span>
+    <span>
+        <a href="mailto:yeswecanmath@gmail.com">
+            <i class="fas fa-envelope auswahl-icon" id="shareLink" title="Kontakt"></i>
+        </a>
+    </span>
+  </div>
 <p>
-    <i class="fas fa-binoculars auswahl-icon" id="hideUnchecked" title="Auswahl anzeigen"></i>
-    <i class="fas  fa-list auswahl-icon" id="showAll" title="Alle anzeigen"></i>
-    <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
+
 </p>
 
 <!-- Export- und Import-Buttons
