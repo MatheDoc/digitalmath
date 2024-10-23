@@ -62,7 +62,7 @@ table{
     margin: 0 auto;
     background-color: #e7e6e6;
     border: 1px solid #ccc;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     padding: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -72,9 +72,10 @@ table{
     top: 0;  
 }
 
-.nachfolgend {
-    margin-top: 20px;
+.einleitung p {
+    margin-top: 0px;
 }
+
 
 
 .nachfolgend ol {
@@ -91,6 +92,7 @@ table{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #555;
 }
 
 

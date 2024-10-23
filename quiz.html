@@ -186,10 +186,10 @@
                         <p>${selectedTask.einleitung}</p>
                     </div>
                     <div class="nachfolgend">
-                        <ol aria-label="Liste von Aufgaben">`;
+                        <ol aria-label>`;
 
                 selectedTask.fragen.forEach((frage, index) => {
-                    htmlContent += `<li>${frage}<br>${selectedTask.antworten[index]}</li>`;
+                    htmlContent += `<li>${frage}<br><br>${selectedTask.antworten[index]}</li>`;
                 });
 
                 htmlContent += `</ol>
