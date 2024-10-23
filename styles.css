@@ -178,13 +178,12 @@ footer {
 
 
 .select2-container {
-    width: 250px !important;
+    width: 100px !important;
 }
 
 /* Responsive für mobile Geräte */
 @media (max-width: 768px) {
     .select2-container {
-        width: 100% !important;
         max-width: 200px;
     }
     /* .info-text {
@@ -308,6 +307,7 @@ select.mch + .select2-container .select2-selection--single {
     height: 40px; /* Höhe der Auswahlbox */
     display: flex;
     align-items: center; /* Zentriert den Text vertikal */
+    width: 100%;
 }
 
 

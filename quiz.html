@@ -120,7 +120,7 @@
         }
 
         function replaceMultipleChoiceWithDropdown(htmlContent) {
-            const pattern = /\{\d+:MCH:(.*)\}/g; // Regulärer Ausdruck, um die Multiple-Choice-Fragen zu finden
+            const pattern = /\{\d+:MCH:([^}]*)\}/g; // Regulärer Ausdruck, um die Multiple-Choice-Fragen zu finden
             
             function replacer(match, optionsString) { // optionsString wird hier als Argument empfangen
                 // Optionen extrahieren und nur an ~ aufteilen
