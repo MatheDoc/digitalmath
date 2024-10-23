@@ -8,7 +8,8 @@ body {
 h1 {
     background-color: #7e7e7e;
     color: white;
-    padding: 10px 0;
+    padding: 10px;
+    margin-bottom: 0px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -228,7 +229,7 @@ footer {
 }
 .check-icon{
     color: #5882ffb0;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .check-icon:hover{
     color: #5882ff;
@@ -325,7 +326,7 @@ select.mch + .select2-container .select2-selection--single {
 
 div.dataTables_filter input {
     width: 300px; /* Passt die Breite an die Containerbreite an */
-    max-width: 300px; /* Optional: Setzt eine maximale Breite */
+    max-width: 250px; /* Optional: Setzt eine maximale Breite */
     padding: 10px; /* Optional: Fügt etwas Innenabstand hinzu */
     padding-left: 20px;
     padding-right: 20px;
@@ -338,3 +339,13 @@ div.dataTables_filter input {
     font-size: 1em;
 }
 
+a.link-homepage {
+    text-decoration: none;  /* Unterstreichung entfernen */
+    color: inherit;         /* Erbt die Textfarbe des Elternelements */
+}
+
+a.link-homepage:hover {
+    /* Optional: Verhalten bei Hover definieren */
+    text-decoration: none;  /* Auch beim Hover keine Unterstreichung */
+    color: inherit;         /* Farbe bleibt unverändert */
+}
