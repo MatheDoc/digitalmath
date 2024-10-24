@@ -250,6 +250,7 @@ select.mch + .select2-container .select2-selection--single {
     color: #e72f8b;      
 }
 .reload-icon {
+    padding-right: 20px;
     color:#5882ffb0;
 }
 .reload-icon:hover {
