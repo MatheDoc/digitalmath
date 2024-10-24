@@ -1,6 +1,6 @@
 ﻿[
 {
-"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. In der Vergangenheit betrug der Anteil der defekten Halbleiter 43%. Der Kontrolleur vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Halbleiter untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 4% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der defekten Halbleiter</p> <p>Signifikanzniveau: 4%",
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. In der Vergangenheit betrug der Anteil der defekten Halbleiter 43%. Der Kontrolleur vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Halbleiter untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 3% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der defekten Halbleiter</p> <p>Signifikanzniveau: 3%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -8,14 +8,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,43:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,43:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,04:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}53) = {1:NUMERICAL:=0,034:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}54) = {1:NUMERICAL:=0,0487:4}</p> <p>Es folgt k = {1:NUMERICAL:=53:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~53~=0},...,{1:MCH:~150~=53} ]."
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,43:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=200} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,43:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~200~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,03:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}72) = {1:NUMERICAL:=0,0262:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}73) = {1:NUMERICAL:=0,0364:4}</p> <p>Es folgt k = {1:NUMERICAL:=72:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~72~=0}, ... ,{1:MCH:~200~=72} ]."
 ]
 },
 {
-"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. In der Vergangenheit betrug der Anteil der Passagiere ohne gültigen Fahrschein 43%. Die Schaffnerin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Passagiere untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 5% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Passagiere ohne gültigen Fahrschein</p> <p>Signifikanzniveau: 5%",
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. In der Vergangenheit betrug der Anteil der Passagiere ohne gültigen Fahrschein 76%. Die Schaffnerin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Passagiere untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 5% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Passagiere ohne gültigen Fahrschein</p> <p>Signifikanzniveau: 5%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -23,14 +23,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,43:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,43:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,76:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,76:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
 "Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,05:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}114) = {1:NUMERICAL:=0,0448:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}115) = {1:NUMERICAL:=0,0572:4}</p> <p>Es folgt k = {1:NUMERICAL:=114:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~114~=0},...,{1:MCH:~300~=114} ]."
+"P(X{1:MCH:~&geq;~=&leq;}104) = {1:NUMERICAL:=0,0373:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}105) = {1:NUMERICAL:=0,0546:4}</p> <p>Es folgt k = {1:NUMERICAL:=104:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~104~=0}, ... ,{1:MCH:~150~=104} ]."
 ]
 },
 {
-"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. In der Vergangenheit betrug der Anteil der Kundenbestellungen mit Streuseln 46%. Der Eisverkäufer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Kunden untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 7% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Kundenbestellungen mit Streuseln</p> <p>Signifikanzniveau: 7%",
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. In der Vergangenheit betrug der Anteil der Kundenbestellungen mit Streuseln 28%. Der Eisverkäufer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Kunden untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 10% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Kundenbestellungen mit Streuseln</p> <p>Signifikanzniveau: 10%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -38,29 +38,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,46:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,46:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,07:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}59) = {1:NUMERICAL:=0,0593:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}60) = {1:NUMERICAL:=0,0815:4}</p> <p>Es folgt k = {1:NUMERICAL:=59:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~59~=0},...,{1:MCH:~150~=59} ]."
-]
-},
-{
-"einleitung":"David hat eine gezinkte Münze. In der Vergangenheit betrug der Anteil der geworfenen Köpfe 26%. David vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Münzwürfe untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 10% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der geworfenen Köpfe</p> <p>Signifikanzniveau: 10%",
-"fragen":[
-"Nullhypothese:",
-"Gegenhypothese:",
-"Entscheidungsregel:",
-"Berechnungen:"
-],
-"antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,26:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,26:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,28:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=250} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,28:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~250~=k} ]",
 "Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,1:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}67) = {1:NUMERICAL:=0,0819:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}68) = {1:NUMERICAL:=0,1044:4}</p> <p>Es folgt k = {1:NUMERICAL:=67:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~67~=0},...,{1:MCH:~300~=67} ]."
+"P(X{1:MCH:~&geq;~=&leq;}60) = {1:NUMERICAL:=0,089:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}61) = {1:NUMERICAL:=0,1146:4}</p> <p>Es folgt k = {1:NUMERICAL:=60:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~60~=0}, ... ,{1:MCH:~250~=60} ]."
 ]
 },
 {
-"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. In der Vergangenheit betrug der Anteil der Bewerber mit erfolgreichem Gesundheitscheck 33%. Die Ärztin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Bewerber untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 7% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Bewerber mit erfolgreichem Gesundheitscheck</p> <p>Signifikanzniveau: 7%",
+"einleitung":"David hat eine gezinkte Münze. In der Vergangenheit betrug der Anteil der geworfenen Köpfe 58%. David vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Münzwürfe untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 6% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der geworfenen Köpfe</p> <p>Signifikanzniveau: 6%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -68,14 +53,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,33:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=100} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,33:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~100~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,07:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}25) = {1:NUMERICAL:=0,0529:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}26) = {1:NUMERICAL:=0,0815:4}</p> <p>Es folgt k = {1:NUMERICAL:=25:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~25~=0},...,{1:MCH:~100~=25} ]."
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,58:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,58:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,06:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}160) = {1:NUMERICAL:=0,0576:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}161) = {1:NUMERICAL:=0,0723:4}</p> <p>Es folgt k = {1:NUMERICAL:=160:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~160~=0}, ... ,{1:MCH:~300~=160} ]."
 ]
 },
 {
-"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. In der Vergangenheit betrug der Anteil der durchgefallenen Prüflinge 60%. Der Fahrlehrer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Prüflinge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 8% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der durchgefallenen Prüflinge</p> <p>Signifikanzniveau: 8%",
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. In der Vergangenheit betrug der Anteil der Bewerber mit erfolgreichem Gesundheitscheck 49%. Die Ärztin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Bewerber untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 5% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Bewerber mit erfolgreichem Gesundheitscheck</p> <p>Signifikanzniveau: 5%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -83,14 +68,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,6:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,6:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,08:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}81) = {1:NUMERICAL:=0,079:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}82) = {1:NUMERICAL:=0,1061:4}</p> <p>Es folgt k = {1:NUMERICAL:=81:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~81~=0},...,{1:MCH:~150~=81} ]."
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,49:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=250} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,49:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~250~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,05:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}109) = {1:NUMERICAL:=0,0498:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}110) = {1:NUMERICAL:=0,0643:4}</p> <p>Es folgt k = {1:NUMERICAL:=109:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~109~=0}, ... ,{1:MCH:~250~=109} ]."
 ]
 },
 {
-"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. In der Vergangenheit betrug der Anteil der gefälschten Turnschuhe 52%. Der Zollbeamte vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Turnschuhe untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der gefälschten Turnschuhe</p> <p>Signifikanzniveau: 9%",
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. In der Vergangenheit betrug der Anteil der durchgefallenen Prüflinge 37%. Der Fahrlehrer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Prüflinge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der durchgefallenen Prüflinge</p> <p>Signifikanzniveau: 9%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -98,14 +83,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,52:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=100} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,52:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~100~=k} ]",
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,37:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=200} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,37:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~200~=k} ]",
 "Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,09:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}44) = {1:NUMERICAL:=0,0667:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}45) = {1:NUMERICAL:=0,0967:4}</p> <p>Es folgt k = {1:NUMERICAL:=44:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~44~=0},...,{1:MCH:~100~=44} ]."
+"P(X{1:MCH:~&geq;~=&leq;}64) = {1:NUMERICAL:=0,081:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}65) = {1:NUMERICAL:=0,1059:4}</p> <p>Es folgt k = {1:NUMERICAL:=64:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~64~=0}, ... ,{1:MCH:~200~=64} ]."
 ]
 },
 {
-"einleitung":"Eine Fußballspielerin trainiert Freistöße. In der Vergangenheit betrug der Anteil der Fehltreffer 36%. Die Fußballerin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Freistöße untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 4% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Fehltreffer</p> <p>Signifikanzniveau: 4%",
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. In der Vergangenheit betrug der Anteil der gefälschten Turnschuhe 36%. Der Zollbeamte vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Turnschuhe untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der gefälschten Turnschuhe</p> <p>Signifikanzniveau: 9%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -115,72 +100,12 @@
 "antworten":[
 "H<sub>0</sub>: p = {1:NUMERICAL:=0,36:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
 "H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,36:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,04:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}43) = {1:NUMERICAL:=0,0354:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}44) = {1:NUMERICAL:=0,0515:4}</p> <p>Es folgt k = {1:NUMERICAL:=43:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~43~=0},...,{1:MCH:~150~=43} ]."
-]
-},
-{
-"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. In der Vergangenheit betrug der Anteil der zufriedenen Mitarbeiter 41%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Mitarbeiter untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 7% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der zufriedenen Mitarbeiter</p> <p>Signifikanzniveau: 7%",
-"fragen":[
-"Nullhypothese:",
-"Gegenhypothese:",
-"Entscheidungsregel:",
-"Berechnungen:"
-],
-"antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,41:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=200} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,41:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~200~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,07:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}71) = {1:NUMERICAL:=0,0648:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}72) = {1:NUMERICAL:=0,0853:4}</p> <p>Es folgt k = {1:NUMERICAL:=71:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~71~=0},...,{1:MCH:~200~=71} ]."
-]
-},
-{
-"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. In der Vergangenheit betrug der Anteil der vegetarischen Gerichte 61%. Der Besitzer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Gerichte untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 8% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der vegetarischen Gerichte</p> <p>Signifikanzniveau: 8%",
-"fragen":[
-"Nullhypothese:",
-"Gegenhypothese:",
-"Entscheidungsregel:",
-"Berechnungen:"
-],
-"antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,61:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=200} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,61:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~200~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,08:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}111) = {1:NUMERICAL:=0,0647:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}112) = {1:NUMERICAL:=0,0849:4}</p> <p>Es folgt k = {1:NUMERICAL:=111:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~111~=0},...,{1:MCH:~200~=111} ]."
-]
-},
-{
-"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. In der Vergangenheit betrug der Anteil der unzureichend bewässerten Pflanzen 26%. Die Filialleiterin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Pflanzen untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 5% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der unzureichend bewässerten Pflanzen</p> <p>Signifikanzniveau: 5%",
-"fragen":[
-"Nullhypothese:",
-"Gegenhypothese:",
-"Entscheidungsregel:",
-"Berechnungen:"
-],
-"antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,26:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=200} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,26:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~200~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,05:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}41) = {1:NUMERICAL:=0,0427:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}42) = {1:NUMERICAL:=0,0604:4}</p> <p>Es folgt k = {1:NUMERICAL:=41:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~41~=0},...,{1:MCH:~200~=41} ]."
-]
-},
-{
-"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. In der Vergangenheit betrug der Anteil der Werkzeuge mit Akku 51%. Der Onlineshop vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Werkzeuge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Werkzeuge mit Akku</p> <p>Signifikanzniveau: 9%",
-"fragen":[
-"Nullhypothese:",
-"Gegenhypothese:",
-"Entscheidungsregel:",
-"Berechnungen:"
-],
-"antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,51:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,51:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
 "Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,09:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}140) = {1:NUMERICAL:=0,0744:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}141) = {1:NUMERICAL:=0,0921:4}</p> <p>Es folgt k = {1:NUMERICAL:=140:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~140~=0},...,{1:MCH:~300~=140} ]."
+"P(X{1:MCH:~&geq;~=&leq;}45) = {1:NUMERICAL:=0,0727:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}46) = {1:NUMERICAL:=0,1:4}</p> <p>Es folgt k = {1:NUMERICAL:=45:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~45~=0}, ... ,{1:MCH:~150~=45} ]."
 ]
 },
 {
-"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. In der Vergangenheit betrug der Anteil der Computer mit unzureichendem Virenschutz 56%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Computer untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 7% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Computer mit unzureichendem Virenschutz</p> <p>Signifikanzniveau: 7%",
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. In der Vergangenheit betrug der Anteil der Fehltreffer 79%. Die Fußballerin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Freistöße untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 7% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Fehltreffer</p> <p>Signifikanzniveau: 7%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -188,14 +113,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,56:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,56:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,79:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,79:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
 "Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,07:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}154) = {1:NUMERICAL:=0,0585:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}155) = {1:NUMERICAL:=0,0733:4}</p> <p>Es folgt k = {1:NUMERICAL:=154:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~154~=0},...,{1:MCH:~300~=154} ]."
+"P(X{1:MCH:~&geq;~=&leq;}225) = {1:NUMERICAL:=0,0537:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}226) = {1:NUMERICAL:=0,0703:4}</p> <p>Es folgt k = {1:NUMERICAL:=225:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~225~=0}, ... ,{1:MCH:~300~=225} ]."
 ]
 },
 {
-"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. In der Vergangenheit betrug der Anteil der Krüge mit Kratzer 32%. Die Glaserei vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Krüge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 2% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Krüge mit Kratzer</p> <p>Signifikanzniveau: 2%",
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. In der Vergangenheit betrug der Anteil der zufriedenen Mitarbeiter 32%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Mitarbeiter untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 4% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der zufriedenen Mitarbeiter</p> <p>Signifikanzniveau: 4%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -203,14 +128,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,32:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,32:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,02:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}79) = {1:NUMERICAL:=0,0193:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}80) = {1:NUMERICAL:=0,0261:4}</p> <p>Es folgt k = {1:NUMERICAL:=79:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~79~=0},...,{1:MCH:~300~=79} ]."
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,32:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,32:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,04:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}37) = {1:NUMERICAL:=0,0309:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}38) = {1:NUMERICAL:=0,0461:4}</p> <p>Es folgt k = {1:NUMERICAL:=37:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~37~=0}, ... ,{1:MCH:~150~=37} ]."
 ]
 },
 {
-"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. In der Vergangenheit betrug der Anteil der Vorschläge mit attraktiven Partnern 44%. Amalia vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 vorgeschlagenen Partner untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 3% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Vorschläge mit attraktiven Partnern</p> <p>Signifikanzniveau: 3%",
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. In der Vergangenheit betrug der Anteil der vegetarischen Gerichte 73%. Der Besitzer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Gerichte untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der vegetarischen Gerichte</p> <p>Signifikanzniveau: 9%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -218,14 +143,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,44:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=200} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,44:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~200~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,03:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}74) = {1:NUMERICAL:=0,0266:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}75) = {1:NUMERICAL:=0,0368:4}</p> <p>Es folgt k = {1:NUMERICAL:=74:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~74~=0},...,{1:MCH:~200~=74} ]."
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,73:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,73:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,09:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}208) = {1:NUMERICAL:=0,0873:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}209) = {1:NUMERICAL:=0,1092:4}</p> <p>Es folgt k = {1:NUMERICAL:=208:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~208~=0}, ... ,{1:MCH:~300~=208} ]."
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. In der Vergangenheit betrug der Anteil der Smartwatches mit Gutschein 38%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Smartwatches untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 10% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Smartwatches mit Gutschein</p> <p>Signifikanzniveau: 10%",
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. In der Vergangenheit betrug der Anteil der unzureichend bewässerten Pflanzen 22%. Die Filialleiterin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Pflanzen untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 6% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der unzureichend bewässerten Pflanzen</p> <p>Signifikanzniveau: 6%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -233,29 +158,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,38:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=250} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,38:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~250~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,1:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}84) = {1:NUMERICAL:=0,0848:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}85) = {1:NUMERICAL:=0,1073:4}</p> <p>Es folgt k = {1:NUMERICAL:=84:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~84~=0},...,{1:MCH:~250~=84} ]."
-]
-},
-{
-"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. In der Vergangenheit betrug der Anteil der barbezahlenden Kunden 39%. Der Verkäufer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Kunden untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 6% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der barbezahlenden Kunden</p> <p>Signifikanzniveau: 6%",
-"fragen":[
-"Nullhypothese:",
-"Gegenhypothese:",
-"Entscheidungsregel:",
-"Berechnungen:"
-],
-"antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,39:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,39:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,22:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=200} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,22:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~200~=k} ]",
 "Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,06:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}48) = {1:NUMERICAL:=0,0458:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}49) = {1:NUMERICAL:=0,0648:4}</p> <p>Es folgt k = {1:NUMERICAL:=48:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~48~=0},...,{1:MCH:~150~=48} ]."
+"P(X{1:MCH:~&geq;~=&leq;}34) = {1:NUMERICAL:=0,0493:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}35) = {1:NUMERICAL:=0,0706:4}</p> <p>Es folgt k = {1:NUMERICAL:=34:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~34~=0}, ... ,{1:MCH:~200~=34} ]."
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In der Vergangenheit betrug der Anteil der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden 68%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Beamerlampen untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 10% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden</p> <p>Signifikanzniveau: 10%",
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. In der Vergangenheit betrug der Anteil der Werkzeuge mit Akku 68%. Der Onlineshop vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Werkzeuge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 6% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Werkzeuge mit Akku</p> <p>Signifikanzniveau: 6%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -265,12 +175,12 @@
 "antworten":[
 "H<sub>0</sub>: p = {1:NUMERICAL:=0,68:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
 "H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,68:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
-"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,1:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}94) = {1:NUMERICAL:=0,0958:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}95) = {1:NUMERICAL:=0,1282:4}</p> <p>Es folgt k = {1:NUMERICAL:=94:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~94~=0},...,{1:MCH:~150~=94} ]."
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,06:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}92) = {1:NUMERICAL:=0,0498:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}93) = {1:NUMERICAL:=0,0699:4}</p> <p>Es folgt k = {1:NUMERICAL:=92:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~92~=0}, ... ,{1:MCH:~150~=92} ]."
 ]
 },
 {
-"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. In der Vergangenheit betrug der Anteil der Follower der Influencerin 30%. Der potentielle Werbepartner vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 User untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Follower der Influencerin</p> <p>Signifikanzniveau: 9%",
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. In der Vergangenheit betrug der Anteil der Computer mit unzureichendem Virenschutz 80%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Computer untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Computer mit unzureichendem Virenschutz</p> <p>Signifikanzniveau: 9%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -278,14 +188,14 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,3:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=250} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,3:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~250~=k} ]",
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,8:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=250} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,8:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~250~=k} ]",
 "Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,09:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}64) = {1:NUMERICAL:=0,0721:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}65) = {1:NUMERICAL:=0,0937:4}</p> <p>Es folgt k = {1:NUMERICAL:=64:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~64~=0},...,{1:MCH:~250~=64} ]."
+"P(X{1:MCH:~&geq;~=&leq;}190) = {1:NUMERICAL:=0,0689:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}191) = {1:NUMERICAL:=0,0913:4}</p> <p>Es folgt k = {1:NUMERICAL:=190:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~190~=0}, ... ,{1:MCH:~250~=190} ]."
 ]
 },
 {
-"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. In der Vergangenheit betrug der Anteil der ungenau gewogenen Lebensmittel 78%. Der Kassierer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Lebensmittel untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 2% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der ungenau gewogenen Lebensmittel</p> <p>Signifikanzniveau: 2%",
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. In der Vergangenheit betrug der Anteil der Krüge mit Kratzer 53%. Die Glaserei vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Krüge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 5% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Krüge mit Kratzer</p> <p>Signifikanzniveau: 5%",
 "fragen":[
 "Nullhypothese:",
 "Gegenhypothese:",
@@ -293,10 +203,100 @@
 "Berechnungen:"
 ],
 "antworten":[
-"H<sub>0</sub>: p = {1:NUMERICAL:=0,78:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
-"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,78:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,53:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=100} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,53:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~100~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,05:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}44) = {1:NUMERICAL:=0,0444:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}45) = {1:NUMERICAL:=0,0666:4}</p> <p>Es folgt k = {1:NUMERICAL:=44:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~44~=0}, ... ,{1:MCH:~100~=44} ]."
+]
+},
+{
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. In der Vergangenheit betrug der Anteil der Vorschläge mit attraktiven Partnern 74%. Amalia vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 vorgeschlagenen Partner untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Vorschläge mit attraktiven Partnern</p> <p>Signifikanzniveau: 9%",
+"fragen":[
+"Nullhypothese:",
+"Gegenhypothese:",
+"Entscheidungsregel:",
+"Berechnungen:"
+],
+"antworten":[
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,74:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=250} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,74:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~250~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,09:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}175) = {1:NUMERICAL:=0,0868:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}176) = {1:NUMERICAL:=0,1112:4}</p> <p>Es folgt k = {1:NUMERICAL:=175:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~175~=0}, ... ,{1:MCH:~250~=175} ]."
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. In der Vergangenheit betrug der Anteil der Smartwatches mit Gutschein 40%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Smartwatches untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 8% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Smartwatches mit Gutschein</p> <p>Signifikanzniveau: 8%",
+"fragen":[
+"Nullhypothese:",
+"Gegenhypothese:",
+"Entscheidungsregel:",
+"Berechnungen:"
+],
+"antworten":[
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,4:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=300} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,4:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~300~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,08:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}107) = {1:NUMERICAL:=0,0697:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}108) = {1:NUMERICAL:=0,0871:4}</p> <p>Es folgt k = {1:NUMERICAL:=107:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~107~=0}, ... ,{1:MCH:~300~=107} ]."
+]
+},
+{
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. In der Vergangenheit betrug der Anteil der barbezahlenden Kunden 51%. Der Verkäufer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Kunden untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 7% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der barbezahlenden Kunden</p> <p>Signifikanzniveau: 7%",
+"fragen":[
+"Nullhypothese:",
+"Gegenhypothese:",
+"Entscheidungsregel:",
+"Berechnungen:"
+],
+"antworten":[
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,51:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=200} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,51:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~200~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,07:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}91) = {1:NUMERICAL:=0,0687:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}92) = {1:NUMERICAL:=0,0895:4}</p> <p>Es folgt k = {1:NUMERICAL:=91:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~91~=0}, ... ,{1:MCH:~200~=91} ]."
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In der Vergangenheit betrug der Anteil der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden 41%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Beamerlampen untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 6% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden</p> <p>Signifikanzniveau: 6%",
+"fragen":[
+"Nullhypothese:",
+"Gegenhypothese:",
+"Entscheidungsregel:",
+"Berechnungen:"
+],
+"antworten":[
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,41:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=100} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,41:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~100~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,06:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}32) = {1:NUMERICAL:=0,0406:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}33) = {1:NUMERICAL:=0,0624:4}</p> <p>Es folgt k = {1:NUMERICAL:=32:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~32~=0}, ... ,{1:MCH:~100~=32} ]."
+]
+},
+{
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. In der Vergangenheit betrug der Anteil der Follower der Influencerin 48%. Der potentielle Werbepartner vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 User untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 5% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der Follower der Influencerin</p> <p>Signifikanzniveau: 5%",
+"fragen":[
+"Nullhypothese:",
+"Gegenhypothese:",
+"Entscheidungsregel:",
+"Berechnungen:"
+],
+"antworten":[
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,48:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=150} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,48:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~150~=k} ]",
+"Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,05:0} ist.",
+"P(X{1:MCH:~&geq;~=&leq;}61) = {1:NUMERICAL:=0,0427:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}62) = {1:NUMERICAL:=0,0599:4}</p> <p>Es folgt k = {1:NUMERICAL:=61:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~61~=0}, ... ,{1:MCH:~150~=61} ]."
+]
+},
+{
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. In der Vergangenheit betrug der Anteil der ungenau gewogenen Lebensmittel 71%. Der Kassierer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Lebensmittel untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 2% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.</p> <p>Testgröße: Anzahl der ungenau gewogenen Lebensmittel</p> <p>Signifikanzniveau: 2%",
+"fragen":[
+"Nullhypothese:",
+"Gegenhypothese:",
+"Entscheidungsregel:",
+"Berechnungen:"
+],
+"antworten":[
+"H<sub>0</sub>: p = {1:NUMERICAL:=0,71:0}</p> <p>Annahmebereich: [ {1:MCH:~0~=k+1}, ... ,{1:MCH:~k-1~=250} ]",
+"H<sub>1</sub>: p {1:MCH:~>~=<}{1:NUMERICAL:=0,71:0}</p> <p>Ablehnungsbereich: [ {1:MCH:~k~=0}, ... ,{1:MCH:~250~=k} ]",
 "Gesucht ist das {1:MCH:~kleinste~=größte} k, so dass P(X{1:MCH:~&geq;~=&leq;}k) &leq; {1:NUMERICAL:=0,02:0} ist.",
-"P(X{1:MCH:~&geq;~=&leq;}218) = {1:NUMERICAL:=0,0171:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}219) = {1:NUMERICAL:=0,0236:4}</p> <p>Es folgt k = {1:NUMERICAL:=218:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~218~=0},...,{1:MCH:~300~=218} ]."
+"P(X{1:MCH:~&geq;~=&leq;}162) = {1:NUMERICAL:=0,0196:4}</p> <p>P(X{1:MCH:~&geq;~=&leq;}163) = {1:NUMERICAL:=0,027:4}</p> <p>Es folgt k = {1:NUMERICAL:=162:0}.</p> <p>Der Ablehnungsbereich lautet daher [ {1:MCH:~162~=0}, ... ,{1:MCH:~250~=162} ]."
 ]
 }
 ]

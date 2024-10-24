@@ -180,15 +180,23 @@ footer {
     color: #888;
 }
 
-
-.select2-container {
-    width: 100px !important;
+/* Größe der sichtbaren Box für das Select2 mit Klasse .mch anpassen */
+select.mch + .select2-container .select2-selection--single {
+    height: 40px; /* Höhe der Auswahlbox */
+    display: flex;
+    align-items: center; /* Zentriert den Text vertikal */
 }
+
+.select2-container{
+    min-width: 85px;
+    max-width: 90%;
+}
+
 
 /* Responsive für mobile Geräte */
 @media (max-width: 768px) {
     .select2-container {
-        max-width: 200px;
+        max-width: 75%;
     }
     /* .info-text {
         top: 50%; 
@@ -306,13 +314,7 @@ display: none;
     z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
 }
 
-/* Größe der sichtbaren Box für das Select2 mit Klasse .mch anpassen */
-select.mch + .select2-container .select2-selection--single {
-    height: 40px; /* Höhe der Auswahlbox */
-    display: flex;
-    align-items: center; /* Zentriert den Text vertikal */
-    width: 100%;
-}
+
 
 
 
@@ -342,6 +344,7 @@ div.dataTables_filter input {
     border: 1px solid #7e7e7e; /* Setzt die Rahmeneigenschaften */
     font-size: 1em;
 }
+
 
 a.link-homepage {
     text-decoration: none;  /* Unterstreichung entfernen */
