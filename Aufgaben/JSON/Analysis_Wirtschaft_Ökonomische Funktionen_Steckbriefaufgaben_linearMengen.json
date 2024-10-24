@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 35 ME betragen -12 GE.</p> <p>Die Gewinne für 96 ME betragen 49 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 16 ME betragen 16 GE.</p> <p>Die Gewinne für 30 ME betragen 240 GE.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=1:0}\\( x \\) + {1:NUMERICAL:=-47:0}"
+"\\( G(x)= \\){1:NUMERICAL:=16:0}\\( x \\)+{1:NUMERICAL:=-240:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 27 ME betragen -4 GE.</p> <p>Die Gewinne für 63 ME betragen 32 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=1:0}\\( x \\) + {1:NUMERICAL:=-31:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 5 ME betragen -261 GE.</p> <p>Die Gewinne für 30 ME betragen 464 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=29:0}\\( x \\) + {1:NUMERICAL:=-406:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 45 ME betragen 2365 GE.</p> <p>Die Kosten für 64 ME betragen 2992 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 20 ME betragen 412 GE.</p> <p>Die Kosten für 38 ME betragen 664 GE.",
 "fragen":[
 "Bestimmen Sie die lineare Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=33:0}\\( x \\) + {1:NUMERICAL:=880:0}"
+"\\( K(x)= \\){1:NUMERICAL:=14:0}\\( x \\)+{1:NUMERICAL:=132:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 25 ME betragen 6 GE.</p> <p>Die Gewinne für 45 ME betragen 66 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=3:0}\\( x \\) + {1:NUMERICAL:=-69:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 25 ME betragen -192 GE.</p> <p>Die Gewinne für 63 ME betragen 720 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=24:0}\\( x \\) + {1:NUMERICAL:=-792:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 11 ME betragen -64 GE.</p> <p>Die Gewinne für 53 ME betragen 104 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=4:0}\\( x \\) + {1:NUMERICAL:=-108:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 10 ME betragen -456 GE.</p> <p>Die Gewinne für 95 ME betragen 564 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=12:0}\\( x \\) + {1:NUMERICAL:=-576:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 8 ME betragen -60 GE.</p> <p>Die Gewinne für 38 ME betragen 120 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=6:0}\\( x \\) + {1:NUMERICAL:=-108:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 5 ME betragen -375 GE.</p> <p>Die Gewinne für 35 ME betragen 375 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=25:0}\\( x \\) + {1:NUMERICAL:=-500:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 37 ME betragen 1783 GE.</p> <p>Die Kosten für 42 ME betragen 1953 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 2 ME betragen 308 GE.</p> <p>Die Kosten für 37 ME betragen 1603 GE.",
 "fragen":[
 "Bestimmen Sie die lineare Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=34:0}\\( x \\) + {1:NUMERICAL:=525:0}"
+"\\( K(x)= \\){1:NUMERICAL:=37:0}\\( x \\)+{1:NUMERICAL:=234:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 13 ME betragen -76 GE.</p> <p>Die Gewinne für 38 ME betragen 24 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 5 ME betragen -1 GE.</p> <p>Die Gewinne für 11 ME betragen 5 GE.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=4:0}\\( x \\) + {1:NUMERICAL:=-128:0}"
+"\\( G(x)= \\){1:NUMERICAL:=1:0}\\( x \\)+{1:NUMERICAL:=-6:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 5 ME betragen 981 GE.</p> <p>Die Kosten für 36 ME betragen 2376 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 29 ME betragen 862 GE.</p> <p>Die Kosten für 42 ME betragen 1096 GE.",
 "fragen":[
 "Bestimmen Sie die lineare Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=45:0}\\( x \\) + {1:NUMERICAL:=756:0}"
+"\\( K(x)= \\){1:NUMERICAL:=18:0}\\( x \\)+{1:NUMERICAL:=340:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 3 ME betragen 168 GE.</p> <p>Die Kosten für 35 ME betragen 1288 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 2 ME betragen -24 GE.</p> <p>Die Gewinne für 20 ME betragen 30 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Gewinnfunktion."
+],
+"antworten":[
+"\\( G(x)= \\){1:NUMERICAL:=3:0}\\( x \\)+{1:NUMERICAL:=-30:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 3 ME betragen 273 GE.</p> <p>Die Kosten für 39 ME betragen 1497 GE.",
 "fragen":[
 "Bestimmen Sie die lineare Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=35:0}\\( x \\) + {1:NUMERICAL:=63:0}"
+"\\( K(x)= \\){1:NUMERICAL:=34:0}\\( x \\)+{1:NUMERICAL:=171:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 30 ME betragen 30 GE.</p> <p>Die Gewinne für 51 ME betragen 345 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=15:0}\\( x \\) + {1:NUMERICAL:=-420:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 18 ME betragen 294 GE.</p> <p>Die Kosten für 25 ME betragen 385 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 9 ME betragen 312 GE.</p> <p>Die Kosten für 30 ME betragen 648 GE.",
 "fragen":[
 "Bestimmen Sie die lineare Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=13:0}\\( x \\) + {1:NUMERICAL:=60:0}"
+"\\( K(x)= \\){1:NUMERICAL:=16:0}\\( x \\)+{1:NUMERICAL:=168:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 8 ME betragen -75 GE.</p> <p>Die Gewinne für 42 ME betragen 95 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=5:0}\\( x \\) + {1:NUMERICAL:=-115:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 4 ME betragen -9 GE.</p> <p>Die Gewinne für 13 ME betragen 18 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=3:0}\\( x \\) + {1:NUMERICAL:=-21:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 37 ME betragen -14 GE.</p> <p>Die Gewinne für 75 ME betragen 252 GE.",
-"fragen":[
-"Bestimmen Sie die lineare Gewinnfunktion."
-],
-"antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=7:0}\\( x \\) + {1:NUMERICAL:=-273:0}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 3 ME betragen 93 GE.</p> <p>Die Kosten für 6 ME betragen 138 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 25 ME betragen 257 GE.</p> <p>Die Kosten für 63 ME betragen 447 GE.",
 "fragen":[
 "Bestimmen Sie die lineare Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=15:0}\\( x \\) + {1:NUMERICAL:=48:0}"
+"\\( K(x)= \\){1:NUMERICAL:=5:0}\\( x \\)+{1:NUMERICAL:=132:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 18 ME betragen 1467 GE.</p> <p>Die Kosten für 97 ME betragen 4548 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Kostenfunktion."
+],
+"antworten":[
+"\\( K(x)= \\){1:NUMERICAL:=39:0}\\( x \\)+{1:NUMERICAL:=765:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 3 ME betragen -90 GE.</p> <p>Die Gewinne für 20 ME betragen 80 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Gewinnfunktion."
+],
+"antworten":[
+"\\( G(x)= \\){1:NUMERICAL:=10:0}\\( x \\)+{1:NUMERICAL:=-120:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 44 ME betragen 39 GE.</p> <p>Die Gewinne für 80 ME betragen 1443 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Gewinnfunktion."
+],
+"antworten":[
+"\\( G(x)= \\){1:NUMERICAL:=39:0}\\( x \\)+{1:NUMERICAL:=-1677:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 30 ME betragen -54 GE.</p> <p>Die Gewinne für 76 ME betragen 222 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Gewinnfunktion."
+],
+"antworten":[
+"\\( G(x)= \\){1:NUMERICAL:=6:0}\\( x \\)+{1:NUMERICAL:=-234:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 24 ME betragen 552 GE.</p> <p>Die Kosten für 40 ME betragen 728 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Kostenfunktion."
+],
+"antworten":[
+"\\( K(x)= \\){1:NUMERICAL:=11:0}\\( x \\)+{1:NUMERICAL:=288:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 25 ME betragen 278 GE.</p> <p>Die Kosten für 55 ME betragen 518 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Kostenfunktion."
+],
+"antworten":[
+"\\( K(x)= \\){1:NUMERICAL:=8:0}\\( x \\)+{1:NUMERICAL:=78:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 8 ME betragen 316 GE.</p> <p>Die Kosten für 17 ME betragen 577 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Kostenfunktion."
+],
+"antworten":[
+"\\( K(x)= \\){1:NUMERICAL:=29:0}\\( x \\)+{1:NUMERICAL:=84:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 24 ME betragen 288 GE.</p> <p>Die Kosten für 105 ME betragen 936 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Kostenfunktion."
+],
+"antworten":[
+"\\( K(x)= \\){1:NUMERICAL:=8:0}\\( x \\)+{1:NUMERICAL:=96:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 20 ME betragen 93 GE.</p> <p>Die Kosten für 72 ME betragen 249 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Kostenfunktion."
+],
+"antworten":[
+"\\( K(x)= \\){1:NUMERICAL:=3:0}\\( x \\)+{1:NUMERICAL:=33:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten für 2 ME betragen 84 GE.</p> <p>Die Kosten für 20 ME betragen 696 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Kostenfunktion."
+],
+"antworten":[
+"\\( K(x)= \\){1:NUMERICAL:=34:0}\\( x \\)+{1:NUMERICAL:=16:0}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinne für 36 ME betragen -260 GE.</p> <p>Die Gewinne für 75 ME betragen 754 GE.",
+"fragen":[
+"Bestimmen Sie die lineare Gewinnfunktion."
+],
+"antworten":[
+"\\( G(x)= \\){1:NUMERICAL:=26:0}\\( x \\)+{1:NUMERICAL:=-1196:0}"
 ]
 }
 ]

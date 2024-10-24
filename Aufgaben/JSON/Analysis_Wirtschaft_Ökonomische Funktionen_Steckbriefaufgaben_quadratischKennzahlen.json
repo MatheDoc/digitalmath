@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 11 ME.</p> <p>Die Gewinnschgrenze beträgt 65 ME.</p> <p>Die Gewinne bei 63 ME betragen 104 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 11 ME.</p> <p>Die gewinnmaximale Menge beträgt 40 ME.</p> <p>Die Gewinne bei 55 ME betragen 800,8 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=76:0}\\( x \\) + {1:NUMERICAL:=-715:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,3:0}\\( x^2 \\)+{1:NUMERICAL:=104:0}\\( x \\)+{1:NUMERICAL:=-986,7:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 17 ME.</p> <p>Die Gewinnschgrenze beträgt 64 ME.</p> <p>Die Gewinne bei 45 ME betragen 478,8 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 16 ME.</p> <p>Die Gewinnschgrenze beträgt 69 ME.</p> <p>Die Gewinne bei 25 ME betragen 79,2 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,9:0}\\( x^2 \\) + {1:NUMERICAL:=72,9:0}\\( x \\) + {1:NUMERICAL:=-979,2:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,2:0}\\( x^2 \\)+{1:NUMERICAL:=17:0}\\( x \\)+{1:NUMERICAL:=-220,8:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 16 ME.</p> <p>Die gewinnmaximale Menge beträgt 42,5 ME.</p> <p>Die Fixkosten betragen 441,6 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 14 ME.</p> <p>Die Gewinnschgrenze beträgt 62 ME.</p> <p>Die Fixkosten betragen 1562,4 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,4:0}\\( x^2 \\) + {1:NUMERICAL:=34:0}\\( x \\) + {1:NUMERICAL:=-441,6:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,8:0}\\( x^2 \\)+{1:NUMERICAL:=136,8:0}\\( x \\)+{1:NUMERICAL:=-1562,4:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 15 ME.</p> <p>Die gewinnmaximale Menge beträgt 38 ME.</p> <p>Die Gewinne bei 44 ME betragen 493 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 10 ME.</p> <p>Die Gewinnschgrenze beträgt 64 ME.</p> <p>Die Gewinne bei 45 ME betragen 731,5 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=76:0}\\( x \\) + {1:NUMERICAL:=-915:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,1:0}\\( x^2 \\)+{1:NUMERICAL:=81,4:0}\\( x \\)+{1:NUMERICAL:=-704:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 17 ME.</p> <p>Die gewinnmaximale Menge beträgt 40,5 ME.</p> <p>Die Fixkosten betragen 979,2 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 11 ME.</p> <p>Die Gewinnschgrenze beträgt 69 ME.</p> <p>Die Fixkosten betragen 607,2 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,9:0}\\( x^2 \\) + {1:NUMERICAL:=72,9:0}\\( x \\) + {1:NUMERICAL:=-979,2:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,8:0}\\( x^2 \\)+{1:NUMERICAL:=64:0}\\( x \\)+{1:NUMERICAL:=-607,2:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 16 ME.</p> <p>Die Gewinnschgrenze beträgt 68 ME.</p> <p>Die Fixkosten betragen 1414,4 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 69 ME.</p> <p>Die gewinnmaximale Menge beträgt 39,5 ME.</p> <p>Die Fixkosten betragen 897 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-1,3:0}\\( x^2 \\) + {1:NUMERICAL:=109,2:0}\\( x \\) + {1:NUMERICAL:=-1414,4:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,3:0}\\( x^2 \\)+{1:NUMERICAL:=102,7:0}\\( x \\)+{1:NUMERICAL:=-897:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 65 ME.</p> <p>Die gewinnmaximale Menge beträgt 40 ME.</p> <p>Die Gewinne bei 60 ME betragen 22,5 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 66 ME.</p> <p>Die gewinnmaximale Menge beträgt 39,5 ME.</p> <p>Die Gewinne bei 31 ME betragen 315 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,1:0}\\( x^2 \\) + {1:NUMERICAL:=8:0}\\( x \\) + {1:NUMERICAL:=-97,5:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,5:0}\\( x^2 \\)+{1:NUMERICAL:=39,5:0}\\( x \\)+{1:NUMERICAL:=-429:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 65 ME.</p> <p>Die gewinnmaximale Menge beträgt 40 ME.</p> <p>Die Gewinne bei 22 ME betragen 451,5 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 12 ME.</p> <p>Die gewinnmaximale Menge beträgt 40 ME.</p> <p>Die Gewinne bei 44 ME betragen 384 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-1,5:0}\\( x^2 \\) + {1:NUMERICAL:=120:0}\\( x \\) + {1:NUMERICAL:=-1462,5:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,5:0}\\( x^2 \\)+{1:NUMERICAL:=40:0}\\( x \\)+{1:NUMERICAL:=-408:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 16 ME.</p> <p>Die gewinnmaximale Menge beträgt 42,5 ME.</p> <p>Die Fixkosten betragen 993,6 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 66 ME.</p> <p>Die gewinnmaximale Menge beträgt 38,5 ME.</p> <p>Die Fixkosten betragen 363 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,9:0}\\( x^2 \\) + {1:NUMERICAL:=76,5:0}\\( x \\) + {1:NUMERICAL:=-993,6:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,5:0}\\( x^2 \\)+{1:NUMERICAL:=38,5:0}\\( x \\)+{1:NUMERICAL:=-363:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 67 ME.</p> <p>Die gewinnmaximale Menge beträgt 42 ME.</p> <p>Die Fixkosten betragen 1480,7 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 60 ME.</p> <p>Die gewinnmaximale Menge beträgt 37,5 ME.</p> <p>Die Fixkosten betragen 720 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-1,3:0}\\( x^2 \\) + {1:NUMERICAL:=109,2:0}\\( x \\) + {1:NUMERICAL:=-1480,7:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,8:0}\\( x^2 \\)+{1:NUMERICAL:=60:0}\\( x \\)+{1:NUMERICAL:=-720:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 60 ME.</p> <p>Die gewinnmaximale Menge beträgt 36,5 ME.</p> <p>Die Gewinne bei 41 ME betragen 478,8 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 13 ME.</p> <p>Die gewinnmaximale Menge beträgt 37,5 ME.</p> <p>Die Gewinne bei 21 ME betragen 164 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,9:0}\\( x^2 \\) + {1:NUMERICAL:=65,7:0}\\( x \\) + {1:NUMERICAL:=-702:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,5:0}\\( x^2 \\)+{1:NUMERICAL:=37,5:0}\\( x \\)+{1:NUMERICAL:=-403:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 13 ME.</p> <p>Die gewinnmaximale Menge beträgt 41 ME.</p> <p>Die Gewinne bei 14 ME betragen 27,5 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 15 ME.</p> <p>Die gewinnmaximale Menge beträgt 42,5 ME.</p> <p>Die Gewinne bei 29 ME betragen 114,8 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,5:0}\\( x^2 \\) + {1:NUMERICAL:=41:0}\\( x \\) + {1:NUMERICAL:=-448,5:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,2:0}\\( x^2 \\)+{1:NUMERICAL:=17:0}\\( x \\)+{1:NUMERICAL:=-210:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 12 ME.</p> <p>Die Gewinnschgrenze beträgt 62 ME.</p> <p>Die Gewinne bei 54 ME betragen 67,2 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 11 ME.</p> <p>Die gewinnmaximale Menge beträgt 40 ME.</p> <p>Die Gewinne bei 55 ME betragen 308 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,2:0}\\( x^2 \\) + {1:NUMERICAL:=14,8:0}\\( x \\) + {1:NUMERICAL:=-148,8:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,5:0}\\( x^2 \\)+{1:NUMERICAL:=40:0}\\( x \\)+{1:NUMERICAL:=-379,5:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 68 ME.</p> <p>Die gewinnmaximale Menge beträgt 43 ME.</p> <p>Die Gewinne bei 63 ME betragen 337,5 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 13 ME.</p> <p>Die gewinnmaximale Menge beträgt 38 ME.</p> <p>Die Gewinne bei 41 ME betragen 1108,8 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-1,5:0}\\( x^2 \\) + {1:NUMERICAL:=129:0}\\( x \\) + {1:NUMERICAL:=-1836:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,8:0}\\( x^2 \\)+{1:NUMERICAL:=136,8:0}\\( x \\)+{1:NUMERICAL:=-1474,2:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 10 ME.</p> <p>Die Gewinnschgrenze beträgt 70 ME.</p> <p>Die Gewinne bei 24 ME betragen 64,4 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 13 ME.</p> <p>Die Gewinnschgrenze beträgt 69 ME.</p> <p>Die Gewinne bei 53 ME betragen 704 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,1:0}\\( x^2 \\) + {1:NUMERICAL:=8:0}\\( x \\) + {1:NUMERICAL:=-70:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,1:0}\\( x^2 \\)+{1:NUMERICAL:=90,2:0}\\( x \\)+{1:NUMERICAL:=-986,7:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 10 ME.</p> <p>Die Gewinnschgrenze beträgt 65 ME.</p> <p>Die Fixkosten betragen 650 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 15 ME.</p> <p>Die Gewinnschgrenze beträgt 62 ME.</p> <p>Die Fixkosten betragen 1674 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-1:0}\\( x^2 \\) + {1:NUMERICAL:=75:0}\\( x \\) + {1:NUMERICAL:=-650:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,8:0}\\( x^2 \\)+{1:NUMERICAL:=138,6:0}\\( x \\)+{1:NUMERICAL:=-1674:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 15 ME.</p> <p>Die Gewinnschgrenze beträgt 67 ME.</p> <p>Die Gewinne bei 23 ME betragen 633,6 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 12 ME.</p> <p>Die Gewinnschgrenze beträgt 62 ME.</p> <p>Die Gewinne bei 48 ME betragen 806,4 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-1,8:0}\\( x^2 \\) + {1:NUMERICAL:=147,6:0}\\( x \\) + {1:NUMERICAL:=-1809:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,6:0}\\( x^2 \\)+{1:NUMERICAL:=118,4:0}\\( x \\)+{1:NUMERICAL:=-1190,4:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 70 ME.</p> <p>Die gewinnmaximale Menge beträgt 44 ME.</p> <p>Die Gewinne bei 46 ME betragen 336 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 67 ME.</p> <p>Die gewinnmaximale Menge beträgt 42 ME.</p> <p>Die Gewinne bei 29 ME betragen 182,4 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,5:0}\\( x^2 \\) + {1:NUMERICAL:=44:0}\\( x \\) + {1:NUMERICAL:=-630:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-0,4:0}\\( x^2 \\)+{1:NUMERICAL:=33,6:0}\\( x \\)+{1:NUMERICAL:=-455,6:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 67 ME.</p> <p>Die gewinnmaximale Menge beträgt 41,5 ME.</p> <p>Die Fixkosten betragen 428,8 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschwelle beträgt 17 ME.</p> <p>Die Gewinnschgrenze beträgt 70 ME.</p> <p>Die Fixkosten betragen 1309 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,4:0}\\( x^2 \\) + {1:NUMERICAL:=33,2:0}\\( x \\) + {1:NUMERICAL:=-428,8:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,1:0}\\( x^2 \\)+{1:NUMERICAL:=95,7:0}\\( x \\)+{1:NUMERICAL:=-1309:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 65 ME.</p> <p>Die gewinnmaximale Menge beträgt 39,5 ME.</p> <p>Die Gewinne bei 61 ME betragen 37,6 GE.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Gewinnschgrenze beträgt 70 ME.</p> <p>Die gewinnmaximale Menge beträgt 43 ME.</p> <p>Die Gewinne bei 67 ME betragen 275,400000000001 GE.",
 "fragen":[
 "Bestimmen Sie die quadratische Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=-0,2:0}\\( x^2 \\) + {1:NUMERICAL:=15,8:0}\\( x \\) + {1:NUMERICAL:=-182:0}"
+"\\( G(x)= \\){1:NUMERICAL:=-1,8:0}\\( x^2 \\)+{1:NUMERICAL:=154,8:0}\\( x \\)+{1:NUMERICAL:=-2016:0}"
 ]
 }
 ]

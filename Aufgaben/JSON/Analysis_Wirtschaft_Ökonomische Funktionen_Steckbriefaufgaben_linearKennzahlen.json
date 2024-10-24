@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1008 GE.</p> <p>Die Gewinnschwelle beträgt 72 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 784 GE.</p> <p>Die Gewinnschwelle beträgt 49 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=14:0}\\( x \\) + {1:NUMERICAL:=-1008:0}"
+"\\( G(x)= \\){1:NUMERICAL:=16:0}\\( x \\)+{1:NUMERICAL:=-784:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1426 GE.</p> <p>Die Gewinnschwelle beträgt 46 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 40 GE.</p> <p>Die Gewinnschwelle beträgt 40 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=31:0}\\( x \\) + {1:NUMERICAL:=-1426:0}"
+"\\( G(x)= \\){1:NUMERICAL:=1:0}\\( x \\)+{1:NUMERICAL:=-40:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 468 GE.</p> <p>Die Gewinnschwelle beträgt 12 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1190 GE.</p> <p>Die Gewinnschwelle beträgt 70 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=39:0}\\( x \\) + {1:NUMERICAL:=-468:0}"
+"\\( G(x)= \\){1:NUMERICAL:=17:0}\\( x \\)+{1:NUMERICAL:=-1190:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 594 GE.</p> <p>Die Sättigungsmenge beträgt 60 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 213,9 GE.</p> <p>Die Sättigungsmenge beträgt 31 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Preis-Absatz-Funktion."
 ],
 "antworten":[
-"\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=-9,9:0}\\( x \\) + {1:NUMERICAL:=594:0}"
+"\\( p(x)= \\){1:NUMERICAL:=-6,9:0}\\( x \\)+{1:NUMERICAL:=213,9:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 130,5 GE.</p> <p>Die Sättigungsmenge beträgt 87 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 102,4 GE.</p> <p>Die Sättigungsmenge beträgt 16 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Preis-Absatz-Funktion."
 ],
 "antworten":[
-"\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=-1,5:0}\\( x \\) + {1:NUMERICAL:=130,5:0}"
+"\\( p(x)= \\){1:NUMERICAL:=-6,4:0}\\( x \\)+{1:NUMERICAL:=102,4:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 132 GE.</p> <p>Die Gewinnschwelle beträgt 22 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 4653 GE.</p> <p>Die Gewinnschwelle beträgt 99 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=6:0}\\( x \\) + {1:NUMERICAL:=-132:0}"
+"\\( G(x)= \\){1:NUMERICAL:=47:0}\\( x \\)+{1:NUMERICAL:=-4653:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 99 GE.</p> <p>Die Sättigungsmenge beträgt 55 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 104,4 GE.</p> <p>Die Sättigungsmenge beträgt 58 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Preis-Absatz-Funktion."
 ],
 "antworten":[
-"\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=-1,8:0}\\( x \\) + {1:NUMERICAL:=99:0}"
+"\\( p(x)= \\){1:NUMERICAL:=-1,8:0}\\( x \\)+{1:NUMERICAL:=104,4:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 2257 GE.</p> <p>Die Gewinnschwelle beträgt 61 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 120 GE.</p> <p>Die Gewinnschwelle beträgt 10 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=37:0}\\( x \\) + {1:NUMERICAL:=-2257:0}"
+"\\( G(x)= \\){1:NUMERICAL:=12:0}\\( x \\)+{1:NUMERICAL:=-120:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 30 GE.</p> <p>Die Gewinnschwelle beträgt 10 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1280 GE.</p> <p>Die Gewinnschwelle beträgt 80 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=3:0}\\( x \\) + {1:NUMERICAL:=-30:0}"
+"\\( G(x)= \\){1:NUMERICAL:=16:0}\\( x \\)+{1:NUMERICAL:=-1280:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 611 GE.</p> <p>Die Gewinnschwelle beträgt 47 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 245 GE.</p> <p>Die Gewinnschwelle beträgt 49 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=13:0}\\( x \\) + {1:NUMERICAL:=-611:0}"
+"\\( G(x)= \\){1:NUMERICAL:=5:0}\\( x \\)+{1:NUMERICAL:=-245:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 337,5 GE.</p> <p>Die Sättigungsmenge beträgt 45 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 255 GE.</p> <p>Die Sättigungsmenge beträgt 34 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Preis-Absatz-Funktion."
 ],
 "antworten":[
-"\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=-7,5:0}\\( x \\) + {1:NUMERICAL:=337,5:0}"
+"\\( p(x)= \\){1:NUMERICAL:=-7,5:0}\\( x \\)+{1:NUMERICAL:=255:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 135 GE.</p> <p>Die Sättigungsmenge beträgt 50 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 469 GE.</p> <p>Die Sättigungsmenge beträgt 70 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Preis-Absatz-Funktion."
 ],
 "antworten":[
-"\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=-2,7:0}\\( x \\) + {1:NUMERICAL:=135:0}"
+"\\( p(x)= \\){1:NUMERICAL:=-6,7:0}\\( x \\)+{1:NUMERICAL:=469:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 180 GE.</p> <p>Die Gewinnschwelle beträgt 60 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 484 GE.</p> <p>Die Gewinnschwelle beträgt 44 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=3:0}\\( x \\) + {1:NUMERICAL:=-180:0}"
+"\\( G(x)= \\){1:NUMERICAL:=11:0}\\( x \\)+{1:NUMERICAL:=-484:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 275 GE.</p> <p>Die Gewinnschwelle beträgt 55 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 92 GE.</p> <p>Die Gewinnschwelle beträgt 92 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=5:0}\\( x \\) + {1:NUMERICAL:=-275:0}"
+"\\( G(x)= \\){1:NUMERICAL:=1:0}\\( x \\)+{1:NUMERICAL:=-92:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 703 GE.</p> <p>Die Sättigungsmenge beträgt 74 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 637 GE.</p> <p>Die Sättigungsmenge beträgt 91 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Preis-Absatz-Funktion."
 ],
 "antworten":[
-"\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=-9,5:0}\\( x \\) + {1:NUMERICAL:=703:0}"
+"\\( p(x)= \\){1:NUMERICAL:=-7:0}\\( x \\)+{1:NUMERICAL:=637:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 990 GE.</p> <p>Die Gewinnschwelle beträgt 99 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 585 GE.</p> <p>Die Gewinnschwelle beträgt 39 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=10:0}\\( x \\) + {1:NUMERICAL:=-990:0}"
+"\\( G(x)= \\){1:NUMERICAL:=15:0}\\( x \\)+{1:NUMERICAL:=-585:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 170 GE.</p> <p>Die Gewinnschwelle beträgt 10 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 900 GE.</p> <p>Die Gewinnschwelle beträgt 75 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=17:0}\\( x \\) + {1:NUMERICAL:=-170:0}"
+"\\( G(x)= \\){1:NUMERICAL:=12:0}\\( x \\)+{1:NUMERICAL:=-900:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 243 GE.</p> <p>Die Sättigungsmenge beträgt 81 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 725,2 GE.</p> <p>Die Sättigungsmenge beträgt 74 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Preis-Absatz-Funktion."
 ],
 "antworten":[
-"\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=-3:0}\\( x \\) + {1:NUMERICAL:=243:0}"
+"\\( p(x)= \\){1:NUMERICAL:=-9,8:0}\\( x \\)+{1:NUMERICAL:=725,2:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1368 GE.</p> <p>Die Gewinnschwelle beträgt 76 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 195 GE.</p> <p>Die Gewinnschwelle beträgt 5 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Gewinnfunktion."
 ],
 "antworten":[
-"\\( G(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=18:0}\\( x \\) + {1:NUMERICAL:=-1368:0}"
+"\\( G(x)= \\){1:NUMERICAL:=39:0}\\( x \\)+{1:NUMERICAL:=-195:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 142,5 GE.</p> <p>Die Sättigungsmenge beträgt 57 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Der Höchstpreis beträgt 361,8 GE.</p> <p>Die Sättigungsmenge beträgt 54 ME.",
 "fragen":[
 "Bestimmen Sie die lineare Preis-Absatz-Funktion."
 ],
 "antworten":[
-"\\( p(x)= \\){1:NUMERICAL:=0:0}\\( x^3 \\) + {1:NUMERICAL:=0:0}\\( x^2 \\) + {1:NUMERICAL:=-2,5:0}\\( x \\) + {1:NUMERICAL:=142,5:0}"
+"\\( p(x)= \\){1:NUMERICAL:=-6,7:0}\\( x \\)+{1:NUMERICAL:=361,8:0}"
 ]
 }
 ]
