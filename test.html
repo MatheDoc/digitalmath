@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durchgestrichenes Icon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .icon-wrapper {
+            display: inline-block;
+            position: relative;
+        }
+
+        .icon-wrapper::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px; /* Dicke der durchgestrichenen Linie */
+            background-color: red; /* Farbe der Linie */
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        <span class="icon-wrapper">
+            <i class="fas fa-paper-plane"></i>
+        </span>
+    </h2>
+</body>
+</html>

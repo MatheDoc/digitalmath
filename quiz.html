@@ -44,11 +44,17 @@
 </head>
  
 <body>
-    <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home"><h1>Yes, we can math!</h1></a>
-    <h2 id="aufgabenTitel">
-        Quiz
-        <i class="fas fa-redo reload-icon" onclick="window.location.reload();"></i>
+    <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home"><h1>Yes, we can math!</h1></a>  
+    <h2>
+        <span class="center-text">
+            Quiz
+            <i class="fas fa-paper-plane check-all-icon" title="Alle Fragen überprüfen" onclick="checkAllQuestions()"></i>
+            </span>
+        <span class="right-text">
+            <i class="fas fa-redo reload-icon" title="Neue Aufgabe" onclick="window.location.reload();"></i>
+        </span>
     </h2>
+
     <div id="aufgabe"></div>
 
     <script>
@@ -64,10 +70,10 @@
                 if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
                     feedbackElement.innerHTML = 'Richtig! (Die genaue Antwort lautet: ' + correctAnswer +'.)';
                     feedbackElement.style.color = "green";
+                    return true
                 } else {
                     feedbackElement.innerHTML = 'Falsch! Die richtige Antwort lautet: ' + correctAnswer +'.';
                     feedbackElement.style.color = "red";
-                    document.body.style.backgroundColor = '#f5b9b9';
                 }
                 feedbackElement.style.transition = "opacity 0.5s ease-in-out";
                 feedbackElement.style.opacity = 1;
@@ -81,8 +87,7 @@
             const userAnswer = document.getElementById(`answer${questionId}`).value;
             const feedbackElement = document.getElementById(`feedback${questionId}`);
 
-    // Entfernen Sie das führende `=`, falls vorhanden
-    const sanitizedUserAnswer = userAnswer.replace(/^=/, '').trim(); 
+            const sanitizedUserAnswer = userAnswer.replace(/^=/, '').trim(); 
 
             if (userAnswer) {
                 if (sanitizedUserAnswer.trim() === correctAnswer) {
@@ -91,7 +96,6 @@
                 } else {
                     feedbackElement.innerHTML = 'Falsch! Die richtige Antwort ist ' + correctAnswer + '.';
                     feedbackElement.style.color = "red";
-                    document.body.style.backgroundColor = '#f5b9b9';
                 }
                 feedbackElement.style.transition = "opacity 0.5s ease-in-out";
                 feedbackElement.style.opacity = 1;
@@ -101,13 +105,58 @@
             }
         }
 
+        function checkAllQuestions() {
+            let correctCount = 0; // Zähler für korrekte Antworten
+            let totalCount = 0; // Gesamtzahl der Fragen
+
+            // Alle numerischen Antworten überprüfen
+            document.querySelectorAll('input[type="number"]').forEach(input => {
+                totalCount++; // Erhöhe die Gesamtzahl der Fragen
+                const questionId = input.id.replace('answer', '');
+                const correctAnswer = input.getAttribute('data-correct-answer');
+                const tolerance = input.getAttribute('data-tolerance');
+                
+                // Überprüfe die Antwort und zähle korrekt
+                if (checkAnswer(questionId, parseFloat(correctAnswer), parseFloat(tolerance))) {
+                    correctCount++; // Erhöhe den Zähler für korrekte Antworten
+                }
+            });
+
+            // Alle Multiple-Choice-Antworten überprüfen
+            document.querySelectorAll('select.mch').forEach(select => {
+                totalCount++;
+                const questionId = select.id.replace('answer', '');
+                const correctAnswer = select.getAttribute('data-correct-answer');
+                
+                // Überprüfe die Antwort und zähle korrekt
+                if (checkMultipleChoiceAnswer(questionId, correctAnswer)) {
+                    correctCount++;
+                }
+            });
+
+            // Zeige die Gesamtbewertung an
+            if (totalCount > 0) { // Sicherstellen, dass Fragen vorhanden sind
+                // Hintergrundfarbe basierend auf der Anzahl der richtigen Antworten ändern
+                if (correctCount === totalCount) {
+                    document.body.style.backgroundColor = "#c1fdbd"; // Alle richtig
+                } else {
+                    document.body.style.backgroundColor = "#fdbdbd"; // Nicht alle richtig
+                }
+            } else {
+                alert("Es wurden keine Fragen gefunden."); // Nachricht, wenn keine Fragen vorhanden sind
+            }
+        }
+
+
+
+
 
         function replaceNumericalWithInteractive(htmlContent) {
             const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
             function replacer(match, correctAnswer, tolerance) {
                 const interactiveHtml = `
-                    <input type="number" id="answer${questionId}" placeholder="Antwort">
-                    <i class="fas fa-paper-plane check-icon" onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
+                    <input type="number" id="answer${questionId}" placeholder="Antwort" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
+                    <i class="fas fa-paper-plane check-icon "title="Frage überprüfen" onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
                     <span id="feedback${questionId}"></span>
                 `;
                 questionId++; // Eindeutige ID für jede Frage
@@ -117,46 +166,52 @@
         }
 
         function replaceMultipleChoiceWithDropdown(htmlContent) {
-            const pattern = /\{\d+:MCH:([^}]*)\}/g; // Regulärer Ausdruck, um die Multiple-Choice-Fragen zu finden
+            const pattern = /\{\d+:MCH:([^}]*)\}/g;
             
-            function replacer(match, optionsString) { // optionsString wird hier als Argument empfangen
-                // Optionen extrahieren und nur an ~ aufteilen
-                const options = optionsString.split('~'); // Aufteilen nur anhand von ~
+            function replacer(match, optionsString) {
+                const options = optionsString.split('~');
+                const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim();
 
-                // Korrekten Antwort finden
-                const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim(); // Die Antwort, die mit '=' beginnt, erfassen
-
-                // Dropdown mit Optionen erstellen
                 const optionsHtml = options.map(option => {
                     const trimmedOption = option.trim();
-                    // Option so erstellen, dass die korrekte Antwort als "correctAnswer" markiert wird
                     return `<option value="${trimmedOption}">${trimmedOption.replace(/^=/, '')}</option>`;
-                }).join(''); // Optionen in einen String umwandeln
+                }).join('');
 
                 const interactiveHtml = `
-                    <select id="answer${questionId}" class="mch">
+                    <select id="answer${questionId}" class="mch" data-correct-answer="${correctAnswer}">
                         ${optionsHtml}
                     </select>
                     <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
                     <span id="feedback${questionId}"></span>
                 `;
-                questionId++; // Eindeutige ID für jede Frage
-                return interactiveHtml; // Das erstellte Dropdown zurückgeben
+                questionId++; 
+                return interactiveHtml;
             }
 
-            // HTML-Inhalt ersetzen und das Dropdown hinzufügen
             return htmlContent.replace(pattern, replacer);
         }
 
-
+        // Event-Listener für alle Check-Icons dynamisch hinzufügen
+        function addCheckIconListeners() {
+            document.querySelectorAll('.check-icon, .check-all-icon').forEach(icon => {
+                icon.addEventListener('click', function() {
+                    const checkAllIcon = document.querySelector('.check-all-icon'); 
+                    if (checkAllIcon) {
+                        checkAllIcon.style.color = '#7e7e7e'
+                        checkAllIcon.onclick = null
+                        checkAllIcon.title = " "
+                        checkAllIcon.style.cursor = "auto"
+                    }
+                });
+            });
+        }
 
 
         function zeigeNeueAufgabe() {
             const params = new URLSearchParams(window.location.search);
-            const sammlungen = params.getAll('sammlung'); // Holt alle Sammlungen aus der URL
+            const sammlungen = params.getAll('sammlung');
 
             if (sammlungen.length > 0) {
-                // Für jede Sammlung eine Anfrage senden und Aufgaben anzeigen
                 sammlungen.forEach(sammlung => {
                     fetch(`Aufgaben/JSON/${sammlung}`)
                         .then(response => response.json())
@@ -177,12 +232,10 @@
                 const randomIndex = Math.floor(Math.random() * aufgaben.length);
                 const selectedTask = aufgaben[randomIndex];
 
-                // Erstelle HTML-Elemente für jede Sammlung und füge die Aufgabe hinzu
                 const aufgabeContainer = document.getElementById('aufgabe');
                 let htmlContent =
                     `<h3>Aufgabe ${aufgabenZaehler}</h3>
                     <div class="einleitung">
-                        <button class="neueAufgabe" onclick="zeigeNeueAufgabe()">Neu</button><br>
                         <p>${selectedTask.einleitung}</p>
                     </div>
                     <div class="nachfolgend">
@@ -195,65 +248,31 @@
                 htmlContent += `</ol>
                     </div>`;
 
-
-                // Füge das erstellte HTML der Seite hinzu
                 const aufgabenElement = document.createElement('div');
-                aufgabenElement.id = `aufgabe-${aufgabenZaehler}`
+                aufgabenElement.id = `aufgabe-${aufgabenZaehler}`;
                 var interactiveHtml = replaceNumericalWithInteractive(htmlContent);
                 interactiveHtml = replaceMultipleChoiceWithDropdown(interactiveHtml);
                 aufgabenElement.innerHTML = interactiveHtml;
                 aufgabeContainer.appendChild(aufgabenElement);
 
-                // Funktion zur Berechnung der maximalen Option
-                function calculateMaxOptionWidth(selectElement) {
-                    // Erstellt ein unsichtbares span-Element zur Messung der Textlänge
-                    var tempSpan = document.createElement('span');
-                    tempSpan.style.visibility = 'hidden';
-                    tempSpan.style.position = 'absolute';
-                    tempSpan.style.whiteSpace = 'nowrap';
-                    document.body.appendChild(tempSpan);
-
-                    var maxWidth = 0;
-
-                    // Gehe durch alle Optionen und finde die maximale Breite
-                    Array.from(selectElement.options).forEach(function(option) {
-                    tempSpan.textContent = option.text;
-                    var optionWidth = tempSpan.offsetWidth;
-                    if (optionWidth > maxWidth) {
-                        maxWidth = optionWidth;
-                    }
-                    });
-
-                    document.body.removeChild(tempSpan);  // Entfernt das temporäre span-Element
-
-                    return maxWidth;
-                }
-
-
-                // Initialisiere Select2 auf den Dropdown-Menüs nach dem Einfügen in das DOM
-                $(`#aufgabe-${aufgabenZaehler} select.mch`).each(function() {
-                    var selectElement = this;
-                    var maxWidth = calculateMaxOptionWidth(selectElement); // Berechne die maximale Breite
-                    
-                    $(selectElement).select2({
-                        placeholder: "Antwort",
-                        minimumResultsForSearch: Infinity, // Verbirgt die Suchleiste
-                        width: maxWidth + "px" // Setzt die Breite dynamisch basierend auf den Optionen
-                    });
+                // Select2 Initialisierung
+                $(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
+                    placeholder: "Antwort",
+                    minimumResultsForSearch: Infinity,
+                    width: 'auto'
                 });
 
-
-
-                // MathJax Neurendering auslösen (falls MathJax benötigt wird)
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
-                
-                // Erhöhe den Aufgabenzähler
-                aufgabenZaehler++; // Zähler erhöhen
+
+                aufgabenZaehler++;
+                        // Füge die Listener für die Check-Icons hinzu
+        addCheckIconListeners();
             } else {
                 console.error(`Keine Aufgaben in der Sammlung ${sammlung} gefunden.`);
                 document.getElementById('aufgabe').innerHTML += `<p>Keine Aufgaben in der Sammlung ${sammlung} gefunden.</p>`;
             }
         }
+
 
         // Initiales Laden einer zufälligen Aufgabe
         zeigeNeueAufgabe();
