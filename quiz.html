@@ -110,7 +110,7 @@
             let totalCount = 0; // Gesamtzahl der Fragen
 
             // Alle numerischen Antworten überprüfen
-            document.querySelectorAll('input[type="number"]').forEach(input => {
+            document.querySelectorAll('input[type="text"]').forEach(input => {
                 totalCount++; // Erhöhe die Gesamtzahl der Fragen
                 const questionId = input.id.replace('answer', '');
                 const correctAnswer = input.getAttribute('data-correct-answer');
@@ -155,7 +155,7 @@
             const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
             function replacer(match, correctAnswer, tolerance) {
                 const interactiveHtml = `
-                    <input type="number" id="answer${questionId}" placeholder="Antwort" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
+                    <input type="text" id="answer${questionId}" placeholder="Antwort" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
                     <i class="fas fa-paper-plane check-icon "title="Frage überprüfen" onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
                     <span id="feedback${questionId}"></span>
                 `;
