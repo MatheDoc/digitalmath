@@ -211,15 +211,17 @@
             const sammlungen = params.getAll('sammlung');
 
             if (sammlungen.length > 0) {
-                sammlungen.forEach(sammlung => {
-                    fetch(`Aufgaben/JSON/${sammlung}`)
-                        .then(response => response.json())
-                        .then(data => zeigeZufaelligeAufgabeAusSammlung(sammlung, data))
-                        .catch(error => {
-                            console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
-                            document.getElementById('aufgabe').innerHTML += `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${sammlung}.</p>`;
-                        });
-                });
+                // Eine zufällige Sammlung auswählen
+                const zufaelligeSammlung = sammlungen[Math.floor(Math.random() * sammlungen.length)];
+
+                // Aufgabe aus der zufällig ausgewählten Sammlung laden
+                fetch(`Aufgaben/JSON/${zufaelligeSammlung}`)
+                    .then(response => response.json())
+                    .then(data => zeigeZufaelligeAufgabeAusSammlung(zufaelligeSammlung, data))
+                    .catch(error => {
+                        console.error(`Fehler beim Laden der JSON-Datei für ${zufaelligeSammlung}:`, error);
+                        document.getElementById('aufgabe').innerHTML = `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${zufaelligeSammlung}.</p>`;
+                    });
             } else {
                 console.error('Keine Sammlung in der URL gefunden.');
                 document.getElementById('aufgabe').innerText = 'Keine Sammlung gefunden.';
