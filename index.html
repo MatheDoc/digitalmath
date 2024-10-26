@@ -259,17 +259,24 @@
 
                     // Teilen-Link generieren
                     $('#shareLink').on('click', function() {
-                        const selectedRows = [];
+                        const selectedCheckboxes = []; // Array zur Speicherung der ausgewählten Checkboxen
+
+                        // Durchlaufen der ausgewählten Checkboxen
                         table.$('.rowCheckbox:checked').each(function() {
-                            const row = $(this).closest('tr');
-                            const rowData = table.row(row).data();
-                            selectedRows.push(rowData);
+                            const checkboxIndex = table.row($(this).closest('tr')).index(); // Gibt den Index der Zeile zurück
+                            selectedCheckboxes.push(checkboxIndex);
                         });
-                        const json = JSON.stringify(selectedRows);
-                        const encodedJson = encodeURIComponent(json);
-                        const shareableLink = `${window.location.href}?config=${encodedJson}`;
+
+                        // Die Werte der ausgewählten Checkboxen in einen JSON-String umwandeln
+                        const json = JSON.stringify(selectedCheckboxes);
+                        const encodedJson = encodeURIComponent(json); // JSON-String URL-kodieren
+                        const shareableLink = `${window.location.href}?config=${encodedJson}`; // Teilen-Link erstellen
+
+                        // Link in die Zwischenablage kopieren
                         navigator.clipboard.writeText(shareableLink).then(() => {
-                            // alert('Link der gewählten Konfiguration wurde in die Zwischenablage kopiert: ' + shareableLink);
+                            alert('Link der Auswahl wurde in die Zwischenablage kopiert: ' + shareableLink);
+                        }).catch(err => {
+                            console.error('Fehler beim Kopieren in die Zwischenablage: ', err);
                         });
                     });
 
@@ -279,13 +286,12 @@
                     if (configJson) {
                         try {
                             const importedData = JSON.parse(decodeURIComponent(configJson));
-                            // Überprüfen, ob die Daten in der Tabelle sind
-                            table.rows().every(function() {
-                                const rowData = this.data();
-                                const isSelected = importedData.some(item => JSON.stringify(item) === JSON.stringify(rowData));
-                                const checkbox = $(this.node()).find('.rowCheckbox');
-                                checkbox.prop('checked', isSelected);
-                            });
+                             // Überprüfen, ob die Checkboxen in der Tabelle gesetzt werden müssen
+                             table.rows().every(function(index) { // index hier als Parameter
+                            const checkbox = $(this.node()).find('td:first-child .rowCheckbox'); // Die Checkbox in der ersten Spalte finden
+                            const isSelected = importedData.includes(index); // Überprüfen, ob der Zeilenindex in den importierten Daten vorhanden ist
+                            checkbox.prop('checked', isSelected); // Checkbox entsprechend setzen
+                        });
                         } catch (e) {
                             console.error('Ungültige Konfigurationsdaten');
                         }
