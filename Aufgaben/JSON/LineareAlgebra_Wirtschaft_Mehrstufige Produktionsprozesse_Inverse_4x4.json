@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}6&4&5&6\\\\11&2&4&12\\\\5&2&3&5\\\\5&1&2&5\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=2:0}\\( b= \\){1:NUMERICAL:=-1:0}\\( c= \\){1:NUMERICAL:=-6:0}\\( d= \\){1:NUMERICAL:=6:0}<br>\\( e= \\){1:NUMERICAL:=5:0}\\( f= \\){1:NUMERICAL:=0:0}\\( g= \\){1:NUMERICAL:=-13:0}\\( h= \\){1:NUMERICAL:=7:0}<br>\\( i= \\){1:NUMERICAL:=-5:0}\\( j= \\){1:NUMERICAL:=0:0}\\( k= \\){1:NUMERICAL:=14:0}\\( l= \\){1:NUMERICAL:=-8:0}<br>\\( m= \\){1:NUMERICAL:=-1:0}\\( n= \\){1:NUMERICAL:=1:0}\\( o= \\){1:NUMERICAL:=3:0}\\( p= \\){1:NUMERICAL:=-4:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}19&7&9&5\\\\2&12&3&3\\\\4&1&2&1\\\\1&4&1&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=0:0}\\( b= \\){1:NUMERICAL:=-1:0}\\( c= \\){1:NUMERICAL:=0:0}\\( d= \\){1:NUMERICAL:=3:0}<br>\\( e= \\){1:NUMERICAL:=-1:0}\\( f= \\){1:NUMERICAL:=-2:0}\\( g= \\){1:NUMERICAL:=4:0}\\( h= \\){1:NUMERICAL:=7:0}<br>\\( i= \\){1:NUMERICAL:=-3:0}\\( j= \\){1:NUMERICAL:=-3:0}\\( k= \\){1:NUMERICAL:=13:0}\\( l= \\){1:NUMERICAL:=11:0}<br>\\( m= \\){1:NUMERICAL:=7:0}\\( n= \\){1:NUMERICAL:=12:0}\\( o= \\){1:NUMERICAL:=-29:0}\\( p= \\){1:NUMERICAL:=-41:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}4&19&1&17\\\\3&5&3&14\\\\1&2&1&4\\\\2&2&3&4\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=16:0}\\( b= \\){1:NUMERICAL:=84:0}\\( c= \\){1:NUMERICAL:=-409:0}\\( d= \\){1:NUMERICAL:=47:0}<br>\\( e= \\){1:NUMERICAL:=-2:0}\\( f= \\){1:NUMERICAL:=-11:0}\\( g= \\){1:NUMERICAL:=53:0}\\( h= \\){1:NUMERICAL:=-6:0}<br>\\( i= \\){1:NUMERICAL:=-8:0}\\( j= \\){1:NUMERICAL:=-42:0}\\( k= \\){1:NUMERICAL:=204:0}\\( l= \\){1:NUMERICAL:=-23:0}<br>\\( m= \\){1:NUMERICAL:=-1:0}\\( n= \\){1:NUMERICAL:=-5:0}\\( o= \\){1:NUMERICAL:=25:0}\\( p= \\){1:NUMERICAL:=-3:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}6&3&8&3\\\\10&1&5&2\\\\17&3&10&7\\\\3&1&3&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-7:0}\\( b= \\){1:NUMERICAL:=-4:0}\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=22:0}<br>\\( e= \\){1:NUMERICAL:=-48:0}\\( f= \\){1:NUMERICAL:=-29:0}\\( g= \\){1:NUMERICAL:=7:0}\\( h= \\){1:NUMERICAL:=153:0}<br>\\( i= \\){1:NUMERICAL:=20:0}\\( j= \\){1:NUMERICAL:=12:0}\\( k= \\){1:NUMERICAL:=-3:0}\\( l= \\){1:NUMERICAL:=-63:0}<br>\\( m= \\){1:NUMERICAL:=9:0}\\( n= \\){1:NUMERICAL:=5:0}\\( o= \\){1:NUMERICAL:=-1:0}\\( p= \\){1:NUMERICAL:=-29:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&1&2&1\\\\4&4&7&4\\\\2&2&6&3\\\\2&3&9&4\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=-1:0}\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=-1:0}<br>\\( e= \\){1:NUMERICAL:=-2:0}\\( f= \\){1:NUMERICAL:=1:0}\\( g= \\){1:NUMERICAL:=-2:0}\\( h= \\){1:NUMERICAL:=1:0}<br>\\( i= \\){1:NUMERICAL:=4:0}\\( j= \\){1:NUMERICAL:=-1:0}\\( k= \\){1:NUMERICAL:=0:0}\\( l= \\){1:NUMERICAL:=0:0}<br>\\( m= \\){1:NUMERICAL:=-10:0}\\( n= \\){1:NUMERICAL:=2:0}\\( o= \\){1:NUMERICAL:=1:0}\\( p= \\){1:NUMERICAL:=0:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}9&7&3&12\\\\16&9&4&17\\\\4&6&3&8\\\\2&2&1&3\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-1:0}\\( b= \\){1:NUMERICAL:=1:0}\\( c= \\){1:NUMERICAL:=2:0}\\( d= \\){1:NUMERICAL:=-7:0}<br>\\( e= \\){1:NUMERICAL:=-2:0}\\( f= \\){1:NUMERICAL:=3:0}\\( g= \\){1:NUMERICAL:=9:0}\\( h= \\){1:NUMERICAL:=-33:0}<br>\\( i= \\){1:NUMERICAL:=0:0}\\( j= \\){1:NUMERICAL:=-2:0}\\( k= \\){1:NUMERICAL:=-7:0}\\( l= \\){1:NUMERICAL:=30:0}<br>\\( m= \\){1:NUMERICAL:=2:0}\\( n= \\){1:NUMERICAL:=-2:0}\\( o= \\){1:NUMERICAL:=-5:0}\\( p= \\){1:NUMERICAL:=17:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}5&5&2&1\\\\4&8&2&3\\\\17&19&7&4\\\\14&17&6&4\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=1:0}\\( c= \\){1:NUMERICAL:=2:0}\\( d= \\){1:NUMERICAL:=-3:0}<br>\\( e= \\){1:NUMERICAL:=-4:0}\\( f= \\){1:NUMERICAL:=0:0}\\( g= \\){1:NUMERICAL:=2:0}\\( h= \\){1:NUMERICAL:=-1:0}<br>\\( i= \\){1:NUMERICAL:=5:0}\\( j= \\){1:NUMERICAL:=-3:0}\\( k= \\){1:NUMERICAL:=-9:0}\\( l= \\){1:NUMERICAL:=10:0}<br>\\( m= \\){1:NUMERICAL:=6:0}\\( n= \\){1:NUMERICAL:=1:0}\\( o= \\){1:NUMERICAL:=-2:0}\\( p= \\){1:NUMERICAL:=0:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}5&17&11&4\\\\3&1&4&2\\\\2&5&3&1\\\\5&14&7&2\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-1:0}\\( b= \\){1:NUMERICAL:=-1:0}\\( c= \\){1:NUMERICAL:=12:0}\\( d= \\){1:NUMERICAL:=-3:0}<br>\\( e= \\){1:NUMERICAL:=-1:0}\\( f= \\){1:NUMERICAL:=-2:0}\\( g= \\){1:NUMERICAL:=18:0}\\( h= \\){1:NUMERICAL:=-5:0}<br>\\( i= \\){1:NUMERICAL:=5:0}\\( j= \\){1:NUMERICAL:=9:0}\\( k= \\){1:NUMERICAL:=-86:0}\\( l= \\){1:NUMERICAL:=24:0}<br>\\( m= \\){1:NUMERICAL:=-8:0}\\( n= \\){1:NUMERICAL:=-15:0}\\( o= \\){1:NUMERICAL:=145:0}\\( p= \\){1:NUMERICAL:=-41:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}5&2&2&2\\\\10&2&1&2\\\\7&3&7&2\\\\3&1&1&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-1:0}\\( b= \\){1:NUMERICAL:=0:0}\\( c= \\){1:NUMERICAL:=0:0}\\( d= \\){1:NUMERICAL:=2:0}<br>\\( e= \\){1:NUMERICAL:=21:0}\\( f= \\){1:NUMERICAL:=5:0}\\( g= \\){1:NUMERICAL:=1:0}\\( h= \\){1:NUMERICAL:=-54:0}<br>\\( i= \\){1:NUMERICAL:=-4:0}\\( j= \\){1:NUMERICAL:=-1:0}\\( k= \\){1:NUMERICAL:=0:0}\\( l= \\){1:NUMERICAL:=10:0}<br>\\( m= \\){1:NUMERICAL:=-14:0}\\( n= \\){1:NUMERICAL:=-4:0}\\( o= \\){1:NUMERICAL:=-1:0}\\( p= \\){1:NUMERICAL:=39:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}17&16&10&2\\\\4&5&4&1\\\\4&7&7&2\\\\5&7&12&4\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=-6:0}\\( c= \\){1:NUMERICAL:=2:0}\\( d= \\){1:NUMERICAL:=0:0}<br>\\( e= \\){1:NUMERICAL:=5:0}\\( f= \\){1:NUMERICAL:=-34:0}\\( g= \\){1:NUMERICAL:=14:0}\\( h= \\){1:NUMERICAL:=-1:0}<br>\\( i= \\){1:NUMERICAL:=-19:0}\\( j= \\){1:NUMERICAL:=128:0}\\( k= \\){1:NUMERICAL:=-51:0}\\( l= \\){1:NUMERICAL:=3:0}<br>\\( m= \\){1:NUMERICAL:=47:0}\\( n= \\){1:NUMERICAL:=-317:0}\\( o= \\){1:NUMERICAL:=126:0}\\( p= \\){1:NUMERICAL:=-7:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}6&8&10&3\\\\1&14&5&3\\\\15&5&5&2\\\\2&3&3&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=9:0}\\( b= \\){1:NUMERICAL:=2:0}\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=-35:0}<br>\\( e= \\){1:NUMERICAL:=49:0}\\( f= \\){1:NUMERICAL:=11:0}\\( g= \\){1:NUMERICAL:=5:0}\\( h= \\){1:NUMERICAL:=-190:0}<br>\\( i= \\){1:NUMERICAL:=50:0}\\( j= \\){1:NUMERICAL:=11:0}\\( k= \\){1:NUMERICAL:=5:0}\\( l= \\){1:NUMERICAL:=-193:0}<br>\\( m= \\){1:NUMERICAL:=-315:0}\\( n= \\){1:NUMERICAL:=-70:0}\\( o= \\){1:NUMERICAL:=-32:0}\\( p= \\){1:NUMERICAL:=1220:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}18&11&10&2\\\\10&8&7&1\\\\3&3&1&1\\\\10&10&4&3\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=-3:0}\\( c= \\){1:NUMERICAL:=-29:0}\\( d= \\){1:NUMERICAL:=10:0}<br>\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=-4:0}\\( g= \\){1:NUMERICAL:=-46:0}\\( h= \\){1:NUMERICAL:=16:0}<br>\\( i= \\){1:NUMERICAL:=-2:0}\\( j= \\){1:NUMERICAL:=7:0}\\( k= \\){1:NUMERICAL:=72:0}\\( l= \\){1:NUMERICAL:=-25:0}<br>\\( m= \\){1:NUMERICAL:=-4:0}\\( n= \\){1:NUMERICAL:=14:0}\\( o= \\){1:NUMERICAL:=154:0}\\( p= \\){1:NUMERICAL:=-53:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}5&5&2&1\\\\19&15&19&5\\\\14&15&6&3\\\\4&4&3&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=3:0}\\( b= \\){1:NUMERICAL:=0:0}\\( c= \\){1:NUMERICAL:=-1:0}\\( d= \\){1:NUMERICAL:=0:0}<br>\\( e= \\){1:NUMERICAL:=5:0}\\( f= \\){1:NUMERICAL:=-1:0}\\( g= \\){1:NUMERICAL:=-3:0}\\( h= \\){1:NUMERICAL:=9:0}<br>\\( i= \\){1:NUMERICAL:=7:0}\\( j= \\){1:NUMERICAL:=-1:0}\\( k= \\){1:NUMERICAL:=-4:0}\\( l= \\){1:NUMERICAL:=10:0}<br>\\( m= \\){1:NUMERICAL:=-53:0}\\( n= \\){1:NUMERICAL:=7:0}\\( o= \\){1:NUMERICAL:=28:0}\\( p= \\){1:NUMERICAL:=-65:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}15&8&2&3\\\\3&2&3&1\\\\1&5&5&2\\\\18&10&14&5\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=26:0}\\( c= \\){1:NUMERICAL:=-2:0}\\( d= \\){1:NUMERICAL:=-5:0}<br>\\( e= \\){1:NUMERICAL:=8:0}\\( f= \\){1:NUMERICAL:=211:0}\\( g= \\){1:NUMERICAL:=-15:0}\\( h= \\){1:NUMERICAL:=-41:0}<br>\\( i= \\){1:NUMERICAL:=3:0}\\( j= \\){1:NUMERICAL:=83:0}\\( k= \\){1:NUMERICAL:=-6:0}\\( l= \\){1:NUMERICAL:=-16:0}<br>\\( m= \\){1:NUMERICAL:=-28:0}\\( n= \\){1:NUMERICAL:=-748:0}\\( o= \\){1:NUMERICAL:=54:0}\\( p= \\){1:NUMERICAL:=145:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}4&6&11&3\\\\14&11&16&4\\\\7&3&17&5\\\\3&3&4&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-3:0}\\( b= \\){1:NUMERICAL:=-3:0}\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=16:0}<br>\\( e= \\){1:NUMERICAL:=-6:0}\\( f= \\){1:NUMERICAL:=-7:0}\\( g= \\){1:NUMERICAL:=2:0}\\( h= \\){1:NUMERICAL:=36:0}<br>\\( i= \\){1:NUMERICAL:=32:0}\\( j= \\){1:NUMERICAL:=36:0}\\( k= \\){1:NUMERICAL:=-11:0}\\( l= \\){1:NUMERICAL:=-185:0}<br>\\( m= \\){1:NUMERICAL:=-101:0}\\( n= \\){1:NUMERICAL:=-114:0}\\( o= \\){1:NUMERICAL:=35:0}\\( p= \\){1:NUMERICAL:=585:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}4&11&10&3\\\\2&5&3&1\\\\1&3&3&1\\\\8&17&8&2\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-4:0}\\( b= \\){1:NUMERICAL:=-7:0}\\( c= \\){1:NUMERICAL:=15:0}\\( d= \\){1:NUMERICAL:=2:0}<br>\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=4:0}\\( g= \\){1:NUMERICAL:=-8:0}\\( h= \\){1:NUMERICAL:=-1:0}<br>\\( i= \\){1:NUMERICAL:=1:0}\\( j= \\){1:NUMERICAL:=-1:0}\\( k= \\){1:NUMERICAL:=-2:0}\\( l= \\){1:NUMERICAL:=0:0}<br>\\( m= \\){1:NUMERICAL:=-5:0}\\( n= \\){1:NUMERICAL:=-2:0}\\( o= \\){1:NUMERICAL:=16:0}\\( p= \\){1:NUMERICAL:=1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}6&3&11&2\\\\2&3&5&1\\\\3&9&9&2\\\\2&5&4&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=-4:0}\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=0:0}<br>\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=-5:0}\\( g= \\){1:NUMERICAL:=2:0}\\( h= \\){1:NUMERICAL:=-1:0}<br>\\( i= \\){1:NUMERICAL:=2:0}\\( j= \\){1:NUMERICAL:=-9:0}\\( k= \\){1:NUMERICAL:=4:0}\\( l= \\){1:NUMERICAL:=-3:0}<br>\\( m= \\){1:NUMERICAL:=-15:0}\\( n= \\){1:NUMERICAL:=69:0}\\( o= \\){1:NUMERICAL:=-28:0}\\( p= \\){1:NUMERICAL:=18:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}3&3&1&2\\\\8&16&3&8\\\\11&5&3&5\\\\16&5&5&7\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-14:0}\\( b= \\){1:NUMERICAL:=2:0}\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=1:0}<br>\\( e= \\){1:NUMERICAL:=-33:0}\\( f= \\){1:NUMERICAL:=5:0}\\( g= \\){1:NUMERICAL:=1:0}\\( h= \\){1:NUMERICAL:=3:0}<br>\\( i= \\){1:NUMERICAL:=-72:0}\\( j= \\){1:NUMERICAL:=11:0}\\( k= \\){1:NUMERICAL:=0:0}\\( l= \\){1:NUMERICAL:=8:0}<br>\\( m= \\){1:NUMERICAL:=107:0}\\( n= \\){1:NUMERICAL:=-16:0}\\( o= \\){1:NUMERICAL:=-3:0}\\( p= \\){1:NUMERICAL:=-10:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}5&6&7&6\\\\4&5&6&3\\\\3&7&5&4\\\\1&4&2&2\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-4:0}\\( b= \\){1:NUMERICAL:=-10:0}\\( c= \\){1:NUMERICAL:=34:0}\\( d= \\){1:NUMERICAL:=-41:0}<br>\\( e= \\){1:NUMERICAL:=-1:0}\\( f= \\){1:NUMERICAL:=-2:0}\\( g= \\){1:NUMERICAL:=7:0}\\( h= \\){1:NUMERICAL:=-8:0}<br>\\( i= \\){1:NUMERICAL:=3:0}\\( j= \\){1:NUMERICAL:=8:0}\\( k= \\){1:NUMERICAL:=-26:0}\\( l= \\){1:NUMERICAL:=31:0}<br>\\( m= \\){1:NUMERICAL:=1:0}\\( n= \\){1:NUMERICAL:=1:0}\\( o= \\){1:NUMERICAL:=-5:0}\\( p= \\){1:NUMERICAL:=6:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}5&2&2&1\\\\14&3&3&4\\\\9&2&3&6\\\\4&1&1&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-1:0}\\( b= \\){1:NUMERICAL:=-1:0}\\( c= \\){1:NUMERICAL:=0:0}\\( d= \\){1:NUMERICAL:=5:0}<br>\\( e= \\){1:NUMERICAL:=9:0}\\( f= \\){1:NUMERICAL:=12:0}\\( g= \\){1:NUMERICAL:=-1:0}\\( h= \\){1:NUMERICAL:=-51:0}<br>\\( i= \\){1:NUMERICAL:=-7:0}\\( j= \\){1:NUMERICAL:=-11:0}\\( k= \\){1:NUMERICAL:=1:0}\\( l= \\){1:NUMERICAL:=45:0}<br>\\( m= \\){1:NUMERICAL:=2:0}\\( n= \\){1:NUMERICAL:=3:0}\\( o= \\){1:NUMERICAL:=0:0}\\( p= \\){1:NUMERICAL:=-13:0}<br>"
+]
+}
+]

@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&1\\\\3&2\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-2:0}\\( b= \\){1:NUMERICAL:=1:0}<br>\\( c= \\){1:NUMERICAL:=3:0}\\( d= \\){1:NUMERICAL:=-1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&1\\\\4&3\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-3:0}\\( b= \\){1:NUMERICAL:=1:0}<br>\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=-1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}5&1\\\\4&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=-1:0}<br>\\( c= \\){1:NUMERICAL:=-4:0}\\( d= \\){1:NUMERICAL:=5:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}3&1\\\\8&3\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=3:0}\\( b= \\){1:NUMERICAL:=-1:0}<br>\\( c= \\){1:NUMERICAL:=-8:0}\\( d= \\){1:NUMERICAL:=3:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&3\\\\3&10\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=10:0}\\( b= \\){1:NUMERICAL:=-3:0}<br>\\( c= \\){1:NUMERICAL:=-3:0}\\( d= \\){1:NUMERICAL:=1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}4&1\\\\19&5\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=-1:0}<br>\\( c= \\){1:NUMERICAL:=-19:0}\\( d= \\){1:NUMERICAL:=4:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}15&4\\\\4&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-1:0}\\( b= \\){1:NUMERICAL:=4:0}<br>\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=-15:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}3&4\\\\1&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-1:0}\\( b= \\){1:NUMERICAL:=4:0}<br>\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=-3:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}2&1\\\\9&5\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=-1:0}<br>\\( c= \\){1:NUMERICAL:=-9:0}\\( d= \\){1:NUMERICAL:=2:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}2&1\\\\7&4\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=4:0}\\( b= \\){1:NUMERICAL:=-1:0}<br>\\( c= \\){1:NUMERICAL:=-7:0}\\( d= \\){1:NUMERICAL:=2:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&1\\\\4&3\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-3:0}\\( b= \\){1:NUMERICAL:=1:0}<br>\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=-1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&2\\\\4&7\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-7:0}\\( b= \\){1:NUMERICAL:=2:0}<br>\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=-1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}6&5\\\\1&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=-5:0}<br>\\( c= \\){1:NUMERICAL:=-1:0}\\( d= \\){1:NUMERICAL:=6:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&2\\\\5&11\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=11:0}\\( b= \\){1:NUMERICAL:=-2:0}<br>\\( c= \\){1:NUMERICAL:=-5:0}\\( d= \\){1:NUMERICAL:=1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&1\\\\5&4\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-4:0}\\( b= \\){1:NUMERICAL:=1:0}<br>\\( c= \\){1:NUMERICAL:=5:0}\\( d= \\){1:NUMERICAL:=-1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}3&1\\\\10&3\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-3:0}\\( b= \\){1:NUMERICAL:=1:0}<br>\\( c= \\){1:NUMERICAL:=10:0}\\( d= \\){1:NUMERICAL:=-3:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&4\\\\2&9\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=9:0}\\( b= \\){1:NUMERICAL:=-4:0}<br>\\( c= \\){1:NUMERICAL:=-2:0}\\( d= \\){1:NUMERICAL:=1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}5&1\\\\4&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=-1:0}<br>\\( c= \\){1:NUMERICAL:=-4:0}\\( d= \\){1:NUMERICAL:=5:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}1&2\\\\5&9\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-9:0}\\( b= \\){1:NUMERICAL:=2:0}<br>\\( c= \\){1:NUMERICAL:=5:0}\\( d= \\){1:NUMERICAL:=-1:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben: \\( A = \\left(\\begin{matrix}2&3\\\\1&1\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die inverse Matrix \\( A^{-1} = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=-1:0}\\( b= \\){1:NUMERICAL:=3:0}<br>\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=-2:0}<br>"
+]
+}
+]
