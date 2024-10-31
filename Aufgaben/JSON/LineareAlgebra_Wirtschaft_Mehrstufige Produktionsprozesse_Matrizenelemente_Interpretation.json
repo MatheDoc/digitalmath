@@ -1,261 +1,261 @@
 ﻿[
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&3&1\\\\4&9&3\\\\6&14&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}1&3\\\\3&9\\\\5&15\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&3&6&3\\\\1&2&5&2\\\\3&7&17&8\\\\2&3&9&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}15&21&9&12\\\\10&14&6&8\\\\40&56&24&32\\\\20&28&12&16\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-" R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" R3, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
-" Z3, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z1, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
 ],
 "antworten":[
-"{1:NUMERICAL:=9:0}",
-"{1:NUMERICAL:=6:0}",
-"{1:NUMERICAL:=1:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&6\\\\8&6\\\\7&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}4&9&5\\\\8&2&3\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" Z1, die für Herstellung von einer Mengeneinheit von E3 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=5:0}",
-"{1:NUMERICAL:=2:0}",
-"{1:NUMERICAL:=48:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}11&4&9\\\\14&5&11\\\\9&3&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}45&45&27\\\\55&55&33\\\\35&35&21\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R2, die für Herstellung von einer Mengeneinheit von E3 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
-" Z3, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=33:0}",
-"{1:NUMERICAL:=11:0}",
-"{1:NUMERICAL:=5:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&6&4&2\\\\8&9&7&1\\\\3&1&7&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}1&4\\\\3&9\\\\9&2\\\\7&4\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" Z3, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von Z3 nötig sind.",
-" R3, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=9:0}",
-"{1:NUMERICAL:=4:0}",
-"{1:NUMERICAL:=35:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&2&7\\\\3&2&4\\\\6&3&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}54&27&72\\\\6&3&8\\\\30&15&40\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R3, die für Herstellung von einer Mengeneinheit von Z3 nötig sind.",
-" R3, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" Z2, die für Herstellung von einer Mengeneinheit von E3 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=5:0}",
-"{1:NUMERICAL:=15:0}",
-"{1:NUMERICAL:=4:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}10&7&4\\\\2&2&1\\\\13&9&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}78&54&30\\\\65&45&25\\\\65&45&25\\\\65&45&25\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" Z3, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" R3, die für Herstellung von einer Mengeneinheit von Z2 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=9:0}",
-"{1:NUMERICAL:=1:0}",
-"{1:NUMERICAL:=45:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}4&3&3\\\\1&5&1\\\\9&6&9\\\\2&6&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}2&4&9&1\\\\3&2&5&8\\\\5&3&4&7\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R1, die für Herstellung von einer Mengeneinheit von Z3 nötig sind.",
-" Z1, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
-],
-"antworten":[
+"{1:NUMERICAL:=10:0}",
 "{1:NUMERICAL:=3:0}",
-"{1:NUMERICAL:=1:0}",
-"{1:NUMERICAL:=5:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&2&2\\\\3&5&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}9&8&5&4\\\\5&7&4&6\\\\5&7&1&1\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R2, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
-" Z3, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=3:0}",
-"{1:NUMERICAL:=7:0}",
-"{1:NUMERICAL:=14:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}5&11&8&14\\\\1&2&2&3\\\\2&5&3&6\\\\1&3&3&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}84&56&84\\\\18&12&18\\\\36&24&36\\\\24&16&24\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R2, die für Herstellung von einer Mengeneinheit von E3 nötig sind.",
-" Z3, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von Z3 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=18:0}",
-"{1:NUMERICAL:=7:0}",
-"{1:NUMERICAL:=2:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&7&8\\\\7&6&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}7&9\\\\9&3\\\\7&6\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R2, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" Z3, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von Z2 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=63:0}",
-"{1:NUMERICAL:=6:0}",
-"{1:NUMERICAL:=6:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}7&2\\\\4&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}8&2\\\\8&2\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R2, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
-" Z1, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=8:0}",
-"{1:NUMERICAL:=8:0}",
-"{1:NUMERICAL:=2:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&5&2\\\\5&6&2\\\\3&3&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}2&4\\\\2&4\\\\1&2\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" Z2, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=4:0}",
-"{1:NUMERICAL:=1:0}",
-"{1:NUMERICAL:=3:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&2\\\\2&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}10&14&16&14\\\\5&7&8&7\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" Z2, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von E3 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von Z2 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=7:0}",
-"{1:NUMERICAL:=8:0}",
-"{1:NUMERICAL:=1:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}11&5&4\\\\6&3&2\\\\2&1&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}28&16&4\\\\14&8&2\\\\7&4&1\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" Z1, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von E3 nötig sind.",
-" R3, die für Herstellung von einer Mengeneinheit von Z2 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=8:0}",
-"{1:NUMERICAL:=2:0}",
-"{1:NUMERICAL:=1:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}6&2\\\\2&8\\\\9&4\\\\2&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&6&3\\\\1&9&7\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R1, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von Z2 nötig sind.",
-" Z2, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=2:0}",
-"{1:NUMERICAL:=2:0}",
 "{1:NUMERICAL:=9:0}"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&4\\\\2&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}36&32&32&36\\\\27&24&24&27\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}7&4\\\\7&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}6&3&8&2\\\\5&6&5&8\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-" R1, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" Z2, die für Herstellung von einer Mengeneinheit von E3 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von Z2 nötig sind."
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z2, die für Herstellung von einer Mengeneinheit von E4 nötig sind."
 ],
 "antworten":[
-"{1:NUMERICAL:=36:0}",
-"{1:NUMERICAL:=8:0}",
-"{1:NUMERICAL:=4:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&5&2&6\\\\3&5&2&6\\\\2&3&1&4\\\\3&5&1&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}15&25&5&35\\\\18&30&6&42\\\\27&45&9&63\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" Z3, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" R3, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von Z4 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=3:0}",
-"{1:NUMERICAL:=45:0}",
-"{1:NUMERICAL:=6:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}6&2\\\\2&8\\\\9&4\\\\2&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&6&3\\\\1&9&7\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" R1, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" R1, die für Herstellung von einer Mengeneinheit von Z2 nötig sind.",
-" Z2, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=2:0}",
-"{1:NUMERICAL:=2:0}",
-"{1:NUMERICAL:=9:0}"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}5&3\\\\8&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}9&12&21&27\\\\15&20&35&45\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-" Z1, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von Z1 nötig sind."
-],
-"antworten":[
-"{1:NUMERICAL:=2:0}",
-"{1:NUMERICAL:=20:0}",
+"{1:NUMERICAL:=64:0}",
+"{1:NUMERICAL:=4:0}",
 "{1:NUMERICAL:=8:0}"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&7\\\\3&3\\\\5&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}5&8&3\\\\1&2&3\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&3\\\\7&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&7&8\\\\6&9&1\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-" R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
-" Z1, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
-" R2, die für Herstellung von einer Mengeneinheit von Z1 nötig sind."
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von Z2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z1, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=2:0}",
+"{1:NUMERICAL:=8:0}",
+"{1:NUMERICAL:=18:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}5&5\\\\1&6\\\\8&4\\\\9&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&8\\\\4&9\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z1, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R3, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von Z1 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=8:0}",
+"{1:NUMERICAL:=16:0}",
+"{1:NUMERICAL:=1:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}12&7\\\\19&11\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}21&63&63&21\\\\33&99&99&33\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z2, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E3 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=19:0}",
+"{1:NUMERICAL:=9:0}",
+"{1:NUMERICAL:=99:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&2&2&3\\\\2&1&2&2\\\\2&2&3&3\\\\3&2&4&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}18&12&24&18\\\\15&10&20&15\\\\6&4&8&6\\\\21&14&28&21\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R4, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z4, die für Herstellung von einer Mengeneinheit von E3 nötig sind."
 ],
 "antworten":[
 "{1:NUMERICAL:=6:0}",
-"{1:NUMERICAL:=5:0}",
+"{1:NUMERICAL:=21:0}",
+"{1:NUMERICAL:=4:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}8&2&7&3\\\\1&5&3&3\\\\2&2&2&2\\\\7&4&7&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}3&3&5&5\\\\7&7&1&5\\\\8&5&9&6\\\\8&7&3&8\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z3, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von Z2 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=21:0}",
+"{1:NUMERICAL:=6:0}",
+"{1:NUMERICAL:=5:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&2&1\\\\5&5&3\\\\6&5&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}36&30&18\\\\42&35&21\\\\54&45&27\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E3 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z1, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=21:0}",
+"{1:NUMERICAL:=2:0}",
+"{1:NUMERICAL:=2:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}4&9\\\\1&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}6&12\\\\6&12\\\\8&16\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z1, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=12:0}",
+"{1:NUMERICAL:=9:0}",
+"{1:NUMERICAL:=4:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}5&4&7&1\\\\3&3&4&1\\\\4&4&5&2\\\\2&2&3&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}4&1&6\\\\4&1&6\\\\8&2&12\\\\4&1&6\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von Z4 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z2, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=4:0}",
+"{1:NUMERICAL:=1:0}",
+"{1:NUMERICAL:=5:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&5&8\\\\1&2&3\\\\3&8&12\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}6&16&24\\\\15&40&60\\\\9&24&36\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z2, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z3 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=1:0}",
+"{1:NUMERICAL:=2:0}",
+"{1:NUMERICAL:=40:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&3&2&6\\\\1&1&1&2\\\\1&2&2&4\\\\5&9&6&17\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}20&36&24&68\\\\10&18&12&34\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z4, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z3 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=34:0}",
+"{1:NUMERICAL:=9:0}",
+"{1:NUMERICAL:=5:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&3&4&6\\\\3&2&2&4\\\\5&3&3&7\\\\10&6&7&12\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}30&18&21&36\\\\40&24&28&48\\\\90&54&63&108\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z4, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von Z3 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=12:0}",
+"{1:NUMERICAL:=48:0}",
+"{1:NUMERICAL:=9:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}1&2&1&2\\\\3&4&2&3\\\\5&7&3&4\\\\8&11&5&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}16&22&10&16\\\\24&33&15&24\\\\8&11&5&8\\\\48&66&30&48\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R3, die für Herstellung von einer Mengeneinheit von E4 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R4, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z3, die für Herstellung von einer Mengeneinheit von E3 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=8:0}",
+"{1:NUMERICAL:=2:0}",
+"{1:NUMERICAL:=3:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&2&3\\\\7&7&10\\\\7&8&11\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}18&27\\\\60&90\\\\66&99\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von Z2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z2, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=7:0}",
+"{1:NUMERICAL:=27:0}",
+"{1:NUMERICAL:=2:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}1&2\\\\2&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}10&15\\\\4&6\\\\4&6\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R3, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z1, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von Z2 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=6:0}",
+"{1:NUMERICAL:=2:0}",
+"{1:NUMERICAL:=2:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}7&9\\\\5&3\\\\9&3\\\\1&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}6&4&4\\\\9&1&9\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z2, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R3, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=9:0}",
+"{1:NUMERICAL:=27:0}",
+"{1:NUMERICAL:=7:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&1&3&1\\\\4&1&2&6\\\\2&1&2&3\\\\4&2&5&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}8&5\\\\48&30\\\\24&15\\\\48&30\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z1, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=30:0}",
+"{1:NUMERICAL:=1:0}",
+"{1:NUMERICAL:=2:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&3&11&6\\\\1&2&7&4\\\\1&2&5&3\\\\1&1&2&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}18&48&6\\\\12&32&4\\\\9&24&3\\\\6&16&2\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R3, die für Herstellung von einer Mengeneinheit von Z2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z3, die für Herstellung von einer Mengeneinheit von E1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R2, die für Herstellung von einer Mengeneinheit von E1 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=2:0}",
+"{1:NUMERICAL:=1:0}",
+"{1:NUMERICAL:=12:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}1&2&1\\\\2&7&3\\\\3&7&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}6&14&6\\\\21&49&21\\\\3&7&3\\\\27&63&27\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R1, die für Herstellung von einer Mengeneinheit von Z1 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von Z1, die für Herstellung von einer Mengeneinheit von E2 nötig sind.",
+"Bestimmen Sie die Anzahl der Mengeneinheiten von R3, die für Herstellung von einer Mengeneinheit von E3 nötig sind."
+],
+"antworten":[
+"{1:NUMERICAL:=9:0}",
+"{1:NUMERICAL:=2:0}",
 "{1:NUMERICAL:=3:0}"
 ]
 }
