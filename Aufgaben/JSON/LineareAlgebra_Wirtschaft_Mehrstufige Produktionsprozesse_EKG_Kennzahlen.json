@@ -1,0 +1,502 @@
+﻿[
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&1&4\\\\2&9&8\\\\5&6&9\\\\6&6&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}4&3&2&8\\\\9&7&2&9\\\\5&1&2&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}37&17&14&29\\\\129&77&38&105\\\\119&66&40&103\\\\118&68&40&110\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}3\\\\8\\\\4\\\\9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}8&6&9&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}4&8&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}5&4&8&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=10000\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}4573&2141&1757&4753\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=3311:0}\\( b= \\){1:NUMERICAL:=1879:0}\\( c= \\){1:NUMERICAL:=1098:0}\\( d= \\){1:NUMERICAL:=2895:0}<br>",
+"\\( a= \\){1:NUMERICAL:=1262:0}\\( b= \\){1:NUMERICAL:=262:0}\\( c= \\){1:NUMERICAL:=659:0}\\( d= \\){1:NUMERICAL:=1858:0}<br>",
+"{1:NUMERICAL:=53292:0}",
+"{1:NUMERICAL:=1960:0}",
+"{1:NUMERICAL:=160:0}",
+"{1:NUMERICAL:=65412:0}",
+"{1:NUMERICAL:=80652:0}",
+"{1:NUMERICAL:=25240:0}",
+"{1:NUMERICAL:=15240:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&5&1\\\\8&3&1\\\\2&5&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}2&1\\\\8&3\\\\5&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}49&21\\\\45&21\\\\64&33\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}8\\\\1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}2&2&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}3&1&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}2&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=910\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}606&215\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=667:0}\\( b= \\){1:NUMERICAL:=339:0}<br>",
+"\\( a= \\){1:NUMERICAL:=-61:0}\\( b= \\){1:NUMERICAL:=-124:0}<br>",
+"{1:NUMERICAL:=5403:0}",
+"{1:NUMERICAL:=250:0}",
+"{1:NUMERICAL:=22:0}",
+"{1:NUMERICAL:=6585:0}",
+"{1:NUMERICAL:=5063:0}",
+"{1:NUMERICAL:=-612:0}",
+"{1:NUMERICAL:=-1522:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}9&1&4\\\\6&7&4\\\\6&1&4\\\\1&9&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&6&7\\\\4&4&5\\\\4&2&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}92&66&92\\\\92&72&101\\\\68&48&71\\\\56&48&70\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}1\\\\8\\\\1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}5&5&5&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}7&2&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}3&3&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=7200\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}1589&2040&1961\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1791:0}\\( b= \\){1:NUMERICAL:=1375:0}\\( c= \\){1:NUMERICAL:=1972:0}<br>",
+"\\( a= \\){1:NUMERICAL:=-202:0}\\( b= \\){1:NUMERICAL:=665:0}\\( c= \\){1:NUMERICAL:=-11:0}<br>",
+"{1:NUMERICAL:=14100:0}",
+"{1:NUMERICAL:=627:0}",
+"{1:NUMERICAL:=36:0}",
+"{1:NUMERICAL:=21963:0}",
+"{1:NUMERICAL:=19870:0}",
+"{1:NUMERICAL:=5107:0}",
+"{1:NUMERICAL:=-2093:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&2&7\\\\9&3&4\\\\1&5&7\\\\2&4&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}4&9&8\\\\4&2&5\\\\6&9&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}62&94&90\\\\72&123&119\\\\66&82&89\\\\48&62&68\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}7\\\\4\\\\2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}5&5&8&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}3&4&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}4&2&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=8800\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}2104&3844&3077\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1518:0}\\( b= \\){1:NUMERICAL:=2160:0}\\( c= \\){1:NUMERICAL:=2212:0}<br>",
+"\\( a= \\){1:NUMERICAL:=586:0}\\( b= \\){1:NUMERICAL:=1684:0}\\( c= \\){1:NUMERICAL:=865:0}<br>",
+"{1:NUMERICAL:=22464:0}",
+"{1:NUMERICAL:=1176:0}",
+"{1:NUMERICAL:=50:0}",
+"{1:NUMERICAL:=32490:0}",
+"{1:NUMERICAL:=36258:0}",
+"{1:NUMERICAL:=12568:0}",
+"{1:NUMERICAL:=3768:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}6&8\\\\1&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}3&6&8\\\\2&2&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}34&52&88\\\\5&8&13\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}3\\\\5\\\\1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}8&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}7&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}2&6&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=1900\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}372&855&1202\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=339:0}\\( b= \\){1:NUMERICAL:=532:0}\\( c= \\){1:NUMERICAL:=876:0}<br>",
+"\\( a= \\){1:NUMERICAL:=33:0}\\( b= \\){1:NUMERICAL:=323:0}\\( c= \\){1:NUMERICAL:=326:0}<br>",
+"{1:NUMERICAL:=4144:0}",
+"{1:NUMERICAL:=371:0}",
+"{1:NUMERICAL:=38:0}",
+"{1:NUMERICAL:=6453:0}",
+"{1:NUMERICAL:=6593:0}",
+"{1:NUMERICAL:=2040:0}",
+"{1:NUMERICAL:=140:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}5&2&6\\\\5&2&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&7\\\\5&9\\\\3&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}68&107\\\\71&116\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}5\\\\6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}1&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}2&7&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}3&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=990\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}533&692\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=282:0}\\( b= \\){1:NUMERICAL:=478:0}<br>",
+"\\( a= \\){1:NUMERICAL:=251:0}\\( b= \\){1:NUMERICAL:=214:0}<br>",
+"{1:NUMERICAL:=3084:0}",
+"{1:NUMERICAL:=1131:0}",
+"{1:NUMERICAL:=63:0}",
+"{1:NUMERICAL:=5268:0}",
+"{1:NUMERICAL:=6817:0}",
+"{1:NUMERICAL:=2539:0}",
+"{1:NUMERICAL:=1549:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}4&8&4&7\\\\2&8&5&7\\\\2&1&4&9\\\\6&6&1&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}6&8\\\\7&4\\\\1&6\\\\7&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}133&123\\\\122&113\\\\86&89\\\\142&123\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}2\\\\8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}7&8&6&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}8&7&7&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}9&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=6400\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}4333&3259\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=3693:0}\\( b= \\){1:NUMERICAL:=3434:0}<br>",
+"\\( a= \\){1:NUMERICAL:=640:0}\\( b= \\){1:NUMERICAL:=-175:0}<br>",
+"{1:NUMERICAL:=33382:0}",
+"{1:NUMERICAL:=1442:0}",
+"{1:NUMERICAL:=34:0}",
+"{1:NUMERICAL:=41258:0}",
+"{1:NUMERICAL:=34738:0}",
+"{1:NUMERICAL:=-120:0}",
+"{1:NUMERICAL:=-6520:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&6\\\\1&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}6&3&8&1\\\\7&4&6&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}60&33&60&51\\\\41&23&38&41\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}8\\\\3\\\\8\\\\5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}8&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}5&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}8&3&4&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=2100\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}486&817&664&795\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=868:0}\\( b= \\){1:NUMERICAL:=479:0}\\( c= \\){1:NUMERICAL:=844:0}\\( d= \\){1:NUMERICAL:=779:0}<br>",
+"\\( a= \\){1:NUMERICAL:=-382:0}\\( b= \\){1:NUMERICAL:=338:0}\\( c= \\){1:NUMERICAL:=-180:0}\\( d= \\){1:NUMERICAL:=16:0}<br>",
+"{1:NUMERICAL:=16854:0}",
+"{1:NUMERICAL:=2034:0}",
+"{1:NUMERICAL:=140:0}",
+"{1:NUMERICAL:=21128:0}",
+"{1:NUMERICAL:=15626:0}",
+"{1:NUMERICAL:=-3402:0}",
+"{1:NUMERICAL:=-5502:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}9&6&7&8\\\\9&8&9&2\\\\2&1&2&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}1&8&3\\\\4&8&4\\\\2&7&1\\\\8&5&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}111&209&98\\\\75&209&78\\\\42&58&32\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}9\\\\5\\\\6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}2&7&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}6&5&7&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}5&6&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=7900\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}1051&4349&1477\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1226:0}\\( b= \\){1:NUMERICAL:=2581:0}\\( c= \\){1:NUMERICAL:=1116:0}<br>",
+"\\( a= \\){1:NUMERICAL:=-175:0}\\( b= \\){1:NUMERICAL:=1768:0}\\( c= \\){1:NUMERICAL:=361:0}<br>",
+"{1:NUMERICAL:=28320:0}",
+"{1:NUMERICAL:=2204:0}",
+"{1:NUMERICAL:=111:0}",
+"{1:NUMERICAL:=38535:0}",
+"{1:NUMERICAL:=40066:0}",
+"{1:NUMERICAL:=9431:0}",
+"{1:NUMERICAL:=1531:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}4&7&3\\\\3&5&7\\\\9&2&5\\\\1&9&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}1&1\\\\5&1\\\\3&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}48&17\\\\49&22\\\\34&21\\\\52&14\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}9\\\\2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}3&1&5&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}1&4&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}9&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=1600\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}929&289\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=873:0}\\( b= \\){1:NUMERICAL:=323:0}<br>",
+"\\( a= \\){1:NUMERICAL:=56:0}\\( b= \\){1:NUMERICAL:=-34:0}<br>",
+"{1:NUMERICAL:=8087:0}",
+"{1:NUMERICAL:=323:0}",
+"{1:NUMERICAL:=93:0}",
+"{1:NUMERICAL:=10103:0}",
+"{1:NUMERICAL:=8939:0}",
+"{1:NUMERICAL:=436:0}",
+"{1:NUMERICAL:=-1164:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}8&4\\\\8&6\\\\6&1\\\\4&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}2&9&3&7\\\\5&5&7&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}36&92&52&60\\\\46&102&66&62\\\\17&59&25&43\\\\38&66&54&34\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}6\\\\5\\\\7\\\\6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}5&4&9&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}8&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}4&1&2&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=8400\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}1195&1149&1686&1623\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=775:0}\\( b= \\){1:NUMERICAL:=1878:0}\\( c= \\){1:NUMERICAL:=1113:0}\\( d= \\){1:NUMERICAL:=1203:0}<br>",
+"\\( a= \\){1:NUMERICAL:=420:0}\\( b= \\){1:NUMERICAL:=-729:0}\\( c= \\){1:NUMERICAL:=573:0}\\( d= \\){1:NUMERICAL:=420:0}<br>",
+"{1:NUMERICAL:=27790:0}",
+"{1:NUMERICAL:=1180:0}",
+"{1:NUMERICAL:=79:0}",
+"{1:NUMERICAL:=37449:0}",
+"{1:NUMERICAL:=34455:0}",
+"{1:NUMERICAL:=5406:0}",
+"{1:NUMERICAL:=-2994:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&5&8&5\\\\1&7&6&9\\\\3&4&2&3\\\\7&2&3&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}2&3&4\\\\8&6&8\\\\5&4&8\\\\5&4&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}111&91&131\\\\133&105&135\\\\63&53&69\\\\55&53&74\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}7\\\\6\\\\8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}7&4&7&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}1&4&6&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}1&7&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=9600\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}2344&1804&1967\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=2290:0}\\( b= \\){1:NUMERICAL:=1938:0}\\( c= \\){1:NUMERICAL:=2640:0}<br>",
+"\\( a= \\){1:NUMERICAL:=54:0}\\( b= \\){1:NUMERICAL:=-134:0}\\( c= \\){1:NUMERICAL:=-673:0}<br>",
+"{1:NUMERICAL:=46698:0}",
+"{1:NUMERICAL:=2007:0}",
+"{1:NUMERICAL:=73:0}",
+"{1:NUMERICAL:=58378:0}",
+"{1:NUMERICAL:=42968:0}",
+"{1:NUMERICAL:=-5810:0}",
+"{1:NUMERICAL:=-15410:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}9&9&3\\\\5&2&6\\\\4&3&9\\\\5&9&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}2&8&1&8\\\\8&5&8&8\\\\5&7&4&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}105&138&93&162\\\\56&92&45&92\\\\77&110&64&110\\\\122&141&109&160\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}4\\\\6\\\\5\\\\4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}6&1&8&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}4&3&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}1&7&7&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=15000\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}3416&3415&3931&3274\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=2356:0}\\( b= \\){1:NUMERICAL:=3045:0}\\( c= \\){1:NUMERICAL:=2058:0}\\( d= \\){1:NUMERICAL:=3343:0}<br>",
+"\\( a= \\){1:NUMERICAL:=1060:0}\\( b= \\){1:NUMERICAL:=370:0}\\( c= \\){1:NUMERICAL:=1873:0}\\( d= \\){1:NUMERICAL:=-69:0}<br>",
+"{1:NUMERICAL:=49511:0}",
+"{1:NUMERICAL:=1728:0}",
+"{1:NUMERICAL:=117:0}",
+"{1:NUMERICAL:=66356:0}",
+"{1:NUMERICAL:=66905:0}",
+"{1:NUMERICAL:=15549:0}",
+"{1:NUMERICAL:=549:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&8&5&7\\\\1&5&6&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}7&8&4&5\\\\5&7&6&6\\\\5&2&8&3\\\\8&2&6&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}142&104&142&85\\\\110&67&118&59\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}4\\\\1\\\\8\\\\4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}6&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}4&7&9&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}2&8&1&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=9200\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}3187&2345&2535&962\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1992:0}\\( b= \\){1:NUMERICAL:=1344:0}\\( c= \\){1:NUMERICAL:=2075:0}\\( d= \\){1:NUMERICAL:=1144:0}<br>",
+"\\( a= \\){1:NUMERICAL:=1195:0}\\( b= \\){1:NUMERICAL:=1001:0}\\( c= \\){1:NUMERICAL:=460:0}\\( d= \\){1:NUMERICAL:=-182:0}<br>",
+"{1:NUMERICAL:=28071:0}",
+"{1:NUMERICAL:=2357:0}",
+"{1:NUMERICAL:=60:0}",
+"{1:NUMERICAL:=39688:0}",
+"{1:NUMERICAL:=39221:0}",
+"{1:NUMERICAL:=8733:0}",
+"{1:NUMERICAL:=-467:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}9&9&5\\\\1&1&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}2&7&7&5\\\\1&5&6&5\\\\1&1&2&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}32&113&127&105\\\\4&13&15&13\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}2\\\\7\\\\1\\\\6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}2&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}6&7&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}4&3&6&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=650\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}73&451&372&240\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=114:0}\\( b= \\){1:NUMERICAL:=378:0}\\( c= \\){1:NUMERICAL:=433:0}\\( d= \\){1:NUMERICAL:=369:0}<br>",
+"\\( a= \\){1:NUMERICAL:=-41:0}\\( b= \\){1:NUMERICAL:=73:0}\\( c= \\){1:NUMERICAL:=-61:0}\\( d= \\){1:NUMERICAL:=-129:0}<br>",
+"{1:NUMERICAL:=4184:0}",
+"{1:NUMERICAL:=1254:0}",
+"{1:NUMERICAL:=83:0}",
+"{1:NUMERICAL:=6171:0}",
+"{1:NUMERICAL:=5115:0}",
+"{1:NUMERICAL:=-406:0}",
+"{1:NUMERICAL:=-1056:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}7&4\\\\7&1\\\\1&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}2&7&1\\\\2&6&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}22&73&27\\\\16&55&12\\\\12&37&26\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}6\\\\3\\\\6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}7&4&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}4&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}2&1&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=900\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}330&474&203\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=270:0}\\( b= \\){1:NUMERICAL:=888:0}\\( c= \\){1:NUMERICAL:=347:0}<br>",
+"\\( a= \\){1:NUMERICAL:=60:0}\\( b= \\){1:NUMERICAL:=-414:0}\\( c= \\){1:NUMERICAL:=-144:0}<br>",
+"{1:NUMERICAL:=5601:0}",
+"{1:NUMERICAL:=696:0}",
+"{1:NUMERICAL:=69:0}",
+"{1:NUMERICAL:=7266:0}",
+"{1:NUMERICAL:=4620:0}",
+"{1:NUMERICAL:=-1746:0}",
+"{1:NUMERICAL:=-2646:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&6&3&1\\\\9&5&3&7\\\\4&8&5&6\\\\6&6&5&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}1&3&9&4\\\\9&2&4&8\\\\7&5&4&7\\\\3&9&9&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}81&45&72&88\\\\96&115&176&146\\\\129&107&142&157\\\\110&100&143&142\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}5\\\\8\\\\7\\\\6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}5&9&8&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}1&7&1&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}4&9&9&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=17000\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}4982&3306&2209&4366\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=2709:0}\\( b= \\){1:NUMERICAL:=2456:0}\\( c= \\){1:NUMERICAL:=3568:0}\\( d= \\){1:NUMERICAL:=3516:0}<br>",
+"\\( a= \\){1:NUMERICAL:=2273:0}\\( b= \\){1:NUMERICAL:=850:0}\\( c= \\){1:NUMERICAL:=-1359:0}\\( d= \\){1:NUMERICAL:=850:0}<br>",
+"{1:NUMERICAL:=77662:0}",
+"{1:NUMERICAL:=1412:0}",
+"{1:NUMERICAL:=191:0}",
+"{1:NUMERICAL:=96265:0}",
+"{1:NUMERICAL:=93017:0}",
+"{1:NUMERICAL:=13752:0}",
+"{1:NUMERICAL:=-3248:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&1&5&9\\\\7&8&7&4\\\\3&3&9&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}3&8&3&2\\\\5&2&5&8\\\\6&3&5&8\\\\2&8&2&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}59&105&54&97\\\\111&125&104&154\\\\94&121&85&142\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}6\\\\6\\\\4\\\\6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}7&2&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}1&2&4&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}5&6&6&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=11000\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}1884&1117&808&2578\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1163:0}\\( b= \\){1:NUMERICAL:=1684:0}\\( c= \\){1:NUMERICAL:=1066:0}\\( d= \\){1:NUMERICAL:=1794:0}<br>",
+"\\( a= \\){1:NUMERICAL:=721:0}\\( b= \\){1:NUMERICAL:=-567:0}\\( c= \\){1:NUMERICAL:=-258:0}\\( d= \\){1:NUMERICAL:=784:0}<br>",
+"{1:NUMERICAL:=30396:0}",
+"{1:NUMERICAL:=1582:0}",
+"{1:NUMERICAL:=132:0}",
+"{1:NUMERICAL:=43110:0}",
+"{1:NUMERICAL:=36706:0}",
+"{1:NUMERICAL:=4596:0}",
+"{1:NUMERICAL:=-6404:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&4&9\\\\3&3&3\\\\2&1&9\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}1&1&1&6\\\\2&2&6&6\\\\3&7&7&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}36&72&88&84\\\\18&30&42&54\\\\31&67&71&72\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}9\\\\2\\\\1\\\\2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}8&2&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}9&2&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}8&2&5&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=4200\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}893&850&806&1984\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=602:0}\\( b= \\){1:NUMERICAL:=1208:0}\\( c= \\){1:NUMERICAL:=1403:0}\\( d= \\){1:NUMERICAL:=1444:0}<br>",
+"\\( a= \\){1:NUMERICAL:=291:0}\\( b= \\){1:NUMERICAL:=-358:0}\\( c= \\){1:NUMERICAL:=-597:0}\\( d= \\){1:NUMERICAL:=540:0}<br>",
+"{1:NUMERICAL:=11560:0}",
+"{1:NUMERICAL:=476:0}",
+"{1:NUMERICAL:=89:0}",
+"{1:NUMERICAL:=16325:0}",
+"{1:NUMERICAL:=14511:0}",
+"{1:NUMERICAL:=2386:0}",
+"{1:NUMERICAL:=-1814:0}"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}9&1&2\\\\5&8&9\\\\9&4&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}9&1&7\\\\1&4&7\\\\8&1&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}98&15&74\\\\125&46&109\\\\109&28&97\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{m} = \\left(\\begin{matrix}1\\\\6\\\\1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_R} = \\left(\\begin{matrix}2&1&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_Z} = \\left(\\begin{matrix}4&1&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( \\vec{k_E} = \\left(\\begin{matrix}8&2&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( K_{fix}=3700\\)</p> <p>\\( \\vec{p} = \\left(\\begin{matrix}1828&336&1062\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie die variablen Stückkosten \\( \\vec{k_V} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie den Stückdeckungsbeitrag \\( \\vec{db} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\).",
+"Berechnen Sie die Rohstoffkosten.",
+"Berechnen Sie die Fertigungskosten der ersten Produktionsstufe.",
+"Berechnen Sie die Fertigungskosten der zweiten Produktionsstufe.",
+"Berechnen Sie die gesamten Kosten.",
+"Berechnen Sie den Erlös.",
+"Berechnen Sie den Deckungsbeitrag.",
+"Berechnen Sie den Gewinn."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1278:0}\\( b= \\){1:NUMERICAL:=315:0}\\( c= \\){1:NUMERICAL:=1082:0}<br>",
+"\\( a= \\){1:NUMERICAL:=550:0}\\( b= \\){1:NUMERICAL:=21:0}\\( c= \\){1:NUMERICAL:=-20:0}<br>",
+"{1:NUMERICAL:=4026:0}",
+"{1:NUMERICAL:=200:0}",
+"{1:NUMERICAL:=24:0}",
+"{1:NUMERICAL:=7950:0}",
+"{1:NUMERICAL:=4906:0}",
+"{1:NUMERICAL:=656:0}",
+"{1:NUMERICAL:=-3044:0}"
+]
+}
+]
