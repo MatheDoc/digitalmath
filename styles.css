@@ -355,13 +355,7 @@ a.link-homepage:hover {
         margin-bottom: 20px;
         padding-bottom: 20px;
     }
-    input[type="text"], .mch,.select2-container {
-        display: none;
-    }
-    .nachfolgend li .check-icon{
-        display: none;
-    }
-   .nachfolgend li .select2-container {
+    .antwort{
         display: none;
     }
 }
