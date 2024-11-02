@@ -25,6 +25,19 @@ h2 {
     padding-bottom: 20px;
 }
 
+h3 {
+    background-color: #7e7e7e;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: none;
+}
+
+p {
+    color: #000000;
+    font-size: 1em;
+}
 
 .center-text {
     position: absolute;                /* Absolute Positionierung */
@@ -38,28 +51,10 @@ h2 {
     text-align: right;                 /* Text rechtsbündig */
 }
 
-h3 {
-    background-color: #7e7e7e;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    display: none;
-}
-
 table{
     border-collapse: collapse;
     margin: 0 auto;
     max-width: 99%;
-
-}
-
-#dropdowns {
-    border-collapse: separate;
-    border-spacing: 5px;
-    margin-bottom: 20px;
-    position: sticky;
-    display: none;
 }
 
 .dataTables_length {
@@ -71,8 +66,6 @@ table{
 .dataTables_paginate {
     display: none;
 }
-
-
 
 .einleitung {
     margin: 0 auto;
@@ -90,8 +83,6 @@ table{
 .einleitung p {
     margin-top: 0px;
 }
-
-
 
 .nachfolgend ol {
     margin: 0 auto;
@@ -111,10 +102,7 @@ table{
 }
 
 
-p {
-    color: #000000;
-    font-size: 1em;
-}
+
 
 
 
@@ -132,28 +120,6 @@ input[type="text"]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-/*
-button {
-    background-color: #4e73df;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 10px; 
-}
-*/
-/*
-button:hover {
-
-}
-
-button:active {
-
-}
-*/
 .neueAufgabe {
     background-color:#4e73df;
     color: white;
@@ -169,23 +135,6 @@ button:active {
     display: none;
 }
 
-@media (max-width: 768px) {
-    li {
-        padding: 15px;
-    }
-
-    input[type="text"] {
-        width: 60px;
-    }
-
-    img{
-        width: 100%;
-        max-width: 100%; 
-    }
-    .select2-container {
-        max-width: 75%;
-    }
-}
 
 img {
     display: block;
@@ -259,14 +208,12 @@ select.mch + .select2-container .select2-selection--single {
     color: #5882ffb0;
     margin-left: 5px;
 }
-.check-icon:hover{
+.check-icon:hover.check-all-icon:hover{
     color: #5882ff;
 }
-
 .auswahl-icon{
     color: #919191cb;
 }
-
 .auswahl-icon:hover{
     color: #919191;
 }
@@ -277,7 +224,7 @@ table.dataTable tbody tr:hover {
     background-color: #f1f1f1;
 }
 
-/* Blendet die zweite Spalte aus */
+/* Blendet Spalten aus */
 table.dataTable tr th:nth-child(2),
 table.dataTable tr td:nth-child(2),
 table.dataTable tr th:nth-child(3),
@@ -291,18 +238,6 @@ table.dataTable tr td:nth-child(7),
 table.dataTable tr th:nth-child(8),
 table.dataTable tr td:nth-child(8)  {
 display: none;
-}
-
-/* Styling für den Copy-Button */
-.copyBtn {
-    margin-left: 5px;
-    font-size: 12px;
-    padding: 8px 8px;
-    background-color: #4e73df;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
 }
 
 /* Die Infobox */
@@ -330,11 +265,6 @@ display: none;
     background-color: rgba(0, 0, 0, 0.2); /* Halbtransparente Verdunkelung */
     z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
 }
-
-
-
-
-
 
 #suchleiste {
     display: flex;
@@ -374,6 +304,22 @@ a.link-homepage:hover {
     color: inherit;         /* Farbe bleibt unverändert */
 }
 
+@media (max-width: 768px) {
+    li {
+        padding: 15px;
+    }
+    input[type="text"] {
+        width: 60px;
+    }
+    img{
+        width: 100%;
+        max-width: 100%; 
+    }
+    .select2-container {
+        max-width: 75%;
+    }
+}
+
 @media print {
     body {
         margin: 0;
@@ -381,15 +327,33 @@ a.link-homepage:hover {
     }
     .einleitung {
         max-width: 100%;
+        background-color: #ffffff;
+        border: 0px;
+        box-shadow: none;
+        margin: 0px;
+        padding: 0px;
     }
     .nachfolgend ol {
         max-width: 100%;
+        list-style-position: outside;
+        padding-left: 1cm;
     }
-    img {
+    .nachfolgend li{
+        box-shadow: none;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+        img {
         max-width: 50%;
     }
-    h2, h1, h3 { 
+    h2, h3 { 
         display: none;
+    }
+    h1{
+        margin-top: -40px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
     input[type="text"], .mch,.select2-container {
         display: none;
@@ -400,5 +364,13 @@ a.link-homepage:hover {
    .nachfolgend li .select2-container {
         display: none;
     }
+}
 
+/*Zzzz*/
+#dropdowns {
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin-bottom: 20px;
+    position: sticky;
+    display: none;
 }
