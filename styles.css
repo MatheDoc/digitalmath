@@ -222,7 +222,7 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 
-.info-icon, .copy-icon, .test-icon, .reload-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon {
+.info-icon, .copy-icon, .test-icon, .reload-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon {
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
@@ -248,11 +248,11 @@ select.mch + .select2-container .select2-selection--single {
 .test-icon:hover {
     color: #e72f8b;      
 }
-.reload-icon {
+.reload-icon,.pdf-icon {
     padding-right: 20px;
     color:#5882ffb0;
 }
-.reload-icon:hover {
+.reload-icon:hover,.pdf-icon:hover {
     color: #5882ff;        
 }
 .check-icon, .check-all-icon{
@@ -372,4 +372,33 @@ a.link-homepage:hover {
     /* Optional: Verhalten bei Hover definieren */
     text-decoration: none;  /* Auch beim Hover keine Unterstreichung */
     color: inherit;         /* Farbe bleibt unverändert */
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 2cm; /* Seitenränder für den Druck */
+    }
+    .einleitung {
+        max-width: 100%;
+    }
+    .nachfolgend ol {
+        max-width: 100%;
+    }
+    img {
+        max-width: 50%;
+    }
+    h2, h1, h3 { 
+        display: none;
+    }
+    input[type="text"], .mch,.select2-container {
+        display: none;
+    }
+    .nachfolgend li .check-icon{
+        display: none;
+    }
+   .nachfolgend li .select2-container {
+        display: none;
+    }
+
 }

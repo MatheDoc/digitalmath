@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     
+    <!-- Einbinden pdf Export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
     <!-- Einbinden der externen CSS-Datei -->
     <link rel="stylesheet" href="styles.css"> 
 
@@ -51,6 +54,8 @@
             <i class="fas fa-paper-plane check-all-icon" title="Alle Fragen überprüfen" onclick="checkAllQuestions()"></i>
             </span>
         <span class="right-text">
+            <!--<button onclick="printToPDF()">Als PDF drucken</button>-->
+            <i class="fas fa-file-pdf pdf-icon" title="PDF" onclick="printToPDF()"></i>
             <i class="fas fa-redo reload-icon" title="Neue Aufgabe" onclick="window.location.reload();"></i>
         </span>
     </h2>
@@ -58,6 +63,16 @@
     <div id="aufgabe"></div>
 
     <script>
+
+        // pdf Export
+        function printToPDF() {
+    window.print(); // Öffnet das Druckdialogfenster des Browsers
+}
+
+
+
+
+
         let aufgabenZaehler = 1; // Initialisiere den Zähler
         let questionId = 1; // Eindeutige Frage-ID innerhalb einer Aufgabe
 
