@@ -262,7 +262,7 @@
                         <ol aria-label>`;
 
                 selectedTask.fragen.forEach((frage, index) => {
-                    htmlContent += `<li>${frage}<br><br><span class="antwort">${selectedTask.antworten[index]}</span></li>`;
+                    htmlContent += `<li><span class="frage">${frage}</span><span class="antwort">${selectedTask.antworten[index]}</span></li>`;
                 });
 
                 htmlContent += `</ol>
