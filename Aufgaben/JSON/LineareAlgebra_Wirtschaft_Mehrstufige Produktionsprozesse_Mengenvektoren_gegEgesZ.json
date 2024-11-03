@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}6&1\\\\2&8\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}3&9&8&5\\\\5&8&4&9\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}4&9&5\\\\3&5&8\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}35&77&48\\\\39&72&87\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}4\\\\6\\\\7\\\\7\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}4\\\\9\\\\5\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=157:0}<br>\\( b= \\){1:NUMERICAL:=159:0}<br>"
+"\\( a= \\){1:NUMERICAL:=122:0}<br>\\( b= \\){1:NUMERICAL:=97:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&6&7&8\\\\7&9&4&6\\\\4&5&7&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}33&41&46&34\\\\132&165&141&144\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&3&1&1\\\\2&4&1&1\\\\5&11&3&4\\\\5&9&3&3\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}19&23\\\\22&25\\\\69&74\\\\56&66\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}6\\\\1\\\\6\\\\5\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}7\\\\1\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=118:0}<br>\\( b= \\){1:NUMERICAL:=105:0}<br>\\( c= \\){1:NUMERICAL:=86:0}<br>"
+"\\( a= \\){1:NUMERICAL:=10:0}<br>\\( b= \\){1:NUMERICAL:=23:0}<br>\\( c= \\){1:NUMERICAL:=14:0}<br>\\( d= \\){1:NUMERICAL:=53:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}4&7\\\\9&2\\\\5&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&9&6&2\\\\5&7&7&1\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}5&7\\\\2&3\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}60&59&57\\\\25&25&24\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}5\\\\9\\\\1\\\\8\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}5\\\\5\\\\4\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=143:0}<br>\\( b= \\){1:NUMERICAL:=103:0}<br>"
+"\\( a= \\){1:NUMERICAL:=47:0}<br>\\( b= \\){1:NUMERICAL:=84:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&7&3&8\\\\4&3&5&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}5&7\\\\6&2\\\\3&8\\\\5&8\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}2&5&12\\\\1&2&5\\\\1&3&8\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}75&29\\\\31&13\\\\48&17\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}8\\\\9\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}1\\\\2\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=103:0}<br>\\( b= \\){1:NUMERICAL:=66:0}<br>\\( c= \\){1:NUMERICAL:=96:0}<br>\\( d= \\){1:NUMERICAL:=112:0}<br>"
+"\\( a= \\){1:NUMERICAL:=13:0}<br>\\( b= \\){1:NUMERICAL:=7:0}<br>\\( c= \\){1:NUMERICAL:=6:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}7&3&1\\\\8&1&6\\\\2&2&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&9&5\\\\9&4&2\\\\2&5&7\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&1&2&3\\\\7&6&5&7\\\\9&8&3&2\\\\3&9&8&5\\\\ \\end{matrix}\\right) \\) \\( ZE = \\left(\\begin{matrix}6&7\\\\5&2\\\\5&6\\\\5&1\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}3\\\\9\\\\3\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}3\\\\1\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=120:0}<br>\\( b= \\){1:NUMERICAL:=69:0}<br>\\( c= \\){1:NUMERICAL:=72:0}<br>"
+"\\( a= \\){1:NUMERICAL:=25:0}<br>\\( b= \\){1:NUMERICAL:=17:0}<br>\\( c= \\){1:NUMERICAL:=21:0}<br>\\( d= \\){1:NUMERICAL:=16:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}8&7&9&4\\\\5&4&8&4\\\\6&5&7&2\\\\7&1&3&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}101&71&109&59\\\\159&100&156&89\\\\113&55&101&72\\\\159&94&162&102\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}9&9&5\\\\9&1&9\\\\2&7&6\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}129&103&129\\\\118&119&102\\\\91&92&87\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}9\\\\2\\\\2\\\\1\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}1\\\\4\\\\6\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=108:0}<br>\\( b= \\){1:NUMERICAL:=73:0}<br>\\( c= \\){1:NUMERICAL:=80:0}<br>\\( d= \\){1:NUMERICAL:=76:0}<br>"
+"\\( a= \\){1:NUMERICAL:=75:0}<br>\\( b= \\){1:NUMERICAL:=67:0}<br>\\( c= \\){1:NUMERICAL:=66:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}5&2&3\\\\2&1&2\\\\3&1&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}26&66&28&24\\\\13&31&14&12\\\\16&40&17&13\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}8&5&9&4\\\\9&5&6&2\\\\5&1&5&6\\\\4&6&8&6\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}155&100&165&116\\\\147&79&135&86\\\\164&117&176&92\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}3\\\\5\\\\1\\\\2\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}7\\\\9\\\\4\\\\5\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=59:0}<br>\\( b= \\){1:NUMERICAL:=36:0}<br>\\( c= \\){1:NUMERICAL:=39:0}<br>"
+"\\( a= \\){1:NUMERICAL:=157:0}<br>\\( b= \\){1:NUMERICAL:=142:0}<br>\\( c= \\){1:NUMERICAL:=94:0}<br>\\( d= \\){1:NUMERICAL:=144:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}6&4&9\\\\3&6&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&4\\\\6&1\\\\2&3\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}3&3&3&5\\\\8&7&1&9\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}38&34&10&46\\\\69&63&27&89\\\\74&67&25&93\\\\31&29&17&43\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}1\\\\1\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}3\\\\5\\\\3\\\\9\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=12:0}<br>\\( b= \\){1:NUMERICAL:=7:0}<br>\\( c= \\){1:NUMERICAL:=5:0}<br>"
+"\\( a= \\){1:NUMERICAL:=78:0}<br>\\( b= \\){1:NUMERICAL:=143:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}7&7&5\\\\7&8&9\\\\7&1&1\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}91&61&65\\\\70&57&58\\\\91&88&93\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}9&9\\\\6&2\\\\6&4\\\\9&3\\\\ \\end{matrix}\\right) \\) \\( ZE = \\left(\\begin{matrix}2&9&3\\\\4&9&8\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}6\\\\5\\\\8\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}7\\\\2\\\\4\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=117:0}<br>\\( b= \\){1:NUMERICAL:=154:0}<br>\\( c= \\){1:NUMERICAL:=55:0}<br>"
+"\\( a= \\){1:NUMERICAL:=44:0}<br>\\( b= \\){1:NUMERICAL:=78:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}9&7&4&4\\\\2&3&5&4\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}3&7\\\\1&3\\\\2&1\\\\4&3\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}9&5&6\\\\6&3&3\\\\7&4&7\\\\1&9&8\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}103&115&122\\\\185&143&172\\\\51&53&60\\\\121&116&133\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}8\\\\4\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}9\\\\2\\\\6\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=52:0}<br>\\( b= \\){1:NUMERICAL:=20:0}<br>\\( c= \\){1:NUMERICAL:=20:0}<br>\\( d= \\){1:NUMERICAL:=44:0}<br>"
+"\\( a= \\){1:NUMERICAL:=127:0}<br>\\( b= \\){1:NUMERICAL:=78:0}<br>\\( c= \\){1:NUMERICAL:=113:0}<br>\\( d= \\){1:NUMERICAL:=75:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&9&5\\\\4&3&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}18&66&40\\\\24&78&50\\\\42&69&65\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&4&3\\\\7&9&2\\\\ \\end{matrix}\\right) \\) \\( ZE = \\left(\\begin{matrix}4&8\\\\5&5\\\\3&1\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}6\\\\4\\\\4\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}5\\\\5\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=68:0}<br>\\( b= \\){1:NUMERICAL:=56:0}<br>"
+"\\( a= \\){1:NUMERICAL:=60:0}<br>\\( b= \\){1:NUMERICAL:=50:0}<br>\\( c= \\){1:NUMERICAL:=20:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&3&6&3\\\\7&4&6&7\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}7&8&5&8\\\\5&5&4&1\\\\2&5&4&9\\\\7&3&5&6\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}6&3&3\\\\5&9&6\\\\ \\end{matrix}\\right) \\) \\( ZE = \\left(\\begin{matrix}8&7\\\\5&8\\\\7&1\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}1\\\\4\\\\5\\\\6\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}7\\\\1\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=112:0}<br>\\( b= \\){1:NUMERICAL:=51:0}<br>\\( c= \\){1:NUMERICAL:=96:0}<br>\\( d= \\){1:NUMERICAL:=80:0}<br>"
+"\\( a= \\){1:NUMERICAL:=63:0}<br>\\( b= \\){1:NUMERICAL:=43:0}<br>\\( c= \\){1:NUMERICAL:=50:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}6&9&13\\\\3&5&7\\\\1&2&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}126&145\\\\68&79\\\\28&32\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&3&2&5\\\\3&3&3&5\\\\2&2&2&3\\\\1&2&1&3\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}59&76&58&68\\\\65&82&60&71\\\\42&54&39&46\\\\32&39&30&34\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}3\\\\8\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}5\\\\6\\\\4\\\\1\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=22:0}<br>\\( b= \\){1:NUMERICAL:=84:0}<br>\\( c= \\){1:NUMERICAL:=50:0}<br>"
+"\\( a= \\){1:NUMERICAL:=111:0}<br>\\( b= \\){1:NUMERICAL:=108:0}<br>\\( c= \\){1:NUMERICAL:=77:0}<br>\\( d= \\){1:NUMERICAL:=48:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}1&1&2&1\\\\4&3&2&2\\\\3&2&2&2\\\\5&4&3&3\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}25&16&32&13\\\\48&44&78&35\\\\41&34&61&29\\\\68&58&104&47\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}6&8&5\\\\4&7&9\\\\4&4&4\\\\2&2&3\\\\ \\end{matrix}\\right) \\) \\( ZE = \\left(\\begin{matrix}1&8&8\\\\7&5&3\\\\6&4&1\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}8\\\\9\\\\3\\\\4\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}1\\\\7\\\\4\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=109:0}<br>\\( b= \\){1:NUMERICAL:=112:0}<br>\\( c= \\){1:NUMERICAL:=80:0}<br>\\( d= \\){1:NUMERICAL:=111:0}<br>"
+"\\( a= \\){1:NUMERICAL:=89:0}<br>\\( b= \\){1:NUMERICAL:=54:0}<br>\\( c= \\){1:NUMERICAL:=38:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}8&9&4&6\\\\9&6&7&2\\\\8&2&6&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}8&2&1\\\\8&4&8\\\\1&1&4\\\\6&8&9\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&7\\\\6&3\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}66&60\\\\63&72\\\\42&48\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}3\\\\4\\\\6\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}2\\\\3\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=38:0}<br>\\( b= \\){1:NUMERICAL:=88:0}<br>\\( c= \\){1:NUMERICAL:=31:0}<br>\\( d= \\){1:NUMERICAL:=104:0}<br>"
+"\\( a= \\){1:NUMERICAL:=31:0}<br>\\( b= \\){1:NUMERICAL:=21:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&4&7&11\\\\2&3&4&6\\\\1&1&2&3\\\\2&2&3&5\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}123&61&150\\\\70&41&89\\\\34&17&41\\\\58&32&70\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}9&5&4&11\\\\5&4&3&6\\\\6&4&3&7\\\\3&3&2&4\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}229&209\\\\138&124\\\\156&141\\\\92&81\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}4\\\\9\\\\2\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}4\\\\1\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=61:0}<br>\\( b= \\){1:NUMERICAL:=85:0}<br>\\( c= \\){1:NUMERICAL:=21:0}<br>\\( d= \\){1:NUMERICAL:=61:0}<br>"
+"\\( a= \\){1:NUMERICAL:=45:0}<br>\\( b= \\){1:NUMERICAL:=40:0}<br>\\( c= \\){1:NUMERICAL:=9:0}<br>\\( d= \\){1:NUMERICAL:=44:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}4&1&2&8\\\\6&1&2&9\\\\9&2&4&6\\\\6&1&4&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( ZE = \\left(\\begin{matrix}4&8&8\\\\1&7&7\\\\7&1&9\\\\6&8&6\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}4&6&3\\\\1&2&1\\\\2&5&2\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}69&85&66\\\\21&26&19\\\\46&57&39\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}9\\\\4\\\\5\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}6\\\\6\\\\3\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=108:0}<br>\\( b= \\){1:NUMERICAL:=72:0}<br>\\( c= \\){1:NUMERICAL:=112:0}<br>\\( d= \\){1:NUMERICAL:=116:0}<br>"
+"\\( a= \\){1:NUMERICAL:=105:0}<br>\\( b= \\){1:NUMERICAL:=57:0}<br>\\( c= \\){1:NUMERICAL:=120:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&1\\\\4&9\\\\4&9\\\\2&6\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}68&131\\\\82&187\\\\60&119\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}7&8&1&5\\\\2&3&3&1\\\\7&4&2&7\\\\ \\end{matrix}\\right) \\) \\( ZE = \\left(\\begin{matrix}7&6&3&4\\\\6&6&4&6\\\\7&9&8&6\\\\5&8&7&9\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}1\\\\3\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}8\\\\9\\\\7\\\\1\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=5:0}<br>\\( b= \\){1:NUMERICAL:=31:0}<br>\\( c= \\){1:NUMERICAL:=31:0}<br>\\( d= \\){1:NUMERICAL:=20:0}<br>"
+"\\( a= \\){1:NUMERICAL:=135:0}<br>\\( b= \\){1:NUMERICAL:=136:0}<br>\\( c= \\){1:NUMERICAL:=199:0}<br>\\( d= \\){1:NUMERICAL:=170:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}5&3\\\\3&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}33&55&58\\\\20&34&36\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}4&3&5\\\\5&4&7\\\\3&2&4\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}51&47\\\\68&62\\\\37&36\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}8\\\\1\\\\2\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}8\\\\3\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=72:0}<br>\\( b= \\){1:NUMERICAL:=25:0}<br>"
+"\\( a= \\){1:NUMERICAL:=42:0}<br>\\( b= \\){1:NUMERICAL:=67:0}<br>\\( c= \\){1:NUMERICAL:=36:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}3&7\\\\1&2\\\\ \\end{matrix}\\right) \\)</p> <p>\\( RE = \\left(\\begin{matrix}35&71&16\\\\11&21&5\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( RZ = \\left(\\begin{matrix}8&8&5&4\\\\5&7&9&1\\\\9&9&1&6\\\\ \\end{matrix}\\right) \\) \\( ZE = \\left(\\begin{matrix}7&2&1&8\\\\7&2&9&5\\\\6&8&4&1\\\\9&8&8&6\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}3\\\\1\\\\5\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\ \\end{matrix}\\right) \\)."
+"Die Endprodukte \\( \\vec{m} = \\left(\\begin{matrix}9\\\\2\\\\3\\\\2\\\\ \\end{matrix}\\right) \\) sollen produziert werden.<br>Bestimmen Sie dafür benötigten Zwischenprdukte \\( \\vec{z} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\d\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=41:0}<br>\\( b= \\){1:NUMERICAL:=19:0}<br>"
+"\\( a= \\){1:NUMERICAL:=86:0}<br>\\( b= \\){1:NUMERICAL:=104:0}<br>\\( c= \\){1:NUMERICAL:=84:0}<br>\\( d= \\){1:NUMERICAL:=133:0}<br>"
 ]
 }
 ]
