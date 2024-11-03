@@ -373,6 +373,8 @@ a.link-homepage:hover {
         visibility: hidden; /* Versteckt das Element, ohne den Platz zu entfernen */
         width: 30px; /* Breite des Platzhalters */
         height: 5px;  /*Höhe des Platzhalters */
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .select2-container {
         display: none !important;
