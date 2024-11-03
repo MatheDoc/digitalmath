@@ -49,14 +49,14 @@
 <body>
     <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home"><h1>Yes, we can math!</h1></a>  
     <h2>
-        <span class="center-text">
+        <span>
             Quiz
-            <i class="fas fa-paper-plane check-all-icon" title="Alle Fragen überprüfen" onclick="checkAllQuestions()"></i>
-            </span>
+        </span>
         <span class="right-text">
-            <!--<button onclick="printToPDF()">Als PDF drucken</button>-->
-            <i class="fas fa-file-pdf pdf-icon" title="PDF" onclick="printToPDF()"></i>
-            <i class="fas fa-redo reload-icon" title="Neue Aufgabe" onclick="window.location.reload();"></i>
+            <i class="fas fa-paper-plane check-all-icon" title="Alle Fragen überprüfen" onclick="checkAllQuestions()"></i>
+            <i class="fas fa-eye eye-icon" title="Lösungen anzeigen" onclick="showAllAnswers()"></i> 
+            <i class="fas fa-file-pdf pdf-icon" title="PDF erstellen" onclick="printToPDF()"></i>
+            <i class="fas fa-redo reload-icon" title="Neue Aufgabe anzeigen" onclick="window.location.reload();"></i>
         </span>
     </h2>
 
@@ -68,14 +68,31 @@
 
     <script>
 
+             // Neue Funktion, um alle richtigen Antworten anzuzeigen
+            function showAllAnswers() {
+                document.querySelectorAll('input[type="text"]').forEach(input => {
+                    const questionId = input.id.replace('answer', '');
+                    const correctAnswer = input.getAttribute('data-correct-answer');
+                    const feedbackElement = document.getElementById(`feedback${questionId}`);
+                    feedbackElement.innerHTML = correctAnswer;
+                    feedbackElement.style.color = "blue";
+                    feedbackElement.style.opacity = 1;
+                });
+
+                document.querySelectorAll('select.mch').forEach(select => {
+                    const questionId = select.id.replace('answer', '');
+                    const correctAnswer = select.getAttribute('data-correct-answer');
+                    const feedbackElement = document.getElementById(`feedback${questionId}`);
+                    feedbackElement.innerHTML = correctAnswer;
+                    feedbackElement.style.color = "blue";
+                    feedbackElement.style.opacity = 1;
+                });
+            }
+
         // pdf Export
         function printToPDF() {
-    window.print(); // Öffnet das Druckdialogfenster des Browsers
-}
-
-
-
-
+            window.print(); // Öffnet das Druckdialogfenster des Browsers
+        }
 
         let aufgabenZaehler = 1; // Initialisiere den Zähler
         let questionId = 1; // Eindeutige Frage-ID innerhalb einer Aufgabe
@@ -211,7 +228,7 @@
 
         // Event-Listener für alle Check-Icons dynamisch hinzufügen
         function addCheckIconListeners() {
-            document.querySelectorAll('.check-icon, .check-all-icon').forEach(icon => {
+            document.querySelectorAll('.check-icon, .check-all-icon, .eye-icon').forEach(icon => {
                 icon.addEventListener('click', function() {
                     const checkAllIcon = document.querySelector('.check-all-icon'); 
                     if (checkAllIcon) {
