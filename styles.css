@@ -362,16 +362,18 @@ a.link-homepage:hover {
         margin-bottom: 20px;
         padding-bottom: 20px;
     }
-    input[type="text"]{
-        display:none;
-    }
     .nachfolgend li .check-icon{
         display: none;
     }
-
-    .select2-container{
+    input[type="text"]{
+        visibility: hidden; /* Versteckt das Element, ohne den Platz zu entfernen */
+        width: 20px; /* Breite des Platzhalters */
+        height: 5px;  /*Höhe des Platzhalters */
+    }
+    .select2-container {
         display: none !important;
     }
+
     /*.antwort{
         display: none;
     }*/
