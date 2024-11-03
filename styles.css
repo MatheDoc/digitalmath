@@ -108,8 +108,7 @@ table{
 }
 
 .antwort{
-    display: block;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 
@@ -119,6 +118,8 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 input[type="text"]::-webkit-inner-spin-button,
@@ -170,11 +171,14 @@ select.mch + .select2-container .select2-selection--single {
     height: 40px; /* Höhe der Auswahlbox */
     display: flex;
     align-items: center; /* Zentriert den Text vertikal */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .select2-container{
     min-width: 85px;
     max-width: 90%;
+
 }
 
 
@@ -367,7 +371,7 @@ a.link-homepage:hover {
     }
     input[type="text"]{
         visibility: hidden; /* Versteckt das Element, ohne den Platz zu entfernen */
-        width: 20px; /* Breite des Platzhalters */
+        width: 30px; /* Breite des Platzhalters */
         height: 5px;  /*Höhe des Platzhalters */
     }
     .select2-container {
