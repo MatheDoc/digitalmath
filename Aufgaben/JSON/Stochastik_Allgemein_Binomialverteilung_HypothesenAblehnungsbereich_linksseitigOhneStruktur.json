@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. In der Vergangenheit betrug der Anteil der defekten Halbleiter 52%. Der Kontrolleur vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Halbleiter untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 7% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~117~=0}, ... ,{1:MCH:~250~=117} ]"
+]
+},
+{
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. In der Vergangenheit betrug der Anteil der Passagiere ohne gültigen Fahrschein 20%. Die Schaffnerin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Passagiere untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 2% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~28~=0}, ... ,{1:MCH:~200~=28} ]"
+]
+},
+{
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. In der Vergangenheit betrug der Anteil der Kundenbestellungen mit Streuseln 79%. Der Eisverkäufer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Kunden untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 8% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~187~=0}, ... ,{1:MCH:~250~=187} ]"
+]
+},
+{
+"einleitung":"David hat eine gezinkte Münze. In der Vergangenheit betrug der Anteil der geworfenen Köpfe 52%. David vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Münzwürfe untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 6% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~43~=0}, ... ,{1:MCH:~100~=43} ]"
+]
+},
+{
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. In der Vergangenheit betrug der Anteil der Bewerber mit erfolgreichem Gesundheitscheck 77%. Die Ärztin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Bewerber untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~70~=0}, ... ,{1:MCH:~100~=70} ]"
+]
+},
+{
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. In der Vergangenheit betrug der Anteil der durchgefallenen Prüflinge 51%. Der Fahrlehrer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Prüflinge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~116~=0}, ... ,{1:MCH:~250~=116} ]"
+]
+},
+{
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. In der Vergangenheit betrug der Anteil der gefälschten Turnschuhe 60%. Der Zollbeamte vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Turnschuhe untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 4% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~135~=0}, ... ,{1:MCH:~250~=135} ]"
+]
+},
+{
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. In der Vergangenheit betrug der Anteil der Fehltreffer 74%. Die Fußballerin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Freistöße untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 10% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~103~=0}, ... ,{1:MCH:~150~=103} ]"
+]
+},
+{
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. In der Vergangenheit betrug der Anteil der zufriedenen Mitarbeiter 36%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Mitarbeiter untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 2% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~57~=0}, ... ,{1:MCH:~200~=57} ]"
+]
+},
+{
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. In der Vergangenheit betrug der Anteil der vegetarischen Gerichte 75%. Der Besitzer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 Gerichte untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 8% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~140~=0}, ... ,{1:MCH:~200~=140} ]"
+]
+},
+{
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. In der Vergangenheit betrug der Anteil der unzureichend bewässerten Pflanzen 45%. Die Filialleiterin vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Pflanzen untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 6% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~99~=0}, ... ,{1:MCH:~250~=99} ]"
+]
+},
+{
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. In der Vergangenheit betrug der Anteil der Werkzeuge mit Akku 28%. Der Onlineshop vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Werkzeuge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 6% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~20~=0}, ... ,{1:MCH:~100~=20} ]"
+]
+},
+{
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. In der Vergangenheit betrug der Anteil der Computer mit unzureichendem Virenschutz 76%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Computer untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 3% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~67~=0}, ... ,{1:MCH:~100~=67} ]"
+]
+},
+{
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. In der Vergangenheit betrug der Anteil der Krüge mit Kratzer 71%. Die Glaserei vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 100 Krüge untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 3% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~61~=0}, ... ,{1:MCH:~100~=61} ]"
+]
+},
+{
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. In der Vergangenheit betrug der Anteil der Vorschläge mit attraktiven Partnern 76%. Amalia vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 vorgeschlagenen Partner untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 8% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~142~=0}, ... ,{1:MCH:~200~=142} ]"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. In der Vergangenheit betrug der Anteil der Smartwatches mit Gutschein 39%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Smartwatches untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 9% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~105~=0}, ... ,{1:MCH:~300~=105} ]"
+]
+},
+{
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. In der Vergangenheit betrug der Anteil der barbezahlenden Kunden 35%. Der Verkäufer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 150 Kunden untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 10% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~44~=0}, ... ,{1:MCH:~150~=44} ]"
+]
+},
+{
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In der Vergangenheit betrug der Anteil der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden 33%. Das Unternehmen vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 250 Beamerlampen untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 7% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~71~=0}, ... ,{1:MCH:~250~=71} ]"
+]
+},
+{
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. In der Vergangenheit betrug der Anteil der Follower der Influencerin 24%. Der potentielle Werbepartner vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 200 User untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 8% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~39~=0}, ... ,{1:MCH:~200~=39} ]"
+]
+},
+{
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. In der Vergangenheit betrug der Anteil der ungenau gewogenen Lebensmittel 78%. Der Kassierer vermutet, dass sich dieser Anteil verringert hat. Diese Gegenhypothese soll im Rahmen eines einseitigen Hypothesentests überprüft werden. Dazu werden in einer Stichprobe 300 Lebensmittel untersucht. Ermitteln Sie mit Hilfe der zu einem Signifikanzniveau von 3% zugehörigen Entscheidungsregel den Ablehnungsbereich der Nullhypothese.",
+"fragen":[
+"Der Ablehnungsbereich lautet:"
+],
+"antworten":[
+"[ {1:MCH:~219~=0}, ... ,{1:MCH:~300~=219} ]"
+]
+}
+]

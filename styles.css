@@ -109,8 +109,9 @@ table{
 
 .antwort{
     display: block;
-    margin-top: 10px;
+    padding-top: 20px;
 }
+
 
 input[type="text"] {
     padding: 10px;
@@ -177,7 +178,7 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 
-.info-icon, .copy-icon, .test-icon.check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon  {
+.info-icon, .copy-icon, .test-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon  {
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
