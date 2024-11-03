@@ -95,11 +95,37 @@
                 });
 
 
-
                 document.querySelectorAll('.check-icon').forEach(icon => {
                     icon.style.display = "none";
                 });
             }
+
+
+            function hideAllAnswers() {
+                document.querySelectorAll('input[type="text"]').forEach(input => {
+                    const questionId = input.id.replace('answer', '');
+                    const feedbackElement = document.getElementById(`feedback${questionId}`);
+                    feedbackElement.innerHTML = ''
+                    input.style.display = "inline";
+                });
+
+                 document.querySelectorAll('select.mch').forEach(select => {
+                    const questionId = select.id.replace('answer', '');
+                    const feedbackElement = document.getElementById(`feedback${questionId}`);
+                    feedbackElement.innerHTML = correctAnswer;
+                    feedbackElement.style.color = '';
+                      // Select2-Container einblenden
+                    const select2Container = select.nextElementSibling; // Nächstes Geschwisterelement nach select
+                    if (select2Container && select2Container.classList.contains('select2')) {
+                        select2Container.style.display = "inline";
+                    }
+                });
+
+                document.querySelectorAll('.check-icon').forEach(icon => {
+                    icon.style.display = "inline";
+                });
+            }
+
 
         // pdf Export
         function printToPDF() {
@@ -316,6 +342,7 @@
 
                 aufgabenZaehler++;
                         // Füge die Listener für die Check-Icons hinzu
+
         addCheckIconListeners();
             } else {
                 console.error(`Keine Aufgaben in der Sammlung ${sammlung} gefunden.`);
