@@ -220,9 +220,10 @@
                 const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim();
 
                 const optionsHtml = options.map(option => {
-                    const trimmedOption = option.trim();
-                    return `<option value="${trimmedOption}">${trimmedOption.replace(/^=/, '')}</option>`;
-                }).join('');
+            const isCorrect = option.startsWith('=');
+            const trimmedOption = isCorrect ? option.substring(1).trim() : option.trim();  // Entfernen von `=`
+            return `<option value="${trimmedOption}">${trimmedOption}</option>`;
+        }).join('');
 
                 const interactiveHtml = `
                     <select id="answer${questionId}" class="mch" data-correct-answer="${correctAnswer}">
