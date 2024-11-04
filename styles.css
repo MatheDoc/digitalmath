@@ -27,12 +27,15 @@ h2 {
 }
 
 h3 {
-    background-color: #7e7e7e;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #7e7e7e;
+    margin: 20px auto 0; /* Oben und unten: 20px, zentriert */
     text-align: center;
-    display: none;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between; /* Elemente am Rand platzieren */
+    align-items: center; /* Zentriert die Elemente vertikal */
+    padding-bottom: 20px;
 }
 
 p {

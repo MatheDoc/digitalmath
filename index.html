@@ -152,6 +152,7 @@
                         var row = $(this).closest('tr'); // Zeile ermitteln
                         var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
                         var urls = rowData[6]; // URLs in der 7. Spalte
+                        var ichKannText = 'Ich kann ' + rowData[5].split('<i')[0].trim(); //Ich kann text alt Titel
                         
                         if (urls) {
                             // Teile die URLs und erstelle Links
@@ -159,7 +160,7 @@
                                 var sammlungsname = url.trim() + '.json';
                                 return 'sammlung=' + sammlungsname;
                             });
-                            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&');
+                            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '&titel=' + encodeURIComponent(ichKannText);
                             window.open(testUrl, '_blank'); // Öffne URL in einem neuen Tab/Fenster
                         }
                     });

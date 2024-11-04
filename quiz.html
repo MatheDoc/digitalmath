@@ -60,9 +60,7 @@
         </span>
     </h2>
 
-    <h3>
-        Interpretation von Baumdiagrammen mit bedingten Wahrscheinlichkeiten
-    </h3>
+    <h3 id="quiz-title">hallo</h3>
 
     <div id="aufgabe"></div>
 
@@ -284,6 +282,12 @@
         function zeigeNeueAufgabe() {
             const params = new URLSearchParams(window.location.search);
             const sammlungen = params.getAll('sammlung');
+            const titel = params.get('titel');
+            // Prüfen, ob der Parameter vorhanden ist, und als <h2> anzeigen
+            if (titel) {
+                const h3Element = document.getElementById('quiz-title');
+                h3Element.textContent += ' ' + titel; // Titel anhängen
+            }
 
             if (sammlungen.length > 0) {
                 // Eine zufällige Sammlung auswählen
@@ -310,8 +314,7 @@
 
                 const aufgabeContainer = document.getElementById('aufgabe');
                 let htmlContent =
-                    `<h3>Aufgabe ${aufgabenZaehler}</h3>
-                    <div class="einleitung">
+                    `<div class="einleitung">
                         <p>${selectedTask.einleitung}</p>
                     </div>
                     <div class="nachfolgend">
