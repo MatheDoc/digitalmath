@@ -9,7 +9,6 @@ h1 {
     background-color: #7e7e7e;
     color: white;
     padding: 10px;
-    margin-bottom: 0px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -25,8 +24,8 @@ h2 {
 
 h3 {
     color: #000000;
-    margin: 20px auto 0; /* Oben und unten: 20px, zentriert */
-    max-width: 700px;
+    margin: 0px auto 0; /* Oben und unten: 20px, zentriert */
+    max-width: 658px;
     padding: 20px;
     font-style: italic;
     font-size: 1em;
