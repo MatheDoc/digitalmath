@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-    color: #7e7e7e;
+    color: #000000;
     margin: 20px auto 0; /* Oben und unten: 20px, zentriert */
     max-width: 700px;
     padding-bottom: 20px;
@@ -384,7 +384,16 @@ a.link-homepage:hover {
     h1{
         margin-top: 0px;
         margin-bottom: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
+    }
+    h3{
+        background-color: #929292;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+
     }
     .nachfolgend li .check-icon{
         display: none;
