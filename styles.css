@@ -19,6 +19,7 @@ h2 {
     max-width: 700px;
     align-items: center; /* Zentriert die Elemente vertikal */
     padding-bottom: 0px;
+    font-size: 1.3em;
 }
 
 h3 {
@@ -177,8 +178,7 @@ select.mch + .select2-container .select2-selection--single {
 
 }
 
-
-.info-icon, .copy-icon, .test-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon  {
+.info-icon, .copy-icon, .test-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon  {
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
@@ -204,18 +204,16 @@ select.mch + .select2-container .select2-selection--single {
 .test-icon:hover {
     color: #e72f8b;      
 }
-.check-all-icon, .pdf-icon, .eye-icon, .reload-icon {
-    padding-right: 20px;
-    color:#5882ffb0;
+.pdf-icon, .eye-icon, .reload-icon, .trash-icon, .check-all-icon {
+    padding-right: 10px;
+    padding-left: 10px;
 }
-.reload-icon:hover, .pdf-icon:hover, .eye-icon:hover, .check-all-icon:hover {
-    color: #5882ff;        
-}
-.check-icon {
+
+.check-icon, .check-all-icon {
     color: #5882ffb0;
     margin-left: 5px;
 }
-.check-icon:hover {
+.check-icon:hover,.check-all-icon:hover {
     color: #5882ff;
 }
 .auswahl-icon{
@@ -247,6 +245,13 @@ select.mch + .select2-container .select2-selection--single {
     color: #E03C31;
 }
 
+.trash-icon{
+    color: #693c77a4;
+}
+
+.trash-icon:hover{
+    color: #693c77e4;
+}
 /* Modernere Hover-Effekte */
 table.dataTable tbody tr:hover {
     background-color: #f1f1f1;
@@ -351,8 +356,10 @@ a.link-homepage:hover {
 @media print {
     body {
         margin: 0;
-        padding-left: 1.5cm;
-        padding-right: 1.5cm;
+        padding-left: 2cm;
+        padding-right: 2cm;
+        width: 21cm; /* A4-Breite */
+        height: 29.7cm; /* A4-Höhe */
     }
     .einleitung {
         max-width: 100%;
@@ -373,7 +380,7 @@ a.link-homepage:hover {
         padding: 0px;
         margin: 0px;
     }
-        img {
+    img {
         max-width: 50%;
     }
     h2 { 
@@ -391,10 +398,10 @@ a.link-homepage:hover {
         border-radius: 8px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
-
+        max-width: 100%;
     }
     .nachfolgend li .check-icon{
-        display: none;
+        display: none !important;
     }
     input[type="text"]{
         visibility: hidden; /* Versteckt das Element, ohne den Platz zu entfernen */
