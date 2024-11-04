@@ -20,8 +20,7 @@ h2 {
     margin: 20px auto 0; /* Oben und unten: 20px, zentriert */
     text-align: center;
     max-width: 700px;
-    display: flex;
-    justify-content: space-between; /* Elemente am Rand platzieren */
+ 
     align-items: center; /* Zentriert die Elemente vertikal */
     padding-bottom: 20px;
 }
@@ -34,8 +33,10 @@ h3 {
     max-width: 700px;
     display: flex;
     justify-content: space-between; /* Elemente am Rand platzieren */
-    align-items: center; /* Zentriert die Elemente vertikal */
+    align-items: left; /* Zentriert die Elemente vertikal */
     padding-bottom: 20px;
+    font-style: italic;
+    font-size: 1em;
 }
 
 p {
@@ -232,6 +233,27 @@ select.mch + .select2-container .select2-selection--single {
     color: #919191;
 }
 
+.eye-icon{
+    color: #e2a92db0;
+}
+.eye-icon:hover {
+    color: #e2a92d;
+}
+.reload-icon{
+    color: #19a35ead;;
+}
+
+.reload-icon:hover{
+    color: #19a35e;;
+}
+
+.pdf-icon{
+    color: #e03d31a8;
+}
+
+.pdf-icon:hover{
+    color: #E03C31;
+}
 
 /* Modernere Hover-Effekte */
 table.dataTable tbody tr:hover {
@@ -361,7 +383,7 @@ a.link-homepage:hover {
         img {
         max-width: 50%;
     }
-    h2, h3 { 
+    h2 { 
         display: none;
     }
     h1{
