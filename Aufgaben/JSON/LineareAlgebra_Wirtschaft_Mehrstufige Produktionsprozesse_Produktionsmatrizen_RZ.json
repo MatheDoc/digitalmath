@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&3\\\\1&2\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}21&35\\\\14&23\\\\13&20\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=7:0}\\( b= \\){1:NUMERICAL:=7:0}<br>\\( c= \\){1:NUMERICAL:=5:0}\\( d= \\){1:NUMERICAL:=4:0}<br>\\( e= \\){1:NUMERICAL:=6:0}\\( f= \\){1:NUMERICAL:=1:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}4&5\\\\3&4\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}41&52\\\\41&52\\\\29&37\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=8:0}\\( b= \\){1:NUMERICAL:=3:0}<br>\\( c= \\){1:NUMERICAL:=8:0}\\( d= \\){1:NUMERICAL:=3:0}<br>\\( e= \\){1:NUMERICAL:=5:0}\\( f= \\){1:NUMERICAL:=3:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&1\\\\3&2\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}25&15\\\\13&8\\\\7&4\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=5:0}<br>\\( c= \\){1:NUMERICAL:=2:0}\\( d= \\){1:NUMERICAL:=3:0}<br>\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=1:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}11&9&2&6\\\\6&4&1&3\\\\18&14&3&10\\\\5&4&1&3\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}168&127&29&91\\\\250&193&43&136\\\\242&188&42&132\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=3:0}\\( b= \\){1:NUMERICAL:=8:0}\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=3:0}<br>\\( e= \\){1:NUMERICAL:=7:0}\\( f= \\){1:NUMERICAL:=7:0}\\( g= \\){1:NUMERICAL:=7:0}\\( h= \\){1:NUMERICAL:=1:0}<br>\\( i= \\){1:NUMERICAL:=8:0}\\( j= \\){1:NUMERICAL:=6:0}\\( k= \\){1:NUMERICAL:=6:0}\\( l= \\){1:NUMERICAL:=2:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}3&14\\\\1&5\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}30&143\\\\24&115\\\\12&59\\\\23&109\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\g&h\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=7:0}\\( b= \\){1:NUMERICAL:=9:0}<br>\\( c= \\){1:NUMERICAL:=5:0}\\( d= \\){1:NUMERICAL:=9:0}<br>\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=9:0}<br>\\( g= \\){1:NUMERICAL:=6:0}\\( h= \\){1:NUMERICAL:=5:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&2&2\\\\6&3&2\\\\3&2&1\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}74&35&27\\\\56&25&21\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}4&2&5\\\\5&2&6\\\\7&3&9\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}61&27&77\\\\91&40&115\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
 "Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=7:0}\\( b= \\){1:NUMERICAL:=5:0}\\( c= \\){1:NUMERICAL:=3:0}<br>\\( d= \\){1:NUMERICAL:=7:0}\\( e= \\){1:NUMERICAL:=3:0}\\( f= \\){1:NUMERICAL:=1:0}<br>"
+"\\( a= \\){1:NUMERICAL:=4:0}\\( b= \\){1:NUMERICAL:=2:0}\\( c= \\){1:NUMERICAL:=5:0}<br>\\( d= \\){1:NUMERICAL:=5:0}\\( e= \\){1:NUMERICAL:=3:0}\\( f= \\){1:NUMERICAL:=8:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&2\\\\3&1\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}40&15\\\\19&7\\\\13&5\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}1&2&3&2\\\\1&1&2&1\\\\2&5&6&4\\\\1&3&4&2\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}31&66&90&53\\\\20&33&52&31\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=5:0}<br>\\( c= \\){1:NUMERICAL:=2:0}\\( d= \\){1:NUMERICAL:=3:0}<br>\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=1:0}<br>"
+"\\( a= \\){1:NUMERICAL:=2:0}\\( b= \\){1:NUMERICAL:=9:0}\\( c= \\){1:NUMERICAL:=7:0}\\( d= \\){1:NUMERICAL:=6:0}<br>\\( e= \\){1:NUMERICAL:=8:0}\\( f= \\){1:NUMERICAL:=9:0}\\( g= \\){1:NUMERICAL:=1:0}\\( h= \\){1:NUMERICAL:=1:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}3&2\\\\4&3\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}22&15\\\\23&16\\\\15&11\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=6:0}\\( b= \\){1:NUMERICAL:=1:0}<br>\\( c= \\){1:NUMERICAL:=5:0}\\( d= \\){1:NUMERICAL:=2:0}<br>\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=3:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&1\\\\3&2\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}17&10\\\\20&11\\\\41&25\\\\20&13\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}3&2\\\\5&3\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}31&19\\\\23&15\\\\21&13\\\\24&15\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
 "Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\g&h\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=4:0}\\( b= \\){1:NUMERICAL:=3:0}<br>\\( c= \\){1:NUMERICAL:=7:0}\\( d= \\){1:NUMERICAL:=2:0}<br>\\( e= \\){1:NUMERICAL:=7:0}\\( f= \\){1:NUMERICAL:=9:0}<br>\\( g= \\){1:NUMERICAL:=1:0}\\( h= \\){1:NUMERICAL:=6:0}<br>"
+"\\( a= \\){1:NUMERICAL:=2:0}\\( b= \\){1:NUMERICAL:=5:0}<br>\\( c= \\){1:NUMERICAL:=6:0}\\( d= \\){1:NUMERICAL:=1:0}<br>\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=3:0}<br>\\( g= \\){1:NUMERICAL:=3:0}\\( h= \\){1:NUMERICAL:=3:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}4&7\\\\1&2\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}29&51\\\\20&36\\\\13&23\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=7:0}\\( b= \\){1:NUMERICAL:=1:0}<br>\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=4:0}<br>\\( e= \\){1:NUMERICAL:=3:0}\\( f= \\){1:NUMERICAL:=1:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}4&7&9\\\\8&13&18\\\\1&2&2\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}75&126&168\\\\33&56&73\\\\86&143&192\\\\56&98&124\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&1&1\\\\4&3&4\\\\9&6&8\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}65&42&54\\\\93&60&77\\\\97&63&82\\\\86&58&75\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
 "Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\g&h&i\\\\j&k&l\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=6:0}\\( b= \\){1:NUMERICAL:=6:0}\\( c= \\){1:NUMERICAL:=3:0}<br>\\( d= \\){1:NUMERICAL:=1:0}\\( e= \\){1:NUMERICAL:=3:0}\\( f= \\){1:NUMERICAL:=5:0}<br>\\( g= \\){1:NUMERICAL:=2:0}\\( h= \\){1:NUMERICAL:=9:0}\\( i= \\){1:NUMERICAL:=6:0}<br>\\( j= \\){1:NUMERICAL:=8:0}\\( k= \\){1:NUMERICAL:=2:0}\\( l= \\){1:NUMERICAL:=8:0}<br>"
+"\\( a= \\){1:NUMERICAL:=6:0}\\( b= \\){1:NUMERICAL:=2:0}\\( c= \\){1:NUMERICAL:=5:0}<br>\\( d= \\){1:NUMERICAL:=9:0}\\( e= \\){1:NUMERICAL:=3:0}\\( f= \\){1:NUMERICAL:=7:0}<br>\\( g= \\){1:NUMERICAL:=6:0}\\( h= \\){1:NUMERICAL:=1:0}\\( i= \\){1:NUMERICAL:=9:0}<br>\\( j= \\){1:NUMERICAL:=7:0}\\( k= \\){1:NUMERICAL:=9:0}\\( l= \\){1:NUMERICAL:=4:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&8&4&3\\\\1&5&2&3\\\\1&6&3&2\\\\1&4&2&2\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}25&123&57&58\\\\24&112&55&45\\\\22&102&47&51\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}1&1&3\\\\2&3&7\\\\4&4&11\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}25&27&72\\\\39&41&112\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\ \\end{matrix}\\right) \\)."
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=9:0}\\( c= \\){1:NUMERICAL:=7:0}\\( d= \\){1:NUMERICAL:=7:0}<br>\\( e= \\){1:NUMERICAL:=5:0}\\( f= \\){1:NUMERICAL:=2:0}\\( g= \\){1:NUMERICAL:=7:0}\\( h= \\){1:NUMERICAL:=5:0}<br>\\( i= \\){1:NUMERICAL:=1:0}\\( j= \\){1:NUMERICAL:=8:0}\\( k= \\){1:NUMERICAL:=3:0}\\( l= \\){1:NUMERICAL:=9:0}<br>"
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=2:0}\\( c= \\){1:NUMERICAL:=5:0}<br>\\( d= \\){1:NUMERICAL:=7:0}\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=7:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}13&3&12&1\\\\5&1&5&1\\\\10&3&10&1\\\\10&2&9&1\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}230&52&216&25\\\\193&47&183&20\\\\148&36&140&14\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&2&3\\\\1&2&1\\\\5&5&7\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}57&59&80\\\\14&21&17\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\ \\end{matrix}\\right) \\)."
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=7:0}\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=9:0}<br>\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=2:0}\\( g= \\){1:NUMERICAL:=8:0}\\( h= \\){1:NUMERICAL:=9:0}<br>\\( i= \\){1:NUMERICAL:=6:0}\\( j= \\){1:NUMERICAL:=2:0}\\( k= \\){1:NUMERICAL:=4:0}\\( l= \\){1:NUMERICAL:=2:0}<br>"
+"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=2:0}\\( c= \\){1:NUMERICAL:=9:0}<br>\\( d= \\){1:NUMERICAL:=1:0}\\( e= \\){1:NUMERICAL:=7:0}\\( f= \\){1:NUMERICAL:=1:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}1&3&2\\\\1&8&5\\\\2&18&11\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}26&194&120\\\\24&178&110\\\\24&159&99\\\\23&190&117\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}10&11&8&2\\\\3&3&2&1\\\\4&5&3&2\\\\4&4&3&1\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}77&83&60&18\\\\70&75&52&21\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\g&h&i\\\\j&k&l\\\\ \\end{matrix}\\right) \\)."
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=6:0}\\( b= \\){1:NUMERICAL:=4:0}\\( c= \\){1:NUMERICAL:=8:0}<br>\\( d= \\){1:NUMERICAL:=6:0}\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=8:0}<br>\\( g= \\){1:NUMERICAL:=9:0}\\( h= \\){1:NUMERICAL:=3:0}\\( i= \\){1:NUMERICAL:=6:0}<br>\\( j= \\){1:NUMERICAL:=2:0}\\( k= \\){1:NUMERICAL:=5:0}\\( l= \\){1:NUMERICAL:=8:0}<br>"
+"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=1:0}\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=5:0}<br>\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=6:0}\\( g= \\){1:NUMERICAL:=3:0}\\( h= \\){1:NUMERICAL:=5:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&4&2&5\\\\1&1&1&2\\\\3&5&2&7\\\\5&10&5&13\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}49&86&45&119\\\\75&138&69&185\\\\75&136&66&184\\\\82&157&76&206\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\m&n&o&p\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=2:0}\\( b= \\){1:NUMERICAL:=8:0}\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=5:0}<br>\\( e= \\){1:NUMERICAL:=8:0}\\( f= \\){1:NUMERICAL:=6:0}\\( g= \\){1:NUMERICAL:=6:0}\\( h= \\){1:NUMERICAL:=7:0}<br>\\( i= \\){1:NUMERICAL:=4:0}\\( j= \\){1:NUMERICAL:=5:0}\\( k= \\){1:NUMERICAL:=9:0}\\( l= \\){1:NUMERICAL:=7:0}<br>\\( m= \\){1:NUMERICAL:=9:0}\\( n= \\){1:NUMERICAL:=1:0}\\( o= \\){1:NUMERICAL:=6:0}\\( p= \\){1:NUMERICAL:=9:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&7&7\\\\3&7&6\\\\1&3&3\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}50&140&131\\\\26&85&84\\\\34&87&79\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}8&12&5\\\\1&2&1\\\\3&5&2\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}32&51&21\\\\50&77&32\\\\35&55&23\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
 "Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\g&h&i\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=8:0}\\( b= \\){1:NUMERICAL:=9:0}\\( c= \\){1:NUMERICAL:=7:0}<br>\\( d= \\){1:NUMERICAL:=9:0}\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=5:0}<br>\\( g= \\){1:NUMERICAL:=1:0}\\( h= \\){1:NUMERICAL:=8:0}\\( i= \\){1:NUMERICAL:=8:0}<br>"
+"\\( a= \\){1:NUMERICAL:=2:0}\\( b= \\){1:NUMERICAL:=1:0}\\( c= \\){1:NUMERICAL:=5:0}<br>\\( d= \\){1:NUMERICAL:=5:0}\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=3:0}<br>\\( g= \\){1:NUMERICAL:=3:0}\\( h= \\){1:NUMERICAL:=2:0}\\( i= \\){1:NUMERICAL:=3:0}<br>"
 ]
 },
 {
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&2&1&4\\\\7&3&1&6\\\\2&1&1&2\\\\17&7&3&15\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}140&58&26&122\\\\121&51&25&107\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=4:0}\\( b= \\){1:NUMERICAL:=2:0}\\( c= \\){1:NUMERICAL:=2:0}\\( d= \\){1:NUMERICAL:=6:0}<br>\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=2:0}\\( g= \\){1:NUMERICAL:=6:0}\\( h= \\){1:NUMERICAL:=5:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}4&3\\\\3&2\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}23&17\\\\31&22\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=1:0}<br>\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=5:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}1&7&4&6\\\\2&11&6&8\\\\1&3&1&2\\\\1&6&3&5\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}24&120&59&92\\\\27&138&70&106\\\\ \\end{matrix}\\right) \\)",
-"fragen":[
-"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\ \\end{matrix}\\right) \\)."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=4:0}\\( c= \\){1:NUMERICAL:=7:0}\\( d= \\){1:NUMERICAL:=8:0}<br>\\( e= \\){1:NUMERICAL:=5:0}\\( f= \\){1:NUMERICAL:=5:0}\\( g= \\){1:NUMERICAL:=8:0}\\( h= \\){1:NUMERICAL:=4:0}<br>"
-]
-},
-{
-"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}3&4\\\\2&3\\\\ \\end{matrix}\\right) \\) \\( RE = \\left(\\begin{matrix}24&34\\\\15&21\\\\40&56\\\\ \\end{matrix}\\right) \\)",
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}6&5\\\\7&6\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}90&76\\\\86&73\\\\91&77\\\\ \\end{matrix}\\right) \\)",
 "fragen":[
 "Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=4:0}\\( b= \\){1:NUMERICAL:=6:0}<br>\\( c= \\){1:NUMERICAL:=3:0}\\( d= \\){1:NUMERICAL:=3:0}<br>\\( e= \\){1:NUMERICAL:=8:0}\\( f= \\){1:NUMERICAL:=8:0}<br>"
+"\\( a= \\){1:NUMERICAL:=8:0}\\( b= \\){1:NUMERICAL:=6:0}<br>\\( c= \\){1:NUMERICAL:=5:0}\\( d= \\){1:NUMERICAL:=8:0}<br>\\( e= \\){1:NUMERICAL:=7:0}\\( f= \\){1:NUMERICAL:=7:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}3&2&2&2\\\\2&2&2&1\\\\2&2&1&1\\\\5&5&4&3\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}87&82&66&50\\\\68&65&50&39\\\\81&72&60&47\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\i&j&k&l\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=8:0}\\( c= \\){1:NUMERICAL:=8:0}\\( d= \\){1:NUMERICAL:=8:0}<br>\\( e= \\){1:NUMERICAL:=3:0}\\( f= \\){1:NUMERICAL:=4:0}\\( g= \\){1:NUMERICAL:=8:0}\\( h= \\){1:NUMERICAL:=7:0}<br>\\( i= \\){1:NUMERICAL:=9:0}\\( j= \\){1:NUMERICAL:=9:0}\\( k= \\){1:NUMERICAL:=8:0}\\( l= \\){1:NUMERICAL:=4:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}7&14&12&4\\\\3&5&5&2\\\\5&10&9&3\\\\8&15&15&5\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}64&119&112&40\\\\75&139&136&47\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=8:0}\\( c= \\){1:NUMERICAL:=5:0}\\( d= \\){1:NUMERICAL:=1:0}<br>\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=5:0}\\( g= \\){1:NUMERICAL:=1:0}\\( h= \\){1:NUMERICAL:=6:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&2\\\\7&3\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}70&29\\\\89&37\\\\78&33\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=7:0}\\( b= \\){1:NUMERICAL:=5:0}<br>\\( c= \\){1:NUMERICAL:=8:0}\\( d= \\){1:NUMERICAL:=7:0}<br>\\( e= \\){1:NUMERICAL:=3:0}\\( f= \\){1:NUMERICAL:=9:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}6&5&3\\\\3&3&2\\\\4&4&3\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}64&59&39\\\\50&45&29\\\\117&108&72\\\\56&55&39\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\g&h&i\\\\j&k&l\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=6:0}\\( c= \\){1:NUMERICAL:=4:0}<br>\\( d= \\){1:NUMERICAL:=5:0}\\( e= \\){1:NUMERICAL:=4:0}\\( f= \\){1:NUMERICAL:=2:0}<br>\\( g= \\){1:NUMERICAL:=9:0}\\( h= \\){1:NUMERICAL:=9:0}\\( i= \\){1:NUMERICAL:=9:0}<br>\\( j= \\){1:NUMERICAL:=1:0}\\( k= \\){1:NUMERICAL:=6:0}\\( l= \\){1:NUMERICAL:=8:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}1&2&3\\\\2&4&7\\\\3&5&7\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}31&60&98\\\\41&75&116\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=7:0}\\( b= \\){1:NUMERICAL:=9:0}\\( c= \\){1:NUMERICAL:=2:0}<br>\\( d= \\){1:NUMERICAL:=6:0}\\( e= \\){1:NUMERICAL:=7:0}\\( f= \\){1:NUMERICAL:=7:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}9&7&3\\\\8&6&3\\\\4&3&1\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}135&103&46\\\\113&86&36\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c\\\\d&e&f\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=7:0}\\( b= \\){1:NUMERICAL:=7:0}\\( c= \\){1:NUMERICAL:=4:0}<br>\\( d= \\){1:NUMERICAL:=5:0}\\( e= \\){1:NUMERICAL:=4:0}\\( f= \\){1:NUMERICAL:=9:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}3&2&2&3\\\\3&2&3&4\\\\4&2&3&4\\\\1&1&1&1\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}36&25&34&44\\\\61&38&48&63\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b&c&d\\\\e&f&g&h\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1:0}\\( b= \\){1:NUMERICAL:=8:0}\\( c= \\){1:NUMERICAL:=1:0}\\( d= \\){1:NUMERICAL:=5:0}<br>\\( e= \\){1:NUMERICAL:=5:0}\\( f= \\){1:NUMERICAL:=2:0}\\( g= \\){1:NUMERICAL:=8:0}\\( h= \\){1:NUMERICAL:=8:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}2&3\\\\3&5\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}29&46\\\\14&22\\\\32&51\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=7:0}\\( b= \\){1:NUMERICAL:=5:0}<br>\\( c= \\){1:NUMERICAL:=4:0}\\( d= \\){1:NUMERICAL:=2:0}<br>\\( e= \\){1:NUMERICAL:=7:0}\\( f= \\){1:NUMERICAL:=6:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}3&2\\\\5&3\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}35&22\\\\52&33\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=5:0}\\( b= \\){1:NUMERICAL:=4:0}<br>\\( c= \\){1:NUMERICAL:=9:0}\\( d= \\){1:NUMERICAL:=5:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}5&2\\\\8&3\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}76&29\\\\107&41\\\\50&19\\\\77&30\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\g&h\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=4:0}\\( b= \\){1:NUMERICAL:=7:0}<br>\\( c= \\){1:NUMERICAL:=7:0}\\( d= \\){1:NUMERICAL:=9:0}<br>\\( e= \\){1:NUMERICAL:=2:0}\\( f= \\){1:NUMERICAL:=5:0}<br>\\( g= \\){1:NUMERICAL:=9:0}\\( h= \\){1:NUMERICAL:=4:0}<br>"
+]
+},
+{
+"einleitung":"Gegeben:</p> <p>\\( ZE = \\left(\\begin{matrix}4&7\\\\1&2\\\\ \\end{matrix}\\right) \\)\\(;\\quad\\)\\( RE = \\left(\\begin{matrix}14&25\\\\24&43\\\\10&19\\\\ \\end{matrix}\\right) \\)",
+"fragen":[
+"Berechnen Sie \\( RZ = \\left(\\begin{matrix}a&b\\\\c&d\\\\e&f\\\\ \\end{matrix}\\right) \\)."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=3:0}\\( b= \\){1:NUMERICAL:=2:0}<br>\\( c= \\){1:NUMERICAL:=5:0}\\( d= \\){1:NUMERICAL:=4:0}<br>\\( e= \\){1:NUMERICAL:=1:0}\\( f= \\){1:NUMERICAL:=6:0}<br>"
 ]
 }
 ]

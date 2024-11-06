@@ -49,20 +49,14 @@
 <body>
     <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home"><h1>Yes, we can math!</h1></a>  
     <h2>
-        <span>
-            Quiz
-        </span>
-        <span class="right-text">
-            <i class="fas fa-paper-plane check-all-icon" title="Alle Fragen überprüfen" onclick="checkAllQuestions()"></i>
-            <i class="fas fa-eye eye-icon" title="Lösungen anzeigen" onclick="showAllAnswers()"></i> 
-            <i class="fas fa-file-pdf pdf-icon" title="PDF erstellen" onclick="printToPDF()"></i>
-            <i class="fas fa-redo reload-icon" title="Neue Aufgabe anzeigen" onclick="window.location.reload();"></i>
-        </span>
+        <i class="fas fa-paper-plane check-all-icon" title="Alle Fragen abschicken" onclick="checkAllQuestions()"></i>
+        <i class="fas fa-eye eye-icon" title="Lösungen anzeigen" onclick="showAllAnswers()"></i>
+        <i class="fas fa-trash-can trash-icon" title="Lösungen löschen" onclick="hideAllAnswers()"></i> 
+        <i class="fas fa-file-pdf pdf-icon" title="PDF erstellen" onclick="printToPDF()"></i>
+        <i class="fas fa-redo reload-icon" title="Neue Aufgabe anzeigen" onclick="window.location.reload();"></i>
     </h2>
 
-    <h3>
-        Interpretation von Baumdiagrammen mit bedingten Wahrscheinlichkeiten
-    </h3>
+    <h3 id="quiz-title"></h3>
 
     <div id="aufgabe"></div>
 
@@ -109,16 +103,23 @@
                     input.style.display = "inline";
                 });
 
-                 document.querySelectorAll('select.mch').forEach(select => {
+                // Select2 Dropdowns zurücksetzen und erneut initialisieren
+                document.querySelectorAll('select.mch').forEach(select => {
                     const questionId = select.id.replace('answer', '');
                     const feedbackElement = document.getElementById(`feedback${questionId}`);
-                    feedbackElement.innerHTML = correctAnswer;
-                    feedbackElement.style.color = '';
-                      // Select2-Container einblenden
-                    const select2Container = select.nextElementSibling; // Nächstes Geschwisterelement nach select
-                    if (select2Container && select2Container.classList.contains('select2')) {
-                        select2Container.style.display = "inline";
-                    }
+                    feedbackElement.innerHTML = ''; // Feedback zurücksetzen
+
+
+                    // Entferne Select2 und setze Dropdown auf den Originalzustand
+                    $(select).select2('destroy'); // Select2-Widget entfernen
+                    select.style.display = "inline"; // Dropdown sichtbar machen
+
+                    // Select2 erneut initialisieren
+                    $(select).select2({
+                        placeholder: "Antwort",
+                        minimumResultsForSearch: Infinity,
+                        width: 'auto'
+                    });
                 });
 
                 document.querySelectorAll('.check-icon').forEach(icon => {
@@ -229,7 +230,7 @@
             function replacer(match, correctAnswer, tolerance) {
                 const interactiveHtml = `
                     <input type="text" id="answer${questionId}" placeholder="Antwort" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
-                    <i class="fas fa-paper-plane check-icon "title="Frage überprüfen" onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
+                    <i class="fas fa-paper-plane check-icon "title="Frage abschicken" onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
                     <span id="feedback${questionId}"></span>
                 `;
                 questionId++; // Eindeutige ID für jede Frage
@@ -284,6 +285,12 @@
         function zeigeNeueAufgabe() {
             const params = new URLSearchParams(window.location.search);
             const sammlungen = params.getAll('sammlung');
+            const titel = params.get('titel');
+            // Prüfen, ob der Parameter vorhanden ist, und als <h2> anzeigen
+            if (titel) {
+                const h3Element = document.getElementById('quiz-title');
+                h3Element.textContent += ' ' + titel; // Titel anhängen
+            }
 
             if (sammlungen.length > 0) {
                 // Eine zufällige Sammlung auswählen
@@ -310,8 +317,7 @@
 
                 const aufgabeContainer = document.getElementById('aufgabe');
                 let htmlContent =
-                    `<h3>Aufgabe ${aufgabenZaehler}</h3>
-                    <div class="einleitung">
+                    `<div class="einleitung">
                         <p>${selectedTask.einleitung}</p>
                     </div>
                     <div class="nachfolgend">
