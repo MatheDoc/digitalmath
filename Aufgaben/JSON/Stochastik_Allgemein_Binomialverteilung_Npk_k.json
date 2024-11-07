@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  152 Teile.",
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  212 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 21% defekt.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der defekten Halbleiter höchstens sein darf, damit die Wahrscheinlichkeiten für höchstens 33 defekte Halbleiter mindestens 68% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der defekten Halbleiter, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der defekten Halbleiter mindestens 18% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,2:0}"
+"{1:NUMERICAL:=50:0}"
 ]
 },
 {
-"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 133 Passagiere.",
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 140 Passagiere. Erfahrungsgemäß haben 46% aller Passagiere keinen gültigen Fahrschein.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Passagiere ohne gültigen Fahrschein mindestens sein muss, damit die Wahrscheinlichkeiten für mindestens 84 Passagiere ohne gültigen Fahrschein mindestens 16% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Passagiere ohne gültigen Fahrschein, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Passagiere ohne gültigen Fahrschein mindestens 83% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,59:0}"
+"{1:NUMERICAL:=70:0}"
 ]
 },
 {
-"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 124 Kunden ein Eis.",
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 131 Kunden ein Eis. Typischerweise bestellt jeder 5. Kunde ein Eis mit Streuseln.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Kundenbestellungen mit Streuseln mindestens sein muss, damit die Wahrscheinlichkeiten für mindestens 36 Kundenbestellungen mit Streuseln mindestens 48% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Kundenbestellungen mit Streuseln, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Kundenbestellungen mit Streuseln mindestens 49% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,29:0}"
+"{1:NUMERICAL:=26:0}"
 ]
 },
 {
-"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 179 Mal.",
+"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 186 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 53%.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der geworfenen Köpfe mindestens sein muss, damit die Wahrscheinlichkeiten für mindestens 38 geworfene Köpfe mindestens 31% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der geworfenen Köpfe, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der geworfenen Köpfe mindestens 64% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,2:0}"
+"{1:NUMERICAL:=101:0}"
 ]
 },
 {
-"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 245 Bewerber.",
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 252 Bewerber. Erfahrungswerte besagen, dass 71% aller Bewerber den Check erfolgreich absolvieren.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Bewerber mit erfolgreichem Gesundheitscheck höchstens sein darf, damit die Wahrscheinlichkeiten für höchstens 55 Bewerber mit erfolgreichem Gesundheitscheck mindestens 26% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Bewerber mit erfolgreichem Gesundheitscheck mindestens 75% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,24:0}"
+"{1:NUMERICAL:=174:0}"
 ]
 },
 {
-"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 226 Prüflinge.",
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 179 Prüflinge. Die Durchfallquote liegt bei 35%.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der durchgefallenen Prüflinge mindestens sein muss, damit die Wahrscheinlichkeiten für mindestens 44 durchgefallene Prüflinge mindestens 53% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der durchgefallenen Prüflinge, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der durchgefallenen Prüflinge höchstens 40% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,2:0}"
+"{1:NUMERICAL:=60:0}"
 ]
 },
 {
-"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 217 Turnschuhe.",
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 171 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 66% aller Schuhe gefälscht.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der gefälschten Turnschuhe mindestens sein muss, damit die Wahrscheinlichkeiten für höchstens 47 gefälschte Turnschuhe höchstens 19% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der gefälschten Turnschuhe, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der gefälschten Turnschuhe höchstens 84% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,25:0}"
+"{1:NUMERICAL:=118:0}"
 ]
 },
 {
-"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 219 Mal auf das Tor.",
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 226 Mal auf das Tor. Sie weiß, dass 42% aller Schüsse das Tor verfehlen.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Fehltreffer höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 113 Fehltreffer höchstens 89% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Fehltreffer, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Fehltreffer höchstens 18% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,55:0}"
+"{1:NUMERICAL:=87:0}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 137 Mitarbeiter befragt.",
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 143 Mitarbeiter befragt. Bekanntermaßen sind 24% aller Mitarbeiter zufrieden.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der zufriedenen Mitarbeiter höchstens sein darf, damit die Wahrscheinlichkeiten für höchstens 54 zufriedene Mitarbeiter mindestens 62% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der zufriedenen Mitarbeiter, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der zufriedenen Mitarbeiter mindestens 37% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,38:0}"
+"{1:NUMERICAL:=36:0}"
 ]
 },
 {
-"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 265 Gästen geprüft.",
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 272 Gästen geprüft. Allgemeine Statistiken zeigen, dass 49% aller Gäste vegetarische Gerichte bestellen.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der vegetarischen Gerichte mindestens sein muss, damit die Wahrscheinlichkeiten für mindestens 56 vegetarische Gerichte mindestens 28% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der vegetarischen Gerichte, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der vegetarischen Gerichte höchstens 72% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,2:0}"
+"{1:NUMERICAL:=137:0}"
 ]
 },
 {
-"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 109 Pflanzen.",
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 264 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 80% aller Pflanzen zu wenig Wasser bekommen.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der unzureichend bewässerten Pflanzen mindestens sein muss, damit die Wahrscheinlichkeiten für höchstens 62 unzureichend bewässerte Pflanzen höchstens 57% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der unzureichend bewässerten Pflanzen, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der unzureichend bewässerten Pflanzen mindestens 36% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,57:0}"
+"{1:NUMERICAL:=209:0}"
 ]
 },
 {
-"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 164 bestellten Werkzeugen untersucht.",
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 118 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 56% einen Akku.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Werkzeuge mit Akku mindestens sein muss, damit die Wahrscheinlichkeiten für höchstens 56 Werkzeuge mit Akku höchstens 70% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Werkzeuge mit Akku, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Werkzeuge mit Akku höchstens 49% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,33:0}"
+"{1:NUMERICAL:=65:0}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 229 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht.",
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 183 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 74% aller Computer keinen ausreichenden Virenschutz.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Computer mit unzureichendem Virenschutz höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 113 Computer mit unzureichendem Virenschutz höchstens 84% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Computer mit unzureichendem Virenschutz, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Computer mit unzureichendem Virenschutz höchstens 89% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,52:0}"
+"{1:NUMERICAL:=129:0}"
 ]
 },
 {
-"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 157 Krügen.",
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 111 Krügen. Analysen zeigen, dass 38% aller Krüge einen Kratzer haben.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Krüge mit Kratzer mindestens sein muss, damit die Wahrscheinlichkeiten für mindestens 115 Krüge mit Kratzer mindestens 77% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Krüge mit Kratzer, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der Krüge mit Kratzer mindestens 84% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,76:0}"
+"{1:NUMERICAL:=37:0}"
 ]
 },
 {
-"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 149 Partnervorschläge an.",
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 102 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 69% aller vorgeschlagenen Partner attraktiv findet.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Vorschläge mit attraktiven Partnern mindestens sein muss, damit die Wahrscheinlichkeiten für höchstens 72 attraktive Partnervorschläge höchstens 78% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Vorschläge mit attraktiven Partnern, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Vorschläge mit attraktiven Partnern höchstens 71% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,46:0}"
+"{1:NUMERICAL:=72:0}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 204 Stück zusammengefasst.",
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 157 Stück zusammengefasst. Der Zufallsgenerator legt jeder 4. Smartwatch einen Gutschein bei.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Smartwatches mit Gutschein mindestens sein muss, damit die Wahrscheinlichkeiten für mindestens 50 Smartwatches mit Gutschein mindestens 17% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Smartwatches mit Gutschein, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Smartwatches mit Gutschein höchstens 76% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,22:0}"
+"{1:NUMERICAL:=42:0}"
 ]
 },
 {
-"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 121 Kunden.",
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 222 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 63% bar bezahlt.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der barbezahlenden Kunden höchstens sein darf, damit die Wahrscheinlichkeiten für mindestens 79 barbezahlende Kunden höchstens 56% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der barbezahlenden Kunden, die mindestens in der Stichprobe vorhanden sein müssen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der barbezahlenden Kunden mindestens 29% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,65:0}"
+"{1:NUMERICAL:=136:0}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 250 Beamerlampen überprüft.",
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 204 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 52% aller Beamerlampen weniger als 4000 Stunden.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden mindestens sein muss, damit die Wahrscheinlichkeiten für höchstens 128 Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden höchstens 72% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden höchstens 55% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,5:0}"
+"{1:NUMERICAL:=106:0}"
 ]
 },
 {
-"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 241 User teil.",
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 195 User teil. Man weiß, dass jeder 2. User der Influencerin folgt.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der Follower der Influencerin mindestens sein muss, damit die Wahrscheinlichkeiten für höchstens 57 Follower der Influencerin höchstens 41% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der Follower der Influencerin, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für höchstens diese Anzahl der Follower der Influencerin höchstens 22% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,25:0}"
+"{1:NUMERICAL:=91:0}"
 ]
 },
 {
-"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 296 Lebensmittel.",
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 197 Lebensmittel. Interne Untersuchungen zeigen, dass in 34% der Fälle das Gewicht nicht ausreichend genau bestimmt wird.",
 "fragen":[
-"Bestimmen Sie wie hoch der Anteil der ungenau gewogenen Lebensmittel mindestens sein muss, damit die Wahrscheinlichkeiten für höchstens 105 ungenau gewogene Lebensmittel höchstens 52% beträgt (Angabe als Dezimalzahl auf 2 NKS gerundet)."
+"Bestimmen Sie die Anzahl der ungenau gewogenen Lebensmittel, die höchstens in der Stichprobe vorhanden sein dürfen, damit die Wahrscheinlichkeit für mindestens diese Anzahl der ungenau gewogenen Lebensmittel mindestens 81% beträgt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,36:0}"
+"{1:NUMERICAL:=61:0}"
 ]
 }
 ]
