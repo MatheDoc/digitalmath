@@ -109,6 +109,8 @@ table{
 }
 
 
+
+
 input[type="text"] {
     padding: 10px;
     font-size: 1em;
@@ -415,6 +417,12 @@ a.link-homepage:hover {
     .nachfolgend li .check-icon{
         display: none !important;
     }
+
+    .frage{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
     input[type="text"]{
         visibility: hidden; /* Versteckt das Element, ohne den Platz zu entfernen */
         width: 40px; /* Breite des Platzhalters */
