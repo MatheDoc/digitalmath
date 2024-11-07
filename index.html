@@ -99,7 +99,11 @@
                 // Testbutoon ausblenden, falls kein Test vorhanden
                 if (aufgaben === 'NaN') {
                     testButton = ''
-                }   
+                }
+                // Infobutoon ausblenden, falls keine Info vorhanden
+                if (data[7] === 'NaN'){
+                    infoButton = ' '
+                }
                 table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
             });
 
