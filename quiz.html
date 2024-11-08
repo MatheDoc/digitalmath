@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
     <title>Quiz</title>
     
     <!-- Einbinden pdf Export -->
@@ -289,10 +291,12 @@
             const params = new URLSearchParams(window.location.search);
             const sammlungen = params.getAll('sammlung');
             const titel = params.get('titel');
-            // Prüfen, ob der Parameter vorhanden ist, und als <h2> anzeigen
+            // Prüfen, ob der Parameter vorhanden ist
             if (titel) {
                 const h3Element = document.getElementById('quiz-title');
                 h3Element.textContent += ' ' + titel; // Titel anhängen
+                const metaDescription = document.querySelector('meta[name="description"]');
+                metaDescription.setAttribute('content', titel);
             }
 
             if (sammlungen.length > 0) {
