@@ -103,7 +103,7 @@
                     testButton = ''
                 }
                 // Infobutoon ausblenden, falls keine Info vorhanden
-                if (data[7] === 'NaN'){
+                if (data[7] === ''){
                     infoButton = ' '
                 }
                 table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
@@ -176,8 +176,10 @@
                         var row = $(this).closest('tr');
                         var text1 =  table.cell(row, 5).data().split('<i')[0].trim();
                         var text2 = table.cell(row, 7).data();
-                        var textToCopy = 'Erkläre schülergerecht: Ich kann ' + text1  + ' ' + text2;
-
+                        var textToCopy = 'Ich kann ' + text1;
+                        if(text2){
+                            textToCopy += ' (' + text2 + ')'
+                        }
 
 
                         // Kopieren in die Zwischenablage

@@ -23,9 +23,9 @@ neuer_text = '<table id="meineTabelle" class="display">'
 # Text2, der ersetzt werden soll
 alter_text2 = '<th>' + df.columns[0] + '</th>'  # Alte Überschrift der ersten Spalte
 neuer_text2 = '<th><input type="checkbox" id="checkAll" /></th>'  # Neue Überschrift mit Checkbox
-
-
-
+# Text3, der ersetzt werden soll
+alter_text3 = 'NaN'
+neuer_text3 = ''
 
 html_datei='liste.html'
 
@@ -36,6 +36,7 @@ with open(html_datei, 'r', encoding='utf-8') as file:
 # Text ersetzen
 html_inhalt = html_inhalt.replace(alter_text, neuer_text)
 html_inhalt = html_inhalt.replace(alter_text2, neuer_text2)
+html_inhalt = html_inhalt.replace(alter_text3, neuer_text3)
 
 # Änderungen speichern
 with open(html_datei, 'w', encoding='utf-8') as file:
