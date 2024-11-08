@@ -282,6 +282,9 @@
         }
 
 
+
+
+
         function zeigeNeueAufgabe() {
             const params = new URLSearchParams(window.location.search);
             const sammlungen = params.getAll('sammlung');
@@ -314,21 +317,22 @@
             if (aufgaben.length > 0) {
                 const randomIndex = Math.floor(Math.random() * aufgaben.length);
                 const selectedTask = aufgaben[randomIndex];
-
                 const aufgabeContainer = document.getElementById('aufgabe');
                 let htmlContent =
                     `<div class="einleitung">
                         <p>${selectedTask.einleitung}</p>
                     </div>
-                    <div class="nachfolgend">
-                        <ol aria-label>`;
-
-                selectedTask.fragen.forEach((frage, index) => {
-                    htmlContent += `<li><span class="frage">${frage}</span><br><span class="antwort">${selectedTask.antworten[index]}</span></li>`;
-                });
-
-                htmlContent += `</ol>
-                    </div>`;
+                    <div class="nachfolgend">`;
+                        if (selectedTask.fragen.length === 1) {
+                            htmlContent += `<ol style="list-style-type: none;" aria-label>`;
+                        }
+                        else {
+                            htmlContent += `<ol aria-label>`;
+                        }
+                        selectedTask.fragen.forEach((frage, index) => {
+                                htmlContent += `<li><span class="frage">${frage}</span><br><span class="antwort">${selectedTask.antworten[index]}</span></li>`;
+                            });
+                        htmlContent += `</ol>`;
 
                 const aufgabenElement = document.createElement('div');
                 aufgabenElement.id = `aufgabe-${aufgabenZaehler}`;
@@ -359,6 +363,18 @@
 
         // Initiales Laden einer zufälligen Aufgabe
         zeigeNeueAufgabe();
+
+        document.querySelectorAll('ol').forEach(olElement => {
+    const listItems = olElement.getElementsByTagName('li');
+    
+    // Wenn es nur ein <li> gibt, entferne die Nummerierung
+    if (listItems.length === 1) {
+        olElement.style.listStyleType = "none";  // Entfernt die Nummerierung
+        olElement.style.paddingLeft = "0";       // Entfernt den linken Abstand
+    }
+});
+
+
     </script>  
 </body>
 </html>
