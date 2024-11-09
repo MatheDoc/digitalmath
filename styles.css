@@ -462,7 +462,7 @@ a.link-homepage:hover {
 
 /* Klasse für den stroboskopischen Hintergrund */
 .strobe-background {
-    animation: strobeEffect 0.2s infinite;
+    animation: strobeEffect 0.2s 4;
     background-size: 200% 200%;
 }
 
