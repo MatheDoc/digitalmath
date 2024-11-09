@@ -305,7 +305,7 @@
                 const zufaelligeSammlung = sammlungen[Math.floor(Math.random() * sammlungen.length)];
 
                 // Aufgabe aus der zufällig ausgewählten Sammlung laden
-                fetch(`Aufgaben/JSON/${zufaelligeSammlung}`)
+                fetch(`JSON/${zufaelligeSammlung}`)
                     .then(response => response.json())
                     .then(data => zeigeZufaelligeAufgabeAusSammlung(zufaelligeSammlung, data))
                     .catch(error => {
