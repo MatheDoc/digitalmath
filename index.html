@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yes, we can math!</title>
+    <meta name="description" content="Lerne und lehre Mathematik - interaktiv und kostenlos">
+
+    <title>Yes we can - math!</title>
 
     <!-- Einbinden der externen CSS-Datei -->
     <link rel="stylesheet" href="styles.css"> 
@@ -101,7 +103,7 @@
                     testButton = ''
                 }
                 // Infobutoon ausblenden, falls keine Info vorhanden
-                if (data[7] === 'NaN'){
+                if (data[7] === ''){
                     infoButton = ' '
                 }
                 table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
@@ -174,8 +176,10 @@
                         var row = $(this).closest('tr');
                         var text1 =  table.cell(row, 5).data().split('<i')[0].trim();
                         var text2 = table.cell(row, 7).data();
-                        var textToCopy = 'Erkläre schülergerecht: Ich kann ' + text1  + ' ' + text2;
-
+                        var textToCopy = 'Ich kann ' + text1;
+                        if(text2){
+                            textToCopy += ' (' + text2 + ')'
+                        }
 
 
                         // Kopieren in die Zwischenablage
@@ -415,7 +419,7 @@
 <div id="infoText" class="info-text"></div>
 
 <footer>
-    &copy; 2024 Dr. Sven Führing. Alle Inhalte sind lizenziert unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">(CC BY-NC-SA 4.0).</a>
+    &copy; 2024 Dr. Sven Führing. Alle Inhalte sind lizenziert unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0.</a>
 </footer>
 
 </body>

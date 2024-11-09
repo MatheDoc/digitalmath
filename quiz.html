@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <meta name="description" content="">
+
+    <title>Test</title>
     
     <!-- Einbinden pdf Export -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
@@ -150,6 +152,7 @@
                 } else {
                     feedbackElement.innerHTML = 'Falsch! Die richtige Antwort ist: ' + correctAnswer;
                     feedbackElement.style.color = "red";
+                    document.body.style.backgroundColor = "#fdbdbd";
                 }
                 feedbackElement.style.transition = "opacity 0.5s ease-in-out";
                 feedbackElement.style.opacity = 1;
@@ -212,7 +215,7 @@
             if (totalCount > 0) { // Sicherstellen, dass Fragen vorhanden sind
                 // Hintergrundfarbe basierend auf der Anzahl der richtigen Antworten ändern
                 if (correctCount === totalCount) {
-                    document.body.style.backgroundColor = "#c1fdbd"; // Alle richtig
+                    document.body.classList.add('strobe-background');
                 } else {
                     document.body.style.backgroundColor = "#fdbdbd"; // Nicht alle richtig
                 }
@@ -289,10 +292,12 @@
             const params = new URLSearchParams(window.location.search);
             const sammlungen = params.getAll('sammlung');
             const titel = params.get('titel');
-            // Prüfen, ob der Parameter vorhanden ist, und als <h2> anzeigen
+            // Prüfen, ob der Parameter vorhanden ist
             if (titel) {
                 const h3Element = document.getElementById('quiz-title');
                 h3Element.textContent += ' ' + titel; // Titel anhängen
+                const metaDescription = document.querySelector('meta[name="description"]');
+                metaDescription.setAttribute('content', titel);
             }
 
             if (sammlungen.length > 0) {
