@@ -54,14 +54,20 @@
                             }
                         },
                         "ordering": false, // Deaktiviert die Sortierung für alle Spalten
-                        "columnDefs": [{
+                        "columnDefs": [
+                            {
                             "targets": 0,
                             "orderable": false,
                             "className": "dt-body-center dt-head-center",
                             "render": function(data, type, row) {
                                 return '<input type="checkbox" class="rowCheckbox" />';
+                                }
+                            },
+                            {
+                            "targets": 6,// Spalte 6 von Suchfunktion ausnehmen
+                            "searchable" : false
                             }
-                        }]
+                        ]
                     });
 
 
