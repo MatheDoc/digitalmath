@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 16 ME betragen 2132 GE.</p> <p>Die variablen Stückkosten bei 16 ME betragen 91 GE/ME.</p> <p>Die Grenzkosten bei 12 ME betragen 107 ME/GE.</p> <p>Das Betriebsoptimum beträgt 13 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 26 ME betragen 22816 GE.</p> <p>Die Stückkosten bei 5 ME betragen 4321,7 GE/ME.</p> <p>Die Grenzkosten bei 26 ME betragen 152 ME/GE.</p> <p>Das Betriebsminimum beträgt 24 ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-9:0}\\( x^2 \\)+{1:NUMERICAL:=107:0}\\( x \\)+{1:NUMERICAL:=676:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-24:0}\\( x^2 \\)+{1:NUMERICAL:=386:0}\\( x \\)+{1:NUMERICAL:=20216:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 264,6 GE.</p> <p>Die Stückkosten bei 5 ME betragen 116,42 GE/ME.</p> <p>Das Betriebsoptimum beträgt 21 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 60,1 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 12960 GE.</p> <p>Die variablen Stückkosten bei 20 ME betragen 489 GE/ME.</p> <p>Das Betriebsoptimum beträgt 30 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 985 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,1:0}\\( x^3 \\)+{1:NUMERICAL:=-3,6:0}\\( x^2 \\)+{1:NUMERICAL:=79:0}\\( x \\)+{1:NUMERICAL:=264,6:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,8:0}\\( x^3 \\)+{1:NUMERICAL:=-33,6:0}\\( x^2 \\)+{1:NUMERICAL:=841:0}\\( x \\)+{1:NUMERICAL:=12960:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1216,8 GE.</p> <p>Die variablen Stückkosten bei 18 ME betragen 119 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 6 ME statt.</p> <p>Das Betriebsoptimum beträgt 13 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 2500 GE.</p> <p>Die Stückkosten bei 4 ME betragen 1125 GE/ME.</p> <p>Die Grenzkosten bei 39 ME betragen 1219,5 ME/GE.</p> <p>Das Betriebsminimum beträgt 21 ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,9:0}\\( x^3 \\)+{1:NUMERICAL:=-16,2:0}\\( x^2 \\)+{1:NUMERICAL:=119:0}\\( x \\)+{1:NUMERICAL:=1216,8:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-21:0}\\( x^2 \\)+{1:NUMERICAL:=576:0}\\( x \\)+{1:NUMERICAL:=2500:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 10 ME betragen 2559,6 GE.</p> <p>Die Stückkosten bei 2 ME betragen 535 GE/ME.</p> <p>Die Grenzkosten bei 10 ME betragen 135 ME/GE.</p> <p>Das Betriebsoptimum beträgt 16 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 35 ME betragen 36564,5 GE.</p> <p>Die Stückkosten bei 5 ME betragen 3355,9 GE/ME.</p> <p>Die Grenzkosten bei 23 ME betragen 610,9 ME/GE.</p> <p>Das Betriebsminimum beträgt 18 ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,8:0}\\( x^3 \\)+{1:NUMERICAL:=-24:0}\\( x^2 \\)+{1:NUMERICAL:=375:0}\\( x \\)+{1:NUMERICAL:=409,6:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,9:0}\\( x^3 \\)+{1:NUMERICAL:=-32,4:0}\\( x^2 \\)+{1:NUMERICAL:=673:0}\\( x \\)+{1:NUMERICAL:=14112:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 6 ME betragen 1261,2 GE.</p> <p>Die Stückkosten bei 4 ME betragen 306,6 GE/ME.</p> <p>Das Betriebsoptimum beträgt 15 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 113 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 18 ME betragen 4608 GE.</p> <p>Die Stückkosten bei 2 ME betragen 1512 GE/ME.</p> <p>Das Betriebsminimum beträgt 15 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 104,5 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,4:0}\\( x^3 \\)+{1:NUMERICAL:=-7,2:0}\\( x^2 \\)+{1:NUMERICAL:=59:0}\\( x \\)+{1:NUMERICAL:=1080:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-15:0}\\( x^2 \\)+{1:NUMERICAL:=217:0}\\( x \\)+{1:NUMERICAL:=2646:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 5 ME betragen 53,5 GE.</p> <p>Die Stückkosten bei 25 ME betragen 248,14 GE/ME.</p> <p>Das Betriebsoptimum beträgt 4 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 10 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 17 ME betragen 1480 GE.</p> <p>Die variablen Stückkosten bei 23 ME betragen 36,8 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 10 ME statt.</p> <p>Das Betriebsoptimum beträgt 21 ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-3:0}\\( x^2 \\)+{1:NUMERICAL:=10:0}\\( x \\)+{1:NUMERICAL:=16:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,2:0}\\( x^3 \\)+{1:NUMERICAL:=-6:0}\\( x^2 \\)+{1:NUMERICAL:=69:0}\\( x \\)+{1:NUMERICAL:=1058,4:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 11 ME betragen 342,5 GE.</p> <p>Die Stückkosten bei 5 ME betragen 33,1 GE/ME.</p> <p>Die Grenzkosten bei 11 ME betragen 74,5 ME/GE.</p> <p>Das Betriebsoptimum beträgt 8 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 13720 GE.</p> <p>Die Stückkosten bei 25 ME betragen 783,8 GE/ME.</p> <p>Das Betriebsoptimum beträgt 35 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 699 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-6:0}\\( x^2 \\)+{1:NUMERICAL:=25:0}\\( x \\)+{1:NUMERICAL:=128:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,4:0}\\( x^3 \\)+{1:NUMERICAL:=-16,8:0}\\( x^2 \\)+{1:NUMERICAL:=405:0}\\( x \\)+{1:NUMERICAL:=13720:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 577,6 GE.</p> <p>Die variablen Stückkosten bei 29 ME betragen 105,2 GE/ME.</p> <p>Das Betriebsoptimum beträgt 19 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 99,6 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 540 GE.</p> <p>Die Stückkosten bei 4 ME betragen 153,8 GE/ME.</p> <p>Die Grenzkosten bei 10 ME betragen 18 ME/GE.</p> <p>Das Betriebsminimum beträgt 9 ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,2:0}\\( x^3 \\)+{1:NUMERICAL:=-6:0}\\( x^2 \\)+{1:NUMERICAL:=111:0}\\( x \\)+{1:NUMERICAL:=577,6:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,2:0}\\( x^3 \\)+{1:NUMERICAL:=-3,6:0}\\( x^2 \\)+{1:NUMERICAL:=30:0}\\( x \\)+{1:NUMERICAL:=540:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 20 ME betragen 6510,4 GE.</p> <p>Die variablen Stückkosten bei 10 ME betragen 210 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 10 ME statt.</p> <p>Das Betriebsoptimum beträgt 19 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 18 ME betragen 1124,8 GE.</p> <p>Die variablen Stückkosten bei 21 ME betragen 54,5 GE/ME.</p> <p>Die Grenzkosten bei 18 ME betragen 53,6 ME/GE.</p> <p>Das Betriebsminimum beträgt 18 ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,8:0}\\( x^3 \\)+{1:NUMERICAL:=-24:0}\\( x^2 \\)+{1:NUMERICAL:=370:0}\\( x \\)+{1:NUMERICAL:=2310,4:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,1:0}\\( x^3 \\)+{1:NUMERICAL:=-3,6:0}\\( x^2 \\)+{1:NUMERICAL:=86:0}\\( x \\)+{1:NUMERICAL:=160:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 6 ME betragen 1312,8 GE.</p> <p>Die Stückkosten bei 5 ME betragen 251,02 GE/ME.</p> <p>Das Betriebsminimum beträgt 9 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 81,1 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 675 GE.</p> <p>Die Stückkosten bei 25 ME betragen 139,5 GE/ME.</p> <p>Das Betriebsminimum beträgt 12 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 28 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,9:0}\\( x^3 \\)+{1:NUMERICAL:=-16,2:0}\\( x^2 \\)+{1:NUMERICAL:=154:0}\\( x \\)+{1:NUMERICAL:=777,6:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-12:0}\\( x^2 \\)+{1:NUMERICAL:=100:0}\\( x \\)+{1:NUMERICAL:=675:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 196 GE.</p> <p>Die variablen Stückkosten bei 6 ME betragen 13,8 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 6 ME statt.</p> <p>Das Betriebsoptimum beträgt 14 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 37 ME betragen 29799,5 GE.</p> <p>Die variablen Stückkosten bei 27 ME betragen 460,5 GE/ME.</p> <p>Das Betriebsoptimum beträgt 33 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 793,5 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,1:0}\\( x^3 \\)+{1:NUMERICAL:=-1,8:0}\\( x^2 \\)+{1:NUMERICAL:=21:0}\\( x \\)+{1:NUMERICAL:=196:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-24:0}\\( x^2 \\)+{1:NUMERICAL:=744:0}\\( x \\)+{1:NUMERICAL:=9801:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 10 ME betragen 2485 GE.</p> <p>Die Stückkosten bei 25 ME betragen 244,3 GE/ME.</p> <p>Das Betriebsoptimum beträgt 17 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 199,5 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 18 ME betragen 3106,4 GE.</p> <p>Die Stückkosten bei 5 ME betragen 474,9 GE/ME.</p> <p>Das Betriebsminimum beträgt 21 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 64,9 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-12:0}\\( x^2 \\)+{1:NUMERICAL:=174:0}\\( x \\)+{1:NUMERICAL:=1445:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,1:0}\\( x^3 \\)+{1:NUMERICAL:=-4,2:0}\\( x^2 \\)+{1:NUMERICAL:=109:0}\\( x \\)+{1:NUMERICAL:=1922:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 1764 GE.</p> <p>Die variablen Stückkosten bei 7 ME betragen 67,7 GE/ME.</p> <p>Das Betriebsoptimum beträgt 14 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 212,6 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 3388 GE.</p> <p>Die variablen Stückkosten bei 21 ME betragen 55,5 GE/ME.</p> <p>Das Betriebsoptimum beträgt 22 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 216 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,9:0}\\( x^3 \\)+{1:NUMERICAL:=-16,2:0}\\( x^2 \\)+{1:NUMERICAL:=137:0}\\( x \\)+{1:NUMERICAL:=1764:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-15:0}\\( x^2 \\)+{1:NUMERICAL:=150:0}\\( x \\)+{1:NUMERICAL:=3388:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 28,8 GE.</p> <p>Die variablen Stückkosten bei 6 ME betragen 22 GE/ME.</p> <p>Das Betriebsminimum beträgt 3 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 13,9 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 9 ME betragen 3258,9 GE.</p> <p>Die variablen Stückkosten bei 10 ME betragen 93 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 6 ME statt.</p> <p>Das Betriebsoptimum beträgt 15 ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,9:0}\\( x^3 \\)+{1:NUMERICAL:=-5,4:0}\\( x^2 \\)+{1:NUMERICAL:=22:0}\\( x \\)+{1:NUMERICAL:=28,8:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,9:0}\\( x^3 \\)+{1:NUMERICAL:=-16,2:0}\\( x^2 \\)+{1:NUMERICAL:=165:0}\\( x \\)+{1:NUMERICAL:=2430:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 3200 GE.</p> <p>Die Stückkosten bei 4 ME betragen 903,6 GE/ME.</p> <p>Das Betriebsoptimum beträgt 40 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 126 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 50 GE.</p> <p>Die Stückkosten bei 2 ME betragen 29 GE/ME.</p> <p>Das Betriebsminimum beträgt 3 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 3,5 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,1:0}\\( x^3 \\)+{1:NUMERICAL:=-6:0}\\( x^2 \\)+{1:NUMERICAL:=126:0}\\( x \\)+{1:NUMERICAL:=3200:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-3:0}\\( x^2 \\)+{1:NUMERICAL:=8:0}\\( x \\)+{1:NUMERICAL:=50:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 8 ME betragen 993 GE.</p> <p>Die Stückkosten bei 25 ME betragen 186,26 GE/ME.</p> <p>Das Betriebsminimum beträgt 12 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 95 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 22 ME betragen 11611 GE.</p> <p>Die variablen Stückkosten bei 29 ME betragen 232,5 GE/ME.</p> <p>Das Betriebsoptimum beträgt 31 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 461,5 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-12:0}\\( x^2 \\)+{1:NUMERICAL:=167:0}\\( x \\)+{1:NUMERICAL:=169:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-24:0}\\( x^2 \\)+{1:NUMERICAL:=508:0}\\( x \\)+{1:NUMERICAL:=6727:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 29 ME betragen 4109,4 GE.</p> <p>Die Stückkosten bei 5 ME betragen 465,72 GE/ME.</p> <p>Der Übergang vom degressiven zum progressiven Kostenwachstum findet bei 10 ME statt.</p> <p>Das Betriebsoptimum beträgt 24 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 20 ME betragen 3412 GE.</p> <p>Die Stückkosten bei 2 ME betragen 680 GE/ME.</p> <p>Die Grenzkosten bei 24 ME betragen 366 ME/GE.</p> <p>Das Betriebsoptimum beträgt 18 ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,2:0}\\( x^3 \\)+{1:NUMERICAL:=-6:0}\\( x^2 \\)+{1:NUMERICAL:=76:0}\\( x \\)+{1:NUMERICAL:=2073,6:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-15:0}\\( x^2 \\)+{1:NUMERICAL:=222:0}\\( x \\)+{1:NUMERICAL:=972:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 29 ME betragen 28176,5 GE.</p> <p>Die Stückkosten bei 25 ME betragen 1071,14 GE/ME.</p> <p>Die Grenzkosten bei 31 ME betragen 503,5 ME/GE.</p> <p>Das Betriebsoptimum beträgt 38 ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Kosten bei 19 ME betragen 40335,5 GE.</p> <p>Die Stückkosten bei 2 ME betragen 18710 GE/ME.</p> <p>Das Betriebsminimum beträgt 27 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 172,5 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-24:0}\\( x^2 \\)+{1:NUMERICAL:=550:0}\\( x \\)+{1:NUMERICAL:=20216:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-27:0}\\( x^2 \\)+{1:NUMERICAL:=537:0}\\( x \\)+{1:NUMERICAL:=36450:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 7617,6 GE.</p> <p>Die Stückkosten bei 25 ME betragen 585,204 GE/ME.</p> <p>Das Betriebsminimum beträgt 15 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 190,5 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 8467,2 GE.</p> <p>Die Stückkosten bei 25 ME betragen 597,688 GE/ME.</p> <p>Das Betriebsoptimum beträgt 42 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 484,4 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,9:0}\\( x^3 \\)+{1:NUMERICAL:=-27:0}\\( x^2 \\)+{1:NUMERICAL:=393:0}\\( x \\)+{1:NUMERICAL:=7617,6:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,2:0}\\( x^3 \\)+{1:NUMERICAL:=-12:0}\\( x^2 \\)+{1:NUMERICAL:=434:0}\\( x \\)+{1:NUMERICAL:=8467,2:0}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 784 GE.</p> <p>Die variablen Stückkosten bei 12 ME betragen 18,2 GE/ME.</p> <p>Das Betriebsminimum beträgt 9 ME.</p> <p>Die kurzfristige Preisuntergrenze beträgt 14,6 GE/ME.",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>Die Fixkosten betragen 25600 GE.</p> <p>Die variablen Stückkosten bei 34 ME betragen 351 GE/ME.</p> <p>Das Betriebsoptimum beträgt 40 ME.</p> <p>Die langfristige Preisuntergrenze beträgt 1069 GE/ME.",
 "fragen":[
 "Bestimmen Sie die kubische Kostenfunktion."
 ],
 "antworten":[
-"\\( K(x)= \\){1:NUMERICAL:=0,4:0}\\( x^3 \\)+{1:NUMERICAL:=-7,2:0}\\( x^2 \\)+{1:NUMERICAL:=47:0}\\( x \\)+{1:NUMERICAL:=784:0}"
+"\\( K(x)= \\){1:NUMERICAL:=0,5:0}\\( x^3 \\)+{1:NUMERICAL:=-24:0}\\( x^2 \\)+{1:NUMERICAL:=589:0}\\( x \\)+{1:NUMERICAL:=25600:0}"
 ]
 }
 ]
