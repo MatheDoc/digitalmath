@@ -147,8 +147,8 @@
             if (!isNaN(userAnswer)) {
                 if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
                     feedbackElement.innerHTML = 'Richtig!';
-                    if (!userAnswer === correctAnswer) { 
-                        feedbackElement.innerHTML += ' (Die genaue Antwort ist: ' + correctAnswer +')';
+                    if (userAnswer !== correctAnswer) { 
+                        feedbackElement.innerHTML += ' (Die genauere Antwort ist: ' + correctAnswer +')';
                     }
                     feedbackElement.style.color = "green";
                     return true
