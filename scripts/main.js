@@ -20,10 +20,8 @@ async function loadHTML() {
         const html = await response.text();
         $('#content').html(html);
         initializeTable();
-        //adjustSearchFilter();
         //setupDropdowns();
-        //addButtons();
-        //checkConfigParameter();
+        addButtons();
     } catch (error) {
         console.error('Fehler beim Laden der HTML-Datei:', error);
         $('#content').html('<p>Fehler beim Laden der Daten.</p>');
