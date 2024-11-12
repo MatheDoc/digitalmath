@@ -13,11 +13,11 @@ async function loadHTML() {
         const response = await fetch('../liste.html');
         const html = await response.text();
         $('#content').html(html);
-        initializeTable();
-        adjustSearchFilter();
+        //initializeTable();
+        //adjustSearchFilter();
         // setupDropdowns();
-        addButtons();
-        checkConfigParameter();
+        //addButtons();
+        //checkConfigParameter();
     } catch (error) {
         console.error('Fehler beim Laden der HTML-Datei:', error);
         $('#content').html('<p>Fehler beim Laden der Daten.</p>');
