@@ -12,6 +12,7 @@ async function loadHTML() {
         $('#content').html('<p>Lade Daten...</p>');
         const response = await fetch('../liste.html');
         const html = await response.text();
+        html = 'hallo'
         $('#content').html(html);
         //initializeTable();
         //adjustSearchFilter();
