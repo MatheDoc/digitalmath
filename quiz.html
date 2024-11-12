@@ -368,18 +368,16 @@
             }
         }
 
-
         // Initiales Laden einer zufälligen Aufgabe
         zeigeNeueAufgabe();
 
+        // Wenn es nur ein <li> gibt, entferne die Nummerierung
         document.querySelectorAll('ol').forEach(olElement => {
-    const listItems = olElement.getElementsByTagName('li');
-    
-    // Wenn es nur ein <li> gibt, entferne die Nummerierung
-    if (listItems.length === 1) {
-        olElement.style.listStyleType = "none";  // Entfernt die Nummerierung
-        olElement.style.paddingLeft = "0";       // Entfernt den linken Abstand
-    }
+        const listItems = olElement.getElementsByTagName('li');
+        if (listItems.length === 1) {
+            olElement.style.listStyleType = "none";  // Entfernt die Nummerierung
+            olElement.style.paddingLeft = "0";       // Entfernt den linken Abstand
+        }
 });
 
 
