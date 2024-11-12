@@ -21,6 +21,7 @@ function initializeTable() {
             {"targets": 6, "searchable": false} // Testnamen bei Suche ignorieren
         ]
     });
+    adjustSearchFilter() ;
 }
 
 // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
