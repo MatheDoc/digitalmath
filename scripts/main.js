@@ -10,10 +10,11 @@ $(document).ready(function() {
 async function loadHTML() {
     try {
         $('#content').html('<p>Lade Daten...</p>');
-        const response = await fetch('data/liste.html');
+        const response = await fetch('../liste.html');
         const html = await response.text();
         $('#content').html(html);
-        initializeDataTable();
+        initializeTable();
+        adjustSearchFilter();
         // setupDropdowns();
         addButtons();
         checkConfigParameter();

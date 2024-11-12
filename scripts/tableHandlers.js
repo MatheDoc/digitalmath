@@ -24,7 +24,7 @@ function initializeTable() {
 }
 
 // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
-  $('#hideUnchecked').on('click', function() {
+$('#hideUnchecked').on('click', function() {
     table.rows().every(function() {
         var row = $(this.node());
         var checkbox = row.find('input.rowCheckbox');
@@ -47,11 +47,16 @@ $('#showAll').on('click', function() {
     table.draw(); // Zeichne die Tabelle neu
 });
 
-// data-tables Search button
-$('#meineTabelle_filter').appendTo('#suchleiste');
+// Funktion zum Anpassen der Suchleiste
+function adjustSearchFilter() {
+    // Verschiebt das Filter-Div in den gewünschten Container
+    $('#meineTabelle_filter').appendTo('#suchleiste');
 
-// Entfernt den Text "Search:" von der neu platzierten Suchleiste und behält nur das Eingabefeld
-$('#meineTabelle_filter label').contents().filter(function() {
-    return this.nodeType === 3; // Filtert den reinen Text (Textknoten)
-}).remove();
-$('.dataTables_filter input').attr('placeholder', 'Suchbegriff eingeben');
+    // Entfernt den Text "Search:" und behält nur das Eingabefeld
+    $('#meineTabelle_filter label').contents().filter(function() {
+        return this.nodeType === 3; // Filtert den reinen Text (Textknoten)
+    }).remove();
+
+    // Setzt den Platzhaltertext des Suchfeldes
+    $('.dataTables_filter input').attr('placeholder', 'Suchbegriff eingeben');
+}
