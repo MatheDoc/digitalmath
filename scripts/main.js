@@ -10,9 +10,9 @@ $(document).ready(function() {
 async function loadHTML() {
     try {
         $('#content').html('<p>Lade Daten...</p>');
-        const response = await fetch('../liste.html');
-        const html = await response.text();
-        html = 'hallo'
+        //const response = await fetch('../liste.html');
+        //const html = await response.text();
+        const html = 'hallo'
         $('#content').html(html);
         //initializeTable();
         //adjustSearchFilter();
