@@ -3,40 +3,430 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interaktive Lineare Funktionen</title>
-    <link rel="stylesheet" href="style2.css">
+    <meta name="description" content="Lerne und lehre Mathematik - interaktiv und kostenlos">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>MatheTab</title>
+
+    <!-- Einbinden der externen CSS-Datei -->
+    <link rel="stylesheet" href="styles.css"> 
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+
+     <!-- Font CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css" rel="stylesheet" />
+
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            async function loadHTML() {
+                try {
+                    document.getElementById('content').innerHTML = '<p>Lade Daten...</p>'; // Ladeindikator
+                    const response = await fetch('liste.html'); // Stellen Sie sicher, dass diese Datei vorhanden ist
+                    if (!response.ok) {
+                        throw new Error('Netzwerkantwort war nicht ok');
+                    }
+                    const html = await response.text();
+                    document.getElementById('content').innerHTML = html;
+
+                    // Initialisiere die DataTable nach dem Laden des Inhalts
+                    var table = $('#meineTabelle').DataTable({
+                        "pageLength": -1,
+                        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "Alle"]],
+                        "language": {
+                            "lengthMenu": "Zeige _MENU_ Einträge",
+                            "info": "Zeige Eintrag _START_ bis _END_ von _TOTAL_ Einträgen",
+                            "paginate": {
+                                "previous": "Zurück",
+                                "next": "Weiter"
+                            }
+                        },
+                        "ordering": false, // Deaktiviert die Sortierung für alle Spalten
+                        "columnDefs": [
+                            {
+                            "targets": 0,
+                            "orderable": false,
+                            "className": "dt-body-center dt-head-center",
+                            "render": function(data, type, row) {
+                                return '<input type="checkbox" class="rowCheckbox" />';
+                                }
+                            },
+                            {
+                            "targets": 6,// Spalte 6 von Suchfunktion ausnehmen
+                            "searchable" : false
+                            }
+                        ]
+                    });
+
+
+
+            // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
+            $('#hideUnchecked').on('click', function() {
+                table.rows().every(function() {
+                    var row = $(this.node());
+                    var checkbox = row.find('input.rowCheckbox');
+                    if (!checkbox.is(':checked')) {
+                        row.hide(); // Verstecke die Zeile
+                    } else {
+                        row.show(); // Zeige die Zeile
+                    }
+                });
+                table.draw(); // Zeichne die Tabelle neu
+            });
+
+            // Funktion zum Zeigen aller Zeilen
+            $('#showAll').on('click', function() {
+                table.rows().every(function() {
+                    var row = $(this.node());
+                    var checkbox = row.find('input.rowCheckbox');     
+                    row.show(); // Zeige die Zeile
+                });
+                table.draw(); // Zeichne die Tabelle neu
+            });
+
+            // Fügt Buttons hinzu
+            table.rows().every(function(rowIdx) {
+            var data = this.data();
+                var ichKannText = data[5];
+                var aufgaben = data[6];
+                var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
+                var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
+                var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
+                // Testbutoon ausblenden, falls kein Test vorhanden
+                if (aufgaben === 'NaN') {
+                    testButton = ''
+                }
+                // Infobutoon ausblenden, falls keine Info vorhanden
+                if (data[7] === ''){
+                    infoButton = ' '
+                }
+                table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
+            });
+
+
+                    // Event-Listener für die Info-Buttons
+                    $('#meineTabelle').on('click', '.info-icon', function(event) {
+                        event.stopPropagation(); // Verhindert, dass das Overlay direkt den Klick abfängt
+                        var row = $(this).closest('tr'); // Zeile ermitteln
+                        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
+                        var info = rowData[7]; // Infos in der 8. Spalte
+                        
+                        // Infotext aktualisieren
+                        $('#infoText').html(info);
+                        
+                        // Überprüfe die Fensterbreite, um die Position zu bestimmen
+                        if ($(window).width() > 768) { // Für Desktop
+                            // Positioniere den Infotext relativ zum Icon
+                            var iconOffset = $(this).offset(); // Position des Icons
+                            $('#infoText').css({
+                                top: iconOffset.top + $(this).height() + 5, // 5px Abstand unter dem Icon
+                                left: iconOffset.left
+                            }).fadeIn(); // Zeige den Infotext an
+                        } else { // Für mobile Geräte
+                            // Info-Box zentrieren
+                            $('#infoText').css({
+                                top: '50%', 
+                                left: '50%',
+                                transform: 'translate(-50%, -50%)', // Zentrierung
+                                position: 'fixed' // Sicherstellen, dass sie fest bleibt
+                            }).fadeIn(); // Zeige den Infotext an
+                        }
+                        $('#overlay').fadeIn();   // Zeige das Overlay an
+    
+                    });
+
+                    // Ausblenden des Infotextes beim Klicken irgendwo anders auf die Seite
+                    $(document).on('click', function() {
+                        $('#infoText').fadeOut(); // Verstecke den Infotext
+                        $('#overlay').fadeOut();  // Verstecke das Overlay
+                    });
+
+                    // Verhindern, dass der Infotext ausgeblendet wird, wenn man darauf klickt
+                    $('#infoText').on('click', function(event) {
+                        event.stopPropagation(); // Verhindert das Ausblenden beim Klick auf den Infotext
+                    });
+
+
+                   // Event-Listener für die Test-Buttons
+                    $('#meineTabelle').on('click', '.test-icon', function() {
+                        var row = $(this).closest('tr'); // Zeile ermitteln
+                        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
+                        var urls = rowData[6]; // URLs in der 7. Spalte
+                        var ichKannText = 'Ich kann ' + rowData[5].split('<i')[0].trim(); //Ich kann text alt Titel
+                        
+                        if (urls) {
+                            // Teile die URLs und erstelle Links
+                            var links = urls.split(',').map(function(url) {
+                                var sammlungsname = url.trim() + '.json';
+                                return 'sammlung=' + sammlungsname;
+                            });
+                            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '&titel=' + encodeURIComponent(ichKannText);
+                            window.open(testUrl, '_blank'); // Öffne URL in einem neuen Tab/Fenster
+                        }
+                    });
+                    
+                    // Event-Listener für die Copy-Buttons
+                    $('#meineTabelle').on('click', '.copy-icon', function() {
+                        var row = $(this).closest('tr');
+                        var text1 =  table.cell(row, 5).data().split('<i')[0].trim();
+                        var text2 = table.cell(row, 7).data();
+                        var textToCopy = 'Ich kann ' + text1;
+                        if(text2){
+                            textToCopy += ' (' + text2 + ')'
+                        }
+
+
+                        // Kopieren in die Zwischenablage
+                        navigator.clipboard.writeText(textToCopy).then(() => {
+                            // Meldung
+                        });
+                    });
+
+
+
+
+                    // Funktion zum Auswählen/Auswählen aller Checkboxen
+                    $('#checkAll').on('click', function() {
+                        var rows = table.rows({ 'search': 'applied' }).nodes(); // Holt alle sichtbaren Zeilen
+                        $('input.rowCheckbox', rows).prop('checked', this.checked); // Setzt den Status der Checkboxen
+                    });
+
+                    // Dropdowns erstellen
+                    const gebietDropdown = $('<select id="gebietFilter" multiple="multiple" style="width: 100%;"></select>');
+                    const teilgebietDropdown = $('<select id="teilgebietFilter" multiple="multiple" style="width: 100%;"></select>');
+                    const schwerpunktDropdown= $('<select id="schwerpunktFilter" multiple="multiple" style="width: 100%;"></select>');
+                    const situationDropdown = $('<select id="situationFilter" multiple="multiple" style="width: 100%;"></select>');
+                    
+                    // Anhängen der Dropdowns an die Kopfzeile
+                    $('#dropdowns tbody tr:nth-child(1) td:nth-child(2)').append(gebietDropdown); 
+                    $('#dropdowns tbody tr:nth-child(2) td:nth-child(2)').append(teilgebietDropdown); 
+                    $('#dropdowns tbody tr:nth-child(3) td:nth-child(2)').append(schwerpunktDropdown); 
+                    $('#dropdowns tbody tr:nth-child(4) td:nth-child(2)').append(situationDropdown); 
+
+                    // Initialisiere Select2 auf den Dropdown-Menüs
+                    $('#gebietFilter, #teilgebietFilter, #schwerpunktFilter, #situationFilter').select2({
+                        placeholder: "Wähle aus...",
+                        allowClear: true
+                    });
+
+                    // Fülle Dropdowns nach dem Laden des Inhalts
+                    fillDropdown(1, '#gebietFilter', table);
+                    fillDropdown(2, '#teilgebietFilter', table);
+                    fillDropdown(3, '#schwerpunktFilter', table);
+                    fillDropdown(4, '#situationFilter', table);
+
+                    // Event-Listener für Dropdowns
+                    $('#gebietFilter, #teilgebietFilter, #schwerpunktFilter, #situationFilter').on('change', function() {
+                        filterTable(table);
+                    });
+
+                    // data-tables Search button
+                    $('#meineTabelle_filter').appendTo('#suchleiste');
+                    // Entfernt den Text "Search:" von der neu platzierten Suchleiste und behält nur das Eingabefeld
+                    $('#meineTabelle_filter label').contents().filter(function() {
+                    return this.nodeType === 3; // Filtert den reinen Text (Textknoten)
+                    }).remove();
+                    $('.dataTables_filter input').attr('placeholder', 'Suchbegriff eingeben');
+
+                    // Export-Button
+                    $('#exportSelection').on('click', function() {
+                        const selectedRows = [];
+                        table.$('.rowCheckbox:checked').each(function() {
+                            const row = $(this).closest('tr');
+                            const rowData = table.row(row).data();
+                            selectedRows.push(rowData);
+                        });
+                        const json = JSON.stringify(selectedRows);
+                        navigator.clipboard.writeText(json).then(() => {
+                            //alert('Ausgewählte Konfiguration wurde in die Zwischenablage kopiert!');
+                        });
+                    });
+
+                    // Import-Button
+                    $('#importConfig').on('click', function() {
+                        const json = $('#importJson').val();
+                        try {
+                            const importedData = JSON.parse(json);
+                            // Überprüfen, ob die Daten in der Tabelle sind
+                            table.rows().every(function() {
+                                const rowData = this.data();
+                                const isSelected = importedData.some(item => JSON.stringify(item) === JSON.stringify(rowData));
+                                const checkbox = $(this.node()).find('.rowCheckbox');
+                                checkbox.prop('checked', isSelected);
+                            });
+                            // alert('Konfiguration erfolgreich importiert!');
+                        } catch (e) {
+                            alert('Ungültiges JSON-Format');
+                        }
+                    });
+
+                    // Teilen-Link generieren
+                    $('#shareLink').on('click', function() {
+                        const selectedCheckboxes = []; // Array zur Speicherung der ausgewählten Checkboxen
+
+                        // Durchlaufen der ausgewählten Checkboxen
+                        table.$('.rowCheckbox:checked').each(function() {
+                            const checkboxIndex = table.row($(this).closest('tr')).index(); // Gibt den Index der Zeile zurück
+                            selectedCheckboxes.push(checkboxIndex);
+                        });
+
+                        // Die Werte der ausgewählten Checkboxen in einen JSON-String umwandeln
+                        const json = JSON.stringify(selectedCheckboxes);
+                        const encodedJson = encodeURIComponent(json); // JSON-String URL-kodieren
+                        const shareableLink = `${window.location.href}?config=${encodedJson}`; // Teilen-Link erstellen
+
+                        // Link in die Zwischenablage kopieren
+                        navigator.clipboard.writeText(shareableLink).then(() => {
+                            alert('Link der Auswahl wurde in die Zwischenablage kopiert: ' + shareableLink);
+                        }).catch(err => {
+                            console.error('Fehler beim Kopieren in die Zwischenablage: ', err);
+                        });
+                    });
+
+                    // Überprüfen, ob ein "config"-Parameter in der URL vorhanden ist
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const configJson = urlParams.get('config');
+                    if (configJson) {
+                        try {
+                            const importedData = JSON.parse(decodeURIComponent(configJson));
+                             // Überprüfen, ob die Checkboxen in der Tabelle gesetzt werden müssen
+                             table.rows().every(function(index) { // index hier als Parameter
+                            const checkbox = $(this.node()).find('td:first-child .rowCheckbox'); // Die Checkbox in der ersten Spalte finden
+                            const isSelected = importedData.includes(index); // Überprüfen, ob der Zeilenindex in den importierten Daten vorhanden ist
+                            checkbox.prop('checked', isSelected); // Checkbox entsprechend setzen
+                        });
+                        } catch (e) {
+                            console.error('Ungültige Konfigurationsdaten');
+                        }
+                    }
+                } catch (error) {
+                    console.error('Fehler beim Laden der HTML-Datei:', error);
+                    document.getElementById('content').innerHTML = '<p>Fehler beim Laden der Daten.</p>';
+                }
+            }
+
+            // Funktion, um Dropdowns basierend auf den Tabellendaten zu füllen
+            function fillDropdown(columnIndex, dropdownSelector, table) {
+                const uniqueValues = [];
+                table.column(columnIndex).data().each(function(value) {
+                    if (uniqueValues.indexOf(value) === -1) {
+                        uniqueValues.push(value);
+                    }
+                });
+                uniqueValues.forEach(function(value) {
+                    $(dropdownSelector).append($('<option>', {
+                        value: value,
+                        text: value
+                    }));
+                });
+            }
+
+            // Funktion zum Filtern der Tabelle basierend auf den Dropdown-Auswahlen
+            function filterTable(table) {
+                const gebietValue = $('#gebietFilter').val();
+                const teilgebietValue = $('#teilgebietFilter').val();
+                const schwerpunktValue = $('#schwerpunktFilter').val();
+                const situationValue = $('#situationFilter').val();
+                table.column(1).search(gebietValue ? gebietValue.join('|') : '', true, false);
+                table.column(2).search(teilgebietValue ? teilgebietValue.join('|') : '', true, false);
+                table.column(3).search(schwerpunktValue ? schwerpunktValue.join('|') : '', true, false);
+                table.column(4).search(situationValue ? situationValue.join('|') : '', true, false);
+                table.draw();
+            }
+
+            // Ruft die Funktion auf, um die HTML-Datei zu laden
+            loadHTML();
+        });
+    </script>
 </head>
 <body>
-    <header>
-        <h1>Interaktive Lineare Funktionen</h1>
-    </header>
-    
-    <main>
-        <section id="definition">
-            <h2>Was ist eine lineare Funktion?</h2>
-            <p>Eine lineare Funktion hat die Form <strong>f(x) = m * x + b</strong>, wobei <em>m</em> die Steigung und <em>b</em> der y-Achsenabschnitt ist. Du kannst diese Werte ändern und den Graphen beobachten.</p>
-        </section>
-        
-        <section id="grafik">
-            <h2>Grafische Darstellung</h2>
-            <canvas id="graphCanvas" width="600" height="400"></canvas>
-        </section>
-        
-        <section id="interaktiv">
-            <h2>Interaktiver Graph</h2>
-            <p>Ändere die Werte und beobachte, wie sich der Graph verändert:</p>
-            <form>
-                <label for="slope">Steigung (m):</label>
-                <input type="number" id="slope" name="slope" value="1" step="0.1">
-                
-                <label for="intercept">y-Achsenabschnitt (b):</label>
-                <input type="number" id="intercept" name="intercept" value="0" step="0.1">
-                
-                <button type="button" id="updateGraph">Aktualisieren</button>
-            </form>
-        </section>
-    </main>
-    
-    <script src="script2.js"></script>
+
+<a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home"><h1>MatheTab</h1></a>
+
+<div style="display: flex; justify-content: space-between; margin: 20px;">
+    <span>
+        <i class="fas fa-binoculars auswahl-icon" id="hideUnchecked" title="Auswahl anzeigen"></i>
+        <i class="fas  fa-list auswahl-icon" id="showAll" title="Alle anzeigen"></i>
+        <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
+    </span>
+    <span>
+        <a href="mailto:yeswecanmath@gmail.com">
+            <i class="fas fa-envelope auswahl-icon" id="shareLink" title="Kontakt"></i>
+        </a>
+    </span>
+  </div>
+<p>
+
+</p>
+
+<!-- Export- und Import-Buttons
+        <span>
+            <input type="text" id="importJson" placeholder="JSON hier einfügen" />
+            <button id="importConfig">Konfiguration importieren</button>
+            <button id="exportSelection">Konfiguration exportieren</button>
+            <button id="shareLink">Link erzeugen</button>
+        </span>
+    </div>
+ -->
+<table id="dropdowns">
+    <tbody>
+        <tr>
+            <td>Gebiet: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Teilgebiet: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Schwerpunkt: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Situation: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Freitext: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Auswahl: </td>
+            <td>
+
+            </td>
+        </tr>        
+    </tbody>
+</table>
+
+
+
+<div id="suchleiste">
+
+</div>
+
+
+
+<div id="content"></div>
+
+<div id="overlay" class="overlay"></div>
+<div id="infoText" class="info-text"></div>
+
+<footer>
+    &copy; 2024 Dr. Sven Führing. Alle Inhalte sind lizenziert unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0.</a>
+</footer>
+
 </body>
 </html>
