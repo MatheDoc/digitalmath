@@ -13,11 +13,11 @@ async function loadHTML() {
         const response = await fetch('/digitalmath/liste.html');
         const html = await response.text();
         $('#content').html(html);
-        //initializeTable();
-        //adjustSearchFilter();
-        // setupDropdowns();
-        //addButtons();
-        //checkConfigParameter();
+        initializeTable();
+        adjustSearchFilter();
+         setupDropdowns();
+        addButtons();
+        checkConfigParameter();
     } catch (error) {
         console.error('Fehler beim Laden der HTML-Datei:', error);
         $('#content').html('<p>Fehler beim Laden der Daten.</p>');
