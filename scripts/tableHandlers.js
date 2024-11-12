@@ -21,10 +21,8 @@ function initializeTable() {
             {"targets": 6, "searchable": false} // Testnamen bei Suche ignorieren
         ]
     });
-    adjustSearchFilter() ;
-}
 
-// Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
+    // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
 $('#hideUnchecked').on('click', function() {
     table.rows().every(function() {
         var row = $(this.node());
@@ -37,6 +35,10 @@ $('#hideUnchecked').on('click', function() {
     });
     table.draw(); // Zeichne die Tabelle neu
 });
+    adjustSearchFilter() ;
+}
+
+
 
 // Funktion zum Zeigen aller Zeilen
 $('#showAll').on('click', function() {
