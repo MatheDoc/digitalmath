@@ -19,7 +19,7 @@ async function loadHTML() {
         const response = await fetch(`${basePath}/liste.html`);
         const html = await response.text();
         $('#content').html(html);
-        //initializeTable();
+        initializeTable();
         //adjustSearchFilter();
         //setupDropdowns();
         //addButtons();
