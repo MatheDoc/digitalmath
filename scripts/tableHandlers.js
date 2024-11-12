@@ -23,43 +23,44 @@ function initializeTable() {
     });
 
     // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
-$('#hideUnchecked').on('click', function() {
-    table.rows().every(function() {
-        var row = $(this.node());
-        var checkbox = row.find('input.rowCheckbox');
-        if (!checkbox.is(':checked')) {
-            row.hide(); // Verstecke die Zeile
-        } else {
-            row.show(); // Zeige die Zeile
-        }
+    $('#hideUnchecked').on('click', function() {
+        table.rows().every(function() {
+            var row = $(this.node());
+            var checkbox = row.find('input.rowCheckbox');
+            if (!checkbox.is(':checked')) {
+                row.hide(); // Verstecke die Zeile
+            } else {
+                row.show(); // Zeige die Zeile
+            }
+        });
+        table.draw(); // Zeichne die Tabelle neu
     });
-    table.draw(); // Zeichne die Tabelle neu
-});
+
+    // Funktion zum Zeigen aller Zeilen
+    $('#showAll').on('click', function() {
+        table.rows().every(function() {
+            var row = $(this.node());
+            var checkbox = row.find('input.rowCheckbox');     
+            row.show(); // Zeige die Zeile
+        });
+        table.draw(); // Zeichne die Tabelle neu
+    });
+
+    // Funktion zum Anpassen der Suchleiste
+    function adjustSearchFilter() {
+        // Verschiebt das Filter-Div in den gewünschten Container
+        $('#meineTabelle_filter').appendTo('#suchleiste');
+
+        // Entfernt den Text "Search:" und behält nur das Eingabefeld
+        $('#meineTabelle_filter label').contents().filter(function() {
+            return this.nodeType === 3; // Filtert den reinen Text (Textknoten)
+        }).remove();
+
+        // Setzt den Platzhaltertext des Suchfeldes
+        $('.dataTables_filter input').attr('placeholder', 'Suchbegriff eingeben');
+    }
     adjustSearchFilter() ;
 }
 
 
 
-// Funktion zum Zeigen aller Zeilen
-$('#showAll').on('click', function() {
-    table.rows().every(function() {
-        var row = $(this.node());
-        var checkbox = row.find('input.rowCheckbox');     
-        row.show(); // Zeige die Zeile
-    });
-    table.draw(); // Zeichne die Tabelle neu
-});
-
-// Funktion zum Anpassen der Suchleiste
-function adjustSearchFilter() {
-    // Verschiebt das Filter-Div in den gewünschten Container
-    $('#meineTabelle_filter').appendTo('#suchleiste');
-
-    // Entfernt den Text "Search:" und behält nur das Eingabefeld
-    $('#meineTabelle_filter label').contents().filter(function() {
-        return this.nodeType === 3; // Filtert den reinen Text (Textknoten)
-    }).remove();
-
-    // Setzt den Platzhaltertext des Suchfeldes
-    $('.dataTables_filter input').attr('placeholder', 'Suchbegriff eingeben');
-}
