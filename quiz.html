@@ -304,7 +304,7 @@
                     //: "./"; // Kein Pfad bei lokalem Server
 
                 // Aufgabe aus der zufällig ausgewählten Sammlung laden//TODO: Unterschied Github VSCode
-                fetch(`JSON/${zufaelligeSammlung}`)
+                fetch(`/digitalmath/JSON/${zufaelligeSammlung}`)
                     .then(response => response.json())
                     .then(data => zeigeZufaelligeAufgabeAusSammlung(zufaelligeSammlung, data))
                     .catch(error => {
