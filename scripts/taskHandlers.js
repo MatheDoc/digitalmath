@@ -7,7 +7,7 @@ function zeigeNeueAufgabe() {
     const sammlungen = params.getAll('sammlung');
     const titel = params.get('titel');
 
-    // Prüfen, ob der Parameter 'titel' vorhanden ist
+    // Prüfen, ob der Parameter 'Titel' vorhanden ist
     if (titel) {
         const h3Element = document.getElementById('quiz-title');
         h3Element.textContent += ' ' + titel;  // Titel anhängen
