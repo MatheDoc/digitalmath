@@ -21,14 +21,8 @@ function zeigeNeueAufgabe() {
         const zufaelligeSammlung = sammlungen[Math.floor(Math.random() * sammlungen.length)];
 
         // Aufgabe aus der zufällig ausgewählten Sammlung laden
-        fetch(`/digitalmath/JSON/${zufaelligeSammlung}`)
-            .then(response => {
-                if (response.headers.get('Content-Length') === "0") {
-                    document.getElementById('aufgabe').innerHTML = `<p>Es gab ein großes Problem</p>`;
-                }
-                return response.json();
-            })
-            //.then(response => response.json())
+        fetch(`/digitalmathq/JSON/${zufaelligeSammlung}`) 
+            .then(response => response.json())
             .then(data => zeigeZufaelligeAufgabeAusSammlung(zufaelligeSammlung, data))
             .catch(error => {
                 console.error(`Fehler beim Laden der JSON-Datei für ${zufaelligeSammlung}:`, error);
