@@ -299,12 +299,12 @@
                 const zufaelligeSammlung = sammlungen[Math.floor(Math.random() * sammlungen.length)];
 
                 //dynamischer Pfad wegen Github - Liveserver
-                const basePath = window.location.hostname.includes("github.io")
-                    ? ""
-                    : ""; // Kein Pfad bei lokalem Server
+                //const basePath = window.location.hostname.includes("github.io")
+                  //  ? ""
+                    //: "./"; // Kein Pfad bei lokalem Server
 
                 // Aufgabe aus der zufällig ausgewählten Sammlung laden//TODO: Unterschied Github VSCode
-                fetch(`${basePath}JSON/${zufaelligeSammlung}`)
+                fetch(`JSON/${zufaelligeSammlung}`)
                     .then(response => response.json())
                     .then(data => zeigeZufaelligeAufgabeAusSammlung(zufaelligeSammlung, data))
                     .catch(error => {
