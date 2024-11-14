@@ -326,11 +326,17 @@
                 const randomIndex = Math.floor(Math.random() * aufgaben.length);
                 const selectedTask = aufgaben[randomIndex];
                 const aufgabeContainer = document.getElementById('aufgabe');
-                let htmlContent =
-                    `<div class="einleitung">
-                        <p>${selectedTask.einleitung}</p>
-                    </div>
-                    <div class="nachfolgend">`;
+                let htmlContent = "";
+
+                    // Nur hinzufügen, wenn `selectedTask.einleitung` nicht leer ist
+                    if (selectedTask.einleitung.trim() !== "") {
+                        htmlContent += `
+                            <div class="einleitung">
+                                <p>${selectedTask.einleitung}</p>
+                            </div>`;
+                    }
+
+                    htmlContent += `<div class="nachfolgend">`;
                         if (selectedTask.fragen.length === 1) {
                             htmlContent += `<ol style="list-style-type: none;" aria-label>`;
                         }
