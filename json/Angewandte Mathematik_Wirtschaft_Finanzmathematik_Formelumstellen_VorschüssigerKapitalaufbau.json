@@ -1,0 +1,302 @@
+﻿[
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=6500;\\quad p=0,02;\\quad \\overline{E}_n=160000;\\quad n=13; \\)",
+"\\( \\quad K_0=8100;\\quad p=0,02;\\quad r=6000;\\quad n=18; \\)",
+"\\( \\quad K_0=6500;\\quad p=0,05;\\quad r=1200;\\quad \\overline{E}_n=47000; \\)",
+"\\( \\quad \\overline{E}_n=180000;\\quad p=0,07;\\quad r=5000;\\quad n=16; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=10123,6933:1}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=142612,1464:14,3}",
+"\\( n= \\){1:NUMERICAL:=17,6616:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=10432,6576:1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=2700;\\quad p=0,035;\\quad \\overline{E}_n=92000;\\quad n=12; \\)",
+"\\( \\quad \\overline{E}_n=90000;\\quad p=0,065;\\quad r=2600;\\quad n=16; \\)",
+"\\( \\quad K_0=9000;\\quad p=0,05;\\quad r=6400;\\quad \\overline{E}_n=49000; \\)",
+"\\( \\quad K_0=1600;\\quad p=0,05;\\quad r=1700;\\quad n=8; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=5817,504:0,6}",
+"\\( K_0= \\){1:NUMERICAL:=5811,6405:0,6}",
+"\\( n= \\){1:NUMERICAL:=5,9784:0,1}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=19409,0881:1,9}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=5200;\\quad p=0,04;\\quad r=1100;\\quad \\overline{E}_n=14000; \\)",
+"\\( \\quad K_0=6700;\\quad p=0,06;\\quad r=9300;\\quad n=10; \\)",
+"\\( \\quad \\overline{E}_n=270000;\\quad p=0,045;\\quad r=7600;\\quad n=20; \\)",
+"\\( \\quad K_0=6400;\\quad p=0,07;\\quad \\overline{E}_n=96000;\\quad n=7; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=6,7434:0,1}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=141934,9561:14,2}",
+"\\( K_0= \\){1:NUMERICAL:=8644,5408:0,9}",
+"\\( r= \\){1:NUMERICAL:=9257,5406:0,9}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{E}_n=61000;\\quad p=0,06;\\quad r=4200;\\quad n=10; \\)",
+"\\( \\quad K_0=4900;\\quad p=0,07;\\quad r=4300;\\quad n=8; \\)",
+"\\( \\quad K_0=9800;\\quad p=0,07;\\quad \\overline{E}_n=140000;\\quad n=14; \\)",
+"\\( \\quad K_0=3300;\\quad p=0,025;\\quad r=4500;\\quad \\overline{E}_n=50000; \\)"
+],
+"antworten":[
+"\\( K_0= \\){1:NUMERICAL:=1294,9738:0,1}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=55624,4639:5,6}",
+"\\( r= \\){1:NUMERICAL:=4754,8701:0,5}",
+"\\( n= \\){1:NUMERICAL:=9,9759:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=7600;\\quad p=0,065;\\quad \\overline{E}_n=96000;\\quad n=18; \\)",
+"\\( \\quad \\overline{E}_n=28000;\\quad p=0,07;\\quad r=3300;\\quad n=6; \\)",
+"\\( \\quad K_0=3200;\\quad p=0,035;\\quad r=2400;\\quad \\overline{E}_n=67000; \\)",
+"\\( \\quad K_0=4700;\\quad p=0,055;\\quad r=6300;\\quad n=20; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=2097,2278:0,2}",
+"\\( K_0= \\){1:NUMERICAL:=1826,9307:0,2}",
+"\\( n= \\){1:NUMERICAL:=18,9981:0,1}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=245465,7359:24,5}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=7800;\\quad p=0,025;\\quad r=7100;\\quad \\overline{E}_n=200000; \\)",
+"\\( \\quad \\overline{E}_n=190000;\\quad p=0,045;\\quad r=5400;\\quad n=20; \\)",
+"\\( \\quad K_0=3300;\\quad p=0,06;\\quad \\overline{E}_n=160000;\\quad n=17; \\)",
+"\\( \\quad K_0=9400;\\quad p=0,035;\\quad r=2300;\\quad n=15; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=21,0824:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=5378,3579:0,5}",
+"\\( r= \\){1:NUMERICAL:=5053,0196:0,5}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=61681,6473:6,2}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=1200;\\quad p=0,05;\\quad r=5500;\\quad \\overline{E}_n=66000; \\)",
+"\\( \\quad \\overline{E}_n=80000;\\quad p=0,055;\\quad r=4300;\\quad n=12; \\)",
+"\\( \\quad K_0=1700;\\quad p=0,05;\\quad \\overline{E}_n=100000;\\quad n=11; \\)",
+"\\( \\quad K_0=2800;\\quad p=0,035;\\quad r=2600;\\quad n=19; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=10,0415:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=2980,6152:0,3}",
+"\\( r= \\){1:NUMERICAL:=6508,7886:0,7}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=76310,1764:7,6}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=9800;\\quad p=0,055;\\quad r=7100;\\quad n=12; \\)",
+"\\( \\quad K_0=3400;\\quad p=0,06;\\quad \\overline{E}_n=280000;\\quad n=18; \\)",
+"\\( \\quad \\overline{E}_n=110000;\\quad p=0,055;\\quad r=4500;\\quad n=14; \\)",
+"\\( \\quad K_0=8200;\\quad p=0,065;\\quad r=7100;\\quad \\overline{E}_n=300000; \\)"
+],
+"antworten":[
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=141368,1001:14,1}",
+"\\( r= \\){1:NUMERICAL:=8250,7728:0,8}",
+"\\( K_0= \\){1:NUMERICAL:=6455,7768:0,6}",
+"\\( n= \\){1:NUMERICAL:=20,0974:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=6100;\\quad p=0,025;\\quad r=9100;\\quad \\overline{E}_n=220000; \\)",
+"\\( \\quad K_0=7700;\\quad p=0,065;\\quad r=7800;\\quad n=13; \\)",
+"\\( \\quad K_0=5400;\\quad p=0,055;\\quad \\overline{E}_n=30000;\\quad n=5; \\)",
+"\\( \\quad \\overline{E}_n=340000;\\quad p=0,055;\\quad r=9700;\\quad n=19; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=19,0984:0,1}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=179444,5559:17,9}",
+"\\( r= \\){1:NUMERICAL:=3896,4363:0,4}",
+"\\( K_0= \\){1:NUMERICAL:=4149,9568:0,4}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=8700;\\quad p=0,05;\\quad \\overline{E}_n=38000;\\quad n=5; \\)",
+"\\( \\quad K_0=2400;\\quad p=0,07;\\quad r=3400;\\quad \\overline{E}_n=79000; \\)",
+"\\( \\quad \\overline{E}_n=300000;\\quad p=0,035;\\quad r=9800;\\quad n=20; \\)",
+"\\( \\quad K_0=4000;\\quad p=0,035;\\quad r=1200;\\quad n=6; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=4635,7729:0,5}",
+"\\( n= \\){1:NUMERICAL:=13,9482:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=6613,3586:0,7}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=13052,3103:1,3}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=2100;\\quad p=0,02;\\quad r=5500;\\quad \\overline{E}_n=38000; \\)",
+"\\( \\quad K_0=1800;\\quad p=0,055;\\quad \\overline{E}_n=96000;\\quad n=15; \\)",
+"\\( \\quad \\overline{E}_n=70000;\\quad p=0,07;\\quad r=2500;\\quad n=14; \\)",
+"\\( \\quad K_0=3700;\\quad p=0,025;\\quad r=3400;\\quad n=14; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=7,0316:0,1}",
+"\\( r= \\){1:NUMERICAL:=3890,7406:0,4}",
+"\\( K_0= \\){1:NUMERICAL:=3753,08:0,4}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=62796,5538:6,3}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{E}_n=45000;\\quad p=0,035;\\quad r=4000;\\quad n=8; \\)",
+"\\( \\quad K_0=3200;\\quad p=0,02;\\quad r=2300;\\quad n=8; \\)",
+"\\( \\quad K_0=2500;\\quad p=0,05;\\quad \\overline{E}_n=28000;\\quad n=6; \\)",
+"\\( \\quad K_0=1500;\\quad p=0,055;\\quad r=6200;\\quad \\overline{E}_n=87000; \\)"
+],
+"antworten":[
+"\\( K_0= \\){1:NUMERICAL:=5715,3441:0,6}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=23884,9554:2,4}",
+"\\( r= \\){1:NUMERICAL:=3451,3766:0,3}",
+"\\( n= \\){1:NUMERICAL:=11,0072:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=5000;\\quad p=0,025;\\quad r=2500;\\quad \\overline{E}_n=42000; \\)",
+"\\( \\quad \\overline{E}_n=140000;\\quad p=0,05;\\quad r=8800;\\quad n=11; \\)",
+"\\( \\quad K_0=6600;\\quad p=0,04;\\quad r=7800;\\quad n=9; \\)",
+"\\( \\quad K_0=7800;\\quad p=0,07;\\quad \\overline{E}_n=89000;\\quad n=9; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=12,9318:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=5103,8331:0,5}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=95241,4935:9,5}",
+"\\( r= \\){1:NUMERICAL:=5825,3284:0,6}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=9700;\\quad p=0,065;\\quad \\overline{E}_n=60000;\\quad n=8; \\)",
+"\\( \\quad K_0=1900;\\quad p=0,07;\\quad r=4400;\\quad \\overline{E}_n=110000; \\)",
+"\\( \\quad \\overline{E}_n=140000;\\quad p=0,035;\\quad r=6800;\\quad n=14; \\)",
+"\\( \\quad K_0=3500;\\quad p=0,055;\\quad r=7700;\\quad n=16; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=4094,9634:0,4}",
+"\\( n= \\){1:NUMERICAL:=14,8829:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=9630,8289:1}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=208415,7201:20,8}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{E}_n=160000;\\quad p=0,065;\\quad r=4900;\\quad n=16; \\)",
+"\\( \\quad K_0=8000;\\quad p=0,02;\\quad r=8800;\\quad n=19; \\)",
+"\\( \\quad K_0=5800;\\quad p=0,045;\\quad \\overline{E}_n=44000;\\quad n=19; \\)",
+"\\( \\quad K_0=6400;\\quad p=0,065;\\quad r=9500;\\quad \\overline{E}_n=81000; \\)"
+],
+"antworten":[
+"\\( K_0= \\){1:NUMERICAL:=7442,1751:0,7}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=216671,3436:21,7}",
+"\\( r= \\){1:NUMERICAL:=1008,0005:0,1}",
+"\\( n= \\){1:NUMERICAL:=6,9723:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=8900;\\quad p=0,04;\\quad r=2000;\\quad n=15; \\)",
+"\\( \\quad K_0=5500;\\quad p=0,035;\\quad \\overline{E}_n=98000;\\quad n=10; \\)",
+"\\( \\quad K_0=7200;\\quad p=0,065;\\quad r=9200;\\quad \\overline{E}_n=80000; \\)",
+"\\( \\quad \\overline{E}_n=240000;\\quad p=0,05;\\quad r=7500;\\quad n=18; \\)"
+],
+"antworten":[
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=57677,4595:5,8}",
+"\\( r= \\){1:NUMERICAL:=7432,1995:0,7}",
+"\\( n= \\){1:NUMERICAL:=6,9726:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=7669,4603:0,8}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=5100;\\quad p=0,02;\\quad \\overline{E}_n=120000;\\quad n=13; \\)",
+"\\( \\quad K_0=7200;\\quad p=0,045;\\quad r=8800;\\quad \\overline{E}_n=110000; \\)",
+"\\( \\quad \\overline{E}_n=72000;\\quad p=0,02;\\quad r=3000;\\quad n=18; \\)",
+"\\( \\quad K_0=8800;\\quad p=0,07;\\quad r=3400;\\quad n=16; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=7573,3321:0,8}",
+"\\( n= \\){1:NUMERICAL:=9,9626:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=4535,8594:0,5}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=127435,7798:12,7}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=7900;\\quad p=0,035;\\quad r=3500;\\quad n=11; \\)",
+"\\( \\quad K_0=6500;\\quad p=0,045;\\quad \\overline{E}_n=71000;\\quad n=12; \\)",
+"\\( \\quad \\overline{E}_n=170000;\\quad p=0,04;\\quad r=5400;\\quad n=19; \\)",
+"\\( \\quad K_0=6300;\\quad p=0,03;\\quad r=1200;\\quad \\overline{E}_n=21000; \\)"
+],
+"antworten":[
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=59140,6265:5,9}",
+"\\( r= \\){1:NUMERICAL:=3711,4537:0,4}",
+"\\( K_0= \\){1:NUMERICAL:=6929,0084:0,7}",
+"\\( n= \\){1:NUMERICAL:=9,9873:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=5400;\\quad p=0,06;\\quad \\overline{E}_n=71000;\\quad n=7; \\)",
+"\\( \\quad K_0=6600;\\quad p=0,06;\\quad r=9100;\\quad \\overline{E}_n=290000; \\)",
+"\\( \\quad \\overline{E}_n=180000;\\quad p=0,065;\\quad r=8900;\\quad n=12; \\)",
+"\\( \\quad K_0=8200;\\quad p=0,035;\\quad r=3700;\\quad n=11; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=7067,2238:0,7}",
+"\\( n= \\){1:NUMERICAL:=17,9627:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=7210,4359:0,7}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=62299,0097:6,2}"
+]
+},
+{
+"einleitung":"Vorschüssiger Kapitalaufbau: \\( \\overline{E}_n=K_0\\cdot q^n +\\frac{r\\cdot q\\cdot (q^n-1)}{q-1} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad K_0=8800;\\quad p=0,035;\\quad r=7900;\\quad \\overline{E}_n=120000; \\)",
+"\\( \\quad \\overline{E}_n=38000;\\quad p=0,07;\\quad r=3800;\\quad n=7; \\)",
+"\\( \\quad K_0=4100;\\quad p=0,035;\\quad \\overline{E}_n=51000;\\quad n=14; \\)",
+"\\( \\quad K_0=1400;\\quad p=0,025;\\quad r=9200;\\quad n=8; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=11,9382:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=1751,6395:0,2}",
+"\\( r= \\){1:NUMERICAL:=2424,7992:0,2}",
+"\\( \\overline{E}_n= \\){1:NUMERICAL:=84087,337:8,4}"
+]
+}
+]

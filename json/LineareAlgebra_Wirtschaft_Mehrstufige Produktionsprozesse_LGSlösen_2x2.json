@@ -1,0 +1,182 @@
+﻿[
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}2x_1-x_2&=13\\\\x_1-x_2&=6\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=7:0} \\( x_2=\\){1:NUMERICAL:=1:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}5x_1+4x_2&=48\\\\-4x_1-3x_2&=-37\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=4:0} \\( x_2=\\){1:NUMERICAL:=7:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-x_1+2x_2&=0\\\\-3x_1+5x_2&=-2\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=4:0} \\( x_2=\\){1:NUMERICAL:=2:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}x_1-3x_2&=-7\\\\-2x_1+5x_2&=9\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=8:0} \\( x_2=\\){1:NUMERICAL:=5:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}4x_1-3x_2&=5\\\\x_1-x_2&=0\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=5:0} \\( x_2=\\){1:NUMERICAL:=5:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-x_1-x_2&=-7\\\\x_1+2x_2&=10\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=4:0} \\( x_2=\\){1:NUMERICAL:=3:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}2x_1-x_2&=-2\\\\-x_1+x_2&=5\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=3:0} \\( x_2=\\){1:NUMERICAL:=8:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-x_1+3x_2&=1\\\\2x_1-5x_2&=1\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=8:0} \\( x_2=\\){1:NUMERICAL:=3:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-x_1+x_2&=1\\\\4x_1-3x_2&=2\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=5:0} \\( x_2=\\){1:NUMERICAL:=6:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-5x_1-4x_2&=-56\\\\9x_1+7x_2&=100\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=8:0} \\( x_2=\\){1:NUMERICAL:=4:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-x_1+3x_2&=13\\\\-x_1+2x_2&=6\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=8:0} \\( x_2=\\){1:NUMERICAL:=7:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}x_1+2x_2&=20\\\\2x_1+5x_2&=46\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=8:0} \\( x_2=\\){1:NUMERICAL:=6:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-3x_1-x_2&=-12\\\\2x_1+x_2&=10\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=2:0} \\( x_2=\\){1:NUMERICAL:=6:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-7x_1+5x_2&=-29\\\\-3x_1+2x_2&=-13\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=7:0} \\( x_2=\\){1:NUMERICAL:=4:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-3x_1+7x_2&=54\\\\x_1-2x_2&=-15\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=3:0} \\( x_2=\\){1:NUMERICAL:=9:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}3x_1+5x_2&=32\\\\2x_1+3x_2&=21\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=9:0} \\( x_2=\\){1:NUMERICAL:=1:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}x_1+2x_2&=27\\\\3x_1+5x_2&=72\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=9:0} \\( x_2=\\){1:NUMERICAL:=9:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-x_1-3x_2&=-26\\\\-x_2&=-7\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=5:0} \\( x_2=\\){1:NUMERICAL:=7:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}-2x_1+3x_2&=-9\\\\3x_1-4x_2&=15\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=9:0} \\( x_2=\\){1:NUMERICAL:=3:0} "
+]
+},
+{
+"einleitung":"Lösen Sie das lineare Gleichungssystem.",
+"fragen":[
+"\\( \\begin{align}3x_1+2x_2&=16\\\\2x_1+x_2&=9\\\\ \\end{align} \\)"
+],
+"antworten":[
+"\\( x_1=\\){1:NUMERICAL:=2:0} \\( x_2=\\){1:NUMERICAL:=5:0} "
+]
+}
+]

@@ -1,0 +1,262 @@
+﻿[
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=93000;\\quad p=0,025;\\quad n=20; \\)",
+"\\( \\quad r=1500;\\quad p=0,065;\\quad n=15; \\)",
+"\\( \\quad \\overline{R}_0=35000;\\quad p=0,06;\\quad r=7800; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=5820,1785:0,6}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=15020,7635:1,5}",
+"\\( n= \\){1:NUMERICAL:=4,698:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=35000;\\quad p=0,035;\\quad n=15; \\)",
+"\\( \\quad \\overline{R}_0=51000;\\quad p=0,06;\\quad r=8600; \\)",
+"\\( \\quad r=3800;\\quad p=0,025;\\quad n=10; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=2936,1135:0,3}",
+"\\( n= \\){1:NUMERICAL:=6,5162:0,1}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=34089,289:3,4}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=20000;\\quad p=0,05;\\quad r=3000; \\)",
+"\\( \\quad \\overline{R}_0=52000;\\quad p=0,06;\\quad n=14; \\)",
+"\\( \\quad r=5600;\\quad p=0,03;\\quad n=11; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=7,3569:0,1}",
+"\\( r= \\){1:NUMERICAL:=5277,7503:0,5}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=53369,1359:5,3}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad r=7200;\\quad p=0,025;\\quad n=7; \\)",
+"\\( \\quad \\overline{R}_0=64000;\\quad p=0,065;\\quad r=8400; \\)",
+"\\( \\quad \\overline{R}_0=35000;\\quad p=0,05;\\quad n=15; \\)"
+],
+"antworten":[
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=46858,5026:4,7}",
+"\\( n= \\){1:NUMERICAL:=9,0927:0,1}",
+"\\( r= \\){1:NUMERICAL:=3211,4096:0,3}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=66000;\\quad p=0,02;\\quad n=8; \\)",
+"\\( \\quad r=5400;\\quad p=0,05;\\quad n=18; \\)",
+"\\( \\quad \\overline{R}_0=71000;\\quad p=0,03;\\quad r=6900; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=8832,987:0,9}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=66279,9577:6,6}",
+"\\( n= \\){1:NUMERICAL:=11,6469:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=88000;\\quad p=0,04;\\quad n=15; \\)",
+"\\( \\quad r=6100;\\quad p=0,025;\\quad n=15; \\)",
+"\\( \\quad \\overline{R}_0=79000;\\quad p=0,055;\\quad r=7800; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=7610,4008:0,8}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=77414,5642:7,7}",
+"\\( n= \\){1:NUMERICAL:=12,9939:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad r=3600;\\quad p=0,035;\\quad n=11; \\)",
+"\\( \\quad \\overline{R}_0=53000;\\quad p=0,04;\\quad n=13; \\)",
+"\\( \\quad \\overline{R}_0=24000;\\quad p=0,035;\\quad r=1900; \\)"
+],
+"antworten":[
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=33539,7792:3,4}",
+"\\( r= \\){1:NUMERICAL:=5103,4784:0,5}",
+"\\( n= \\){1:NUMERICAL:=15,3058:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=79000;\\quad p=0,07;\\quad r=7300; \\)",
+"\\( \\quad \\overline{R}_0=36000;\\quad p=0,035;\\quad n=9; \\)",
+"\\( \\quad r=3600;\\quad p=0,045;\\quad n=9; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=15,6951:0,1}",
+"\\( r= \\){1:NUMERICAL:=4572,035:0,5}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=27345,1898:2,7}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=71000;\\quad p=0,035;\\quad n=17; \\)",
+"\\( \\quad r=6400;\\quad p=0,02;\\quad n=15; \\)",
+"\\( \\quad \\overline{R}_0=26000;\\quad p=0,025;\\quad r=5500; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=5422,2825:0,5}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=83879,9921:8,4}",
+"\\( n= \\){1:NUMERICAL:=4,9612:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad r=5600;\\quad p=0,07;\\quad n=13; \\)",
+"\\( \\quad \\overline{R}_0=63000;\\quad p=0,065;\\quad n=18; \\)",
+"\\( \\quad \\overline{R}_0=34000;\\quad p=0,07;\\quad r=6600; \\)"
+],
+"antworten":[
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=50079,0433:5}",
+"\\( r= \\){1:NUMERICAL:=5670,2727:0,6}",
+"\\( n= \\){1:NUMERICAL:=5,4262:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=72000;\\quad p=0,02;\\quad r=9700; \\)",
+"\\( \\quad r=1500;\\quad p=0,035;\\quad n=11; \\)",
+"\\( \\quad \\overline{R}_0=42000;\\quad p=0,07;\\quad n=12; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=7,8235:0,1}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=13974,908:1,4}",
+"\\( r= \\){1:NUMERICAL:=4941,9472:0,5}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=52000;\\quad p=0,045;\\quad n=7; \\)",
+"\\( \\quad r=6100;\\quad p=0,055;\\quad n=20; \\)",
+"\\( \\quad \\overline{R}_0=50000;\\quad p=0,04;\\quad r=5900; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=8444,475:0,8}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=76906,6865:7,7}",
+"\\( n= \\){1:NUMERICAL:=9,5686:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=42000;\\quad p=0,055;\\quad r=4600; \\)",
+"\\( \\quad r=1200;\\quad p=0,06;\\quad n=18; \\)",
+"\\( \\quad \\overline{R}_0=47000;\\quad p=0,03;\\quad n=6; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=11,2794:0,1}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=13772,7116:1,4}",
+"\\( r= \\){1:NUMERICAL:=8423,3811:0,8}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=29000;\\quad p=0,025;\\quad n=5; \\)",
+"\\( \\quad r=5400;\\quad p=0,035;\\quad n=16; \\)",
+"\\( \\quad \\overline{R}_0=59000;\\quad p=0,055;\\quad r=4800; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=6089,9112:0,6}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=67594,0188:6,8}",
+"\\( n= \\){1:NUMERICAL:=17,5015:0,1}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=130000;\\quad p=0,025;\\quad r=8100; \\)",
+"\\( \\quad r=8700;\\quad p=0,02;\\quad n=15; \\)",
+"\\( \\quad \\overline{R}_0=53000;\\quad p=0,04;\\quad n=9; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=20,1143:0,1}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=114024,3643:11,4}",
+"\\( r= \\){1:NUMERICAL:=6853,9698:0,7}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad r=2800;\\quad p=0,055;\\quad n=10; \\)",
+"\\( \\quad \\overline{R}_0=25000;\\quad p=0,07;\\quad r=4400; \\)",
+"\\( \\quad \\overline{R}_0=41000;\\quad p=0,02;\\quad n=15; \\)"
+],
+"antworten":[
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=22266,1467:2,2}",
+"\\( n= \\){1:NUMERICAL:=6,5233:0,1}",
+"\\( r= \\){1:NUMERICAL:=3128,2788:0,3}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=20000;\\quad p=0,07;\\quad r=2800; \\)",
+"\\( \\quad r=2500;\\quad p=0,06;\\quad n=19; \\)",
+"\\( \\quad \\overline{R}_0=76000;\\quad p=0,035;\\quad n=13; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=8,0654:0,1}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=29569,0087:3}",
+"\\( r= \\){1:NUMERICAL:=7127,2266:0,7}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=27000;\\quad p=0,025;\\quad n=20; \\)",
+"\\( \\quad \\overline{R}_0=32000;\\quad p=0,05;\\quad r=4000; \\)",
+"\\( \\quad r=7700;\\quad p=0,035;\\quad n=5; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=1689,7292:0,2}",
+"\\( n= \\){1:NUMERICAL:=9,4389:0,1}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=35982,7099:3,6}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=49000;\\quad p=0,02;\\quad n=8; \\)",
+"\\( \\quad \\overline{R}_0=64000;\\quad p=0,065;\\quad r=7000; \\)",
+"\\( \\quad r=6700;\\quad p=0,025;\\quad n=15; \\)"
+],
+"antworten":[
+"\\( r= \\){1:NUMERICAL:=6557,8237:0,7}",
+"\\( n= \\){1:NUMERICAL:=11,7591:0,1}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=85029,1115:8,5}"
+]
+},
+{
+"einleitung":"Vorschüssiger Rentenbarwert:  \\( \\overline{R}_0=\\frac{r\\cdot q\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"fragen":[
+"\\( \\quad \\overline{R}_0=43000;\\quad p=0,02;\\quad r=3300; \\)",
+"\\( \\quad \\overline{R}_0=32000;\\quad p=0,06;\\quad n=9; \\)",
+"\\( \\quad r=8200;\\quad p=0,02;\\quad n=11; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=14,4975:0,1}",
+"\\( r= \\){1:NUMERICAL:=4438,4071:0,4}",
+"\\( \\overline{R}_0= \\){1:NUMERICAL:=81857,1971:8,2}"
+]
+}
+]
