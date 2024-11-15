@@ -1,278 +1,74 @@
 ﻿[
 {
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,79x+9 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1,1x+43 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,64x+4,2 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,9x+16,6 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
 "fragen":[
-"den Mindestangebotspreis.",
 "den Höchstpreis.",
 "die Sättigungsmenge.",
+"die Gleichgewichtsmenge.",
 "den Gleichgewichtspreis.",
-"die Gleichgewichtsmenge."
+"den Mindestangebotspreis."
 ],
 "antworten":[
+"{1:NUMERICAL:=16,6:0,1}",
+"{1:NUMERICAL:=18,4445:0,1}",
+"{1:NUMERICAL:=8,052:0,1}",
+"{1:NUMERICAL:=9,3533:0,1}",
+"{1:NUMERICAL:=4,2:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,84x+9 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1x+44,5 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"die Gleichgewichtsmenge.",
+"den Höchstpreis.",
+"den Mindestangebotspreis.",
+"die Sättigungsmenge.",
+"den Gleichgewichtspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=19,2935:0,1}",
+"{1:NUMERICAL:=44,5:0,1}",
 "{1:NUMERICAL:=9:0,1}",
+"{1:NUMERICAL:=44,5:0,1}",
+"{1:NUMERICAL:=25,2065:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,92x+7 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,9x+35 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"die Sättigungsmenge.",
+"den Gleichgewichtspreis.",
+"den Mindestangebotspreis.",
+"die Gleichgewichtsmenge.",
+"den Höchstpreis."
+],
+"antworten":[
+"{1:NUMERICAL:=38,8889:0,1}",
+"{1:NUMERICAL:=21,1539:0,1}",
+"{1:NUMERICAL:=7:0,1}",
+"{1:NUMERICAL:=15,3847:0,1}",
+"{1:NUMERICAL:=35:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,35x+2,8 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,4x+17,2 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"die Sättigungsmenge.",
+"den Gleichgewichtspreis.",
+"die Gleichgewichtsmenge.",
+"den Höchstpreis.",
+"den Mindestangebotspreis."
+],
+"antworten":[
 "{1:NUMERICAL:=43:0,1}",
-"{1:NUMERICAL:=39,091:0,1}",
-"{1:NUMERICAL:=23,2117:0,1}",
-"{1:NUMERICAL:=17,9895:0,1}"
+"{1:NUMERICAL:=9,52:0,1}",
+"{1:NUMERICAL:=19,2001:0,1}",
+"{1:NUMERICAL:=17,2:0,1}",
+"{1:NUMERICAL:=2,8:0,1}"
 ]
 },
 {
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=1,71x+14,5 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-2,7x+42,5 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"den Mindestangebotspreis.",
-"den Höchstpreis.",
-"die Gleichgewichtsmenge.",
-"den Gleichgewichtspreis.",
-"die Sättigungsmenge."
-],
-"antworten":[
-"{1:NUMERICAL:=14,5:0,1}",
-"{1:NUMERICAL:=42,5:0,1}",
-"{1:NUMERICAL:=6,3493:0,1}",
-"{1:NUMERICAL:=25,3573:0,1}",
-"{1:NUMERICAL:=15,7408:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=2,23x+5,5 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-2,1x+36 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"den Höchstpreis.",
-"den Gleichgewichtspreis.",
-"den Mindestangebotspreis.",
-"die Sättigungsmenge.",
-"die Gleichgewichtsmenge."
-],
-"antworten":[
-"{1:NUMERICAL:=36:0,1}",
-"{1:NUMERICAL:=21,2079:0,1}",
-"{1:NUMERICAL:=5,5:0,1}",
-"{1:NUMERICAL:=17,1429:0,1}",
-"{1:NUMERICAL:=7,0439:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,72x+5,4 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1x+14,6 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"den Gleichgewichtspreis.",
-"die Sättigungsmenge.",
-"den Höchstpreis.",
-"die Gleichgewichtsmenge.",
-"den Mindestangebotspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=9,2512:0,1}",
-"{1:NUMERICAL:=14,6001:0,1}",
-"{1:NUMERICAL:=14,6:0,1}",
-"{1:NUMERICAL:=5,3489:0,1}",
-"{1:NUMERICAL:=5,4:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=4,28x+9 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-4,7x+36 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Gleichgewichtsmenge.",
-"die Sättigungsmenge.",
-"den Mindestangebotspreis.",
-"den Höchstpreis.",
-"den Gleichgewichtspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=3,0067:0,1}",
-"{1:NUMERICAL:=7,6596:0,1}",
-"{1:NUMERICAL:=9:0,1}",
-"{1:NUMERICAL:=36:0,1}",
-"{1:NUMERICAL:=21,8687:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,11x+2,3 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,2x+7 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Gleichgewichtsmenge.",
-"den Mindestangebotspreis.",
-"den Gleichgewichtspreis.",
-"die Sättigungsmenge.",
-"den Höchstpreis."
-],
-"antworten":[
-"{1:NUMERICAL:=15,1613:0,1}",
-"{1:NUMERICAL:=2,3:0,1}",
-"{1:NUMERICAL:=3,9677:0,1}",
-"{1:NUMERICAL:=35:0,1}",
-"{1:NUMERICAL:=7:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,9x+1,4 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1,3x+8,9 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"den Höchstpreis.",
-"die Gleichgewichtsmenge.",
-"die Sättigungsmenge.",
-"den Mindestangebotspreis.",
-"den Gleichgewichtspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=8,9:0,1}",
-"{1:NUMERICAL:=3,4091:0,1}",
-"{1:NUMERICAL:=6,8462:0,1}",
-"{1:NUMERICAL:=1,4:0,1}",
-"{1:NUMERICAL:=4,4682:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,38x+2,2 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,5x+7,8 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Sättigungsmenge.",
-"den Mindestangebotspreis.",
-"die Gleichgewichtsmenge.",
-"den Gleichgewichtspreis.",
-"den Höchstpreis."
-],
-"antworten":[
-"{1:NUMERICAL:=15,6001:0,1}",
-"{1:NUMERICAL:=2,2:0,1}",
-"{1:NUMERICAL:=6,3637:0,1}",
-"{1:NUMERICAL:=4,6182:0,1}",
-"{1:NUMERICAL:=7,8:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,18x+1,3 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,2x+7,7 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Sättigungsmenge.",
-"den Höchstpreis.",
-"den Gleichgewichtspreis.",
-"die Gleichgewichtsmenge.",
-"den Mindestangebotspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=38,5:0,1}",
-"{1:NUMERICAL:=7,7:0,1}",
-"{1:NUMERICAL:=4,3316:0,1}",
-"{1:NUMERICAL:=16,8422:0,1}",
-"{1:NUMERICAL:=1,3:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=1,51x+9 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-2,2x+37,5 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Gleichgewichtsmenge.",
-"den Gleichgewichtspreis.",
-"den Höchstpreis.",
-"den Mindestangebotspreis.",
-"die Sättigungsmenge."
-],
-"antworten":[
-"{1:NUMERICAL:=7,682:0,1}",
-"{1:NUMERICAL:=20,5998:0,1}",
-"{1:NUMERICAL:=37,5:0,1}",
-"{1:NUMERICAL:=9:0,1}",
-"{1:NUMERICAL:=17,0455:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=2,53x+14,5 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-4,3x+37 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Gleichgewichtsmenge.",
-"den Gleichgewichtspreis.",
-"den Höchstpreis.",
-"den Mindestangebotspreis.",
-"die Sättigungsmenge."
-],
-"antworten":[
-"{1:NUMERICAL:=3,2943:0,1}",
-"{1:NUMERICAL:=22,8346:0,1}",
-"{1:NUMERICAL:=37:0,1}",
-"{1:NUMERICAL:=14,5:0,1}",
-"{1:NUMERICAL:=8,6047:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=4,58x+5,5 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-5,6x+40,5 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Gleichgewichtsmenge.",
-"den Höchstpreis.",
-"die Sättigungsmenge.",
-"den Mindestangebotspreis.",
-"den Gleichgewichtspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=3,4382:0,1}",
-"{1:NUMERICAL:=40,5:0,1}",
-"{1:NUMERICAL:=7,2322:0,1}",
-"{1:NUMERICAL:=5,5:0,1}",
-"{1:NUMERICAL:=21,247:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=1,95x+11 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-2,7x+40 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Sättigungsmenge.",
-"den Höchstpreis.",
-"die Gleichgewichtsmenge.",
-"den Gleichgewichtspreis.",
-"den Mindestangebotspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=14,8149:0,1}",
-"{1:NUMERICAL:=40:0,1}",
-"{1:NUMERICAL:=6,2366:0,1}",
-"{1:NUMERICAL:=23,1614:0,1}",
-"{1:NUMERICAL:=11:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,66x+9 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1x+40,5 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"den Mindestangebotspreis.",
-"den Höchstpreis.",
-"die Gleichgewichtsmenge.",
-"die Sättigungsmenge.",
-"den Gleichgewichtspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=9:0,1}",
-"{1:NUMERICAL:=40,5:0,1}",
-"{1:NUMERICAL:=18,976:0,1}",
-"{1:NUMERICAL:=40,5:0,1}",
-"{1:NUMERICAL:=21,5242:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,4x+2,3 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,5x+7,9 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Sättigungsmenge.",
-"den Mindestangebotspreis.",
-"den Gleichgewichtspreis.",
-"die Gleichgewichtsmenge.",
-"den Höchstpreis."
-],
-"antworten":[
-"{1:NUMERICAL:=15,8001:0,1}",
-"{1:NUMERICAL:=2,3:0,1}",
-"{1:NUMERICAL:=4,7889:0,1}",
-"{1:NUMERICAL:=6,2223:0,1}",
-"{1:NUMERICAL:=7,9:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,94x+1,4 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1x+7,8 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
-"fragen":[
-"die Gleichgewichtsmenge.",
-"den Mindestangebotspreis.",
-"die Sättigungsmenge.",
-"den Höchstpreis.",
-"den Gleichgewichtspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=3,299:0,1}",
-"{1:NUMERICAL:=1,4:0,1}",
-"{1:NUMERICAL:=7,8001:0,1}",
-"{1:NUMERICAL:=7,8:0,1}",
-"{1:NUMERICAL:=4,5011:0,1}"
-]
-},
-{
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,81x+2,2 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1,1x+8,7 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,75x+1 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1x+8,7 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
 "fragen":[
 "den Gleichgewichtspreis.",
 "die Gleichgewichtsmenge.",
@@ -281,32 +77,32 @@
 "den Höchstpreis."
 ],
 "antworten":[
-"{1:NUMERICAL:=4,9566:0,1}",
-"{1:NUMERICAL:=3,4032:0,1}",
-"{1:NUMERICAL:=2,2:0,1}",
-"{1:NUMERICAL:=7,9091:0,1}",
+"{1:NUMERICAL:=4,3001:0,1}",
+"{1:NUMERICAL:=4,4001:0,1}",
+"{1:NUMERICAL:=1:0,1}",
+"{1:NUMERICAL:=8,7001:0,1}",
 "{1:NUMERICAL:=8,7:0,1}"
 ]
 },
 {
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,19x+1,3 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,2x+8,6 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,89x+2,6 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,9x+14,8 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
 "fragen":[
-"die Gleichgewichtsmenge.",
-"den Höchstpreis.",
 "die Sättigungsmenge.",
+"den Höchstpreis.",
 "den Gleichgewichtspreis.",
+"die Gleichgewichtsmenge.",
 "den Mindestangebotspreis."
 ],
 "antworten":[
-"{1:NUMERICAL:=18,718:0,1}",
-"{1:NUMERICAL:=8,6:0,1}",
-"{1:NUMERICAL:=43:0,1}",
-"{1:NUMERICAL:=4,8564:0,1}",
-"{1:NUMERICAL:=1,3:0,1}"
+"{1:NUMERICAL:=16,4445:0,1}",
+"{1:NUMERICAL:=14,8:0,1}",
+"{1:NUMERICAL:=8,666:0,1}",
+"{1:NUMERICAL:=6,8157:0,1}",
+"{1:NUMERICAL:=2,6:0,1}"
 ]
 },
 {
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=2,16x+9 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-2,9x+42 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,19x+1 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,2x+7,5 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
 "fragen":[
 "den Gleichgewichtspreis.",
 "die Gleichgewichtsmenge.",
@@ -315,28 +111,232 @@
 "die Sättigungsmenge."
 ],
 "antworten":[
-"{1:NUMERICAL:=23,0871:0,1}",
-"{1:NUMERICAL:=6,5218:0,1}",
-"{1:NUMERICAL:=9:0,1}",
-"{1:NUMERICAL:=42:0,1}",
-"{1:NUMERICAL:=14,4828:0,1}"
+"{1:NUMERICAL:=4,1667:0,1}",
+"{1:NUMERICAL:=16,6667:0,1}",
+"{1:NUMERICAL:=1:0,1}",
+"{1:NUMERICAL:=7,5:0,1}",
+"{1:NUMERICAL:=37,5:0,1}"
 ]
 },
 {
-"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,72x+14,5 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1,1x+41,5 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 4 NKS gerundet)",
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,34x+2,9 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,5x+7,1 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
 "fragen":[
+"den Gleichgewichtspreis.",
+"die Sättigungsmenge.",
+"den Mindestangebotspreis.",
+"die Gleichgewichtsmenge.",
+"den Höchstpreis."
+],
+"antworten":[
+"{1:NUMERICAL:=4,6:0,1}",
+"{1:NUMERICAL:=14,2001:0,1}",
+"{1:NUMERICAL:=2,9:0,1}",
+"{1:NUMERICAL:=5,0001:0,1}",
+"{1:NUMERICAL:=7,1:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,55x+13 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,8x+36 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Mindestangebotspreis.",
+"den Gleichgewichtspreis.",
 "den Höchstpreis.",
 "die Sättigungsmenge.",
+"die Gleichgewichtsmenge."
+],
+"antworten":[
+"{1:NUMERICAL:=13:0,1}",
+"{1:NUMERICAL:=22,3704:0,1}",
+"{1:NUMERICAL:=36:0,1}",
+"{1:NUMERICAL:=45:0,1}",
+"{1:NUMERICAL:=17,0371:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,78x+2,2 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1x+7,8 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Höchstpreis.",
+"den Mindestangebotspreis.",
+"die Sättigungsmenge.",
 "den Gleichgewichtspreis.",
+"die Gleichgewichtsmenge."
+],
+"antworten":[
+"{1:NUMERICAL:=7,8:0,1}",
+"{1:NUMERICAL:=2,2:0,1}",
+"{1:NUMERICAL:=7,8001:0,1}",
+"{1:NUMERICAL:=4,654:0,1}",
+"{1:NUMERICAL:=3,1461:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=1,16x+4,8 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-2x+16 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Gleichgewichtspreis.",
+"die Sättigungsmenge.",
+"den Höchstpreis.",
+"den Mindestangebotspreis.",
+"die Gleichgewichtsmenge."
+],
+"antworten":[
+"{1:NUMERICAL:=8,9115:0,1}",
+"{1:NUMERICAL:=8,0001:0,1}",
+"{1:NUMERICAL:=16:0,1}",
+"{1:NUMERICAL:=4,8:0,1}",
+"{1:NUMERICAL:=3,5444:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=1,61x+3,6 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1,9x+15 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Mindestangebotspreis.",
+"den Höchstpreis.",
+"die Sättigungsmenge.",
 "die Gleichgewichtsmenge.",
+"den Gleichgewichtspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=3,6:0,1}",
+"{1:NUMERICAL:=15:0,1}",
+"{1:NUMERICAL:=7,8948:0,1}",
+"{1:NUMERICAL:=3,2479:0,1}",
+"{1:NUMERICAL:=8,8291:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,43x+2 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,5x+7,7 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Gleichgewichtspreis.",
+"den Höchstpreis.",
+"den Mindestangebotspreis.",
+"die Sättigungsmenge.",
+"die Gleichgewichtsmenge."
+],
+"antworten":[
+"{1:NUMERICAL:=4,6355:0,1}",
+"{1:NUMERICAL:=7,7:0,1}",
+"{1:NUMERICAL:=2:0,1}",
+"{1:NUMERICAL:=15,4001:0,1}",
+"{1:NUMERICAL:=6,1291:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,33x+3,4 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,4x+16,6 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Mindestangebotspreis.",
+"die Sättigungsmenge.",
+"die Gleichgewichtsmenge.",
+"den Höchstpreis.",
+"den Gleichgewichtspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=3,4:0,1}",
+"{1:NUMERICAL:=41,5:0,1}",
+"{1:NUMERICAL:=18,0822:0,1}",
+"{1:NUMERICAL:=16,6:0,1}",
+"{1:NUMERICAL:=9,3671:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,87x+1,9 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1,1x+8,5 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"die Sättigungsmenge.",
+"den Mindestangebotspreis.",
+"die Gleichgewichtsmenge.",
+"den Höchstpreis.",
+"den Gleichgewichtspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=7,7273:0,1}",
+"{1:NUMERICAL:=1,9:0,1}",
+"{1:NUMERICAL:=3,3503:0,1}",
+"{1:NUMERICAL:=8,5:0,1}",
+"{1:NUMERICAL:=4,8148:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,85x+1,3 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1,1x+8 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"die Gleichgewichtsmenge.",
+"den Gleichgewichtspreis.",
+"die Sättigungsmenge.",
+"den Höchstpreis.",
 "den Mindestangebotspreis."
 ],
 "antworten":[
-"{1:NUMERICAL:=41,5:0,1}",
-"{1:NUMERICAL:=37,7273:0,1}",
-"{1:NUMERICAL:=25,1813:0,1}",
-"{1:NUMERICAL:=14,8352:0,1}",
-"{1:NUMERICAL:=14,5:0,1}"
+"{1:NUMERICAL:=3,4359:0,1}",
+"{1:NUMERICAL:=4,2205:0,1}",
+"{1:NUMERICAL:=7,2728:0,1}",
+"{1:NUMERICAL:=8:0,1}",
+"{1:NUMERICAL:=1,3:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=4,58x+7,5 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-5,7x+41 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Gleichgewichtspreis.",
+"die Sättigungsmenge.",
+"die Gleichgewichtsmenge.",
+"den Mindestangebotspreis.",
+"den Höchstpreis."
+],
+"antworten":[
+"{1:NUMERICAL:=22,4253:0,1}",
+"{1:NUMERICAL:=7,193:0,1}",
+"{1:NUMERICAL:=3,2588:0,1}",
+"{1:NUMERICAL:=7,5:0,1}",
+"{1:NUMERICAL:=41:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,78x+2,2 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-1x+16,4 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"die Sättigungsmenge.",
+"den Höchstpreis.",
+"die Gleichgewichtsmenge.",
+"den Gleichgewichtspreis.",
+"den Mindestangebotspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=16,4001:0,1}",
+"{1:NUMERICAL:=16,4:0,1}",
+"{1:NUMERICAL:=7,9776:0,1}",
+"{1:NUMERICAL:=8,4225:0,1}",
+"{1:NUMERICAL:=2,2:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,27x+2,8 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,4x+15 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Gleichgewichtspreis.",
+"die Gleichgewichtsmenge.",
+"den Mindestangebotspreis.",
+"den Höchstpreis.",
+"die Sättigungsmenge."
+],
+"antworten":[
+"{1:NUMERICAL:=7,7164:0,1}",
+"{1:NUMERICAL:=18,209:0,1}",
+"{1:NUMERICAL:=2,8:0,1}",
+"{1:NUMERICAL:=15:0,1}",
+"{1:NUMERICAL:=37,5:0,1}"
+]
+},
+{
+"einleitung":"Gegeben sind die Angebotsfunktion <br/></p>\\( p_A(x)=0,66x+2,6 \\)<br/></p> und die Nachfragefunktion <br/></p>\\( p_N(x)=-0,8x+14,2 \\).</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"fragen":[
+"den Gleichgewichtspreis.",
+"die Sättigungsmenge.",
+"den Mindestangebotspreis.",
+"die Gleichgewichtsmenge.",
+"den Höchstpreis."
+],
+"antworten":[
+"{1:NUMERICAL:=7,8439:0,1}",
+"{1:NUMERICAL:=17,7501:0,1}",
+"{1:NUMERICAL:=2,6:0,1}",
+"{1:NUMERICAL:=7,9453:0,1}",
+"{1:NUMERICAL:=14,2:0,1}"
 ]
 }
 ]

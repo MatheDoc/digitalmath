@@ -8,7 +8,7 @@ function addButtons(){
         var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
         var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
         // Testbutoon ausblenden, falls kein Test vorhanden
-        if (aufgaben === 'NaN') {
+        if (aufgaben === '') {
             testButton = ''
         }
         // Infobutoon ausblenden, falls keine Info vorhanden
