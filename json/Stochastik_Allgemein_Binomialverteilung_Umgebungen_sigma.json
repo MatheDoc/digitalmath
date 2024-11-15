@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  76 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 45% defekt.",
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  28 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 74% defekt.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der defekten Halbleiter um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der defekten Halbleiter um höchstens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,7002:0,0001}"
+"{1:NUMERICAL:=0,8702:0,0001}"
 ]
 },
 {
-"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 42 Passagiere. Erfahrungsgemäß haben 35% aller Passagiere keinen gültigen Fahrschein.",
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 93 Passagiere. Erfahrungsgemäß haben 41% aller Passagiere keinen gültigen Fahrschein.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Passagiere ohne gültigen Fahrschein um höchstens die 3-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Passagiere ohne gültigen Fahrschein um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,9966:0,0001}"
+"{1:NUMERICAL:=0,1409:0,0001}"
 ]
 },
 {
-"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 48 Kunden ein Eis. Typischerweise bestellen 42% aller Kunden ein Eis mit Streuseln.",
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 84 Kunden ein Eis. Typischerweise bestellen 59% aller Kunden ein Eis mit Streuseln.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Kundenbestellungen mit Streuseln um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Kundenbestellungen mit Streuseln um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0019:0,0001}"
+"{1:NUMERICAL:=0,0028:0,0001}"
 ]
 },
 {
-"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 25 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 74%.",
+"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 100 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 34%.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der geworfenen Köpfe um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der geworfenen Köpfe um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0014:0,0001}"
+"{1:NUMERICAL:=0,6579:0,0001}"
 ]
 },
 {
-"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 91 Bewerber. Erfahrungswerte besagen, dass 22% aller Bewerber den Check erfolgreich absolvieren.",
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 89 Bewerber. Erfahrungswerte besagen, dass 27% aller Bewerber den Check erfolgreich absolvieren.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck um höchstens die 3-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,1628:0,0001}"
+"{1:NUMERICAL:=0,9972:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 45 Prüflinge. Jeder 5. Prüfling fällt durch.",
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 31 Prüflinge. Die Durchfallquote liegt bei 62%.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der durchgefallenen Prüflinge um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der durchgefallenen Prüflinge um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0903:0,0001}"
+"{1:NUMERICAL:=0,003:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 95 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 59% aller Schuhe gefälscht.",
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 65 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 66% aller Schuhe gefälscht.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der gefälschten Turnschuhe um mindestens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der gefälschten Turnschuhe um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0124:0,0001}"
+"{1:NUMERICAL:=0,6408:0,0001}"
 ]
 },
 {
-"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 30 Mal auf das Tor. Sie weiß, dass 34% aller Schüsse das Tor verfehlen.",
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 40 Mal auf das Tor. Sie weiß, dass jeder 4. Schuss das Tor verfehlt.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Fehltreffer um höchstens die 3-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Fehltreffer um höchstens die 2-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,9963:0,0001}"
+"{1:NUMERICAL:=0,9577:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 29 Mitarbeiter befragt. Bekanntermaßen sind 42% aller Mitarbeiter zufrieden.",
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 53 Mitarbeiter befragt. Bekanntermaßen sind 52% aller Mitarbeiter zufrieden.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der zufriedenen Mitarbeiter um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der zufriedenen Mitarbeiter um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,6525:0,0001}"
+"{1:NUMERICAL:=0,7286:0,0001}"
 ]
 },
 {
-"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 74 Gästen geprüft. Allgemeine Statistiken zeigen, dass jeder 4. Gast ein vegetarisches Gericht bestellt.",
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 95 Gästen geprüft. Allgemeine Statistiken zeigen, dass 65% aller Gäste vegetarische Gerichte bestellen.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der vegetarischen Gerichte um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der vegetarischen Gerichte um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,1058:0,0001}"
+"{1:NUMERICAL:=0,1323:0,0001}"
 ]
 },
 {
-"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 27 Pflanzen. Aus Erfahrung weiß sie, dass jede 4. Pflanze zu wenig Wasser bekommt.",
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 32 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 80% aller Pflanzen zu wenig Wasser bekommen.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der unzureichend bewässerten Pflanzen um mindestens die 2-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der unzureichend bewässerten Pflanzen um höchstens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0423:0,0001}"
+"{1:NUMERICAL:=0,8171:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 83 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 25% einen Akku.",
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 46 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 64% einen Akku.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Werkzeuge mit Akku um mindestens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Werkzeuge mit Akku um mindestens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0113:0,0001}"
+"{1:NUMERICAL:=0,0132:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 96 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 31% aller Computer keinen ausreichenden Virenschutz.",
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 73 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 69% aller Computer keinen ausreichenden Virenschutz.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Computer mit unzureichendem Virenschutz um höchstens die 2-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Computer mit unzureichendem Virenschutz um mindestens die 1-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,9532:0,0001}"
+"{1:NUMERICAL:=0,311:0,0001}"
 ]
 },
 {
-"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 27 Krügen. Analysen zeigen, dass 59% aller Krüge einen Kratzer haben.",
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 94 Krügen. Analysen zeigen, dass 53% aller Krüge einen Kratzer haben.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Krüge mit Kratzer um mindestens die 2-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Krüge mit Kratzer um höchstens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0295:0,0001}"
+"{1:NUMERICAL:=0,8791:0,0001}"
 ]
 },
 {
-"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 44 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 73% aller vorgeschlagenen Partner attraktiv findet.",
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 65 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie jeden 2. vorgeschlagenen Partner attraktiv findet.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Vorschläge mit attraktiven Partnern um mindestens die 2-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Vorschläge mit attraktiven Partnern um mindestens die 2-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0422:0,0001}"
+"{1:NUMERICAL:=0,0464:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 59 Stück zusammengefasst. Der Zufallsgenerator legt jeder 4. Smartwatch einen Gutschein bei.",
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 97 Stück zusammengefasst. Der Zufallsgenerator legt 63% aller Smartwatches einen Gutschein bei.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Smartwatches mit Gutschein um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Smartwatches mit Gutschein um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0029:0,0001}"
+"{1:NUMERICAL:=0,0022:0,0001}"
 ]
 },
 {
-"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 86 Kunden. Aus der Vergangenheit ist ihm bekannt, dass jeder 5. Kunde bar bezahlt.",
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 78 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 30% bar bezahlt.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der barbezahlenden Kunden um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der barbezahlenden Kunden um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,1367:0,0001}"
+"{1:NUMERICAL:=0,6766:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 85 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchtet jede 2. Beamerlampe weniger als 4000 Stunden.",
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 88 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchtet jede 5. Beamerlampe weniger als 4000 Stunden.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden um höchstens die 2-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden um höchstens die 2-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,9497:0,0001}"
+"{1:NUMERICAL:=0,9551:0,0001}"
 ]
 },
 {
-"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 87 User teil. Man weiß, dass 47% aller User der Influencerin folgen.",
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 78 User teil. Man weiß, dass 25% aller User der Influencerin folgen.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Follower der Influencerin um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Follower der Influencerin um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,6661:0,0001}"
+"{1:NUMERICAL:=0,7048:0,0001}"
 ]
 },
 {
-"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 39 Lebensmittel. Interne Untersuchungen zeigen, dass in 72% der Fälle das Gewicht nicht ausreichend genau bestimmt wird.",
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 90 Lebensmittel. Interne Untersuchungen zeigen, dass jedes 5. Lebensmittel nicht ausreichend genau gewogen wird.",
 "fragen":[
-"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der ungenau gewogenen Lebensmittel um höchstens die 2-fache Standardabweichung vom Erwartungswert abweicht (Angabe als Dezimalzahl auf 4 NKS gerundet)."
+"Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der ungenau gewogenen Lebensmittel um höchstens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (Endergebnisse auf 4 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,9524:0,0001}"
+"{1:NUMERICAL:=0,9882:0,0001}"
 ]
 }
 ]
