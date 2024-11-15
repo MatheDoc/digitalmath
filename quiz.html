@@ -236,7 +236,7 @@
             const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
             function replacer(match, correctAnswer, tolerance) {
                 const interactiveHtml = `
-                    <input type="text" id="answer${questionId}" placeholder="Antwort" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
+                    <input type="text" id="answer${questionId}" placeholder="Antwort" autocomplete="off" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
                     <i class="fas fa-paper-plane check-icon "title="Frage abschicken" onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
                     <span id="feedback${questionId}"></span>
                 `;
