@@ -1,222 +1,222 @@
 ﻿[
 {
-"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  104 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 60% defekt.",
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  251 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 63% defekt.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der defekten Halbleiter angibt (Endergebnis auf 2 NKS gerundet). ",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der defekten Halbleiter angibt (auf 2 NKS gerundet).",
 "Bestimmen Sie die durchschnittlich zu erwartende Anzahl der defekten Halbleiter."
 ],
 "antworten":[
-"{1:NUMERICAL:=4,996:0,01}",
-"{1:NUMERICAL:=62,4:0,01}"
+"{1:NUMERICAL:=7,6491:0,01}",
+"{1:NUMERICAL:=158,13:0,01}"
 ]
 },
 {
-"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 183 Passagiere. Erfahrungsgemäß haben 26% aller Passagiere keinen gültigen Fahrschein.",
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 240 Passagiere. Erfahrungsgemäß haben 41% aller Passagiere keinen gültigen Fahrschein.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Passagiere ohne gültigen Fahrschein angibt (Endergebnis auf 2 NKS gerundet). ",
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Passagiere ohne gültigen Fahrschein."
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Passagiere ohne gültigen Fahrschein.",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Passagiere ohne gültigen Fahrschein angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=5,9337:0,01}",
-"{1:NUMERICAL:=47,58:0,01}"
+"{1:NUMERICAL:=98,4:0,01}",
+"{1:NUMERICAL:=7,6194:0,01}"
 ]
 },
 {
-"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 245 Kunden ein Eis. Typischerweise bestellt jeder 4. Kunde ein Eis mit Streuseln.",
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 181 Kunden ein Eis. Typischerweise bestellt jeder 5. Kunde ein Eis mit Streuseln.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Kundenbestellungen mit Streuseln angibt (Endergebnis auf 2 NKS gerundet). ",
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Kundenbestellungen mit Streuseln."
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Kundenbestellungen mit Streuseln.",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Kundenbestellungen mit Streuseln angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=6,7777:0,01}",
-"{1:NUMERICAL:=61,25:0,01}"
+"{1:NUMERICAL:=36,2:0,01}",
+"{1:NUMERICAL:=5,3814:0,01}"
 ]
 },
 {
-"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 165 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 21%.",
+"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 198 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 79%.",
 "fragen":[
 "Bestimmen Sie die durchschnittlich zu erwartende Anzahl der geworfenen Köpfe.",
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der geworfenen Köpfe angibt (Endergebnis auf 2 NKS gerundet). "
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der geworfenen Köpfe angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=34,65:0,01}",
-"{1:NUMERICAL:=5,232:0,01}"
+"{1:NUMERICAL:=156,42:0,01}",
+"{1:NUMERICAL:=5,7313:0,01}"
 ]
 },
 {
-"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 112 Bewerber. Erfahrungswerte besagen, dass 31% aller Bewerber den Check erfolgreich absolvieren.",
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 100 Bewerber. Erfahrungswerte besagen, dass 78% aller Bewerber den Check erfolgreich absolvieren.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck angibt (Endergebnis auf 2 NKS gerundet). ",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck angibt (auf 2 NKS gerundet).",
 "Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Bewerber mit erfolgreichem Gesundheitscheck."
 ],
 "antworten":[
-"{1:NUMERICAL:=4,8946:0,01}",
-"{1:NUMERICAL:=34,72:0,01}"
+"{1:NUMERICAL:=4,1425:0,01}",
+"{1:NUMERICAL:=78:0,01}"
 ]
 },
 {
-"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 135 Prüflinge. Die Durchfallquote liegt bei 38%.",
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 261 Prüflinge. Die Durchfallquote liegt bei 48%.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der durchgefallenen Prüflinge angibt (Endergebnis auf 2 NKS gerundet). ",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der durchgefallenen Prüflinge angibt (auf 2 NKS gerundet).",
 "Bestimmen Sie die durchschnittlich zu erwartende Anzahl der durchgefallenen Prüflinge."
 ],
 "antworten":[
-"{1:NUMERICAL:=5,6397:0,01}",
-"{1:NUMERICAL:=51,3:0,01}"
+"{1:NUMERICAL:=8,0713:0,01}",
+"{1:NUMERICAL:=125,28:0,01}"
 ]
 },
 {
-"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 231 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 50% aller Schuhe gefälscht.",
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 110 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 54% aller Schuhe gefälscht.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der gefälschten Turnschuhe angibt (Endergebnis auf 2 NKS gerundet). ",
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der gefälschten Turnschuhe."
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der gefälschten Turnschuhe.",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der gefälschten Turnschuhe angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=7,5993:0,01}",
-"{1:NUMERICAL:=115,5:0,01}"
+"{1:NUMERICAL:=59,4:0,01}",
+"{1:NUMERICAL:=5,2272:0,01}"
 ]
 },
 {
-"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 122 Mal auf das Tor. Sie weiß, dass jeder 2. Schuss das Tor verfehlt.",
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 278 Mal auf das Tor. Sie weiß, dass jeder 4. Schuss das Tor verfehlt.",
 "fragen":[
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Fehltreffer.",
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Fehltreffer angibt (Endergebnis auf 2 NKS gerundet). "
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Fehltreffer angibt (auf 2 NKS gerundet).",
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Fehltreffer."
 ],
 "antworten":[
-"{1:NUMERICAL:=61:0,01}",
-"{1:NUMERICAL:=5,5227:0,01}"
+"{1:NUMERICAL:=7,2198:0,01}",
+"{1:NUMERICAL:=69,5:0,01}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 230 Mitarbeiter befragt. Bekanntermaßen sind 44% aller Mitarbeiter zufrieden.",
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 148 Mitarbeiter befragt. Bekanntermaßen sind 37% aller Mitarbeiter zufrieden.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der zufriedenen Mitarbeiter angibt (Endergebnis auf 2 NKS gerundet). ",
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der zufriedenen Mitarbeiter."
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der zufriedenen Mitarbeiter.",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der zufriedenen Mitarbeiter angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=7,5281:0,01}",
-"{1:NUMERICAL:=101,2:0,01}"
+"{1:NUMERICAL:=54,76:0,01}",
+"{1:NUMERICAL:=5,8736:0,01}"
 ]
 },
 {
-"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 251 Gästen geprüft. Allgemeine Statistiken zeigen, dass 56% aller Gäste vegetarische Gerichte bestellen.",
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 132 Gästen geprüft. Allgemeine Statistiken zeigen, dass 23% aller Gäste vegetarische Gerichte bestellen.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der vegetarischen Gerichte angibt (Endergebnis auf 2 NKS gerundet). ",
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der vegetarischen Gerichte."
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der vegetarischen Gerichte.",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der vegetarischen Gerichte angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=7,8642:0,01}",
-"{1:NUMERICAL:=140,56:0,01}"
+"{1:NUMERICAL:=30,36:0,01}",
+"{1:NUMERICAL:=4,835:0,01}"
 ]
 },
 {
-"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 180 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 67% aller Pflanzen zu wenig Wasser bekommen.",
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 142 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 40% aller Pflanzen zu wenig Wasser bekommen.",
 "fragen":[
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der unzureichend bewässerten Pflanzen.",
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der unzureichend bewässerten Pflanzen angibt (Endergebnis auf 2 NKS gerundet). "
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der unzureichend bewässerten Pflanzen angibt (auf 2 NKS gerundet).",
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der unzureichend bewässerten Pflanzen."
 ],
 "antworten":[
-"{1:NUMERICAL:=120,6:0,01}",
-"{1:NUMERICAL:=6,3086:0,01}"
+"{1:NUMERICAL:=5,8378:0,01}",
+"{1:NUMERICAL:=56,8:0,01}"
 ]
 },
 {
-"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 296 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 57% einen Akku.",
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 154 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 68% einen Akku.",
 "fragen":[
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Werkzeuge mit Akku.",
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Werkzeuge mit Akku angibt (Endergebnis auf 2 NKS gerundet). "
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Werkzeuge mit Akku angibt (auf 2 NKS gerundet).",
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Werkzeuge mit Akku."
 ],
 "antworten":[
-"{1:NUMERICAL:=168,72:0,01}",
-"{1:NUMERICAL:=8,5176:0,01}"
+"{1:NUMERICAL:=5,7888:0,01}",
+"{1:NUMERICAL:=104,72:0,01}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 185 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben ist jeder 4. Computer nicht ausreichend geschützt.",
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 112 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben ist jeder 2. Computer nicht ausreichend geschützt.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Computer mit unzureichendem Virenschutz angibt (Endergebnis auf 2 NKS gerundet). ",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Computer mit unzureichendem Virenschutz angibt (auf 2 NKS gerundet).",
 "Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Computer mit unzureichendem Virenschutz."
 ],
 "antworten":[
-"{1:NUMERICAL:=5,8896:0,01}",
-"{1:NUMERICAL:=46,25:0,01}"
+"{1:NUMERICAL:=5,2915:0,01}",
+"{1:NUMERICAL:=56:0,01}"
 ]
 },
 {
-"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 128 Krügen. Analysen zeigen, dass 80% aller Krüge einen Kratzer haben.",
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 215 Krügen. Analysen zeigen, dass 41% aller Krüge einen Kratzer haben.",
 "fragen":[
 "Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Krüge mit Kratzer.",
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Krüge mit Kratzer angibt (Endergebnis auf 2 NKS gerundet). "
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Krüge mit Kratzer angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=102,4:0,01}",
-"{1:NUMERICAL:=4,5255:0,01}"
+"{1:NUMERICAL:=88,15:0,01}",
+"{1:NUMERICAL:=7,2117:0,01}"
 ]
 },
 {
-"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 293 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 28% aller vorgeschlagenen Partner attraktiv findet.",
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 185 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 68% aller vorgeschlagenen Partner attraktiv findet.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Vorschläge mit attraktiven Partnern angibt (Endergebnis auf 2 NKS gerundet). ",
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Vorschläge mit attraktiven Partnern."
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Vorschläge mit attraktiven Partnern.",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Vorschläge mit attraktiven Partnern angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=7,6856:0,01}",
-"{1:NUMERICAL:=82,04:0,01}"
+"{1:NUMERICAL:=125,8:0,01}",
+"{1:NUMERICAL:=6,3448:0,01}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 179 Stück zusammengefasst. Der Zufallsgenerator legt 72% aller Smartwatches einen Gutschein bei.",
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 295 Stück zusammengefasst. Der Zufallsgenerator legt 40% aller Smartwatches einen Gutschein bei.",
 "fragen":[
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Smartwatches mit Gutschein.",
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Smartwatches mit Gutschein angibt (Endergebnis auf 2 NKS gerundet). "
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Smartwatches mit Gutschein angibt (auf 2 NKS gerundet).",
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Smartwatches mit Gutschein."
 ],
 "antworten":[
-"{1:NUMERICAL:=128,88:0,01}",
-"{1:NUMERICAL:=6,0072:0,01}"
+"{1:NUMERICAL:=8,4143:0,01}",
+"{1:NUMERICAL:=118:0,01}"
 ]
 },
 {
-"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 277 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 49% bar bezahlt.",
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 288 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 57% bar bezahlt.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der barbezahlenden Kunden angibt (Endergebnis auf 2 NKS gerundet). ",
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der barbezahlenden Kunden."
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der barbezahlenden Kunden.",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der barbezahlenden Kunden angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=8,32:0,01}",
-"{1:NUMERICAL:=135,73:0,01}"
+"{1:NUMERICAL:=164,16:0,01}",
+"{1:NUMERICAL:=8,4017:0,01}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 117 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 25% aller Beamerlampen weniger als 4000 Stunden.",
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 213 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 29% aller Beamerlampen weniger als 4000 Stunden.",
 "fragen":[
 "Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden.",
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden angibt (Endergebnis auf 2 NKS gerundet). "
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=29,25:0,01}",
-"{1:NUMERICAL:=4,6837:0,01}"
+"{1:NUMERICAL:=61,77:0,01}",
+"{1:NUMERICAL:=6,6224:0,01}"
 ]
 },
 {
-"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 115 User teil. Man weiß, dass jeder 2. User der Influencerin folgt.",
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 292 User teil. Man weiß, dass jeder 4. User der Influencerin folgt.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Follower der Influencerin angibt (Endergebnis auf 2 NKS gerundet). ",
-"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Follower der Influencerin."
+"Bestimmen Sie die durchschnittlich zu erwartende Anzahl der Follower der Influencerin.",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Follower der Influencerin angibt (auf 2 NKS gerundet)."
 ],
 "antworten":[
-"{1:NUMERICAL:=5,3619:0,01}",
-"{1:NUMERICAL:=57,5:0,01}"
+"{1:NUMERICAL:=73:0,01}",
+"{1:NUMERICAL:=7,3993:0,01}"
 ]
 },
 {
-"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 173 Lebensmittel. Interne Untersuchungen zeigen, dass jedes 5. Lebensmittel nicht ausreichend genau gewogen wird.",
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 298 Lebensmittel. Interne Untersuchungen zeigen, dass jedes 5. Lebensmittel nicht ausreichend genau gewogen wird.",
 "fragen":[
-"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der ungenau gewogenen Lebensmittel angibt (Endergebnis auf 2 NKS gerundet). ",
+"Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der ungenau gewogenen Lebensmittel angibt (auf 2 NKS gerundet).",
 "Bestimmen Sie die durchschnittlich zu erwartende Anzahl der ungenau gewogenen Lebensmittel."
 ],
 "antworten":[
-"{1:NUMERICAL:=5,2612:0,01}",
-"{1:NUMERICAL:=34,6:0,01}"
+"{1:NUMERICAL:=6,9051:0,01}",
+"{1:NUMERICAL:=59,6:0,01}"
 ]
 }
 ]
