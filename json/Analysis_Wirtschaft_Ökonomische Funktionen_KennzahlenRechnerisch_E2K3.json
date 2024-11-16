@@ -1,582 +1,582 @@
 ﻿[
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-10x^2+77x \\)</p> <p>\\( K(x)=0,52x^3-5,9x^2+28x+36 \\)</p> <p>\\( G(x)=-0,52x^3-4,1x^2+49x-36 \\)</p> <p>\\( p(x)=-10x+77 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"den maximalen Gewinn.",
-"die gewinnmaximale Menge.",
-"die Gewinngrenze.",
-"den gewinnmaximalen Verkaufspreis.",
-"die Gewinnschwelle.",
-"den maximalen Erlös.",
-"die Fixkosten.",
-"die Sättigungsmenge.",
-"den Höchstpreis.",
-"die erlösmaximale Menge."
-],
-"antworten":[
-"{1:NUMERICAL:=3,7821:0,1}",
-"{1:NUMERICAL:=63,0169:0,1}",
-"{1:NUMERICAL:=3,5619:0,1}",
-"{1:NUMERICAL:=5,965:0,1}",
-"{1:NUMERICAL:=41,3807:0,1}",
-"{1:NUMERICAL:=0,793:0,1}",
-"{1:NUMERICAL:=148,225:0,1}",
-"{1:NUMERICAL:=36:0,1}",
-"{1:NUMERICAL:=7,7:0,1}",
-"{1:NUMERICAL:=77:0,1}",
-"{1:NUMERICAL:=3,85:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,4x^2+29x \\)</p> <p>\\( K(x)=0,0041x^3-0,33x^2+8,9x+120 \\)</p> <p>\\( G(x)=-0,0041x^3-0,07x^2+20,1x-120 \\)</p> <p>\\( p(x)=-0,4x+29 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinngrenze.",
-"die Fixkosten.",
-"den maximalen Erlös.",
-"die erlösmaximale Menge.",
-"den Höchstpreis.",
-"den gewinnmaximalen Verkaufspreis.",
-"den maximalen Gewinn.",
-"die Sättigungsmenge.",
-"die Gewinnschwelle.",
-"die gewinnmaximale Menge.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum."
-],
-"antworten":[
-"{1:NUMERICAL:=58,349:0,1}",
-"{1:NUMERICAL:=120:0,1}",
-"{1:NUMERICAL:=525,625:0,1}",
-"{1:NUMERICAL:=36,25:0,1}",
-"{1:NUMERICAL:=29:0,1}",
-"{1:NUMERICAL:=14,9471:0,1}",
-"{1:NUMERICAL:=321,9713:0,1}",
-"{1:NUMERICAL:=72,5:0,1}",
-"{1:NUMERICAL:=6,15:0,1}",
-"{1:NUMERICAL:=35,1322:0,1}",
-"{1:NUMERICAL:=26,8293:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,45x^2+37x \\)</p> <p>\\( K(x)=0,0034x^3-0,38x^2+15x+130 \\)</p> <p>\\( G(x)=-0,0034x^3-0,07x^2+22x-130 \\)</p> <p>\\( p(x)=-0,45x+37 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Sättigungsmenge.",
-"den Höchstpreis.",
-"die erlösmaximale Menge.",
-"die Gewinnschwelle.",
-"den gewinnmaximalen Verkaufspreis.",
-"die Gewinngrenze.",
-"die Fixkosten.",
-"die gewinnmaximale Menge."
-],
-"antworten":[
-"{1:NUMERICAL:=420,4033:0,1}",
-"{1:NUMERICAL:=760,5556:0,1}",
-"{1:NUMERICAL:=37,2549:0,1}",
-"{1:NUMERICAL:=82,2222:0,1}",
-"{1:NUMERICAL:=37:0,1}",
-"{1:NUMERICAL:=41,1111:0,1}",
-"{1:NUMERICAL:=6,061:0,1}",
-"{1:NUMERICAL:=18,9624:0,1}",
-"{1:NUMERICAL:=67,215:0,1}",
-"{1:NUMERICAL:=130:0,1}",
-"{1:NUMERICAL:=40,0836:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-1,8x^2+49x \\)</p> <p>\\( K(x)=0,035x^3-1,3x^2+20x+140 \\)</p> <p>\\( G(x)=-0,035x^3-0,5x^2+29x-140 \\)</p> <p>\\( p(x)=-1,8x+49 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Höchstpreis.",
-"die Sättigungsmenge.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Fixkosten.",
-"die gewinnmaximale Menge.",
-"den maximalen Erlös.",
-"die Gewinnschwelle.",
-"die erlösmaximale Menge.",
-"den gewinnmaximalen Verkaufspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=49:0,1}",
-"{1:NUMERICAL:=27,2222:0,1}",
-"{1:NUMERICAL:=18,646:0,1}",
-"{1:NUMERICAL:=76,0168:0,1}",
-"{1:NUMERICAL:=12,381:0,1}",
-"{1:NUMERICAL:=140:0,1}",
-"{1:NUMERICAL:=12,5258:0,1}",
-"{1:NUMERICAL:=333,4722:0,1}",
-"{1:NUMERICAL:=5,572:0,1}",
-"{1:NUMERICAL:=13,6111:0,1}",
-"{1:NUMERICAL:=26,4535:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,78x^2+29x \\)</p> <p>\\( K(x)=0,013x^3-0,5x^2+6,7x+66 \\)</p> <p>\\( G(x)=-0,013x^3-0,28x^2+22,3x-66 \\)</p> <p>\\( p(x)=-0,78x+29 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Erlös.",
-"die erlösmaximale Menge.",
-"den gewinnmaximalen Verkaufspreis.",
-"die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Sättigungsmenge.",
-"die Gewinngrenze.",
-"die Fixkosten.",
-"den maximalen Gewinn.",
-"den Höchstpreis."
-],
-"antworten":[
-"{1:NUMERICAL:=269,5513:0,1}",
-"{1:NUMERICAL:=18,5897:0,1}",
-"{1:NUMERICAL:=15,1259:0,1}",
-"{1:NUMERICAL:=17,7873:0,1}",
-"{1:NUMERICAL:=3,098:0,1}",
-"{1:NUMERICAL:=12,8205:0,1}",
-"{1:NUMERICAL:=37,1795:0,1}",
-"{1:NUMERICAL:=30:0,1}",
-"{1:NUMERICAL:=66:0,1}",
-"{1:NUMERICAL:=168,9082:0,1}",
-"{1:NUMERICAL:=29:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-3,4x^2+100x \\)</p> <p>\\( K(x)=0,087x^3-2,9x^2+38x+150 \\)</p> <p>\\( G(x)=-0,087x^3-0,5x^2+62x-150 \\)</p> <p>\\( p(x)=-3,4x+100 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den gewinnmaximalen Verkaufspreis.",
-"die Sättigungsmenge.",
-"den Höchstpreis.",
-"die Gewinngrenze.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"den maximalen Erlös.",
-"die Fixkosten.",
-"die Gewinnschwelle.",
-"die erlösmaximale Menge.",
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn."
-],
-"antworten":[
-"{1:NUMERICAL:=53,7074:0,1}",
-"{1:NUMERICAL:=29,4118:0,1}",
-"{1:NUMERICAL:=100:0,1}",
-"{1:NUMERICAL:=22,509:0,1}",
-"{1:NUMERICAL:=11,1111:0,1}",
-"{1:NUMERICAL:=735,2941:0,1}",
-"{1:NUMERICAL:=150:0,1}",
-"{1:NUMERICAL:=2,492:0,1}",
-"{1:NUMERICAL:=14,7059:0,1}",
-"{1:NUMERICAL:=13,6155:0,1}",
-"{1:NUMERICAL:=381,8763:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,46x^2+35x \\)</p> <p>\\( K(x)=0,0026x^3-0,27x^2+11x+130 \\)</p> <p>\\( G(x)=-0,0026x^3-0,19x^2+24x-130 \\)</p> <p>\\( p(x)=-0,46x+35 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Sättigungsmenge.",
-"die Fixkosten.",
-"den Höchstpreis.",
-"den gewinnmaximalen Verkaufspreis.",
-"die gewinnmaximale Menge.",
-"die erlösmaximale Menge.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze.",
-"die Gewinnschwelle."
-],
-"antworten":[
-"{1:NUMERICAL:=76,087:0,1}",
-"{1:NUMERICAL:=130:0,1}",
-"{1:NUMERICAL:=35:0,1}",
-"{1:NUMERICAL:=18,337:0,1}",
-"{1:NUMERICAL:=36,2239:0,1}",
-"{1:NUMERICAL:=38,0435:0,1}",
-"{1:NUMERICAL:=366,4781:0,1}",
-"{1:NUMERICAL:=665,7609:0,1}",
-"{1:NUMERICAL:=34,6154:0,1}",
-"{1:NUMERICAL:=62,268:0,1}",
-"{1:NUMERICAL:=5,694:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,6x^2+22x \\)</p> <p>\\( K(x)=0,007x^3-0,42x^2+8,4x+68 \\)</p> <p>\\( G(x)=-0,007x^3-0,18x^2+13,6x-68 \\)</p> <p>\\( p(x)=-0,6x+22 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,78x^2+32x \\)</p> <p>\\( K(x)=0,01x^3-0,46x^2+13x+100 \\)</p> <p>\\( G(x)=-0,01x^3-0,32x^2+19x-100 \\)</p> <p>\\( p(x)=-0,78x+32 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
 "die Gewinnschwelle.",
-"die gewinnmaximale Menge.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze.",
-"den gewinnmaximalen Verkaufspreis.",
-"den maximalen Erlös.",
-"die Sättigungsmenge.",
-"die Fixkosten.",
 "den Höchstpreis.",
-"die erlösmaximale Menge.",
-"den maximalen Gewinn."
-],
-"antworten":[
-"{1:NUMERICAL:=5,483:0,1}",
-"{1:NUMERICAL:=18,2817:0,1}",
-"{1:NUMERICAL:=20:0,1}",
-"{1:NUMERICAL:=29,291:0,1}",
-"{1:NUMERICAL:=11,031:0,1}",
-"{1:NUMERICAL:=201,6667:0,1}",
-"{1:NUMERICAL:=36,6667:0,1}",
-"{1:NUMERICAL:=68:0,1}",
-"{1:NUMERICAL:=22:0,1}",
-"{1:NUMERICAL:=18,3333:0,1}",
-"{1:NUMERICAL:=77,7006:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-13x^2+190x \\)</p> <p>\\( K(x)=1,6x^3-11x^2+77x+92 \\)</p> <p>\\( G(x)=-1,6x^3-2x^2+113x-92 \\)</p> <p>\\( p(x)=-13x+190 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Sättigungsmenge.",
 "die Fixkosten.",
-"den Höchstpreis.",
-"den gewinnmaximalen Verkaufspreis.",
-"die gewinnmaximale Menge.",
-"die erlösmaximale Menge.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze.",
-"die Gewinnschwelle."
-],
-"antworten":[
-"{1:NUMERICAL:=14,6154:0,1}",
-"{1:NUMERICAL:=92:0,1}",
-"{1:NUMERICAL:=190:0,1}",
-"{1:NUMERICAL:=132,1088:0,1}",
-"{1:NUMERICAL:=4,4532:0,1}",
-"{1:NUMERICAL:=7,3077:0,1}",
-"{1:NUMERICAL:=230,2514:0,1}",
-"{1:NUMERICAL:=694,2308:0,1}",
-"{1:NUMERICAL:=2,2917:0,1}",
-"{1:NUMERICAL:=7,322:0,1}",
-"{1:NUMERICAL:=0,835:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,6x^2+22x \\)</p> <p>\\( K(x)=0,007x^3-0,42x^2+8,4x+68 \\)</p> <p>\\( G(x)=-0,007x^3-0,18x^2+13,6x-68 \\)</p> <p>\\( p(x)=-0,6x+22 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"die gewinnmaximale Menge.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze.",
-"den gewinnmaximalen Verkaufspreis.",
-"den maximalen Erlös.",
 "die Sättigungsmenge.",
-"die Fixkosten.",
-"den Höchstpreis.",
-"die erlösmaximale Menge.",
-"den maximalen Gewinn."
-],
-"antworten":[
-"{1:NUMERICAL:=5,483:0,1}",
-"{1:NUMERICAL:=18,2817:0,1}",
-"{1:NUMERICAL:=20:0,1}",
-"{1:NUMERICAL:=29,291:0,1}",
-"{1:NUMERICAL:=11,031:0,1}",
-"{1:NUMERICAL:=201,6667:0,1}",
-"{1:NUMERICAL:=36,6667:0,1}",
-"{1:NUMERICAL:=68:0,1}",
-"{1:NUMERICAL:=22:0,1}",
-"{1:NUMERICAL:=18,3333:0,1}",
-"{1:NUMERICAL:=77,7006:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-13x^2+190x \\)</p> <p>\\( K(x)=1,6x^3-11x^2+77x+92 \\)</p> <p>\\( G(x)=-1,6x^3-2x^2+113x-92 \\)</p> <p>\\( p(x)=-13x+190 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Sättigungsmenge.",
-"die Fixkosten.",
-"den Höchstpreis.",
-"den gewinnmaximalen Verkaufspreis.",
-"die gewinnmaximale Menge.",
-"die erlösmaximale Menge.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze.",
-"die Gewinnschwelle."
-],
-"antworten":[
-"{1:NUMERICAL:=14,6154:0,1}",
-"{1:NUMERICAL:=92:0,1}",
-"{1:NUMERICAL:=190:0,1}",
-"{1:NUMERICAL:=132,1088:0,1}",
-"{1:NUMERICAL:=4,4532:0,1}",
-"{1:NUMERICAL:=7,3077:0,1}",
-"{1:NUMERICAL:=230,2514:0,1}",
-"{1:NUMERICAL:=694,2308:0,1}",
-"{1:NUMERICAL:=2,2917:0,1}",
-"{1:NUMERICAL:=7,322:0,1}",
-"{1:NUMERICAL:=0,835:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,6x^2+22x \\)</p> <p>\\( K(x)=0,007x^3-0,42x^2+8,4x+68 \\)</p> <p>\\( G(x)=-0,007x^3-0,18x^2+13,6x-68 \\)</p> <p>\\( p(x)=-0,6x+22 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"die Sättigungsmenge.",
-"den maximalen Erlös.",
 "den gewinnmaximalen Verkaufspreis.",
 "den maximalen Gewinn.",
-"die Fixkosten.",
-"den Höchstpreis.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze.",
-"die gewinnmaximale Menge.",
-"die erlösmaximale Menge."
-],
-"antworten":[
-"{1:NUMERICAL:=5,483:0,1}",
-"{1:NUMERICAL:=36,6667:0,1}",
-"{1:NUMERICAL:=201,6667:0,1}",
-"{1:NUMERICAL:=11,031:0,1}",
-"{1:NUMERICAL:=77,7006:0,1}",
-"{1:NUMERICAL:=68:0,1}",
-"{1:NUMERICAL:=22:0,1}",
-"{1:NUMERICAL:=20:0,1}",
-"{1:NUMERICAL:=29,291:0,1}",
-"{1:NUMERICAL:=18,2817:0,1}",
-"{1:NUMERICAL:=18,3333:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,98x^2+47x \\)</p> <p>\\( K(x)=0,04x^3-0,84x^2+16x+52 \\)</p> <p>\\( G(x)=-0,04x^3-0,14x^2+31x-52 \\)</p> <p>\\( p(x)=-0,98x+47 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"die Sättigungsmenge.",
-"den Höchstpreis.",
 "die erlösmaximale Menge.",
-"die Fixkosten.",
-"den gewinnmaximalen Verkaufspreis.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
 "die gewinnmaximale Menge.",
 "die Gewinngrenze.",
-"den maximalen Erlös.",
-"den maximalen Gewinn.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum."
+"den maximalen Erlös."
 ],
 "antworten":[
-"{1:NUMERICAL:=1,697:0,1}",
-"{1:NUMERICAL:=47,9592:0,1}",
-"{1:NUMERICAL:=47:0,1}",
-"{1:NUMERICAL:=23,9796:0,1}",
-"{1:NUMERICAL:=52:0,1}",
-"{1:NUMERICAL:=32,3506:0,1}",
-"{1:NUMERICAL:=14,9484:0,1}",
-"{1:NUMERICAL:=25,203:0,1}",
-"{1:NUMERICAL:=563,5204:0,1}",
-"{1:NUMERICAL:=246,5052:0,1}",
-"{1:NUMERICAL:=7:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-21x^2+240x \\)</p> <p>\\( K(x)=1,2x^3-12x^2+100x+110 \\)</p> <p>\\( G(x)=-1,2x^3-9x^2+140x-110 \\)</p> <p>\\( p(x)=-21x+240 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Höchstpreis.",
-"die Gewinnschwelle.",
-"die erlösmaximale Menge.",
-"die Sättigungsmenge.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Fixkosten.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"die gewinnmaximale Menge.",
-"den maximalen Erlös.",
-"den gewinnmaximalen Verkaufspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=240:0,1}",
-"{1:NUMERICAL:=0,836:0,1}",
-"{1:NUMERICAL:=5,7143:0,1}",
-"{1:NUMERICAL:=11,4286:0,1}",
-"{1:NUMERICAL:=3,3333:0,1}",
-"{1:NUMERICAL:=110:0,1}",
-"{1:NUMERICAL:=7,104:0,1}",
-"{1:NUMERICAL:=230,3427:0,1}",
-"{1:NUMERICAL:=4,2185:0,1}",
-"{1:NUMERICAL:=685,7143:0,1}",
-"{1:NUMERICAL:=151,4105:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-9,8x^2+120x \\)</p> <p>\\( K(x)=0,98x^3-9,3x^2+40x+71 \\)</p> <p>\\( G(x)=-0,98x^3-0,5x^2+80x-71 \\)</p> <p>\\( p(x)=-9,8x+120 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Höchstpreis.",
-"den maximalen Erlös.",
-"die Gewinnschwelle.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"den gewinnmaximalen Verkaufspreis.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"die Sättigungsmenge.",
-"die gewinnmaximale Menge.",
-"die Fixkosten.",
-"die erlösmaximale Menge."
-],
-"antworten":[
-"{1:NUMERICAL:=120:0,1}",
-"{1:NUMERICAL:=367,3469:0,1}",
-"{1:NUMERICAL:=0,902:0,1}",
-"{1:NUMERICAL:=3,1633:0,1}",
-"{1:NUMERICAL:=70,5187:0,1}",
-"{1:NUMERICAL:=8,286:0,1}",
-"{1:NUMERICAL:=194,0369:0,1}",
-"{1:NUMERICAL:=12,2449:0,1}",
-"{1:NUMERICAL:=5,0491:0,1}",
-"{1:NUMERICAL:=71:0,1}",
-"{1:NUMERICAL:=6,1224:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,23x^2+29x \\)</p> <p>\\( K(x)=0,0014x^3-0,16x^2+6,6x+110 \\)</p> <p>\\( G(x)=-0,0014x^3-0,07x^2+22,4x-110 \\)</p> <p>\\( p(x)=-0,23x+29 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"den gewinnmaximalen Verkaufspreis.",
-"den Höchstpreis.",
-"die Gewinngrenze.",
-"die Sättigungsmenge.",
-"die Gewinnschwelle.",
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"die erlösmaximale Menge.",
-"die Fixkosten."
-],
-"antworten":[
-"{1:NUMERICAL:=914,1304:0,1}",
-"{1:NUMERICAL:=38,0952:0,1}",
-"{1:NUMERICAL:=15,6046:0,1}",
-"{1:NUMERICAL:=29:0,1}",
-"{1:NUMERICAL:=100,881:0,1}",
-"{1:NUMERICAL:=126,087:0,1}",
-"{1:NUMERICAL:=4,997:0,1}",
-"{1:NUMERICAL:=58,2407:0,1}",
-"{1:NUMERICAL:=680,5814:0,1}",
-"{1:NUMERICAL:=63,0435:0,1}",
-"{1:NUMERICAL:=110:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,74x^2+43x \\)</p> <p>\\( K(x)=0,019x^3-0,6x^2+17x+80 \\)</p> <p>\\( G(x)=-0,019x^3-0,14x^2+26x-80 \\)</p> <p>\\( p(x)=-0,74x+43 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Fixkosten.",
-"den maximalen Gewinn.",
-"den Höchstpreis.",
-"die erlösmaximale Menge.",
-"die Sättigungsmenge.",
-"die Gewinnschwelle.",
-"die Gewinngrenze.",
-"den maximalen Erlös.",
-"den gewinnmaximalen Verkaufspreis.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die gewinnmaximale Menge."
-],
-"antworten":[
-"{1:NUMERICAL:=80:0,1}",
-"{1:NUMERICAL:=233,1412:0,1}",
-"{1:NUMERICAL:=43:0,1}",
-"{1:NUMERICAL:=29,0541:0,1}",
-"{1:NUMERICAL:=58,1081:0,1}",
-"{1:NUMERICAL:=3,154:0,1}",
-"{1:NUMERICAL:=31,656:0,1}",
-"{1:NUMERICAL:=624,6622:0,1}",
-"{1:NUMERICAL:=28,9089:0,1}",
-"{1:NUMERICAL:=10,5263:0,1}",
-"{1:NUMERICAL:=19,0421:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,2x^2+14x \\)</p> <p>\\( K(x)=0,0026x^3-0,17x^2+7,2x+48 \\)</p> <p>\\( G(x)=-0,0026x^3-0,03x^2+6,8x-48 \\)</p> <p>\\( p(x)=-0,2x+14 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"den maximalen Gewinn.",
-"die Sättigungsmenge.",
-"die Fixkosten.",
-"den Höchstpreis.",
-"den gewinnmaximalen Verkaufspreis.",
-"die Gewinngrenze.",
-"die erlösmaximale Menge.",
-"den maximalen Erlös.",
-"die gewinnmaximale Menge.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum."
-],
-"antworten":[
-"{1:NUMERICAL:=7,464:0,1}",
-"{1:NUMERICAL:=62,8236:0,1}",
-"{1:NUMERICAL:=70:0,1}",
-"{1:NUMERICAL:=48:0,1}",
-"{1:NUMERICAL:=14:0,1}",
-"{1:NUMERICAL:=8,8141:0,1}",
-"{1:NUMERICAL:=41,133:0,1}",
-"{1:NUMERICAL:=35:0,1}",
-"{1:NUMERICAL:=245:0,1}",
-"{1:NUMERICAL:=25,9295:0,1}",
-"{1:NUMERICAL:=21,7949:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-2,1x^2+32x \\)</p> <p>\\( K(x)=0,057x^3-1,3x^2+15x+39 \\)</p> <p>\\( G(x)=-0,057x^3-0,8x^2+17x-39 \\)</p> <p>\\( p(x)=-2,1x+32 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"den gewinnmaximalen Verkaufspreis.",
-"die Gewinngrenze.",
-"die Sättigungsmenge.",
-"die erlösmaximale Menge.",
-"die Fixkosten.",
-"den Höchstpreis.",
-"die Gewinnschwelle.",
-"den maximalen Gewinn.",
-"die gewinnmaximale Menge."
-],
-"antworten":[
-"{1:NUMERICAL:=121,9048:0,1}",
-"{1:NUMERICAL:=7,6023:0,1}",
-"{1:NUMERICAL:=18,6957:0,1}",
-"{1:NUMERICAL:=9,602:0,1}",
-"{1:NUMERICAL:=15,2381:0,1}",
-"{1:NUMERICAL:=7,619:0,1}",
-"{1:NUMERICAL:=39:0,1}",
+"{1:NUMERICAL:=5,978:0,1}",
 "{1:NUMERICAL:=32:0,1}",
-"{1:NUMERICAL:=2,705:0,1}",
-"{1:NUMERICAL:=22,0977:0,1}",
-"{1:NUMERICAL:=6,3354:0,1}"
+"{1:NUMERICAL:=100:0,1}",
+"{1:NUMERICAL:=41,0256:0,1}",
+"{1:NUMERICAL:=19:0,1}",
+"{1:NUMERICAL:=81,4815:0,1}",
+"{1:NUMERICAL:=20,5128:0,1}",
+"{1:NUMERICAL:=15,3333:0,1}",
+"{1:NUMERICAL:=16,6667:0,1}",
+"{1:NUMERICAL:=26,106:0,1}",
+"{1:NUMERICAL:=328,2051:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,31x^2+25x \\)</p> <p>\\( K(x)=0,004x^3-0,21x^2+9,5x+100 \\)</p> <p>\\( G(x)=-0,004x^3-0,1x^2+15,5x-100 \\)</p> <p>\\( p(x)=-0,31x+25 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-1,3x^2+18x \\)</p> <p>\\( K(x)=0,043x^3-0,91x^2+6,8x+16 \\)</p> <p>\\( G(x)=-0,043x^3-0,39x^2+11,2x-16 \\)</p> <p>\\( p(x)=-1,3x+18 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"den Höchstpreis.",
 "die Gewinnschwelle.",
+"die erlösmaximale Menge.",
+"die Gewinngrenze.",
 "die gewinnmaximale Menge.",
+"den maximalen Erlös.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Fixkosten.",
+"den maximalen Gewinn."
+],
+"antworten":[
+"{1:NUMERICAL:=18:0,1}",
+"{1:NUMERICAL:=1,523:0,1}",
+"{1:NUMERICAL:=6,9231:0,1}",
+"{1:NUMERICAL:=11,207:0,1}",
+"{1:NUMERICAL:=6,7728:0,1}",
+"{1:NUMERICAL:=62,3077:0,1}",
+"{1:NUMERICAL:=9,1954:0,1}",
+"{1:NUMERICAL:=13,8462:0,1}",
+"{1:NUMERICAL:=7,0543:0,1}",
+"{1:NUMERICAL:=16:0,1}",
+"{1:NUMERICAL:=28,6068:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,45x^2+37x \\)</p> <p>\\( K(x)=0,0036x^3-0,31x^2+15x+120 \\)</p> <p>\\( G(x)=-0,0036x^3-0,14x^2+22x-120 \\)</p> <p>\\( p(x)=-0,45x+37 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinngrenze.",
+"die Sättigungsmenge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
 "die Fixkosten.",
 "die erlösmaximale Menge.",
+"den maximalen Gewinn.",
+"die Gewinnschwelle.",
+"den Höchstpreis.",
+"den gewinnmaximalen Verkaufspreis.",
 "den maximalen Erlös.",
+"die gewinnmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=57,423:0,1}",
+"{1:NUMERICAL:=82,2222:0,1}",
+"{1:NUMERICAL:=28,7037:0,1}",
+"{1:NUMERICAL:=120:0,1}",
+"{1:NUMERICAL:=41,1111:0,1}",
+"{1:NUMERICAL:=324,6656:0,1}",
+"{1:NUMERICAL:=5,691:0,1}",
+"{1:NUMERICAL:=37:0,1}",
+"{1:NUMERICAL:=21,7021:0,1}",
+"{1:NUMERICAL:=760,5556:0,1}",
+"{1:NUMERICAL:=33,9953:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,16x^2+12x \\)</p> <p>\\( K(x)=0,0025x^3-0,23x^2+7,9x+80 \\)</p> <p>\\( G(x)=-0,0025x^3+0,07x^2+4,1x-80 \\)</p> <p>\\( p(x)=-0,16x+12 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"die Gewinnschwelle.",
+"den Höchstpreis.",
+"den maximalen Gewinn.",
+"den gewinnmaximalen Verkaufspreis.",
+"die erlösmaximale Menge.",
+"die gewinnmaximale Menge.",
+"die Fixkosten.",
+"die Sättigungsmenge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Gewinngrenze."
+],
+"antworten":[
+"{1:NUMERICAL:=225:0,1}",
+"{1:NUMERICAL:=17,55:0,1}",
+"{1:NUMERICAL:=12:0,1}",
+"{1:NUMERICAL:=42,1085:0,1}",
+"{1:NUMERICAL:=6,4787:0,1}",
+"{1:NUMERICAL:=37,5:0,1}",
+"{1:NUMERICAL:=34,5083:0,1}",
+"{1:NUMERICAL:=80:0,1}",
+"{1:NUMERICAL:=75:0,1}",
+"{1:NUMERICAL:=30,6667:0,1}",
+"{1:NUMERICAL:=48,244:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,34x^2+21x \\)</p> <p>\\( K(x)=0,0021x^3-0,2x^2+7x+120 \\)</p> <p>\\( G(x)=-0,0021x^3-0,14x^2+14x-120 \\)</p> <p>\\( p(x)=-0,34x+21 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Sättigungsmenge.",
+"die Fixkosten.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
+"die erlösmaximale Menge.",
+"die gewinnmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den Höchstpreis.",
+"den maximalen Erlös.",
+"die Gewinngrenze."
+],
+"antworten":[
+"{1:NUMERICAL:=61,7647:0,1}",
+"{1:NUMERICAL:=120:0,1}",
+"{1:NUMERICAL:=10,8362:0,1}",
+"{1:NUMERICAL:=9,634:0,1}",
+"{1:NUMERICAL:=117,3037:0,1}",
+"{1:NUMERICAL:=30,8824:0,1}",
+"{1:NUMERICAL:=29,8935:0,1}",
+"{1:NUMERICAL:=31,746:0,1}",
+"{1:NUMERICAL:=21:0,1}",
+"{1:NUMERICAL:=324,2647:0,1}",
+"{1:NUMERICAL:=47,797:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,22x^2+21x \\)</p> <p>\\( K(x)=0,0013x^3-0,12x^2+8,3x+110 \\)</p> <p>\\( G(x)=-0,0013x^3-0,1x^2+12,7x-110 \\)</p> <p>\\( p(x)=-0,22x+21 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
 "die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
 "den Höchstpreis.",
 "die Gewinngrenze.",
+"den maximalen Erlös.",
 "den gewinnmaximalen Verkaufspreis.",
-"den maximalen Gewinn.",
+"die erlösmaximale Menge.",
 "die Sättigungsmenge."
 ],
 "antworten":[
-"{1:NUMERICAL:=6,836:0,1}",
-"{1:NUMERICAL:=28,5599:0,1}",
+"{1:NUMERICAL:=110:0,1}",
+"{1:NUMERICAL:=36,9199:0,1}",
+"{1:NUMERICAL:=9,452:0,1}",
+"{1:NUMERICAL:=157,1527:0,1}",
+"{1:NUMERICAL:=30,7692:0,1}",
+"{1:NUMERICAL:=21:0,1}",
+"{1:NUMERICAL:=60,822:0,1}",
+"{1:NUMERICAL:=501,1364:0,1}",
+"{1:NUMERICAL:=12,8776:0,1}",
+"{1:NUMERICAL:=47,7273:0,1}",
+"{1:NUMERICAL:=95,4545:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-4,5x^2+69x \\)</p> <p>\\( K(x)=0,1x^3-2,3x^2+29x+62 \\)</p> <p>\\( G(x)=-0,1x^3-2,2x^2+40x-62 \\)</p> <p>\\( p(x)=-4,5x+69 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"den gewinnmaximalen Verkaufspreis.",
+"den maximalen Erlös.",
+"die Gewinngrenze.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
+"den Höchstpreis.",
+"die erlösmaximale Menge.",
+"die Gewinnschwelle.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Sättigungsmenge."
+],
+"antworten":[
+"{1:NUMERICAL:=62:0,1}",
+"{1:NUMERICAL:=40,4451:0,1}",
+"{1:NUMERICAL:=264,5:0,1}",
+"{1:NUMERICAL:=10,492:0,1}",
+"{1:NUMERICAL:=77,6858:0,1}",
+"{1:NUMERICAL:=6,3455:0,1}",
+"{1:NUMERICAL:=69:0,1}",
+"{1:NUMERICAL:=7,6667:0,1}",
+"{1:NUMERICAL:=1,727:0,1}",
+"{1:NUMERICAL:=7,6667:0,1}",
+"{1:NUMERICAL:=15,3333:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-6,1x^2+140x \\)</p> <p>\\( K(x)=0,2x^3-4,6x^2+39x+100 \\)</p> <p>\\( G(x)=-0,2x^3-1,5x^2+101x-100 \\)</p> <p>\\( p(x)=-6,1x+140 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinnschwelle.",
+"die gewinnmaximale Menge.",
+"den Höchstpreis.",
+"den maximalen Erlös.",
+"die Sättigungsmenge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die erlösmaximale Menge.",
+"den maximalen Gewinn.",
+"die Fixkosten.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Gewinngrenze."
+],
+"antworten":[
+"{1:NUMERICAL:=1,008:0,1}",
+"{1:NUMERICAL:=10,713:0,1}",
+"{1:NUMERICAL:=140:0,1}",
+"{1:NUMERICAL:=803,2787:0,1}",
+"{1:NUMERICAL:=22,9508:0,1}",
+"{1:NUMERICAL:=7,6667:0,1}",
+"{1:NUMERICAL:=11,4754:0,1}",
+"{1:NUMERICAL:=563,9577:0,1}",
 "{1:NUMERICAL:=100:0,1}",
-"{1:NUMERICAL:=40,3226:0,1}",
-"{1:NUMERICAL:=504,0323:0,1}",
-"{1:NUMERICAL:=17,5:0,1}",
+"{1:NUMERICAL:=74,6507:0,1}",
+"{1:NUMERICAL:=18,429:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-1,8x^2+46x \\)</p> <p>\\( K(x)=0,049x^3-1,1x^2+15x+70 \\)</p> <p>\\( G(x)=-0,049x^3-0,7x^2+31x-70 \\)</p> <p>\\( p(x)=-1,8x+46 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"die Fixkosten.",
+"den gewinnmaximalen Verkaufspreis.",
+"den maximalen Gewinn.",
+"die Gewinngrenze.",
+"die Sättigungsmenge.",
+"die erlösmaximale Menge.",
+"die Gewinnschwelle.",
+"die gewinnmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den Höchstpreis."
+],
+"antworten":[
+"{1:NUMERICAL:=293,8889:0,1}",
+"{1:NUMERICAL:=70:0,1}",
+"{1:NUMERICAL:=27,0626:0,1}",
+"{1:NUMERICAL:=121,6023:0,1}",
+"{1:NUMERICAL:=17,382:0,1}",
+"{1:NUMERICAL:=25,5556:0,1}",
+"{1:NUMERICAL:=12,7778:0,1}",
+"{1:NUMERICAL:=2,412:0,1}",
+"{1:NUMERICAL:=10,5208:0,1}",
+"{1:NUMERICAL:=7,483:0,1}",
+"{1:NUMERICAL:=46:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-1,7x^2+21x \\)</p> <p>\\( K(x)=0,036x^3-0,88x^2+8,1x+25 \\)</p> <p>\\( G(x)=-0,036x^3-0,82x^2+12,9x-25 \\)</p> <p>\\( p(x)=-1,7x+21 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"die Gewinngrenze.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
+"den Höchstpreis.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.",
+"die erlösmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den maximalen Gewinn.",
+"den maximalen Erlös."
+],
+"antworten":[
 "{1:NUMERICAL:=25:0,1}",
-"{1:NUMERICAL:=46,618:0,1}",
-"{1:NUMERICAL:=16,1464:0,1}",
-"{1:NUMERICAL:=167,9301:0,1}",
-"{1:NUMERICAL:=80,6452:0,1}"
+"{1:NUMERICAL:=8,848:0,1}",
+"{1:NUMERICAL:=11,2845:0,1}",
+"{1:NUMERICAL:=12,3529:0,1}",
+"{1:NUMERICAL:=21:0,1}",
+"{1:NUMERICAL:=5,715:0,1}",
+"{1:NUMERICAL:=2,313:0,1}",
+"{1:NUMERICAL:=6,1765:0,1}",
+"{1:NUMERICAL:=8,1481:0,1}",
+"{1:NUMERICAL:=15,2216:0,1}",
+"{1:NUMERICAL:=64,8529:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,21x^2+21x \\)</p> <p>\\( K(x)=0,0022x^3-0,18x^2+9,2x+110 \\)</p> <p>\\( G(x)=-0,0022x^3-0,03x^2+11,8x-110 \\)</p> <p>\\( p(x)=-0,21x+21 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den gewinnmaximalen Verkaufspreis.",
+"die Fixkosten.",
+"die gewinnmaximale Menge.",
+"den maximalen Erlös.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den maximalen Gewinn.",
+"die Gewinngrenze.",
+"die erlösmaximale Menge.",
+"die Sättigungsmenge.",
+"die Gewinnschwelle.",
+"den Höchstpreis."
+],
+"antworten":[
+"{1:NUMERICAL:=13,0239:0,1}",
+"{1:NUMERICAL:=110:0,1}",
+"{1:NUMERICAL:=37,9815:0,1}",
+"{1:NUMERICAL:=525:0,1}",
+"{1:NUMERICAL:=27,2727:0,1}",
+"{1:NUMERICAL:=174,3617:0,1}",
+"{1:NUMERICAL:=60,927:0,1}",
+"{1:NUMERICAL:=50:0,1}",
+"{1:NUMERICAL:=100:0,1}",
+"{1:NUMERICAL:=9,735:0,1}",
+"{1:NUMERICAL:=21:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,23x^2+33x \\)</p> <p>\\( K(x)=0,0026x^3-0,26x^2+11x+110 \\)</p> <p>\\( G(x)=-0,0026x^3+0,03x^2+22x-110 \\)</p> <p>\\( p(x)=-0,23x+33 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den gewinnmaximalen Verkaufspreis.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Fixkosten.",
+"den Höchstpreis.",
+"die gewinnmaximale Menge.",
+"den maximalen Gewinn.",
+"die Gewinnschwelle.",
+"die Gewinngrenze.",
+"die Sättigungsmenge.",
+"die erlösmaximale Menge.",
+"den maximalen Erlös."
+],
+"antworten":[
+"{1:NUMERICAL:=19,8684:0,1}",
+"{1:NUMERICAL:=33,3333:0,1}",
+"{1:NUMERICAL:=110:0,1}",
+"{1:NUMERICAL:=33:0,1}",
+"{1:NUMERICAL:=57,0937:0,1}",
+"{1:NUMERICAL:=759,9718:0,1}",
+"{1:NUMERICAL:=4,981:0,1}",
+"{1:NUMERICAL:=95,501:0,1}",
+"{1:NUMERICAL:=143,4783:0,1}",
+"{1:NUMERICAL:=71,7391:0,1}",
+"{1:NUMERICAL:=1183,6957:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,31x^2+17x \\)</p> <p>\\( K(x)=0,0018x^3-0,19x^2+7x+94 \\)</p> <p>\\( G(x)=-0,0018x^3-0,12x^2+10x-94 \\)</p> <p>\\( p(x)=-0,31x+17 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den gewinnmaximalen Verkaufspreis.",
+"die Gewinngrenze.",
+"den maximalen Gewinn.",
+"die Fixkosten.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Sättigungsmenge.",
+"den maximalen Erlös.",
+"die gewinnmaximale Menge.",
+"die erlösmaximale Menge.",
+"die Gewinnschwelle.",
+"den Höchstpreis."
+],
+"antworten":[
+"{1:NUMERICAL:=8,8749:0,1}",
+"{1:NUMERICAL:=39,853:0,1}",
+"{1:NUMERICAL:=53,2547:0,1}",
+"{1:NUMERICAL:=94:0,1}",
+"{1:NUMERICAL:=35,1852:0,1}",
+"{1:NUMERICAL:=54,8387:0,1}",
+"{1:NUMERICAL:=233,0645:0,1}",
+"{1:NUMERICAL:=26,21:0,1}",
+"{1:NUMERICAL:=27,4194:0,1}",
+"{1:NUMERICAL:=11,138:0,1}",
+"{1:NUMERICAL:=17:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,17x^2+18x \\)</p> <p>\\( K(x)=0,0012x^3-0,14x^2+6,3x+69 \\)</p> <p>\\( G(x)=-0,0012x^3-0,03x^2+11,7x-69 \\)</p> <p>\\( p(x)=-0,17x+18 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Höchstpreis.",
+"die Fixkosten.",
+"den maximalen Gewinn.",
+"die Gewinngrenze.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den gewinnmaximalen Verkaufspreis.",
+"den maximalen Erlös.",
+"die Sättigungsmenge.",
+"die gewinnmaximale Menge.",
+"die erlösmaximale Menge.",
+"die Gewinnschwelle."
+],
+"antworten":[
+"{1:NUMERICAL:=18:0,1}",
+"{1:NUMERICAL:=69:0,1}",
+"{1:NUMERICAL:=291,1076:0,1}",
+"{1:NUMERICAL:=83,508:0,1}",
+"{1:NUMERICAL:=38,8889:0,1}",
+"{1:NUMERICAL:=9,6222:0,1}",
+"{1:NUMERICAL:=476,4706:0,1}",
+"{1:NUMERICAL:=105,8824:0,1}",
+"{1:NUMERICAL:=49,2813:0,1}",
+"{1:NUMERICAL:=52,9412:0,1}",
+"{1:NUMERICAL:=6,013:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,87x^2+35x \\)</p> <p>\\( K(x)=0,013x^3-0,47x^2+12x+82 \\)</p> <p>\\( G(x)=-0,013x^3-0,4x^2+23x-82 \\)</p> <p>\\( p(x)=-0,87x+35 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den gewinnmaximalen Verkaufspreis.",
+"den Höchstpreis.",
+"den maximalen Erlös.",
+"die Sättigungsmenge.",
+"die Fixkosten.",
+"die Gewinngrenze.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
+"die erlösmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=12,0513:0,1}",
+"{1:NUMERICAL:=20,9884:0,1}",
+"{1:NUMERICAL:=35:0,1}",
+"{1:NUMERICAL:=352,0115:0,1}",
+"{1:NUMERICAL:=40,2299:0,1}",
+"{1:NUMERICAL:=82:0,1}",
+"{1:NUMERICAL:=26,68:0,1}",
+"{1:NUMERICAL:=16,1053:0,1}",
+"{1:NUMERICAL:=3,857:0,1}",
+"{1:NUMERICAL:=130,3634:0,1}",
+"{1:NUMERICAL:=20,1149:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,19x^2+27x \\)</p> <p>\\( K(x)=0,0023x^3-0,16x^2+9,9x+140 \\)</p> <p>\\( G(x)=-0,0023x^3-0,03x^2+17,1x-140 \\)</p> <p>\\( p(x)=-0,19x+27 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinngrenze.",
+"die Gewinnschwelle.",
+"den maximalen Erlös.",
+"den maximalen Gewinn.",
+"die erlösmaximale Menge.",
+"die Sättigungsmenge.",
+"die Fixkosten.",
+"den gewinnmaximalen Verkaufspreis.",
+"die gewinnmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den Höchstpreis."
+],
+"antworten":[
+"{1:NUMERICAL:=75,13:0,1}",
+"{1:NUMERICAL:=8,391:0,1}",
+"{1:NUMERICAL:=959,2105:0,1}",
+"{1:NUMERICAL:=359,2961:0,1}",
+"{1:NUMERICAL:=71,0526:0,1}",
+"{1:NUMERICAL:=142,1053:0,1}",
+"{1:NUMERICAL:=140:0,1}",
+"{1:NUMERICAL:=18,3315:0,1}",
+"{1:NUMERICAL:=45,6238:0,1}",
+"{1:NUMERICAL:=23,1884:0,1}",
+"{1:NUMERICAL:=27:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-3,5x^2+100x \\)</p> <p>\\( K(x)=0,091x^3-2,1x^2+28x+130 \\)</p> <p>\\( G(x)=-0,091x^3-1,4x^2+72x-130 \\)</p> <p>\\( p(x)=-3,5x+100 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
+"den Höchstpreis.",
+"die Fixkosten.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
+"die erlösmaximale Menge.",
+"die gewinnmaximale Menge.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum."
+],
+"antworten":[
+"{1:NUMERICAL:=1,883:0,1}",
+"{1:NUMERICAL:=375,1966:0,1}",
+"{1:NUMERICAL:=100:0,1}",
+"{1:NUMERICAL:=130:0,1}",
+"{1:NUMERICAL:=58,3423:0,1}",
+"{1:NUMERICAL:=28,5714:0,1}",
+"{1:NUMERICAL:=14,2857:0,1}",
+"{1:NUMERICAL:=11,9022:0,1}",
+"{1:NUMERICAL:=20,232:0,1}",
+"{1:NUMERICAL:=714,2857:0,1}",
+"{1:NUMERICAL:=7,6923:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-12x^2+91x \\)</p> <p>\\( K(x)=1,1x^3-10x^2+41x+64 \\)</p> <p>\\( G(x)=-1,1x^3-2x^2+50x-64 \\)</p> <p>\\( p(x)=-12x+91 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinngrenze.",
+"die Gewinnschwelle.",
+"die erlösmaximale Menge.",
+"den Höchstpreis.",
+"den gewinnmaximalen Verkaufspreis.",
+"den maximalen Erlös.",
+"die Fixkosten.",
+"die Sättigungsmenge.",
+"die gewinnmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den maximalen Gewinn."
+],
+"antworten":[
+"{1:NUMERICAL:=4,971:0,1}",
+"{1:NUMERICAL:=1,425:0,1}",
+"{1:NUMERICAL:=3,7917:0,1}",
+"{1:NUMERICAL:=91:0,1}",
+"{1:NUMERICAL:=51:0,1}",
+"{1:NUMERICAL:=172,5208:0,1}",
+"{1:NUMERICAL:=64:0,1}",
+"{1:NUMERICAL:=7,5833:0,1}",
+"{1:NUMERICAL:=3,3333:0,1}",
+"{1:NUMERICAL:=3,0303:0,1}",
+"{1:NUMERICAL:=39,7037:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,17x^2+15x \\)</p> <p>\\( K(x)=0,0012x^3-0,14x^2+5,8x+73 \\)</p> <p>\\( G(x)=-0,0012x^3-0,03x^2+9,2x-73 \\)</p> <p>\\( p(x)=-0,17x+15 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die gewinnmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Gewinnschwelle.",
+"den maximalen Erlös.",
+"die Fixkosten.",
+"die Sättigungsmenge.",
+"die Gewinngrenze.",
+"den maximalen Gewinn.",
+"den Höchstpreis.",
+"die erlösmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=42,9014:0,1}",
+"{1:NUMERICAL:=38,8889:0,1}",
+"{1:NUMERICAL:=7,7068:0,1}",
+"{1:NUMERICAL:=8,229:0,1}",
+"{1:NUMERICAL:=330,8824:0,1}",
+"{1:NUMERICAL:=73:0,1}",
+"{1:NUMERICAL:=88,2353:0,1}",
+"{1:NUMERICAL:=70,96:0,1}",
+"{1:NUMERICAL:=171,7234:0,1}",
+"{1:NUMERICAL:=15:0,1}",
+"{1:NUMERICAL:=44,1176:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,23x^2+26x \\)</p> <p>\\( K(x)=0,0015x^3-0,17x^2+7,7x+110 \\)</p> <p>\\( G(x)=-0,0015x^3-0,06x^2+18,3x-110 \\)</p> <p>\\( p(x)=-0,23x+26 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Sättigungsmenge.",
+"die Gewinngrenze.",
+"die Fixkosten.",
+"die gewinnmaximale Menge.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den maximalen Erlös.",
+"die erlösmaximale Menge.",
+"den Höchstpreis.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn."
+],
+"antworten":[
+"{1:NUMERICAL:=113,0435:0,1}",
+"{1:NUMERICAL:=88,495:0,1}",
+"{1:NUMERICAL:=110:0,1}",
+"{1:NUMERICAL:=51,8161:0,1}",
+"{1:NUMERICAL:=14,0823:0,1}",
+"{1:NUMERICAL:=37,7778:0,1}",
+"{1:NUMERICAL:=734,7826:0,1}",
+"{1:NUMERICAL:=56,5217:0,1}",
+"{1:NUMERICAL:=26:0,1}",
+"{1:NUMERICAL:=6,155:0,1}",
+"{1:NUMERICAL:=468,4579:0,1}"
 ]
 }
 ]

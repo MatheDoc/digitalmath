@@ -1,462 +1,462 @@
 ﻿[
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,5x \\)</p> <p>\\( K(x)=0,0055x^3-0,39x^2+9,6x+67 \\)</p> <p>\\( G(x)=-0,0055x^3+0,39x^2-4,1x-67 \\)</p> <p>\\( p(x)=5,5 \\)</p> <p>Die Kapazitätsgrenze beträgt 58 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=6,8x \\)</p> <p>\\( K(x)=0,013x^3-0,72x^2+14x+49 \\)</p> <p>\\( G(x)=-0,013x^3+0,72x^2-7,2x-49 \\)</p> <p>\\( p(x)=6,8 \\)</p> <p>Die Kapazitätsgrenze beträgt 43 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"den maximalen Gewinn.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Fixkosten.",
+"die Gewinngrenze.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.",
+"den Verkaufspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=292,4:0,1}",
+"{1:NUMERICAL:=32,4378:0,1}",
+"{1:NUMERICAL:=18,4615:0,1}",
+"{1:NUMERICAL:=49:0,1}",
+"{1:NUMERICAL:=38,41:0,1}",
+"{1:NUMERICAL:=30,9601:0,1}",
+"{1:NUMERICAL:=21,532:0,1}",
+"{1:NUMERICAL:=6,8:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=7,3x \\)</p> <p>\\( K(x)=0,0017x^3-0,23x^2+12x+150 \\)</p> <p>\\( G(x)=-0,0017x^3+0,23x^2-4,7x-150 \\)</p> <p>\\( p(x)=7,3 \\)</p> <p>Die Kapazitätsgrenze beträgt 108 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
 "die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze.",
-"die Gewinnschwelle.",
-"den maximalen Erlös.",
 "die Fixkosten.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
 "den maximalen Gewinn.",
+"die Gewinnschwelle.",
 "den Verkaufspreis.",
 "die gewinnmaximale Menge."
 ],
 "antworten":[
-"{1:NUMERICAL:=23,6364:0,1}",
-"{1:NUMERICAL:=52,123:0,1}",
-"{1:NUMERICAL:=27,336:0,1}",
-"{1:NUMERICAL:=319:0,1}",
-"{1:NUMERICAL:=67:0,1}",
-"{1:NUMERICAL:=41,4424:0,1}",
-"{1:NUMERICAL:=5,5:0,1}",
-"{1:NUMERICAL:=41,2487:0,1}"
+"{1:NUMERICAL:=45,098:0,1}",
+"{1:NUMERICAL:=150:0,1}",
+"{1:NUMERICAL:=97,8:0,1}",
+"{1:NUMERICAL:=788,4:0,1}",
+"{1:NUMERICAL:=76,0157:0,1}",
+"{1:NUMERICAL:=54,154:0,1}",
+"{1:NUMERICAL:=7,3:0,1}",
+"{1:NUMERICAL:=78,4487:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,4x \\)</p> <p>\\( K(x)=0,0015x^3-0,15x^2+6,4x+74 \\)</p> <p>\\( G(x)=-0,0015x^3+0,15x^2-x-74 \\)</p> <p>\\( p(x)=5,4 \\)</p> <p>Die Kapazitätsgrenze beträgt 94 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=16x \\)</p> <p>\\( K(x)=0,028x^3-1,2x^2+20x+98 \\)</p> <p>\\( G(x)=-0,028x^3+1,2x^2-4x-98 \\)</p> <p>\\( p(x)=16 \\)</p> <p>Die Kapazitätsgrenze beträgt 40 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Gewinn.",
-"die Gewinnschwelle.",
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
 "die Gewinngrenze.",
+"den Verkaufspreis.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den maximalen Erlös.",
 "die Fixkosten.",
 "die gewinnmaximale Menge.",
-"den Verkaufspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=83,2824:0,1}",
-"{1:NUMERICAL:=32,389:0,1}",
-"{1:NUMERICAL:=507,6:0,1}",
-"{1:NUMERICAL:=33,3333:0,1}",
-"{1:NUMERICAL:=85,439:0,1}",
-"{1:NUMERICAL:=74:0,1}",
-"{1:NUMERICAL:=63,1476:0,1}",
-"{1:NUMERICAL:=5,4:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,7x \\)</p> <p>\\( K(x)=0,0068x^3-0,44x^2+9,5x+55 \\)</p> <p>\\( G(x)=-0,0068x^3+0,44x^2-3,8x-55 \\)</p> <p>\\( p(x)=5,7 \\)</p> <p>Die Kapazitätsgrenze beträgt 56 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinngrenze.",
 "die Gewinnschwelle.",
-"die gewinnmaximale Menge.",
-"den maximalen Erlös.",
-"den maximalen Gewinn.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"den Verkaufspreis.",
-"die Fixkosten."
+"den maximalen Gewinn."
 ],
 "antworten":[
-"{1:NUMERICAL:=50,451:0,1}",
-"{1:NUMERICAL:=21,657:0,1}",
-"{1:NUMERICAL:=38,2699:0,1}",
-"{1:NUMERICAL:=319,2:0,1}",
-"{1:NUMERICAL:=62,8551:0,1}",
-"{1:NUMERICAL:=21,5686:0,1}",
-"{1:NUMERICAL:=5,7:0,1}",
-"{1:NUMERICAL:=55:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=4,5x \\)</p> <p>\\( K(x)=0,03x^3-0,83x^2+7,7x+16 \\)</p> <p>\\( G(x)=-0,03x^3+0,83x^2-3,2x-16 \\)</p> <p>\\( p(x)=4,5 \\)</p> <p>Die Kapazitätsgrenze beträgt 24 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinngrenze.",
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinnschwelle.",
-"den Verkaufspreis.",
-"die Fixkosten.",
-"den maximalen Erlös."
-],
-"antworten":[
-"{1:NUMERICAL:=21,577:0,1}",
-"{1:NUMERICAL:=16,2574:0,1}",
-"{1:NUMERICAL:=22,4414:0,1}",
-"{1:NUMERICAL:=9,2222:0,1}",
-"{1:NUMERICAL:=8,875:0,1}",
-"{1:NUMERICAL:=4,5:0,1}",
+"{1:NUMERICAL:=36,253:0,1}",
 "{1:NUMERICAL:=16:0,1}",
-"{1:NUMERICAL:=108:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,3x \\)</p> <p>\\( K(x)=0,0018x^3-0,13x^2+4,3x+71 \\)</p> <p>\\( G(x)=-0,0018x^3+0,13x^2+x-71 \\)</p> <p>\\( p(x)=5,3 \\)</p> <p>Die Kapazitätsgrenze beträgt 80 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Fixkosten.",
-"den maximalen Erlös.",
-"die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"den Verkaufspreis.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum."
-],
-"antworten":[
-"{1:NUMERICAL:=71:0,1}",
-"{1:NUMERICAL:=424:0,1}",
-"{1:NUMERICAL:=51,7281:0,1}",
-"{1:NUMERICAL:=23,275:0,1}",
-"{1:NUMERICAL:=72,367:0,1}",
-"{1:NUMERICAL:=79,4367:0,1}",
-"{1:NUMERICAL:=5,3:0,1}",
-"{1:NUMERICAL:=24,0741:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=23x \\)</p> <p>\\( K(x)=0,63x^3-7,4x^2+31x+36 \\)</p> <p>\\( G(x)=-0,63x^3+7,4x^2-8x-36 \\)</p> <p>\\( p(x)=23 \\)</p> <p>Die Kapazitätsgrenze beträgt 11 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"den maximalen Erlös.",
-"die gewinnmaximale Menge.",
-"die Fixkosten.",
-"die Gewinnschwelle.",
-"den Verkaufspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=9,873:0,1}",
-"{1:NUMERICAL:=54,8834:0,1}",
-"{1:NUMERICAL:=3,9153:0,1}",
-"{1:NUMERICAL:=253:0,1}",
-"{1:NUMERICAL:=7,2466:0,1}",
-"{1:NUMERICAL:=36:0,1}",
-"{1:NUMERICAL:=3,518:0,1}",
-"{1:NUMERICAL:=23:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=24x \\)</p> <p>\\( K(x)=0,15x^3-2,8x^2+23x+89 \\)</p> <p>\\( G(x)=-0,15x^3+2,8x^2+x-89 \\)</p> <p>\\( p(x)=24 \\)</p> <p>Die Kapazitätsgrenze beträgt 19 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"den maximalen Gewinn.",
-"den Verkaufspreis.",
-"die gewinnmaximale Menge.",
-"die Gewinngrenze.",
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Fixkosten."
-],
-"antworten":[
-"{1:NUMERICAL:=6,795:0,1}",
-"{1:NUMERICAL:=68,0728:0,1}",
-"{1:NUMERICAL:=24:0,1}",
-"{1:NUMERICAL:=12,6205:0,1}",
-"{1:NUMERICAL:=17,007:0,1}",
-"{1:NUMERICAL:=456:0,1}",
-"{1:NUMERICAL:=6,2222:0,1}",
-"{1:NUMERICAL:=89:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=15x \\)</p> <p>\\( K(x)=0,015x^3-0,96x^2+21x+120 \\)</p> <p>\\( G(x)=-0,015x^3+0,96x^2-6x-120 \\)</p> <p>\\( p(x)=15 \\)</p> <p>Die Kapazitätsgrenze beträgt 60 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
-"die Fixkosten.",
-"die Gewinngrenze.",
-"den maximalen Erlös.",
-"den Verkaufspreis.",
-"den maximalen Gewinn."
-],
-"antworten":[
-"{1:NUMERICAL:=21,3333:0,1}",
-"{1:NUMERICAL:=39,2715:0,1}",
-"{1:NUMERICAL:=18,317:0,1}",
-"{1:NUMERICAL:=120:0,1}",
-"{1:NUMERICAL:=53,801:0,1}",
-"{1:NUMERICAL:=900:0,1}",
-"{1:NUMERICAL:=15:0,1}",
-"{1:NUMERICAL:=216,4342:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=13x \\)</p> <p>\\( K(x)=0,0068x^3-0,45x^2+14x+87 \\)</p> <p>\\( G(x)=-0,0068x^3+0,45x^2-x-87 \\)</p> <p>\\( p(x)=13 \\)</p> <p>Die Kapazitätsgrenze beträgt 67 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Gewinn.",
-"die Fixkosten.",
-"die gewinnmaximale Menge.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinnschwelle.",
-"die Gewinngrenze.",
-"den Verkaufspreis.",
-"den maximalen Erlös."
-],
-"antworten":[
-"{1:NUMERICAL:=161,4026:0,1}",
-"{1:NUMERICAL:=87:0,1}",
-"{1:NUMERICAL:=42,977:0,1}",
-"{1:NUMERICAL:=22,0588:0,1}",
-"{1:NUMERICAL:=17,867:0,1}",
-"{1:NUMERICAL:=60,203:0,1}",
-"{1:NUMERICAL:=13:0,1}",
-"{1:NUMERICAL:=871:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,7x \\)</p> <p>\\( K(x)=0,023x^3-0,83x^2+11x+26 \\)</p> <p>\\( G(x)=-0,023x^3+0,83x^2-5,3x-26 \\)</p> <p>\\( p(x)=5,7 \\)</p> <p>Die Kapazitätsgrenze beträgt 28 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Erlös.",
-"den Verkaufspreis.",
-"die Gewinngrenze.",
-"die Gewinnschwelle.",
-"die Fixkosten.",
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum."
-],
-"antworten":[
-"{1:NUMERICAL:=159,6:0,1}",
-"{1:NUMERICAL:=5,7:0,1}",
-"{1:NUMERICAL:=25,124:0,1}",
-"{1:NUMERICAL:=14,144:0,1}",
-"{1:NUMERICAL:=26:0,1}",
-"{1:NUMERICAL:=20,2682:0,1}",
-"{1:NUMERICAL:=16,0405:0,1}",
-"{1:NUMERICAL:=12,029:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=9,5x \\)</p> <p>\\( K(x)=0,0022x^3-0,22x^2+8x+130 \\)</p> <p>\\( G(x)=-0,0022x^3+0,22x^2+1,5x-130 \\)</p> <p>\\( p(x)=9,5 \\)</p> <p>Die Kapazitätsgrenze beträgt 112 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
-"die Fixkosten.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"den Verkaufspreis.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze."
-],
-"antworten":[
-"{1:NUMERICAL:=69,9173:0,1}",
-"{1:NUMERICAL:=23,721:0,1}",
-"{1:NUMERICAL:=130:0,1}",
-"{1:NUMERICAL:=298,4017:0,1}",
-"{1:NUMERICAL:=1064:0,1}",
-"{1:NUMERICAL:=9,5:0,1}",
-"{1:NUMERICAL:=33,3333:0,1}",
-"{1:NUMERICAL:=100,955:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,5x \\)</p> <p>\\( K(x)=0,0024x^3-0,25x^2+9x+100 \\)</p> <p>\\( G(x)=-0,0024x^3+0,25x^2-3,5x-100 \\)</p> <p>\\( p(x)=5,5 \\)</p> <p>Die Kapazitätsgrenze beträgt 87 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Verkaufspreis.",
-"die Fixkosten.",
-"die Gewinngrenze.",
-"die Gewinnschwelle.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"den maximalen Erlös."
-],
-"antworten":[
-"{1:NUMERICAL:=5,5:0,1}",
-"{1:NUMERICAL:=100:0,1}",
-"{1:NUMERICAL:=79,05:0,1}",
-"{1:NUMERICAL:=38,727:0,1}",
-"{1:NUMERICAL:=34,7222:0,1}",
-"{1:NUMERICAL:=61,5461:0,1}",
-"{1:NUMERICAL:=72,0528:0,1}",
-"{1:NUMERICAL:=478,5:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=9,5x \\)</p> <p>\\( K(x)=0,0097x^3-0,63x^2+14x+100 \\)</p> <p>\\( G(x)=-0,0097x^3+0,63x^2-4,5x-100 \\)</p> <p>\\( p(x)=9,5 \\)</p> <p>Die Kapazitätsgrenze beträgt 58 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"den maximalen Gewinn.",
-"die gewinnmaximale Menge.",
-"den Verkaufspreis.",
-"die Fixkosten.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze.",
-"den maximalen Erlös."
-],
-"antworten":[
-"{1:NUMERICAL:=21,712:0,1}",
-"{1:NUMERICAL:=107,4063:0,1}",
-"{1:NUMERICAL:=39,3713:0,1}",
-"{1:NUMERICAL:=9,5:0,1}",
-"{1:NUMERICAL:=100:0,1}",
-"{1:NUMERICAL:=21,6495:0,1}",
-"{1:NUMERICAL:=52,313:0,1}",
-"{1:NUMERICAL:=551:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=4,7x \\)</p> <p>\\( K(x)=0,0054x^3-0,27x^2+5,7x+43 \\)</p> <p>\\( G(x)=-0,0054x^3+0,27x^2-x-43 \\)</p> <p>\\( p(x)=4,7 \\)</p> <p>Die Kapazitätsgrenze beträgt 45 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"die Gewinngrenze.",
-"den maximalen Erlös.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"die Fixkosten.",
-"den Verkaufspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=19,463:0,1}",
-"{1:NUMERICAL:=40,612:0,1}",
-"{1:NUMERICAL:=211,5:0,1}",
-"{1:NUMERICAL:=16,6667:0,1}",
-"{1:NUMERICAL:=31,3653:0,1}",
-"{1:NUMERICAL:=24,6301:0,1}",
-"{1:NUMERICAL:=43:0,1}",
-"{1:NUMERICAL:=4,7:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=4,8x \\)</p> <p>\\( K(x)=0,0014x^3-0,16x^2+7,1x+71 \\)</p> <p>\\( G(x)=-0,0014x^3+0,16x^2-2,3x-71 \\)</p> <p>\\( p(x)=4,8 \\)</p> <p>Die Kapazitätsgrenze beträgt 99 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die gewinnmaximale Menge.",
-"den Verkaufspreis.",
-"die Fixkosten.",
-"die Gewinnschwelle.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die Gewinngrenze."
-],
-"antworten":[
-"{1:NUMERICAL:=68,1556:0,1}",
-"{1:NUMERICAL:=4,8:0,1}",
-"{1:NUMERICAL:=71:0,1}",
-"{1:NUMERICAL:=39,102:0,1}",
-"{1:NUMERICAL:=38,0952:0,1}",
-"{1:NUMERICAL:=72,2383:0,1}",
-"{1:NUMERICAL:=475,2:0,1}",
-"{1:NUMERICAL:=89,65:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=6x \\)</p> <p>\\( K(x)=0,0025x^3-0,2x^2+7x+78 \\)</p> <p>\\( G(x)=-0,0025x^3+0,2x^2-x-78 \\)</p> <p>\\( p(x)=6 \\)</p> <p>Die Kapazitätsgrenze beträgt 74 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"den maximalen Gewinn.",
-"den Verkaufspreis.",
-"den maximalen Erlös.",
-"die Fixkosten.",
-"die gewinnmaximale Menge.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinngrenze."
-],
-"antworten":[
-"{1:NUMERICAL:=28,948:0,1}",
-"{1:NUMERICAL:=59,5884:0,1}",
-"{1:NUMERICAL:=6:0,1}",
-"{1:NUMERICAL:=444:0,1}",
-"{1:NUMERICAL:=78:0,1}",
-"{1:NUMERICAL:=50,7037:0,1}",
-"{1:NUMERICAL:=26,6667:0,1}",
-"{1:NUMERICAL:=67,112:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=21x \\)</p> <p>\\( K(x)=0,028x^3-1,2x^2+24x+120 \\)</p> <p>\\( G(x)=-0,028x^3+1,2x^2-3x-120 \\)</p> <p>\\( p(x)=21 \\)</p> <p>Die Kapazitätsgrenze beträgt 41 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die gewinnmaximale Menge.",
-"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinnschwelle.",
-"den Verkaufspreis.",
-"die Gewinngrenze.",
-"die Fixkosten.",
-"den maximalen Erlös.",
-"den maximalen Gewinn."
-],
-"antworten":[
-"{1:NUMERICAL:=27,2614:0,1}",
 "{1:NUMERICAL:=14,2857:0,1}",
-"{1:NUMERICAL:=14,257:0,1}",
-"{1:NUMERICAL:=21:0,1}",
-"{1:NUMERICAL:=36,774:0,1}",
-"{1:NUMERICAL:=120:0,1}",
-"{1:NUMERICAL:=861:0,1}",
-"{1:NUMERICAL:=122,75:0,1}"
+"{1:NUMERICAL:=640:0,1}",
+"{1:NUMERICAL:=98:0,1}",
+"{1:NUMERICAL:=26,7942:0,1}",
+"{1:NUMERICAL:=13,668:0,1}",
+"{1:NUMERICAL:=117,7207:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=13x \\)</p> <p>\\( K(x)=0,018x^3-0,88x^2+17x+96 \\)</p> <p>\\( G(x)=-0,018x^3+0,88x^2-4x-96 \\)</p> <p>\\( p(x)=13 \\)</p> <p>Die Kapazitätsgrenze beträgt 45 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=19x \\)</p> <p>\\( K(x)=0,03x^3-1,5x^2+26x+110 \\)</p> <p>\\( G(x)=-0,03x^3+1,5x^2-7x-110 \\)</p> <p>\\( p(x)=19 \\)</p> <p>Die Kapazitätsgrenze beträgt 47 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.",
+"den Verkaufspreis.",
+"die Fixkosten.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
+"den maximalen Gewinn."
+],
+"antworten":[
+"{1:NUMERICAL:=30,8088:0,1}",
+"{1:NUMERICAL:=13,788:0,1}",
+"{1:NUMERICAL:=19:0,1}",
+"{1:NUMERICAL:=110:0,1}",
+"{1:NUMERICAL:=16,6667:0,1}",
+"{1:NUMERICAL:=42,473:0,1}",
+"{1:NUMERICAL:=893:0,1}",
+"{1:NUMERICAL:=220,8167:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=12x \\)</p> <p>\\( K(x)=0,0062x^3-0,5x^2+15x+160 \\)</p> <p>\\( G(x)=-0,0062x^3+0,5x^2-3x-160 \\)</p> <p>\\( p(x)=12 \\)</p> <p>Die Kapazitätsgrenze beträgt 75 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die gewinnmaximale Menge.",
+"die Fixkosten.",
+"die Gewinnschwelle.",
 "den maximalen Gewinn.",
+"die Gewinngrenze.",
+"den Verkaufspreis.",
+"den maximalen Erlös."
+],
+"antworten":[
+"{1:NUMERICAL:=26,8817:0,1}",
+"{1:NUMERICAL:=50,5743:0,1}",
+"{1:NUMERICAL:=160:0,1}",
+"{1:NUMERICAL:=26,86:0,1}",
+"{1:NUMERICAL:=165,1442:0,1}",
+"{1:NUMERICAL:=67,929:0,1}",
+"{1:NUMERICAL:=12:0,1}",
+"{1:NUMERICAL:=900:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=19x \\)</p> <p>\\( K(x)=0,014x^3-x^2+28x+110 \\)</p> <p>\\( G(x)=-0,014x^3+x^2-9x-110 \\)</p> <p>\\( p(x)=19 \\)</p> <p>Die Kapazitätsgrenze beträgt 64 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Verkaufspreis.",
+"die Gewinnschwelle.",
 "die Fixkosten.",
 "die gewinnmaximale Menge.",
 "den maximalen Erlös.",
-"den Verkaufspreis.",
+"den maximalen Gewinn.",
 "die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die Gewinnschwelle.",
 "die Gewinngrenze."
 ],
 "antworten":[
-"{1:NUMERICAL:=90,0135:0,1}",
-"{1:NUMERICAL:=96:0,1}",
-"{1:NUMERICAL:=30,1345:0,1}",
-"{1:NUMERICAL:=585:0,1}",
-"{1:NUMERICAL:=13:0,1}",
-"{1:NUMERICAL:=16,2963:0,1}",
-"{1:NUMERICAL:=16,818:0,1}",
-"{1:NUMERICAL:=40:0,1}"
+"{1:NUMERICAL:=19:0,1}",
+"{1:NUMERICAL:=20,141:0,1}",
+"{1:NUMERICAL:=110:0,1}",
+"{1:NUMERICAL:=42,5874:0,1}",
+"{1:NUMERICAL:=1216:0,1}",
+"{1:NUMERICAL:=239,0373:0,1}",
+"{1:NUMERICAL:=23,8095:0,1}",
+"{1:NUMERICAL:=58,012:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=4,8x \\)</p> <p>\\( K(x)=0,0042x^3-0,28x^2+6,3x+53 \\)</p> <p>\\( G(x)=-0,0042x^3+0,28x^2-1,5x-53 \\)</p> <p>\\( p(x)=4,8 \\)</p> <p>Die Kapazitätsgrenze beträgt 62 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=7x \\)</p> <p>\\( K(x)=0,01x^3-0,55x^2+11x+41 \\)</p> <p>\\( G(x)=-0,01x^3+0,55x^2-4x-41 \\)</p> <p>\\( p(x)=7 \\)</p> <p>Die Kapazitätsgrenze beträgt 49 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Erlös.",
-"die Fixkosten.",
 "die Gewinnschwelle.",
 "den maximalen Gewinn.",
-"die Gewinngrenze.",
-"die gewinnmaximale Menge.",
+"den maximalen Erlös.",
 "die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den Verkaufspreis.",
+"die Fixkosten.",
+"die Gewinngrenze.",
+"die gewinnmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=16,864:0,1}",
+"{1:NUMERICAL:=66,6585:0,1}",
+"{1:NUMERICAL:=343:0,1}",
+"{1:NUMERICAL:=18,3333:0,1}",
+"{1:NUMERICAL:=7:0,1}",
+"{1:NUMERICAL:=41:0,1}",
+"{1:NUMERICAL:=43,699:0,1}",
+"{1:NUMERICAL:=32,5733:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=10x \\)</p> <p>\\( K(x)=0,0034x^3-0,31x^2+12x+160 \\)</p> <p>\\( G(x)=-0,0034x^3+0,31x^2-2x-160 \\)</p> <p>\\( p(x)=10 \\)</p> <p>Die Kapazitätsgrenze beträgt 83 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die gewinnmaximale Menge.",
+"den maximalen Gewinn.",
+"die Gewinngrenze.",
+"die Gewinnschwelle.",
+"den Verkaufspreis.",
+"die Fixkosten.",
+"den maximalen Erlös.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum."
+],
+"antworten":[
+"{1:NUMERICAL:=57,3663:0,1}",
+"{1:NUMERICAL:=103,5706:0,1}",
+"{1:NUMERICAL:=74,951:0,1}",
+"{1:NUMERICAL:=34,451:0,1}",
+"{1:NUMERICAL:=10:0,1}",
+"{1:NUMERICAL:=160:0,1}",
+"{1:NUMERICAL:=830:0,1}",
+"{1:NUMERICAL:=30,3922:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=7,7x \\)</p> <p>\\( K(x)=0,012x^3-0,47x^2+7,2x+57 \\)</p> <p>\\( G(x)=-0,012x^3+0,47x^2+0,5x-57 \\)</p> <p>\\( p(x)=7,7 \\)</p> <p>Die Kapazitätsgrenze beträgt 41 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"die Gewinnschwelle.",
+"den maximalen Erlös.",
+"die Gewinngrenze.",
+"den maximalen Gewinn.",
+"den Verkaufspreis.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die gewinnmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=57:0,1}",
+"{1:NUMERICAL:=12,614:0,1}",
+"{1:NUMERICAL:=315,7:0,1}",
+"{1:NUMERICAL:=36,789:0,1}",
+"{1:NUMERICAL:=63,0006:0,1}",
+"{1:NUMERICAL:=7,7:0,1}",
+"{1:NUMERICAL:=13,0556:0,1}",
+"{1:NUMERICAL:=26,6326:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,3x \\)</p> <p>\\( K(x)=0,0023x^3-0,21x^2+6,8x+97 \\)</p> <p>\\( G(x)=-0,0023x^3+0,21x^2-1,5x-97 \\)</p> <p>\\( p(x)=5,3 \\)</p> <p>Die Kapazitätsgrenze beträgt 83 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Gewinn.",
+"die Gewinnschwelle.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die gewinnmaximale Menge.",
+"die Gewinngrenze.",
+"die Fixkosten.",
+"den maximalen Erlös.",
 "den Verkaufspreis."
 ],
 "antworten":[
-"{1:NUMERICAL:=297,6:0,1}",
-"{1:NUMERICAL:=53:0,1}",
-"{1:NUMERICAL:=20,983:0,1}",
-"{1:NUMERICAL:=66,7934:0,1}",
-"{1:NUMERICAL:=56,356:0,1}",
-"{1:NUMERICAL:=41,5814:0,1}",
-"{1:NUMERICAL:=22,2222:0,1}",
-"{1:NUMERICAL:=4,8:0,1}"
+"{1:NUMERICAL:=73,8468:0,1}",
+"{1:NUMERICAL:=33,097:0,1}",
+"{1:NUMERICAL:=30,4348:0,1}",
+"{1:NUMERICAL:=57,0597:0,1}",
+"{1:NUMERICAL:=75,162:0,1}",
+"{1:NUMERICAL:=97:0,1}",
+"{1:NUMERICAL:=439,9:0,1}",
+"{1:NUMERICAL:=5,3:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=8,4x \\)</p> <p>\\( K(x)=0,0029x^3-0,25x^2+7,4x+97 \\)</p> <p>\\( G(x)=-0,0029x^3+0,25x^2+x-97 \\)</p> <p>\\( p(x)=8,4 \\)</p> <p>Die Kapazitätsgrenze beträgt 95 Mengeneinheiten.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=13x \\)</p> <p>\\( K(x)=0,013x^3-0,77x^2+18x+93 \\)</p> <p>\\( G(x)=-0,013x^3+0,77x^2-5x-93 \\)</p> <p>\\( p(x)=13 \\)</p> <p>Die Kapazitätsgrenze beträgt 53 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
 "den maximalen Erlös.",
 "den Verkaufspreis.",
-"die Gewinngrenze.",
+"die gewinnmaximale Menge.",
+"die Fixkosten.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Gewinngrenze."
+],
+"antworten":[
+"{1:NUMERICAL:=18,922:0,1}",
+"{1:NUMERICAL:=118,3963:0,1}",
+"{1:NUMERICAL:=689:0,1}",
+"{1:NUMERICAL:=13:0,1}",
+"{1:NUMERICAL:=35,9178:0,1}",
+"{1:NUMERICAL:=93:0,1}",
+"{1:NUMERICAL:=19,7436:0,1}",
+"{1:NUMERICAL:=48,16:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=13x \\)</p> <p>\\( K(x)=0,015x^3-0,79x^2+14x+140 \\)</p> <p>\\( G(x)=-0,015x^3+0,79x^2-x-140 \\)</p> <p>\\( p(x)=13 \\)</p> <p>Die Kapazitätsgrenze beträgt 52 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"den maximalen Gewinn.",
+"den Verkaufspreis.",
 "die Gewinnschwelle.",
 "die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
-"die gewinnmaximale Menge.",
+"die Fixkosten.",
+"die Gewinngrenze.",
+"die gewinnmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=676:0,1}",
+"{1:NUMERICAL:=149,844:0,1}",
+"{1:NUMERICAL:=13:0,1}",
+"{1:NUMERICAL:=17,186:0,1}",
+"{1:NUMERICAL:=17,5556:0,1}",
+"{1:NUMERICAL:=140:0,1}",
+"{1:NUMERICAL:=47,029:0,1}",
+"{1:NUMERICAL:=34,4664:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=6,2x \\)</p> <p>\\( K(x)=0,0017x^3-0,16x^2+7,2x+79 \\)</p> <p>\\( G(x)=-0,0017x^3+0,16x^2-x-79 \\)</p> <p>\\( p(x)=6,2 \\)</p> <p>Die Kapazitätsgrenze beträgt 88 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinnschwelle.",
+"den maximalen Erlös.",
+"die Fixkosten.",
 "den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Gewinngrenze.",
+"den Verkaufspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=32,714:0,1}",
+"{1:NUMERICAL:=545,6:0,1}",
+"{1:NUMERICAL:=79:0,1}",
+"{1:NUMERICAL:=69,8441:0,1}",
+"{1:NUMERICAL:=59,4467:0,1}",
+"{1:NUMERICAL:=31,3725:0,1}",
+"{1:NUMERICAL:=79,313:0,1}",
+"{1:NUMERICAL:=6,2:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=7x \\)</p> <p>\\( K(x)=0,044x^3-1,1x^2+11x+25 \\)</p> <p>\\( G(x)=-0,044x^3+1,1x^2-4x-25 \\)</p> <p>\\( p(x)=7 \\)</p> <p>Die Kapazitätsgrenze beträgt 21 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Verkaufspreis.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
 "die Fixkosten."
 ],
 "antworten":[
-"{1:NUMERICAL:=798:0,1}",
-"{1:NUMERICAL:=8,4:0,1}",
-"{1:NUMERICAL:=85,674:0,1}",
-"{1:NUMERICAL:=20,027:0,1}",
-"{1:NUMERICAL:=28,7356:0,1}",
-"{1:NUMERICAL:=59,4061:0,1}",
-"{1:NUMERICAL:=236,6947:0,1}",
-"{1:NUMERICAL:=97:0,1}"
+"{1:NUMERICAL:=7:0,1}",
+"{1:NUMERICAL:=14,1421:0,1}",
+"{1:NUMERICAL:=14,5896:0,1}",
+"{1:NUMERICAL:=9,794:0,1}",
+"{1:NUMERICAL:=18,365:0,1}",
+"{1:NUMERICAL:=147:0,1}",
+"{1:NUMERICAL:=8,3333:0,1}",
+"{1:NUMERICAL:=25:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=4x \\)</p> <p>\\( K(x)=0,0016x^3-0,17x^2+6,7x+47 \\)</p> <p>\\( G(x)=-0,0016x^3+0,17x^2-2,7x-47 \\)</p> <p>\\( p(x)=4 \\)</p> <p>Die Kapazitätsgrenze beträgt 89 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die gewinnmaximale Menge.",
+"den Verkaufspreis.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
+"die Fixkosten.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Gewinngrenze.",
+"den maximalen Erlös."
+],
+"antworten":[
+"{1:NUMERICAL:=61,7195:0,1}",
+"{1:NUMERICAL:=4:0,1}",
+"{1:NUMERICAL:=35,558:0,1}",
+"{1:NUMERICAL:=57,7652:0,1}",
+"{1:NUMERICAL:=47:0,1}",
+"{1:NUMERICAL:=35,4167:0,1}",
+"{1:NUMERICAL:=80,904:0,1}",
+"{1:NUMERICAL:=356:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=16x \\)</p> <p>\\( K(x)=0,035x^3-1,4x^2+21x+120 \\)</p> <p>\\( G(x)=-0,035x^3+1,4x^2-5x-120 \\)</p> <p>\\( p(x)=16 \\)</p> <p>Die Kapazitätsgrenze beträgt 36 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den maximalen Erlös.",
+"die Gewinnschwelle.",
+"den Verkaufspreis.",
+"die Gewinngrenze."
+],
+"antworten":[
+"{1:NUMERICAL:=120:0,1}",
+"{1:NUMERICAL:=83,2053:0,1}",
+"{1:NUMERICAL:=24,742:0,1}",
+"{1:NUMERICAL:=13,3333:0,1}",
+"{1:NUMERICAL:=576:0,1}",
+"{1:NUMERICAL:=14,861:0,1}",
+"{1:NUMERICAL:=16:0,1}",
+"{1:NUMERICAL:=32,286:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=17x \\)</p> <p>\\( K(x)=0,021x^3-0,9x^2+19x+100 \\)</p> <p>\\( G(x)=-0,021x^3+0,9x^2-2x-100 \\)</p> <p>\\( p(x)=17 \\)</p> <p>Die Kapazitätsgrenze beträgt 41 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die gewinnmaximale Menge.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
+"den Verkaufspreis.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
+"die Fixkosten."
+],
+"antworten":[
+"{1:NUMERICAL:=27,4134:0,1}",
+"{1:NUMERICAL:=14,2857:0,1}",
+"{1:NUMERICAL:=14,85:0,1}",
+"{1:NUMERICAL:=88,8968:0,1}",
+"{1:NUMERICAL:=17:0,1}",
+"{1:NUMERICAL:=36,736:0,1}",
+"{1:NUMERICAL:=697:0,1}",
+"{1:NUMERICAL:=100:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,8x \\)</p> <p>\\( K(x)=0,008x^3-0,42x^2+9,1x+39 \\)</p> <p>\\( G(x)=-0,008x^3+0,42x^2-3,3x-39 \\)</p> <p>\\( p(x)=5,8 \\)</p> <p>Die Kapazitätsgrenze beträgt 43 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"den maximalen Gewinn.",
+"die Gewinnschwelle.",
+"die gewinnmaximale Menge.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
+"den Verkaufspreis.",
+"die Fixkosten."
+],
+"antworten":[
+"{1:NUMERICAL:=17,5:0,1}",
+"{1:NUMERICAL:=24,074:0,1}",
+"{1:NUMERICAL:=20,258:0,1}",
+"{1:NUMERICAL:=30,4904:0,1}",
+"{1:NUMERICAL:=38,494:0,1}",
+"{1:NUMERICAL:=249,4:0,1}",
+"{1:NUMERICAL:=5,8:0,1}",
+"{1:NUMERICAL:=39:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=10x \\)</p> <p>\\( K(x)=0,0026x^3-0,3x^2+14x+140 \\)</p> <p>\\( G(x)=-0,0026x^3+0,3x^2-4x-140 \\)</p> <p>\\( p(x)=10 \\)</p> <p>Die Kapazitätsgrenze beträgt 102 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"den Verkaufspreis.",
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Gewinngrenze.",
+"den maximalen Gewinn.",
+"die Gewinnschwelle.",
+"den maximalen Erlös.",
+"die gewinnmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=140:0,1}",
+"{1:NUMERICAL:=10:0,1}",
+"{1:NUMERICAL:=38,4615:0,1}",
+"{1:NUMERICAL:=92,44:0,1}",
+"{1:NUMERICAL:=158,2494:0,1}",
+"{1:NUMERICAL:=38,195:0,1}",
+"{1:NUMERICAL:=1020:0,1}",
+"{1:NUMERICAL:=69,5496:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=11x \\)</p> <p>\\( K(x)=0,036x^3-1,2x^2+16x+55 \\)</p> <p>\\( G(x)=-0,036x^3+1,2x^2-5x-55 \\)</p> <p>\\( p(x)=11 \\)</p> <p>Die Kapazitätsgrenze beträgt 29 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Menge beim Übergang vom degressiven zum progressiven Kostenwachstum.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
+"die Fixkosten.",
+"die Gewinngrenze.",
+"die gewinnmaximale Menge.",
+"den Verkaufspreis.",
+"den maximalen Erlös."
+],
+"antworten":[
+"{1:NUMERICAL:=11,1111:0,1}",
+"{1:NUMERICAL:=12,539:0,1}",
+"{1:NUMERICAL:=37,0105:0,1}",
+"{1:NUMERICAL:=55:0,1}",
+"{1:NUMERICAL:=25,561:0,1}",
+"{1:NUMERICAL:=19,8952:0,1}",
+"{1:NUMERICAL:=11:0,1}",
+"{1:NUMERICAL:=319:0,1}"
 ]
 }
 ]

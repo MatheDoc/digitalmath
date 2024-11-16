@@ -1,542 +1,542 @@
 ﻿[
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,31x^2+25x \\)</p> <p>\\( K(x)=0,065x^2+150 \\)</p> <p>\\( G(x)=-0,375x^2+25x-150 \\)</p> <p>\\( p(x)=-0,31x+25 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,44x^2+23x \\)</p> <p>\\( K(x)=0,068x^2+150 \\)</p> <p>\\( G(x)=-0,508x^2+23x-150 \\)</p> <p>\\( p(x)=-0,44x+23 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Gewinngrenze.",
-"den Höchstpreis.",
-"die gewinnmaximale Menge.",
 "die Sättigungsmenge.",
-"die Fixkosten.",
-"die Gewinnschwelle.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
 "die erlösmaximale Menge.",
+"die Gewinngrenze.",
+"die Gewinnschwelle.",
+"den Höchstpreis.",
+"den maximalen Gewinn.",
+"die Fixkosten.",
+"die gewinnmaximale Menge.",
+"den maximalen Erlös.",
 "den gewinnmaximalen Verkaufspreis."
 ],
 "antworten":[
-"{1:NUMERICAL:=60:0,1}",
-"{1:NUMERICAL:=25:0,1}",
-"{1:NUMERICAL:=33,3333:0,1}",
-"{1:NUMERICAL:=80,6452:0,1}",
+"{1:NUMERICAL:=52,2727:0,1}",
+"{1:NUMERICAL:=26,1364:0,1}",
+"{1:NUMERICAL:=37,375:0,1}",
+"{1:NUMERICAL:=7,901:0,1}",
+"{1:NUMERICAL:=23:0,1}",
+"{1:NUMERICAL:=110,3346:0,1}",
 "{1:NUMERICAL:=150:0,1}",
-"{1:NUMERICAL:=6,667:0,1}",
-"{1:NUMERICAL:=266,6667:0,1}",
-"{1:NUMERICAL:=504,0323:0,1}",
-"{1:NUMERICAL:=40,3226:0,1}",
-"{1:NUMERICAL:=14,6667:0,1}"
+"{1:NUMERICAL:=22,6378:0,1}",
+"{1:NUMERICAL:=300,5682:0,1}",
+"{1:NUMERICAL:=13,0394:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-6,2x^2+58x \\)</p> <p>\\( K(x)=2,2x^2+37 \\)</p> <p>\\( G(x)=-8,4x^2+58x-37 \\)</p> <p>\\( p(x)=-6,2x+58 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,33x^2+35x \\)</p> <p>\\( K(x)=0,13x^2+120 \\)</p> <p>\\( G(x)=-0,46x^2+35x-120 \\)</p> <p>\\( p(x)=-0,33x+35 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Gewinngrenze.",
+"die gewinnmaximale Menge.",
+"die erlösmaximale Menge.",
 "die Sättigungsmenge.",
 "den Höchstpreis.",
-"den gewinnmaximalen Verkaufspreis.",
-"die erlösmaximale Menge.",
-"die Fixkosten.",
-"die gewinnmaximale Menge.",
 "den maximalen Erlös.",
 "die Gewinnschwelle.",
-"den maximalen Gewinn."
-],
-"antworten":[
-"{1:NUMERICAL:=6,193:0,1}",
-"{1:NUMERICAL:=9,3548:0,1}",
-"{1:NUMERICAL:=58:0,1}",
-"{1:NUMERICAL:=36,5952:0,1}",
-"{1:NUMERICAL:=4,6774:0,1}",
-"{1:NUMERICAL:=37:0,1}",
-"{1:NUMERICAL:=3,4524:0,1}",
-"{1:NUMERICAL:=135,6452:0,1}",
-"{1:NUMERICAL:=0,712:0,1}",
-"{1:NUMERICAL:=63,119:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,21x^2+15x \\)</p> <p>\\( K(x)=0,067x^2+110 \\)</p> <p>\\( G(x)=-0,277x^2+15x-110 \\)</p> <p>\\( p(x)=-0,21x+15 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Gewinn.",
-"den Höchstpreis.",
 "den gewinnmaximalen Verkaufspreis.",
-"die erlösmaximale Menge.",
 "die Gewinngrenze.",
-"die Gewinnschwelle.",
-"die Sättigungsmenge.",
-"die gewinnmaximale Menge.",
-"die Fixkosten.",
-"den maximalen Erlös."
-],
-"antworten":[
-"{1:NUMERICAL:=93,0686:0,1}",
-"{1:NUMERICAL:=15:0,1}",
-"{1:NUMERICAL:=9,3141:0,1}",
-"{1:NUMERICAL:=35,7143:0,1}",
-"{1:NUMERICAL:=45,405:0,1}",
-"{1:NUMERICAL:=8,746:0,1}",
-"{1:NUMERICAL:=71,4286:0,1}",
-"{1:NUMERICAL:=27,0758:0,1}",
-"{1:NUMERICAL:=110:0,1}",
-"{1:NUMERICAL:=267,8571:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-12x^2+110x \\)</p> <p>\\( K(x)=2,4x^2+58 \\)</p> <p>\\( G(x)=-14,4x^2+110x-58 \\)</p> <p>\\( p(x)=-12x+110 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Höchstpreis.",
-"die gewinnmaximale Menge.",
-"den maximalen Erlös.",
-"die Gewinnschwelle.",
-"die Gewinngrenze.",
-"die Sättigungsmenge.",
 "den maximalen Gewinn.",
-"den gewinnmaximalen Verkaufspreis.",
-"die erlösmaximale Menge.",
 "die Fixkosten."
 ],
 "antworten":[
-"{1:NUMERICAL:=110:0,1}",
-"{1:NUMERICAL:=3,8194:0,1}",
-"{1:NUMERICAL:=252,0833:0,1}",
-"{1:NUMERICAL:=0,57:0,1}",
-"{1:NUMERICAL:=7,069:0,1}",
-"{1:NUMERICAL:=9,1667:0,1}",
-"{1:NUMERICAL:=152,0694:0,1}",
-"{1:NUMERICAL:=64,1667:0,1}",
-"{1:NUMERICAL:=4,5833:0,1}",
-"{1:NUMERICAL:=58:0,1}"
+"{1:NUMERICAL:=38,0435:0,1}",
+"{1:NUMERICAL:=53,0303:0,1}",
+"{1:NUMERICAL:=106,0606:0,1}",
+"{1:NUMERICAL:=35:0,1}",
+"{1:NUMERICAL:=928,0303:0,1}",
+"{1:NUMERICAL:=3,599:0,1}",
+"{1:NUMERICAL:=22,4457:0,1}",
+"{1:NUMERICAL:=72,488:0,1}",
+"{1:NUMERICAL:=545,7609:0,1}",
+"{1:NUMERICAL:=120:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,51x^2+16x \\)</p> <p>\\( K(x)=0,088x^2+61 \\)</p> <p>\\( G(x)=-0,598x^2+16x-61 \\)</p> <p>\\( p(x)=-0,51x+16 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,76x^2+36x \\)</p> <p>\\( K(x)=0,19x^2+87 \\)</p> <p>\\( G(x)=-0,95x^2+36x-87 \\)</p> <p>\\( p(x)=-0,76x+36 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die gewinnmaximale Menge.",
+"die Sättigungsmenge.",
 "den maximalen Gewinn.",
-"die Fixkosten.",
-"die erlösmaximale Menge.",
+"den Höchstpreis.",
 "den maximalen Erlös.",
 "die Gewinnschwelle.",
-"den gewinnmaximalen Verkaufspreis.",
 "die Gewinngrenze.",
-"die Sättigungsmenge.",
-"den Höchstpreis."
+"den gewinnmaximalen Verkaufspreis.",
+"die erlösmaximale Menge.",
+"die gewinnmaximale Menge.",
+"die Fixkosten."
 ],
 "antworten":[
-"{1:NUMERICAL:=13,3779:0,1}",
-"{1:NUMERICAL:=46,0234:0,1}",
-"{1:NUMERICAL:=61:0,1}",
-"{1:NUMERICAL:=15,6863:0,1}",
-"{1:NUMERICAL:=125,4902:0,1}",
-"{1:NUMERICAL:=4,606:0,1}",
-"{1:NUMERICAL:=9,1773:0,1}",
-"{1:NUMERICAL:=22,15:0,1}",
-"{1:NUMERICAL:=31,3725:0,1}",
-"{1:NUMERICAL:=16:0,1}"
+"{1:NUMERICAL:=47,3684:0,1}",
+"{1:NUMERICAL:=254,0526:0,1}",
+"{1:NUMERICAL:=36:0,1}",
+"{1:NUMERICAL:=426,3158:0,1}",
+"{1:NUMERICAL:=2,595:0,1}",
+"{1:NUMERICAL:=35,3:0,1}",
+"{1:NUMERICAL:=21,6:0,1}",
+"{1:NUMERICAL:=23,6842:0,1}",
+"{1:NUMERICAL:=18,9474:0,1}",
+"{1:NUMERICAL:=87:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,46x^2+27x \\)</p> <p>\\( K(x)=0,075x^2+140 \\)</p> <p>\\( G(x)=-0,535x^2+27x-140 \\)</p> <p>\\( p(x)=-0,46x+27 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,56x^2+25x \\)</p> <p>\\( K(x)=0,11x^2+84 \\)</p> <p>\\( G(x)=-0,67x^2+25x-84 \\)</p> <p>\\( p(x)=-0,56x+25 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
 "die Sättigungsmenge.",
+"den maximalen Erlös.",
+"den Höchstpreis.",
+"die Fixkosten.",
+"die erlösmaximale Menge.",
+"den maximalen Gewinn.",
+"die Gewinnschwelle.",
+"die Gewinngrenze.",
+"die gewinnmaximale Menge.",
+"den gewinnmaximalen Verkaufspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=44,6429:0,1}",
+"{1:NUMERICAL:=279,0179:0,1}",
+"{1:NUMERICAL:=25:0,1}",
+"{1:NUMERICAL:=84:0,1}",
+"{1:NUMERICAL:=22,3214:0,1}",
+"{1:NUMERICAL:=149,209:0,1}",
+"{1:NUMERICAL:=3,734:0,1}",
+"{1:NUMERICAL:=33,579:0,1}",
+"{1:NUMERICAL:=18,6567:0,1}",
+"{1:NUMERICAL:=14,5522:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-4,5x^2+140x \\)</p> <p>\\( K(x)=1,5x^2+170 \\)</p> <p>\\( G(x)=-6x^2+140x-170 \\)</p> <p>\\( p(x)=-4,5x+140 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
 "die Gewinngrenze.",
 "den Höchstpreis.",
-"die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
-"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
 "den maximalen Erlös.",
+"die erlösmaximale Menge.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Gewinnschwelle.",
 "die Fixkosten.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=22,048:0,1}",
+"{1:NUMERICAL:=140:0,1}",
+"{1:NUMERICAL:=31,1111:0,1}",
+"{1:NUMERICAL:=1088,8889:0,1}",
+"{1:NUMERICAL:=15,5556:0,1}",
+"{1:NUMERICAL:=87,5:0,1}",
+"{1:NUMERICAL:=1,286:0,1}",
+"{1:NUMERICAL:=170:0,1}",
+"{1:NUMERICAL:=646,6667:0,1}",
+"{1:NUMERICAL:=11,6667:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,31x^2+23x \\)</p> <p>\\( K(x)=0,061x^2+79 \\)</p> <p>\\( G(x)=-0,371x^2+23x-79 \\)</p> <p>\\( p(x)=-0,31x+23 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
+"den maximalen Erlös.",
+"die erlösmaximale Menge.",
+"den Höchstpreis.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
+"die Fixkosten.",
+"die Gewinngrenze."
+],
+"antworten":[
+"{1:NUMERICAL:=13,3908:0,1}",
+"{1:NUMERICAL:=74,1935:0,1}",
+"{1:NUMERICAL:=426,6129:0,1}",
+"{1:NUMERICAL:=37,0968:0,1}",
+"{1:NUMERICAL:=23:0,1}",
+"{1:NUMERICAL:=3,65:0,1}",
+"{1:NUMERICAL:=277,469:0,1}",
+"{1:NUMERICAL:=30,9973:0,1}",
+"{1:NUMERICAL:=79:0,1}",
+"{1:NUMERICAL:=58,344:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-1,5x^2+35x \\)</p> <p>\\( K(x)=0,27x^2+50 \\)</p> <p>\\( G(x)=-1,77x^2+35x-50 \\)</p> <p>\\( p(x)=-1,5x+35 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Sättigungsmenge.",
+"den Höchstpreis.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
+"die Gewinnschwelle.",
+"die Fixkosten.",
+"die gewinnmaximale Menge.",
 "die erlösmaximale Menge.",
 "den maximalen Gewinn."
 ],
 "antworten":[
-"{1:NUMERICAL:=58,6957:0,1}",
-"{1:NUMERICAL:=44,599:0,1}",
-"{1:NUMERICAL:=27:0,1}",
-"{1:NUMERICAL:=25,2336:0,1}",
-"{1:NUMERICAL:=5,868:0,1}",
-"{1:NUMERICAL:=15,3925:0,1}",
-"{1:NUMERICAL:=396,1957:0,1}",
-"{1:NUMERICAL:=140:0,1}",
-"{1:NUMERICAL:=29,3478:0,1}",
-"{1:NUMERICAL:=200,6542:0,1}"
+"{1:NUMERICAL:=23,3333:0,1}",
+"{1:NUMERICAL:=35:0,1}",
+"{1:NUMERICAL:=20,1695:0,1}",
+"{1:NUMERICAL:=18,223:0,1}",
+"{1:NUMERICAL:=204,1667:0,1}",
+"{1:NUMERICAL:=1,551:0,1}",
+"{1:NUMERICAL:=50:0,1}",
+"{1:NUMERICAL:=9,887:0,1}",
+"{1:NUMERICAL:=11,6667:0,1}",
+"{1:NUMERICAL:=123,0226:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,76x^2+34x \\)</p> <p>\\( K(x)=0,14x^2+130 \\)</p> <p>\\( G(x)=-0,9x^2+34x-130 \\)</p> <p>\\( p(x)=-0,76x+34 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,49x^2+27x \\)</p> <p>\\( K(x)=0,091x^2+130 \\)</p> <p>\\( G(x)=-0,581x^2+27x-130 \\)</p> <p>\\( p(x)=-0,49x+27 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Gewinnschwelle.",
-"den maximalen Gewinn.",
-"den Höchstpreis.",
-"den gewinnmaximalen Verkaufspreis.",
 "die erlösmaximale Menge.",
+"den gewinnmaximalen Verkaufspreis.",
 "die Gewinngrenze.",
-"die gewinnmaximale Menge.",
+"die Gewinnschwelle.",
 "die Fixkosten.",
 "den maximalen Erlös.",
+"den Höchstpreis.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
 "die Sättigungsmenge."
 ],
 "antworten":[
-"{1:NUMERICAL:=4,317:0,1}",
-"{1:NUMERICAL:=191,1111:0,1}",
-"{1:NUMERICAL:=34:0,1}",
-"{1:NUMERICAL:=19,6444:0,1}",
-"{1:NUMERICAL:=22,3684:0,1}",
-"{1:NUMERICAL:=33,46:0,1}",
-"{1:NUMERICAL:=18,8889:0,1}",
+"{1:NUMERICAL:=27,551:0,1}",
+"{1:NUMERICAL:=15,6145:0,1}",
+"{1:NUMERICAL:=41,016:0,1}",
+"{1:NUMERICAL:=5,456:0,1}",
 "{1:NUMERICAL:=130:0,1}",
-"{1:NUMERICAL:=380,2632:0,1}",
-"{1:NUMERICAL:=44,7368:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,41x^2+27x \\)</p> <p>\\( K(x)=0,077x^2+89 \\)</p> <p>\\( G(x)=-0,487x^2+27x-89 \\)</p> <p>\\( p(x)=-0,41x+27 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den gewinnmaximalen Verkaufspreis.",
-"den maximalen Gewinn.",
-"die Fixkosten.",
-"den maximalen Erlös.",
-"die gewinnmaximale Menge.",
-"die Gewinngrenze.",
-"die Gewinnschwelle.",
-"die erlösmaximale Menge.",
-"den Höchstpreis.",
-"die Sättigungsmenge."
-],
-"antworten":[
-"{1:NUMERICAL:=15,6345:0,1}",
-"{1:NUMERICAL:=285,23:0,1}",
-"{1:NUMERICAL:=89:0,1}",
-"{1:NUMERICAL:=444,5122:0,1}",
-"{1:NUMERICAL:=27,7207:0,1}",
-"{1:NUMERICAL:=51,921:0,1}",
-"{1:NUMERICAL:=3,52:0,1}",
-"{1:NUMERICAL:=32,9268:0,1}",
+"{1:NUMERICAL:=371,9388:0,1}",
 "{1:NUMERICAL:=27:0,1}",
-"{1:NUMERICAL:=65,8537:0,1}"
+"{1:NUMERICAL:=183,6833:0,1}",
+"{1:NUMERICAL:=23,2358:0,1}",
+"{1:NUMERICAL:=55,102:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,5x^2+43x \\)</p> <p>\\( K(x)=0,12x^2+170 \\)</p> <p>\\( G(x)=-0,62x^2+43x-170 \\)</p> <p>\\( p(x)=-0,5x+43 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-7,8x^2+160x \\)</p> <p>\\( K(x)=2x^2+160 \\)</p> <p>\\( G(x)=-9,8x^2+160x-160 \\)</p> <p>\\( p(x)=-7,8x+160 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Gewinn.",
-"den gewinnmaximalen Verkaufspreis.",
-"die erlösmaximale Menge.",
-"die Gewinnschwelle.",
 "die Fixkosten.",
 "die Gewinngrenze.",
-"den Höchstpreis.",
 "die Sättigungsmenge.",
-"die gewinnmaximale Menge.",
-"den maximalen Erlös."
-],
-"antworten":[
-"{1:NUMERICAL:=575,5645:0,1}",
-"{1:NUMERICAL:=25,6613:0,1}",
-"{1:NUMERICAL:=43:0,1}",
-"{1:NUMERICAL:=4,209:0,1}",
-"{1:NUMERICAL:=170:0,1}",
-"{1:NUMERICAL:=65,145:0,1}",
-"{1:NUMERICAL:=43:0,1}",
-"{1:NUMERICAL:=86:0,1}",
-"{1:NUMERICAL:=34,6774:0,1}",
-"{1:NUMERICAL:=924,5:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,18x^2+16x \\)</p> <p>\\( K(x)=0,034x^2+61 \\)</p> <p>\\( G(x)=-0,214x^2+16x-61 \\)</p> <p>\\( p(x)=-0,18x+16 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Gewinn.",
-"den Höchstpreis.",
-"die Gewinnschwelle.",
-"den maximalen Erlös.",
-"die Fixkosten.",
 "den gewinnmaximalen Verkaufspreis.",
+"den Höchstpreis.",
+"den maximalen Gewinn.",
+"den maximalen Erlös.",
+"die Gewinnschwelle.",
 "die gewinnmaximale Menge.",
-"die erlösmaximale Menge.",
-"die Sättigungsmenge.",
-"die Gewinngrenze."
+"die erlösmaximale Menge."
 ],
 "antworten":[
-"{1:NUMERICAL:=238,0654:0,1}",
-"{1:NUMERICAL:=16:0,1}",
-"{1:NUMERICAL:=4,03:0,1}",
-"{1:NUMERICAL:=355,5556:0,1}",
-"{1:NUMERICAL:=61:0,1}",
-"{1:NUMERICAL:=9,271:0,1}",
-"{1:NUMERICAL:=37,3832:0,1}",
-"{1:NUMERICAL:=44,4444:0,1}",
-"{1:NUMERICAL:=88,8889:0,1}",
-"{1:NUMERICAL:=70,736:0,1}"
+"{1:NUMERICAL:=160:0,1}",
+"{1:NUMERICAL:=15,256:0,1}",
+"{1:NUMERICAL:=20,5128:0,1}",
+"{1:NUMERICAL:=96,3265:0,1}",
+"{1:NUMERICAL:=160:0,1}",
+"{1:NUMERICAL:=493,0612:0,1}",
+"{1:NUMERICAL:=820,5128:0,1}",
+"{1:NUMERICAL:=1,071:0,1}",
+"{1:NUMERICAL:=8,1633:0,1}",
+"{1:NUMERICAL:=10,2564:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-2x^2+37x \\)</p> <p>\\( K(x)=0,51x^2+33 \\)</p> <p>\\( G(x)=-2,51x^2+37x-33 \\)</p> <p>\\( p(x)=-2x+37 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-2,3x^2+46x \\)</p> <p>\\( K(x)=0,52x^2+70 \\)</p> <p>\\( G(x)=-2,82x^2+46x-70 \\)</p> <p>\\( p(x)=-2,3x+46 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"die erlösmaximale Menge.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
+"die gewinnmaximale Menge.",
 "die Gewinnschwelle.",
 "den maximalen Gewinn.",
-"den gewinnmaximalen Verkaufspreis.",
-"die Fixkosten.",
-"den Höchstpreis.",
-"die Gewinngrenze.",
-"die Sättigungsmenge.",
-"die erlösmaximale Menge.",
 "den maximalen Erlös.",
-"die gewinnmaximale Menge."
+"die Gewinngrenze.",
+"den Höchstpreis.",
+"die Fixkosten."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,954:0,1}",
-"{1:NUMERICAL:=103,3546:0,1}",
-"{1:NUMERICAL:=22,259:0,1}",
-"{1:NUMERICAL:=33:0,1}",
-"{1:NUMERICAL:=37:0,1}",
-"{1:NUMERICAL:=13,787:0,1}",
-"{1:NUMERICAL:=18,5:0,1}",
-"{1:NUMERICAL:=9,25:0,1}",
-"{1:NUMERICAL:=171,125:0,1}",
-"{1:NUMERICAL:=7,3705:0,1}"
+"{1:NUMERICAL:=10:0,1}",
+"{1:NUMERICAL:=27,2411:0,1}",
+"{1:NUMERICAL:=20:0,1}",
+"{1:NUMERICAL:=8,156:0,1}",
+"{1:NUMERICAL:=1,699:0,1}",
+"{1:NUMERICAL:=117,5887:0,1}",
+"{1:NUMERICAL:=230:0,1}",
+"{1:NUMERICAL:=14,613:0,1}",
+"{1:NUMERICAL:=46:0,1}",
+"{1:NUMERICAL:=70:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-4,5x^2+68x \\)</p> <p>\\( K(x)=1,1x^2+100 \\)</p> <p>\\( G(x)=-5,6x^2+68x-100 \\)</p> <p>\\( p(x)=-4,5x+68 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,43x^2+26x \\)</p> <p>\\( K(x)=0,11x^2+99 \\)</p> <p>\\( G(x)=-0,54x^2+26x-99 \\)</p> <p>\\( p(x)=-0,43x+26 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"die Fixkosten.",
 "die erlösmaximale Menge.",
-"den gewinnmaximalen Verkaufspreis.",
-"den maximalen Gewinn.",
-"die gewinnmaximale Menge.",
-"die Sättigungsmenge.",
-"die Gewinngrenze.",
-"den maximalen Erlös.",
-"die Fixkosten.",
-"die Gewinnschwelle.",
-"den Höchstpreis."
-],
-"antworten":[
-"{1:NUMERICAL:=7,5556:0,1}",
-"{1:NUMERICAL:=40,6786:0,1}",
-"{1:NUMERICAL:=106,4286:0,1}",
-"{1:NUMERICAL:=6,0714:0,1}",
-"{1:NUMERICAL:=15,1111:0,1}",
-"{1:NUMERICAL:=10,43:0,1}",
-"{1:NUMERICAL:=256,8889:0,1}",
-"{1:NUMERICAL:=100:0,1}",
-"{1:NUMERICAL:=1,712:0,1}",
-"{1:NUMERICAL:=68:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-1,1x^2+28x \\)</p> <p>\\( K(x)=0,15x^2+54 \\)</p> <p>\\( G(x)=-1,25x^2+28x-54 \\)</p> <p>\\( p(x)=-1,1x+28 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den gewinnmaximalen Verkaufspreis.",
-"den maximalen Erlös.",
-"die gewinnmaximale Menge.",
-"die Sättigungsmenge.",
-"die Fixkosten.",
 "den Höchstpreis.",
-"die erlösmaximale Menge.",
 "die Gewinngrenze.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
+"die gewinnmaximale Menge.",
+"den maximalen Erlös.",
 "den maximalen Gewinn.",
 "die Gewinnschwelle."
 ],
 "antworten":[
-"{1:NUMERICAL:=15,68:0,1}",
-"{1:NUMERICAL:=178,1818:0,1}",
-"{1:NUMERICAL:=11,2:0,1}",
-"{1:NUMERICAL:=25,4545:0,1}",
-"{1:NUMERICAL:=54:0,1}",
-"{1:NUMERICAL:=28:0,1}",
-"{1:NUMERICAL:=12,7273:0,1}",
-"{1:NUMERICAL:=20,268:0,1}",
-"{1:NUMERICAL:=102,8:0,1}",
-"{1:NUMERICAL:=2,132:0,1}"
+"{1:NUMERICAL:=99:0,1}",
+"{1:NUMERICAL:=30,2326:0,1}",
+"{1:NUMERICAL:=26:0,1}",
+"{1:NUMERICAL:=43,979:0,1}",
+"{1:NUMERICAL:=15,6481:0,1}",
+"{1:NUMERICAL:=60,4651:0,1}",
+"{1:NUMERICAL:=24,0741:0,1}",
+"{1:NUMERICAL:=393,0233:0,1}",
+"{1:NUMERICAL:=213,963:0,1}",
+"{1:NUMERICAL:=4,169:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,17x^2+13x \\)</p> <p>\\( K(x)=0,03x^2+110 \\)</p> <p>\\( G(x)=-0,2x^2+13x-110 \\)</p> <p>\\( p(x)=-0,17x+13 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-3,3x^2+28x \\)</p> <p>\\( K(x)=0,72x^2+15 \\)</p> <p>\\( G(x)=-4,02x^2+28x-15 \\)</p> <p>\\( p(x)=-3,3x+28 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Erlös.",
-"die Gewinngrenze.",
 "die Sättigungsmenge.",
-"die Gewinnschwelle.",
-"den Höchstpreis.",
 "die Fixkosten.",
-"die erlösmaximale Menge.",
 "die gewinnmaximale Menge.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
 "den maximalen Gewinn.",
-"den gewinnmaximalen Verkaufspreis."
+"die erlösmaximale Menge.",
+"die Gewinnschwelle.",
+"den gewinnmaximalen Verkaufspreis.",
+"den Höchstpreis."
 ],
 "antworten":[
-"{1:NUMERICAL:=248,5294:0,1}",
-"{1:NUMERICAL:=55:0,1}",
-"{1:NUMERICAL:=76,4706:0,1}",
-"{1:NUMERICAL:=10:0,1}",
-"{1:NUMERICAL:=13:0,1}",
+"{1:NUMERICAL:=8,4848:0,1}",
+"{1:NUMERICAL:=15:0,1}",
+"{1:NUMERICAL:=3,4826:0,1}",
+"{1:NUMERICAL:=6,38:0,1}",
+"{1:NUMERICAL:=59,3939:0,1}",
+"{1:NUMERICAL:=33,7562:0,1}",
+"{1:NUMERICAL:=4,2424:0,1}",
+"{1:NUMERICAL:=0,585:0,1}",
+"{1:NUMERICAL:=16,5075:0,1}",
+"{1:NUMERICAL:=28:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,43x^2+20x \\)</p> <p>\\( K(x)=0,063x^2+110 \\)</p> <p>\\( G(x)=-0,493x^2+20x-110 \\)</p> <p>\\( p(x)=-0,43x+20 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"den maximalen Erlös.",
+"die Gewinnschwelle.",
+"den gewinnmaximalen Verkaufspreis.",
+"die erlösmaximale Menge.",
+"die Sättigungsmenge.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
+"den Höchstpreis.",
+"die Gewinngrenze."
+],
+"antworten":[
 "{1:NUMERICAL:=110:0,1}",
-"{1:NUMERICAL:=38,2353:0,1}",
-"{1:NUMERICAL:=32,5:0,1}",
-"{1:NUMERICAL:=101,25:0,1}",
-"{1:NUMERICAL:=7,475:0,1}"
+"{1:NUMERICAL:=232,5581:0,1}",
+"{1:NUMERICAL:=6,562:0,1}",
+"{1:NUMERICAL:=11,2779:0,1}",
+"{1:NUMERICAL:=23,2558:0,1}",
+"{1:NUMERICAL:=46,5116:0,1}",
+"{1:NUMERICAL:=92,8398:0,1}",
+"{1:NUMERICAL:=20,284:0,1}",
+"{1:NUMERICAL:=20:0,1}",
+"{1:NUMERICAL:=34,006:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,82x^2+30x \\)</p> <p>\\( K(x)=0,26x^2+75 \\)</p> <p>\\( G(x)=-1,08x^2+30x-75 \\)</p> <p>\\( p(x)=-0,82x+30 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,86x^2+35x \\)</p> <p>\\( K(x)=0,24x^2+120 \\)</p> <p>\\( G(x)=-1,1x^2+35x-120 \\)</p> <p>\\( p(x)=-0,86x+35 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Gewinnschwelle.",
-"die gewinnmaximale Menge.",
-"die erlösmaximale Menge.",
-"den Höchstpreis.",
-"den maximalen Erlös.",
-"die Sättigungsmenge.",
-"die Gewinngrenze.",
-"den gewinnmaximalen Verkaufspreis.",
-"den maximalen Gewinn.",
-"die Fixkosten."
-],
-"antworten":[
-"{1:NUMERICAL:=2,778:0,1}",
-"{1:NUMERICAL:=13,8889:0,1}",
-"{1:NUMERICAL:=18,2927:0,1}",
-"{1:NUMERICAL:=30:0,1}",
-"{1:NUMERICAL:=274,3902:0,1}",
-"{1:NUMERICAL:=36,5854:0,1}",
-"{1:NUMERICAL:=25:0,1}",
-"{1:NUMERICAL:=18,6111:0,1}",
-"{1:NUMERICAL:=133,3333:0,1}",
-"{1:NUMERICAL:=75:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-1,1x^2+48x \\)</p> <p>\\( K(x)=0,19x^2+110 \\)</p> <p>\\( G(x)=-1,29x^2+48x-110 \\)</p> <p>\\( p(x)=-1,1x+48 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den gewinnmaximalen Verkaufspreis.",
-"den maximalen Gewinn.",
-"den Höchstpreis.",
-"den maximalen Erlös.",
-"die Gewinnschwelle.",
-"die erlösmaximale Menge.",
-"die Gewinngrenze.",
-"die Sättigungsmenge.",
-"die gewinnmaximale Menge.",
-"die Fixkosten."
-],
-"antworten":[
-"{1:NUMERICAL:=27,5349:0,1}",
-"{1:NUMERICAL:=336,5116:0,1}",
-"{1:NUMERICAL:=48:0,1}",
-"{1:NUMERICAL:=523,6364:0,1}",
-"{1:NUMERICAL:=2,454:0,1}",
-"{1:NUMERICAL:=21,8182:0,1}",
-"{1:NUMERICAL:=34,755:0,1}",
-"{1:NUMERICAL:=43,6364:0,1}",
-"{1:NUMERICAL:=18,6047:0,1}",
-"{1:NUMERICAL:=110:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,68x^2+24x \\)</p> <p>\\( K(x)=0,23x^2+43 \\)</p> <p>\\( G(x)=-0,91x^2+24x-43 \\)</p> <p>\\( p(x)=-0,68x+24 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die erlösmaximale Menge.",
-"die Gewinnschwelle.",
-"den gewinnmaximalen Verkaufspreis.",
-"den Höchstpreis.",
-"die gewinnmaximale Menge.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"die Sättigungsmenge.",
-"den maximalen Erlös.",
-"die Fixkosten."
-],
-"antworten":[
-"{1:NUMERICAL:=17,6471:0,1}",
-"{1:NUMERICAL:=1,934:0,1}",
-"{1:NUMERICAL:=15,033:0,1}",
-"{1:NUMERICAL:=24:0,1}",
-"{1:NUMERICAL:=13,1868:0,1}",
-"{1:NUMERICAL:=24,44:0,1}",
-"{1:NUMERICAL:=115,2418:0,1}",
-"{1:NUMERICAL:=35,2941:0,1}",
-"{1:NUMERICAL:=211,7647:0,1}",
-"{1:NUMERICAL:=43:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-1,1x^2+45x \\)</p> <p>\\( K(x)=0,27x^2+74 \\)</p> <p>\\( G(x)=-1,37x^2+45x-74 \\)</p> <p>\\( p(x)=-1,1x+45 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"die Sättigungsmenge.",
-"den maximalen Gewinn.",
 "die Gewinngrenze.",
 "den Höchstpreis.",
 "die Gewinnschwelle.",
 "die Fixkosten.",
-"die erlösmaximale Menge.",
-"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
 "die gewinnmaximale Menge.",
+"den gewinnmaximalen Verkaufspreis.",
+"den maximalen Erlös.",
+"die erlösmaximale Menge.",
+"den maximalen Gewinn."
+],
+"antworten":[
+"{1:NUMERICAL:=27,909:0,1}",
+"{1:NUMERICAL:=35:0,1}",
+"{1:NUMERICAL:=3,909:0,1}",
+"{1:NUMERICAL:=120:0,1}",
+"{1:NUMERICAL:=40,6977:0,1}",
+"{1:NUMERICAL:=15,9091:0,1}",
+"{1:NUMERICAL:=21,3182:0,1}",
+"{1:NUMERICAL:=356,1047:0,1}",
+"{1:NUMERICAL:=20,3488:0,1}",
+"{1:NUMERICAL:=158,4091:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-6,8x^2+130x \\)</p> <p>\\( K(x)=1,1x^2+150 \\)</p> <p>\\( G(x)=-7,9x^2+130x-150 \\)</p> <p>\\( p(x)=-6,8x+130 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"den Höchstpreis.",
+"den gewinnmaximalen Verkaufspreis.",
+"die erlösmaximale Menge.",
+"die Gewinngrenze.",
+"die Fixkosten.",
+"den maximalen Gewinn.",
+"die Gewinnschwelle.",
+"die gewinnmaximale Menge.",
+"die Sättigungsmenge."
+],
+"antworten":[
+"{1:NUMERICAL:=621,3235:0,1}",
+"{1:NUMERICAL:=130:0,1}",
+"{1:NUMERICAL:=74,0506:0,1}",
+"{1:NUMERICAL:=9,5588:0,1}",
+"{1:NUMERICAL:=15,207:0,1}",
+"{1:NUMERICAL:=150:0,1}",
+"{1:NUMERICAL:=384,8101:0,1}",
+"{1:NUMERICAL:=1,249:0,1}",
+"{1:NUMERICAL:=8,2278:0,1}",
+"{1:NUMERICAL:=19,1176:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,24x^2+20x \\)</p> <p>\\( K(x)=0,062x^2+110 \\)</p> <p>\\( G(x)=-0,302x^2+20x-110 \\)</p> <p>\\( p(x)=-0,24x+20 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinnschwelle.",
+"den maximalen Erlös.",
+"die Fixkosten.",
+"den gewinnmaximalen Verkaufspreis.",
+"die Sättigungsmenge.",
+"die gewinnmaximale Menge.",
+"die erlösmaximale Menge.",
+"die Gewinngrenze.",
+"den Höchstpreis.",
+"den maximalen Gewinn."
+],
+"antworten":[
+"{1:NUMERICAL:=6,054:0,1}",
+"{1:NUMERICAL:=416,6667:0,1}",
+"{1:NUMERICAL:=110:0,1}",
+"{1:NUMERICAL:=12,053:0,1}",
+"{1:NUMERICAL:=83,3333:0,1}",
+"{1:NUMERICAL:=33,1126:0,1}",
+"{1:NUMERICAL:=41,6667:0,1}",
+"{1:NUMERICAL:=60,171:0,1}",
+"{1:NUMERICAL:=20:0,1}",
+"{1:NUMERICAL:=221,1258:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,26x^2+14x \\)</p> <p>\\( K(x)=0,05x^2+83 \\)</p> <p>\\( G(x)=-0,31x^2+14x-83 \\)</p> <p>\\( p(x)=-0,26x+14 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den gewinnmaximalen Verkaufspreis.",
+"den Höchstpreis.",
+"den maximalen Erlös.",
+"die erlösmaximale Menge.",
+"die gewinnmaximale Menge.",
+"die Fixkosten.",
+"die Gewinngrenze.",
+"die Gewinnschwelle.",
+"den maximalen Gewinn.",
+"die Sättigungsmenge."
+],
+"antworten":[
+"{1:NUMERICAL:=8,129:0,1}",
+"{1:NUMERICAL:=14:0,1}",
+"{1:NUMERICAL:=188,4615:0,1}",
+"{1:NUMERICAL:=26,9231:0,1}",
+"{1:NUMERICAL:=22,5806:0,1}",
+"{1:NUMERICAL:=83:0,1}",
+"{1:NUMERICAL:=38,141:0,1}",
+"{1:NUMERICAL:=7,02:0,1}",
+"{1:NUMERICAL:=75,0645:0,1}",
+"{1:NUMERICAL:=53,8462:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,17x^2+16x \\)</p> <p>\\( K(x)=0,033x^2+82 \\)</p> <p>\\( G(x)=-0,203x^2+16x-82 \\)</p> <p>\\( p(x)=-0,17x+16 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Gewinn.",
+"den Höchstpreis.",
+"die erlösmaximale Menge.",
+"die Gewinngrenze.",
+"die gewinnmaximale Menge.",
+"die Fixkosten.",
+"die Gewinnschwelle.",
+"die Sättigungsmenge.",
+"den gewinnmaximalen Verkaufspreis.",
 "den maximalen Erlös."
 ],
 "antworten":[
-"{1:NUMERICAL:=40,9091:0,1}",
-"{1:NUMERICAL:=295,5255:0,1}",
-"{1:NUMERICAL:=31,11:0,1}",
-"{1:NUMERICAL:=45:0,1}",
-"{1:NUMERICAL:=1,737:0,1}",
-"{1:NUMERICAL:=74:0,1}",
-"{1:NUMERICAL:=20,4545:0,1}",
-"{1:NUMERICAL:=26,9343:0,1}",
-"{1:NUMERICAL:=16,4234:0,1}",
-"{1:NUMERICAL:=460,2273:0,1}"
+"{1:NUMERICAL:=233,2709:0,1}",
+"{1:NUMERICAL:=16:0,1}",
+"{1:NUMERICAL:=47,0588:0,1}",
+"{1:NUMERICAL:=73,307:0,1}",
+"{1:NUMERICAL:=39,4089:0,1}",
+"{1:NUMERICAL:=82:0,1}",
+"{1:NUMERICAL:=5,511:0,1}",
+"{1:NUMERICAL:=94,1176:0,1}",
+"{1:NUMERICAL:=9,3005:0,1}",
+"{1:NUMERICAL:=376,4706:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-5,9x^2+56x \\)</p> <p>\\( K(x)=1,3x^2+29 \\)</p> <p>\\( G(x)=-7,2x^2+56x-29 \\)</p> <p>\\( p(x)=-5,9x+56 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,57x^2+29x \\)</p> <p>\\( K(x)=0,12x^2+71 \\)</p> <p>\\( G(x)=-0,69x^2+29x-71 \\)</p> <p>\\( p(x)=-0,57x+29 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Gewinngrenze.",
-"die Sättigungsmenge.",
-"die gewinnmaximale Menge.",
-"den maximalen Erlös.",
-"die erlösmaximale Menge.",
-"den Höchstpreis.",
+"die Fixkosten.",
 "den maximalen Gewinn.",
-"die Gewinnschwelle.",
+"die Gewinngrenze.",
+"den Höchstpreis.",
+"die erlösmaximale Menge.",
 "den gewinnmaximalen Verkaufspreis.",
-"die Fixkosten."
+"die Gewinnschwelle.",
+"den maximalen Erlös.",
+"die Sättigungsmenge.",
+"die gewinnmaximale Menge."
 ],
 "antworten":[
-"{1:NUMERICAL:=7,219:0,1}",
-"{1:NUMERICAL:=9,4915:0,1}",
-"{1:NUMERICAL:=3,8889:0,1}",
-"{1:NUMERICAL:=132,8814:0,1}",
-"{1:NUMERICAL:=4,7458:0,1}",
-"{1:NUMERICAL:=56:0,1}",
-"{1:NUMERICAL:=79,8889:0,1}",
-"{1:NUMERICAL:=0,558:0,1}",
-"{1:NUMERICAL:=33,0556:0,1}",
-"{1:NUMERICAL:=29:0,1}"
+"{1:NUMERICAL:=71:0,1}",
+"{1:NUMERICAL:=233,7101:0,1}",
+"{1:NUMERICAL:=39,418:0,1}",
+"{1:NUMERICAL:=29:0,1}",
+"{1:NUMERICAL:=25,4386:0,1}",
+"{1:NUMERICAL:=17,0217:0,1}",
+"{1:NUMERICAL:=2,611:0,1}",
+"{1:NUMERICAL:=368,8596:0,1}",
+"{1:NUMERICAL:=50,8772:0,1}",
+"{1:NUMERICAL:=21,0145:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,55x^2+31x \\)</p> <p>\\( K(x)=0,12x^2+89 \\)</p> <p>\\( G(x)=-0,67x^2+31x-89 \\)</p> <p>\\( p(x)=-0,55x+31 \\)</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=-0,62x^2+28x \\)</p> <p>\\( K(x)=0,16x^2+96 \\)</p> <p>\\( G(x)=-0,78x^2+28x-96 \\)</p> <p>\\( p(x)=-0,62x+28 \\)</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die erlösmaximale Menge.",
-"den gewinnmaximalen Verkaufspreis.",
-"die Gewinngrenze.",
-"die Sättigungsmenge.",
 "den Höchstpreis.",
-"die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
+"die Gewinngrenze.",
+"die Fixkosten.",
 "den maximalen Gewinn.",
+"den gewinnmaximalen Verkaufspreis.",
+"die gewinnmaximale Menge.",
+"die Sättigungsmenge.",
+"die Gewinnschwelle.",
 "den maximalen Erlös.",
-"die Fixkosten."
+"die erlösmaximale Menge."
 ],
 "antworten":[
-"{1:NUMERICAL:=28,1818:0,1}",
-"{1:NUMERICAL:=18,2761:0,1}",
-"{1:NUMERICAL:=43,193:0,1}",
-"{1:NUMERICAL:=56,3636:0,1}",
-"{1:NUMERICAL:=31:0,1}",
-"{1:NUMERICAL:=23,1343:0,1}",
-"{1:NUMERICAL:=3,076:0,1}",
-"{1:NUMERICAL:=269,5821:0,1}",
-"{1:NUMERICAL:=436,8182:0,1}",
-"{1:NUMERICAL:=89:0,1}"
+"{1:NUMERICAL:=28:0,1}",
+"{1:NUMERICAL:=32,058:0,1}",
+"{1:NUMERICAL:=96:0,1}",
+"{1:NUMERICAL:=155,2821:0,1}",
+"{1:NUMERICAL:=16,8718:0,1}",
+"{1:NUMERICAL:=17,9487:0,1}",
+"{1:NUMERICAL:=45,1613:0,1}",
+"{1:NUMERICAL:=3,84:0,1}",
+"{1:NUMERICAL:=316,129:0,1}",
+"{1:NUMERICAL:=22,5806:0,1}"
 ]
 }
 ]

@@ -1,302 +1,302 @@
 ﻿[
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(-3,9t^2+29t)e^{-0,6t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-3,1t^2+26t)e^{-0,5t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
 "den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
 "den jährlichen Umsatz nach 3 Jahren.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 3 Jahren erzielt wird.",
-"den Umsatz, der vom Ende des 3. bis zum Ende des 6. Jahres erzielt wird."
+"den jährlichen Umsatz, der durchschnittlich in den ersten 8 Jahren erzielt wird.",
+"den Umsatz, der vom Ende des 3. bis zum Ende des 7. Jahres erzielt wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=45,7913:0,1}",
-"{1:NUMERICAL:=8,579:0,1}",
-"{1:NUMERICAL:=11,1813:0,1}",
-"{1:NUMERICAL:=11,7081:0,1}"
+"{1:NUMERICAL:=56,7182:0,1}",
+"{1:NUMERICAL:=11,1788:0,1}",
+"{1:NUMERICAL:=7,0857:0,1}",
+"{1:NUMERICAL:=19,6767:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,2t^2+24t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(1,2t^2+17)e^{-0,1t}+3 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 76 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"den Umsatz, der vom Ende des 16. bis zum Ende des 74. Jahres erzielt wird.",
 "den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den Umsatz, der vom Ende des 6. bis zum Ende des 20. Jahres erzielt wird.",
-"den jährlichen Umsatz nach 19 Jahren.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 7 Jahren erzielt wird."
+"den jährlichen Umsatz nach 34 Jahren.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 43 Jahren erzielt wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=178,6591:0,1}",
-"{1:NUMERICAL:=59,3604:0,1}",
-"{1:NUMERICAL:=0,0763:0,1}",
-"{1:NUMERICAL:=19,1846:0,1}"
+"{1:NUMERICAL:=2035,7894:0,1}",
+"{1:NUMERICAL:=2752,8983:0,1}",
+"{1:NUMERICAL:=49,8627:0,1}",
+"{1:NUMERICAL:=51,6987:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,1t^3+21t^2)e^{-0,4t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2,3t^3+25t^2)e^{-0,6t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den Umsatz, der vom Ende des 8. bis zum Ende des 15. Jahres erzielt wird.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 18 Jahren erzielt wird.",
-"den jährlichen Umsatz nach 18 Jahren."
-],
-"antworten":[
-"{1:NUMERICAL:=92,2899:0,1}",
-"{1:NUMERICAL:=400,4045:0,1}",
-"{1:NUMERICAL:=22,2368:0,1}",
-"{1:NUMERICAL:=0,2903:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(-5,7t^2+30t)e^{-0,8t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Umsatz, der vom Ende des 2. bis zum Ende des 5. Jahres erzielt wird.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den jährlichen Umsatz nach 5 Jahren.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 5 Jahren erzielt wird."
-],
-"antworten":[
-"{1:NUMERICAL:=8,173:0,1}",
-"{1:NUMERICAL:=25,6353:0,1}",
-"{1:NUMERICAL:=0,1374:0,1}",
-"{1:NUMERICAL:=5,1236:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(9t+3)e^{-0,3t}+2 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 19 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den jährlichen Umsatz nach 10 Jahren.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 9 Jahren erzielt wird.",
-"den Umsatz, der vom Ende des 2. bis zum Ende des 18. Jahres erzielt wird.",
+"den Umsatz, der vom Ende des 2. bis zum Ende des 9. Jahres erzielt wird.",
+"den jährlichen Umsatz nach 7 Jahren.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 7 Jahren erzielt wird.",
 "den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=6,6302:0,1}",
-"{1:NUMERICAL:=11,3847:0,1}",
-"{1:NUMERICAL:=122,3622:0,1}",
-"{1:NUMERICAL:=145,7247:0,1}"
+"{1:NUMERICAL:=101,4761:0,1}",
+"{1:NUMERICAL:=6,5396:0,1}",
+"{1:NUMERICAL:=16,9196:0,1}",
+"{1:NUMERICAL:=126,9482:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(10t+1)e^{-0,4t}+3 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 14 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(6t+2)e^{-0,1t}+3 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 56 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den Umsatz, der vom Ende des 7. bis zum Ende des 13. Jahres erzielt wird.",
-"den jährlichen Umsatz nach 9 Jahren.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 10 Jahren erzielt wird."
+"den Umsatz, der vom Ende des 11. bis zum Ende des 47. Jahres erzielt wird.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 19 Jahren erzielt wird.",
+"den jährlichen Umsatz nach 17 Jahren.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=105,4654:0,1}",
-"{1:NUMERICAL:=30,443:0,1}",
-"{1:NUMERICAL:=5,4865:0,1}",
-"{1:NUMERICAL:=8,9231:0,1}"
+"{1:NUMERICAL:=502,7872:0,1}",
+"{1:NUMERICAL:=21,7768:0,1}",
+"{1:NUMERICAL:=21,9991:0,1}",
+"{1:NUMERICAL:=773,2825:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(-t^2+24t)e^{-0,2t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,6t^2+25t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den Umsatz, der vom Ende des 2. bis zum Ende des 22. Jahres erzielt wird.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 12 Jahren erzielt wird.",
 "den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den jährlichen Umsatz nach 13 Jahren.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 18 Jahren erzielt wird."
+"den Umsatz, der vom Ende des 6. bis zum Ende des 8. Jahres erzielt wird.",
+"den jährlichen Umsatz nach 15 Jahren."
 ],
 "antworten":[
-"{1:NUMERICAL:=321,5574:0,1}",
-"{1:NUMERICAL:=356,9953:0,1}",
-"{1:NUMERICAL:=10,6211:0,1}",
-"{1:NUMERICAL:=19,4596:0,1}"
+"{1:NUMERICAL:=13,3522:0,1}",
+"{1:NUMERICAL:=162,909:0,1}",
+"{1:NUMERICAL:=23,8166:0,1}",
+"{1:NUMERICAL:=0,1666:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(20t^2+13)e^{-0,7t}+2 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 11 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(30t+5)e^{-0,7t}+1 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 8 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den jährlichen Umsatz, der durchschnittlich in den ersten 6 Jahren erzielt wird.",
+"den jährlichen Umsatz nach 7 Jahren.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
+"den Umsatz, der vom Ende des 2. bis zum Ende des 7. Jahres erzielt wird."
+],
+"antworten":[
+"{1:NUMERICAL:=11,581:0,1}",
+"{1:NUMERICAL:=2,601:0,1}",
+"{1:NUMERICAL:=74,8467:0,1}",
+"{1:NUMERICAL:=40,253:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(5t-2)e^{-0,5t}+4 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 10 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
 "den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
 "den jährlichen Umsatz nach 8 Jahren.",
-"den Umsatz, der vom Ende des 2. bis zum Ende des 11. Jahres erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 11 Jahren erzielt wird."
-],
-"antworten":[
-"{1:NUMERICAL:=155,1562:0,1}",
-"{1:NUMERICAL:=6,7813:0,1}",
-"{1:NUMERICAL:=117,7472:0,1}",
-"{1:NUMERICAL:=14,1051:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2t^2+28t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Umsatz, der vom Ende des 5. bis zum Ende des 13. Jahres erzielt wird.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den jährlichen Umsatz nach 11 Jahren.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 6 Jahren erzielt wird."
-],
-"antworten":[
-"{1:NUMERICAL:=60,3589:0,1}",
-"{1:NUMERICAL:=169,8498:0,1}",
-"{1:NUMERICAL:=2,4343:0,1}",
-"{1:NUMERICAL:=21,2016:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=13te^{-0,5t}+1 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 12 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Umsatz, der vom Ende des 2. bis zum Ende des 6. Jahres erzielt wird.",
-"den jährlichen Umsatz nach 9 Jahren.",
 "den jährlichen Umsatz, der durchschnittlich in den ersten 3 Jahren erzielt wird.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
+"den Umsatz, der vom Ende des 3. bis zum Ende des 8. Jahres erzielt wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=31,9038:0,1}",
-"{1:NUMERICAL:=2,2998:0,1}",
-"{1:NUMERICAL:=8,6644:0,1}",
-"{1:NUMERICAL:=63,0977:0,1}"
+"{1:NUMERICAL:=55,2184:0,1}",
+"{1:NUMERICAL:=4,696:0,1}",
+"{1:NUMERICAL:=5,912:0,1}",
+"{1:NUMERICAL:=28,5057:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(21,1t^2+19)e^{-0,6t}+3 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 13 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(6t-1)e^{-0,7t}+5 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 7 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den Umsatz, der vom Ende des 2. bis zum Ende des 7. Jahres erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 3 Jahren erzielt wird.",
-"den jährlichen Umsatz nach 6 Jahren.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
-],
-"antworten":[
-"{1:NUMERICAL:=154,8144:0,1}",
-"{1:NUMERICAL:=29,3536:0,1}",
-"{1:NUMERICAL:=24,2743:0,1}",
-"{1:NUMERICAL:=262,8845:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(12t-2)e^{-0,4t}+3 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 14 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Umsatz, der vom Ende des 3. bis zum Ende des 13. Jahres erzielt wird.",
-"den jährlichen Umsatz nach 9 Jahren.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 4 Jahren erzielt wird.",
+"den Umsatz, der vom Ende des 3. bis zum Ende des 6. Jahres erzielt wird.",
 "den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 4 Jahren erzielt wird."
+"den jährlichen Umsatz nach 6 Jahren."
 ],
 "antworten":[
-"{1:NUMERICAL:=75,6535:0,1}",
-"{1:NUMERICAL:=5,8963:0,1}",
-"{1:NUMERICAL:=110,188:0,1}",
-"{1:NUMERICAL:=10,9099:0,1}"
+"{1:NUMERICAL:=7,0184:0,1}",
+"{1:NUMERICAL:=18,54:0,1}",
+"{1:NUMERICAL:=45,289:0,1}",
+"{1:NUMERICAL:=5,5248:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(30t+5)e^{-0,7t}+1 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 8 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,6t^2+25t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 3 Jahren erzielt wird.",
+"den Umsatz, der vom Ende des 3. bis zum Ende des 12. Jahres erzielt wird.",
+"den jährlichen Umsatz nach 8 Jahren."
+],
+"antworten":[
+"{1:NUMERICAL:=162,909:0,1}",
+"{1:NUMERICAL:=18,5832:0,1}",
+"{1:NUMERICAL:=104,4771:0,1}",
+"{1:NUMERICAL:=8,8541:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(10t^2+13)e^{-0,5t}+3 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 15 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
 "den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
 "den jährlichen Umsatz, der durchschnittlich in den ersten 2 Jahren erzielt wird.",
-"den jährlichen Umsatz nach 6 Jahren.",
-"den Umsatz, der vom Ende des 3. bis zum Ende des 4. Jahres erzielt wird."
-],
-"antworten":[
-"{1:NUMERICAL:=74,8467:0,1}",
-"{1:NUMERICAL:=16,1856:0,1}",
-"{1:NUMERICAL:=3,7742:0,1}",
-"{1:NUMERICAL:=10,5344:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=11te^{-0,2t}+1 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 29 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den jährlichen Umsatz, der durchschnittlich in den ersten 10 Jahren erzielt wird.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den Umsatz, der vom Ende des 6. bis zum Ende des 23. Jahres erzielt wird.",
-"den jährlichen Umsatz nach 14 Jahren."
-],
-"antworten":[
-"{1:NUMERICAL:=17,3348:0,1}",
-"{1:NUMERICAL:=298,3385:0,1}",
-"{1:NUMERICAL:=183,7427:0,1}",
-"{1:NUMERICAL:=10,3647:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(5,6t^2+11)e^{-0,4t}+3 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 19 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den jährlichen Umsatz, der durchschnittlich in den ersten 8 Jahren erzielt wird.",
-"den Umsatz, der vom Ende des 5. bis zum Ende des 14. Jahres erzielt wird.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den jährlichen Umsatz nach 5 Jahren."
-],
-"antworten":[
-"{1:NUMERICAL:=19,862:0,1}",
-"{1:NUMERICAL:=134,6204:0,1}",
-"{1:NUMERICAL:=256,2038:0,1}",
-"{1:NUMERICAL:=23,4356:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(1,1t^2+12)e^{-0,1t}+3 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 76 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den Umsatz, der vom Ende des 20. bis zum Ende des 47. Jahres erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 32 Jahren erzielt wird.",
-"den jährlichen Umsatz nach 26 Jahren."
-],
-"antworten":[
-"{1:NUMERICAL:=2506,6747:0,1}",
-"{1:NUMERICAL:=1249,776:0,1}",
-"{1:NUMERICAL:=49,2288:0,1}",
-"{1:NUMERICAL:=59,1211:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(12t+6)e^{-0,4t}+1 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 14 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Umsatz, der vom Ende des 6. bis zum Ende des 11. Jahres erzielt wird.",
-"den jährlichen Umsatz nach 7 Jahren.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 5 Jahren erzielt wird."
-],
-"antworten":[
-"{1:NUMERICAL:=24,3374:0,1}",
-"{1:NUMERICAL:=6,4729:0,1}",
-"{1:NUMERICAL:=102,1141:0,1}",
-"{1:NUMERICAL:=12,5039:0,1}"
-]
-},
-{
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(23,5t^2+12)e^{-0,8t}+1 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 10 Jahren.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
-"fragen":[
-"den Umsatz, der vom Ende des 4. bis zum Ende des 10. Jahres erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 6 Jahren erzielt wird.",
 "den jährlichen Umsatz nach 3 Jahren.",
+"den Umsatz, der vom Ende des 7. bis zum Ende des 8. Jahres erzielt wird."
+],
+"antworten":[
+"{1:NUMERICAL:=227,7445:0,1}",
+"{1:NUMERICAL:=17,6417:0,1}",
+"{1:NUMERICAL:=25,9824:0,1}",
+"{1:NUMERICAL:=16,5479:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2,2t^2+22t)e^{-0,8t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den jährlichen Umsatz nach 6 Jahren.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 4 Jahren erzielt wird.",
+"den Umsatz, der vom Ende des 5. bis zum Ende des 7. Jahres erzielt wird.",
 "den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=40,2178:0,1}",
-"{1:NUMERICAL:=16,5981:0,1}",
-"{1:NUMERICAL:=21,2755:0,1}",
-"{1:NUMERICAL:=115,5293:0,1}"
+"{1:NUMERICAL:=0,4345:0,1}",
+"{1:NUMERICAL:=5,7903:0,1}",
+"{1:NUMERICAL:=0,9709:0,1}",
+"{1:NUMERICAL:=25,7957:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,7t^3+26t^2)e^{-0,4t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-0,7t^3+21t^2)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den jährlichen Umsatz nach 10 Jahren.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den Umsatz, der vom Ende des 6. bis zum Ende des 8. Jahres erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 9 Jahren erzielt wird."
+"den Umsatz, der vom Ende des 14. bis zum Ende des 27. Jahres erzielt wird.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 24 Jahren erzielt wird.",
+"den jährlichen Umsatz nach 15 Jahren.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=16,4841:0,1}",
-"{1:NUMERICAL:=423,9981:0,1}",
-"{1:NUMERICAL:=84,0106:0,1}",
-"{1:NUMERICAL:=41,4847:0,1}"
+"{1:NUMERICAL:=122,7626:0,1}",
+"{1:NUMERICAL:=43,1126:0,1}",
+"{1:NUMERICAL:=26,245:0,1}",
+"{1:NUMERICAL:=1038,3488:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktion</p> <p>\\( u(t)=(-0,6t^2+21t)e^{-0,2t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (Endergebnisse auf 2 NKS gerundet)",
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,4t^2+28t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den Umsatz, der vom Ende des 11. bis zum Ende des 30. Jahres erzielt wird.",
-"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
-"den jährlichen Umsatz, der durchschnittlich in den ersten 29 Jahren erzielt wird.",
-"den jährlichen Umsatz nach 7 Jahren."
+"den jährlichen Umsatz, der durchschnittlich in den ersten 6 Jahren erzielt wird.",
+"den Umsatz, der vom Ende des 8. bis zum Ende des 18. Jahres erzielt wird.",
+"den jährlichen Umsatz nach 4 Jahren.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=92,9281:0,1}",
-"{1:NUMERICAL:=375,6155:0,1}",
-"{1:NUMERICAL:=12,9282:0,1}",
-"{1:NUMERICAL:=28,9998:0,1}"
+"{1:NUMERICAL:=23,197:0,1}",
+"{1:NUMERICAL:=37,7123:0,1}",
+"{1:NUMERICAL:=26,987:0,1}",
+"{1:NUMERICAL:=208,4356:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=14te^{-0,7t}+5 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 8 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den jährlichen Umsatz, der durchschnittlich in den ersten 4 Jahren erzielt wird.",
+"den jährlichen Umsatz nach 5 Jahren.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
+"den Umsatz, der vom Ende des 4. bis zum Ende des 4. Jahres erzielt wird."
+],
+"antworten":[
+"{1:NUMERICAL:=10,4923:0,1}",
+"{1:NUMERICAL:=7,1138:0,1}",
+"{1:NUMERICAL:=67,8741:0,1}",
+"{1:NUMERICAL:=0:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,6t^2+22t)e^{-0,5t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
+"den jährlichen Umsatz nach 9 Jahren.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 3 Jahren erzielt wird.",
+"den Umsatz, der vom Ende des 3. bis zum Ende des 11. Jahres erzielt wird."
+],
+"antworten":[
+"{1:NUMERICAL:=62,5174:0,1}",
+"{1:NUMERICAL:=0,7599:0,1}",
+"{1:NUMERICAL:=11,3393:0,1}",
+"{1:NUMERICAL:=28,307:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-2,8t^2+30t)e^{-0,4t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den jährlichen Umsatz nach 5 Jahren.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 4 Jahren erzielt wird.",
+"den Umsatz, der vom Ende des 5. bis zum Ende des 10. Jahres erzielt wird.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
+],
+"antworten":[
+"{1:NUMERICAL:=10,8268:0,1}",
+"{1:NUMERICAL:=17,5298:0,1}",
+"{1:NUMERICAL:=20,58:0,1}",
+"{1:NUMERICAL:=103,785:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(2,8t^2+18)e^{-0,2t}+1 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 38 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den jährlichen Umsatz nach 18 Jahren.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 20 Jahren erzielt wird.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
+"den Umsatz, der vom Ende des 11. bis zum Ende des 32. Jahres erzielt wird."
+],
+"antworten":[
+"{1:NUMERICAL:=26,2799:0,1}",
+"{1:NUMERICAL:=32,084:0,1}",
+"{1:NUMERICAL:=814,8251:0,1}",
+"{1:NUMERICAL:=434,2954:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=10te^{-0,8t}+4 \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet nach 7 Jahren.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den jährlichen Umsatz, der durchschnittlich in den ersten 2 Jahren erzielt wird.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
+"den Umsatz, der vom Ende des 3. bis zum Ende des 6. Jahres erzielt wird.",
+"den jährlichen Umsatz nach 6 Jahren."
+],
+"antworten":[
+"{1:NUMERICAL:=7,7115:0,1}",
+"{1:NUMERICAL:=43,2437:0,1}",
+"{1:NUMERICAL:=16,0736:0,1}",
+"{1:NUMERICAL:=4,4938:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,5t^2+25t)e^{-0,3t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 14 Jahren erzielt wird.",
+"den jährlichen Umsatz nach 5 Jahren.",
+"den Umsatz, der vom Ende des 2. bis zum Ende des 14. Jahres erzielt wird."
+],
+"antworten":[
+"{1:NUMERICAL:=169,287:0,1}",
+"{1:NUMERICAL:=12,0262:0,1}",
+"{1:NUMERICAL:=19,5239:0,1}",
+"{1:NUMERICAL:=137,073:0,1}"
+]
+},
+{
+"einleitung":"Die Funktion</p> <p>\\( u(t)=(-1,4t^2+27t)e^{-0,4t} \\)</p> <p>gibt den jährlichen Umsatz eines Produkts seit seiner Einführung an.</p> <p>Der Produktlebenszyklus endet, wenn das Produkt vom Marktgenommen wird.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den jährlichen Umsatz nach 2 Jahren.",
+"den jährlichen Umsatz, der durchschnittlich in den ersten 10 Jahren erzielt wird.",
+"den Umsatz, der vom Ende des 6. bis zum Ende des 12. Jahres erzielt wird.",
+"den Umsatz, der während des gesamten Lebenszyklus des Produkts erzielt wird."
+],
+"antworten":[
+"{1:NUMERICAL:=21,7475:0,1}",
+"{1:NUMERICAL:=11,9963:0,1}",
+"{1:NUMERICAL:=25,3059:0,1}",
+"{1:NUMERICAL:=125,0949:0,1}"
 ]
 }
 ]
