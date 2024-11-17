@@ -29,6 +29,7 @@
     });
 }
 
+
  // alle Antworten ausblenden
 function hideAllAnswers() {
     document.querySelectorAll('input[type="text"]').forEach(input => {

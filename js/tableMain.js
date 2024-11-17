@@ -6,7 +6,6 @@ $(document).ready(function() {
     loadHTML();
 });
 
-
 //dynamischer Pfad wegen Github - Liveserver
 const basePath = window.location.hostname.includes("github.io")
     ? "/digitalmath"
