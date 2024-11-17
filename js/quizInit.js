@@ -100,7 +100,7 @@ function replaceNumericalWithInteractive(htmlContent) {
     const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
     function replacer(match, correctAnswer, tolerance) {
         const interactiveHtml = `
-            <input type="text" id="answer${questionId}" placeholder="Antwort" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
+            <input type="text" id="answer${questionId}" placeholder="Antwort" autocomplete="off" aria-label="Frage ${questionId}" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
             <i class="fas fa-paper-plane check-icon " title="Frage abschicken" onclick="checkNumericalAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
             <span id="feedback${questionId}"></span>
         `;
@@ -124,7 +124,7 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
         }).join('');
 
         const interactiveHtml = `
-            <select id="answer${questionId}" class="mch" data-correct-answer="${correctAnswer}">
+            <select id="answer${questionId}" class="mch" aria-label="Multiple Choice Frage ${questionId}" data-correct-answer="${correctAnswer}">
                 ${optionsHtml}
             </select>
             <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
