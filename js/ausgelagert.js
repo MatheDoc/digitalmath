@@ -1,67 +1,67 @@
-
-// Neue Funktion, um alle richtigen Antworten anzuzeigen
-function showAllAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        const questionId = input.id.replace('answer', '');
-        const correctAnswer = input.getAttribute('data-correct-answer');
-        const feedbackElement = document.getElementById(`feedback${questionId}`);
-        feedbackElement.innerHTML = correctAnswer;
-        feedbackElement.style.color = "blue";
-        feedbackElement.style.opacity = 1;
-        input.style.display = "none";
-    });
-
-    document.querySelectorAll('select.mch').forEach(select => {
-        const questionId = select.id.replace('answer', '');
-        const correctAnswer = select.getAttribute('data-correct-answer');
-        const feedbackElement = document.getElementById(`feedback${questionId}`);
-        feedbackElement.innerHTML = correctAnswer;
-        feedbackElement.style.color = "blue";
-        feedbackElement.style.opacity = 1;
-        // Select2-Container ausblenden
-        const select2Container = select.nextElementSibling; // Nächstes Geschwisterelement nach select
-        if (select2Container && select2Container.classList.contains('select2')) {
-            select2Container.style.display = "none";
-        }
-    });
-
-    document.querySelectorAll('.check-icon').forEach(icon => {
-        icon.style.display = "none";
-    });
-}
-
-
-function hideAllAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        const questionId = input.id.replace('answer', '');
-        const feedbackElement = document.getElementById(`feedback${questionId}`);
-        feedbackElement.innerHTML = ''
-        input.style.display = "inline";
-    });
-
-    // Select2 Dropdowns zurücksetzen und erneut initialisieren
-    document.querySelectorAll('select.mch').forEach(select => {
-        const questionId = select.id.replace('answer', '');
-        const feedbackElement = document.getElementById(`feedback${questionId}`);
-        feedbackElement.innerHTML = ''; // Feedback zurücksetzen
-
-
-        // Entferne Select2 und setze Dropdown auf den Originalzustand
-        $(select).select2('destroy'); // Select2-Widget entfernen
-        select.style.display = "inline"; // Dropdown sichtbar machen
-
-        // Select2 erneut initialisieren
-        $(select).select2({
-            placeholder: "Antwort",
-            minimumResultsForSearch: Infinity,
-            width: 'auto'
+    // Neue Funktion, um alle richtigen Antworten anzuzeigen
+    function showAllAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(input => {
+            const questionId = input.id.replace('answer', '');
+            const correctAnswer = input.getAttribute('data-correct-answer');
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
+            feedbackElement.innerHTML = correctAnswer;
+            feedbackElement.style.color = "blue";
+            feedbackElement.style.opacity = 1;
+            input.style.display = "none";
         });
-    });
 
-    document.querySelectorAll('.check-icon').forEach(icon => {
-        icon.style.display = "inline";
-    });
-}
+        document.querySelectorAll('select.mch').forEach(select => {
+            const questionId = select.id.replace('answer', '');
+            const correctAnswer = select.getAttribute('data-correct-answer');
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
+            feedbackElement.innerHTML = correctAnswer;
+            feedbackElement.style.color = "blue";
+            feedbackElement.style.opacity = 1;
+            // Select2-Container ausblenden
+            const select2Container = select.nextElementSibling; // Nächstes Geschwisterelement nach select
+            if (select2Container && select2Container.classList.contains('select2')) {
+                select2Container.style.display = "none";
+            }
+        });
+
+
+        document.querySelectorAll('.check-icon').forEach(icon => {
+            icon.style.display = "none";
+        });
+    }
+
+
+    function hideAllAnswers() {
+        document.querySelectorAll('input[type="text"]').forEach(input => {
+            const questionId = input.id.replace('answer', '');
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
+            feedbackElement.innerHTML = ''
+            input.style.display = "inline";
+        });
+
+        // Select2 Dropdowns zurücksetzen und erneut initialisieren
+        document.querySelectorAll('select.mch').forEach(select => {
+            const questionId = select.id.replace('answer', '');
+            const feedbackElement = document.getElementById(`feedback${questionId}`);
+            feedbackElement.innerHTML = ''; // Feedback zurücksetzen
+
+
+            // Entferne Select2 und setze Dropdown auf den Originalzustand
+            $(select).select2('destroy'); // Select2-Widget entfernen
+            select.style.display = "inline"; // Dropdown sichtbar machen
+
+            // Select2 erneut initialisieren
+            $(select).select2({
+                placeholder: "Antwort",
+                minimumResultsForSearch: Infinity,
+                width: 'auto'
+            });
+        });
+
+        document.querySelectorAll('.check-icon').forEach(icon => {
+            icon.style.display = "inline";
+        });
+    }
 
 
 // pdf Export
@@ -71,7 +71,6 @@ function printToPDF() {
 
 let aufgabenZaehler = 1; // Initialisiere den Zähler
 let questionId = 1; // Eindeutige Frage-ID innerhalb einer Aufgabe
-
 
 function checkAnswer(questionId, correctAnswer, tolerance) {
     let userAnswerString = document.getElementById(`answer${questionId}`).value;
@@ -171,7 +170,7 @@ function replaceNumericalWithInteractive(htmlContent) {
     const pattern = /\{\d+:NUMERICAL:=(-?[0-9.,]+):([0-9.,]+)\}/g;
     function replacer(match, correctAnswer, tolerance) {
         const interactiveHtml = `
-            <input type="text" id="answer${questionId}" placeholder="Antwort" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
+            <input type="text" id="answer${questionId}" placeholder="Antwort" autocomplete="off" data-correct-answer="${correctAnswer.replace(',', '.')}" data-tolerance="${tolerance.replace(',', '.')}">
             <i class="fas fa-paper-plane check-icon "title="Frage abschicken" onclick="checkAnswer(${questionId}, ${correctAnswer.replace(',', '.')}, ${tolerance.replace(',', '.')})"></i>
             <span id="feedback${questionId}"></span>
         `;
@@ -223,7 +222,7 @@ function addCheckIconListeners() {
     });
 }
 
-
+// Eventlistener für Klick auf dropdowns
 
 
 
@@ -261,11 +260,17 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
         const randomIndex = Math.floor(Math.random() * aufgaben.length);
         const selectedTask = aufgaben[randomIndex];
         const aufgabeContainer = document.getElementById('aufgabe');
-        let htmlContent =
-            `<div class="einleitung">
-                <p>${selectedTask.einleitung}</p>
-            </div>
-            <div class="nachfolgend">`;
+        let htmlContent = "";
+
+            // Nur hinzufügen, wenn `selectedTask.einleitung` nicht leer ist
+            if (selectedTask.einleitung.trim() !== "") {
+                htmlContent += `
+                    <div class="einleitung">
+                        <p>${selectedTask.einleitung}</p>
+                    </div>`;
+            }
+
+            htmlContent += `<div class="nachfolgend">`;
                 if (selectedTask.fragen.length === 1) {
                     htmlContent += `<ol style="list-style-type: none;" aria-label>`;
                 }
@@ -308,9 +313,9 @@ zeigeNeueAufgabe();
 
 // Wenn es nur ein <li> gibt, entferne die Nummerierung
 document.querySelectorAll('ol').forEach(olElement => {
-    const listItems = olElement.getElementsByTagName('li');
-    if (listItems.length === 1) {
+const listItems = olElement.getElementsByTagName('li');
+if (listItems.length === 1) {
     olElement.style.listStyleType = "none";  // Entfernt die Nummerierung
     olElement.style.paddingLeft = "0";       // Entfernt den linken Abstand
-    }
-    });
+}
+});
