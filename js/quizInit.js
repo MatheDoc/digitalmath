@@ -15,7 +15,7 @@ function zeigeNeueAufgabe() {
         metaDescription.setAttribute('content', titel);  // Meta-Beschreibung setzen
     }
 
-    // Alternativ-Test
+    // Alternativ-Test, wenn ohne Effekt: löschen
     document.addEventListener('DOMContentLoaded', () => {
         const metaDescription = document.querySelector('meta[name="description"]');
         if (metaDescription) {
