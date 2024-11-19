@@ -10,7 +10,7 @@ function zeigeNeueAufgabe() {
     // Prüfen, ob der Parameter 'Titel' vorhanden ist
     if (titel) {
         const h3Element = document.getElementById('quiz-title');
-        h3Element.textContent += ' ' + titel;  // Titel anhängen
+        h3Element.textContent = titel;  // Titel anhängen
         const metaDescription = document.querySelector('meta[name="description"]');
         metaDescription.setAttribute('content', titel);  // Meta-Beschreibung setzen
     }
