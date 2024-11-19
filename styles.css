@@ -369,10 +369,13 @@ a.link-homepage:hover {
 }
 
 @media print {
+    @page {
+        margin: 0; /* Setzt die Seitenränder auf 0, um Kopf und Fußzeilen mit Meta-Info zu vermeiden */
+    }
     body {
-        margin: 0;
-        padding-left: 2cm;
-        padding-right: 2cm;
+        padding: 2cm;
+        padding-left: 3cm;
+        padding-right: 3cm;
         width: 21cm; /* A4-Breite */
         height: 29.7cm; /* A4-Höhe */
     }
