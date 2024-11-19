@@ -15,6 +15,15 @@ function zeigeNeueAufgabe() {
         metaDescription.setAttribute('content', titel);  // Meta-Beschreibung setzen
     }
 
+    // Alternativ-Test
+    document.addEventListener('DOMContentLoaded', () => {
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute('content', titel);
+        }
+    });
+
+
     // Prüfen, ob Sammlungen vorhanden sind
     if (sammlungen.length > 0) {
         // Eine zufällige Sammlung auswählen
