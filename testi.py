@@ -1,9 +1,18 @@
-from scipy.stats import binom
+import numpy as np
 
-# Parameter
-n = 39
-p = 0.25
+# Eingabe: Matrix A und Potenz n
+A = np.array([[0.3, 0,0], [ 0.3,0.3,0.2],[0.4,0.7,0.8]])  # Beispielmatrix
+B = np.array([[ 0,0,1], [ 0.3,0.2,0],[0.7,0.8,0]])  # Beispielmatrix
+P = np.array([[ 0.2,0.3,0.4], [ 0.1,0.2,0.3],[0.7,0.5,0.3]])  # Beispielmatrix
 
-# Wahrscheinlichkeit berechnen: P(5 <= X <= 15)
-prob = binom.cdf(15, n, p) - binom.cdf(4, n, p)
-print(prob)
+n = 200  # Potenz (z. B. A^3)
+
+# Potenzberechnung
+try:
+    A_power = np.linalg.matrix_power(A, n)
+    print(f"Matrix A hoch {n}:")
+    print(A_power)
+except ValueError as e:
+    print("Fehler bei der Berechnung:", e)
+
+print(A)

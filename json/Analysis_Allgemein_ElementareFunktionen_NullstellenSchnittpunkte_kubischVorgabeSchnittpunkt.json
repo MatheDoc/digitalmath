@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=6x^3+2x^2+2x-6 \\)</p> <p> und </p> <p>\\( g(x)=-13x^3+12x^2+446x+902 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=2\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=-2966:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=54:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=3210:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=5x+6 \\)</p> <p> und </p> <p>\\( g(x)=-9x^3-90x^2-104x-636 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-7\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-29:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-19:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=16:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=8x^2-6x+1 \\)</p> <p> und </p> <p>\\( g(x)=x^3-11x^2-7x-16 \\).",
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-6x^2+5 \\)</p> <p> und </p> <p>\\( g(x)=4x^3+26x^2+60x+5 \\).",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-3\\) eine Schnittstelle ist."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=91:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=3:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=5:0}\\( | \\){1:NUMERICAL:=171:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-145:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=-49:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=5:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-3x^3-x^2-6x-7 \\)</p> <p> und </p> <p>\\( g(x)=11x^3+17x^2-162x-137 \\).",
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-3x^3+4 \\)</p> <p> und </p> <p>\\( g(x)=3x^3-66x^2-24x-1340 \\).",
 "fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=3\\) eine Schnittstelle ist."
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-4\\) eine Schnittstelle ist."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-6:0}\\( | \\){1:NUMERICAL:=641:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-17:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=-115:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=196:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-1025:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=-1532:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-5x^3-3x^2-9 \\)</p> <p> und </p> <p>\\( g(x)=-2x^3+52x^2-49x+114 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=3\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=-7:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=-171:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=5:0}\\( | \\){1:NUMERICAL:=-709:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-5x^3-4 \\)</p> <p> und </p> <p>\\( g(x)=6x^3-4x^2-25x-24 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=7\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=316:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-9:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-1719:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-9x^2-3x \\)</p> <p> und </p> <p>\\( g(x)=2x^3+23x^2-103x+630 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-9\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=-702:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-210:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-462:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=2x^3-6 \\)</p> <p> und </p> <p>\\( g(x)=-11x^3-189x^2-1287x+2841 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-9\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=-1464:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-692:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-256:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=8x^3-3x^2 \\)</p> <p> und </p> <p>\\( g(x)=-12x^3+11x^2+124x-112 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-1\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=-560:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=-11:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=2597:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-4x^3+6x^2 \\)</p> <p> und </p> <p>\\( g(x)=12x^3+10x^2-104x-80 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-5\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=650:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=2:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=-8:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-6x^3-8x \\)</p> <p> und </p> <p>\\( g(x)=3x^3+47x-36 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=4\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=186:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=14:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=-416:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=8x+1 \\)</p> <p> und </p> <p>\\( g(x)=8x^3-304x-673 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=3\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-55:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=25:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=33:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=2x^3-4x+6 \\)</p> <p> und </p> <p>\\( g(x)=x^3+18x^2-53x+246 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-3\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-652:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=-36:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=118:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-9x^3+4x-1 \\)</p> <p> und </p> <p>\\( g(x)=15x^3+30x^2+8x+49 \\).",
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=7x^2+9 \\)</p> <p> und </p> <p>\\( g(x)=7x^3-14x^2-231x-236 \\).",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=1\\) eine Schnittstelle ist."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=559:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=63:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-6:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=184:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=16:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=352:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-4x^3-7x^2-5x-9 \\)</p> <p> und </p> <p>\\( g(x)=2x^3+11x^2+77x+153 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=6\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-6:0}\\( | \\){1:NUMERICAL:=633:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=-79:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=-1155:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=4x^3+4x^2+5x \\)</p> <p> und </p> <p>\\( g(x)=3x^3+24x^2-488x+1512 \\).",
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=9x-4 \\)</p> <p> und </p> <p>\\( g(x)=-4x^3+20x^2+97x-68 \\).",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=8\\) eine Schnittstelle ist."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=-2637:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=-87:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=2344:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=-22:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=-13:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=68:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=3x^3-x+1 \\)</p> <p> und </p> <p>\\( g(x)=2x^3-20x^2-124x-501 \\).",
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-6x^3-3 \\)</p> <p> und </p> <p>\\( g(x)=2x^3-88x^2+80x-579 \\).",
 "fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=5\\) eine Schnittstelle ist."
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=9\\) eine Schnittstelle ist."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-369:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=189:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=5:0}\\( | \\){1:NUMERICAL:=371:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=45:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=-387:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=-4377:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=8x^3 \\)</p> <p> und </p> <p>\\( g(x)=-13x^3-65x^2-250x+280 \\).",
-"fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-7\\) eine Schnittstelle ist."
-],
-"antworten":[
-"\\( P( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-2744:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=-512:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=-64:0}\\( ) \\)"
-]
-},
-{
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=9x-8 \\)</p> <p> und </p> <p>\\( g(x)=-5x^3-50x^2+46x-892 \\).",
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-7x^3-5x \\)</p> <p> und </p> <p>\\( g(x)=-10x^3-12x^2+46x-180 \\).",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-5\\) eine Schnittstelle ist."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=-89:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-53:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=28:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=900:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=204:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=-468:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-5x^3+4x-4 \\)</p> <p> und </p> <p>\\( g(x)=14x^3-144x^2+563x+4 \\).",
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=x^3+x^2+8x \\)</p> <p> und </p> <p>\\( g(x)=-7x^3+57x^2+432x+2520 \\).",
 "fragen":[
-"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=0\\) eine Schnittstelle ist."
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=5\\) eine Schnittstelle ist."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=-4:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-1691:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=-3613:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-350:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=5:0}\\( | \\){1:NUMERICAL:=190:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=882:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-3x^3-6x-8 \\)</p> <p> und </p> <p>\\( g(x)=3x^3+42x^2-114x-8 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=2\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=2233:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=-8:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=-44:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-5x^3-5 \\)</p> <p> und </p> <p>\\( g(x)=-4x^3-2x^2-3x-5 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-1\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=0:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=-5:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=-140:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=x^2 \\)</p> <p> und </p> <p>\\( g(x)=6x^3+43x^2-384x+2688 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-8\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=64:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=49:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=64:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-7x^3-9x-6 \\)</p> <p> und </p> <p>\\( g(x)=x^3+24x^2-377x+1338 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-4\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-6:0}\\( | \\){1:NUMERICAL:=1560:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=478:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-2470:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-4x^3+4x^2 \\)</p> <p> und </p> <p>\\( g(x)=-11x^3+25x^2-14x \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=2\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=0:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=0:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=-16:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-5x^3-3x^2 \\)</p> <p> und </p> <p>\\( g(x)=-8x^3-57x^2-285x+378 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-2\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=3402:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=1568:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=28:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=9x^3-6x^2-2x+6 \\)</p> <p> und </p> <p>\\( g(x)=10x^3-5x^2-74x+6 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-9\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=-7023:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=6:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=4214:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-7x^3+6x^2+8 \\)</p> <p> und </p> <p>\\( g(x)=2x^3-84x^2+279x+278 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=3\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=-24:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=-127:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=5:0}\\( | \\){1:NUMERICAL:=-717:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-3x^2-x-7 \\)</p> <p> und </p> <p>\\( g(x)=x^3-8x^2-39x-175 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=7\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-6:0}\\( | \\){1:NUMERICAL:=-109:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=-59:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-161:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=3x^3-6x+2 \\)</p> <p> und </p> <p>\\( g(x)=9x^3-12x^2-24x+2 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=3\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=5:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=2:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=65:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=8x^3-6x^2 \\)</p> <p> und </p> <p>\\( g(x)=2x^3-30x^2+24x-96 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-2\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=-608:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=-88:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=40:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=-5x^3+3x^2+4x-7 \\)</p> <p> und </p> <p>\\( g(x)=-11x^3-9x^2+430x-439 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=-9\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=3845:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=-3:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=-2343:0}\\( ) \\)"
+]
+},
+{
+"einleitung":"Gegeben sind die Funktionen </p> <p>\\( f(x)=2x^3+3x^2-9x-2 \\)</p> <p> und </p> <p>\\( g(x)=11x^3-51x^2-252x-1262 \\).",
+"fragen":[
+"Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte). Es ist bekannt, dass \\( x=7\\) eine Schnittstelle ist."
+],
+"antworten":[
+"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-132:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=138:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=768:0}\\( ) \\)"
 ]
 }
 ]
