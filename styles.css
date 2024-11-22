@@ -8,11 +8,12 @@ h1 {
     background-color: #7e7e7e;
     color: white;
     padding: 10px;
-    margin-bottom: 20px;
+    /*margin-bottom: 200px;*/
     text-align: center;
 }
 
 h2 {
+    /*display: none;*/
     color: #7e7e7e;
     margin: 0px auto 0; /* Oben und unten: 20px, zentriert */
     text-align: center;

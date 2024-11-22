@@ -68,7 +68,7 @@ function addButtons(){
                 return 'sammlung=' + sammlungsname;
             });
             var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '&titel=' + encodeURIComponent(ichKannText);
-            window.open(testUrl, '_blank',`width=540px,height=960px}`); // Öffne URL in einem neuen Tab/Fenster
+            window.open(testUrl, '_blank',`width=440px,height=960px}`); // Öffne URL in einem neuen Tab/Fenster
         }
     });   
     

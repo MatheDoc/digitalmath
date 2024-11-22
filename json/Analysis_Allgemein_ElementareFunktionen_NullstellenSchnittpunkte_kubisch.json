@@ -1,15 +1,168 @@
 ﻿[
 {
-"einleitung":"Gegeben ist die Funktion \\( f(x)=6x^3+6x^2-264x-576 \\).",
+"einleitung":"Gegeben: \\( f(x)=-9x^3+18x^2+495x+504 \\)",
 "fragen":[
 "Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
 ],
 "antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-8:0} \\(x_2=\\){1:NUMERICAL:=3:0} \\(x_3=\\){1:NUMERICAL:=4:0}"
+"\\(x_1=\\){1:NUMERICAL:=-7:0} \\(x_2=\\){1:NUMERICAL:=1:0} \\(x_3=\\){1:NUMERICAL:=8:0}"
 ]
 },
 {
-"einleitung":"Gegeben ist die Funktion \\( f(x)=-4x^3-20x^2+208x-896 \\).",
+"einleitung":"Gegeben: \\( f(x)=-8x^3-56x^2+224x-1280 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-8:0} \\(x_2=\\){1:NUMERICAL:=-4:0} \\(x_3=\\){1:NUMERICAL:=5:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=2x^3+26x^2+78x-54 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-9:0} \\(x_2=\\){1:NUMERICAL:=-3:0} \\(x_3=\\){1:NUMERICAL:=-1:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-4x^3-16x^2+84x \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-7:0} \\(x_2=\\){1:NUMERICAL:=0:0} \\(x_3=\\){1:NUMERICAL:=3:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=6x^3-36x^2-186x-216 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-4:0} \\(x_2=\\){1:NUMERICAL:=1:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=7x^3-77x^2+168x \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=0:0} \\(x_2=\\){1:NUMERICAL:=3:0} \\(x_3=\\){1:NUMERICAL:=8:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=2x^3+2x^2-116x+224 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-7:0} \\(x_2=\\){1:NUMERICAL:=-2:0} \\(x_3=\\){1:NUMERICAL:=8:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-6x^3+24x^2+174x-144 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-3:0} \\(x_2=\\){1:NUMERICAL:=-1:0} \\(x_3=\\){1:NUMERICAL:=8:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-4x^3+48x^2-188x-240 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=3:0} \\(x_2=\\){1:NUMERICAL:=4:0} \\(x_3=\\){1:NUMERICAL:=5:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-5x^3-15x^2+140x-300 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-6:0} \\(x_2=\\){1:NUMERICAL:=-2:0} \\(x_3=\\){1:NUMERICAL:=5:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-8x^3+648x \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-9:0} \\(x_2=\\){1:NUMERICAL:=0:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=3x^3+3x^2-162x+432 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-6:0} \\(x_2=\\){1:NUMERICAL:=-3:0} \\(x_3=\\){1:NUMERICAL:=8:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=6x^3+36x^2-270x+972 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-9:0} \\(x_2=\\){1:NUMERICAL:=-3:0} \\(x_3=\\){1:NUMERICAL:=6:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-3x^3+36x^2-81x+120 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-1:0} \\(x_2=\\){1:NUMERICAL:=5:0} \\(x_3=\\){1:NUMERICAL:=8:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=3x^3-18x^2-57x-72 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-3:0} \\(x_2=\\){1:NUMERICAL:=1:0} \\(x_3=\\){1:NUMERICAL:=8:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-8x^3+8x^2+296x-280 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-5:0} \\(x_2=\\){1:NUMERICAL:=-1:0} \\(x_3=\\){1:NUMERICAL:=7:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-x^3+6x^2+9x+14 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-2:0} \\(x_2=\\){1:NUMERICAL:=1:0} \\(x_3=\\){1:NUMERICAL:=7:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=2x^3-2x^2-120x+216 \\)",
+"fragen":[
+"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
+],
+"antworten":[
+"\\(x_1=\\){1:NUMERICAL:=-6:0} \\(x_2=\\){1:NUMERICAL:=-2:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
+]
+},
+{
+"einleitung":"Gegeben: \\( f(x)=-x^3-5x^2+52x-224 \\)",
 "fragen":[
 "Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
 ],
@@ -18,165 +171,12 @@
 ]
 },
 {
-"einleitung":"Gegeben ist die Funktion \\( f(x)=2x^3-16x^2-102x-756 \\).",
+"einleitung":"Gegeben: \\( f(x)=8x^3-40x^2-48x \\)",
 "fragen":[
 "Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
 ],
 "antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-7:0} \\(x_2=\\){1:NUMERICAL:=6:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=-x^3+6x^2+9x+54 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-3:0} \\(x_2=\\){1:NUMERICAL:=3:0} \\(x_3=\\){1:NUMERICAL:=6:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=-8x^3+16x^2+552x+2160 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-9:0} \\(x_2=\\){1:NUMERICAL:=5:0} \\(x_3=\\){1:NUMERICAL:=6:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=2x^3+4x^2-50x+100 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-5:0} \\(x_2=\\){1:NUMERICAL:=-2:0} \\(x_3=\\){1:NUMERICAL:=5:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=5x^3+25x^2-165x-135 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-9:0} \\(x_2=\\){1:NUMERICAL:=1:0} \\(x_3=\\){1:NUMERICAL:=3:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=x^3-4x^2-51x-54 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-6:0} \\(x_2=\\){1:NUMERICAL:=1:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=-3x^3+39x^2-162x-216 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=3:0} \\(x_2=\\){1:NUMERICAL:=4:0} \\(x_3=\\){1:NUMERICAL:=6:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=6x^3+60x^2+174x-120 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-5:0} \\(x_2=\\){1:NUMERICAL:=-4:0} \\(x_3=\\){1:NUMERICAL:=-1:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=-7x^3+35x^2+567x+2835 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-9:0} \\(x_2=\\){1:NUMERICAL:=5:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=9x^3-18x^2-189x+162 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-3:0} \\(x_2=\\){1:NUMERICAL:=-1:0} \\(x_3=\\){1:NUMERICAL:=6:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=3x^3-54x^2+297x+486 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=3:0} \\(x_2=\\){1:NUMERICAL:=6:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=3x^3-15x^2-171x-567 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-7:0} \\(x_2=\\){1:NUMERICAL:=3:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=-7x^3-42x^2+280x-1344 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-8:0} \\(x_2=\\){1:NUMERICAL:=-4:0} \\(x_3=\\){1:NUMERICAL:=6:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=-5x^3+70x^2-295x-350 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=2:0} \\(x_2=\\){1:NUMERICAL:=5:0} \\(x_3=\\){1:NUMERICAL:=7:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=5x^3-40x^2-325x-2520 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-8:0} \\(x_2=\\){1:NUMERICAL:=7:0} \\(x_3=\\){1:NUMERICAL:=9:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=-4x^3-28x^2+212x-1260 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-9:0} \\(x_2=\\){1:NUMERICAL:=-5:0} \\(x_3=\\){1:NUMERICAL:=7:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=3x^3+9x^2-12x \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-4:0} \\(x_2=\\){1:NUMERICAL:=0:0} \\(x_3=\\){1:NUMERICAL:=1:0}"
-]
-},
-{
-"einleitung":"Gegeben ist die Funktion \\( f(x)=8x^3-16x^2-184x-480 \\).",
-"fragen":[
-"Bestimmen Sie die Nullstellen der Funktion \\( f \\) (Angabe der Nullstellen in aufsteigender Reihenfolge)."
-],
-"antworten":[
-"\\(x_1=\\){1:NUMERICAL:=-5:0} \\(x_2=\\){1:NUMERICAL:=3:0} \\(x_3=\\){1:NUMERICAL:=4:0}"
+"\\(x_1=\\){1:NUMERICAL:=-1:0} \\(x_2=\\){1:NUMERICAL:=0:0} \\(x_3=\\){1:NUMERICAL:=6:0}"
 ]
 }
 ]
