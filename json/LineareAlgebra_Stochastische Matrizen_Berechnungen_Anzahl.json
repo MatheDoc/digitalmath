@@ -1,262 +1,262 @@
 ﻿[
 {
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,2</td>\n        <td>0,7</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0,2</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0,6</td>\n        <td>0,3</td>\n        <td>1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}7020\\\\3520\\\\89460\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=424,456:0}<br>\\( b= \\){1:NUMERICAL:=178,56:0}<br>\\( c= \\){1:NUMERICAL:=99396,984:0}<br>",
-"\\( a= \\){1:NUMERICAL:=90000:0}<br>\\( b= \\){1:NUMERICAL:=10000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=100000:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,6</td>\n        <td>0</td>\n        <td>0,5</td>\n    </tr>\n    <tr>\n        <td>0,3</td>\n        <td>0,9</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0,1</td>\n        <td>0,1</td>\n        <td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}143200\\\\700800\\\\156000\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=201468,032:0}<br>\\( b= \\){1:NUMERICAL:=631974,528:0}<br>\\( c= \\){1:NUMERICAL:=166557,44:0}<br>",
-"\\( a= \\){1:NUMERICAL:=120000:0}<br>\\( b= \\){1:NUMERICAL:=780000:0}<br>\\( c= \\){1:NUMERICAL:=100000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=208333,3333:0}<br>\\( b= \\){1:NUMERICAL:=625000:0}<br>\\( c= \\){1:NUMERICAL:=166666,6667:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>1</td>\n        <td>0,6</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>0</td>\n        <td>0,7</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>0,4</td>\n        <td>0,3</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}81440\\\\6720\\\\11840\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=90444,8:0}<br>\\( b= \\){1:NUMERICAL:=4368:0}<br>\\( c= \\){1:NUMERICAL:=5187,2:0}<br>",
-"\\( a= \\){1:NUMERICAL:=68000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=32000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=99999,9996:0}<br>\\( b= \\){1:NUMERICAL:=0,0002:0}<br>\\( c= \\){1:NUMERICAL:=0,0002:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0</td>\n        <td>1</td>\n        <td>0,5</td>\n    </tr>\n    <tr>\n        <td>0,4</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0,6</td>\n        <td>0</td>\n        <td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}632500\\\\30000\\\\337500\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=467331,25:0}<br>\\( b= \\){1:NUMERICAL:=110475:0}<br>\\( c= \\){1:NUMERICAL:=422193,75:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=700000:0}<br>\\( c= \\){1:NUMERICAL:=300000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=384615,6983:0}<br>\\( b= \\){1:NUMERICAL:=153845,9892:0}<br>\\( c= \\){1:NUMERICAL:=461538,3124:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0</td>\n        <td>0,4</td>\n        <td>0,8</td>\n    </tr>\n    <tr>\n        <td>0,4</td>\n        <td>0,6</td>\n        <td>0,2</td>\n    </tr>\n    <tr>\n        <td>0,6</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}3552\\\\4480\\\\1968\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=3405,568:0}<br>\\( b= \\){1:NUMERICAL:=4490,88:0}<br>\\( c= \\){1:NUMERICAL:=2103,552:0}<br>",
-"\\( a= \\){1:NUMERICAL:=3000:0}<br>\\( b= \\){1:NUMERICAL:=5000:0}<br>\\( c= \\){1:NUMERICAL:=2000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=3448,2759:0}<br>\\( b= \\){1:NUMERICAL:=4482,7586:0}<br>\\( c= \\){1:NUMERICAL:=2068,9655:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0</td>\n        <td>1</td>\n        <td>0,4</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>0</td>\n        <td>0,6</td>\n    </tr>\n    <tr>\n        <td>1</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}208000\\\\312000\\\\480000\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=371200:0}<br>\\( b= \\){1:NUMERICAL:=124800:0}<br>\\( c= \\){1:NUMERICAL:=504000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=520000:0}<br>\\( b= \\){1:NUMERICAL:=480000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=384615,0254:0}<br>\\( b= \\){1:NUMERICAL:=230769,6666:0}<br>\\( c= \\){1:NUMERICAL:=384615,3079:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,3</td>\n        <td>0,1</td>\n        <td>0,6</td>\n    </tr>\n    <tr>\n        <td>0,5</td>\n        <td>0,9</td>\n        <td>0,3</td>\n    </tr>\n    <tr>\n        <td>0,2</td>\n        <td>0</td>\n        <td>0,1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}17380\\\\78040\\\\4580\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=14578,4326:0}<br>\\( b= \\){1:NUMERICAL:=82162,07:0}<br>\\( c= \\){1:NUMERICAL:=3259,4974:0}<br>",
-"\\( a= \\){1:NUMERICAL:=32000:0}<br>\\( b= \\){1:NUMERICAL:=62000:0}<br>\\( c= \\){1:NUMERICAL:=6000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=14516,129:0}<br>\\( b= \\){1:NUMERICAL:=82258,0645:0}<br>\\( c= \\){1:NUMERICAL:=3225,8065:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,3</td>\n        <td>0,9</td>\n        <td>0,1</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>0</td>\n        <td>0,7</td>\n    </tr>\n    <tr>\n        <td>0,7</td>\n        <td>0,1</td>\n        <td>0,2</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}387200\\\\194600\\\\418200\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=382925,488:0}<br>\\( b= \\){1:NUMERICAL:=259861,546:0}<br>\\( c= \\){1:NUMERICAL:=357212,966:0}<br>",
-"\\( a= \\){1:NUMERICAL:=300000:0}<br>\\( b= \\){1:NUMERICAL:=100000:0}<br>\\( c= \\){1:NUMERICAL:=600000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=380208,3334:0}<br>\\( b= \\){1:NUMERICAL:=255208,3333:0}<br>\\( c= \\){1:NUMERICAL:=364583,3333:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0</td>\n        <td>0</td>\n        <td>1</td>\n    </tr>\n    <tr>\n        <td>0,3</td>\n        <td>0,5</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0,7</td>\n        <td>0,5</td>\n        <td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}190000\\\\281000\\\\529000\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=469050:0}<br>\\( b= \\){1:NUMERICAL:=210775:0}<br>\\( c= \\){1:NUMERICAL:=320175:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=380000:0}<br>\\( c= \\){1:NUMERICAL:=620000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=384615,1402:0}<br>\\( b= \\){1:NUMERICAL:=230769,2888:0}<br>\\( c= \\){1:NUMERICAL:=384615,5709:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0</td>\n        <td>1</td>\n        <td>0,4</td>\n    </tr>\n    <tr>\n        <td>0,1</td>\n        <td>0</td>\n        <td>0,3</td>\n    </tr>\n    <tr>\n        <td>0,9</td>\n        <td>0</td>\n        <td>0,3</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}330400\\\\162000\\\\507600\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=365176:0}<br>\\( b= \\){1:NUMERICAL:=171396:0}<br>\\( c= \\){1:NUMERICAL:=463428:0}<br>",
-"\\( a= \\){1:NUMERICAL:=280000:0}<br>\\( b= \\){1:NUMERICAL:=240000:0}<br>\\( c= \\){1:NUMERICAL:=480000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=360824,7423:0}<br>\\( b= \\){1:NUMERICAL:=175257,732:0}<br>\\( c= \\){1:NUMERICAL:=463917,5258:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,2</td>\n        <td>0,3</td>\n        <td>0,1</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>0</td>\n        <td>0,7</td>\n    </tr>\n    <tr>\n        <td>0,8</td>\n        <td>0,7</td>\n        <td>0,2</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}1530\\\\4270\\\\4200\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=1886,29:0}<br>\\( b= \\){1:NUMERICAL:=3271,94:0}<br>\\( c= \\){1:NUMERICAL:=4841,77:0}<br>",
-"\\( a= \\){1:NUMERICAL:=1000:0}<br>\\( b= \\){1:NUMERICAL:=7000:0}<br>\\( c= \\){1:NUMERICAL:=2000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=1856,2874:0}<br>\\( b= \\){1:NUMERICAL:=3353,2934:0}<br>\\( c= \\){1:NUMERICAL:=4790,4192:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,8</td>\n        <td>1</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>0</td>\n        <td>1</td>\n    </tr>\n    <tr>\n        <td>0,2</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}712000\\\\160000\\\\128000\\\\ \\end{matrix}\\right) \\) gegeben.",
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,6</td><td>0</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0</td><td>0,3</td><td>1</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,4<td>0,7</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}172800\\\\411700\\\\415500\\\\ \\end{matrix}\\right) \\) gegeben.",
 "fragen":[
 "Bestimmen Sie die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahren.",
 "Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
 "Bestimmen Sie die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=715315,2:0}<br>\\( b= \\){1:NUMERICAL:=142336:0}<br>\\( c= \\){1:NUMERICAL:=142348,8:0}<br>",
-"\\( a= \\){1:NUMERICAL:=800000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=200000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=714285,7143:0}<br>\\( b= \\){1:NUMERICAL:=142857,1429:0}<br>\\( c= \\){1:NUMERICAL:=142857,1429:0}<br>"
+"\\( a= \\){1:NUMERICAL:=22394,88:0}<br>\\( b= \\){1:NUMERICAL:=560537,17:0}<br>\\( c= \\){1:NUMERICAL:=417067,95:0}<br>",
+"\\( a= \\){1:NUMERICAL:=480000:0}<br>\\( b= \\){1:NUMERICAL:=130000:0}<br>\\( c= \\){1:NUMERICAL:=390000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=588235,2933:0}<br>\\( c= \\){1:NUMERICAL:=411764,7067:0}<br>"
 ]
 },
 {
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0</td>\n        <td>0</td>\n        <td>0,7</td>\n    </tr>\n    <tr>\n        <td>0,2</td>\n        <td>0,3</td>\n        <td>0,3</td>\n    </tr>\n    <tr>\n        <td>0,8</td>\n        <td>0,7</td>\n        <td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}2548\\\\2643\\\\4809\\\\ \\end{matrix}\\right) \\) gegeben.",
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,3</td><td>0</td><td>0,8</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,3</td><td>1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,4<td>0</td><td>0,2</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}16320\\\\74400\\\\9280\\\\ \\end{matrix}\\right) \\) gegeben.",
 "fragen":[
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
 "Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
 "Bestimmen Sie die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=2721,95:0}<br>\\( b= \\){1:NUMERICAL:=2663,37:0}<br>\\( c= \\){1:NUMERICAL:=4614,68:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2000:0}<br>\\( b= \\){1:NUMERICAL:=5000:0}<br>\\( c= \\){1:NUMERICAL:=3000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=3006,1318:0}<br>\\( b= \\){1:NUMERICAL:=2699,3861:0}<br>\\( c= \\){1:NUMERICAL:=4294,4821:0}<br>"
+"\\( a= \\){1:NUMERICAL:=5638,864:0}<br>\\( b= \\){1:NUMERICAL:=90706,5696:0}<br>\\( c= \\){1:NUMERICAL:=3654,5664:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=60000:0}<br>\\( c= \\){1:NUMERICAL:=40000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0,6648:0}<br>\\( b= \\){1:NUMERICAL:=99998,9048:0}<br>\\( c= \\){1:NUMERICAL:=0,4304:0}<br>"
 ]
 },
 {
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,9</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>1</td>\n        <td>0,4</td>\n    </tr>\n    <tr>\n        <td>0,1</td>\n        <td>0</td>\n        <td>0,6</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}145800\\\\776800\\\\77400\\\\ \\end{matrix}\\right) \\) gegeben.",
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle veranschaulicht das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,2</td><td>0,3</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,8</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0<td>0,7</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}294000\\\\48000\\\\658000\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=282600:0}<br>\\( b= \\){1:NUMERICAL:=92160:0}<br>\\( c= \\){1:NUMERICAL:=625240:0}<br>",
+"\\( a= \\){1:NUMERICAL:=300000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=700000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=188463,753:0}<br>\\( b= \\){1:NUMERICAL:=452313,1731:0}<br>\\( c= \\){1:NUMERICAL:=359223,0739:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0</td><td>0</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,5</td><td>0</td><td>0,8</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,5<td>1</td><td>0,1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}7670\\\\62460\\\\29870\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=3615,27:0}<br>\\( b= \\){1:NUMERICAL:=32386,26:0}<br>\\( c= \\){1:NUMERICAL:=63998,47:0}<br>",
+"\\( a= \\){1:NUMERICAL:=30000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=70000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=5128,6351:0}<br>\\( b= \\){1:NUMERICAL:=43592,9273:0}<br>\\( c= \\){1:NUMERICAL:=51278,4377:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,6</td><td>0</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,4</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0<td>0,3</td><td>0,6</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}30960\\\\35620\\\\33420\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=29978,8104:0}<br>\\( b= \\){1:NUMERICAL:=40202,4838:0}<br>\\( c= \\){1:NUMERICAL:=29818,7058:0}<br>",
+"\\( a= \\){1:NUMERICAL:=16000:0}<br>\\( b= \\){1:NUMERICAL:=42000:0}<br>\\( c= \\){1:NUMERICAL:=42000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=30000:0}<br>\\( b= \\){1:NUMERICAL:=40000:0}<br>\\( c= \\){1:NUMERICAL:=30000:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,9</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,1<td>0,3</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}0\\\\9300\\\\700\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=911,4:0}<br>\\( b= \\){1:NUMERICAL:=8092,57:0}<br>\\( c= \\){1:NUMERICAL:=996,03:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=10000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
+"\\( a= \\){1:NUMERICAL:=3315,6706:0}<br>\\( b= \\){1:NUMERICAL:=4918,0256:0}<br>\\( c= \\){1:NUMERICAL:=1766,3037:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,6</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,4</td><td>0,3</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0<td>0</td><td>1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}0\\\\0\\\\1000000\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=1000000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=1000000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=1000000:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle veranschaulicht das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,1</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,3</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,6<td>0,3</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}61000\\\\24000\\\\15000\\\\ \\end{matrix}\\right) \\) gegeben.",
 "fragen":[
 "Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
 "Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
 "Bestimmen Sie die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=106288,2:0}<br>\\( b= \\){1:NUMERICAL:=852061,6:0}<br>\\( c= \\){1:NUMERICAL:=41650,2:0}<br>",
-"\\( a= \\){1:NUMERICAL:=180000:0}<br>\\( b= \\){1:NUMERICAL:=680000:0}<br>\\( c= \\){1:NUMERICAL:=140000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=751,4204:0}<br>\\( b= \\){1:NUMERICAL:=998998,1061:0}<br>\\( c= \\){1:NUMERICAL:=250,4735:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,7</td>\n        <td>1</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0,1</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0,2</td>\n        <td>0</td>\n        <td>1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}48300\\\\5900\\\\45800\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=32627:0}<br>\\( b= \\){1:NUMERICAL:=3971:0}<br>\\( c= \\){1:NUMERICAL:=63402:0}<br>",
+"\\( a= \\){1:NUMERICAL:=27781:0}<br>\\( b= \\){1:NUMERICAL:=35403:0}<br>\\( c= \\){1:NUMERICAL:=36816:0}<br>",
 "\\( a= \\){1:NUMERICAL:=100000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2,629:0}<br>\\( b= \\){1:NUMERICAL:=0,32:0}<br>\\( c= \\){1:NUMERICAL:=99997,051:0}<br>"
+"\\( a= \\){1:NUMERICAL:=34482,7587:0}<br>\\( b= \\){1:NUMERICAL:=34482,7586:0}<br>\\( c= \\){1:NUMERICAL:=31034,4827:0}<br>"
 ]
 },
 {
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle veranschaulicht das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,5</td>\n        <td>0,7</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>0</td>\n        <td>1</td>\n    </tr>\n    <tr>\n        <td>0,5</td>\n        <td>0,3</td>\n        <td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}46600\\\\26000\\\\27400\\\\ \\end{matrix}\\right) \\) gegeben.",
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0</td><td>0</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,3</td><td>0</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,7<td>1</td><td>0,3</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}564\\\\3567\\\\5869\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=581,818:0}<br>\\( b= \\){1:NUMERICAL:=3662,583:0}<br>\\( c= \\){1:NUMERICAL:=5755,599:0}<br>",
+"\\( a= \\){1:NUMERICAL:=6000:0}<br>\\( b= \\){1:NUMERICAL:=1000:0}<br>\\( c= \\){1:NUMERICAL:=3000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=578,0347:0}<br>\\( b= \\){1:NUMERICAL:=3641,6185:0}<br>\\( c= \\){1:NUMERICAL:=5780,3468:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,8</td><td>1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,2<td>0</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}1800\\\\8160\\\\40\\\\ \\end{matrix}\\right) \\) gegeben.",
 "fragen":[
 "Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
 "Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
 "Bestimmen Sie die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=39930:0}<br>\\( b= \\){1:NUMERICAL:=31100:0}<br>\\( c= \\){1:NUMERICAL:=28970:0}<br>",
-"\\( a= \\){1:NUMERICAL:=52000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=48000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=41176,4706:0}<br>\\( b= \\){1:NUMERICAL:=29411,7647:0}<br>\\( c= \\){1:NUMERICAL:=29411,7647:0}<br>"
+"\\( a= \\){1:NUMERICAL:=360:0}<br>\\( b= \\){1:NUMERICAL:=9632:0}<br>\\( c= \\){1:NUMERICAL:=8:0}<br>",
+"\\( a= \\){1:NUMERICAL:=9000:0}<br>\\( b= \\){1:NUMERICAL:=800:0}<br>\\( c= \\){1:NUMERICAL:=200:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=10000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>"
 ]
 },
 {
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle veranschaulicht das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,2</td>\n        <td>0</td>\n        <td>0,5</td>\n    </tr>\n    <tr>\n        <td>0,6</td>\n        <td>0,5</td>\n        <td>0</td>\n    </tr>\n    <tr>\n        <td>0,2</td>\n        <td>0,5</td>\n        <td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}24800\\\\29400\\\\45800\\\\ \\end{matrix}\\right) \\) gegeben.",
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,2</td><td>0</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,6</td><td>1</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,2<td>0</td><td>0,7</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}106000\\\\593000\\\\301000\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=48254:0}<br>\\( b= \\){1:NUMERICAL:=814187:0}<br>\\( c= \\){1:NUMERICAL:=137559:0}<br>",
+"\\( a= \\){1:NUMERICAL:=200000:0}<br>\\( b= \\){1:NUMERICAL:=300000:0}<br>\\( c= \\){1:NUMERICAL:=500000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0,2253:0}<br>\\( b= \\){1:NUMERICAL:=999999,1325:0}<br>\\( c= \\){1:NUMERICAL:=0,6422:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle veranschaulicht das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,9</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0</td><td>0,2</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,1<td>0,1</td><td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}6824\\\\1360\\\\1816\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=7278,3744:0}<br>\\( b= \\){1:NUMERICAL:=1051,136:0}<br>\\( c= \\){1:NUMERICAL:=1670,4896:0}<br>",
+"\\( a= \\){1:NUMERICAL:=5400:0}<br>\\( b= \\){1:NUMERICAL:=2000:0}<br>\\( c= \\){1:NUMERICAL:=2600:0}<br>",
+"\\( a= \\){1:NUMERICAL:=7291,6667:0}<br>\\( b= \\){1:NUMERICAL:=1041,6667:0}<br>\\( c= \\){1:NUMERICAL:=1666,6667:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,5</td><td>0</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,5</td><td>1</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0<td>0</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}305000\\\\631000\\\\64000\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=105050:0}<br>\\( b= \\){1:NUMERICAL:=884710:0}<br>\\( c= \\){1:NUMERICAL:=10240:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=1000000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=1000000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0</td><td>0,2</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0</td><td>0,6</td><td>1</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>1<td>0,2</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}2000\\\\6000\\\\2000\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1120:0}<br>\\( b= \\){1:NUMERICAL:=6560:0}<br>\\( c= \\){1:NUMERICAL:=2320:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=10000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=1250:0}<br>\\( b= \\){1:NUMERICAL:=6250:0}<br>\\( c= \\){1:NUMERICAL:=2500:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0</td><td>0,9</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,7</td><td>0,1</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,3<td>0</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}1980\\\\5680\\\\2340\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=3723,39:0}<br>\\( b= \\){1:NUMERICAL:=4642,084:0}<br>\\( c= \\){1:NUMERICAL:=1634,526:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=7000:0}<br>\\( c= \\){1:NUMERICAL:=3000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=4455,4449:0}<br>\\( b= \\){1:NUMERICAL:=4207,9211:0}<br>\\( c= \\){1:NUMERICAL:=1336,6339:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>1</td><td>0</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0</td><td>0</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0<td>1</td><td>0,3</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}663400\\\\87200\\\\249400\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=831335,8:0}<br>\\( b= \\){1:NUMERICAL:=59346,4:0}<br>\\( c= \\){1:NUMERICAL:=109317,8:0}<br>",
+"\\( a= \\){1:NUMERICAL:=460000:0}<br>\\( b= \\){1:NUMERICAL:=80000:0}<br>\\( c= \\){1:NUMERICAL:=460000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=999995,2782:0}<br>\\( b= \\){1:NUMERICAL:=1,5739:0}<br>\\( c= \\){1:NUMERICAL:=3,1478:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>1</td><td>0,2</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0</td><td>0,7</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0<td>0,1</td><td>0,1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}7120\\\\2508\\\\372\\\\ \\end{matrix}\\right) \\) gegeben.",
 "fragen":[
 "Bestimmen Sie die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
 "Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
 "Bestimmen Sie die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=26313,386:0}<br>\\( b= \\){1:NUMERICAL:=31549,758:0}<br>\\( c= \\){1:NUMERICAL:=42136,856:0}<br>",
-"\\( a= \\){1:NUMERICAL:=100000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=26315,7895:0}<br>\\( b= \\){1:NUMERICAL:=31578,9474:0}<br>\\( c= \\){1:NUMERICAL:=42105,2632:0}<br>"
+"\\( a= \\){1:NUMERICAL:=9199,1286:0}<br>\\( b= \\){1:NUMERICAL:=697,4218:0}<br>\\( c= \\){1:NUMERICAL:=103,4496:0}<br>",
+"\\( a= \\){1:NUMERICAL:=4000:0}<br>\\( b= \\){1:NUMERICAL:=6000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
+"\\( a= \\){1:NUMERICAL:=9999,992:0}<br>\\( b= \\){1:NUMERICAL:=0,0069:0}<br>\\( c= \\){1:NUMERICAL:=0,001:0}<br>"
 ]
 },
 {
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle veranschaulicht das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0</td>\n        <td>0</td>\n        <td>0,8</td>\n    </tr>\n    <tr>\n        <td>0,8</td>\n        <td>1</td>\n        <td>0,2</td>\n    </tr>\n    <tr>\n        <td>0,2</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}2560\\\\95200\\\\2240\\\\ \\end{matrix}\\right) \\) gegeben.",
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0</td><td>0</td><td>0,7</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>1</td><td>0</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0<td>1</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}2100\\\\63900\\\\34000\\\\ \\end{matrix}\\right) \\) gegeben.",
 "fragen":[
 "Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
 "Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
 "Bestimmen Sie die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=286,72:0}<br>\\( b= \\){1:NUMERICAL:=99631,36:0}<br>\\( c= \\){1:NUMERICAL:=81,92:0}<br>",
-"\\( a= \\){1:NUMERICAL:=16000:0}<br>\\( b= \\){1:NUMERICAL:=70000:0}<br>\\( c= \\){1:NUMERICAL:=14000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=100000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>"
+"\\( a= \\){1:NUMERICAL:=8610:0}<br>\\( b= \\){1:NUMERICAL:=48420:0}<br>\\( c= \\){1:NUMERICAL:=42970:0}<br>",
+"\\( a= \\){1:NUMERICAL:=7000:0}<br>\\( b= \\){1:NUMERICAL:=3000:0}<br>\\( c= \\){1:NUMERICAL:=90000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=25930,1528:0}<br>\\( b= \\){1:NUMERICAL:=37035,3798:0}<br>\\( c= \\){1:NUMERICAL:=37034,4675:0}<br>"
 ]
 },
 {
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0</td>\n        <td>0</td>\n        <td>0,1</td>\n    </tr>\n    <tr>\n        <td>0</td>\n        <td>0,7</td>\n        <td>0,1</td>\n    </tr>\n    <tr>\n        <td>1</td>\n        <td>0,3</td>\n        <td>0,8</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}791\\\\1596\\\\7613\\\\ \\end{matrix}\\right) \\) gegeben.",
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0</td><td>0,5</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0,6</td><td>0</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,4<td>0,5</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}388200\\\\183600\\\\428200\\\\ \\end{matrix}\\right) \\) gegeben.",
 "fragen":[
-"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
+"Bestimmen Sie die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
+"Bestimmen Sie die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=360806,496:0}<br>\\( b= \\){1:NUMERICAL:=217678,032:0}<br>\\( c= \\){1:NUMERICAL:=421515,472:0}<br>",
+"\\( a= \\){1:NUMERICAL:=200000:0}<br>\\( b= \\){1:NUMERICAL:=100000:0}<br>\\( c= \\){1:NUMERICAL:=700000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=361445,7831:0}<br>\\( b= \\){1:NUMERICAL:=216867,4699:0}<br>\\( c= \\){1:NUMERICAL:=421686,747:0}<br>"
+]
+},
+{
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td>SpalteZeile</td><td>S1</td><td>S2</td><td>S3</td>\n    </tr>\n    <tr>\n        <td>Z1</td><td>0,7</td><td>0,6</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Z2</td><td>0</td><td>0,4</td><td>1</td>\n    </tr>\n    <tr>\n        <td>Z3</td><td>0,3<td>0</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}598500\\\\227800\\\\173700\\\\ \\end{matrix}\\right) \\) gegeben.",
+"fragen":[
+"Bestimmen Sie die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahren.",
 "Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
 "Bestimmen Sie die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=721,301:0}<br>\\( b= \\){1:NUMERICAL:=2156,98:0}<br>\\( c= \\){1:NUMERICAL:=7121,719:0}<br>",
-"\\( a= \\){1:NUMERICAL:=300:0}<br>\\( b= \\){1:NUMERICAL:=300:0}<br>\\( c= \\){1:NUMERICAL:=9400:0}<br>",
-"\\( a= \\){1:NUMERICAL:=697,6744:0}<br>\\( b= \\){1:NUMERICAL:=2325,5814:0}<br>\\( c= \\){1:NUMERICAL:=6976,7442:0}<br>"
-]
-},
-{
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle erläutert das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td></td>\n    <td colspan=\"3\">Von</td>\n    </tr>\n    <tr>\n        <td rowspan=\"3\">Nach</td>\n        <td>0,3</td>\n        <td>0,9</td>\n        <td>0,6</td>\n    </tr>\n    <tr>\n        <td>0,6</td>\n        <td>0,1</td>\n        <td>0,4</td>\n    </tr>\n    <tr>\n        <td>0,1</td>\n        <td>0</td>\n        <td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}51930\\\\41950\\\\6120\\\\ \\end{matrix}\\right) \\) gegeben.",
-"fragen":[
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
-"Bestimmen Sie die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"Bestimmen Sie die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=54238,5:0}<br>\\( b= \\){1:NUMERICAL:=40060,9:0}<br>\\( c= \\){1:NUMERICAL:=5700,6:0}<br>",
-"\\( a= \\){1:NUMERICAL:=45000:0}<br>\\( b= \\){1:NUMERICAL:=49000:0}<br>\\( c= \\){1:NUMERICAL:=6000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=55214,7239:0}<br>\\( b= \\){1:NUMERICAL:=39263,8037:0}<br>\\( c= \\){1:NUMERICAL:=5521,4724:0}<br>"
+"\\( a= \\){1:NUMERICAL:=556867,05:0}<br>\\( b= \\){1:NUMERICAL:=276701,98:0}<br>\\( c= \\){1:NUMERICAL:=166430,97:0}<br>",
+"\\( a= \\){1:NUMERICAL:=330000:0}<br>\\( b= \\){1:NUMERICAL:=580000:0}<br>\\( c= \\){1:NUMERICAL:=90000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=555555,5556:0}<br>\\( b= \\){1:NUMERICAL:=277777,7778:0}<br>\\( c= \\){1:NUMERICAL:=166666,6667:0}<br>"
 ]
 }
 ]
