@@ -150,7 +150,7 @@ input[type="text"]::-webkit-outer-spin-button {
     border-collapse: collapse;  /* Zusammenführung der Randlinien */
     text-align: center;         /* Zentrierung aller Inhalte */
     table-layout: fixed;        /* Erzwingt gleichmäßige Spaltenbreite */
-    /*font-size: clamp(0.9em, 2vw, 1em);*/
+    font-size: clamp(0.5em, 5vw, 1em);
 }
 
 .TabelleEinleitung td, .TabelleEinleitung th {
