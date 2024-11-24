@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 5 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,21 \\)</td>\n        <td>\\( 0,09 \\)</td>\n        <td></td>\n        <td>\\( 0,27 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 5 \\)</td>\n        <td>\\( 7 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,24 \\)</td>\n        <td>\\( 0,22 \\)</td>\n        <td>\\( 0,19 \\)</td>\n        <td></td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 2,46\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 0,8\\)."
 ],
 "antworten":[
-"\\( P(X=-3)=\\) {1:NUMERICAL:=0,16:0,01} und \\( P(X=5)=\\) {1:NUMERICAL:=0,27:0,01}"
+"\\( P(X=-3)=\\) {1:NUMERICAL:=0,28:0,01} und \\( P(X=7)=\\) {1:NUMERICAL:=0,07:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 5 \\)</td>\n        <td>\\( 8 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,17 \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,18 \\)</td>\n        <td>\\( 0,19 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 3 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,32 \\)</td>\n        <td>\\( 0,11 \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,27 \\)</td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 1,97\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,59\\)."
 ],
 "antworten":[
-"\\( P(X=-1)=\\) {1:NUMERICAL:=0,23:0,01} und \\( P(X=2)=\\) {1:NUMERICAL:=0,23:0,01}"
+"\\( P(X=2)=\\) {1:NUMERICAL:=0,12:0,01} und \\( P(X=1)=\\) {1:NUMERICAL:=0,18:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 2 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,33 \\)</td>\n        <td></td>\n        <td>\\( 0,25 \\)</td>\n        <td>\\( 0,34 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,35 \\)</td>\n        <td>\\( 0,06 \\)</td>\n        <td>\\( 0,34 \\)</td>\n        <td></td>\n        <td></td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 0,56\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 1,3\\)."
 ],
 "antworten":[
-"\\( P(X=-2)=\\) {1:NUMERICAL:=0,02:0,01} und \\( P(X=0)=\\) {1:NUMERICAL:=0,06:0,01}"
+"\\( P(X=6)=\\) {1:NUMERICAL:=0,19:0,01} und \\( P(X=4)=\\) {1:NUMERICAL:=0,06:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 6 \\)</td>\n        <td>\\( 9 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,1 \\)</td>\n        <td></td>\n        <td>\\( 0,41 \\)</td>\n        <td></td>\n        <td>\\( 0,09 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 5 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,26 \\)</td>\n        <td></td>\n        <td>\\( 0,03 \\)</td>\n        <td></td>\n        <td>\\( 0,31 \\)</td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 3,05\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 2,96\\)."
 ],
 "antworten":[
-"\\( P(X=1)=\\) {1:NUMERICAL:=0,32:0,01} und \\( P(X=6)=\\) {1:NUMERICAL:=0,08:0,01}"
+"\\( P(X=-1)=\\) {1:NUMERICAL:=0,03:0,01} und \\( P(X=5)=\\) {1:NUMERICAL:=0,37:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 3 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,12 \\)</td>\n        <td>\\( 0,18 \\)</td>\n        <td></td>\n        <td>\\( 0,17 \\)</td>\n        <td></td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 3 \\)</td>\n        <td>\\( 5 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,11 \\)</td>\n        <td>\\( 0,05 \\)</td>\n        <td>\\( 0,26 \\)</td>\n        <td></td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 1,73\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,32\\)."
 ],
 "antworten":[
-"\\( P(X=6)=\\) {1:NUMERICAL:=0,21:0,01} und \\( P(X=1)=\\) {1:NUMERICAL:=0,32:0,01}"
+"\\( P(X=-4)=\\) {1:NUMERICAL:=0,42:0,01} und \\( P(X=5)=\\) {1:NUMERICAL:=0,16:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 5 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,2 \\)</td>\n        <td>\\( 0,21 \\)</td>\n        <td>\\( 0,23 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 3 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,25 \\)</td>\n        <td></td>\n        <td>\\( 0,22 \\)</td>\n        <td>\\( 0,32 \\)</td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,03\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 0,35\\)."
 ],
 "antworten":[
-"\\( P(X=-3)=\\) {1:NUMERICAL:=0,1:0,01} und \\( P(X=-5)=\\) {1:NUMERICAL:=0,26:0,01}"
+"\\( P(X=-1)=\\) {1:NUMERICAL:=0,18:0,01} und \\( P(X=-5)=\\) {1:NUMERICAL:=0,03:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 1 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,12 \\)</td>\n        <td>\\( 0,3 \\)</td>\n        <td>\\( 0,22 \\)</td>\n        <td></td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 2 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,24 \\)</td>\n        <td>\\( 0,1 \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,25 \\)</td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,42\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,88\\)."
 ],
 "antworten":[
-"\\( P(X=1)=\\) {1:NUMERICAL:=0,3:0,01} und \\( P(X=-3)=\\) {1:NUMERICAL:=0,06:0,01}"
+"\\( P(X=-1)=\\) {1:NUMERICAL:=0,22:0,01} und \\( P(X=0)=\\) {1:NUMERICAL:=0,19:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 7 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,41 \\)</td>\n        <td>\\( 0,11 \\)</td>\n        <td>\\( 0,17 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 3 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,15 \\)</td>\n        <td>\\( 0,41 \\)</td>\n        <td>\\( 0,21 \\)</td>\n        <td></td>\n        <td></td>\n    </tr>\n</table>",
+"fragen":[
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 1,8\\)."
+],
+"antworten":[
+"\\( P(X=6)=\\) {1:NUMERICAL:=0,07:0,01} und \\( P(X=4)=\\) {1:NUMERICAL:=0,16:0,01}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 7 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,27 \\)</td>\n        <td>\\( 0,14 \\)</td>\n        <td>\\( 0,11 \\)</td>\n        <td></td>\n    </tr>\n</table>",
+"fragen":[
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,09\\)."
+],
+"antworten":[
+"\\( P(X=-3)=\\) {1:NUMERICAL:=0,39:0,01} und \\( P(X=7)=\\) {1:NUMERICAL:=0,09:0,01}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 7 \\)</td>\n        <td>\\( 10 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,4 \\)</td>\n        <td>\\( 0,07 \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,18 \\)</td>\n    </tr>\n</table>",
+"fragen":[
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 3,37\\)."
+],
+"antworten":[
+"\\( P(X=7)=\\) {1:NUMERICAL:=0,3:0,01} und \\( P(X=4)=\\) {1:NUMERICAL:=0,05:0,01}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,16 \\)</td>\n        <td>\\( 0,15 \\)</td>\n        <td>\\( 0,19 \\)</td>\n    </tr>\n</table>",
 "fragen":[
 "Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 1,58\\)."
 ],
 "antworten":[
-"\\( P(X=-3)=\\) {1:NUMERICAL:=0,28:0,01} und \\( P(X=-1)=\\) {1:NUMERICAL:=0,03:0,01}"
+"\\( P(X=0)=\\) {1:NUMERICAL:=0,26:0,01} und \\( P(X=-2)=\\) {1:NUMERICAL:=0,24:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 4 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,07 \\)</td>\n        <td></td>\n        <td>\\( 0,09 \\)</td>\n        <td>\\( 0,48 \\)</td>\n        <td></td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 5 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,23 \\)</td>\n        <td></td>\n        <td>\\( 0,16 \\)</td>\n        <td>\\( 0,06 \\)</td>\n        <td></td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 1,46\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 1,39\\)."
 ],
 "antworten":[
-"\\( P(X=4)=\\) {1:NUMERICAL:=0,2:0,01} und \\( P(X=-1)=\\) {1:NUMERICAL:=0,16:0,01}"
+"\\( P(X=0)=\\) {1:NUMERICAL:=0,26:0,01} und \\( P(X=5)=\\) {1:NUMERICAL:=0,29:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,28 \\)</td>\n        <td>\\( 0,32 \\)</td>\n        <td></td>\n        <td>\\( 0,15 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 3 \\)</td>\n        <td>\\( 4 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,21 \\)</td>\n        <td></td>\n        <td>\\( 0,32 \\)</td>\n        <td>\\( 0,05 \\)</td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -1,59\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 5,00000000000001E-02\\)."
 ],
 "antworten":[
-"\\( P(X=-1)=\\) {1:NUMERICAL:=0,21:0,01} und \\( P(X=-5)=\\) {1:NUMERICAL:=0,04:0,01}"
+"\\( P(X=-3)=\\) {1:NUMERICAL:=0,33:0,01} und \\( P(X=1)=\\) {1:NUMERICAL:=0,09:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 3 \\)</td>\n        <td>\\( 5 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,27 \\)</td>\n        <td>\\( 0,27 \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,16 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 2 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,11 \\)</td>\n        <td>\\( 0,26 \\)</td>\n        <td>\\( 0,1 \\)</td>\n        <td></td>\n    </tr>\n</table>",
+"fragen":[
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -6,00000000000001E-02\\)."
+],
+"antworten":[
+"\\( P(X=-3)=\\) {1:NUMERICAL:=0,2:0,01} und \\( P(X=2)=\\) {1:NUMERICAL:=0,33:0,01}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 5 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,04 \\)</td>\n        <td>\\( 0,33 \\)</td>\n        <td>\\( 0,09 \\)</td>\n        <td></td>\n        <td></td>\n    </tr>\n</table>",
+"fragen":[
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 0,58\\)."
+],
+"antworten":[
+"\\( P(X=2)=\\) {1:NUMERICAL:=0,31:0,01} und \\( P(X=5)=\\) {1:NUMERICAL:=0,23:0,01}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 2 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,07 \\)</td>\n        <td>\\( 0,09 \\)</td>\n        <td>\\( 0,27 \\)</td>\n        <td></td>\n    </tr>\n</table>",
+"fragen":[
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,16\\)."
+],
+"antworten":[
+"\\( P(X=2)=\\) {1:NUMERICAL:=0,27:0,01} und \\( P(X=-3)=\\) {1:NUMERICAL:=0,3:0,01}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 7 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,16 \\)</td>\n        <td>\\( 0,14 \\)</td>\n        <td></td>\n        <td>\\( 0,15 \\)</td>\n        <td></td>\n    </tr>\n</table>",
+"fragen":[
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 2,57\\)."
+],
+"antworten":[
+"\\( P(X=2)=\\) {1:NUMERICAL:=0,28:0,01} und \\( P(X=7)=\\) {1:NUMERICAL:=0,27:0,01}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 2 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,57 \\)</td>\n        <td>\\( 0,06 \\)</td>\n        <td></td>\n        <td>\\( 0,1 \\)</td>\n    </tr>\n</table>",
 "fragen":[
 "Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,64\\)."
 ],
 "antworten":[
-"\\( P(X=3)=\\) {1:NUMERICAL:=0,15:0,01} und \\( P(X=0)=\\) {1:NUMERICAL:=0,15:0,01}"
+"\\( P(X=1)=\\) {1:NUMERICAL:=0,09:0,01} und \\( P(X=-2)=\\) {1:NUMERICAL:=0,18:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 3 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,25 \\)</td>\n        <td>\\( 0,18 \\)</td>\n        <td>\\( 0,18 \\)</td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 3 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,35 \\)</td>\n        <td></td>\n        <td>\\( 0,07 \\)</td>\n        <td>\\( 0,15 \\)</td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 0,07\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,16\\)."
 ],
 "antworten":[
-"\\( P(X=-2)=\\) {1:NUMERICAL:=0,24:0,01} und \\( P(X=-4)=\\) {1:NUMERICAL:=0,15:0,01}"
+"\\( P(X=1)=\\) {1:NUMERICAL:=0,16:0,01} und \\( P(X=-4)=\\) {1:NUMERICAL:=0,27:0,01}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 3 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,23 \\)</td>\n        <td></td>\n        <td>\\( 0,26 \\)</td>\n        <td>\\( 0,05 \\)</td>\n        <td></td>\n    </tr>\n</table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 2 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,33 \\)</td>\n        <td>\\( 0,11 \\)</td>\n        <td>\\( 0,25 \\)</td>\n        <td></td>\n        <td></td>\n    </tr>\n</table>",
 "fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -0,69\\)."
+"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -1,55\\)."
 ],
 "antworten":[
-"\\( P(X=-2)=\\) {1:NUMERICAL:=0,25:0,01} und \\( P(X=3)=\\) {1:NUMERICAL:=0,21:0,01}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 2 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 7 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,05 \\)</td>\n        <td>\\( 0,3 \\)</td>\n        <td>\\( 0,28 \\)</td>\n    </tr>\n</table>",
-"fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 2,56\\)."
-],
-"antworten":[
-"\\( P(X=-2)=\\) {1:NUMERICAL:=0,33:0,01} und \\( P(X=-1)=\\) {1:NUMERICAL:=0,04:0,01}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( -1 \\)</td>\n        <td>\\( 0 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,21 \\)</td>\n        <td></td>\n        <td>\\( 0,19 \\)</td>\n        <td>\\( 0,15 \\)</td>\n        <td></td>\n    </tr>\n</table>",
-"fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -2,42\\)."
-],
-"antworten":[
-"\\( P(X=0)=\\) {1:NUMERICAL:=0,24:0,01} und \\( P(X=-4)=\\) {1:NUMERICAL:=0,21:0,01}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 4 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,03 \\)</td>\n        <td>\\( 0,25 \\)</td>\n        <td>\\( 0,13 \\)</td>\n    </tr>\n</table>",
-"fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -2,08\\)."
-],
-"antworten":[
-"\\( P(X=-3)=\\) {1:NUMERICAL:=0,08:0,01} und \\( P(X=-5)=\\) {1:NUMERICAL:=0,51:0,01}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -5 \\)</td>\n        <td>\\( -4 \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,31 \\)</td>\n        <td></td>\n        <td>\\( 0,19 \\)</td>\n        <td>\\( 0,29 \\)</td>\n        <td></td>\n    </tr>\n</table>",
-"fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = -2,54\\)."
-],
-"antworten":[
-"\\( P(X=-4)=\\) {1:NUMERICAL:=0,01:0,01} und \\( P(X=1)=\\) {1:NUMERICAL:=0,2:0,01}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 3 \\)</td>\n        <td>\\( 5 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td></td>\n        <td>\\( 0,25 \\)</td>\n        <td>\\( 0,06 \\)</td>\n        <td></td>\n        <td>\\( 0,37 \\)</td>\n    </tr>\n</table>",
-"fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 3,09\\)."
-],
-"antworten":[
-"\\( P(X=5)=\\) {1:NUMERICAL:=0,19:0,01} und \\( P(X=-2)=\\) {1:NUMERICAL:=0,13:0,01}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( -2 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 3 \\)</td>\n        <td>\\( 5 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,37 \\)</td>\n        <td></td>\n        <td></td>\n        <td>\\( 0,27 \\)</td>\n        <td>\\( 0,09 \\)</td>\n    </tr>\n</table>",
-"fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 0,42\\)."
-],
-"antworten":[
-"\\( P(X=1)=\\) {1:NUMERICAL:=0,27:0,01} und \\( P(X=-2)=\\) {1:NUMERICAL:=0:0,01}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße \\( X \\).<table class=\"TabelleEinleitung\">\n    <tr>\n        <td>\\( x \\)</td>\n        <td>\\( -3 \\)</td>\n        <td>\\( 0 \\)</td>\n        <td>\\( 1 \\)</td>\n        <td>\\( 4 \\)</td>\n        <td>\\( 6 \\)</td>\n    </tr>\n    <tr>\n        <td>\\( P \\)</td>\n        <td>\\( 0,06 \\)</td>\n        <td></td>\n        <td>\\( 0,31 \\)</td>\n        <td>\\( 0,21 \\)</td>\n        <td></td>\n    </tr>\n</table>",
-"fragen":[
-"Bestimmen Sie die fehlenden Wahrscheinlichkeiten. Es ist bekannt, dass \\( E(X) = 2,53\\)."
-],
-"antworten":[
-"\\( P(X=6)=\\) {1:NUMERICAL:=0,26:0,01} und \\( P(X=0)=\\) {1:NUMERICAL:=0,16:0,01}"
+"\\( P(X=2)=\\) {1:NUMERICAL:=0,29:0,01} und \\( P(X=1)=\\) {1:NUMERICAL:=0,02:0,01}"
 ]
 }
 ]
