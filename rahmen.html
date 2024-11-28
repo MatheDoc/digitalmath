@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auffälliger blinkender Rahmen mit Glow-Effekt</title>
+    <style>
+        /* Definieren des stärkeren Blinkeffekts */
+        @keyframes blink {
+            0% {
+                box-shadow: 0 0 30px 10px rgba(52, 152, 219, 1); /* Starker Glow */
+            }
+            50% {
+                box-shadow: 0 0 50px 20px rgba(52, 152, 219, 1); /* Noch stärkerer Glow */
+            }
+            100% {
+                box-shadow: 0 0 30px 10px rgba(52, 152, 219, 1); /* Zurück zum ursprünglichen starken Glow */
+            }
+        }
+
+        /* Anwendung des blinkenden Rahmens */
+        .blinking-border {
+            width: 620px;
+            height: 50px;
+            margin: 100px auto;
+            padding: 75px;
+            background-color: transparent; /* Transparenter Hintergrund */
+            border: 1px solid #3498db; /* Blauer Rahmen */
+            animation: blink 0.2s infinite; /* Schneller Blink-Effekt alle 1 Sekunde */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="blinking-border"></div>
+
+</body>
+</html>
