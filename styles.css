@@ -1,16 +1,18 @@
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
 }
 h1 {
-    background-color: #7e7e7e;/*#53618b*/
-    color: #aaffff;
+    background-color: #B8CEF2; /*#B8CEF2 oder 8889af*/
+    color: #616161;
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: 'Arial Black', sans-serif;
 }
+
 
 h2 {
     color: #7e7e7e;
@@ -465,26 +467,30 @@ a.link-homepage:hover {
 }
 
 /* Definieren des stärkeren Blinkeffekts */
+/* Keyframes für das Blinken */
 @keyframes blink {
     0% {
-        box-shadow: 0 0 30px 10px rgba(52, 152, 219, 1); /* Starker Glow */
+        box-shadow: inset 0 0 5px 5px #8897af; /* Innerer Glow, schwächer */
     }
     50% {
-        box-shadow: 0 0 50px 20px rgba(52, 152, 219, 1); /* Noch stärkerer Glow */
+        box-shadow: inset 0 0 5px 10px #8897af; /* Innerer Glow, stärker */
     }
     100% {
-        box-shadow: 0 0 30px 10px rgba(52, 152, 219, 1); /* Zurück zum ursprünglichen starken Glow */
+        box-shadow: inset 0 0 5px 5px #8897af; /* Zurück zu schwächerem Glow */
     }
 }
-/*hover für Videos
-.nachfolgend li:hover {
-    animation: blink 0.2s infinite;
-}
-*/
+
+/* Hover-Effekt für Listenelemente */
+/*.nachfolgend li:hover {
+    animation: blink 0.2s infinite; 
+}*/
+
+
 /* Klasse für den stroboskopischen Hintergrund */
 .strobe-background {
     animation: strobeEffect 0.2s 4;
     background-size: 200% 200%;
+    margin: 90%;
 }
 /*
 h1 {
