@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blinken nach innen</title>
+    <title>Übergangsdiagramm</title>
     <style>
-        /* Animation für den nach innen gerichteten Glow */
-        @keyframes blink-inset {
-            0% {
-                box-shadow: inset 0 0 30px 10px rgba(52, 152, 219, 1); /* Starker innerer Glow */
-            }
-            50% {
-                box-shadow: inset 0 0 50px 20px rgba(52, 152, 219, 1); /* Noch stärkerer innerer Glow */
-            }
-            100% {
-                box-shadow: inset 0 0 30px 10px rgba(52, 152, 219, 1); /* Zurück zum ursprünglichen inneren Glow */
-            }
+        .state {
+            fill: #B8CEF2;
+            stroke: #333;
+            stroke-width: 2;
         }
-
-        .inset-glow {
-            border: 2px solid rgba(52, 152, 219, 1); /* Passende Rahmenfarbe */
-            padding: 20px;
-            text-align: center;
-            font-size: 1.5em;
-            background-color: #fff; /* Weißer Hintergrund für Kontrast */
-            border-radius: 10px; /* Abgerundete Ecken (optional) */
-            animation: blink-inset 2s infinite; /* Animation starten */
+        .text {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            fill: #333;
+        }
+        .arrow {
+            stroke: #333;
+            stroke-width: 2;
+            fill: none;
+            marker-end: url(#arrowhead);
         }
     </style>
 </head>
 <body>
-    <div class="inset-glow">Blinken nach innen</div>
+    <svg width="500" height="300">
+        <!-- Arrowhead Definition -->
+        <defs>
+            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+            </marker>
+        </defs>
+
+        <!-- States -->
+        <circle cx="100" cy="150" r="40" class="state" />
+        <text x="100" y="150" text-anchor="middle" alignment-baseline="middle" class="text">State 1</text>
+
+        <circle cx="250" cy="50" r="40" class="state" />
+        <text x="250" y="50" text-anchor="middle" alignment-baseline="middle" class="text">State 2</text>
+
+        <circle cx="400" cy="150" r="40" class="state" />
+        <text x="400" y="150" text-anchor="middle" alignment-baseline="middle" class="text">State 3</text>
+
+        <!-- Transitions -->
+        <line x1="140" y1="150" x2="210" y2="70" class="arrow" /> <!-- State 1 to State 2 -->
+        <line x1="290" y1="70" x2="360" y2="150" class="arrow" /> <!-- State 2 to State 3 -->
+        <line x1="360" y1="150" x2="140" y2="150" class="arrow" /> <!-- State 3 to State 1 -->
+    </svg>
 </body>
 </html>

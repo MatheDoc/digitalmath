@@ -1,262 +1,262 @@
 ﻿[
 {
-"einleitung":"In einem ETF sind Aktien zahlreicher Unternehmen gebündelt. Der durchschnittliche Tagestrend der Aktienkurse ist entweder gleichbleibend, steigend oder fallend. Die Tabelle veranschaulicht die Änderungen der durchschnittlichen Tagestrends der Kurse von einem Tag zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>g</td><td>s</td><td>f</td>\n    </tr>\n    <tr>\n        <td>g</td><td>0</td><td>0,8</td><td>0</td>\n    </tr>\n    <tr>\n        <td>s</td><td>0</td><td>0</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>f</td><td>1<td>0,2</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kurstrends durch den Vektor \\( v_0 = \\left(\\begin{matrix}1920\\\\1680\\\\6400\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"In einem ETF sind Aktien zahlreicher Unternehmen gebündelt. Der durchschnittliche Tagestrend der Aktienkurse ist entweder gleichbleibend, steigend oder fallend. Die Tabelle erläutert die Änderungen der durchschnittlichen Tagestrends der Kurse von einem Tag zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>g</td><td>s</td><td>f</td>\n    </tr>\n    <tr>\n        <td>g</td><td>0,6</td><td>1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>s</td><td>0,2</td><td>0</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>f</td><td>0,2<td>0</td><td>0,7</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kurstrends durch den Vektor \\( v_0 = \\left(\\begin{matrix}5512\\\\1820\\\\2668\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Tagen.",
-"die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Tagen.",
+"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Tagen.",
+"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Tagen.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=6000:0}<br>\\( c= \\){1:NUMERICAL:=4000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=3072:0}<br>\\( b= \\){1:NUMERICAL:=2889,6:0}<br>\\( c= \\){1:NUMERICAL:=4038,4:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2307,6923:0}<br>\\( b= \\){1:NUMERICAL:=2884,6154:0}<br>\\( c= \\){1:NUMERICAL:=4807,6923:0}<br>"
+"\\( a= \\){1:NUMERICAL:=4853,1639:0}<br>\\( b= \\){1:NUMERICAL:=1933,6111:0}<br>\\( c= \\){1:NUMERICAL:=3213,225:0}<br>",
+"\\( a= \\){1:NUMERICAL:=2000:0}<br>\\( b= \\){1:NUMERICAL:=8000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
+"\\( a= \\){1:NUMERICAL:=4838,7097:0}<br>\\( b= \\){1:NUMERICAL:=1935,4839:0}<br>\\( c= \\){1:NUMERICAL:=3225,8065:0}<br>"
 ]
 },
 {
-"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>K</td><td>T</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>0,8</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>K</td><td>0,2</td><td>0</td><td>0,7</td>\n    </tr>\n    <tr>\n        <td>T</td><td>0,8<td>0,2</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}378000\\\\443600\\\\178400\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>K</td><td>T</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>K</td><td>1</td><td>0,1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>T</td><td>0<td>0,9</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Kundinnen und Kunden auf die Restaurants durch den Vektor \\( v_0 = \\left(\\begin{matrix}54000\\\\4600\\\\41400\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Wochen.",
-"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Wochen.",
+"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Wochen.",
+"die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Wochen.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=340735,84:0}<br>\\( b= \\){1:NUMERICAL:=332163,648:0}<br>\\( c= \\){1:NUMERICAL:=327100,512:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=800000:0}<br>\\( c= \\){1:NUMERICAL:=200000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=349593,4964:0}<br>\\( b= \\){1:NUMERICAL:=308943,0897:0}<br>\\( c= \\){1:NUMERICAL:=341463,414:0}<br>"
+"\\( a= \\){1:NUMERICAL:=40000:0}<br>\\( b= \\){1:NUMERICAL:=60000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
+"\\( a= \\){1:NUMERICAL:=49014:0}<br>\\( b= \\){1:NUMERICAL:=8824,6:0}<br>\\( c= \\){1:NUMERICAL:=42161,4:0}<br>",
+"\\( a= \\){1:NUMERICAL:=32142,8571:0}<br>\\( b= \\){1:NUMERICAL:=35714,2857:0}<br>\\( c= \\){1:NUMERICAL:=32142,8571:0}<br>"
 ]
 },
 {
-"einleitung":"Der höchste Bildungsabschluss einer Person kann in drei Kategorien eingeteilt werden: ohne Abschluss, mit einer abgeschlossenen Berufsausbildung oder mit einem abgeschlossenen Studium. Die Tabelle beschreibt wie der höchste Bildungsabschluss eines Kindes vom höchsten Bildungsabschluss der Eltern abhängt.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>oA</td><td>B</td><td>S</td>\n    </tr>\n    <tr>\n        <td>oA</td><td>0,3</td><td>0,2</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,3</td><td>0,7</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,4<td>0,1</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Personen nach Bildungsabschluss durch den Vektor \\( v_0 = \\left(\\begin{matrix}2951\\\\4153\\\\2896\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Der höchste Bildungsabschluss einer Person kann in drei Kategorien eingeteilt werden: ohne Abschluss, mit einer abgeschlossenen Berufsausbildung oder mit einem abgeschlossenen Studium. Die Tabelle veranschaulicht wie der höchste Bildungsabschluss eines Kindes vom höchsten Bildungsabschluss der Eltern abhängt.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>oA</td><td>B</td><td>S</td>\n    </tr>\n    <tr>\n        <td>oA</td><td>1</td><td>0,8</td><td>0</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0</td><td>0</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0<td>0,2</td><td>0,6</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Personen nach Bildungsabschluss durch den Vektor \\( v_0 = \\left(\\begin{matrix}8288\\\\608\\\\1104\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Generationen.",
-"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Generationen.",
+"die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Generationen.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=7000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=3000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2810,1495:0}<br>\\( b= \\){1:NUMERICAL:=4552,5624:0}<br>\\( c= \\){1:NUMERICAL:=2637,2881:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2807,0175:0}<br>\\( b= \\){1:NUMERICAL:=4561,4035:0}<br>\\( c= \\){1:NUMERICAL:=2631,5789:0}<br>"
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=9000:0}<br>\\( c= \\){1:NUMERICAL:=1000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=9557,3504:0}<br>\\( b= \\){1:NUMERICAL:=159,1808:0}<br>\\( c= \\){1:NUMERICAL:=283,4688:0}<br>",
+"\\( a= \\){1:NUMERICAL:=10000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>"
 ]
 },
 {
-"einleitung":"Die Wanderung der Gnus in Tansania und Kenia führt durch drei zentrale Regionen: die Serengeti, das Mara-Gebiet und den Grumeti-Fluss. Die Tabelle erläutert die Wanderungen der Gnus von einem Monat zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>M</td><td>G</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>1</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>M</td><td>0</td><td>0</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>G</td><td>1<td>0</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Gnus auf die drei Regionen durch den Vektor \\( v_0 = \\left(\\begin{matrix}4740\\\\932\\\\4328\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Die Wanderung der Gnus in Tansania und Kenia führt durch drei zentrale Regionen: die Serengeti, das Mara-Gebiet und den Grumeti-Fluss. Die Tabelle veranschaulicht die Wanderungen der Gnus von einem Monat zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>M</td><td>G</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,5</td><td>0</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>M</td><td>0</td><td>0</td><td>0,8</td>\n    </tr>\n    <tr>\n        <td>G</td><td>0,5<td>1</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Gnus auf die drei Regionen durch den Vektor \\( v_0 = \\left(\\begin{matrix}1000\\\\0\\\\9000\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Monaten.",
 "die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Monaten.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=3668,4:0}<br>\\( b= \\){1:NUMERICAL:=647,12:0}<br>\\( c= \\){1:NUMERICAL:=5684,48:0}<br>",
-"\\( a= \\){1:NUMERICAL:=9000:0}<br>\\( b= \\){1:NUMERICAL:=200:0}<br>\\( c= \\){1:NUMERICAL:=800:0}<br>",
-"\\( a= \\){1:NUMERICAL:=3529,4118:0}<br>\\( b= \\){1:NUMERICAL:=588,2353:0}<br>\\( c= \\){1:NUMERICAL:=5882,3529:0}<br>"
+"\\( a= \\){1:NUMERICAL:=1250:0}<br>\\( b= \\){1:NUMERICAL:=400:0}<br>\\( c= \\){1:NUMERICAL:=8350:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=10000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=1818,1818:0}<br>\\( b= \\){1:NUMERICAL:=3636,3636:0}<br>\\( c= \\){1:NUMERICAL:=4545,4545:0}<br>"
 ]
 },
 {
-"einleitung":"Für den Weg zur Schule können die Schülerinnen und Schüler zwischen dem Fahrrad, dem Bus und dem Auto wählen. Die Tabelle beschreibt wie sich die gewählten Verkehrsmittel von einem Tag zum nächsten ändern.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>F</td><td>B</td><td>A</td>\n    </tr>\n    <tr>\n        <td>F</td><td>0</td><td>1</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,4</td><td>0</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>A</td><td>0,6<td>0</td><td>0,6</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Schülerinnen und Schüler auf die Verkehrsmittel durch den Vektor \\( v_0 = \\left(\\begin{matrix}34200\\\\16600\\\\49200\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Für den Weg zur Schule können die Schülerinnen und Schüler zwischen dem Fahrrad, dem Bus und dem Auto wählen. Die Tabelle beschreibt wie sich die gewählten Verkehrsmittel von einem Tag zum nächsten ändern.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>F</td><td>B</td><td>A</td>\n    </tr>\n    <tr>\n        <td>F</td><td>0</td><td>1</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,2</td><td>0</td><td>0</td>\n    </tr>\n    <tr>\n        <td>A</td><td>0,8<td>0</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Schülerinnen und Schüler auf die Verkehrsmittel durch den Vektor \\( v_0 = \\left(\\begin{matrix}5568\\\\336\\\\4096\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
+"die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Tagen.",
 "die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Tagen.",
-"die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Tagen.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=30000:0}<br>\\( b= \\){1:NUMERICAL:=10000:0}<br>\\( c= \\){1:NUMERICAL:=60000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=33170,16:0}<br>\\( b= \\){1:NUMERICAL:=17827,12:0}<br>\\( c= \\){1:NUMERICAL:=49002,72:0}<br>",
-"\\( a= \\){1:NUMERICAL:=32786,8852:0}<br>\\( b= \\){1:NUMERICAL:=18032,7869:0}<br>\\( c= \\){1:NUMERICAL:=49180,3279:0}<br>"
+"\\( a= \\){1:NUMERICAL:=4769,28:0}<br>\\( b= \\){1:NUMERICAL:=558,72:0}<br>\\( c= \\){1:NUMERICAL:=4672:0}<br>",
+"\\( a= \\){1:NUMERICAL:=7200:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=2800:0}<br>",
+"\\( a= \\){1:NUMERICAL:=3947,3684:0}<br>\\( b= \\){1:NUMERICAL:=789,4737:0}<br>\\( c= \\){1:NUMERICAL:=5263,1579:0}<br>"
 ]
 },
 {
-"einleitung":"Die Soldatinnen und Soldaten eines Landes sind entweder im Dienst, in der Reserve oder im Erholungsurlaub. Die Tabelle erläutert den jährlichen Wechsel der Status.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>D</td><td>R</td><td>E</td>\n    </tr>\n    <tr>\n        <td>D</td><td>1</td><td>0,1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>R</td><td>0</td><td>0,1</td><td>1</td>\n    </tr>\n    <tr>\n        <td>E</td><td>0<td>0,8</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Soldatinnen und Soldaten nach Status durch den Vektor \\( v_0 = \\left(\\begin{matrix}166700\\\\355700\\\\477600\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Die Soldatinnen und Soldaten eines Landes sind entweder im Dienst, in der Reserve oder im Erholungsurlaub. Die Tabelle veranschaulicht den jährlichen Wechsel der Status.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>D</td><td>R</td><td>E</td>\n    </tr>\n    <tr>\n        <td>D</td><td>0,3</td><td>0,1</td><td>1</td>\n    </tr>\n    <tr>\n        <td>R</td><td>0,1</td><td>0,2</td><td>0</td>\n    </tr>\n    <tr>\n        <td>E</td><td>0,6<td>0,7</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Soldatinnen und Soldaten nach Status durch den Vektor \\( v_0 = \\left(\\begin{matrix}629500\\\\59000\\\\311500\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
 "die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=70000:0}<br>\\( b= \\){1:NUMERICAL:=370000:0}<br>\\( c= \\){1:NUMERICAL:=560000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=362898,467:0}<br>\\( b= \\){1:NUMERICAL:=386610,357:0}<br>\\( c= \\){1:NUMERICAL:=250491,176:0}<br>",
-"\\( a= \\){1:NUMERICAL:=948230,2869:0}<br>\\( b= \\){1:NUMERICAL:=28024,8065:0}<br>\\( c= \\){1:NUMERICAL:=23744,9066:0}<br>"
+"\\( a= \\){1:NUMERICAL:=790000:0}<br>\\( b= \\){1:NUMERICAL:=30000:0}<br>\\( c= \\){1:NUMERICAL:=180000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=546382,5:0}<br>\\( b= \\){1:NUMERICAL:=69645,625:0}<br>\\( c= \\){1:NUMERICAL:=383971,875:0}<br>",
+"\\( a= \\){1:NUMERICAL:=551724,1379:0}<br>\\( b= \\){1:NUMERICAL:=68965,5172:0}<br>\\( c= \\){1:NUMERICAL:=379310,3448:0}<br>"
 ]
 },
 {
-"einleitung":"Die allgemeine politische Lage von Staaten kann vereinfacht durch die Zustände Stabilität, Krise und Chaos beschrieben werden. Die Tabelle beschreibt die Veränderungen der Zustände von einer Dekade zur nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>K</td><td>C</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,5</td><td>0,9</td><td>0</td>\n    </tr>\n    <tr>\n        <td>K</td><td>0,1</td><td>0,1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>C</td><td>0,4<td>0</td><td>1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der politschen Zustände der Staaten durch den Vektor \\( v_0 = \\left(\\begin{matrix}288000\\\\51200\\\\660800\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Die allgemeine politische Lage von Staaten kann vereinfacht durch die Zustände Stabilität, Krise und Chaos beschrieben werden. Die Tabelle erläutert die Veränderungen der Zustände von einer Dekade zur nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>K</td><td>C</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>0,3</td><td>0,8</td>\n    </tr>\n    <tr>\n        <td>K</td><td>0,6</td><td>0</td><td>0</td>\n    </tr>\n    <tr>\n        <td>C</td><td>0,4<td>0,7</td><td>0,2</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der politschen Zustände der Staaten durch den Vektor \\( v_0 = \\left(\\begin{matrix}38840\\\\20520\\\\40640\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Dekaden.",
 "die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Dekaden.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=800000:0}<br>\\( c= \\){1:NUMERICAL:=200000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=125568:0}<br>\\( b= \\){1:NUMERICAL:=22400:0}<br>\\( c= \\){1:NUMERICAL:=852032:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0,0003:0}<br>\\( b= \\){1:NUMERICAL:=0,0001:0}<br>\\( c= \\){1:NUMERICAL:=999999,9997:0}<br>"
+"\\( a= \\){1:NUMERICAL:=30000:0}<br>\\( b= \\){1:NUMERICAL:=20000:0}<br>\\( c= \\){1:NUMERICAL:=50000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=37413,6:0}<br>\\( b= \\){1:NUMERICAL:=23200,8:0}<br>\\( c= \\){1:NUMERICAL:=39385,6:0}<br>",
+"\\( a= \\){1:NUMERICAL:=38095,2381:0}<br>\\( b= \\){1:NUMERICAL:=22857,1429:0}<br>\\( c= \\){1:NUMERICAL:=39047,619:0}<br>"
 ]
 },
 {
-"einleitung":"Userinnen und User können zwischen den sozialen Netzwerken Hashtaghausen, Schatterstube und Quasselquartier wählen. Die Tabelle erläutert das jährliche Wechselverhalten der Userinnen und User.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>H</td><td>S</td><td>Q</td>\n    </tr>\n    <tr>\n        <td>H</td><td>0</td><td>0</td><td>0,8</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>1</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>Q</td><td>1<td>0</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Userinnen und User auf die Netzwerke durch den Vektor \\( v_0 = \\left(\\begin{matrix}640\\\\6960\\\\2400\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
-"die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Jahren.",
-"die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=800:0}<br>\\( b= \\){1:NUMERICAL:=6200:0}<br>\\( c= \\){1:NUMERICAL:=3000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=1536:0}<br>\\( b= \\){1:NUMERICAL:=7952:0}<br>\\( c= \\){1:NUMERICAL:=512:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2,4179:0}<br>\\( b= \\){1:NUMERICAL:=9988,5152:0}<br>\\( c= \\){1:NUMERICAL:=9,0669:0}<br>"
-]
-},
-{
-"einleitung":"Die Menschen verbringen ihren Urlaub entweder zu Hause, am Meer oder in den Bergen.  Die Tabelle beschreibt wie sich die Urlaubsziele von einem Jahr zum nächsten ändern.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>H</td><td>M</td><td>B</td>\n    </tr>\n    <tr>\n        <td>H</td><td>0,6</td><td>0,7</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>M</td><td>0,4</td><td>0</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0<td>0,3</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Urlaubsziele durch den Vektor \\( v_0 = \\left(\\begin{matrix}600000\\\\328000\\\\72000\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Userinnen und User können zwischen den sozialen Netzwerken Hashtaghausen, Schatterstube und Quasselquartier wählen. Die Tabelle beschreibt das jährliche Wechselverhalten der Userinnen und User.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>H</td><td>S</td><td>Q</td>\n    </tr>\n    <tr>\n        <td>H</td><td>0</td><td>1</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,8</td><td>0</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>Q</td><td>0,2<td>0</td><td>0,1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Userinnen und User auf die Netzwerke durch den Vektor \\( v_0 = \\left(\\begin{matrix}39380\\\\48670\\\\11950\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
 "die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=608640:0}<br>\\( b= \\){1:NUMERICAL:=306400:0}<br>\\( c= \\){1:NUMERICAL:=84960:0}<br>",
-"\\( a= \\){1:NUMERICAL:=600000:0}<br>\\( b= \\){1:NUMERICAL:=400000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=611940,2985:0}<br>\\( b= \\){1:NUMERICAL:=298507,4627:0}<br>\\( c= \\){1:NUMERICAL:=89552,2388:0}<br>"
+"\\( a= \\){1:NUMERICAL:=41107,4:0}<br>\\( b= \\){1:NUMERICAL:=47295,5:0}<br>\\( c= \\){1:NUMERICAL:=11597,1:0}<br>",
+"\\( a= \\){1:NUMERICAL:=38000:0}<br>\\( b= \\){1:NUMERICAL:=51000:0}<br>\\( c= \\){1:NUMERICAL:=11000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=46875:0}<br>\\( b= \\){1:NUMERICAL:=42708,3333:0}<br>\\( c= \\){1:NUMERICAL:=10416,6667:0}<br>"
 ]
 },
 {
-"einleitung":"Die Mitglieder eines Streamingdiensts haben entweder ein Basisabo, ein Premiumabo oder kein aktives Abo. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Monat zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>P</td><td>kA</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,5</td><td>0</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>P</td><td>0,5</td><td>0,2</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>kA</td><td>0<td>0,8</td><td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Abos durch den Vektor \\( v_0 = \\left(\\begin{matrix}285000\\\\235000\\\\480000\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Die Menschen verbringen ihren Urlaub entweder zu Hause, am Meer oder in den Bergen.  Die Tabelle erläutert wie sich die Urlaubsziele von einem Jahr zum nächsten ändern.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>H</td><td>M</td><td>B</td>\n    </tr>\n    <tr>\n        <td>H</td><td>0,6</td><td>0</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>M</td><td>0</td><td>0,8</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,4<td>0,2</td><td>0,7</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Urlaubsziele durch den Vektor \\( v_0 = \\left(\\begin{matrix}3680\\\\840\\\\5480\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Monaten.",
-"die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Monaten.",
+"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahren.",
+"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=1000000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=328628,5:0}<br>\\( b= \\){1:NUMERICAL:=258443,5:0}<br>\\( c= \\){1:NUMERICAL:=412928:0}<br>",
-"\\( a= \\){1:NUMERICAL:=329896,9072:0}<br>\\( b= \\){1:NUMERICAL:=257731,9588:0}<br>\\( c= \\){1:NUMERICAL:=412371,134:0}<br>"
+"\\( a= \\){1:NUMERICAL:=2739,8104:0}<br>\\( b= \\){1:NUMERICAL:=2075,0724:0}<br>\\( c= \\){1:NUMERICAL:=5185,1172:0}<br>",
+"\\( a= \\){1:NUMERICAL:=6000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=4000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=2500:0}<br>\\( b= \\){1:NUMERICAL:=2500:0}<br>\\( c= \\){1:NUMERICAL:=5000:0}<br>"
 ]
 },
 {
-"einleitung":"Die Bevölkerung eines Landes kann bei einer Wahl die Partei der Bürokraten, der Sesselpupser und der Demagogen wählen. Die Tabelle veranschaulicht das Wechselverhalten der Wählerinnen und Wähler von einer Wahl zur nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>S</td><td>D</td>\n    </tr>\n    <tr>\n        <td>B</td><td>1</td><td>0,8</td><td>0</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>0</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>D</td><td>0<td>0,2</td><td>0,8</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Stimmen durch den Vektor \\( v_0 = \\left(\\begin{matrix}28800\\\\13600\\\\57600\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Wahlperioden.",
-"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Wahlperioden.",
-"die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=48896:0}<br>\\( b= \\){1:NUMERICAL:=9760:0}<br>\\( c= \\){1:NUMERICAL:=41344:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=20000:0}<br>\\( c= \\){1:NUMERICAL:=80000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=99982,1304:0}<br>\\( b= \\){1:NUMERICAL:=3,4128:0}<br>\\( c= \\){1:NUMERICAL:=14,4568:0}<br>"
-]
-},
-{
-"einleitung":"In einem Land bieten die Funkloch AG, der Datensauger 3000 und die Teuro GmbH Mobilfunktarife an. Die Tabelle veranschaulicht das Wechselverhalten der Mobilfunktnutzer von einem Jahr zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>F</td><td>D</td><td>T</td>\n    </tr>\n    <tr>\n        <td>F</td><td>0,7</td><td>0,3</td><td>0</td>\n    </tr>\n    <tr>\n        <td>D</td><td>0</td><td>0,2</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>T</td><td>0,3<td>0,5</td><td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Mobilfunknutzer nach Netzzugehörigkeit durch den Vektor \\( v_0 = \\left(\\begin{matrix}2984\\\\2644\\\\4372\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
-"die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
-"die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=2000:0}<br>\\( b= \\){1:NUMERICAL:=8000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2831,84:0}<br>\\( b= \\){1:NUMERICAL:=2744,56:0}<br>\\( c= \\){1:NUMERICAL:=4423,6:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2777,7778:0}<br>\\( b= \\){1:NUMERICAL:=2777,7778:0}<br>\\( c= \\){1:NUMERICAL:=4444,4444:0}<br>"
-]
-},
-{
-"einleitung":"In einer Bevölkerung lassen sich im Zusammenhang mit einer Virusinfektion drei verschiedene Gesundheitszustände beobachten: nicht infiziert, symptomatisch infiziert und asymptomatisch infiziert. Die Tabelle veranschaulicht wie sich die Verteilung der Zustände von einem Quartal zum nächsten ändert.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>ni</td><td>si</td><td>ai</td>\n    </tr>\n    <tr>\n        <td>ni</td><td>0,7</td><td>0</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>si</td><td>0,2</td><td>1</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>ai</td><td>0,1<td>0</td><td>0,3</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Einwohner in Abhängigkeit der Gesundheitszustände durch den Vektor \\( v_0 = \\left(\\begin{matrix}4450\\\\4700\\\\850\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Quartalen.",
-"die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Quartalen.",
-"die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=10000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2413,75:0}<br>\\( b= \\){1:NUMERICAL:=7118,75:0}<br>\\( c= \\){1:NUMERICAL:=467,5:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0,1729:0}<br>\\( b= \\){1:NUMERICAL:=9999,7936:0}<br>\\( c= \\){1:NUMERICAL:=0,0335:0}<br>"
-]
-},
-{
-"einleitung":"In einem Behälter befinden sich Gasteilchen. Der Behälter ist in die drei Bereiche A, B und C aufgeteilt, die jeweils mit Membranen voneinandern getrennt sind. Die Tabelle erläutert das Wechselverhalten der Teilchen von einer Stunde zur nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>A</td><td>B</td><td>C</td>\n    </tr>\n    <tr>\n        <td>A</td><td>0</td><td>0</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,5</td><td>1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>C</td><td>0,5<td>0</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Teilchen auf die Bereiche durch den Vektor \\( v_0 = \\left(\\begin{matrix}7200\\\\79000\\\\13800\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Stunden.",
-"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Stunden.",
-"die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=2806,128:0}<br>\\( b= \\){1:NUMERICAL:=93567,76:0}<br>\\( c= \\){1:NUMERICAL:=3626,112:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=70000:0}<br>\\( c= \\){1:NUMERICAL:=30000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0,0464:0}<br>\\( b= \\){1:NUMERICAL:=99999,893:0}<br>\\( c= \\){1:NUMERICAL:=0,0606:0}<br>"
-]
-},
-{
-"einleitung":"Wetterstationen prüfen täglich, ob das Wetter sonnig, bewölkt oder regnerisch ist. Die Tabelle beschreibt die Veränderung des Wetter an den Wetterstationen von einem Tag zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>s</td><td>b</td><td>r</td>\n    </tr>\n    <tr>\n        <td>s</td><td>0,1</td><td>0,6</td><td>0</td>\n    </tr>\n    <tr>\n        <td>b</td><td>0,5</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>r</td><td>0,4<td>0,4</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Wetterzustände durch den Vektor \\( v_0 = \\left(\\begin{matrix}42600\\\\27000\\\\30400\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Tagen.",
-"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Tagen.",
-"die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=100000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=27902,526:0}<br>\\( b= \\){1:NUMERICAL:=43544,77:0}<br>\\( c= \\){1:NUMERICAL:=28552,704:0}<br>",
-"\\( a= \\){1:NUMERICAL:=28571,4286:0}<br>\\( b= \\){1:NUMERICAL:=42857,1429:0}<br>\\( c= \\){1:NUMERICAL:=28571,4286:0}<br>"
-]
-},
-{
-"einleitung":"Kulturelle Strömungen lassen sich in drei Kategorien gliedern: Mainstream, Subkultur und Vergessenheit. Die Tabelle erläutert wie sich kulturelle Strömungen von Jahrhundert zu Jahrhundert ändern.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>M</td><td>S</td><td>V</td>\n    </tr>\n    <tr>\n        <td>M</td><td>0</td><td>1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,7</td><td>0</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>V</td><td>0,3<td>0</td><td>0,8</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der der kulturellen Strömungen durch den Vektor \\( v_0 = \\left(\\begin{matrix}600\\\\5380\\\\4020\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahrhunderten.",
-"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahrhunderten.",
-"die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=1722,96:0}<br>\\( b= \\){1:NUMERICAL:=3878,008:0}<br>\\( c= \\){1:NUMERICAL:=4399,032:0}<br>",
-"\\( a= \\){1:NUMERICAL:=10000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2857,049:0}<br>\\( b= \\){1:NUMERICAL:=2857,2192:0}<br>\\( c= \\){1:NUMERICAL:=4285,7317:0}<br>"
-]
-},
-{
-"einleitung":"Modefirmen setzen jährlich neue Schwerpunkte für ihre Kollektionen, die entweder auf dem Business-Look, dem Casual-Look oder Streetwear liegen. Die Tabelle beschreibt den jährlichen Wechsel der Schwerpunkte.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>C</td><td>S</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0</td><td>0,3</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>C</td><td>1</td><td>0</td><td>0</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0<td>0,7</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Schwerpunkte der Modefirmen durch den Vektor \\( v_0 = \\left(\\begin{matrix}2616\\\\3840\\\\3544\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
-"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
-"die langfristige Verteilung der Anzahlen."
-],
-"antworten":[
-"\\( a= \\){1:NUMERICAL:=3248,16:0}<br>\\( b= \\){1:NUMERICAL:=3278,4:0}<br>\\( c= \\){1:NUMERICAL:=3473,44:0}<br>",
-"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=8000:0}<br>\\( c= \\){1:NUMERICAL:=2000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=3157,8947:0}<br>\\( b= \\){1:NUMERICAL:=3157,8947:0}<br>\\( c= \\){1:NUMERICAL:=3684,2105:0}<br>"
-]
-},
-{
-"einleitung":"Gamer können zwischen drei Computerspielen wählen: AFK Adventures, EpicFail Legends und LootLovers. Die Tabelle veranschaulicht das Wechselverhalten der Gamer von einem Monat zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>A</td><td>E</td><td>L</td>\n    </tr>\n    <tr>\n        <td>A</td><td>0,5</td><td>0</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>E</td><td>0</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>L</td><td>0,5<td>0,3</td><td>0,8</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der ausgewählten Spiele durch den Vektor \\( v_0 = \\left(\\begin{matrix}2676\\\\343\\\\6981\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Die Mitglieder eines Streamingdiensts haben entweder ein Basisabo, ein Premiumabo oder kein aktives Abo. Die Tabelle veranschaulicht das Wechselverhalten der Kundschaft von einem Monat zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>P</td><td>kA</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0</td><td>0</td><td>0,9</td>\n    </tr>\n    <tr>\n        <td>P</td><td>0,3</td><td>0,7</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>kA</td><td>0,7<td>0,3</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Abos durch den Vektor \\( v_0 = \\left(\\begin{matrix}4104\\\\3544\\\\2352\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Monaten.",
-"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Monaten.",
+"die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Monaten.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=2400:0}<br>\\( b= \\){1:NUMERICAL:=700:0}<br>\\( c= \\){1:NUMERICAL:=6900:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2828,2954:0}<br>\\( b= \\){1:NUMERICAL:=57,648:0}<br>\\( c= \\){1:NUMERICAL:=7114,0566:0}<br>",
-"\\( a= \\){1:NUMERICAL:=2857,1429:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=7142,8571:0}<br>"
+"\\( a= \\){1:NUMERICAL:=5400:0}<br>\\( b= \\){1:NUMERICAL:=2600:0}<br>\\( c= \\){1:NUMERICAL:=2000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=2399,328:0}<br>\\( b= \\){1:NUMERICAL:=3983,488:0}<br>\\( c= \\){1:NUMERICAL:=3617,184:0}<br>",
+"\\( a= \\){1:NUMERICAL:=2872,3404:0}<br>\\( b= \\){1:NUMERICAL:=3936,1702:0}<br>\\( c= \\){1:NUMERICAL:=3191,4894:0}<br>"
 ]
 },
 {
-"einleitung":"Die Spiele an Glücksspielautomaten in einer Spielhalle können zu drei möglichen Ausgängen führen: Gewinn, Verlust oder einem neutralen Ausgang. Die Tabelle erläutert die Veränderungen der Ausgänge von einem Spiel zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>G</td><td>V</td><td>N</td>\n    </tr>\n    <tr>\n        <td>G</td><td>0,2</td><td>0,8</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>V</td><td>0,7</td><td>0</td><td>0</td>\n    </tr>\n    <tr>\n        <td>N</td><td>0,1<td>0,2</td><td>0,7</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Ausgänge durch den Vektor \\( v_0 = \\left(\\begin{matrix}407400\\\\326200\\\\266400\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Die Bevölkerung eines Landes kann bei einer Wahl die Partei der Bürokraten, der Sesselpupser und der Demagogen wählen. Die Tabelle veranschaulicht das Wechselverhalten der Wählerinnen und Wähler von einer Wahl zur nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>S</td><td>D</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,2</td><td>0,7</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,8</td><td>0,3</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>D</td><td>0<td>0</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Stimmen durch den Vektor \\( v_0 = \\left(\\begin{matrix}512400\\\\468400\\\\19200\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Wahlperioden.",
+"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Wahlperioden.",
+"die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=640000:0}<br>\\( b= \\){1:NUMERICAL:=240000:0}<br>\\( c= \\){1:NUMERICAL:=120000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=465060,476:0}<br>\\( b= \\){1:NUMERICAL:=534742,916:0}<br>\\( c= \\){1:NUMERICAL:=196,608:0}<br>",
+"\\( a= \\){1:NUMERICAL:=466666,6667:0}<br>\\( b= \\){1:NUMERICAL:=533333,3333:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>"
+]
+},
+{
+"einleitung":"In einem Land bieten die Funkloch AG, der Datensauger 3000 und die Teuro GmbH Mobilfunktarife an. Die Tabelle beschreibt das Wechselverhalten der Mobilfunktnutzer von einem Jahr zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>F</td><td>D</td><td>T</td>\n    </tr>\n    <tr>\n        <td>F</td><td>0</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>D</td><td>0,9</td><td>0</td><td>0</td>\n    </tr>\n    <tr>\n        <td>T</td><td>0,1<td>1</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Mobilfunknutzer nach Netzzugehörigkeit durch den Vektor \\( v_0 = \\left(\\begin{matrix}17000\\\\9900\\\\73100\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahren.",
+"die Verteilung \\( v_2 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 2 Jahren.",
+"die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=80000:0}<br>\\( b= \\){1:NUMERICAL:=9000:0}<br>\\( c= \\){1:NUMERICAL:=11000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=11600:0}<br>\\( b= \\){1:NUMERICAL:=65790:0}<br>\\( c= \\){1:NUMERICAL:=22610:0}<br>",
+"\\( a= \\){1:NUMERICAL:=34482,7586:0}<br>\\( b= \\){1:NUMERICAL:=31034,4828:0}<br>\\( c= \\){1:NUMERICAL:=34482,7586:0}<br>"
+]
+},
+{
+"einleitung":"In einer Bevölkerung lassen sich im Zusammenhang mit einer Virusinfektion drei verschiedene Gesundheitszustände beobachten: nicht infiziert, symptomatisch infiziert und asymptomatisch infiziert. Die Tabelle erläutert wie sich die Verteilung der Zustände von einem Quartal zum nächsten ändert.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>ni</td><td>si</td><td>ai</td>\n    </tr>\n    <tr>\n        <td>ni</td><td>0,3</td><td>0,2</td><td>0</td>\n    </tr>\n    <tr>\n        <td>si</td><td>0,7</td><td>0,8</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>ai</td><td>0<td>0</td><td>0,9</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Einwohner in Abhängigkeit der Gesundheitszustände durch den Vektor \\( v_0 = \\left(\\begin{matrix}40000\\\\231000\\\\729000\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Quartalen.",
+"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Quartalen.",
+"die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=102648:0}<br>\\( b= \\){1:NUMERICAL:=419055,1:0}<br>\\( c= \\){1:NUMERICAL:=478296,9:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=100000:0}<br>\\( c= \\){1:NUMERICAL:=900000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=222222,2222:0}<br>\\( b= \\){1:NUMERICAL:=777777,7778:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>"
+]
+},
+{
+"einleitung":"In einem Behälter befinden sich Gasteilchen. Der Behälter ist in die drei Bereiche A, B und C aufgeteilt, die jeweils mit Membranen voneinandern getrennt sind. Die Tabelle beschreibt das Wechselverhalten der Teilchen von einer Stunde zur nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>A</td><td>B</td><td>C</td>\n    </tr>\n    <tr>\n        <td>A</td><td>0,3</td><td>0,9</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,7</td><td>0</td><td>0</td>\n    </tr>\n    <tr>\n        <td>C</td><td>0<td>0,1</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Teilchen auf die Bereiche durch den Vektor \\( v_0 = \\left(\\begin{matrix}4470\\\\5040\\\\490\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Stunden.",
+"die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Stunden.",
+"die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=3000:0}<br>\\( b= \\){1:NUMERICAL:=7000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
+"\\( a= \\){1:NUMERICAL:=5337,447:0}<br>\\( b= \\){1:NUMERICAL:=4038,783:0}<br>\\( c= \\){1:NUMERICAL:=623,77:0}<br>",
+"\\( a= \\){1:NUMERICAL:=5504,5872:0}<br>\\( b= \\){1:NUMERICAL:=3853,211:0}<br>\\( c= \\){1:NUMERICAL:=642,2018:0}<br>"
+]
+},
+{
+"einleitung":"Wetterstationen prüfen täglich, ob das Wetter sonnig, bewölkt oder regnerisch ist. Die Tabelle veranschaulicht die Veränderung des Wetter an den Wetterstationen von einem Tag zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>s</td><td>b</td><td>r</td>\n    </tr>\n    <tr>\n        <td>s</td><td>1</td><td>0</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>b</td><td>0</td><td>0,3</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>r</td><td>0<td>0,7</td><td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Wetterzustände durch den Vektor \\( v_0 = \\left(\\begin{matrix}392000\\\\210000\\\\398000\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Tagen.",
+"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Tagen.",
+"die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=600936:0}<br>\\( b= \\){1:NUMERICAL:=137760:0}<br>\\( c= \\){1:NUMERICAL:=261304:0}<br>",
+"\\( a= \\){1:NUMERICAL:=200000:0}<br>\\( b= \\){1:NUMERICAL:=300000:0}<br>\\( c= \\){1:NUMERICAL:=500000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=1000000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>"
+]
+},
+{
+"einleitung":"Kulturelle Strömungen lassen sich in drei Kategorien gliedern: Mainstream, Subkultur und Vergessenheit. Die Tabelle veranschaulicht wie sich kulturelle Strömungen von Jahrhundert zu Jahrhundert ändern.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>M</td><td>S</td><td>V</td>\n    </tr>\n    <tr>\n        <td>M</td><td>0,2</td><td>0,3</td><td>0</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,2</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>V</td><td>0,6<td>0,7</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der der kulturellen Strömungen durch den Vektor \\( v_0 = \\left(\\begin{matrix}1624\\\\4368\\\\4008\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Jahrhunderten.",
+"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Jahrhunderten.",
+"die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=1631,913:0}<br>\\( b= \\){1:NUMERICAL:=4343,1629:0}<br>\\( c= \\){1:NUMERICAL:=4024,9242:0}<br>",
+"\\( a= \\){1:NUMERICAL:=1600:0}<br>\\( b= \\){1:NUMERICAL:=4400:0}<br>\\( c= \\){1:NUMERICAL:=4000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=1630,4348:0}<br>\\( b= \\){1:NUMERICAL:=4347,8261:0}<br>\\( c= \\){1:NUMERICAL:=4021,7391:0}<br>"
+]
+},
+{
+"einleitung":"Modefirmen setzen jährlich neue Schwerpunkte für ihre Kollektionen, die entweder auf dem Business-Look, dem Casual-Look oder Streetwear liegen. Die Tabelle beschreibt den jährlichen Wechsel der Schwerpunkte.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>C</td><td>S</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,8</td><td>0,2</td><td>0</td>\n    </tr>\n    <tr>\n        <td>C</td><td>0,2</td><td>0,3</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0<td>0,5</td><td>0,7</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Schwerpunkte der Modefirmen durch den Vektor \\( v_0 = \\left(\\begin{matrix}2320\\\\2780\\\\4900\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Jahren.",
+"die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Jahren.",
+"die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=10000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
+"\\( a= \\){1:NUMERICAL:=2580,992:0}<br>\\( b= \\){1:NUMERICAL:=2746,168:0}<br>\\( c= \\){1:NUMERICAL:=4672,84:0}<br>",
+"\\( a= \\){1:NUMERICAL:=2727,2727:0}<br>\\( b= \\){1:NUMERICAL:=2727,2727:0}<br>\\( c= \\){1:NUMERICAL:=4545,4545:0}<br>"
+]
+},
+{
+"einleitung":"Gamer können zwischen drei Computerspielen wählen: AFK Adventures, EpicFail Legends und LootLovers. Die Tabelle erläutert das Wechselverhalten der Gamer von einem Monat zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>A</td><td>E</td><td>L</td>\n    </tr>\n    <tr>\n        <td>A</td><td>0,7</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>E</td><td>0</td><td>0,6</td><td>0</td>\n    </tr>\n    <tr>\n        <td>L</td><td>0,3<td>0,4</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der ausgewählten Spiele durch den Vektor \\( v_0 = \\left(\\begin{matrix}601000\\\\151200\\\\247800\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Monaten.",
+"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Monaten.",
+"die langfristige Verteilung der Anzahlen."
+],
+"antworten":[
+"\\( a= \\){1:NUMERICAL:=756167,65:0}<br>\\( b= \\){1:NUMERICAL:=11757,312:0}<br>\\( c= \\){1:NUMERICAL:=232075,038:0}<br>",
+"\\( a= \\){1:NUMERICAL:=0:0}<br>\\( b= \\){1:NUMERICAL:=700000:0}<br>\\( c= \\){1:NUMERICAL:=300000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=769230,7692:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=230769,2308:0}<br>"
+]
+},
+{
+"einleitung":"Die Spiele an Glücksspielautomaten in einer Spielhalle können zu drei möglichen Ausgängen führen: Gewinn, Verlust oder einem neutralen Ausgang. Die Tabelle beschreibt die Veränderungen der Ausgänge von einem Spiel zum nächsten.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>G</td><td>V</td><td>N</td>\n    </tr>\n    <tr>\n        <td>G</td><td>0,8</td><td>0,2</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>V</td><td>0,2</td><td>0,3</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>N</td><td>0<td>0,5</td><td>0,3</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Ausgänge durch den Vektor \\( v_0 = \\left(\\begin{matrix}6120\\\\2356\\\\1524\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Spielen.",
-"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Spielen.",
+"die Verteilung \\( v_4 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 4 Spielen.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=600000:0}<br>\\( b= \\){1:NUMERICAL:=400000:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
-"\\( a= \\){1:NUMERICAL:=402792,226:0}<br>\\( b= \\){1:NUMERICAL:=279541,388:0}<br>\\( c= \\){1:NUMERICAL:=317666,386:0}<br>",
-"\\( a= \\){1:NUMERICAL:=400000:0}<br>\\( b= \\){1:NUMERICAL:=280000:0}<br>\\( c= \\){1:NUMERICAL:=320000:0}<br>"
+"\\( a= \\){1:NUMERICAL:=8000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=2000:0}<br>",
+"\\( a= \\){1:NUMERICAL:=5872,176:0}<br>\\( b= \\){1:NUMERICAL:=2411,5216:0}<br>\\( c= \\){1:NUMERICAL:=1716,3024:0}<br>",
+"\\( a= \\){1:NUMERICAL:=5862,069:0}<br>\\( b= \\){1:NUMERICAL:=2413,7931:0}<br>\\( c= \\){1:NUMERICAL:=1724,1379:0}<br>"
 ]
 },
 {
-"einleitung":"Ein Antivirusprogramm scannt täglich einen Computer. Die Dateien können dabei entweder als unbedenklich eingestuft werden, eine potenzielle Gefahr darstellen oder in Quarantäne verschoben werden. Die Tabelle veranschaulicht wie sich die Zustände der Dateien täglich ändern.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>U</td><td>G</td><td>Q</td>\n    </tr>\n    <tr>\n        <td>U</td><td>0,6</td><td>0,2</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>G</td><td>0,1</td><td>0</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>Q</td><td>0,3<td>0,8</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Zustände der Dateien durch den Vektor \\( v_0 = \\left(\\begin{matrix}460400\\\\339000\\\\200600\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
+"einleitung":"Ein Antivirusprogramm scannt täglich einen Computer. Die Dateien können dabei entweder als unbedenklich eingestuft werden, eine potenzielle Gefahr darstellen oder in Quarantäne verschoben werden. Die Tabelle beschreibt wie sich die Zustände der Dateien täglich ändern.</p> <p><table class=\"TabelleEinleitung\">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>U</td><td>G</td><td>Q</td>\n    </tr>\n    <tr>\n        <td>U</td><td>0,2</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>G</td><td>0</td><td>0</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>Q</td><td>0,8<td>0,3</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anzahlen der Zustände der Dateien durch den Vektor \\( v_0 = \\left(\\begin{matrix}34400\\\\28800\\\\36800\\\\ \\end{matrix}\\right) \\) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"die Verteilung \\( v_{-2} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 2 Tagen.",
-"die Verteilung \\( v_3 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 3 Tagen.",
+"die Verteilung \\( v_5 = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen nach 5 Tagen.",
+"die Verteilung \\( v_{-3} = \\left(\\begin{matrix}a\\\\b\\\\c\\\\ \\end{matrix}\\right) \\) der Anzahlen vor 3 Tagen.",
 "die langfristige Verteilung der Anzahlen."
 ],
 "antworten":[
-"\\( a= \\){1:NUMERICAL:=460000:0}<br>\\( b= \\){1:NUMERICAL:=450000:0}<br>\\( c= \\){1:NUMERICAL:=90000:0}<br>",
-"\\( a= \\){1:NUMERICAL:=432711,2:0}<br>\\( b= \\){1:NUMERICAL:=201400:0}<br>\\( c= \\){1:NUMERICAL:=365888,8:0}<br>",
-"\\( a= \\){1:NUMERICAL:=440677,9669:0}<br>\\( b= \\){1:NUMERICAL:=237288,1392:0}<br>\\( c= \\){1:NUMERICAL:=322033,8939:0}<br>"
+"\\( a= \\){1:NUMERICAL:=24127,744:0}<br>\\( b= \\){1:NUMERICAL:=28380,288:0}<br>\\( c= \\){1:NUMERICAL:=47491,968:0}<br>",
+"\\( a= \\){1:NUMERICAL:=100000:0}<br>\\( b= \\){1:NUMERICAL:=0:0}<br>\\( c= \\){1:NUMERICAL:=0:0}<br>",
+"\\( a= \\){1:NUMERICAL:=24705,8824:0}<br>\\( b= \\){1:NUMERICAL:=28235,2941:0}<br>\\( c= \\){1:NUMERICAL:=47058,8235:0}<br>"
 ]
 }
 ]
