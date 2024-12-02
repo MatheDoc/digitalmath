@@ -6,11 +6,13 @@ body {
 }
 h1 {
     background-color: #B8CEF2; /*#B8CEF2 oder 8889af*/
-    color: #616161;
+    color: #000000;
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Arial', sans-serif;
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
 }
 
 
