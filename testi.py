@@ -1,11 +1,11 @@
 import numpy as np
 
 # Eingabe: Matrix A und Potenz n
-A = np.array([[0.3, 0,0.6], [ 0,1,0],[0.7,0,0.2]])  # Beispielmatrix
+A = np.array([[0, 0,1], [ 0,1,0],[1,0,0]])  # Beispielmatrix
 B = np.array([[ 0,0,1], [ 0.3,0.2,0],[0.7,0.8,0]])  # Beispielmatrix
 P = np.array([[ 0.2,0.3,0.4], [ 0.1,0.2,0.3],[0.7,0.5,0.3]])  # Beispielmatrix
 
-n = 400  # Potenz (z. B. A^3)
+n = 5  # Potenz (z. B. A^3)
 
 # Potenzberechnung
 try:
