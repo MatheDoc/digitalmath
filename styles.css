@@ -484,9 +484,9 @@ a.link-homepage:hover {
 }
 
 /* Hover-Effekt für Listenelemente */
-/*.nachfolgend li:hover {
+*.nachfolgend li:hover {
     animation: blink 0.2s infinite; 
-}/*
+}
 
 
 /* Klasse für den stroboskopischen Hintergrund */
