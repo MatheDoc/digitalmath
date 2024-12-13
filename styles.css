@@ -483,17 +483,26 @@ a.link-homepage:hover {
     }
 }
 
-/* Hover-Effekt für Listenelemente */
-/**.nachfolgend li:hover {
+/* Modifikationen für Clips */
+.nachfolgend li:hover {
     animation: blink 0.2s infinite; 
-}*/
+}
+.einleitung {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nachfolgend li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 
 /* Klasse für den stroboskopischen Hintergrund */
 .strobe-background {
     animation: strobeEffect 0.2s 4;
-    /*background-size: 200% 200%;
-    margin: 90%;*/
+    background-size: 200% 200%;
+    /*margin: 90%;*/
 }
 /*
 h1 {
