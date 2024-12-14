@@ -113,10 +113,8 @@ function replaceTiktokidWithUrl(htmlContent) {
 
     // Replacer-Funktion mit den richtigen Parametern
     function replacer(match, id) {
-        const url = `
-            <i class="fab fa-tiktok clip-icon" title="Clip" 
-               onclick="window.open('https://www.tiktok.com/@mathechecks/video/${id}', '_blank')"></i>`;
-        return url.trim(); // Entfernt mögliche Leerzeichen durch das Multiline-Template
+        const url = `<i class="fab fa-tiktok clip-icon" title="Clip" onclick="window.open('https://www.tiktok.com/@mathechecks/video/${id}', '_blank')"></i>`;
+        return url
     }
 
     // Ersetze das Muster im Text
