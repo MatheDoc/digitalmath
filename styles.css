@@ -198,7 +198,7 @@ select.mch + .select2-container .select2-selection--single {
     max-width: 90%;
 }
 
-.info-icon, .copy-icon, .test-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon  {
+.info-icon, .copy-icon, .test-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon, .clip-icon  {
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
@@ -206,6 +206,15 @@ select.mch + .select2-container .select2-selection--single {
     margin-left: 5px;
     position: relative;
 }
+
+.clip-icon {
+    color: #cd2de2b0;
+}
+
+.clip-icon:hover {
+    color: #cd2de2;
+}
+
 .info-icon {
     color: #e2a92db0;
 }
