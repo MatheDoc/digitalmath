@@ -210,7 +210,7 @@ select.mch + .select2-container .select2-selection--single {
 .clip-icon {
     border-radius: 10%;
     background-color: #000; 
-    color: #69c9d0; 
+    color: #ffbaff; 
     padding: 2px;
     /*display: flex;
     align-items: center;
@@ -218,7 +218,7 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 .clip-icon:hover {
-    color: #47c1ca;
+    color: #f590f5;
 }
 
 .info-icon {
