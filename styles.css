@@ -208,9 +208,9 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 .clip-icon {
-    border-radius: 10%; /* Runde Form */
-    background-color: #000; /* Schwarzer Hintergrund */
-    color: #ffffff; /* TikTok-Türkis */
+    border-radius: 10%;
+    background-color: #000; 
+    color: #69c9d0; 
     padding: 2px;
     /*display: flex;
     align-items: center;
@@ -218,7 +218,7 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 .clip-icon:hover {
-    color: #cd2de2;
+    color: #47c1ca;
 }
 
 .info-icon {
