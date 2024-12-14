@@ -208,7 +208,15 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 .clip-icon {
-    color: #cd2de2b0;
+    border-radius: 50%; /* Runde Form */
+    background-color: #000; /* Schwarzer Hintergrund */
+    color: #69C9D0; /* TikTok-Türkis */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 3px solid #ddd; /* Optionaler Rand */
+    transition: transform 0.3s ease; /* Übergangseffekt */
 }
 
 .clip-icon:hover {
