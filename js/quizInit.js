@@ -82,6 +82,7 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
         aufgabenElement.id = `aufgabe-${aufgabenZaehler}`;
         let interactiveHtml = replaceNumericalWithInteractive(htmlContent);
         interactiveHtml = replaceMultipleChoiceWithDropdown(interactiveHtml);
+        interactiveHtml = replaceTiktokidWithUrl(interactiveHtml);
         aufgabenElement.innerHTML = interactiveHtml;
         aufgabeContainer.appendChild(aufgabenElement);
 
@@ -103,6 +104,23 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
         document.getElementById('aufgabe').innerHTML += `<p>Keine Aufgaben in der Sammlung ${sammlung} gefunden.</p>`;
     }
 }
+
+
+// Ersetze Tiktok-Platzhalter durch URLs
+function replaceTiktokidWithUrl(htmlContent) {
+    // RegExp für das TikTok-ID-Muster
+    const pattern = /\{TIKTOK:id=([A-Za-z0-9_-]+)}/g;
+
+    // Replacer-Funktion mit den richtigen Parametern
+    function replacer(match, id) {
+        const url = 'https://www.tiktok.com/@mathechecks/video/' + id;
+        return url;
+    }
+
+    // Ersetze das Muster im Text
+    return htmlContent.replace(pattern, replacer);
+}
+
 
 // Ersetze numerische Aufgaben mit interaktiven Eingabefeldern
 function replaceNumericalWithInteractive(htmlContent) {
