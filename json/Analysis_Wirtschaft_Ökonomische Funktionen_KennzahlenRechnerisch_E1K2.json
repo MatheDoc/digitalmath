@@ -1,422 +1,422 @@
 ﻿[
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=11x \\)</p> <p>\\( K(x)=0,11x^2+130 \\)</p> <p>\\( G(x)=-0,11x^2+11x-130 \\)</p> <p>\\( p(x)=11 \\)</p> <p>Die Kapazitätsgrenze beträgt 95 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=34x \\)</p> <p>\\( K(x)=2,1x^2+49 \\)</p> <p>\\( G(x)=-2,1x^2+34x-49 \\)</p> <p>\\( p(x)=34 \\)</p> <p>Die Kapazitätsgrenze beträgt 17 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Erlös.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"den Verkaufspreis.",
 "die Fixkosten.",
-"die Gewinnschwelle.",
+"die Gewinngrenze.",
+"den Verkaufspreis.",
+"den maximalen Erlös.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"den maximalen Gewinn.",
 "die gewinnmaximale Menge."
 ],
 "antworten":[
-"{1:NUMERICAL:=1045:0,1}",
-"{1:NUMERICAL:=86,306:0,1}",
-"{1:NUMERICAL:=145:0,1}",
-"{1:NUMERICAL:=11:0,1}",
-"{1:NUMERICAL:=130:0,1}",
-"{1:NUMERICAL:=13,694:0,1}",
-"{1:NUMERICAL:=50:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,6x \\)</p> <p>\\( K(x)=0,072x^2+62 \\)</p> <p>\\( G(x)=-0,072x^2+5,6x-62 \\)</p> <p>\\( p(x)=5,6 \\)</p> <p>Die Kapazitätsgrenze beträgt 71 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den Verkaufspreis.",
-"die Fixkosten.",
-"den maximalen Erlös.",
-"die Gewinnschwelle.",
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"die Gewinngrenze."
-],
-"antworten":[
-"{1:NUMERICAL:=5,6:0,1}",
-"{1:NUMERICAL:=62:0,1}",
-"{1:NUMERICAL:=397,6:0,1}",
-"{1:NUMERICAL:=13,37:0,1}",
-"{1:NUMERICAL:=38,8889:0,1}",
-"{1:NUMERICAL:=46,8889:0,1}",
-"{1:NUMERICAL:=64,408:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=7,4x \\)</p> <p>\\( K(x)=0,044x^2+77 \\)</p> <p>\\( G(x)=-0,044x^2+7,4x-77 \\)</p> <p>\\( p(x)=7,4 \\)</p> <p>Die Kapazitätsgrenze beträgt 173 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die gewinnmaximale Menge.",
-"den Verkaufspreis.",
-"die Gewinngrenze.",
-"den maximalen Erlös.",
-"die Gewinnschwelle.",
-"die Fixkosten.",
-"den maximalen Gewinn."
-],
-"antworten":[
-"{1:NUMERICAL:=84,0909:0,1}",
-"{1:NUMERICAL:=7,4:0,1}",
-"{1:NUMERICAL:=157,038:0,1}",
-"{1:NUMERICAL:=1280,2:0,1}",
-"{1:NUMERICAL:=11,144:0,1}",
-"{1:NUMERICAL:=77:0,1}",
-"{1:NUMERICAL:=234,1364:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=17x \\)</p> <p>\\( K(x)=0,18x^2+160 \\)</p> <p>\\( G(x)=-0,18x^2+17x-160 \\)</p> <p>\\( p(x)=17 \\)</p> <p>Die Kapazitätsgrenze beträgt 93 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"den Verkaufspreis.",
-"den maximalen Erlös.",
-"die gewinnmaximale Menge.",
-"die Fixkosten.",
-"die Gewinnschwelle."
-],
-"antworten":[
-"{1:NUMERICAL:=83,842:0,1}",
-"{1:NUMERICAL:=241,3889:0,1}",
-"{1:NUMERICAL:=17:0,1}",
-"{1:NUMERICAL:=1581:0,1}",
-"{1:NUMERICAL:=47,2222:0,1}",
-"{1:NUMERICAL:=160:0,1}",
-"{1:NUMERICAL:=10,602:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=37x \\)</p> <p>\\( K(x)=1,3x^2+140 \\)</p> <p>\\( G(x)=-1,3x^2+37x-140 \\)</p> <p>\\( p(x)=37 \\)</p> <p>Die Kapazitätsgrenze beträgt 27 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die Gewinngrenze.",
-"die Fixkosten.",
-"die gewinnmaximale Menge.",
-"den Verkaufspreis.",
-"die Gewinnschwelle."
-],
-"antworten":[
-"{1:NUMERICAL:=123,2692:0,1}",
-"{1:NUMERICAL:=999:0,1}",
-"{1:NUMERICAL:=23,968:0,1}",
-"{1:NUMERICAL:=140:0,1}",
-"{1:NUMERICAL:=14,2308:0,1}",
-"{1:NUMERICAL:=37:0,1}",
-"{1:NUMERICAL:=4,494:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=13x \\)</p> <p>\\( K(x)=0,98x^2+18 \\)</p> <p>\\( G(x)=-0,98x^2+13x-18 \\)</p> <p>\\( p(x)=13 \\)</p> <p>Die Kapazitätsgrenze beträgt 13 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinnschwelle.",
-"den maximalen Erlös.",
-"die Fixkosten.",
-"den Verkaufspreis.",
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"die Gewinngrenze."
-],
-"antworten":[
-"{1:NUMERICAL:=1,571:0,1}",
-"{1:NUMERICAL:=169:0,1}",
-"{1:NUMERICAL:=18:0,1}",
-"{1:NUMERICAL:=13:0,1}",
-"{1:NUMERICAL:=6,6327:0,1}",
-"{1:NUMERICAL:=25,1122:0,1}",
-"{1:NUMERICAL:=11,694:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=8,5x \\)</p> <p>\\( K(x)=0,14x^2+81 \\)</p> <p>\\( G(x)=-0,14x^2+8,5x-81 \\)</p> <p>\\( p(x)=8,5 \\)</p> <p>Die Kapazitätsgrenze beträgt 54 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Fixkosten.",
-"den maximalen Erlös.",
-"den Verkaufspreis.",
-"die gewinnmaximale Menge.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"die Gewinnschwelle."
-],
-"antworten":[
-"{1:NUMERICAL:=81:0,1}",
-"{1:NUMERICAL:=459:0,1}",
-"{1:NUMERICAL:=8,5:0,1}",
-"{1:NUMERICAL:=30,3571:0,1}",
-"{1:NUMERICAL:=48,876:0,1}",
-"{1:NUMERICAL:=48,0179:0,1}",
-"{1:NUMERICAL:=11,838:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=11x \\)</p> <p>\\( K(x)=0,26x^2+75 \\)</p> <p>\\( G(x)=-0,26x^2+11x-75 \\)</p> <p>\\( p(x)=11 \\)</p> <p>Die Kapazitätsgrenze beträgt 38 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die Gewinngrenze.",
-"den Verkaufspreis.",
-"die Gewinnschwelle.",
-"die Fixkosten."
-],
-"antworten":[
-"{1:NUMERICAL:=21,1538:0,1}",
-"{1:NUMERICAL:=41,3462:0,1}",
-"{1:NUMERICAL:=418:0,1}",
-"{1:NUMERICAL:=33,764:0,1}",
-"{1:NUMERICAL:=11:0,1}",
-"{1:NUMERICAL:=8,544:0,1}",
-"{1:NUMERICAL:=75:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=6,6x \\)</p> <p>\\( K(x)=0,11x^2+66 \\)</p> <p>\\( G(x)=-0,11x^2+6,6x-66 \\)</p> <p>\\( p(x)=6,6 \\)</p> <p>Die Kapazitätsgrenze beträgt 53 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Fixkosten.",
-"die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"den Verkaufspreis.",
-"den maximalen Erlös."
-],
-"antworten":[
-"{1:NUMERICAL:=66:0,1}",
-"{1:NUMERICAL:=30:0,1}",
-"{1:NUMERICAL:=12,68:0,1}",
-"{1:NUMERICAL:=47,32:0,1}",
-"{1:NUMERICAL:=33:0,1}",
-"{1:NUMERICAL:=6,6:0,1}",
-"{1:NUMERICAL:=349,8:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=23x \\)</p> <p>\\( K(x)=0,38x^2+110 \\)</p> <p>\\( G(x)=-0,38x^2+23x-110 \\)</p> <p>\\( p(x)=23 \\)</p> <p>Die Kapazitätsgrenze beträgt 61 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"die Fixkosten.",
-"die Gewinnschwelle.",
-"den Verkaufspreis.",
-"den maximalen Erlös.",
-"die gewinnmaximale Menge."
-],
-"antworten":[
-"{1:NUMERICAL:=55,29:0,1}",
-"{1:NUMERICAL:=238,0263:0,1}",
-"{1:NUMERICAL:=110:0,1}",
-"{1:NUMERICAL:=5,236:0,1}",
-"{1:NUMERICAL:=23:0,1}",
-"{1:NUMERICAL:=1403:0,1}",
-"{1:NUMERICAL:=30,2632:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=15x \\)</p> <p>\\( K(x)=0,35x^2+95 \\)</p> <p>\\( G(x)=-0,35x^2+15x-95 \\)</p> <p>\\( p(x)=15 \\)</p> <p>Die Kapazitätsgrenze beträgt 39 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinngrenze.",
-"den Verkaufspreis.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die Gewinnschwelle.",
-"die Fixkosten.",
-"die gewinnmaximale Menge."
-],
-"antworten":[
-"{1:NUMERICAL:=35,13:0,1}",
-"{1:NUMERICAL:=15:0,1}",
-"{1:NUMERICAL:=65,7143:0,1}",
-"{1:NUMERICAL:=585:0,1}",
-"{1:NUMERICAL:=7,727:0,1}",
-"{1:NUMERICAL:=95:0,1}",
-"{1:NUMERICAL:=21,4286:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=4,9x \\)</p> <p>\\( K(x)=0,052x^2+47 \\)</p> <p>\\( G(x)=-0,052x^2+4,9x-47 \\)</p> <p>\\( p(x)=4,9 \\)</p> <p>Die Kapazitätsgrenze beträgt 92 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den Verkaufspreis.",
-"die Gewinngrenze.",
-"den maximalen Gewinn.",
-"den maximalen Erlös.",
-"die gewinnmaximale Menge.",
-"die Fixkosten.",
-"die Gewinnschwelle."
-],
-"antworten":[
-"{1:NUMERICAL:=4,9:0,1}",
-"{1:NUMERICAL:=83,392:0,1}",
-"{1:NUMERICAL:=68,4327:0,1}",
-"{1:NUMERICAL:=450,8:0,1}",
-"{1:NUMERICAL:=47,1154:0,1}",
-"{1:NUMERICAL:=47:0,1}",
-"{1:NUMERICAL:=10,839:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,1x \\)</p> <p>\\( K(x)=0,088x^2+49 \\)</p> <p>\\( G(x)=-0,088x^2+5,1x-49 \\)</p> <p>\\( p(x)=5,1 \\)</p> <p>Die Kapazitätsgrenze beträgt 51 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die gewinnmaximale Menge.",
-"den maximalen Gewinn.",
-"die Fixkosten.",
-"die Gewinnschwelle.",
-"den maximalen Erlös.",
-"die Gewinngrenze.",
-"den Verkaufspreis."
-],
-"antworten":[
-"{1:NUMERICAL:=28,9773:0,1}",
-"{1:NUMERICAL:=24,892:0,1}",
 "{1:NUMERICAL:=49:0,1}",
-"{1:NUMERICAL:=12,159:0,1}",
-"{1:NUMERICAL:=260,1:0,1}",
-"{1:NUMERICAL:=45,795:0,1}",
-"{1:NUMERICAL:=5,1:0,1}"
+"{1:NUMERICAL:=14,591:0,1}",
+"{1:NUMERICAL:=34:0,1}",
+"{1:NUMERICAL:=578:0,1}",
+"{1:NUMERICAL:=1,6:0,1}",
+"{1:NUMERICAL:=88,619:0,1}",
+"{1:NUMERICAL:=8,0952:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=16x \\)</p> <p>\\( K(x)=0,6x^2+68 \\)</p> <p>\\( G(x)=-0,6x^2+16x-68 \\)</p> <p>\\( p(x)=16 \\)</p> <p>Die Kapazitätsgrenze beträgt 24 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=10x \\)</p> <p>\\( K(x)=0,23x^2+55 \\)</p> <p>\\( G(x)=-0,23x^2+10x-55 \\)</p> <p>\\( p(x)=10 \\)</p> <p>Die Kapazitätsgrenze beträgt 41 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Gewinn.",
-"die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
 "den Verkaufspreis.",
-"die Fixkosten.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
 "die Gewinngrenze.",
-"den maximalen Erlös."
+"den maximalen Gewinn.",
+"die Fixkosten.",
+"den maximalen Erlös.",
+"die gewinnmaximale Menge."
 ],
 "antworten":[
-"{1:NUMERICAL:=38,6667:0,1}",
-"{1:NUMERICAL:=13,3333:0,1}",
-"{1:NUMERICAL:=5,306:0,1}",
-"{1:NUMERICAL:=16:0,1}",
-"{1:NUMERICAL:=68:0,1}",
-"{1:NUMERICAL:=21,361:0,1}",
-"{1:NUMERICAL:=384:0,1}"
+"{1:NUMERICAL:=10:0,1}",
+"{1:NUMERICAL:=6,46:0,1}",
+"{1:NUMERICAL:=37,018:0,1}",
+"{1:NUMERICAL:=53,6957:0,1}",
+"{1:NUMERICAL:=55:0,1}",
+"{1:NUMERICAL:=410:0,1}",
+"{1:NUMERICAL:=21,7391:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=10x \\)</p> <p>\\( K(x)=0,13x^2+86 \\)</p> <p>\\( G(x)=-0,13x^2+10x-86 \\)</p> <p>\\( p(x)=10 \\)</p> <p>Die Kapazitätsgrenze beträgt 74 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=8,9x \\)</p> <p>\\( K(x)=0,057x^2+170 \\)</p> <p>\\( G(x)=-0,057x^2+8,9x-170 \\)</p> <p>\\( p(x)=8,9 \\)</p> <p>Die Kapazitätsgrenze beträgt 148 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Erlös.",
+"den Verkaufspreis.",
 "die Fixkosten.",
+"den maximalen Erlös.",
 "die gewinnmaximale Menge.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"den maximalen Gewinn.",
+"die Gewinngrenze."
+],
+"antworten":[
+"{1:NUMERICAL:=8,9:0,1}",
+"{1:NUMERICAL:=170:0,1}",
+"{1:NUMERICAL:=1317,2:0,1}",
+"{1:NUMERICAL:=78,0702:0,1}",
+"{1:NUMERICAL:=22,281:0,1}",
+"{1:NUMERICAL:=177,4123:0,1}",
+"{1:NUMERICAL:=133,859:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=26x \\)</p> <p>\\( K(x)=0,63x^2+140 \\)</p> <p>\\( G(x)=-0,63x^2+26x-140 \\)</p> <p>\\( p(x)=26 \\)</p> <p>Die Kapazitätsgrenze beträgt 39 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
 "den maximalen Gewinn.",
 "die Gewinngrenze.",
-"die Gewinnschwelle.",
+"die Fixkosten.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"die gewinnmaximale Menge.",
+"den maximalen Erlös.",
 "den Verkaufspreis."
 ],
 "antworten":[
-"{1:NUMERICAL:=740:0,1}",
-"{1:NUMERICAL:=86:0,1}",
-"{1:NUMERICAL:=38,4615:0,1}",
-"{1:NUMERICAL:=106,3077:0,1}",
-"{1:NUMERICAL:=67,057:0,1}",
-"{1:NUMERICAL:=9,866:0,1}",
-"{1:NUMERICAL:=10:0,1}"
+"{1:NUMERICAL:=128,254:0,1}",
+"{1:NUMERICAL:=34,902:0,1}",
+"{1:NUMERICAL:=140:0,1}",
+"{1:NUMERICAL:=6,367:0,1}",
+"{1:NUMERICAL:=20,6349:0,1}",
+"{1:NUMERICAL:=1014:0,1}",
+"{1:NUMERICAL:=26:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=45x \\)</p> <p>\\( K(x)=2,9x^2+68 \\)</p> <p>\\( G(x)=-2,9x^2+45x-68 \\)</p> <p>\\( p(x)=45 \\)</p> <p>Die Kapazitätsgrenze beträgt 16 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=15x \\)</p> <p>\\( K(x)=0,22x^2+110 \\)</p> <p>\\( G(x)=-0,22x^2+15x-110 \\)</p> <p>\\( p(x)=15 \\)</p> <p>Die Kapazitätsgrenze beträgt 66 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Gewinnschwelle.",
+"die Gewinngrenze.",
 "den Verkaufspreis.",
-"die Gewinngrenze.",
-"den maximalen Erlös.",
-"den maximalen Gewinn.",
-"die gewinnmaximale Menge.",
-"die Fixkosten."
-],
-"antworten":[
-"{1:NUMERICAL:=1,697:0,1}",
-"{1:NUMERICAL:=45:0,1}",
-"{1:NUMERICAL:=13,82:0,1}",
-"{1:NUMERICAL:=720:0,1}",
-"{1:NUMERICAL:=106,569:0,1}",
-"{1:NUMERICAL:=7,7586:0,1}",
-"{1:NUMERICAL:=68:0,1}"
-]
-},
-{
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=12x \\)</p> <p>\\( K(x)=0,19x^2+88 \\)</p> <p>\\( G(x)=-0,19x^2+12x-88 \\)</p> <p>\\( p(x)=12 \\)</p> <p>Die Kapazitätsgrenze beträgt 61 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die gewinnmaximale Menge.",
-"die Gewinngrenze.",
-"den maximalen Erlös.",
-"den maximalen Gewinn.",
 "die Fixkosten.",
-"den Verkaufspreis.",
-"die Gewinnschwelle."
+"die gewinnmaximale Menge.",
+"den maximalen Gewinn.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"den maximalen Erlös."
 ],
 "antworten":[
-"{1:NUMERICAL:=31,5789:0,1}",
-"{1:NUMERICAL:=54,688:0,1}",
-"{1:NUMERICAL:=732:0,1}",
-"{1:NUMERICAL:=101,4737:0,1}",
-"{1:NUMERICAL:=88:0,1}",
-"{1:NUMERICAL:=12:0,1}",
-"{1:NUMERICAL:=8,469:0,1}"
+"{1:NUMERICAL:=59,823:0,1}",
+"{1:NUMERICAL:=15:0,1}",
+"{1:NUMERICAL:=110:0,1}",
+"{1:NUMERICAL:=34,0909:0,1}",
+"{1:NUMERICAL:=145,6818:0,1}",
+"{1:NUMERICAL:=8,358:0,1}",
+"{1:NUMERICAL:=990:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=16x \\)</p> <p>\\( K(x)=0,33x^2+120 \\)</p> <p>\\( G(x)=-0,33x^2+16x-120 \\)</p> <p>\\( p(x)=16 \\)</p> <p>Die Kapazitätsgrenze beträgt 44 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=8,5x \\)</p> <p>\\( K(x)=0,11x^2+94 \\)</p> <p>\\( G(x)=-0,11x^2+8,5x-94 \\)</p> <p>\\( p(x)=8,5 \\)</p> <p>Die Kapazitätsgrenze beträgt 71 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Gewinnschwelle.",
-"den maximalen Erlös.",
+"den Verkaufspreis.",
+"die Gewinngrenze.",
+"die Fixkosten.",
 "den maximalen Gewinn.",
 "die gewinnmaximale Menge.",
+"den maximalen Erlös.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}"
+],
+"antworten":[
+"{1:NUMERICAL:=8,5:0,1}",
+"{1:NUMERICAL:=63,899:0,1}",
+"{1:NUMERICAL:=94:0,1}",
+"{1:NUMERICAL:=70,2045:0,1}",
+"{1:NUMERICAL:=38,6364:0,1}",
+"{1:NUMERICAL:=603,5:0,1}",
+"{1:NUMERICAL:=13,374:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,7x \\)</p> <p>\\( K(x)=0,13x^2+32 \\)</p> <p>\\( G(x)=-0,13x^2+5,7x-32 \\)</p> <p>\\( p(x)=5,7 \\)</p> <p>Die Kapazitätsgrenze beträgt 41 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
 "die Gewinngrenze.",
+"den Verkaufspreis.",
+"die gewinnmaximale Menge.",
+"die Fixkosten.",
+"den maximalen Gewinn.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"den maximalen Erlös."
+],
+"antworten":[
+"{1:NUMERICAL:=37,235:0,1}",
+"{1:NUMERICAL:=5,7:0,1}",
+"{1:NUMERICAL:=21,9231:0,1}",
+"{1:NUMERICAL:=32:0,1}",
+"{1:NUMERICAL:=30,4808:0,1}",
+"{1:NUMERICAL:=6,611:0,1}",
+"{1:NUMERICAL:=233,7:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,2x \\)</p> <p>\\( K(x)=0,034x^2+120 \\)</p> <p>\\( G(x)=-0,034x^2+5,2x-120 \\)</p> <p>\\( p(x)=5,2 \\)</p> <p>Die Kapazitätsgrenze beträgt 138 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinngrenze.",
+"die Fixkosten.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"den maximalen Gewinn.",
+"den maximalen Erlös.",
+"den Verkaufspreis."
+],
+"antworten":[
+"{1:NUMERICAL:=124,619:0,1}",
+"{1:NUMERICAL:=120:0,1}",
+"{1:NUMERICAL:=76,4706:0,1}",
+"{1:NUMERICAL:=28,322:0,1}",
+"{1:NUMERICAL:=78,8235:0,1}",
+"{1:NUMERICAL:=717,6:0,1}",
+"{1:NUMERICAL:=5,2:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=12x \\)</p> <p>\\( K(x)=0,2x^2+120 \\)</p> <p>\\( G(x)=-0,2x^2+12x-120 \\)</p> <p>\\( p(x)=12 \\)</p> <p>Die Kapazitätsgrenze beträgt 53 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die gewinnmaximale Menge.",
+"den maximalen Gewinn.",
+"den maximalen Erlös.",
+"die Gewinngrenze.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
 "den Verkaufspreis.",
 "die Fixkosten."
 ],
 "antworten":[
-"{1:NUMERICAL:=9,274:0,1}",
-"{1:NUMERICAL:=704:0,1}",
-"{1:NUMERICAL:=73,9394:0,1}",
-"{1:NUMERICAL:=24,2424:0,1}",
-"{1:NUMERICAL:=39,211:0,1}",
-"{1:NUMERICAL:=16:0,1}",
+"{1:NUMERICAL:=30:0,1}",
+"{1:NUMERICAL:=60:0,1}",
+"{1:NUMERICAL:=636:0,1}",
+"{1:NUMERICAL:=47,32:0,1}",
+"{1:NUMERICAL:=12,68:0,1}",
+"{1:NUMERICAL:=12:0,1}",
 "{1:NUMERICAL:=120:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,4x \\)</p> <p>\\( K(x)=0,039x^2+87 \\)</p> <p>\\( G(x)=-0,039x^2+5,4x-87 \\)</p> <p>\\( p(x)=5,4 \\)</p> <p>Die Kapazitätsgrenze beträgt 132 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=8,1x \\)</p> <p>\\( K(x)=0,088x^2+55 \\)</p> <p>\\( G(x)=-0,088x^2+8,1x-55 \\)</p> <p>\\( p(x)=8,1 \\)</p> <p>Die Kapazitätsgrenze beträgt 94 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Erlös.",
-"die Gewinngrenze.",
 "die Fixkosten.",
-"die Gewinnschwelle.",
-"die gewinnmaximale Menge.",
+"den Verkaufspreis.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"die Gewinngrenze.",
 "den maximalen Gewinn.",
-"den Verkaufspreis."
+"die gewinnmaximale Menge.",
+"den maximalen Erlös."
 ],
 "antworten":[
-"{1:NUMERICAL:=712,8:0,1}",
-"{1:NUMERICAL:=119,848:0,1}",
-"{1:NUMERICAL:=87:0,1}",
-"{1:NUMERICAL:=18,614:0,1}",
-"{1:NUMERICAL:=69,2308:0,1}",
-"{1:NUMERICAL:=99,9231:0,1}",
-"{1:NUMERICAL:=5,4:0,1}"
+"{1:NUMERICAL:=55:0,1}",
+"{1:NUMERICAL:=8,1:0,1}",
+"{1:NUMERICAL:=7,383:0,1}",
+"{1:NUMERICAL:=84,663:0,1}",
+"{1:NUMERICAL:=131,392:0,1}",
+"{1:NUMERICAL:=46,0227:0,1}",
+"{1:NUMERICAL:=761,4:0,1}"
 ]
 },
 {
-"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=8,7x \\)</p> <p>\\( K(x)=0,2x^2+59 \\)</p> <p>\\( G(x)=-0,2x^2+8,7x-59 \\)</p> <p>\\( p(x)=8,7 \\)</p> <p>Die Kapazitätsgrenze beträgt 39 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=34x \\)</p> <p>\\( K(x)=1,5x^2+97 \\)</p> <p>\\( G(x)=-1,5x^2+34x-97 \\)</p> <p>\\( p(x)=34 \\)</p> <p>Die Kapazitätsgrenze beträgt 22 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"den maximalen Erlös.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
 "die Fixkosten.",
-"die Gewinngrenze.",
+"den Verkaufspreis.",
 "die gewinnmaximale Menge.",
-"die Gewinnschwelle.",
+"die Gewinngrenze.",
+"den maximalen Erlös.",
+"den maximalen Gewinn."
+],
+"antworten":[
+"{1:NUMERICAL:=3,348:0,1}",
+"{1:NUMERICAL:=97:0,1}",
+"{1:NUMERICAL:=34:0,1}",
+"{1:NUMERICAL:=11,3333:0,1}",
+"{1:NUMERICAL:=19,319:0,1}",
+"{1:NUMERICAL:=748:0,1}",
+"{1:NUMERICAL:=95,6667:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=16x \\)</p> <p>\\( K(x)=0,19x^2+140 \\)</p> <p>\\( G(x)=-0,19x^2+16x-140 \\)</p> <p>\\( p(x)=16 \\)</p> <p>Die Kapazitätsgrenze beträgt 82 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"die gewinnmaximale Menge.",
+"den maximalen Erlös.",
+"die Gewinngrenze.",
+"die Fixkosten.",
 "den Verkaufspreis.",
 "den maximalen Gewinn."
 ],
 "antworten":[
-"{1:NUMERICAL:=339,3:0,1}",
-"{1:NUMERICAL:=59:0,1}",
-"{1:NUMERICAL:=35,094:0,1}",
-"{1:NUMERICAL:=21,75:0,1}",
-"{1:NUMERICAL:=8,406:0,1}",
-"{1:NUMERICAL:=8,7:0,1}",
-"{1:NUMERICAL:=35,6125:0,1}"
+"{1:NUMERICAL:=9,919:0,1}",
+"{1:NUMERICAL:=42,1053:0,1}",
+"{1:NUMERICAL:=1312:0,1}",
+"{1:NUMERICAL:=74,292:0,1}",
+"{1:NUMERICAL:=140:0,1}",
+"{1:NUMERICAL:=16:0,1}",
+"{1:NUMERICAL:=196,8421:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,8x \\)</p> <p>\\( K(x)=0,069x^2+38 \\)</p> <p>\\( G(x)=-0,069x^2+5,8x-38 \\)</p> <p>\\( p(x)=5,8 \\)</p> <p>Die Kapazitätsgrenze beträgt 85 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Verkaufspreis.",
+"die Fixkosten.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"die Gewinngrenze.",
+"den maximalen Erlös."
+],
+"antworten":[
+"{1:NUMERICAL:=5,8:0,1}",
+"{1:NUMERICAL:=38:0,1}",
+"{1:NUMERICAL:=83,8841:0,1}",
+"{1:NUMERICAL:=42,029:0,1}",
+"{1:NUMERICAL:=7,162:0,1}",
+"{1:NUMERICAL:=76,896:0,1}",
+"{1:NUMERICAL:=493:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=22x \\)</p> <p>\\( K(x)=1,6x^2+49 \\)</p> <p>\\( G(x)=-1,6x^2+22x-49 \\)</p> <p>\\( p(x)=22 \\)</p> <p>Die Kapazitätsgrenze beträgt 13 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"den maximalen Gewinn.",
+"die Gewinngrenze.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"den Verkaufspreis.",
+"die gewinnmaximale Menge.",
+"den maximalen Erlös."
+],
+"antworten":[
+"{1:NUMERICAL:=49:0,1}",
+"{1:NUMERICAL:=26,625:0,1}",
+"{1:NUMERICAL:=10,954:0,1}",
+"{1:NUMERICAL:=2,796:0,1}",
+"{1:NUMERICAL:=22:0,1}",
+"{1:NUMERICAL:=6,875:0,1}",
+"{1:NUMERICAL:=286:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=24x \\)</p> <p>\\( K(x)=0,6x^2+140 \\)</p> <p>\\( G(x)=-0,6x^2+24x-140 \\)</p> <p>\\( p(x)=24 \\)</p> <p>Die Kapazitätsgrenze beträgt 37 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"die Fixkosten.",
+"die Gewinngrenze.",
+"den Verkaufspreis.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}"
+],
+"antworten":[
+"{1:NUMERICAL:=888:0,1}",
+"{1:NUMERICAL:=140:0,1}",
+"{1:NUMERICAL:=32,909:0,1}",
+"{1:NUMERICAL:=24:0,1}",
+"{1:NUMERICAL:=100:0,1}",
+"{1:NUMERICAL:=20:0,1}",
+"{1:NUMERICAL:=7,091:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=63x \\)</p> <p>\\( K(x)=4,5x^2+92 \\)</p> <p>\\( G(x)=-4,5x^2+63x-92 \\)</p> <p>\\( p(x)=63 \\)</p> <p>Die Kapazitätsgrenze beträgt 14 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"den Verkaufspreis.",
+"die Gewinngrenze.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"die Fixkosten.",
+"den maximalen Gewinn.",
+"die gewinnmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=882:0,1}",
+"{1:NUMERICAL:=63:0,1}",
+"{1:NUMERICAL:=12,343:0,1}",
+"{1:NUMERICAL:=1,657:0,1}",
+"{1:NUMERICAL:=92:0,1}",
+"{1:NUMERICAL:=128,5:0,1}",
+"{1:NUMERICAL:=7:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=14x \\)</p> <p>\\( K(x)=0,12x^2+94 \\)</p> <p>\\( G(x)=-0,12x^2+14x-94 \\)</p> <p>\\( p(x)=14 \\)</p> <p>Die Kapazitätsgrenze beträgt 121 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"den Verkaufspreis.",
+"den maximalen Gewinn.",
+"die Fixkosten.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"die Gewinngrenze."
+],
+"antworten":[
+"{1:NUMERICAL:=1694:0,1}",
+"{1:NUMERICAL:=14:0,1}",
+"{1:NUMERICAL:=314,3333:0,1}",
+"{1:NUMERICAL:=94:0,1}",
+"{1:NUMERICAL:=58,3333:0,1}",
+"{1:NUMERICAL:=7,153:0,1}",
+"{1:NUMERICAL:=109,513:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=5,2x \\)</p> <p>\\( K(x)=0,051x^2+71 \\)</p> <p>\\( G(x)=-0,051x^2+5,2x-71 \\)</p> <p>\\( p(x)=5,2 \\)</p> <p>Die Kapazitätsgrenze beträgt 95 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Fixkosten.",
+"den Verkaufspreis.",
+"den maximalen Gewinn.",
+"den maximalen Erlös.",
+"die Gewinngrenze.",
+"die gewinnmaximale Menge.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}"
+],
+"antworten":[
+"{1:NUMERICAL:=71:0,1}",
+"{1:NUMERICAL:=5,2:0,1}",
+"{1:NUMERICAL:=61,549:0,1}",
+"{1:NUMERICAL:=494:0,1}",
+"{1:NUMERICAL:=85,72:0,1}",
+"{1:NUMERICAL:=50,9804:0,1}",
+"{1:NUMERICAL:=16,241:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=9,3x \\)</p> <p>\\( K(x)=0,13x^2+85 \\)</p> <p>\\( G(x)=-0,13x^2+9,3x-85 \\)</p> <p>\\( p(x)=9,3 \\)</p> <p>Die Kapazitätsgrenze beträgt 67 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Gewinn.",
+"den Verkaufspreis.",
+"den maximalen Erlös.",
+"die gewinnmaximale Menge.",
+"die Gewinngrenze.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"die Fixkosten."
+],
+"antworten":[
+"{1:NUMERICAL:=81,3269:0,1}",
+"{1:NUMERICAL:=9,3:0,1}",
+"{1:NUMERICAL:=623,1:0,1}",
+"{1:NUMERICAL:=35,7692:0,1}",
+"{1:NUMERICAL:=60,781:0,1}",
+"{1:NUMERICAL:=10,758:0,1}",
+"{1:NUMERICAL:=85:0,1}"
+]
+},
+{
+"einleitung":"Es liegen folgende Informationen vor:</p> <p>\\( E(x)=19x \\)</p> <p>\\( K(x)=1,1x^2+54 \\)</p> <p>\\( G(x)=-1,1x^2+19x-54 \\)</p> <p>\\( p(x)=19 \\)</p> <p>Die Kapazitätsgrenze beträgt 16 Mengeneinheiten.</p> <p>Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den maximalen Erlös.",
+"die Gewinnschwelle.{TIKTOK:id=7448412520622083360}",
+"den maximalen Gewinn.",
+"die Gewinngrenze.",
+"den Verkaufspreis.",
+"die Fixkosten.",
+"die gewinnmaximale Menge."
+],
+"antworten":[
+"{1:NUMERICAL:=304:0,1}",
+"{1:NUMERICAL:=3,588:0,1}",
+"{1:NUMERICAL:=28,0455:0,1}",
+"{1:NUMERICAL:=13,685:0,1}",
+"{1:NUMERICAL:=19:0,1}",
+"{1:NUMERICAL:=54:0,1}",
+"{1:NUMERICAL:=8,6364:0,1}"
 ]
 }
 ]
