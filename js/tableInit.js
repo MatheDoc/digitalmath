@@ -23,18 +23,25 @@ function initializeTable() {
     });
 
     // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
-    $('#hideUnchecked').on('click', function() {
+    function hideUncheckedRows(table) {
         table.rows().every(function() {
-            var row = $(this.node());
-            var checkbox = row.find('input.rowCheckbox');
+            const row = $(this.node());
+            const checkbox = row.find('input.rowCheckbox'); // Suche die Checkbox in der Zeile
             if (!checkbox.is(':checked')) {
                 row.hide(); // Verstecke die Zeile
             } else {
                 row.show(); // Zeige die Zeile
             }
         });
-        table.draw(); // Zeichne die Tabelle neu
+        table.draw(); // Tabelle neu rendern
+    }
+    
+
+
+    $('#hideUnchecked').on('click', function() {
+        hideUncheckedRows(table);
     });
+    
 
     // Funktion zum Zeigen aller Zeilen
     $('#showAll').on('click', function() {
@@ -57,7 +64,7 @@ function initializeTable() {
         // Die Werte der ausgewählten Checkboxen in einen JSON-String umwandeln
         const json = JSON.stringify(selectedCheckboxes);
         const encodedJson = encodeURIComponent(json); // JSON-String URL-kodieren
-        const shareableLink = `${window.location.href}?config=${encodedJson}`; // Teilen-Link erstellen
+        const shareableLink = `https://www.mathechecks.de/index?config=${encodedJson}`; // Teilen-Link erstellen
         // Link in die Zwischenablage kopieren
         navigator.clipboard.writeText(shareableLink).then(() => {
             alert('Link der Auswahl wurde in die Zwischenablage kopiert: ' + shareableLink);
@@ -84,6 +91,7 @@ function initializeTable() {
                 const checkbox = $(this.node()).find('td:first-child .rowCheckbox'); // Die Checkbox in der ersten Spalte finden
                 const isSelected = importedData.includes(index); // Überprüfen, ob der Zeilenindex in den importierten Daten vorhanden ist
                 checkbox.prop('checked', isSelected); // Checkbox entsprechend setzen
+                hideUncheckedRows(table);// Auswahl anzeigen
             });
             } catch (e) {
                 console.error('Ungültige Konfigurationsdaten');
