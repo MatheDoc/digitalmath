@@ -440,6 +440,10 @@ a.link-homepage:hover {
     .nachfolgend li .check-icon{
         display: none !important;
     }
+    .nachfolgend li .clip-icon{
+        display: none !important;
+    }
+
 
     .frage{
         display: inline-block;
@@ -513,12 +517,10 @@ a.link-homepage:hover {
 
 
 /* Klasse für den stroboskopischen Hintergrund */
-.strobe-background {
+/*.strobe-background {
     animation: strobeEffect 0.2s 4;
     background-size: 200% 200%;
-    /*margin: 90%;*/
-}
-/*
+}/*
 h1 {
     margin-bottom: 150px;
 }
