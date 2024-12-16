@@ -502,6 +502,7 @@ a.link-homepage:hover {
 }
 
 /* Modifikationen für Clips */
+/*
 .nachfolgend li:hover {
     animation: blink 0.2s infinite; 
 }
@@ -513,14 +514,15 @@ a.link-homepage:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
-
+*/
 
 
 /* Klasse für den stroboskopischen Hintergrund */
-/*.strobe-background {
+.strobe-background {
     animation: strobeEffect 0.2s 4;
     background-size: 200% 200%;
-}/*
+}
+/*
 h1 {
     margin-bottom: 150px;
 }
@@ -533,7 +535,7 @@ h3 {
 */
 
 
-/*Zzzz*/
+/*Zzzz
 #dropdowns {
     border-collapse: separate;
     border-spacing: 5px;
@@ -541,3 +543,4 @@ h3 {
     position: sticky;
     display: none;
 }
+*/
