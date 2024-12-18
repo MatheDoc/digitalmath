@@ -128,7 +128,7 @@ function replaceTiktokidWithUrl(htmlContent) {
 
         // Replacer-Funktion mit den richtigen Parametern
         function replacer(match, id) {
-            const url = `<i class="fab fa-youtube-play clip-icon" title="Clip" onclick="window.open('https://youtube.com/shorts/${id}', '_blank')"></i>`;
+            const url = `<i class="fab fa-youtube clip-icon" title="Clip" onclick="window.open('https://youtube.com/shorts/${id}', '_blank')"></i>`;
             return url
         }
         // Ersetze das Muster im Text
