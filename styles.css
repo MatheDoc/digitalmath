@@ -205,11 +205,11 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 .clip-icon {
-    color: #FF0000;
+    color: #ff0000c2;
 }
 
 .clip-icon:hover {
-    color: #d10303;   
+    color: #ff0000;   
 }
 
 .info-icon {
