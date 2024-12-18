@@ -83,6 +83,7 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
         let interactiveHtml = replaceNumericalWithInteractive(htmlContent);
         interactiveHtml = replaceMultipleChoiceWithDropdown(interactiveHtml);
         interactiveHtml = replaceTiktokidWithUrl(interactiveHtml);
+        interactiveHtml = replaceYoutubeidWithUrl(interactiveHtml);
         aufgabenElement.innerHTML = interactiveHtml;
         aufgabeContainer.appendChild(aufgabenElement);
 
@@ -120,6 +121,21 @@ function replaceTiktokidWithUrl(htmlContent) {
     // Ersetze das Muster im Text
     return htmlContent.replace(pattern, replacer);
 }
+
+    // Ersetze Youtube-Platzhalter durch URLs
+    function replaceYoutubeidWithUrl(htmlContent) {
+        // RegExp für das TikTok-ID-Muster
+        const pattern = /\{YOUTUBE:id=([A-Za-z0-9_-]+)}/g;
+
+        // Replacer-Funktion mit den richtigen Parametern
+        function replacer(match, id) {
+            const url = `<i class="fab fa-tiktok clip-icon" title="Clip" onclick="window.open('https://youtube.com/shorts/${id}', '_blank')"></i>`;
+            return url
+        }
+
+        // Ersetze das Muster im Text
+        return htmlContent.replace(pattern, replacer);
+    }
 
 
 
