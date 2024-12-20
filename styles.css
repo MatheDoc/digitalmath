@@ -495,7 +495,7 @@ a.link-homepage:hover {
 
 /* Modifikationen für Clips */
 
-/*.nachfolgend li:hover {
+.nachfolgend li:hover {
     animation: blink 0.2s infinite; 
 }
 .einleitung {
@@ -506,7 +506,7 @@ a.link-homepage:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
-*/
+
 
 
 /* Klasse für den stroboskopischen Hintergrund */
