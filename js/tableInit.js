@@ -59,7 +59,10 @@ function initializeTable() {
         // Durchlaufen der ausgewählten Checkboxen
         table.$('.rowCheckbox:checked').each(function() {
             const checkboxIndex = table.row($(this).closest('tr')).index(); // Gibt den Index der Zeile zurück
-            selectedCheckboxes.push(checkboxIndex);
+
+            const rowId = row.find('td:eq(8)').text().trim(); //new
+
+            selectedCheckboxes.push(rowId);
         });
         // Die Werte der ausgewählten Checkboxen in einen JSON-String umwandeln
         const json = JSON.stringify(selectedCheckboxes);
