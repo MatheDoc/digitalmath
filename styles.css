@@ -295,7 +295,9 @@ table.dataTable tr td:nth-child(5),
 table.dataTable tr th:nth-child(7),
 table.dataTable tr td:nth-child(7),
 table.dataTable tr th:nth-child(8),
-table.dataTable tr td:nth-child(8)  {
+table.dataTable tr td:nth-child(8),
+table.dataTable tr th:nth-child(9),
+table.dataTable tr td:nth-child(9)   {
 display: none;
 }
 
