@@ -58,10 +58,8 @@ function initializeTable() {
         const selectedCheckboxes = []; // Array zur Speicherung der ausgewählten Checkboxen
         // Durchlaufen der ausgewählten Checkboxen
         table.$('.rowCheckbox:checked').each(function() {
-            const checkboxIndex = table.row($(this).closest('tr')).index(); // Gibt den Index der Zeile zurück
-
-            const rowId = row.find('td:eq(8)').text().trim(); //new
-
+            const row =$(this).closest('tr');
+            const rowId = row.find('td:eq(8)').text().trim();
             selectedCheckboxes.push(rowId);
         });
         // Die Werte der ausgewählten Checkboxen in einen JSON-String umwandeln
@@ -89,12 +87,13 @@ function initializeTable() {
         if (configJson) {
             try {
                 const importedData = JSON.parse(decodeURIComponent(configJson));
-                    // Überprüfen, ob die Checkboxen in der Tabelle gesetzt werden müssen
-                    table.rows().every(function(index) { // index hier als Parameter
-                const checkbox = $(this.node()).find('td:first-child .rowCheckbox'); // Die Checkbox in der ersten Spalte finden
-                const isSelected = importedData.includes(index); // Überprüfen, ob der Zeilenindex in den importierten Daten vorhanden ist
-                checkbox.prop('checked', isSelected); // Checkbox entsprechend setzen
-                hideUncheckedRows(table);// Auswahl anzeigen
+                // Überprüfen, ob die Checkboxen in der Tabelle gesetzt werden müssen
+                table.rows().every(function() {
+                    const checkbox = $(this.node()).find('td:first-child .rowCheckbox'); // Die Checkbox in der ersten Spalte finden
+                    const rowId = $(this.node()).find('td:eq(8)').text().trim(); // Zeilen-ID ermitteln
+                    const isSelected = importedData.includes(rowId); // Überprüfen, ob die ID in den importierten Daten enthalten ist
+                    checkbox.prop('checked', isSelected); // Checkbox entsprechend setzen
+                    hideUncheckedRows(table);// Auswahl anzeigen
             });
             } catch (e) {
                 console.error('Ungültige Konfigurationsdaten');
