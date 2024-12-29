@@ -6,6 +6,7 @@ function addButtons(){
         var aufgaben = data[6];
         var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
         var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
+        var xmlButton = '<i class="fas fa-file-code xml-icon" id="xmlIcon" title="als Moodle-XML exportieren"></i>';
         var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
         // Testbutoon ausblenden, falls kein Test vorhanden
         if (aufgaben === '') {
@@ -15,7 +16,7 @@ function addButtons(){
         if (data[7] === ''){
             infoButton = ' '
         }
-        table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + copyButton + ' ' + testButton);
+        table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + xmlButton + ' ' + testButton);
     });
 
     // Event-Listener für die Info-Buttons
@@ -60,7 +61,7 @@ function addButtons(){
         var row = $(this).closest('tr'); // Zeile ermitteln
         var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
         var urls = rowData[6]; // URLs in der 7. Spalte
-        var ichKannText = 'Ich kann ' + rowData[5].split('<i')[0].trim(); //Ich kann text alt Titel    
+        var ichKannText = 'Ich kann ' + rowData[5].split('<i')[0].trim(); //Ich kann text als Titel    
         if (urls) {
             // Teile die URLs und erstelle Links
             var links = urls.split(',').map(function(url) {
@@ -72,6 +73,47 @@ function addButtons(){
         }
     });   
     
+    // Event-Listener für die xml-Buttons
+    $('#meineTabelle').on('click', '.xml-icon', function() {
+        var row = $(this).closest('tr'); // Zeile ermitteln
+        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
+        if (!rowData || !rowData[6]) {
+            alert('XML-Datei konnte nicht gefunden werden.');
+            return;
+        }
+        var xmlName = rowData[6]; // XMLs in der 7. Spalte
+        var url = 'https://raw.githubusercontent.com/MatheDoc/digitalmath/main/xml/' + xmlName + '.xml';
+        
+        // XMLHttpRequest nutzen, um den Inhalt herunterzuladen
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.responseType = 'blob'; // Datei als Blob laden
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                var blob = new Blob([xhr.response], { type: 'application/xml' });
+                var downloadUrl = window.URL.createObjectURL(blob);
+                
+                var a = document.createElement('a');
+                a.href = downloadUrl;
+                a.download = xmlName + '.xml'; // Dateiname setzen
+                document.body.appendChild(a); // Temporär hinzufügen
+                a.click(); // Download auslösen
+                document.body.removeChild(a); // Entfernen
+                window.URL.revokeObjectURL(downloadUrl); // Speicher freigeben
+            } else {
+                alert('Fehler beim Herunterladen der Datei.');
+            }
+        };
+        xhr.onerror = function() {
+            alert('Netzwerkfehler.');
+        };
+        xhr.send();
+    });
+    
+    
+    
+
+
     // Event-Listener für die Copy-Buttons
     $('#meineTabelle').on('click', '.copy-icon', function() {
         var row = $(this).closest('tr');
