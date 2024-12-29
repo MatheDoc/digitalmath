@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Analysis_Allgemein_ElementareFunktionen/03 NullstellenSchnittpunkte/linearSchnittpunkt</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=x-8 \)</p> <p>\( g(x)=6x-52 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=8,8:0}\( | \){1:NUMERICAL:=0,8:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-6x \)</p> <p>\( g(x)=-5x-9,2 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=9,2:0}\( | \){1:NUMERICAL:=-55,2:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-3x+3 \)</p> <p>\( g(x)=-7x+21 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=4,5:0}\( | \){1:NUMERICAL:=-10,5:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-4x \)</p> <p>\( g(x)=-13x-72,9 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=-8,1:0}\( | \){1:NUMERICAL:=32,4:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-3x \)</p> <p>\( g(x)=3x-12 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=2:0}\( | \){1:NUMERICAL:=-6:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-3x-9 \)</p> <p>\( g(x)=-x-10,4 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=0,7:0}\( | \){1:NUMERICAL:=-11,1:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-2x \)</p> <p>\( g(x)=3x+47 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=-9,4:0}\( | \){1:NUMERICAL:=18,8:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=9x+3 \)</p> <p>\( g(x)=11x+8,4 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=-2,7:0}\( | \){1:NUMERICAL:=-21,3:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-6x-2 \)</p> <p>\( g(x)=-12x+7,6 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=1,6:0}\( | \){1:NUMERICAL:=-11,6:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-6x-8 \)</p> <p>\( g(x)=-14x+4,8 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=1,6:0}\( | \){1:NUMERICAL:=-17,6:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=9x \)</p> <p>\( g(x)=13x+3,6 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=-0,9:0}\( | \){1:NUMERICAL:=-8,1:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=3 \)</p> <p>\( g(x)=3x+26,1 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=-7,7:0}\( | \){1:NUMERICAL:=3:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=8 \)</p> <p>\( g(x)=-3x+16,4 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=2,8:0}\( | \){1:NUMERICAL:=8:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-4x+8 \)</p> <p>\( g(x)=4x-22,4 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=3,8:0}\( | \){1:NUMERICAL:=-7,2:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-4x \)</p> <p>\( g(x)=-x-22,8 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=7,6:0}\( | \){1:NUMERICAL:=-30,4:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=7x \)</p> <p>\( g(x)=15x-3,2 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=0,4:0}\( | \){1:NUMERICAL:=2,8:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-8x-4 \)</p> <p>\( g(x)=-x+17,7 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=-3,1:0}\( | \){1:NUMERICAL:=20,8:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-4x+5 \)</p> <p>\( g(x)=-9,4 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=3,6:0}\( | \){1:NUMERICAL:=-9,4:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-4x \)</p> <p>\( g(x)=-3,2 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=0,8:0}\( | \){1:NUMERICAL:=-3,2:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=3 \)</p> <p>\( g(x)=9x+60,6 \)</p><p>Bestimmen Sie den Schnittpunkt der Funktionen \( f \) und \( g \). <a href="https://www.youtube.com/shorts/5y745I0DQzM" target="_blank"> &#9654; <a/> <br>\( P( \){1:NUMERICAL:=-6,4:0}\( | \){1:NUMERICAL:=3:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+

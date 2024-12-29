@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=6x^3-8x^2+7x \\)</p> <p>\\( g(x)=-2x^3+152x^2-1025x-2160 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=3x^2 \\)</p> <p>\\( g(x)=-3x^3-15x^2-9x-30 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=5:0}\\( | \\){1:NUMERICAL:=585:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=1050:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=3789:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=75:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=12:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=3:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=4x^2-8x-6 \\)</p> <p>\\( g(x)=4x^3-28x^2-4x-174 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=6x \\)</p> <p>\\( g(x)=2x^3-14x^2-126x-864 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=26:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=6:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=134:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=-48:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=36:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=54:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=-9x^2-4x+8 \\)</p> <p>\\( g(x)=x^3-3x^2-11x+8 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=6x^2 \\)</p> <p>\\( g(x)=-2x^3+10x^2+46x+120 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-405:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=8:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-5:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=150:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=54:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=96:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=-8x^3-4x-5 \\)</p> <p>\\( g(x)=-17x^3+545x-1625 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=2x^3-7x+9 \\)</p> <p>\\( g(x)=-2x^3-20x^2+185x-423 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=1015:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=523:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=-5873:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=-1386:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=7:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=399:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=-8x^3-5 \\)</p> <p>\\( g(x)=-10x^3-6x^2+50x-155 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-4x^3+3x^2+3x+4 \\)</p> <p>\\( g(x)=47x^2+75x+4 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=995:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=211:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=5:0}\\( | \\){1:NUMERICAL:=-1005:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=3136:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=42:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=4:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=2x^2-6x-5 \\)</p> <p>\\( g(x)=-4x^3-18x^2+58x-325 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-6 \\)</p> <p>\\( g(x)=9x^3-18x^2-639x-654 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=75:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=51:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=3:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=-6:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-6:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=-6:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=4x^2-5x \\)</p> <p>\\( g(x)=3x^3+16x^2+4x \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-6x^2+9x+2 \\)</p> <p>\\( g(x)=5x^3+9x^2-236x+737 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=51:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=9:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=0:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-355:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=-79:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-229:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=-7x^3-2x \\)</p> <p>\\( g(x)=-12x^3-35x^2+403x-2835 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-4x^3-x^2 \\)</p> <p>\\( g(x)=-7x^3-25x^2+63x-324 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=5121:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=2415:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=-5121:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=2835:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=99:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=-272:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=-6x^3+6x^2+5 \\)</p> <p>\\( g(x)=-10x^3+58x^2-188x-135 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=9x^2-6 \\)</p> <p>\\( g(x)=6x^3+123x^2+708x-1446 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=5:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=5:0}\\( | \\){1:NUMERICAL:=-595:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-1759:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=570:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-6:0}\\( | \\){1:NUMERICAL:=318:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=219:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=4x^3-x^2+2x+6 \\)</p> <p>\\( g(x)=-2x^3-49x^2+236x-1614 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-9x^3-7x^2+9x \\)</p> <p>\\( g(x)=-14x^3-37x^2+134x+90 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=-3009:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-529:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=846:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=5913:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-7:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=-82:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=-2x^3+2x^2+3 \\)</p> <p>\\( g(x)=x^3+44x^2+123x+171 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-6x^3-3x \\)</p> <p>\\( g(x)=-11x^3+10x^2+352x+360 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=1155:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=787:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=3:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=3096:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-9:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=-4401:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=x^3-8x^2+9x-3 \\)</p> <p>\\( g(x)=5x^3-36x^2-15x-291 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=8x^3+x^2+x \\)</p> <p>\\( g(x)=2x^3+13x^2+55x+108 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=-129:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=-31:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=-21:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=-210:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=70:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=228:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=4x^3 \\)</p> <p>\\( g(x)=9x^3-10x^2-45x-90 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=8x^3+8 \\)</p> <p>\\( g(x)=15x^3-42x^2-567x-3394 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=-108:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=2:0}\\( | \\){1:NUMERICAL:=32:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=108:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-9:0}\\( | \\){1:NUMERICAL:=-5824:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=1736:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=5840:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=9x^3+x^2-4x-1 \\)</p> <p>\\( g(x)=37x^2-31x-1 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-4x^3+9x^2-3x-8 \\)</p> <p>\\( g(x)=-23x^2+33x-80 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=-1:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=5:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=239:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=8:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=-44:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=-566:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=4x^3+7x^2+3 \\)</p> <p>\\( g(x)=-17x^2+148x-837 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-6x \\)</p> <p>\\( g(x)=-9x^3-72x^2-105x-180 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-1026:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=-322:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=1119:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=30:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=24:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-6:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=6x^3+x^2-x \\)</p> <p>\\( g(x)=-2x^3+89x^2-161x+256 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=3x^3+2x^2-4 \\)</p> <p>\\( g(x)=11x^3+26x^2+16x-4 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=-4:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=4:0}\\( | \\){1:NUMERICAL:=396:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=3128:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=-20:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-1:0}\\( | \\){1:NUMERICAL:=-5:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=-4:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=4x^3+6x+8 \\)</p> <p>\\( g(x)=-5x^3-153x^2-768x+1016 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-7x^3-6x^2 \\)</p> <p>\\( g(x)=x^3-6x^2-488x+1440 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=-2088:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-7:0}\\( | \\){1:NUMERICAL:=-1406:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=-36:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-5:0}\\( | \\){1:NUMERICAL:=725:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=352:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=9:0}\\( | \\){1:NUMERICAL:=-5589:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=4x^3+6 \\)</p> <p>\\( g(x)=11x^3-70x^2-56x-1338 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-9x^3+8x^2+5 \\)</p> <p>\\( g(x)=-11x^3+16x^2-6x+5 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-4:0}\\( | \\){1:NUMERICAL:=-250:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=870:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=2054:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=0:0}\\( | \\){1:NUMERICAL:=5:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=4:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=-166:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=7x^3+3x^2+x+1 \\)</p> <p>\\( g(x)=x^3+9x^2+217x+217 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-5x^3-9x \\)</p> <p>\\( g(x)=55x^2+171x-180 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-6:0}\\( | \\){1:NUMERICAL:=-1409:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=12:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=1627:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=-6:0}\\( | \\){1:NUMERICAL:=1134:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=-3:0}\\( | \\){1:NUMERICAL:=162:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=-2:0}\\( | \\){1:NUMERICAL:=58:0}\\( ) \\)"
 ]
 },
 {
-"einleitung":"Gegeben: </p> <p>\\( f(x)=-2x^3-x^2-2x-7 \\)</p> <p>\\( g(x)=-15x^2-130x-903 \\)",
+"einleitung":"Gegeben: </p> <p>\\( f(x)=-x^3 \\)</p> <p>\\( g(x)=7x^3-80x^2+216x+144 \\)",
 "fragen":[
 "Bestimmen Sie die Schnittpunkte der Funktionen \\( f \\) und \\( g \\) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte)."
 ],
 "antworten":[
-"\\( P( \\){1:NUMERICAL:=-8:0}\\( | \\){1:NUMERICAL:=969:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=7:0}\\( | \\){1:NUMERICAL:=-756:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=8:0}\\( | \\){1:NUMERICAL:=-1111:0}\\( ) \\)"
+"\\( P( \\){1:NUMERICAL:=1:0}\\( | \\){1:NUMERICAL:=-1:0}\\( ) \\)</p> <p>\\( Q( \\){1:NUMERICAL:=3:0}\\( | \\){1:NUMERICAL:=-27:0}\\( ) \\)</p> <p>\\( R( \\){1:NUMERICAL:=6:0}\\( | \\){1:NUMERICAL:=-216:0}\\( ) \\)"
 ]
 }
 ]

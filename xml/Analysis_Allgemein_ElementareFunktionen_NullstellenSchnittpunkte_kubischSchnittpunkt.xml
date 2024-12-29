@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Analysis_Allgemein_ElementareFunktionen/03 NullstellenSchnittpunkte/kubischSchnittpunkt</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=3x^2 \)</p> <p>\( g(x)=-3x^3-15x^2-9x-30 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-5:0}\( | \){1:NUMERICAL:=75:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-2:0}\( | \){1:NUMERICAL:=12:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=1:0}\( | \){1:NUMERICAL:=3:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=6x \)</p> <p>\( g(x)=2x^3-14x^2-126x-864 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-8:0}\( | \){1:NUMERICAL:=-48:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=6:0}\( | \){1:NUMERICAL:=36:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=9:0}\( | \){1:NUMERICAL:=54:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=6x^2 \)</p> <p>\( g(x)=-2x^3+10x^2+46x+120 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-5:0}\( | \){1:NUMERICAL:=150:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=3:0}\( | \){1:NUMERICAL:=54:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=4:0}\( | \){1:NUMERICAL:=96:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=2x^3-7x+9 \)</p> <p>\( g(x)=-2x^3-20x^2+185x-423 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-9:0}\( | \){1:NUMERICAL:=-1386:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-2:0}\( | \){1:NUMERICAL:=7:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=6:0}\( | \){1:NUMERICAL:=399:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-4x^3+3x^2+3x+4 \)</p> <p>\( g(x)=47x^2+75x+4 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-9:0}\( | \){1:NUMERICAL:=3136:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-2:0}\( | \){1:NUMERICAL:=42:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=0:0}\( | \){1:NUMERICAL:=4:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-6 \)</p> <p>\( g(x)=9x^3-18x^2-639x-654 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-8:0}\( | \){1:NUMERICAL:=-6:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=1:0}\( | \){1:NUMERICAL:=-6:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=9:0}\( | \){1:NUMERICAL:=-6:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-6x^2+9x+2 \)</p> <p>\( g(x)=5x^3+9x^2-236x+737 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-7:0}\( | \){1:NUMERICAL:=-355:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-3:0}\( | \){1:NUMERICAL:=-79:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=7:0}\( | \){1:NUMERICAL:=-229:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-4x^3-x^2 \)</p> <p>\( g(x)=-7x^3-25x^2+63x-324 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-9:0}\( | \){1:NUMERICAL:=2835:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-3:0}\( | \){1:NUMERICAL:=99:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=4:0}\( | \){1:NUMERICAL:=-272:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=9x^2-6 \)</p> <p>\( g(x)=6x^3+123x^2+708x-1446 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-8:0}\( | \){1:NUMERICAL:=570:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-6:0}\( | \){1:NUMERICAL:=318:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=-5:0}\( | \){1:NUMERICAL:=219:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-9x^3-7x^2+9x \)</p> <p>\( g(x)=-14x^3-37x^2+134x+90 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-9:0}\( | \){1:NUMERICAL:=5913:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=1:0}\( | \){1:NUMERICAL:=-7:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=2:0}\( | \){1:NUMERICAL:=-82:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-6x^3-3x \)</p> <p>\( g(x)=-11x^3+10x^2+352x+360 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-8:0}\( | \){1:NUMERICAL:=3096:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=1:0}\( | \){1:NUMERICAL:=-9:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=9:0}\( | \){1:NUMERICAL:=-4401:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=8x^3+x^2+x \)</p> <p>\( g(x)=2x^3+13x^2+55x+108 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-3:0}\( | \){1:NUMERICAL:=-210:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=2:0}\( | \){1:NUMERICAL:=70:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=3:0}\( | \){1:NUMERICAL:=228:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=8x^3+8 \)</p> <p>\( g(x)=15x^3-42x^2-567x-3394 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-9:0}\( | \){1:NUMERICAL:=-5824:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=6:0}\( | \){1:NUMERICAL:=1736:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=9:0}\( | \){1:NUMERICAL:=5840:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-4x^3+9x^2-3x-8 \)</p> <p>\( g(x)=-23x^2+33x-80 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-1:0}\( | \){1:NUMERICAL:=8:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=3:0}\( | \){1:NUMERICAL:=-44:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=6:0}\( | \){1:NUMERICAL:=-566:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-6x \)</p> <p>\( g(x)=-9x^3-72x^2-105x-180 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-5:0}\( | \){1:NUMERICAL:=30:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-4:0}\( | \){1:NUMERICAL:=24:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=1:0}\( | \){1:NUMERICAL:=-6:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=3x^3+2x^2-4 \)</p> <p>\( g(x)=11x^3+26x^2+16x-4 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-2:0}\( | \){1:NUMERICAL:=-20:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-1:0}\( | \){1:NUMERICAL:=-5:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=0:0}\( | \){1:NUMERICAL:=-4:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-7x^3-6x^2 \)</p> <p>\( g(x)=x^3-6x^2-488x+1440 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-5:0}\( | \){1:NUMERICAL:=725:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-4:0}\( | \){1:NUMERICAL:=352:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=9:0}\( | \){1:NUMERICAL:=-5589:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-9x^3+8x^2+5 \)</p> <p>\( g(x)=-11x^3+16x^2-6x+5 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=0:0}\( | \){1:NUMERICAL:=5:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=1:0}\( | \){1:NUMERICAL:=4:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=3:0}\( | \){1:NUMERICAL:=-166:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-5x^3-9x \)</p> <p>\( g(x)=55x^2+171x-180 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=-6:0}\( | \){1:NUMERICAL:=1134:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=-3:0}\( | \){1:NUMERICAL:=162:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=-2:0}\( | \){1:NUMERICAL:=58:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben: </p> <p>\( f(x)=-x^3 \)</p> <p>\( g(x)=7x^3-80x^2+216x+144 \)</p><p>Bestimmen Sie die Schnittpunkte der Funktionen \( f \) und \( g \) (Angabe der Punkte in aufsteigender Reihenfolge der x-Werte).<br>\( P( \){1:NUMERICAL:=1:0}\( | \){1:NUMERICAL:=-1:0}\( ) \)</p> <p>\( Q( \){1:NUMERICAL:=3:0}\( | \){1:NUMERICAL:=-27:0}\( ) \)</p> <p>\( R( \){1:NUMERICAL:=6:0}\( | \){1:NUMERICAL:=-216:0}\( ) \)</p>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+
