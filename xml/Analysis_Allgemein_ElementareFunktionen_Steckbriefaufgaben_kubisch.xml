@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Analysis_Allgemein_ElementareFunktionen/02 Steckbriefaufgaben/kubisch</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-4|115) \), \( Q(-9|1290) \), \( R(-2|23) \) und \( S(1|-10) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=-2:0}\( x^3 \)+{1:NUMERICAL:=-3:0}\( x^2 \)+{1:NUMERICAL:=-8:0}\( x \)+{1:NUMERICAL:=3:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-7|3181) \), \( Q(-8|4740) \), \( R(3|-199) \) und \( S(5|-1019) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=-9:0}\( x^3 \)+{1:NUMERICAL:=3:0}\( x^2 \)+{1:NUMERICAL:=7:0}\( x \)+{1:NUMERICAL:=-4:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(8|593) \), \( Q(5|89) \), \( R(6|195) \) und \( S(9|909) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=2:0}\( x^3 \)+{1:NUMERICAL:=-7:0}\( x^2 \)+{1:NUMERICAL:=1:0}\( x \)+{1:NUMERICAL:=9:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(4|523) \), \( Q(0|-5) \), \( R(-1|-12) \) und \( S(8|4155) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=8:0}\( x^3 \)+{1:NUMERICAL:=1:0}\( x^2 \)+{1:NUMERICAL:=-5:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-7|-681) \), \( Q(9|311) \), \( R(1|7) \) und \( S(2|3) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=1:0}\( x^3 \)+{1:NUMERICAL:=-6:0}\( x^2 \)+{1:NUMERICAL:=7:0}\( x \)+{1:NUMERICAL:=5:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(8|3751) \), \( Q(4|495) \), \( R(-6|-1485) \) und \( S(0|-9) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=7:0}\( x^3 \)+{1:NUMERICAL:=2:0}\( x^2 \)+{1:NUMERICAL:=6:0}\( x \)+{1:NUMERICAL:=-9:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(5|-949) \), \( Q(-5|491) \), \( R(2|-76) \) und \( S(-4|212) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=-6:0}\( x^3 \)+{1:NUMERICAL:=-9:0}\( x^2 \)+{1:NUMERICAL:=6:0}\( x \)+{1:NUMERICAL:=-4:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(7|-89) \), \( Q(-3|-119) \), \( R(4|-77) \) und \( S(-1|-17) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=1:0}\( x^3 \)+{1:NUMERICAL:=-9:0}\( x^2 \)+{1:NUMERICAL:=2:0}\( x \)+{1:NUMERICAL:=-5:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(3|-94) \), \( Q(9|-3802) \), \( R(5|-570) \) und \( S(-3|230) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=-6:0}\( x^3 \)+{1:NUMERICAL:=7:0}\( x^2 \)+{1:NUMERICAL:=5:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-4|-450) \), \( Q(9|3931) \), \( R(-3|-197) \) und \( S(-8|-3362) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=6:0}\( x^3 \)+{1:NUMERICAL:=-5:0}\( x^2 \)+{1:NUMERICAL:=-4:0}\( x \)+{1:NUMERICAL:=-2:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-4|212) \), \( Q(3|-26) \), \( R(-6|730) \) und \( S(5|-238) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=-3:0}\( x^3 \)+{1:NUMERICAL:=4:0}\( x^2 \)+{1:NUMERICAL:=9:0}\( x \)+{1:NUMERICAL:=-8:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-8|-2051) \), \( Q(-2|-71) \), \( R(6|441) \) und \( S(4|109) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=3:0}\( x^3 \)+{1:NUMERICAL:=-7:0}\( x^2 \)+{1:NUMERICAL:=8:0}\( x \)+{1:NUMERICAL:=-3:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(8|4738) \), \( Q(-7|-3092) \), \( R(-1|-14) \) und \( S(2|94) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=9:0}\( x^3 \)+{1:NUMERICAL:=1:0}\( x^2 \)+{1:NUMERICAL:=8:0}\( x \)+{1:NUMERICAL:=2:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(4|-78) \), \( Q(7|-876) \), \( R(-8|2574) \) und \( S(1|18) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=-4:0}\( x^3 \)+{1:NUMERICAL:=9:0}\( x^2 \)+{1:NUMERICAL:=7:0}\( x \)+{1:NUMERICAL:=6:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(1|-2) \), \( Q(2|12) \), \( R(5|222) \) und \( S(0|-8) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=2:0}\( x^3 \)+{1:NUMERICAL:=-2:0}\( x^2 \)+{1:NUMERICAL:=6:0}\( x \)+{1:NUMERICAL:=-8:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-1|-10) \), \( Q(4|625) \), \( R(5|1172) \) und \( S(-7|-2488) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=8:0}\( x^3 \)+{1:NUMERICAL:=6:0}\( x^2 \)+{1:NUMERICAL:=5:0}\( x \)+{1:NUMERICAL:=-3:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-3|-26) \), \( Q(-9|-1760) \), \( R(5|494) \) und \( S(-8|-1196) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=3:0}\( x^3 \)+{1:NUMERICAL:=5:0}\( x^2 \)+{1:NUMERICAL:=-2:0}\( x \)+{1:NUMERICAL:=4:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(-1|-5) \), \( Q(-7|-887) \), \( R(3|23) \) und \( S(-2|-32) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=2:0}\( x^3 \)+{1:NUMERICAL:=-4:0}\( x^2 \)+{1:NUMERICAL:=1:0}\( x \)+{1:NUMERICAL:=2:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(2|-37) \), \( Q(1|-11) \), \( R(-4|299) \) und \( S(3|-107) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=-4:0}\( x^3 \)+{1:NUMERICAL:=2:0}\( x^2 \)+{1:NUMERICAL:=-4:0}\( x \)+{1:NUMERICAL:=-5:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gegeben sind die Punkte \( P(2|55) \), \( Q(9|5711) \), \( R(-3|-205) \) und \( S(6|1667) \).</p><p>Bestimmung Sie die kubische Funktion \( f(x)=ax^3+bx^2+cx+d \) , deren Graph durch die angegebenen Punkte verläuft.<br>\( f(x)= \){1:NUMERICAL:=8:0}\( x^3 \)+{1:NUMERICAL:=-1:0}\( x^2 \)+{1:NUMERICAL:=-5:0}\( x \)+{1:NUMERICAL:=5:0}</p>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+
