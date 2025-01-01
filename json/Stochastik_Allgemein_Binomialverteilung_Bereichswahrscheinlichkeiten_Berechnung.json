@@ -1,422 +1,422 @@
 ﻿[
 {
-"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  100 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 41% defekt.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  53 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 37% defekt.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"In der Stichprobe sind mindestens 65% heile Halbleiter.",
-"In der Stichprobe sind genau 68 heile Halbleiter.",
-"In der Stichprobe sind mindestens 38 defekte Halbleiter.",
-"In der Stichprobe sind die letzten zwei defekte Halbleiter.",
-"In der Stichprobe sind mehr als 37 und höchstens 47 defekte Halbleiter.",
-"In der Stichprobe sind weniger als 52 defekte Halbleiter.",
-"In der Stichprobe sind höchstens 34 oder mindestens 45 defekte Halbleiter."
+"In der Stichprobe sind die letzten drei defekte Halbleiter.",
+"In der Stichprobe sind weniger als 16 defekte Halbleiter.",
+"In der Stichprobe sind mehr als 28 und höchstens 35 heile Halbleiter.",
+"In der Stichprobe sind höchstens 26 oder mindestens 39 heile Halbleiter.",
+"In der Stichprobe sind genau 20 defekte Halbleiter.",
+"In der Stichprobe sind mindestens 16 defekte Halbleiter.",
+"In der Stichprobe sind mindestens 43% defekte Halbleiter."
 ],
 "antworten":[
+"{1:NUMERICAL:=0,0507:0,0001}",
+"{1:NUMERICAL:=0,12:0,0001}",
+"{1:NUMERICAL:=0,6395:0,0001}",
+"{1:NUMERICAL:=0,0971:0,0001}",
+"{1:NUMERICAL:=0,1118:0,0001}",
+"{1:NUMERICAL:=0,88:0,0001}",
+"{1:NUMERICAL:=0,2044:0,0001}"
+]
+},
+{
+"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 53 Passagiere. Erfahrungsgemäß hat jeder 5. Passagier keinen gültigen Fahrschein.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"fragen":[
+"Von den kontrollierten Passagieren haben genau 13 keinen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben mindestens 14 keinen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben mehr als 5 und höchstens 15 keinen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben höchstens 39 oder mindestens 47 einen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben weniger als 14 keinen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben mindestens 74% einen gültigen Fahrschein.",
+"Von den kontrollierten Passagieren haben die letzten vier keinen gültigen Fahrschein."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0916:0,0001}",
+"{1:NUMERICAL:=0,1592:0,0001}",
+"{1:NUMERICAL:=0,9166:0,0001}",
+"{1:NUMERICAL:=0,2324:0,0001}",
+"{1:NUMERICAL:=0,8408:0,0001}",
+"{1:NUMERICAL:=0,8408:0,0001}",
+"{1:NUMERICAL:=0,0016:0,0001}"
+]
+},
+{
+"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 38 Kunden ein Eis. Typischerweise bestellen 51% aller Kunden ein Eis mit Streuseln.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"fragen":[
+"Von den betrachteten Kunden bestellen die ersten zwei ein Eis mit Streuseln.",
+"Von den betrachteten Kunden bestellen genau 22 ein Eis mit Streuseln.",
+"Von den betrachteten Kunden bestellen mehr als 17 und höchstens 22 ein Eis mit Streuseln.",
+"Von den betrachteten Kunden bestellen mindestens 19 ein Eis mit Streuseln.",
+"Von den betrachteten Kunden bestellen weniger als 14 ein Eis ohne Streuseln.",
+"Von den betrachteten Kunden bestellen höchstens 39% ein Eis ohne Streuseln.",
+"Von den betrachteten Kunden bestellen höchstens 15 oder mindestens 25 ein Eis mit Streuseln."
+],
+"antworten":[
+"{1:NUMERICAL:=0,2601:0,0001}",
+"{1:NUMERICAL:=0,0905:0,0001}",
+"{1:NUMERICAL:=0,5734:0,0001}",
+"{1:NUMERICAL:=0,6126:0,0001}",
+"{1:NUMERICAL:=0,0475:0,0001}",
+"{1:NUMERICAL:=0,0901:0,0001}",
+"{1:NUMERICAL:=0,1513:0,0001}"
+]
+},
+{
+"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 52 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 42%.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"fragen":[
+"David wirft mindestens 26 Mal Kopf. ",
+"David wirft höchstens 25 oder mindestens 37 Mal Zahl. ",
+"David wirft die letzten vier Mal Kopf. ",
+"David wirft mindestens 44% Mal Zahl. ",
+"David wirft weniger als 25 Mal Kopf. ",
+"David wirft genau 16 Mal Kopf. ",
+"David wirft mehr als 15 und höchstens 24 Mal Kopf. "
+],
+"antworten":[
+"{1:NUMERICAL:=0,152:0,0001}",
 "{1:NUMERICAL:=0,1313:0,0001}",
-"{1:NUMERICAL:=0,0152:0,0001}",
-"{1:NUMERICAL:=0,7606:0,0001}",
-"{1:NUMERICAL:=0,1681:0,0001}",
-"{1:NUMERICAL:=0,6669:0,0001}",
-"{1:NUMERICAL:=0,983:0,0001}",
-"{1:NUMERICAL:=0,3297:0,0001}"
+"{1:NUMERICAL:=0,0311:0,0001}",
+"{1:NUMERICAL:=0,9837:0,0001}",
+"{1:NUMERICAL:=0,7734:0,0001}",
+"{1:NUMERICAL:=0,0296:0,0001}",
+"{1:NUMERICAL:=0,7379:0,0001}"
 ]
 },
 {
-"einleitung":"Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 90 Passagiere. Erfahrungsgemäß haben 52% aller Passagiere keinen gültigen Fahrschein.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 78 Bewerber. Erfahrungswerte besagen, dass 62% aller Bewerber den Check erfolgreich absolvieren.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den kontrollierten Passagieren haben weniger als 51 keinen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben höchstens 40 oder mindestens 47 einen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben die ersten fünf einen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben höchstens 42% keinen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben genau 55 keinen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben mindestens 56 keinen gültigen Fahrschein.",
-"Von den kontrollierten Passagieren haben mehr als 42 und höchstens 52 keinen gültigen Fahrschein."
+"Von den Bewerbern absolvieren die ersten drei den Check erfolgreich. ",
+"Von den Bewerbern absolvieren höchstens 65% den Check erfolgreich. ",
+"Von den Bewerbern absolvieren weniger als 31 den Check nicht erfolgreich. ",
+"Von den Bewerbern absolvieren mehr als 20 und höchstens 35 den Check nicht erfolgreich. ",
+"Von den Bewerbern absolvieren höchstens 41 oder mindestens 52 den Check erfolgreich. ",
+"Von den Bewerbern absolvieren genau 56 den Check erfolgreich. ",
+"Von den Bewerbern absolvieren mindestens 57 den Check erfolgreich. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,7822:0,0001}",
-"{1:NUMERICAL:=0,5279:0,0001}",
-"{1:NUMERICAL:=0,0255:0,0001}",
-"{1:NUMERICAL:=0,0248:0,0001}",
-"{1:NUMERICAL:=0,019:0,0001}",
-"{1:NUMERICAL:=0,0327:0,0001}",
-"{1:NUMERICAL:=0,7035:0,0001}"
+"{1:NUMERICAL:=0,2383:0,0001}",
+"{1:NUMERICAL:=0,6885:0,0001}",
+"{1:NUMERICAL:=0,5829:0,0001}",
+"{1:NUMERICAL:=0,8984:0,0001}",
+"{1:NUMERICAL:=0,2894:0,0001}",
+"{1:NUMERICAL:=0,0191:0,0001}",
+"{1:NUMERICAL:=0,0268:0,0001}"
 ]
 },
 {
-"einleitung":"An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 41 Kunden ein Eis. Typischerweise bestellen 72% aller Kunden ein Eis mit Streuseln.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 97 Prüflinge. Die Durchfallquote liegt bei 61%.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den betrachteten Kunden bestellen die letzten drei ein Eis mit Streuseln.",
-"Von den betrachteten Kunden bestellen höchstens 7 ein Eis ohne Streuseln.",
-"Von den betrachteten Kunden bestellen mehr als 6 ein Eis ohne Streuseln.",
-"Von den betrachteten Kunden bestellen mindestens 61% ein Eis mit Streuseln.",
-"Von den betrachteten Kunden bestellen mindestens 26 und weniger als 34 ein Eis mit Streuseln.",
-"Von den betrachteten Kunden bestellen höchstens 26 oder mindestens 33 ein Eis mit Streuseln.",
-"Von den betrachteten Kunden bestellen genau 28 ein Eis mit Streuseln."
+"Von den Kandidaten bestehen höchstens 33 oder mindestens 39  die Prüfung.",
+"Von den Kandidaten bestehen mindestens 55 und weniger als 68  nicht die Prüfung.",
+"Von den Kandidaten bestehen mindestens 70%  nicht die Prüfung.",
+"Von den Kandidaten bestehen höchstens 50  nicht die Prüfung.",
+"Von den Kandidaten bestehen mehr als 53  nicht die Prüfung.",
+"Von den Kandidaten bestehen die letzten fünf  nicht die Prüfung.",
+"Von den Kandidaten bestehen genau 40  die Prüfung."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,3732:0,0001}",
-"{1:NUMERICAL:=0,0786:0,0001}",
-"{1:NUMERICAL:=0,9642:0,0001}",
-"{1:NUMERICAL:=0,9161:0,0001}",
-"{1:NUMERICAL:=0,8375:0,0001}",
-"{1:NUMERICAL:=0,2964:0,0001}",
-"{1:NUMERICAL:=0,116:0,0001}"
+"{1:NUMERICAL:=0,6257:0,0001}",
+"{1:NUMERICAL:=0,7949:0,0001}",
+"{1:NUMERICAL:=0,0398:0,0001}",
+"{1:NUMERICAL:=0,0366:0,0001}",
+"{1:NUMERICAL:=0,8806:0,0001}",
+"{1:NUMERICAL:=0,0845:0,0001}",
+"{1:NUMERICAL:=0,0742:0,0001}"
 ]
 },
 {
-"einleitung":"David hat eine gezinkte Münze. Er wirft die Münze 69 Mal. Bei einem einmaligen Wurf liegt bei jedem 5. Wurf Kopf oben.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 99 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 32% aller Schuhe gefälscht.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"David wirft mehr als 11 und höchstens 20 Mal Kopf. ",
-"David wirft höchstens 8 oder mindestens 19 Mal Kopf. ",
-"David wirft mindestens 10 Mal Kopf. ",
-"David wirft genau 20 Mal Kopf. ",
-"David wirft weniger als 60 Mal Zahl. ",
-"David wirft die letzten drei Mal Zahl. ",
-"David wirft mindestens 29% Mal Kopf. "
+"Von den untersuchten Turnschuhen sind mindestens 29 und weniger als 40 gefälscht. ",
+"Von den untersuchten Turnschuhen sind mehr als 34 gefälscht. ",
+"Von den untersuchten Turnschuhen sind höchstens 24 oder mindestens 38 gefälscht. ",
+"Von den untersuchten Turnschuhen sind höchstens 77% nicht zu beanstanden. ",
+"Von den untersuchten Turnschuhen sind genau 29 gefälscht. ",
+"Von den untersuchten Turnschuhen sind die letzten vier nicht zu beanstanden. ",
+"Von den untersuchten Turnschuhen sind höchstens 35 gefälscht. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,7244:0,0001}",
-"{1:NUMERICAL:=0,1312:0,0001}",
-"{1:NUMERICAL:=0,9066:0,0001}",
-"{1:NUMERICAL:=0,0216:0,0001}",
-"{1:NUMERICAL:=0,9066:0,0001}",
-"{1:NUMERICAL:=0,512:0,0001}",
-"{1:NUMERICAL:=0,026:0,0001}"
+"{1:NUMERICAL:=0,7031:0,0001}",
+"{1:NUMERICAL:=0,2691:0,0001}",
+"{1:NUMERICAL:=0,1645:0,0001}",
+"{1:NUMERICAL:=0,9785:0,0001}",
+"{1:NUMERICAL:=0,0741:0,0001}",
+"{1:NUMERICAL:=0,2138:0,0001}",
+"{1:NUMERICAL:=0,7959:0,0001}"
 ]
 },
 {
-"einleitung":"Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 58 Bewerber. Erfahrungswerte besagen, dass 63% aller Bewerber den Check erfolgreich absolvieren.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 77 Mal auf das Tor. Sie weiß, dass 70% aller Schüsse das Tor verfehlen.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den Bewerbern absolvieren weniger als 31 den Check erfolgreich. ",
-"Von den Bewerbern absolvieren genau 36 den Check erfolgreich. ",
-"Von den Bewerbern absolvieren mindestens 27 den Check nicht erfolgreich. ",
-"Von den Bewerbern absolvieren höchstens 36 oder mindestens 39 den Check erfolgreich. ",
-"Von den Bewerbern absolvieren die letzten fünf den Check nicht erfolgreich. ",
-"Von den Bewerbern absolvieren höchstens 55% den Check erfolgreich. ",
-"Von den Bewerbern absolvieren mehr als 32 und höchstens 40 den Check erfolgreich. "
+"Die Fußballerin trifft höchstens 22 oder mindestens 27 Mal das Tor. ",
+"Die Fußballerin trifft die ersten vier Mal nicht das Tor. ",
+"Die Fußballerin trifft mindestens 36% Mal das Tor. ",
+"Die Fußballerin trifft mehr als 52 Mal nicht das Tor. ",
+"Die Fußballerin trifft genau 57 Mal nicht das Tor. ",
+"Die Fußballerin trifft mindestens 51 und weniger als 57 Mal nicht das Tor. ",
+"Die Fußballerin trifft höchstens 47 Mal nicht das Tor. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0518:0,0001}",
-"{1:NUMERICAL:=0,1063:0,0001}",
-"{1:NUMERICAL:=0,0865:0,0001}",
-"{1:NUMERICAL:=0,7911:0,0001}",
-"{1:NUMERICAL:=0,0069:0,0001}",
-"{1:NUMERICAL:=0,0865:0,0001}",
-"{1:NUMERICAL:=0,7234:0,0001}"
+"{1:NUMERICAL:=0,6448:0,0001}",
+"{1:NUMERICAL:=0,2401:0,0001}",
+"{1:NUMERICAL:=0,1375:0,0001}",
+"{1:NUMERICAL:=0,6415:0,0001}",
+"{1:NUMERICAL:=0,076:0,0001}",
+"{1:NUMERICAL:=0,5401:0,0001}",
+"{1:NUMERICAL:=0,0581:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 40 Prüflinge. Jeder 4. Prüfling fällt durch.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 31 Mitarbeiter befragt. Bekanntermaßen sind 46% aller Mitarbeiter zufrieden.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den Kandidaten bestehen höchstens 78%  die Prüfung.",
-"Von den Kandidaten bestehen höchstens 10  nicht die Prüfung.",
-"Von den Kandidaten bestehen mindestens 8 und weniger als 12  nicht die Prüfung.",
-"Von den Kandidaten bestehen die ersten fünf  die Prüfung.",
-"Von den Kandidaten bestehen höchstens 9 oder mindestens 14  nicht die Prüfung.",
-"Von den Kandidaten bestehen mehr als 10  nicht die Prüfung.",
-"Von den Kandidaten bestehen genau 6  nicht die Prüfung."
+"Von den befragten Mitarbeitern sind genau 15 zufrieden. ",
+"Von den befragten Mitarbeitern sind mehr als 10 und höchstens 19 unzufrieden. ",
+"Von den befragten Mitarbeitern sind mindestens 21 unzufrieden. ",
+"Von den befragten Mitarbeitern sind höchstens 52% zufrieden. ",
+"Von den befragten Mitarbeitern sind die letzten drei zufrieden. ",
+"Von den befragten Mitarbeitern sind weniger als 21 zufrieden. ",
+"Von den befragten Mitarbeitern sind höchstens 13 oder mindestens 18 zufrieden. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,7002:0,0001}",
-"{1:NUMERICAL:=0,5839:0,0001}",
-"{1:NUMERICAL:=0,5332:0,0001}",
-"{1:NUMERICAL:=0,2373:0,0001}",
-"{1:NUMERICAL:=0,5427:0,0001}",
-"{1:NUMERICAL:=0,4161:0,0001}",
-"{1:NUMERICAL:=0,053:0,0001}"
+"{1:NUMERICAL:=0,1373:0,0001}",
+"{1:NUMERICAL:=0,8279:0,0001}",
+"{1:NUMERICAL:=0,0866:0,0001}",
+"{1:NUMERICAL:=0,7905:0,0001}",
+"{1:NUMERICAL:=0,0973:0,0001}",
+"{1:NUMERICAL:=0,9879:0,0001}",
+"{1:NUMERICAL:=0,5157:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 30 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 72% aller Schuhe gefälscht.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 60 Gästen geprüft. Allgemeine Statistiken zeigen, dass jeder 2. Gast ein vegetarisches Gericht bestellt.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den untersuchten Turnschuhen sind mehr als 19 und höchstens 23 gefälscht. ",
-"Von den untersuchten Turnschuhen sind genau 27 gefälscht. ",
-"Von den untersuchten Turnschuhen sind höchstens 33% nicht zu beanstanden. ",
-"Von den untersuchten Turnschuhen sind mindestens 19 gefälscht. ",
-"Von den untersuchten Turnschuhen sind weniger als 10 nicht zu beanstanden. ",
-"Von den untersuchten Turnschuhen sind die letzten vier gefälscht. ",
-"Von den untersuchten Turnschuhen sind höchstens 19 oder mindestens 23 gefälscht. "
+"Von den kontrollierten Gerichten sind höchstens 23 oder mindestens 32 mit Fleisch. ",
+"Von den kontrollierten Gerichten sind weniger als 38 vegetarisch. ",
+"Von den kontrollierten Gerichten sind höchstens 40% mit Fleisch. ",
+"Von den kontrollierten Gerichten sind mehr als 26 und höchstens 33 vegetarisch. ",
+"Von den kontrollierten Gerichten sind genau 35 vegetarisch. ",
+"Von den kontrollierten Gerichten sind mindestens 25 vegetarisch. ",
+"Von den kontrollierten Gerichten sind die letzten vier vegetarisch. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,5819:0,0001}",
-"{1:NUMERICAL:=0,0125:0,0001}",
-"{1:NUMERICAL:=0,681:0,0001}",
-"{1:NUMERICAL:=0,8939:0,0001}",
-"{1:NUMERICAL:=0,681:0,0001}",
-"{1:NUMERICAL:=0,2687:0,0001}",
-"{1:NUMERICAL:=0,5619:0,0001}"
+"{1:NUMERICAL:=0,3956:0,0001}",
+"{1:NUMERICAL:=0,9741:0,0001}",
+"{1:NUMERICAL:=0,0775:0,0001}",
+"{1:NUMERICAL:=0,6337:0,0001}",
+"{1:NUMERICAL:=0,045:0,0001}",
+"{1:NUMERICAL:=0,9225:0,0001}",
+"{1:NUMERICAL:=0,0625:0,0001}"
 ]
 },
 {
-"einleitung":"Eine Fußballspielerin trainiert Freistöße. Sie schießt 43 Mal auf das Tor. Sie weiß, dass 72% aller Schüsse das Tor verfehlen.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 59 Pflanzen. Aus Erfahrung weiß sie, dass jede 2. Pflanze zu wenig Wasser bekommt.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Die Fußballerin trifft genau 25 Mal nicht das Tor. ",
-"Die Fußballerin trifft die letzten drei Mal nicht das Tor. ",
-"Die Fußballerin trifft mindestens 70% Mal nicht das Tor. ",
-"Die Fußballerin trifft höchstens 13 Mal das Tor. ",
-"Die Fußballerin trifft mindestens 26 und weniger als 36 Mal nicht das Tor. ",
-"Die Fußballerin trifft mehr als 12 Mal das Tor. ",
-"Die Fußballerin trifft höchstens 30 oder mindestens 32 Mal nicht das Tor. "
+"Von den geprüften Pflanzen bekommen mindestens 25 und weniger als 34 zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen höchstens 29 oder mindestens 37 genug Wasser.",
+"Von den geprüften Pflanzen bekommen die letzten vier zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen höchstens 34 zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen mehr als 32 zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen höchstens 61% zu wenig Wasser.",
+"Von den geprüften Pflanzen bekommen genau 33 genug Wasser."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0185:0,0001}",
-"{1:NUMERICAL:=0,3732:0,0001}",
-"{1:NUMERICAL:=0,5716:0,0001}",
-"{1:NUMERICAL:=0,6964:0,0001}",
-"{1:NUMERICAL:=0,9084:0,0001}",
-"{1:NUMERICAL:=0,4284:0,0001}",
-"{1:NUMERICAL:=0,8654:0,0001}"
+"{1:NUMERICAL:=0,7549:0,0001}",
+"{1:NUMERICAL:=0,5337:0,0001}",
+"{1:NUMERICAL:=0,0625:0,0001}",
+"{1:NUMERICAL:=0,9037:0,0001}",
+"{1:NUMERICAL:=0,2175:0,0001}",
+"{1:NUMERICAL:=0,9413:0,0001}",
+"{1:NUMERICAL:=0,0687:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 96 Mitarbeiter befragt. Bekanntermaßen sind 28% aller Mitarbeiter zufrieden.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 94 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 63% einen Akku.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den befragten Mitarbeitern sind höchstens 19 oder mindestens 28 zufrieden. ",
-"Von den befragten Mitarbeitern sind genau 24 zufrieden. ",
-"Von den befragten Mitarbeitern sind mehr als 24 zufrieden. ",
-"Von den befragten Mitarbeitern sind mindestens 19% zufrieden. ",
-"Von den befragten Mitarbeitern sind mindestens 26 und weniger als 35 zufrieden. ",
-"Von den befragten Mitarbeitern sind die ersten drei unzufrieden. ",
-"Von den befragten Mitarbeitern sind höchstens 71 unzufrieden. "
+"Von den registrierten Werkzeugen sind mindestens 73% mit einem Akku ausgestattet.",
+"Von den registrierten Werkzeugen sind höchstens 28 oder mindestens 40 mit einem Kabel ausgestattet.",
+"Von den registrierten Werkzeugen sind mehr als 35 mit einem Kabel ausgestattet.",
+"Von den registrierten Werkzeugen sind höchstens 63 mit einem Akku ausgestattet.",
+"Von den registrierten Werkzeugen sind die ersten fünf mit einem Akku ausgestattet.",
+"Von den registrierten Werkzeugen sind mindestens 53 und weniger als 65 mit einem Akku ausgestattet.",
+"Von den registrierten Werkzeugen sind genau 65 mit einem Akku ausgestattet."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,4808:0,0001}",
-"{1:NUMERICAL:=0,0752:0,0001}",
-"{1:NUMERICAL:=0,7015:0,0001}",
-"{1:NUMERICAL:=0,9749:0,0001}",
-"{1:NUMERICAL:=0,5731:0,0001}",
-"{1:NUMERICAL:=0,3732:0,0001}",
-"{1:NUMERICAL:=0,7015:0,0001}"
+"{1:NUMERICAL:=0,0218:0,0001}",
+"{1:NUMERICAL:=0,245:0,0001}",
+"{1:NUMERICAL:=0,4354:0,0001}",
+"{1:NUMERICAL:=0,8193:0,0001}",
+"{1:NUMERICAL:=0,0992:0,0001}",
+"{1:NUMERICAL:=0,7942:0,0001}",
+"{1:NUMERICAL:=0,0406:0,0001}"
 ]
 },
 {
-"einleitung":"Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 92 Gästen geprüft. Allgemeine Statistiken zeigen, dass 73% aller Gäste vegetarische Gerichte bestellen.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 86 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 31% aller Computer keinen ausreichenden Virenschutz.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den kontrollierten Gerichten sind höchstens 59 oder mindestens 73 vegetarisch. ",
-"Von den kontrollierten Gerichten sind höchstens 60 vegetarisch. ",
-"Von den kontrollierten Gerichten sind genau 19 mit Fleisch. ",
-"Von den kontrollierten Gerichten sind mindestens 59 und weniger als 77 vegetarisch. ",
-"Von den kontrollierten Gerichten sind mehr als 75 vegetarisch. ",
-"Von den kontrollierten Gerichten sind mindestens 71% vegetarisch. ",
-"Von den kontrollierten Gerichten sind die ersten zwei mit Fleisch. "
-],
-"antworten":[
-"{1:NUMERICAL:=0,1415:0,0001}",
-"{1:NUMERICAL:=0,0615:0,0001}",
-"{1:NUMERICAL:=0,0378:0,0001}",
-"{1:NUMERICAL:=0,9653:0,0001}",
-"{1:NUMERICAL:=0,0216:0,0001}",
-"{1:NUMERICAL:=0,6572:0,0001}",
-"{1:NUMERICAL:=0,0729:0,0001}"
-]
-},
-{
-"einleitung":"Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 41 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 40% aller Pflanzen zu wenig Wasser bekommen.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
-"fragen":[
-"Von den geprüften Pflanzen bekommen mindestens 10 und weniger als 22 zu wenig Wasser.",
-"Von den geprüften Pflanzen bekommen höchstens 19 oder mindestens 29 genug Wasser.",
-"Von den geprüften Pflanzen bekommen die letzten fünf zu wenig Wasser.",
-"Von den geprüften Pflanzen bekommen mehr als 10 zu wenig Wasser.",
-"Von den geprüften Pflanzen bekommen genau 22 genug Wasser.",
-"Von den geprüften Pflanzen bekommen höchstens 23 zu wenig Wasser.",
-"Von den geprüften Pflanzen bekommen höchstens 37% zu wenig Wasser."
-],
-"antworten":[
-"{1:NUMERICAL:=0,935:0,0001}",
-"{1:NUMERICAL:=0,1587:0,0001}",
-"{1:NUMERICAL:=0,0102:0,0001}",
-"{1:NUMERICAL:=0,9726:0,0001}",
-"{1:NUMERICAL:=0,0885:0,0001}",
-"{1:NUMERICAL:=0,9874:0,0001}",
-"{1:NUMERICAL:=0,3911:0,0001}"
-]
-},
-{
-"einleitung":"Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 97 bestellten Werkzeugen untersucht. Jedes 2. Werkzeug hat einen Akku.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
-"fragen":[
-"Von den registrierten Werkzeugen sind mindestens 44% mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind mehr als 40 und höchstens 56 mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind die letzten zwei mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind genau 46 mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind weniger als 55 mit einem Akku ausgestattet.",
-"Von den registrierten Werkzeugen sind höchstens 43 oder mindestens 52 mit einem Kabel ausgestattet.",
-"Von den registrierten Werkzeugen sind mindestens 56 mit einem Kabel ausgestattet."
-],
-"antworten":[
-"{1:NUMERICAL:=0,8886:0,0001}",
-"{1:NUMERICAL:=0,8962:0,0001}",
-"{1:NUMERICAL:=0,25:0,0001}",
-"{1:NUMERICAL:=0,0711:0,0001}",
-"{1:NUMERICAL:=0,8886:0,0001}",
-"{1:NUMERICAL:=0,4263:0,0001}",
-"{1:NUMERICAL:=0,0774:0,0001}"
-]
-},
-{
-"einleitung":"Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 79 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 60% aller Computer keinen ausreichenden Virenschutz.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
-"fragen":[
-"Von den untersuchten Computern haben mindestens 50 keinen ausreichenden Virenschutz. ",
-"Von den untersuchten Computern haben mehr als 26 und höchstens 37 einen ausreichenden Virenschutz. ",
+"Von den untersuchten Computern haben genau 34 keinen ausreichenden Virenschutz. ",
+"Von den untersuchten Computern haben höchstens 19 oder mindestens 31 keinen ausreichenden Virenschutz. ",
 "Von den untersuchten Computern haben die ersten zwei keinen ausreichenden Virenschutz. ",
-"Von den untersuchten Computern haben genau 44 keinen ausreichenden Virenschutz. ",
-"Von den untersuchten Computern haben höchstens 43 oder mindestens 48 keinen ausreichenden Virenschutz. ",
-"Von den untersuchten Computern haben mindestens 66% keinen ausreichenden Virenschutz. ",
-"Von den untersuchten Computern haben weniger als 37 einen ausreichenden Virenschutz. "
+"Von den untersuchten Computern haben mindestens 62% einen ausreichenden Virenschutz. ",
+"Von den untersuchten Computern haben mindestens 26 und weniger als 34 keinen ausreichenden Virenschutz. ",
+"Von den untersuchten Computern haben höchstens 27 keinen ausreichenden Virenschutz. ",
+"Von den untersuchten Computern haben mehr als 65 einen ausreichenden Virenschutz. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,3171:0,0001}",
-"{1:NUMERICAL:=0,7914:0,0001}",
-"{1:NUMERICAL:=0,36:0,0001}",
-"{1:NUMERICAL:=0,0666:0,0001}",
-"{1:NUMERICAL:=0,6787:0,0001}",
-"{1:NUMERICAL:=0,1201:0,0001}",
-"{1:NUMERICAL:=0,8694:0,0001}"
+"{1:NUMERICAL:=0,0216:0,0001}",
+"{1:NUMERICAL:=0,2289:0,0001}",
+"{1:NUMERICAL:=0,0961:0,0001}",
+"{1:NUMERICAL:=0,9117:0,0001}",
+"{1:NUMERICAL:=0,5436:0,0001}",
+"{1:NUMERICAL:=0,5831:0,0001}",
+"{1:NUMERICAL:=0,0728:0,0001}"
 ]
 },
 {
-"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 88 Krügen. Analysen zeigen, dass 43% aller Krüge einen Kratzer haben.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 85 Krügen. Analysen zeigen, dass jeder 2. Krug einen Kratzer hat.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"In der Stichprobe sind weniger als 36 Krüge mit Kratzer.",
-"In der Stichprobe sind höchstens 48% Krüge ohne Kratzer.",
-"In der Stichprobe sind die letzten vier Krüge mit Kratzer.",
-"In der Stichprobe sind genau 48 Krüge ohne Kratzer.",
-"In der Stichprobe sind mindestens 47 Krüge mit Kratzer.",
-"In der Stichprobe sind mehr als 33 und höchstens 39 Krüge mit Kratzer.",
-"In der Stichprobe sind höchstens 30 oder mindestens 46 Krüge mit Kratzer."
+"In der Stichprobe sind die letzten drei Krüge ohne Kratzer.",
+"In der Stichprobe sind genau 49 Krüge mit Kratzer.",
+"In der Stichprobe sind mehr als 37 und höchstens 50 Krüge mit Kratzer.",
+"In der Stichprobe sind mindestens 40 Krüge mit Kratzer.",
+"In der Stichprobe sind mindestens 60% Krüge mit Kratzer.",
+"In der Stichprobe sind höchstens 42 oder mindestens 45 Krüge mit Kratzer.",
+"In der Stichprobe sind weniger als 42 Krüge ohne Kratzer."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,3086:0,0001}",
-"{1:NUMERICAL:=0,0501:0,0001}",
-"{1:NUMERICAL:=0,0342:0,0001}",
-"{1:NUMERICAL:=0,0765:0,0001}",
-"{1:NUMERICAL:=0,0317:0,0001}",
-"{1:NUMERICAL:=0,4659:0,0001}",
-"{1:NUMERICAL:=0,106:0,0001}"
+"{1:NUMERICAL:=0,125:0,0001}",
+"{1:NUMERICAL:=0,0322:0,0001}",
+"{1:NUMERICAL:=0,82:0,0001}",
+"{1:NUMERICAL:=0,7423:0,0001}",
+"{1:NUMERICAL:=0,041:0,0001}",
+"{1:NUMERICAL:=0,8323:0,0001}",
+"{1:NUMERICAL:=0,4142:0,0001}"
 ]
 },
 {
-"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 82 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 53% aller vorgeschlagenen Partner attraktiv findet.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 98 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 45% aller vorgeschlagenen Partner attraktiv findet.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
+"Von den vorgeschlagenen Partnern findet Amalia mehr als 57 unattraktiv. ",
+"Von den vorgeschlagenen Partnern findet Amalia höchstens 38 oder mindestens 51 attraktiv. ",
+"Von den vorgeschlagenen Partnern findet Amalia höchstens 49 attraktiv. ",
 "Von den vorgeschlagenen Partnern findet Amalia die ersten zwei attraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia mindestens 40 unattraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia höchstens 32 oder mindestens 46 unattraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia weniger als 47 attraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia mindestens 61% attraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia mehr als 38 und höchstens 52 attraktiv. ",
-"Von den vorgeschlagenen Partnern findet Amalia genau 37 attraktiv. "
+"Von den vorgeschlagenen Partnern findet Amalia mindestens 35 und weniger als 47 attraktiv. ",
+"Von den vorgeschlagenen Partnern findet Amalia mindestens 45% attraktiv. ",
+"Von den vorgeschlagenen Partnern findet Amalia genau 59 unattraktiv. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,2809:0,0001}",
-"{1:NUMERICAL:=0,4151:0,0001}",
-"{1:NUMERICAL:=0,1521:0,0001}",
-"{1:NUMERICAL:=0,7489:0,0001}",
-"{1:NUMERICAL:=0,059:0,0001}",
-"{1:NUMERICAL:=0,8417:0,0001}",
-"{1:NUMERICAL:=0,0318:0,0001}"
+"{1:NUMERICAL:=0,233:0,0001}",
+"{1:NUMERICAL:=0,2247:0,0001}",
+"{1:NUMERICAL:=0,8635:0,0001}",
+"{1:NUMERICAL:=0,2025:0,0001}",
+"{1:NUMERICAL:=0,663:0,0001}",
+"{1:NUMERICAL:=0,4663:0,0001}",
+"{1:NUMERICAL:=0,0478:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 41 Stück zusammengefasst. Der Zufallsgenerator legt 50% aller Smartwatches einen Gutschein bei.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 89 Stück zusammengefasst. Der Zufallsgenerator legt 54% aller Smartwatches einen Gutschein bei.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"In einer Kiste sind mindestens 56% Smartwatches ohne Gutschein.",
-"In einer Kiste sind höchstens 15 oder mindestens 22 Smartwatches mit Gutschein.",
-"In einer Kiste sind mindestens 21 Smartwatches mit Gutschein.",
-"In einer Kiste sind mehr als 14 und höchstens 23 Smartwatches mit Gutschein.",
-"In einer Kiste sind weniger als 26 Smartwatches ohne Gutschein.",
-"In einer Kiste sind die letzten zwei Smartwatches mit Gutschein.",
-"In einer Kiste sind genau 24 Smartwatches mit Gutschein."
+"In einer Kiste sind mindestens 55% Smartwatches ohne Gutschein.",
+"In einer Kiste sind mindestens 40 und weniger als 54 Smartwatches mit Gutschein.",
+"In einer Kiste sind mehr als 44 Smartwatches mit Gutschein.",
+"In einer Kiste sind höchstens 47 Smartwatches mit Gutschein.",
+"In einer Kiste sind höchstens 43 oder mindestens 55 Smartwatches mit Gutschein.",
+"In einer Kiste sind die ersten fünf Smartwatches ohne Gutschein.",
+"In einer Kiste sind genau 49 Smartwatches mit Gutschein."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,2664:0,0001}",
-"{1:NUMERICAL:=0,4362:0,0001}",
-"{1:NUMERICAL:=0,5:0,0001}",
-"{1:NUMERICAL:=0,7958:0,0001}",
-"{1:NUMERICAL:=0,9414:0,0001}",
-"{1:NUMERICAL:=0,25:0,0001}",
-"{1:NUMERICAL:=0,0689:0,0001}"
+"{1:NUMERICAL:=0,0542:0,0001}",
+"{1:NUMERICAL:=0,8421:0,0001}",
+"{1:NUMERICAL:=0,7758:0,0001}",
+"{1:NUMERICAL:=0,4515:0,0001}",
+"{1:NUMERICAL:=0,2508:0,0001}",
+"{1:NUMERICAL:=0,0206:0,0001}",
+"{1:NUMERICAL:=0,0831:0,0001}"
 ]
 },
 {
-"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 92 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 76% bar bezahlt.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 49 Kunden. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 29% bar bezahlt.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Es bezahlen mehr als 20 Kunden mit Karte. ",
-"Es bezahlen genau 74 Kunden bar. ",
-"Es bezahlen mindestens 14 und weniger als 24 Kunden mit Karte. ",
-"Es bezahlen die letzten drei Kunden bar. ",
-"Es bezahlen höchstens 67 Kunden bar. ",
-"Es bezahlen mindestens 71% Kunden bar. ",
-"Es bezahlen höchstens 62 oder mindestens 77 Kunden bar. "
+"Es bezahlen genau 16 Kunden bar. ",
+"Es bezahlen mindestens 43% Kunden bar. ",
+"Es bezahlen mindestens 10 und weniger als 17 Kunden bar. ",
+"Es bezahlen mehr als 31 Kunden mit Karte. ",
+"Es bezahlen die letzten vier Kunden bar. ",
+"Es bezahlen höchstens 34 oder mindestens 40 Kunden mit Karte. ",
+"Es bezahlen höchstens 19 Kunden bar. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,6432:0,0001}",
-"{1:NUMERICAL:=0,0621:0,0001}",
-"{1:NUMERICAL:=0,628:0,0001}",
-"{1:NUMERICAL:=0,439:0,0001}",
-"{1:NUMERICAL:=0,2728:0,0001}",
-"{1:NUMERICAL:=0,8592:0,0001}",
-"{1:NUMERICAL:=0,0881:0,0001}"
+"{1:NUMERICAL:=0,1034:0,0001}",
+"{1:NUMERICAL:=0,013:0,0001}",
+"{1:NUMERICAL:=0,703:0,0001}",
+"{1:NUMERICAL:=0,8497:0,0001}",
+"{1:NUMERICAL:=0,0071:0,0001}",
+"{1:NUMERICAL:=0,5196:0,0001}",
+"{1:NUMERICAL:=0,9489:0,0001}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 35 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 57% aller Beamerlampen weniger als 4000 Stunden.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 92 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 78% aller Beamerlampen weniger als 4000 Stunden.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den kontrollierten Beamerlampen leuchten höchstens 16 oder mindestens 25 weniger als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten genau 14 weniger als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten mehr als 8 und höchstens 21 mehr als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten mindestens 60% weniger als 4000 Stunden.",
 "Von den kontrollierten Beamerlampen leuchten die ersten drei weniger als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten weniger als 27 weniger als 4000 Stunden.",
-"Von den kontrollierten Beamerlampen leuchten mindestens 17 mehr als 4000 Stunden."
+"Von den kontrollierten Beamerlampen leuchten höchstens 84% weniger als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten weniger als 22 mehr als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten mindestens 17 mehr als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten höchstens 67 oder mindestens 74 weniger als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten mehr als 68 und höchstens 80 weniger als 4000 Stunden.",
+"Von den kontrollierten Beamerlampen leuchten genau 71 weniger als 4000 Stunden."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,1779:0,0001}",
-"{1:NUMERICAL:=0,0178:0,0001}",
-"{1:NUMERICAL:=0,9749:0,0001}",
-"{1:NUMERICAL:=0,4288:0,0001}",
-"{1:NUMERICAL:=0,1852:0,0001}",
-"{1:NUMERICAL:=0,9891:0,0001}",
-"{1:NUMERICAL:=0,3085:0,0001}"
+"{1:NUMERICAL:=0,4746:0,0001}",
+"{1:NUMERICAL:=0,93:0,0001}",
+"{1:NUMERICAL:=0,6323:0,0001}",
+"{1:NUMERICAL:=0,8261:0,0001}",
+"{1:NUMERICAL:=0,4802:0,0001}",
+"{1:NUMERICAL:=0,786:0,0001}",
+"{1:NUMERICAL:=0,0969:0,0001}"
 ]
 },
 {
-"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 63 User teil. Man weiß, dass 34% aller User der Influencerin folgen.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 93 User teil. Man weiß, dass 22% aller User der Influencerin folgen.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den befragten Usern folgen mehr als 16 und höchstens 24 der Influencerin. ",
-"Von den befragten Usern folgen die letzten drei der Influencerin. ",
-"Von den befragten Usern folgen genau 48 der Influencerin nicht. ",
-"Von den befragten Usern folgen mindestens 26 der Influencerin. ",
-"Von den befragten Usern folgen höchstens 14 oder mindestens 26 der Influencerin. ",
-"Von den befragten Usern folgen weniger als 18 der Influencerin. ",
-"Von den befragten Usern folgen mindestens 68% der Influencerin nicht. "
+"Von den befragten Usern folgen mehr als 77 der Influencerin nicht. ",
+"Von den befragten Usern folgen die ersten zwei der Influencerin. ",
+"Von den befragten Usern folgen höchstens 17 oder mindestens 26 der Influencerin. ",
+"Von den befragten Usern folgen höchstens 19% der Influencerin. ",
+"Von den befragten Usern folgen mindestens 12 und weniger als 24 der Influencerin. ",
+"Von den befragten Usern folgen höchstens 71 der Influencerin nicht. ",
+"Von den befragten Usern folgen genau 19 der Influencerin. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,7017:0,0001}",
-"{1:NUMERICAL:=0,0393:0,0001}",
-"{1:NUMERICAL:=0,025:0,0001}",
-"{1:NUMERICAL:=0,1393:0,0001}",
-"{1:NUMERICAL:=0,1691:0,0001}",
-"{1:NUMERICAL:=0,1482:0,0001}",
-"{1:NUMERICAL:=0,4087:0,0001}"
+"{1:NUMERICAL:=0,1044:0,0001}",
+"{1:NUMERICAL:=0,0484:0,0001}",
+"{1:NUMERICAL:=0,3383:0,0001}",
+"{1:NUMERICAL:=0,2327:0,0001}",
+"{1:NUMERICAL:=0,7706:0,0001}",
+"{1:NUMERICAL:=0,389:0,0001}",
+"{1:NUMERICAL:=0,0954:0,0001}"
 ]
 },
 {
-"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 65 Lebensmittel. Interne Untersuchungen zeigen, dass jedes 5. Lebensmittel nicht ausreichend genau gewogen wird.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
+"einleitung":"In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 60 Lebensmittel. Interne Untersuchungen zeigen, dass jedes 5. Lebensmittel nicht ausreichend genau gewogen wird.</p> <p>Bestimmen Sie die Wahrscheinlichkeiten der folgenden Ereignisse (auf 4 NKS gerundet).",
 "fragen":[
-"Von den ermittelten Gewichten sind mehr als 9 nicht ausreichend genau. ",
-"Von den ermittelten Gewichten sind höchstens 18% nicht ausreichend genau. ",
-"Von den ermittelten Gewichten sind die letzten zwei ausreichend genau. ",
-"Von den ermittelten Gewichten sind höchstens 10 nicht ausreichend genau. ",
-"Von den ermittelten Gewichten sind genau 50 ausreichend genau. ",
-"Von den ermittelten Gewichten sind mindestens 10 und weniger als 15 nicht ausreichend genau. ",
-"Von den ermittelten Gewichten sind höchstens 11 oder mindestens 17 nicht ausreichend genau. "
+"Von den ermittelten Gewichten sind mindestens 9 und weniger als 15 nicht ausreichend genau. ",
+"Von den ermittelten Gewichten sind höchstens 6 nicht ausreichend genau. ",
+"Von den ermittelten Gewichten sind mehr als 14 nicht ausreichend genau. ",
+"Von den ermittelten Gewichten sind die letzten fünf ausreichend genau. ",
+"Von den ermittelten Gewichten sind genau 49 ausreichend genau. ",
+"Von den ermittelten Gewichten sind höchstens 23% nicht ausreichend genau. ",
+"Von den ermittelten Gewichten sind höchstens 9 oder mindestens 17 nicht ausreichend genau. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,8628:0,0001}",
-"{1:NUMERICAL:=0,3301:0,0001}",
-"{1:NUMERICAL:=0,64:0,0001}",
-"{1:NUMERICAL:=0,2229:0,0001}",
-"{1:NUMERICAL:=0,097:0,0001}",
-"{1:NUMERICAL:=0,5504:0,0001}",
-"{1:NUMERICAL:=0,4697:0,0001}"
+"{1:NUMERICAL:=0,6667:0,0001}",
+"{1:NUMERICAL:=0,0308:0,0001}",
+"{1:NUMERICAL:=0,2065:0,0001}",
+"{1:NUMERICAL:=0,3277:0,0001}",
+"{1:NUMERICAL:=0,1252:0,0001}",
+"{1:NUMERICAL:=0,6944:0,0001}",
+"{1:NUMERICAL:=0,2904:0,0001}"
 ]
 }
 ]

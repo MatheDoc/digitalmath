@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Stochastik_Allgemein_Binomialverteilung/05 Kennzahlen/n mu gegeben</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  257 Teile. Der Kontrolleur erwartet durchschnittlich 205,6 defekte Halbleiter.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der defekten Halbleiter angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,4125:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Halbleiter defekt ist. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=80:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 293 Passagiere. Die Schaffnerin erwartet durchschnittlich 187,52 Passagiere ohne gültigen Fahrschein.</p><ol><li value="1">Bestimmen Sie die Wahrscheinlichkeit, dass ein Passagier keinen gültigen Fahrschein hat. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=64:1} %</li></ol><ol><li value="2">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Passagiere ohne gültigen Fahrschein angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=8,2163:0,01}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 158 Kunden ein Eis. Der Eisverkäufer erwartet durchschnittlich 109,02 Kundenbestellungen mit Streuseln.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Kundenbestellungen mit Streuseln angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=5,8134:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Kunde ein Eis mit Streuseln bestellt. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=69:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>David hat eine gezinkte Münze. Er wirft die Münze 158 Mal. David erwartet durchschnittlich 79 geworfene Köpfe.</p><ol><li value="1">Bestimmen Sie die Wahrscheinlichkeit, dass bei einem Wurf Kopf geworfen wird. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=50:1} %</li></ol><ol><li value="2">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der geworfenen Köpfe angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,2849:0,01}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 162 Bewerber. Die Ärztin erwartet durchschnittlich 85,86 Bewerber mit erfolgreichem Gesundheitscheck.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,3525:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Bewerber den Check besteht. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=53:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 243 Prüflinge. Der Fahrlehrer erwartet durchschnittlich 48,6 durchgefallene Prüflinge.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der durchgefallenen Prüflinge angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,2354:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Prüfling durch die Prüfung fällt. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=20:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 183 Turnschuhe. Der Zollbeamte erwartet durchschnittlich 126,27 gefälschte Turnschuhe.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der gefälschten Turnschuhe angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,2565:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Turnschuh eine Fälschung ist. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=69:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Fußballspielerin trainiert Freistöße. Sie schießt 207 Mal auf das Tor. Die Fußballerin erwartet durchschnittlich 51,75 Fehltreffer.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Fehltreffer angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,23:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Freistoß das Tor verfehlt. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=25:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 119 Mitarbeiter befragt. Das Unternehmen erwartet durchschnittlich 66,64 zufriedene Mitarbeiter.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der zufriedenen Mitarbeiter angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=5,4149:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Mitarbeiter zufrieden ist. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=56:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 150 Gästen geprüft. Der Besitzer erwartet durchschnittlich 37,5 vegetarische Gerichte.</p><ol><li value="1">Bestimmen Sie die Wahrscheinlichkeit, dass ein Gericht vegetarisch ist. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=25:1} %</li></ol><ol><li value="2">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der vegetarischen Gerichte angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=5,3033:0,01}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 285 Pflanzen. Die Filialleiterin erwartet durchschnittlich 148,2 unzureichend bewässerte Pflanzen.</p><ol><li value="1">Bestimmen Sie die Wahrscheinlichkeit, dass eine Pflanze zu wenig Wasser bekommt. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=52:1} %</li></ol><ol><li value="2">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der unzureichend bewässerten Pflanzen angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=8,4342:0,01}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 279 bestellten Werkzeugen untersucht. Der Onlineshop erwartet durchschnittlich 55,8 Werkzeuge mit Akku.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Werkzeuge mit Akku angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,6813:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Werkzeug mit einem Akku ausgestattet ist. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=20:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 152 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Das Unternehmen erwartet durchschnittlich 63,84 Computer mit unzureichendem Virenschutz.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Computer mit unzureichendem Virenschutz angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,085:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass ein Computer nicht ausreichend gegen Viren geschützt ist. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=42:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 227 Krügen. Die Glaserei erwartet durchschnittlich 174,79 Krüge mit Kratzer.</p><ol><li value="1">Bestimmen Sie die Wahrscheinlichkeit, dass ein Krug einen Kratzer hat. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=77:1} %</li></ol><ol><li value="2">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Krüge mit Kratzer angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,3405:0,01}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 196 Partnervorschläge an. Amalia erwartet durchschnittlich 150,92 Vorschläge mit attraktiven Partnern.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Vorschläge mit attraktiven Partnern angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=5,8917:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass sie einen vorgeschlagenen Partner attraktiv findet. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=77:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 214 Stück zusammengefasst. Das Unternehmen erwartet durchschnittlich 132,68 Smartwatches mit Gutschein.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Smartwatches mit Gutschein angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=7,1006:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass einer Smartwatch ein Gutschein beigelegt wird. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=62:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 195 Kunden. Der Verkäufer erwartet durchschnittlich 138,45 barbezahlende Kunden.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der barbezahlenden Kunden angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=6,3364:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass eine Kunde bar bezahlt. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=71:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 167 Beamerlampen überprüft. Das Unternehmen erwartet durchschnittlich 41,75 Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden.</p><ol><li value="1">Bestimmen Sie die Wahrscheinlichkeit, dass eine Beamerlampe weniger als 4000 Stunden leuchtet. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=25:1} %</li></ol><ol><li value="2">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=5,5958:0,01}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 170 User teil. Der potentielle Werbepartner erwartet durchschnittlich 42,5 Follower der Influencerin.</p><ol><li value="1">Bestimmen Sie die Wahrscheinlichkeit, dass ein User die Influencerin kennt. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=25:1} %</li></ol><ol><li value="2">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der Follower der Influencerin angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=5,6458:0,01}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 159 Lebensmittel. Der Kassierer erwartet durchschnittlich 39,75 ungenau gewogene Lebensmittel.</p><ol><li value="1">Bestimmen Sie die Standardabweichung der binomialverteilten Zufallsgröße, die die Anzahl der ungenau gewogenen Lebensmittel angibt (auf 2 NKS gerundet).<br>{1:NUMERICAL:=5,4601:0,01}</li></ol><ol><li value="2">Bestimmen Sie die Wahrscheinlichkeit, dass das Gewicht eines Lebensmittels nicht ausreichend genau bestimmt wird. (Endergebnis und bei Verwendung als mögliches Zwischenergebnis in % auf eine ganze Zahl gerundet)<br>{1:NUMERICAL:=25:1} %</li></ol>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+

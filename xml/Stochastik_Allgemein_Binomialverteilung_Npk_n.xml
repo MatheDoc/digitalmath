@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Stochastik_Allgemein_Binomialverteilung/04 Npk/n</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 72% defekt.</p><p>Bestimmen Sie die Anzahl der Halbleiter, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für mindestens 91 defekte Halbleiter höchstens 79% beträgt.<br>{1:NUMERICAL:=131:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. Erfahrungsgemäß haben 26% aller Passagiere keinen gültigen Fahrschein.</p><p>Bestimmen Sie die Anzahl der Passagiere, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für höchstens 74 Passagiere ohne gültigen Fahrschein höchstens 80% beträgt.<br>{1:NUMERICAL:=264:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Typischerweise bestellen 73% aller Kunden ein Eis mit Streuseln.</p><p>Bestimmen Sie die Anzahl der Kunden, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für mindestens 81 Kundenbestellungen mit Streuseln mindestens 64% beträgt.<br>{1:NUMERICAL:=113:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>David hat eine gezinkte Münze. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 40%.</p><p>Bestimmen Sie die Anzahl der Münzwürfe, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für mindestens 64 geworfene Köpfe mindestens 80% beträgt.<br>{1:NUMERICAL:=173:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Erfahrungswerte besagen, dass 74% aller Bewerber den Check erfolgreich absolvieren.</p><p>Bestimmen Sie die Anzahl der Bewerber, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für mindestens 221 Bewerber mit erfolgreichem Gesundheitscheck mindestens 45% beträgt.<br>{1:NUMERICAL:=297:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Jeder 5. Prüfling fällt durch.</p><p>Bestimmen Sie die Anzahl der Prüflinge, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für mindestens 58 durchgefallene Prüflinge höchstens 31% beträgt.<br>{1:NUMERICAL:=271:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Glaubwürdigen Schätzungen zufolge ist jeder 5. Schuh gefälscht.</p><p>Bestimmen Sie die Anzahl der Turnschuhe, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für höchstens 21 gefälschte Turnschuhe mindestens 28% beträgt.<br>{1:NUMERICAL:=120:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Fußballspielerin trainiert Freistöße. Sie weiß, dass 28% aller Schüsse das Tor verfehlen.</p><p>Bestimmen Sie die Anzahl der Freistöße, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für höchstens 45 Fehltreffer mindestens 20% beträgt.<br>{1:NUMERICAL:=180:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Bekanntermaßen ist jeder 5. Mitarbeiter zufrieden.</p><p>Bestimmen Sie die Anzahl der Mitarbeiter, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für mindestens 20 zufriedene Mitarbeiter höchstens 61% beträgt.<br>{1:NUMERICAL:=103:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Allgemeine Statistiken zeigen, dass 77% aller Gäste vegetarische Gerichte bestellen.</p><p>Bestimmen Sie die Anzahl der Gerichte, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für höchstens 178 vegetarische Gerichte höchstens 29% beträgt.<br>{1:NUMERICAL:=237:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Aus früheren Überprüfungen ist bekannt, dass 63% aller Pflanzen zu wenig Wasser bekommen.</p><p>Bestimmen Sie die Anzahl der Pflanzen, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für mindestens 182 unzureichend bewässerte Pflanzen höchstens 48% beträgt.<br>{1:NUMERICAL:=287:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 29% einen Akku.</p><p>Bestimmen Sie die Anzahl der Werkzeuge, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für mindestens 41 Werkzeuge mit Akku mindestens 62% beträgt.<br>{1:NUMERICAL:=146:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Nach offiziellen Angaben haben 63% aller Computer keinen ausreichenden Virenschutz.</p><p>Bestimmen Sie die Anzahl der Computer, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für mindestens 175 Computer mit unzureichendem Virenschutz mindestens 25% beträgt.<br>{1:NUMERICAL:=269:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Analysen zeigen, dass 79% aller Krüge einen Kratzer haben.</p><p>Bestimmen Sie die Anzahl der Krüge, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für mindestens 160 Krüge mit Kratzer höchstens 54% beträgt.<br>{1:NUMERICAL:=202:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. Aus Erfahrung weiß sie, dass sie 64% aller vorgeschlagenen Partner attraktiv findet.</p><p>Bestimmen Sie die Anzahl der vorgeschlagenen Partner, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für höchstens 153 attraktive Partnervorschläge höchstens 16% beträgt.<br>{1:NUMERICAL:=252:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Der Zufallsgenerator legt 31% aller Smartwatches einen Gutschein bei.</p><p>Bestimmen Sie die Anzahl der Smartwatches, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für höchstens 38 Smartwatches mit Gutschein mindestens 79% beträgt.<br>{1:NUMERICAL:=111:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Es ist bekannt, dass ein Kunde mit einer Wahrscheinlichkeit von 65% bar bezahlt.</p><p>Bestimmen Sie die Anzahl der Kunden, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für höchstens 148 barbezahlende Kunden mindestens 26% beträgt.<br>{1:NUMERICAL:=235:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. Analysen von Verbraucherschützern zufolge leuchten 44% aller Beamerlampen weniger als 4000 Stunden.</p><p>Bestimmen Sie die Anzahl der Beamerlampen, die höchstens untersucht werden dürfen, damit die Wahrscheinlichkeit für höchstens 91 Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden mindestens 21% beträgt.<br>{1:NUMERICAL:=221:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. Man weiß, dass 29% aller User der Influencerin folgen.</p><p>Bestimmen Sie die Anzahl der User, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für mindestens 80 Follower der Influencerin mindestens 44% beträgt.<br>{1:NUMERICAL:=271:0}</p>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Interne Untersuchungen zeigen, dass jedes 4. Lebensmittel nicht ausreichend genau gewogen wird.</p><p>Bestimmen Sie die Anzahl der Lebensmittel, die mindestens untersucht werden müssen, damit die Wahrscheinlichkeit für höchstens 31 ungenau gewogene Lebensmittel höchstens 44% beträgt.<br>{1:NUMERICAL:=130:0}</p>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+
