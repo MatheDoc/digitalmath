@@ -17,7 +17,7 @@
     <text>01 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  53 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 34% defekt.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der defekten Halbleiter um mindestens die 2-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0581:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein Kontrolleur überprüft die Funktionsfähigkeit von Halbleitern. Dafür entnimmt er aus der laufenden Produktion  28 Teile. Ein Halbleiter ist mit einer Wahrscheinlichkeit von 57% defekt.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der defekten Halbleiter um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,66:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -26,7 +26,7 @@
     <text>02 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 52 Passagiere. Erfahrungsgemäß haben 41% aller Passagiere keinen gültigen Fahrschein.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Passagiere ohne gültigen Fahrschein um höchstens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9896:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Eine Schaffnerin kontrolliert Fahrscheine in einer Regionalbahn von Bielefeld nach Münster. An einem Tag überprüft sie 63 Passagiere. Erfahrungsgemäß haben 39% aller Passagiere keinen gültigen Fahrschein.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Passagiere ohne gültigen Fahrschein um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0018:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -35,7 +35,7 @@
     <text>03 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 76 Kunden ein Eis. Typischerweise bestellen 77% aller Kunden ein Eis mit Streuseln.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Kundenbestellungen mit Streuseln um mindestens die 2-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0549:0,0001}</p>]]></text>
+    <text><![CDATA[<p>An einem Eisstand bietet der Verkäufer Eis mit oder ohne Streuseln an. Insgesamt kaufen 31 Kunden ein Eis. Typischerweise bestellen 32% aller Kunden ein Eis mit Streuseln.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Kundenbestellungen mit Streuseln um höchstens die 2-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9681:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -44,7 +44,7 @@
     <text>04 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>David hat eine gezinkte Münze. Er wirft die Münze 28 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 20%.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der geworfenen Köpfe um mindestens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0168:0,0001}</p>]]></text>
+    <text><![CDATA[<p>David hat eine gezinkte Münze. Er wirft die Münze 48 Mal. Bei einem einmaligen Wurf beträgt die Wahrscheinlichkeit für Kopf 69%.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der geworfenen Köpfe um mindestens die 2-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0409:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -53,7 +53,7 @@
     <text>05 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 84 Bewerber. Erfahrungswerte besagen, dass 61% aller Bewerber den Check erfolgreich absolvieren.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,6848:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Eine Ärztin prüft, ob Bewerber für den Polizeiberuf gesundheitlich geeignet sind. Insgesamt gibt es 47 Bewerber. Erfahrungswerte besagen, dass 76% aller Bewerber den Check erfolgreich absolvieren.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Bewerber mit erfolgreichem Gesundheitscheck um mindestens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0109:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -62,7 +62,7 @@
     <text>06 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 97 Prüflinge. Jeder 5. Prüfling fällt durch.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der durchgefallenen Prüflinge um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0022:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein Fahrlehrer nimmt eine theoretische Führerscheinprüfung ab. Es erscheinen 92 Prüflinge. Die Durchfallquote liegt bei 76%.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der durchgefallenen Prüflinge um höchstens die 3-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9977:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -71,7 +71,7 @@
     <text>07 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 49 Turnschuhe. Glaubwürdigen Schätzungen zufolge sind 58% aller Schuhe gefälscht.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der gefälschten Turnschuhe um mindestens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,3155:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein Zollbeamter kontrolliert ein Sportgeschäft hinsichtlich gefälschter Turnschuhe. Er untersucht insgesamt 45 Turnschuhe. Glaubwürdigen Schätzungen zufolge ist jeder 5. Schuh gefälscht.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der gefälschten Turnschuhe um mindestens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,3509:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -80,7 +80,7 @@
     <text>08 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Eine Fußballspielerin trainiert Freistöße. Sie schießt 46 Mal auf das Tor. Sie weiß, dass 48% aller Schüsse das Tor verfehlen.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Fehltreffer um höchstens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9887:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Eine Fußballspielerin trainiert Freistöße. Sie schießt 20 Mal auf das Tor. Sie weiß, dass 59% aller Schüsse das Tor verfehlen.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Fehltreffer um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,1102:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -89,7 +89,7 @@
     <text>09 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 60 Mitarbeiter befragt. Bekanntermaßen ist jeder 2. Mitarbeiter zufrieden.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der zufriedenen Mitarbeiter um höchstens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,845:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein Unternehmen untersucht, wie zufrieden seine Mitarbeiter sind. Dazu werden 33 Mitarbeiter befragt. Bekanntermaßen sind 66% aller Mitarbeiter zufrieden.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der zufriedenen Mitarbeiter um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,6418:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -98,7 +98,7 @@
     <text>10 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 87 Gästen geprüft. Allgemeine Statistiken zeigen, dass 37% aller Gäste vegetarische Gerichte bestellen.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der vegetarischen Gerichte um höchstens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9896:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Der Besitzer eines Restaurants untersucht, wie viele Gäste vegetarische Gerichte bestellen. Es werden die Bestellungen von 44 Gästen geprüft. Allgemeine Statistiken zeigen, dass jeder 2. Gast ein vegetarisches Gericht bestellt.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der vegetarischen Gerichte um höchstens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,8258:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -107,7 +107,7 @@
     <text>11 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 27 Pflanzen. Aus Erfahrung weiß sie, dass jede 2. Pflanze zu wenig Wasser bekommt.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der unzureichend bewässerten Pflanzen um höchstens die 3-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9985:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Die Filialleiterin eines Gartencenter prüft, ob die Pflanzen ausreichend bewässert werden. Sie untersucht 62 Pflanzen. Aus früheren Überprüfungen ist bekannt, dass 47% aller Pflanzen zu wenig Wasser bekommen.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der unzureichend bewässerten Pflanzen um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,689:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -116,7 +116,7 @@
     <text>12 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 89 bestellten Werkzeugen untersucht. Ein Werkzeug hat mit einer Wahrscheinlichkeit von 22% einen Akku.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Werkzeuge mit Akku um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,1233:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein Onlineshop für Heimwerkerbedarf bietet elektrische Werkzeuge entweder mit Kabel oder mit Akku an. Es wird die Stromversorgung von 76 bestellten Werkzeugen untersucht. Jedes 2. Werkzeug hat einen Akku.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Werkzeuge mit Akku um höchstens die 2-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9495:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -125,7 +125,7 @@
     <text>13 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 99 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 23% aller Computer keinen ausreichenden Virenschutz.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Computer mit unzureichendem Virenschutz um höchstens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9885:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein Unternehmen prüft, wie gut seine Computer vor etwaigen Cyberattacken geschützt sind. Es werden 22 Computer hinsichtlich eines ausreichenden Virenschutzes untersucht. Nach offiziellen Angaben haben 36% aller Computer keinen ausreichenden Virenschutz.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Computer mit unzureichendem Virenschutz um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0029:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -134,7 +134,7 @@
     <text>14 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 59 Krügen. Analysen zeigen, dass 26% aller Krüge einen Kratzer haben.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Krüge mit Kratzer um höchstens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9879:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Eine Glaserei produziert Maßkrüge, wobei es an einigen Krügen zu Kratzern kommt. Sie überprüft eine Tagesproduktion von 22 Krügen. Analysen zeigen, dass 56% aller Krüge einen Kratzer haben.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Krüge mit Kratzer um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,7117:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -143,7 +143,7 @@
     <text>15 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 69 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 63% aller vorgeschlagenen Partner attraktiv findet.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Vorschläge mit attraktiven Partnern um mindestens die 3-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0026:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Amalia sucht auf einer Online-Partnerbörse nach dem Mann fürs Leben. An einem Tag schaut sie sich 24 Partnervorschläge an. Aus Erfahrung weiß sie, dass sie 21% aller vorgeschlagenen Partner attraktiv findet.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Vorschläge mit attraktiven Partnern um höchstens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9909:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -152,7 +152,7 @@
     <text>16 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 33 Stück zusammengefasst. Der Zufallsgenerator legt jeder 5. Smartwatch einen Gutschein bei.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Smartwatches mit Gutschein um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,6178:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein Unternehmen verkauft Smartwatches. Um den Absatz anzukurbeln, werden einigen Uhren zufällig Gutscheine für ein Online-Versandhaus beigelegt. Die Smartwatches werden in Kisten mit je 56 Stück zusammengefasst. Der Zufallsgenerator legt 46% aller Smartwatches einen Gutschein bei.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Smartwatches mit Gutschein um mindestens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,3494:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -161,7 +161,7 @@
     <text>17 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 24 Kunden. Aus der Vergangenheit ist ihm bekannt, dass jeder 4. Kunde bar bezahlt.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der barbezahlenden Kunden um mindestens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0082:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Der Verkäufer einer Imbissbude möchte wissen, auf welche Art seine Kunden bezahlen. Er beobachtet 97 Kunden. Aus der Vergangenheit ist ihm bekannt, dass jeder 4. Kunde bar bezahlt.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der barbezahlenden Kunden um höchstens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,7092:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -170,7 +170,7 @@
     <text>18 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 78 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchten 45% aller Beamerlampen weniger als 4000 Stunden.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden um höchstens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,8614:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein Unternehmen verkauft Beamer und garantiert eine Lebensdauer von 4000 Stunden für die Beamerlampen. In einer Langzeitkontrolle werden 25 Beamerlampen überprüft. Analysen von Verbraucherschützern zufolge leuchtet jede 2. Beamerlampe weniger als 4000 Stunden.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Beamerlampen mit einer Lebensdauer von weniger als 4000 Stunden um mindestens die 2-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0432:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -179,7 +179,7 @@
     <text>19 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 38 User teil. Man weiß, dass 63% aller User der Influencerin folgen.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Follower der Influencerin um mindestens die 1-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,3207:0,0001}</p>]]></text>
+    <text><![CDATA[<p>Ein potentieller Werbepartner studiert den Bekanntheitsgrad einer Influencerin. An einer Umfrage zum Bekanntheitsgrad der Influencerin nehmen 71 User teil. Man weiß, dass 37% aller User der Influencerin folgen.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der Follower der Influencerin um höchstens die 2-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,9514:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
@@ -188,7 +188,7 @@
     <text>20 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 46 Lebensmittel. Interne Untersuchungen zeigen, dass in 60% der Fälle das Gewicht nicht ausreichend genau bestimmt wird.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der ungenau gewogenen Lebensmittel um mindestens die 2,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,0151:0,0001}</p>]]></text>
+    <text><![CDATA[<p>In einem Lebensmittelgeschäft bestimmt ein Kassierer mit Hilfe einer Waage das Gewicht von Obst und Gemüse. Er wiegt 83 Lebensmittel. Interne Untersuchungen zeigen, dass in 31% der Fälle das Gewicht nicht ausreichend genau bestimmt wird.</p><p>Bestimmen Sie die Wahrscheinlichkeit, dass die Anzahl der ungenau gewogenen Lebensmittel um mindestens die 1,5-fache Standardabweichung vom Erwartungswert abweicht (auf 4 NKS gerundet).<br>{1:NUMERICAL:=0,1231:0,0001}</p>]]></text>
   </questiontext>
 </question>
 
