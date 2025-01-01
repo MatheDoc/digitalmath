@@ -1,342 +1,342 @@
 ﻿[
 {
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,3t^3+22t^2)e^{-0,4t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,468t^3+7,92t^2)e^{-0,4t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-0,4t^3+22t^2)e^{-0,1t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,172t^3+9,46t^2)e^{-0,1t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 55 Jahren.",
+"die jährlichen Erlöse nach 48 Jahren.",
+"die Erlöse, die vom Ende des 11. bis zum Ende des 47. Jahres erzielt werden.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"[{1:NUMERICAL:=5,961:0,01};{1:NUMERICAL:=32,001:0,01}]",
+"{1:NUMERICAL:=-95,6359:0,01}",
+"{1:NUMERICAL:=53,0917:0,1}",
+"{1:NUMERICAL:=16967,3075:0,1}",
+"{1:NUMERICAL:=5,961:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(8,5t^2+16)e^{-0,4t}+4 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(3,91t^2+7,36)e^{-0,4t}+4 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinne, die vom Ende des 2. bis zum Ende des 15. Jahres erzielt werden.",
+"die jährlichen Gewinne nach 16 Jahren.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 19 Jahren.",
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"{1:NUMERICAL:=-24,0614:0,1}",
+"{1:NUMERICAL:=-10,4532:0,1}",
+"{1:NUMERICAL:=-73,6438:0,01}",
+"[{1:NUMERICAL:=2,086:0,01};{1:NUMERICAL:=7,952:0,01}]",
+"{1:NUMERICAL:=19:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(11t+5)e^{-0,1t}+4 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(4,18t+1,9)e^{-0,1t}+4 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 56 Jahren.",
+"die Erlöse, die vom Ende des 27. bis zum Ende des 49. Jahres erzielt werden.",
+"die jährlichen Kosten nach 52 Jahren.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"[{1:NUMERICAL:=0,718:0,01};{1:NUMERICAL:=34,739:0,01}]",
+"{1:NUMERICAL:=279,6005:0,01}",
+"{1:NUMERICAL:=316,1861:0,1}",
+"{1:NUMERICAL:=12,6496:0,1}",
+"{1:NUMERICAL:=0,718:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,7t^2+26t)e^{-0,4t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,408t^2+6,24t)e^{-0,4t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Erlöse, die vom Ende des 5. bis zum Ende des 15. Jahres erzielt werden.",
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
 "die jährlichen Gewinne nach 14 Jahren.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 16,92 Jahren.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die Gewinne, die vom Ende des 5. bis zum Ende des 9. Jahres erzielt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 15,29 Jahren.",
 "den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
 ],
 "antworten":[
-"{1:NUMERICAL:=-22,5573:0,1}",
-"{1:NUMERICAL:=-163,5492:0,01}",
-"[{1:NUMERICAL:=2,176:0,01};{1:NUMERICAL:=7,053:0,01}]",
-"{1:NUMERICAL:=0,5771:0,1}",
-"{1:NUMERICAL:=16,9231:0,1}"
+"{1:NUMERICAL:=30,5:0,1}",
+"[{1:NUMERICAL:=1,088:0,01};{1:NUMERICAL:=3,588:0,01}]",
+"{1:NUMERICAL:=-12,8334:0,1}",
+"{1:NUMERICAL:=-114,0607:0,01}",
+"{1:NUMERICAL:=15,2941:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,9t^2+20t)e^{-0,7t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,494t^2+5,2t)e^{-0,7t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,5t^2+20t)e^{-0,3t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,285t^2+3,8t)e^{-0,3t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Kosten, die vom Ende des 3. bis zum Ende des 7. Jahres erzielt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 10,53 Jahren.",
-"die jährlichen Gewinne nach 6 Jahren.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 13,33 Jahren.",
+"die Erlöse, die vom Ende des 3. bis zum Ende des 13. Jahres erzielt werden.",
+"die jährlichen Gewinne nach 8 Jahren.",
 "den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
 "den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
 ],
 "antworten":[
-"{1:NUMERICAL:=16,8751:0,1}",
-"{1:NUMERICAL:=-16,9309:0,01}",
-"{1:NUMERICAL:=-3,1274:0,1}",
-"[{1:NUMERICAL:=0,324:0,01};{1:NUMERICAL:=3,098:0,01}]",
-"{1:NUMERICAL:=10,5263:0,1}"
+"{1:NUMERICAL:=-77,8116:0,01}",
+"{1:NUMERICAL:=73,6196:0,1}",
+"{1:NUMERICAL:=-8,2572:0,1}",
+"[{1:NUMERICAL:=1,319:0,01};{1:NUMERICAL:=4,314:0,01}]",
+"{1:NUMERICAL:=13,3333:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-3,2t^2+25t)e^{-0,7t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-1,44t^2+11,25t)e^{-0,7t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(15,9t^2+14)e^{-0,6t}+2 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(6,36t^2+5,6)e^{-0,6t}+2 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
 "den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die jährlichen Gewinne nach 7 Jahren.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 7,81 Jahren.",
-"die Erlöse, die vom Ende des 3. bis zum Ende des 4. Jahres erzielt werden.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"[{1:NUMERICAL:=0,187:0,01};{1:NUMERICAL:=3,564:0,01}]",
-"{1:NUMERICAL:=-2,1255:0,1}",
-"{1:NUMERICAL:=0,7784:0,01}",
-"{1:NUMERICAL:=4,2165:0,1}",
-"{1:NUMERICAL:=0,187:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(4,2t^2+14)e^{-0,3t}+4 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(1,89t^2+6,3)e^{-0,3t}+4 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 25 Jahren.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die Kosten, die vom Ende des 6. bis zum Ende des 21. Jahres erzielt werden.",
-"die jährlichen Gewinne nach 25 Jahren.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=-67,9526:0,01}",
-"[{1:NUMERICAL:=2,497:0,01};{1:NUMERICAL:=11,11:0,01}]",
-"{1:NUMERICAL:=315,4912:0,1}",
-"{1:NUMERICAL:=-9,6472:0,1}",
-"{1:NUMERICAL:=25:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(13t+3)e^{-0,6t}+4 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(5,59t+1,29)e^{-0,6t}+4 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Kosten, die vom Ende des 2. bis zum Ende des 5. Jahres erzielt werden.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die jährlichen Gewinne nach 7 Jahren.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 9 Jahren.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=31,7073:0,1}",
-"[{1:NUMERICAL:=0,494:0,01};{1:NUMERICAL:=2,972:0,01}]",
-"{1:NUMERICAL:=-3,1865:0,1}",
-"{1:NUMERICAL:=-13,0845:0,01}",
-"{1:NUMERICAL:=9:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-t^3+26t^2)e^{-0,2t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,31t^3+8,06t^2)e^{-0,2t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die jährlichen Gewinne nach 14 Jahren.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 26 Jahren.",
-"die Kosten, die vom Ende des 5. bis zum Ende des 26. Jahres erzielt werden.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=52,4574:0,1}",
-"[{1:NUMERICAL:=2,055:0,01};{1:NUMERICAL:=18,257:0,01}]",
-"{1:NUMERICAL:=823,6064:0,01}",
-"{1:NUMERICAL:=1741,1425:0,1}",
-"{1:NUMERICAL:=2,055:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(5t+3)e^{-0,4t}+4 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(2,3t+1,38)e^{-0,4t}+4 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die Gewinne, die vom Ende des 5. bis zum Ende des 11. Jahres erzielt werden.",
 "den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 13 Jahren.",
-"die jährlichen Erlöse nach 9 Jahren.",
+"die Erlöse, die vom Ende des 2. bis zum Ende des 12. Jahres erzielt werden.",
+"die jährlichen Erlöse nach 7 Jahren.",
 "den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
 ],
 "antworten":[
-"[{1:NUMERICAL:=0,304:0,01};{1:NUMERICAL:=4,752:0,01}]",
-"{1:NUMERICAL:=-6,729:0,1}",
-"{1:NUMERICAL:=-7,7545:0,01}",
-"{1:NUMERICAL:=5,3115:0,1}",
+"[{1:NUMERICAL:=1,93:0,01};{1:NUMERICAL:=4,391:0,01}]",
+"{1:NUMERICAL:=-78,4919:0,01}",
+"{1:NUMERICAL:=152,7402:0,1}",
+"{1:NUMERICAL:=13,893:0,1}",
 "{1:NUMERICAL:=13:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-0,6t^2+27t)e^{-0,1t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,318t^2+14,31t)e^{-0,1t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,2t^2+29t)e^{-0,2t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,612t^2+14,79t)e^{-0,2t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"die Kosten, die vom Ende des 11. bis zum Ende des 15. Jahres erzielt werden.",
 "den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 45 Jahren.",
-"die Erlöse, die vom Ende des 14. bis zum Ende des 37. Jahres erzielt werden.",
-"die jährlichen Erlöse nach 27 Jahren.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"[{1:NUMERICAL:=1,802:0,01};{1:NUMERICAL:=20,443:0,01}]",
-"{1:NUMERICAL:=-99,4872:0,01}",
-"{1:NUMERICAL:=626,5292:0,1}",
-"{1:NUMERICAL:=19,5971:0,1}",
-"{1:NUMERICAL:=45:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-0,5t^3+24t^2)e^{-0,1t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,085t^3+4,08t^2)e^{-0,1t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Kosten, die vom Ende des 2. bis zum Ende des 37. Jahres erzielt werden.",
-"die jährlichen Kosten nach 24 Jahren.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 48 Jahren.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=22908,8156:0,1}",
-"{1:NUMERICAL:=668,5072:0,1}",
-"[{1:NUMERICAL:=9,591:0,01};{1:NUMERICAL:=22,597:0,01}]",
-"{1:NUMERICAL:=-10384,1176:0,01}",
-"{1:NUMERICAL:=48:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-0,9t^2+24t)e^{-0,2t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,261t^2+6,96t)e^{-0,2t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die jährlichen Kosten nach 22 Jahren.",
-"die Gewinne, die vom Ende des 7. bis zum Ende des 23. Jahres erzielt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 26,67 Jahren.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"[{1:NUMERICAL:=2,171:0,01};{1:NUMERICAL:=6,864:0,01}]",
-"{1:NUMERICAL:=22,339:0,1}",
-"{1:NUMERICAL:=-231,1887:0,1}",
-"{1:NUMERICAL:=-317,9287:0,01}",
-"{1:NUMERICAL:=26,6667:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-2,7t^3+24t^2)e^{-0,6t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-1,215t^3+10,8t^2)e^{-0,6t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 8,89 Jahren.",
-"die jährlichen Kosten nach 5 Jahren.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die Kosten, die vom Ende des 3. bis zum Ende des 6. Jahres erzielt werden.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=-11,8951:0,01}",
-"{1:NUMERICAL:=13,5811:0,1}",
-"[{1:NUMERICAL:=1,161:0,01};{1:NUMERICAL:=4,846:0,01}]",
-"{1:NUMERICAL:=44,7332:0,1}",
-"{1:NUMERICAL:=8,8889:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-2,1t^2+27t)e^{-0,4t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,798t^2+10,26t)e^{-0,4t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die jährlichen Kosten nach 12 Jahren.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 12,86 Jahren.",
-"die Kosten, die vom Ende des 6. bis zum Ende des 11. Jahres erzielt werden.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=3,7875:0,1}",
-"{1:NUMERICAL:=16,9471:0,01}",
-"{1:NUMERICAL:=24,5373:0,1}",
-"[{1:NUMERICAL:=0,251:0,01};{1:NUMERICAL:=6,676:0,01}]",
-"{1:NUMERICAL:=0,251:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(10t-3)e^{-0,2t}+4 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(2,6t-0,78)e^{-0,2t}+4 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Erlöse, die vom Ende des 4. bis zum Ende des 28. Jahres erzielt werden.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die jährlichen Kosten nach 18 Jahren.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 28 Jahren.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=285,4121:0,1}",
-"[{1:NUMERICAL:=1,188:0,01};{1:NUMERICAL:=15,336:0,01}]",
-"{1:NUMERICAL:=10,4374:0,1}",
-"{1:NUMERICAL:=24,386:0,01}",
-"{1:NUMERICAL:=1,188:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(1,9t^2+11)e^{-0,2t}+4 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(0,76t^2+4,4)e^{-0,2t}+4 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die Gewinne, die vom Ende des 11. bis zum Ende des 36. Jahres erzielt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 38 Jahren.",
-"die jährlichen Kosten nach 22 Jahren.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"[{1:NUMERICAL:=4,461:0,01};{1:NUMERICAL:=16,175:0,01}]",
-"{1:NUMERICAL:=-126,1547:0,1}",
-"{1:NUMERICAL:=-143,3622:0,01}",
-"{1:NUMERICAL:=20,5701:0,1}",
-"{1:NUMERICAL:=38:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(0,7t^2+12)e^{-0,1t}+3 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(0,182t^2+3,12)e^{-0,1t}+3 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die Gewinne, die vom Ende des 4. bis zum Ende des 70. Jahres erzielt werden.",
-"die jährlichen Kosten nach 76 Jahren.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 76 Jahren.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=30,8887:0,1}",
-"{1:NUMERICAL:=19,0677:0,1}",
-"{1:NUMERICAL:=-75,7166:0,01}",
-"[{1:NUMERICAL:=6,228:0,01};{1:NUMERICAL:=39,747:0,01}]",
-"{1:NUMERICAL:=76:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,9t^2+21t)e^{-0,4t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,893t^2+9,87t)e^{-0,4t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"die jährlichen Kosten nach 8 Jahren.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 11,05 Jahren.",
-"die Kosten, die vom Ende des 5. bis zum Ende des 8. Jahres erzielt werden.",
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
-],
-"antworten":[
-"{1:NUMERICAL:=7,2489:0,1}",
-"{1:NUMERICAL:=-30,9697:0,01}",
-"{1:NUMERICAL:=25,2827:0,1}",
-"[{1:NUMERICAL:=0,886:0,01};{1:NUMERICAL:=3,626:0,01}]",
-"{1:NUMERICAL:=11,0526:0,1}"
-]
-},
-{
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(13,5t^2+18)e^{-0,5t}+2 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(7,29t^2+9,72)e^{-0,5t}+2 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
-"fragen":[
-"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 24,17 Jahren.",
 "die jährlichen Erlöse nach 13 Jahren.",
-"die Erlöse, die vom Ende des 5. bis zum Ende des 15. Jahres erzielt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 15 Jahren.",
 "den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
 ],
 "antworten":[
-"[{1:NUMERICAL:=1,928:0,01};{1:NUMERICAL:=5,796:0,01}]",
-"{1:NUMERICAL:=5,4572:0,1}",
-"{1:NUMERICAL:=136,0233:0,1}",
-"{1:NUMERICAL:=-65,5019:0,01}",
-"{1:NUMERICAL:=15:0,1}"
+"{1:NUMERICAL:=79,8601:0,1}",
+"[{1:NUMERICAL:=1,266:0,01};{1:NUMERICAL:=9,019:0,01}]",
+"{1:NUMERICAL:=-107,5212:0,01}",
+"{1:NUMERICAL:=12,9385:0,1}",
+"{1:NUMERICAL:=24,1667:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-0,5t^2+21t)e^{-0,1t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,12t^2+5,04t)e^{-0,1t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,3t^3+23t^2)e^{-0,5t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,312t^3+5,52t^2)e^{-0,5t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die jährlichen Erlöse nach 28 Jahren.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 42 Jahren.",
+"die jährlichen Kosten nach 9 Jahren.",
 "den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"die Kosten, die vom Ende des 9. bis zum Ende des 36. Jahres erzielt werden.",
+"die Erlöse, die vom Ende des 4. bis zum Ende des 17. Jahres erzielt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 17,69 Jahren.",
 "den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
 ],
 "antworten":[
-"{1:NUMERICAL:=11,9188:0,1}",
-"{1:NUMERICAL:=-756,5904:0,01}",
-"[{1:NUMERICAL:=4,009:0,01};{1:NUMERICAL:=13,126:0,01}]",
-"{1:NUMERICAL:=1220,2487:0,1}",
-"{1:NUMERICAL:=42:0,1}"
+"{1:NUMERICAL:=20,6803:0,1}",
+"[{1:NUMERICAL:=1,597:0,01};{1:NUMERICAL:=6,476:0,01}]",
+"{1:NUMERICAL:=142,3893:0,1}",
+"{1:NUMERICAL:=-137,5614:0,01}",
+"{1:NUMERICAL:=17,6923:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,4t^3+23t^2)e^{-0,5t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,756t^3+12,42t^2)e^{-0,5t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-4,7t^2+29t)e^{-0,7t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,799t^2+4,93t)e^{-0,7t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
+"die jährlichen Erlöse nach 4 Jahren.",
+"die Gewinne, die vom Ende des 2. bis zum Ende des 4. Jahres erzielt werden.",
 "den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 16,43 Jahren.",
-"die jährlichen Kosten nach 14 Jahren.",
-"die Erlöse, die vom Ende des 4. bis zum Ende des 14. Jahres erzielt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 6,17 Jahren.",
 "den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
 ],
 "antworten":[
-"[{1:NUMERICAL:=1,802:0,01};{1:NUMERICAL:=5,879:0,01}]",
-"{1:NUMERICAL:=-96,3079:0,01}",
-"{1:NUMERICAL:=12,7481:0,1}",
-"{1:NUMERICAL:=133,9027:0,1}",
-"{1:NUMERICAL:=16,4286:0,1}"
+"{1:NUMERICAL:=2,4811:0,1}",
+"{1:NUMERICAL:=-5,4995:0,1}",
+"[{1:NUMERICAL:=0,465:0,01};{1:NUMERICAL:=2,155:0,01}]",
+"{1:NUMERICAL:=-18,7571:0,01}",
+"{1:NUMERICAL:=6,1702:0,1}"
 ]
 },
 {
-"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-2,8t^3+28t^2)e^{-0,8t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-1,008t^3+10,08t^2)e^{-0,8t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-0,5t^3+30t^2)e^{-0,1t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,225t^3+13,5t^2)e^{-0,1t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
 "fragen":[
-"die Erlöse, die vom Ende des 5. bis zum Ende des 7. Jahres erzielt werden.",
-"die jährlichen Kosten nach 7 Jahren.",
 "den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
-"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 10 Jahren.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 60 Jahren.",
+"die jährlichen Kosten nach 39 Jahren.",
+"die Erlöse, die vom Ende des 13. bis zum Ende des 35. Jahres erzielt werden.",
 "den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
 ],
 "antworten":[
-"{1:NUMERICAL:=7,0708:0,1}",
-"{1:NUMERICAL:=5,0279:0,1}",
-"[{1:NUMERICAL:=0,68:0,01};{1:NUMERICAL:=4,852:0,01}]",
-"{1:NUMERICAL:=-0,9003:0,01}",
-"{1:NUMERICAL:=0,68:0,1}"
+"[{1:NUMERICAL:=6,726:0,01};{1:NUMERICAL:=31,292:0,01}]",
+"{1:NUMERICAL:=-3345,1065:0,01}",
+"{1:NUMERICAL:=483,7231:0,1}",
+"{1:NUMERICAL:=19567,761:0,1}",
+"{1:NUMERICAL:=60:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=11te^{-0,4t}+5 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=3,3te^{-0,4t}+5 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinne, die vom Ende des 7. bis zum Ende des 8. Jahres erzielt werden.",
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"die jährlichen Kosten nach 9 Jahren.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 14 Jahren.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"{1:NUMERICAL:=0,7816:0,1}",
+"[{1:NUMERICAL:=0,309:0,01};{1:NUMERICAL:=8,639:0,01}]",
+"{1:NUMERICAL:=7,9115:0,1}",
+"{1:NUMERICAL:=17,5505:0,01}",
+"{1:NUMERICAL:=0,309:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-3,3t^2+29t)e^{-0,7t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-1,188t^2+10,44t)e^{-0,7t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinne, die vom Ende des 4. bis zum Ende des 8. Jahres erzielt werden.",
+"die jährlichen Gewinne nach 7 Jahren.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 8,79 Jahren.",
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"{1:NUMERICAL:=-12,2984:0,1}",
+"{1:NUMERICAL:=-3,6432:0,1}",
+"{1:NUMERICAL:=-8,084:0,01}",
+"[{1:NUMERICAL:=0,255:0,01};{1:NUMERICAL:=3,281:0,01}]",
+"{1:NUMERICAL:=8,7879:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-3,1t^2+27t)e^{-0,8t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-1,178t^2+10,26t)e^{-0,8t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 8,71 Jahren.",
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"die Erlöse, die vom Ende des 2. bis zum Ende des 8. Jahres erzielt werden.",
+"die jährlichen Kosten nach 6 Jahren.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"{1:NUMERICAL:=-2,9207:0,01}",
+"[{1:NUMERICAL:=0,174:0,01};{1:NUMERICAL:=3,282:0,01}]",
+"{1:NUMERICAL:=12,7018:0,1}",
+"{1:NUMERICAL:=2,6376:0,1}",
+"{1:NUMERICAL:=8,7097:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,4t^3+24t^2)e^{-0,4t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,252t^3+4,32t^2)e^{-0,4t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 17,14 Jahren.",
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"die jährlichen Erlöse nach 11 Jahren.",
+"die Kosten, die vom Ende des 6. bis zum Ende des 14. Jahres erzielt werden.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"{1:NUMERICAL:=26,472:0,01}",
+"[{1:NUMERICAL:=1,33:0,01};{1:NUMERICAL:=9,302:0,01}]",
+"{1:NUMERICAL:=12,7758:0,1}",
+"{1:NUMERICAL:=181,9336:0,1}",
+"{1:NUMERICAL:=1,33:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(16t+8)e^{-0,3t}+1 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(3,04t+1,52)e^{-0,3t}+1 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Gewinne, die vom Ende des 4. bis zum Ende des 15. Jahres erzielt werden.",
+"die jährlichen Erlöse nach 19 Jahren.",
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 19 Jahren.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"{1:NUMERICAL:=-76,4042:0,1}",
+"{1:NUMERICAL:=2,0439:0,1}",
+"[{1:NUMERICAL:=1,205:0,01};{1:NUMERICAL:=5,269:0,01}]",
+"{1:NUMERICAL:=-130,1105:0,01}",
+"{1:NUMERICAL:=19:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(7,8t^2+15)e^{-0,4t}+3 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(3,978t^2+7,65)e^{-0,4t}+3 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 19 Jahren.",
+"die jährlichen Erlöse nach 16 Jahren.",
+"die Kosten, die vom Ende des 5. bis zum Ende des 16. Jahres erzielt werden.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"[{1:NUMERICAL:=2,411:0,01};{1:NUMERICAL:=7,372:0,01}]",
+"{1:NUMERICAL:=-78,567:0,01}",
+"{1:NUMERICAL:=6,3427:0,1}",
+"{1:NUMERICAL:=237,8872:0,1}",
+"{1:NUMERICAL:=19:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-1,9t^2+28t)e^{-0,4t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,988t^2+14,56t)e^{-0,4t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 14,74 Jahren.",
+"die Kosten, die vom Ende des 4. bis zum Ende des 13. Jahres erzielt werden.",
+"die jährlichen Erlöse nach 10 Jahren.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"[{1:NUMERICAL:=0,335:0,01};{1:NUMERICAL:=6,344:0,01}]",
+"{1:NUMERICAL:=-0,7918:0,01}",
+"{1:NUMERICAL:=58,3889:0,1}",
+"{1:NUMERICAL:=1,6484:0,1}",
+"{1:NUMERICAL:=14,7368:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(8t+2)e^{-0,1t}+4 \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(2,56t+0,64)e^{-0,1t}+4 \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"die Erlöse, die vom Ende des 10. bis zum Ende des 42. Jahres erzielt werden.",
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"die jährlichen Kosten nach 40 Jahren.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 56 Jahren.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"{1:NUMERICAL:=661,2832:0,1}",
+"[{1:NUMERICAL:=4,069:0,01};{1:NUMERICAL:=19,031:0,01}]",
+"{1:NUMERICAL:=21,5272:0,1}",
+"{1:NUMERICAL:=-331,5671:0,01}",
+"{1:NUMERICAL:=56:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-0,2t^3+21t^2)e^{-0,1t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,09t^3+9,45t^2)e^{-0,1t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"die jährlichen Kosten nach 71 Jahren.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 105 Jahren.",
+"die Kosten, die vom Ende des 41. bis zum Ende des 72. Jahres erzielt werden.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"[{1:NUMERICAL:=7,71:0,01};{1:NUMERICAL:=34,426:0,01}]",
+"{1:NUMERICAL:=306,9776:0,1}",
+"{1:NUMERICAL:=-14391,4566:0,01}",
+"{1:NUMERICAL:=11022,1571:0,1}",
+"{1:NUMERICAL:=105:0,1}"
+]
+},
+{
+"einleitung":"Die Funktionen </p> <p>\\( E(t)=(-2t^3+29t^2)e^{-0,4t} \\)</p> <p></p> <p>und</p> <p>\\( K(t)=(-0,6t^3+8,7t^2)e^{-0,4t} \\)</p> <p>geben den jährlichen Erlös und die jährlichen Kosten seit der Einführung eines Produkts an. Bestimmen Sie (auf 2 NKS gerundet)",
+"fragen":[
+"den Zeitraum, in dem die Kosten von den Erlösen gedeckt werden.",
+"die jährlichen Erlöse nach 8 Jahren.",
+"die Kosten, die vom Ende des 2. bis zum Ende des 10. Jahres erzielt werden.",
+"den Gesamtgewinn, der während des Produktlebenszyklus erwirtschaftet wird. Der Lebenszyklus des Produkts endet nach 14,5 Jahren.",
+"den Zeitpunkt t, an dem der maximale Gesamtverlust auftritt.Der Gesamtverlust in Abhängigkeit vom Zeitpunkt t bezeichnet hierbei denjenigen Verlust, der seit der Produkteinführung bis zum Zeitpunkt t erzielt wird. "
+],
+"antworten":[
+"[{1:NUMERICAL:=2,381:0,01};{1:NUMERICAL:=6,242:0,01}]",
+"{1:NUMERICAL:=33,9142:0,1}",
+"{1:NUMERICAL:=412,6562:0,1}",
+"{1:NUMERICAL:=-221,2956:0,01}",
+"{1:NUMERICAL:=14,5:0,1}"
 ]
 }
 ]

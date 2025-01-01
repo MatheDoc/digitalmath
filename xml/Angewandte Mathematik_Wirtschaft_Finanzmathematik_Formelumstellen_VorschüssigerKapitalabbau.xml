@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Angewandte Mathematik_Wirtschaft_Finanzmathematik/01 Formelumstellen/VorschüssigerKapitalabbau</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{E}_n=510000;\quad p=0,07;\quad r=5300;\quad n=5; \)<br>\( K_0= \){1:NUMERICAL:=386875,1712:38,7}</li></ol><ol><li value="2">\( \quad K_0=760000;\quad p=0,025;\quad r=6600;\quad \overline{E}_n=900000; \)<br>\( n= \){1:NUMERICAL:=9,6462:0,1}</li></ol><ol><li value="3">\( \quad K_0=620000;\quad p=0,03;\quad r=7100;\quad n=19; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=903494,094:90,3}</li></ol><ol><li value="4">\( \quad K_0=420000;\quad p=0,065;\quad \overline{E}_n=880000;\quad n=13; \)<br>\( r= \){1:NUMERICAL:=3483,5903:0,3}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=760000;\quad p=0,05;\quad \overline{E}_n=1300000;\quad n=12; \)<br>\( r= \){1:NUMERICAL:=3880,2653:0,4}</li></ol><ol><li value="2">\( \quad K_0=350000;\quad p=0,035;\quad r=6500;\quad n=15; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=456560,3977:45,7}</li></ol><ol><li value="3">\( \quad \overline{E}_n=1200000;\quad p=0,065;\quad r=8600;\quad n=12; \)<br>\( K_0= \){1:NUMERICAL:=638345,1904:63,8}</li></ol><ol><li value="4">\( \quad K_0=490000;\quad p=0,04;\quad r=1300;\quad \overline{E}_n=630000; \)<br>\( n= \){1:NUMERICAL:=6,7515:0,1}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=840000;\quad p=0,03;\quad \overline{E}_n=1000000;\quad n=7; \)<br>\( r= \){1:NUMERICAL:=4193,1878:0,4}</li></ol><ol><li value="2">\( \quad K_0=260000;\quad p=0,025;\quad r=2200;\quad \overline{E}_n=300000; \)<br>\( n= \){1:NUMERICAL:=8,0453:0,1}</li></ol><ol><li value="3">\( \quad \overline{E}_n=960000;\quad p=0,055;\quad r=9600;\quad n=5; \)<br>\( K_0= \){1:NUMERICAL:=777778,4209:77,8}</li></ol><ol><li value="4">\( \quad K_0=940000;\quad p=0,03;\quad r=8900;\quad n=13; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=1237253,4056:123,7}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=960000;\quad p=0,06;\quad r=4700;\quad n=10; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=1653547,0683:165,4}</li></ol><ol><li value="2">\( \quad K_0=940000;\quad p=0,07;\quad \overline{E}_n=2400000;\quad n=14; \)<br>\( r= \){1:NUMERICAL:=987,28:0,1}</li></ol><ol><li value="3">\( \quad \overline{E}_n=360000;\quad p=0,035;\quad r=5300;\quad n=5; \)<br>\( K_0= \){1:NUMERICAL:=327877,6599:32,8}</li></ol><ol><li value="4">\( \quad K_0=270000;\quad p=0,03;\quad r=3300;\quad \overline{E}_n=360000; \)<br>\( n= \){1:NUMERICAL:=14,6487:0,1}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=520000;\quad p=0,055;\quad r=7100;\quad n=15; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=993035,6821:99,3}</li></ol><ol><li value="2">\( \quad K_0=640000;\quad p=0,025;\quad \overline{E}_n=840000;\quad n=16; \)<br>\( r= \){1:NUMERICAL:=5541,6608:0,6}</li></ol><ol><li value="3">\( \quad \overline{E}_n=610000;\quad p=0,065;\quad r=4400;\quad n=13; \)<br>\( K_0= \){1:NUMERICAL:=309318,6179:30,9}</li></ol><ol><li value="4">\( \quad K_0=660000;\quad p=0,025;\quad r=9000;\quad \overline{E}_n=830000; \)<br>\( n= \){1:NUMERICAL:=17,3985:0,1}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{E}_n=1400000;\quad p=0,065;\quad r=5700;\quad n=6; \)<br>\( K_0= \){1:NUMERICAL:=988855,1391:98,9}</li></ol><ol><li value="2">\( \quad K_0=860000;\quad p=0,06;\quad \overline{E}_n=2000000;\quad n=15; \)<br>\( r= \){1:NUMERICAL:=2474,0086:0,2}</li></ol><ol><li value="3">\( \quad K_0=450000;\quad p=0,04;\quad r=2400;\quad \overline{E}_n=610000; \)<br>\( n= \){1:NUMERICAL:=8,6535:0,1}</li></ol><ol><li value="4">\( \quad K_0=300000;\quad p=0,055;\quad r=3900;\quad n=9; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=439414,4022:43,9}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=450000;\quad p=0,055;\quad \overline{E}_n=660000;\quad n=11; \)<br>\( r= \){1:NUMERICAL:=9810,5809:1}</li></ol><ol><li value="2">\( \quad \overline{E}_n=560000;\quad p=0,02;\quad r=9500;\quad n=18; \)<br>\( K_0= \){1:NUMERICAL:=537362,0328:53,7}</li></ol><ol><li value="3">\( \quad K_0=790000;\quad p=0,06;\quad r=7000;\quad \overline{E}_n=1600000; \)<br>\( n= \){1:NUMERICAL:=13,4733:0,1}</li></ol><ol><li value="4">\( \quad K_0=650000;\quad p=0,04;\quad r=8200;\quad n=9; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=834902,5997:83,5}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=660000;\quad p=0,025;\quad r=4400;\quad n=18; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=928412,321:92,8}</li></ol><ol><li value="2">\( \quad K_0=800000;\quad p=0,04;\quad r=6300;\quad \overline{E}_n=1100000; \)<br>\( n= \){1:NUMERICAL:=9,5986:0,1}</li></ol><ol><li value="3">\( \quad K_0=390000;\quad p=0,055;\quad \overline{E}_n=810000;\quad n=18; \)<br>\( r= \){1:NUMERICAL:=6828,0902:0,7}</li></ol><ol><li value="4">\( \quad \overline{E}_n=380000;\quad p=0,045;\quad r=8900;\quad n=14; \)<br>\( K_0= \){1:NUMERICAL:=300267,0742:30}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=720000;\quad p=0,03;\quad r=2800;\quad n=6; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=841062,7594:84,1}</li></ol><ol><li value="2">\( \quad K_0=860000;\quad p=0,045;\quad r=6300;\quad \overline{E}_n=1700000; \)<br>\( n= \){1:NUMERICAL:=17,4738:0,1}</li></ol><ol><li value="3">\( \quad K_0=390000;\quad p=0,025;\quad \overline{E}_n=400000;\quad n=5; \)<br>\( r= \){1:NUMERICAL:=7656,1282:0,8}</li></ol><ol><li value="4">\( \quad \overline{E}_n=490000;\quad p=0,035;\quad r=7600;\quad n=20; \)<br>\( K_0= \){1:NUMERICAL:=358052,0477:35,8}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=710000;\quad p=0,06;\quad r=7300;\quad \overline{E}_n=1500000; \)<br>\( n= \){1:NUMERICAL:=14,5193:0,1}</li></ol><ol><li value="2">\( \quad K_0=570000;\quad p=0,02;\quad r=6000;\quad n=14; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=654342,3934:65,4}</li></ol><ol><li value="3">\( \quad \overline{E}_n=880000;\quad p=0,035;\quad r=6800;\quad n=16; \)<br>\( K_0= \){1:NUMERICAL:=592619,5964:59,3}</li></ol><ol><li value="4">\( \quad K_0=480000;\quad p=0,065;\quad \overline{E}_n=1600000;\quad n=20; \)<br>\( r= \){1:NUMERICAL:=2209,2368:0,2}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=660000;\quad p=0,05;\quad r=3000;\quad n=17; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=1431334,9357:143,1}</li></ol><ol><li value="2">\( \quad K_0=810000;\quad p=0,06;\quad r=6600;\quad \overline{E}_n=1200000; \)<br>\( n= \){1:NUMERICAL:=7,4959:0,1}</li></ol><ol><li value="3">\( \quad K_0=420000;\quad p=0,065;\quad \overline{E}_n=910000;\quad n=15; \)<br>\( r= \){1:NUMERICAL:=6607,6398:0,7}</li></ol><ol><li value="4">\( \quad \overline{E}_n=540000;\quad p=0,025;\quad r=4500;\quad n=15; \)<br>\( K_0= \){1:NUMERICAL:=429960,5055:43}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=800000;\quad p=0,065;\quad r=2600;\quad n=10; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=1464343,9162:146,4}</li></ol><ol><li value="2">\( \quad K_0=260000;\quad p=0,055;\quad \overline{E}_n=350000;\quad n=6; \)<br>\( r= \){1:NUMERICAL:=1169,5684:0,1}</li></ol><ol><li value="3">\( \quad \overline{E}_n=2700000;\quad p=0,07;\quad r=5100;\quad n=19; \)<br>\( K_0= \){1:NUMERICAL:=802973,8424:80,3}</li></ol><ol><li value="4">\( \quad K_0=950000;\quad p=0,065;\quad r=5000;\quad \overline{E}_n=2500000; \)<br>\( n= \){1:NUMERICAL:=16,1764:0,1}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=550000;\quad p=0,025;\quad r=5800;\quad n=14; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=678930,4269:67,9}</li></ol><ol><li value="2">\( \quad \overline{E}_n=1300000;\quad p=0,065;\quad r=3400;\quad n=6; \)<br>\( K_0= \){1:NUMERICAL:=908463,6645:90,8}</li></ol><ol><li value="3">\( \quad K_0=690000;\quad p=0,025;\quad r=8300;\quad \overline{E}_n=770000; \)<br>\( n= \){1:NUMERICAL:=7,3931:0,1}</li></ol><ol><li value="4">\( \quad K_0=580000;\quad p=0,05;\quad \overline{E}_n=770000;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=8669,3861:0,9}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{E}_n=390000;\quad p=0,05;\quad r=7100;\quad n=16; \)<br>\( K_0= \){1:NUMERICAL:=259459,0656:25,9}</li></ol><ol><li value="2">\( \quad K_0=730000;\quad p=0,03;\quad r=8700;\quad \overline{E}_n=1100000; \)<br>\( n= \){1:NUMERICAL:=20,2803:0,1}</li></ol><ol><li value="3">\( \quad K_0=600000;\quad p=0,02;\quad r=9300;\quad n=10; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=627527,5986:62,8}</li></ol><ol><li value="4">\( \quad K_0=610000;\quad p=0,07;\quad \overline{E}_n=950000;\quad n=7; \)<br>\( r= \){1:NUMERICAL:=3188,6966:0,3}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=570000;\quad p=0,065;\quad r=2800;\quad \overline{E}_n=1600000; \)<br>\( n= \){1:NUMERICAL:=17,1753:0,1}</li></ol><ol><li value="2">\( \quad \overline{E}_n=920000;\quad p=0,065;\quad r=7600;\quad n=18; \)<br>\( K_0= \){1:NUMERICAL:=380578,8932:38,1}</li></ol><ol><li value="3">\( \quad K_0=900000;\quad p=0,025;\quad \overline{E}_n=1300000;\quad n=17; \)<br>\( r= \){1:NUMERICAL:=3247,6995:0,3}</li></ol><ol><li value="4">\( \quad K_0=440000;\quad p=0,04;\quad r=8200;\quad n=16; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=637992,1465:63,8}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{E}_n=490000;\quad p=0,02;\quad r=9500;\quad n=15; \)<br>\( K_0= \){1:NUMERICAL:=488586,581:48,9}</li></ol><ol><li value="2">\( \quad K_0=660000;\quad p=0,06;\quad \overline{E}_n=990000;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=5903,9046:0,6}</li></ol><ol><li value="3">\( \quad K_0=710000;\quad p=0,025;\quad r=2100;\quad n=11; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=904710,8658:90,5}</li></ol><ol><li value="4">\( \quad K_0=840000;\quad p=0,035;\quad r=9200;\quad \overline{E}_n=1400000; \)<br>\( n= \){1:NUMERICAL:=19,4777:0,1}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=370000;\quad p=0,045;\quad \overline{E}_n=600000;\quad n=12; \)<br>\( r= \){1:NUMERICAL:=1700,2647:0,2}</li></ol><ol><li value="2">\( \quad K_0=820000;\quad p=0,035;\quad r=7400;\quad n=8; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=1010456,5413:101}</li></ol><ol><li value="3">\( \quad \overline{E}_n=540000;\quad p=0,05;\quad r=9800;\quad n=19; \)<br>\( K_0= \){1:NUMERICAL:=338054,2884:33,8}</li></ol><ol><li value="4">\( \quad K_0=960000;\quad p=0,07;\quad r=6000;\quad \overline{E}_n=1600000; \)<br>\( n= \){1:NUMERICAL:=8,0599:0,1}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=930000;\quad p=0,025;\quad r=8300;\quad n=18; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=1260030,7458:126}</li></ol><ol><li value="2">\( \quad \overline{E}_n=1600000;\quad p=0,04;\quad r=2500;\quad n=15; \)<br>\( K_0= \){1:NUMERICAL:=917331,0117:91,7}</li></ol><ol><li value="3">\( \quad K_0=240000;\quad p=0,02;\quad r=5100;\quad \overline{E}_n=240000; \)<br>\( n= \){1:NUMERICAL:=14,7793:0,1}</li></ol><ol><li value="4">\( \quad K_0=270000;\quad p=0,06;\quad \overline{E}_n=480000;\quad n=11; \)<br>\( r= \){1:NUMERICAL:=2050,4557:0,2}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=830000;\quad p=0,05;\quad \overline{E}_n=1100000;\quad n=6; \)<br>\( r= \){1:NUMERICAL:=1719,3177:0,2}</li></ol><ol><li value="2">\( \quad \overline{E}_n=1300000;\quad p=0,05;\quad r=8300;\quad n=8; \)<br>\( K_0= \){1:NUMERICAL:=936218,0698:93,6}</li></ol><ol><li value="3">\( \quad K_0=380000;\quad p=0,07;\quad r=6100;\quad n=5; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=495434,5841:49,5}</li></ol><ol><li value="4">\( \quad K_0=520000;\quad p=0,04;\quad r=2100;\quad \overline{E}_n=690000; \)<br>\( n= \){1:NUMERICAL:=7,8238:0,1}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vorschüssiger Kapitalabbau: \( \overline{E}_n=K_0\cdot q^n -\frac{r\cdot q\cdot (q^n-1)}{q-1} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad K_0=780000;\quad p=0,025;\quad r=3400;\quad n=17; \)<br>\( \overline{E}_n= \){1:NUMERICAL:=1114148,6581:111,4}</li></ol><ol><li value="2">\( \quad K_0=920000;\quad p=0,035;\quad r=7400;\quad \overline{E}_n=1100000; \)<br>\( n= \){1:NUMERICAL:=6,337:0,1}</li></ol><ol><li value="3">\( \quad K_0=500000;\quad p=0,07;\quad \overline{E}_n=1200000;\quad n=13; \)<br>\( r= \){1:NUMERICAL:=228,4171:0,1}</li></ol><ol><li value="4">\( \quad \overline{E}_n=1100000;\quad p=0,025;\quad r=2400;\quad n=14; \)<br>\( K_0= \){1:NUMERICAL:=807259,5593:80,7}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+
