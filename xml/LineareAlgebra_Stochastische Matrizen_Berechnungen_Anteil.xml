@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>LineareAlgebra_Stochastische Matrizen/02 Berechnungen/Anteil</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einem ETF sind Aktien zahlreicher Unternehmen gebündelt. Der durchschnittliche Tagestrend der Aktienkurse ist entweder gleichbleibend, steigend oder fallend. Die Tabelle beschreibt die Änderungen der durchschnittlichen Tagestrends der Kurse von einem Tag zum nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>g</td><td>s</td><td>f</td>\n    </tr>\n    <tr>\n        <td>g</td><td>0,2</td><td>0</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>s</td><td>0,5</td><td>1</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>f</td><td>0,3<td>0</td><td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Kurstrends durch den Vektor \( v_0 = \left(\begin{matrix}0,1836\\0,5743\\0,2421\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_3 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 3 Tagen.<br>\( a= \){1:NUMERICAL:=0,0707:0}<br>\( b= \){1:NUMERICAL:=0,8361:0}<br>\( c= \){1:NUMERICAL:=0,0932:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Tagen.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=0,1:0}<br>\( c= \){1:NUMERICAL:=0,9:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=1:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es gibt drei Restaurants in einer Stadt: das Sushi Sanctum, die Knödel Kathedrale und den Torten Tempel. Die Tabelle veranschaulicht das Wechselverhalten der Kundschaft von einem Wochenende zum nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>K</td><td>T</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>0,3</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>K</td><td>1</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>T</td><td>0<td>0</td><td>0,6</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Kundinnen und Kunden auf die Restaurants durch den Vektor \( v_0 = \left(\begin{matrix}0,2478\\0,6658\\0,0864\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Wochen.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=0,6:0}<br>\( c= \){1:NUMERICAL:=0,4:0}<br></li></ol><ol><li value="2">die Verteilung \( v_4 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 4 Wochen.<br>\( a= \){1:NUMERICAL:=0,2321:0}<br>\( b= \){1:NUMERICAL:=0,7567:0}<br>\( c= \){1:NUMERICAL:=0,0112:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,2308:0}<br>\( b= \){1:NUMERICAL:=0,7692:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Der höchste Bildungsabschluss einer Person kann in drei Kategorien eingeteilt werden: ohne Abschluss, mit einer abgeschlossenen Berufsausbildung oder mit einem abgeschlossenen Studium. Die Tabelle erläutert wie der höchste Bildungsabschluss eines Kindes vom höchsten Bildungsabschluss der Eltern abhängt.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>oA</td><td>B</td><td>S</td>\n    </tr>\n    <tr>\n        <td>oA</td><td>0</td><td>0,3</td><td>0</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,4</td><td>0,7</td><td>0</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,6<td>0</td><td>1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Personen nach Bildungsabschluss durch den Vektor \( v_0 = \left(\begin{matrix}0,183\\0,511\\0,306\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-2} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 2 Generationen.<br>\( a= \){1:NUMERICAL:=0,3:0}<br>\( b= \){1:NUMERICAL:=0,7:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">die Verteilung \( v_4 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 4 Generationen.<br>\( a= \){1:NUMERICAL:=0,0917:0}<br>\( b= \){1:NUMERICAL:=0,2576:0}<br>\( c= \){1:NUMERICAL:=0,6507:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=0:0}<br>\( c= \){1:NUMERICAL:=1:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die Wanderung der Gnus in Tansania und Kenia führt durch drei zentrale Regionen: die Serengeti, das Mara-Gebiet und den Grumeti-Fluss. Die Tabelle veranschaulicht die Wanderungen der Gnus von einem Monat zum nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>M</td><td>G</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>0,2</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>M</td><td>1</td><td>0,3</td><td>0</td>\n    </tr>\n    <tr>\n        <td>G</td><td>0<td>0,5</td><td>0,9</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Gnus auf die drei Regionen durch den Vektor \( v_0 = \left(\begin{matrix}0,1064\\0,222\\0,6716\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Monaten.<br>\( a= \){1:NUMERICAL:=0,6:0}<br>\( b= \){1:NUMERICAL:=0:0}<br>\( c= \){1:NUMERICAL:=0,4:0}<br></li></ol><ol><li value="2">die Verteilung \( v_4 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 4 Monaten.<br>\( a= \){1:NUMERICAL:=0,1049:0}<br>\( b= \){1:NUMERICAL:=0,1523:0}<br>\( c= \){1:NUMERICAL:=0,7428:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,1045:0}<br>\( b= \){1:NUMERICAL:=0,1493:0}<br>\( c= \){1:NUMERICAL:=0,7463:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Für den Weg zur Schule können die Schülerinnen und Schüler zwischen dem Fahrrad, dem Bus und dem Auto wählen. Die Tabelle erläutert wie sich die gewählten Verkehrsmittel von einem Tag zum nächsten ändern.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>F</td><td>B</td><td>A</td>\n    </tr>\n    <tr>\n        <td>F</td><td>0</td><td>0</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0</td><td>1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>A</td><td>1<td>0</td><td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Schülerinnen und Schüler auf die Verkehrsmittel durch den Vektor \( v_0 = \left(\begin{matrix}0,1875\\0,4\\0,4125\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_2 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 2 Tagen.<br>\( a= \){1:NUMERICAL:=0,1969:0}<br>\( b= \){1:NUMERICAL:=0,4:0}<br>\( c= \){1:NUMERICAL:=0,4031:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-2} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 2 Tagen.<br>\( a= \){1:NUMERICAL:=0,15:0}<br>\( b= \){1:NUMERICAL:=0,4:0}<br>\( c= \){1:NUMERICAL:=0,45:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,2:0}<br>\( b= \){1:NUMERICAL:=0,4:0}<br>\( c= \){1:NUMERICAL:=0,4:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die Soldatinnen und Soldaten eines Landes sind entweder im Dienst, in der Reserve oder im Erholungsurlaub. Die Tabelle veranschaulicht den jährlichen Wechsel der Status.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>D</td><td>R</td><td>E</td>\n    </tr>\n    <tr>\n        <td>D</td><td>0,1</td><td>0,8</td><td>0</td>\n    </tr>\n    <tr>\n        <td>R</td><td>0,5</td><td>0,2</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>E</td><td>0,4<td>0</td><td>0,9</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Soldatinnen und Soldaten nach Status durch den Vektor \( v_0 = \left(\begin{matrix}0,2662\\0,2658\\0,468\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_3 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 3 Jahren.<br>\( a= \){1:NUMERICAL:=0,1962:0}<br>\( b= \){1:NUMERICAL:=0,2061:0}<br>\( c= \){1:NUMERICAL:=0,5977:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Jahren.<br>\( a= \){1:NUMERICAL:=0,6:0}<br>\( b= \){1:NUMERICAL:=0,4:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,1633:0}<br>\( b= \){1:NUMERICAL:=0,1837:0}<br>\( c= \){1:NUMERICAL:=0,6531:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die allgemeine politische Lage von Staaten kann vereinfacht durch die Zustände Stabilität, Krise und Chaos beschrieben werden. Die Tabelle beschreibt die Veränderungen der Zustände von einer Dekade zur nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>S</td><td>K</td><td>C</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0</td><td>0</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>K</td><td>1</td><td>0</td><td>0,4</td>\n    </tr>\n    <tr>\n        <td>C</td><td>0<td>1</td><td>0,3</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der politschen Zustände der Staaten durch den Vektor \( v_0 = \left(\begin{matrix}0,1911\\0,3718\\0,4371\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_5 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 5 Dekaden.<br>\( a= \){1:NUMERICAL:=0,1511:0}<br>\( b= \){1:NUMERICAL:=0,3477:0}<br>\( c= \){1:NUMERICAL:=0,5011:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Dekaden.<br>\( a= \){1:NUMERICAL:=0,4:0}<br>\( b= \){1:NUMERICAL:=0,3:0}<br>\( c= \){1:NUMERICAL:=0,3:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,15:0}<br>\( b= \){1:NUMERICAL:=0,35:0}<br>\( c= \){1:NUMERICAL:=0,5:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Userinnen und User können zwischen den sozialen Netzwerken Hashtaghausen, Schatterstube und Quasselquartier wählen. Die Tabelle veranschaulicht das jährliche Wechselverhalten der Userinnen und User.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>H</td><td>S</td><td>Q</td>\n    </tr>\n    <tr>\n        <td>H</td><td>0</td><td>0,4</td><td>0</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,5</td><td>0,3</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Q</td><td>0,5<td>0,3</td><td>1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Userinnen und User auf die Netzwerke durch den Vektor \( v_0 = \left(\begin{matrix}0,088\\0,146\\0,766\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_5 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 5 Jahren.<br>\( a= \){1:NUMERICAL:=0,0085:0}<br>\( b= \){1:NUMERICAL:=0,0133:0}<br>\( c= \){1:NUMERICAL:=0,9782:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-2} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 2 Jahren.<br>\( a= \){1:NUMERICAL:=0,2:0}<br>\( b= \){1:NUMERICAL:=0,4:0}<br>\( c= \){1:NUMERICAL:=0,4:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=0:0}<br>\( c= \){1:NUMERICAL:=1:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die Menschen verbringen ihren Urlaub entweder zu Hause, am Meer oder in den Bergen.  Die Tabelle beschreibt wie sich die Urlaubsziele von einem Jahr zum nächsten ändern.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>H</td><td>M</td><td>B</td>\n    </tr>\n    <tr>\n        <td>H</td><td>0,6</td><td>0</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>M</td><td>0,2</td><td>0,9</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0,2<td>0,1</td><td>0,5</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Urlaubsziele durch den Vektor \( v_0 = \left(\begin{matrix}0,1548\\0,6438\\0,2014\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_3 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 3 Jahren.<br>\( a= \){1:NUMERICAL:=0,1486:0}<br>\( b= \){1:NUMERICAL:=0,6588:0}<br>\( c= \){1:NUMERICAL:=0,1926:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-2} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 2 Jahren.<br>\( a= \){1:NUMERICAL:=0,12:0}<br>\( b= \){1:NUMERICAL:=0,62:0}<br>\( c= \){1:NUMERICAL:=0,26:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,1429:0}<br>\( b= \){1:NUMERICAL:=0,6667:0}<br>\( c= \){1:NUMERICAL:=0,1905:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die Mitglieder eines Streamingdiensts haben entweder ein Basisabo, ein Premiumabo oder kein aktives Abo. Die Tabelle beschreibt das Wechselverhalten der Kundschaft von einem Monat zum nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>P</td><td>kA</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0</td><td>0,6</td><td>0</td>\n    </tr>\n    <tr>\n        <td>P</td><td>0</td><td>0,4</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>kA</td><td>1<td>0</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Abos durch den Vektor \( v_0 = \left(\begin{matrix}0,228\\0,452\\0,32\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_3 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 3 Monaten.<br>\( a= \){1:NUMERICAL:=0,2176:0}<br>\( b= \){1:NUMERICAL:=0,3932:0}<br>\( c= \){1:NUMERICAL:=0,3891:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Monaten.<br>\( a= \){1:NUMERICAL:=0,5:0}<br>\( b= \){1:NUMERICAL:=0,5:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,2308:0}<br>\( b= \){1:NUMERICAL:=0,3846:0}<br>\( c= \){1:NUMERICAL:=0,3846:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die Bevölkerung eines Landes kann bei einer Wahl die Partei der Bürokraten, der Sesselpupser und der Demagogen wählen. Die Tabelle veranschaulicht das Wechselverhalten der Wählerinnen und Wähler von einer Wahl zur nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>S</td><td>D</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0</td><td>0,5</td><td>0</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,4</td><td>0,2</td><td>0,7</td>\n    </tr>\n    <tr>\n        <td>D</td><td>0,6<td>0,3</td><td>0,3</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Stimmen durch den Vektor \( v_0 = \left(\begin{matrix}0,225\\0,445\\0,33\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Wahlperioden.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=1:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">die Verteilung \( v_5 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 5 Wahlperioden.<br>\( a= \){1:NUMERICAL:=0,2118:0}<br>\( b= \){1:NUMERICAL:=0,4246:0}<br>\( c= \){1:NUMERICAL:=0,3637:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,2121:0}<br>\( b= \){1:NUMERICAL:=0,4242:0}<br>\( c= \){1:NUMERICAL:=0,3636:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einem Land bieten die Funkloch AG, der Datensauger 3000 und die Teuro GmbH Mobilfunktarife an. Die Tabelle erläutert das Wechselverhalten der Mobilfunktnutzer von einem Jahr zum nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>F</td><td>D</td><td>T</td>\n    </tr>\n    <tr>\n        <td>F</td><td>0</td><td>0,4</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>D</td><td>1</td><td>0</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>T</td><td>0<td>0,6</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Mobilfunknutzer nach Netzzugehörigkeit durch den Vektor \( v_0 = \left(\begin{matrix}0,35\\0,35\\0,3\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_3 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 3 Jahren.<br>\( a= \){1:NUMERICAL:=0,308:0}<br>\( b= \){1:NUMERICAL:=0,455:0}<br>\( c= \){1:NUMERICAL:=0,237:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Jahren.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=0:0}<br>\( c= \){1:NUMERICAL:=1:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,3043:0}<br>\( b= \){1:NUMERICAL:=0,4348:0}<br>\( c= \){1:NUMERICAL:=0,2609:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einer Bevölkerung lassen sich im Zusammenhang mit einer Virusinfektion drei verschiedene Gesundheitszustände beobachten: nicht infiziert, symptomatisch infiziert und asymptomatisch infiziert. Die Tabelle erläutert wie sich die Verteilung der Zustände von einem Quartal zum nächsten ändert.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>ni</td><td>si</td><td>ai</td>\n    </tr>\n    <tr>\n        <td>ni</td><td>0</td><td>0,1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>si</td><td>0</td><td>0</td><td>1</td>\n    </tr>\n    <tr>\n        <td>ai</td><td>1<td>0,9</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Einwohner in Abhängigkeit der Gesundheitszustände durch den Vektor \( v_0 = \left(\begin{matrix}0,09\\0,1\\0,81\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_4 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 4 Quartalen.<br>\( a= \){1:NUMERICAL:=0,0739:0}<br>\( b= \){1:NUMERICAL:=0,243:0}<br>\( c= \){1:NUMERICAL:=0,6831:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Quartalen.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=1:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,0476:0}<br>\( b= \){1:NUMERICAL:=0,4762:0}<br>\( c= \){1:NUMERICAL:=0,4762:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einem Behälter befinden sich Gasteilchen. Der Behälter ist in die drei Bereiche A, B und C aufgeteilt, die jeweils mit Membranen voneinandern getrennt sind. Die Tabelle veranschaulicht das Wechselverhalten der Teilchen von einer Stunde zur nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>A</td><td>B</td><td>C</td>\n    </tr>\n    <tr>\n        <td>A</td><td>0</td><td>0,3</td><td>0,8</td>\n    </tr>\n    <tr>\n        <td>B</td><td>1</td><td>0</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>C</td><td>0<td>0,7</td><td>0,1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Teilchen auf die Bereiche durch den Vektor \( v_0 = \left(\begin{matrix}0,3802\\0,3086\\0,3112\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Stunden.<br>\( a= \){1:NUMERICAL:=0,4:0}<br>\( b= \){1:NUMERICAL:=0,2:0}<br>\( c= \){1:NUMERICAL:=0,4:0}<br></li></ol><ol><li value="2">die Verteilung \( v_2 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 2 Stunden.<br>\( a= \){1:NUMERICAL:=0,3211:0}<br>\( b= \){1:NUMERICAL:=0,3663:0}<br>\( c= \){1:NUMERICAL:=0,3126:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,3416:0}<br>\( b= \){1:NUMERICAL:=0,3704:0}<br>\( c= \){1:NUMERICAL:=0,2881:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Wetterstationen prüfen täglich, ob das Wetter sonnig, bewölkt oder regnerisch ist. Die Tabelle erläutert die Veränderung des Wetter an den Wetterstationen von einem Tag zum nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>s</td><td>b</td><td>r</td>\n    </tr>\n    <tr>\n        <td>s</td><td>0,2</td><td>0</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>b</td><td>0,8</td><td>0,3</td><td>0,9</td>\n    </tr>\n    <tr>\n        <td>r</td><td>0<td>0,7</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Wetterzustände durch den Vektor \( v_0 = \left(\begin{matrix}0,0472\\0,5454\\0,4074\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_4 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 4 Tagen.<br>\( a= \){1:NUMERICAL:=0,0487:0}<br>\( b= \){1:NUMERICAL:=0,5574:0}<br>\( c= \){1:NUMERICAL:=0,3939:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-2} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 2 Tagen.<br>\( a= \){1:NUMERICAL:=0,06:0}<br>\( b= \){1:NUMERICAL:=0,52:0}<br>\( c= \){1:NUMERICAL:=0,42:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,049:0}<br>\( b= \){1:NUMERICAL:=0,5594:0}<br>\( c= \){1:NUMERICAL:=0,3916:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Kulturelle Strömungen lassen sich in drei Kategorien gliedern: Mainstream, Subkultur und Vergessenheit. Die Tabelle beschreibt wie sich kulturelle Strömungen von Jahrhundert zu Jahrhundert ändern.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>M</td><td>S</td><td>V</td>\n    </tr>\n    <tr>\n        <td>M</td><td>0,7</td><td>0</td><td>0,2</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,1</td><td>0,5</td><td>0,8</td>\n    </tr>\n    <tr>\n        <td>V</td><td>0,2<td>0,5</td><td>0</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der der kulturellen Strömungen durch den Vektor \( v_0 = \left(\begin{matrix}0,2529\\0,5067\\0,2404\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-2} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 2 Jahrhunderten.<br>\( a= \){1:NUMERICAL:=0,35:0}<br>\( b= \){1:NUMERICAL:=0,59:0}<br>\( c= \){1:NUMERICAL:=0,06:0}<br></li></ol><ol><li value="2">die Verteilung \( v_2 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 2 Jahrhunderten.<br>\( a= \){1:NUMERICAL:=0,2184:0}<br>\( b= \){1:NUMERICAL:=0,5011:0}<br>\( c= \){1:NUMERICAL:=0,2805:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,1961:0}<br>\( b= \){1:NUMERICAL:=0,5098:0}<br>\( c= \){1:NUMERICAL:=0,2941:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Modefirmen setzen jährlich neue Schwerpunkte für ihre Kollektionen, die entweder auf dem Business-Look, dem Casual-Look oder Streetwear liegen. Die Tabelle veranschaulicht den jährlichen Wechsel der Schwerpunkte.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>B</td><td>C</td><td>S</td>\n    </tr>\n    <tr>\n        <td>B</td><td>0</td><td>0,2</td><td>0,6</td>\n    </tr>\n    <tr>\n        <td>C</td><td>0,3</td><td>0,8</td><td>0</td>\n    </tr>\n    <tr>\n        <td>S</td><td>0,7<td>0</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Schwerpunkte der Modefirmen durch den Vektor \( v_0 = \left(\begin{matrix}0,216\\0,336\\0,448\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Jahren.<br>\( a= \){1:NUMERICAL:=1:0}<br>\( b= \){1:NUMERICAL:=0:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol><ol><li value="2">die Verteilung \( v_5 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 5 Jahren.<br>\( a= \){1:NUMERICAL:=0,2807:0}<br>\( b= \){1:NUMERICAL:=0,3919:0}<br>\( c= \){1:NUMERICAL:=0,3274:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,2727:0}<br>\( b= \){1:NUMERICAL:=0,4091:0}<br>\( c= \){1:NUMERICAL:=0,3182:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Gamer können zwischen drei Computerspielen wählen: AFK Adventures, EpicFail Legends und LootLovers. Die Tabelle erläutert das Wechselverhalten der Gamer von einem Monat zum nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>A</td><td>E</td><td>L</td>\n    </tr>\n    <tr>\n        <td>A</td><td>1</td><td>0,8</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>E</td><td>0</td><td>0</td><td>0,1</td>\n    </tr>\n    <tr>\n        <td>L</td><td>0<td>0,2</td><td>0,4</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der ausgewählten Spiele durch den Vektor \( v_0 = \left(\begin{matrix}0,9506\\0,009\\0,0404\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_4 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 4 Monaten.<br>\( a= \){1:NUMERICAL:=0,9981:0}<br>\( b= \){1:NUMERICAL:=0,0004:0}<br>\( c= \){1:NUMERICAL:=0,0016:0}<br></li></ol><ol><li value="2">die Verteilung \( v_{-2} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 2 Monaten.<br>\( a= \){1:NUMERICAL:=0,77:0}<br>\( b= \){1:NUMERICAL:=0,01:0}<br>\( c= \){1:NUMERICAL:=0,22:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=1:0}<br>\( b= \){1:NUMERICAL:=0:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Die Spiele an Glücksspielautomaten in einer Spielhalle können zu drei möglichen Ausgängen führen: Gewinn, Verlust oder einem neutralen Ausgang. Die Tabelle erläutert die Veränderungen der Ausgänge von einem Spiel zum nächsten.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>G</td><td>V</td><td>N</td>\n    </tr>\n    <tr>\n        <td>G</td><td>0</td><td>0,5</td><td>0,5</td>\n    </tr>\n    <tr>\n        <td>V</td><td>0</td><td>0</td><td>0,3</td>\n    </tr>\n    <tr>\n        <td>N</td><td>1<td>0,5</td><td>0,2</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Ausgänge durch den Vektor \( v_0 = \left(\begin{matrix}0,3375\\0,1548\\0,5077\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-2} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 2 Spielen.<br>\( a= \){1:NUMERICAL:=0,35:0}<br>\( b= \){1:NUMERICAL:=0,12:0}<br>\( c= \){1:NUMERICAL:=0,53:0}<br></li></ol><ol><li value="2">die Verteilung \( v_2 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 2 Spielen.<br>\( a= \){1:NUMERICAL:=0,3344:0}<br>\( b= \){1:NUMERICAL:=0,1549:0}<br>\( c= \){1:NUMERICAL:=0,5107:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0,3333:0}<br>\( b= \){1:NUMERICAL:=0,1538:0}<br>\( c= \){1:NUMERICAL:=0,5128:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Antivirusprogramm scannt täglich einen Computer. Die Dateien können dabei entweder als unbedenklich eingestuft werden, eine potenzielle Gefahr darstellen oder in Quarantäne verschoben werden. Die Tabelle veranschaulicht wie sich die Zustände der Dateien täglich ändern.</p> <p><table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; font-size: clamp(0.5em, 5vw, 1em); border: 1px solid black;">\n    <tr>\n        <td> <div style=\"text-align: right;\">Von</div> <div style=\"text-align: left;\">Nach</div> </td><td>U</td><td>G</td><td>Q</td>\n    </tr>\n    <tr>\n        <td>U</td><td>0,5</td><td>0</td><td>0,9</td>\n    </tr>\n    <tr>\n        <td>G</td><td>0,2</td><td>1</td><td>0</td>\n    </tr>\n    <tr>\n        <td>Q</td><td>0,3<td>0</td><td>0,1</td>\n    </tr>\n</table></p> <p>Zu Beginn ist die Verteilung der Anteile der Zustände der Dateien durch den Vektor \( v_0 = \left(\begin{matrix}0,3654\\0,5016\\0,133\\ \end{matrix}\right) \) gegeben.</p> <p>Bestimmen Sie (auf 4 NKS gerundet)</p><ol><li value="1">die Verteilung \( v_{-3} = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile vor 3 Tagen.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=0,3:0}<br>\( c= \){1:NUMERICAL:=0,7:0}<br></li></ol><ol><li value="2">die Verteilung \( v_4 = \left(\begin{matrix}a\\b\\c\\ \end{matrix}\right) \) der Anteile nach 4 Tagen.<br>\( a= \){1:NUMERICAL:=0,1918:0}<br>\( b= \){1:NUMERICAL:=0,7323:0}<br>\( c= \){1:NUMERICAL:=0,076:0}<br></li></ol><ol><li value="3">die langfristige Verteilung der Anteile.<br>\( a= \){1:NUMERICAL:=0:0}<br>\( b= \){1:NUMERICAL:=1:0}<br>\( c= \){1:NUMERICAL:=0:0}<br></li></ol>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+
