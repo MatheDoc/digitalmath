@@ -499,11 +499,19 @@ a.link-homepage:hover {
 }
 
 /* Modifikationen für Clips */
-
+/*
 .nachfolgend li:hover {
     animation: blink 0.2s infinite; 
 }
- 
+
+ol li:nth-child(-n+0) {
+    visibility: hidden; 
+    height: 0; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+  }
+  
 .einleitung {
     margin-left: 20px;
     margin-right: 20px;
@@ -513,7 +521,7 @@ a.link-homepage:hover {
     margin-right: 20px;
 }
 
-
+*/
 
 /* Klasse für den stroboskopischen Hintergrund */
 .strobe-background {
