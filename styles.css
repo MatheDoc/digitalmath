@@ -504,7 +504,7 @@ a.link-homepage:hover {
     animation: blink 0.2s infinite; 
 }
 
-ol li:nth-child(-n+2) {
+ol li:nth-child(-n+1) {
     visibility: hidden; 
     height: 0; 
     margin: 0; 
@@ -529,7 +529,7 @@ img {
     position: sticky;
     top: 10px;
 }
-*/
+/*
 
 
 /* Klasse für den stroboskopischen Hintergrund */
