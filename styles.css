@@ -37,6 +37,20 @@ h3 {
     font-weight: normal;
 }
 
+h4  {
+    background-color: #B8CEF2; /*#B8CEF2 oder 8889af*/
+    color: #4d4d4d;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+    border-color: #4d4d4d;
+}
+
+
+
 p {
     color: #000000;
     font-size: 1em;

@@ -5,7 +5,7 @@ function addButtons(){
         var ichKannText = data[5];
         var aufgaben = data[6];
         var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
-        var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
+        // var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
         var xmlButton = '<i class="fas fa-file-code xml-icon" id="xmlIcon" title="als Moodle-XML exportieren"></i>';
         var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
         // Testbutoon ausblenden, falls kein Test vorhanden
@@ -68,7 +68,8 @@ function addButtons(){
                 var sammlungsname = url.trim() + '.json';
                 return 'sammlung=' + sammlungsname;
             });
-            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '&titel=' + encodeURIComponent(ichKannText);
+            // Url mit Params: sammlung, titel, exam = no
+            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '&titel=' + encodeURIComponent(ichKannText) + '&exam=no';
             window.open(testUrl, '_blank',`width=440px,height=960px}`); // Öffne URL in einem neuen Tab/Fenster
         }
     });   
@@ -113,7 +114,7 @@ function addButtons(){
     
     
 
-
+    //Zzzzz
     // Event-Listener für die Copy-Buttons
     $('#meineTabelle').on('click', '.copy-icon', function() {
         var row = $(this).closest('tr');

@@ -6,14 +6,23 @@ function zeigeNeueAufgabe() {
     const params = new URLSearchParams(window.location.search);
     const sammlungen = params.getAll('sammlung');
     const titel = params.get('titel');
+    const exam = params.get('exam');
 
-    // Prüfen, ob der Parameter 'Titel' vorhanden ist
-    if (titel) {
+    // Prüfen, ob der Parameter 'Titel' vorhanden ist und ob kein exam
+    if (titel && exam === 'no') {
         const h3Element = document.getElementById('quiz-title');
         h3Element.textContent = titel;  // Titel anhängen
         const metaDescription = document.querySelector('meta[name="description"]');
         metaDescription.setAttribute('content', titel);  // Meta-Beschreibung setzen
+        document.querySelector("h4").style.display = 'none'; // "i-te. Aufgababe" ausblenden
     }
+
+    if (exam === "yes"){
+        const h4Element = document.getElementById('AufgabenNummer');
+        h4Element.textContent = questionId + '. Aufgabe';
+        document.querySelector("h3").style.display = 'none'; // Ich kann Text ausblenden
+    }
+
 
     // Alternativ-Test, wenn ohne Effekt: löschen
     document.addEventListener('DOMContentLoaded', () => {

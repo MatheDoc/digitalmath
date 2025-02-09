@@ -23,7 +23,7 @@ function initializeTable() {
     });
 
     // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
-    function hideUncheckedRows(table) {
+    $('#hideUnchecked').on('click', function() {
         table.rows().every(function() {
             const row = $(this.node());
             const checkbox = row.find('input.rowCheckbox'); // Suche die Checkbox in der Zeile
@@ -34,24 +34,18 @@ function initializeTable() {
             }
         });
         table.draw(); // Tabelle neu rendern
-    }
-    
-
-
-    $('#hideUnchecked').on('click', function() {
-        hideUncheckedRows(table);
     });
     
 
     // Funktion zum Zeigen aller Zeilen
     $('#showAll').on('click', function() {
         table.rows().every(function() {
-            var row = $(this.node());
-            var checkbox = row.find('input.rowCheckbox');     
+            var row = $(this.node()); 
             row.show(); // Zeige die Zeile
         });
         table.draw(); // Zeichne die Tabelle neu
     });
+
 
     // Teilen-Link generieren
     $('#shareLink').on('click', function() {
@@ -74,11 +68,31 @@ function initializeTable() {
         });
     });
 
+
+    // Funktion zum Starten eines Tests mit ausgewählten Checkboxes
+        $('#startQuiz').on('click',function(){
+        var row = $(this).closest('tr'); // Zeile ermitteln
+        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
+        var urls = rowData[6]; // URLs in der 7. Spalte
+        var ichKannText = 'Ich kann ' + rowData[5].split('<i')[0].trim(); //Ich kann text als Titel    
+        if (urls) {
+            // Teile die URLs und erstelle Links
+            var links = urls.split(',').map(function(url) {
+                var sammlungsname = url.trim() + '.json';
+                return 'sammlung=' + sammlungsname;
+            });
+            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '&titel=' + encodeURIComponent(ichKannText);
+            window.open(testUrl, '_blank',`width=440px,height=960px}`); // Öffne URL in einem neuen Tab/Fenster
+        }
+    });  
+
+
     // Funktion zum Auswählen/Auswählen aller Checkboxen
     $('#checkAll').on('click', function() {
         var rows = table.rows({ 'search': 'applied' }).nodes(); // Holt alle sichtbaren Zeilen
         $('input.rowCheckbox', rows).prop('checked', this.checked); // Setzt den Status der Checkboxen
     });
+
 
     // Überprüfen, ob ein "config"-Parameter in der URL vorhanden ist
     function checkConfigParameter(){
