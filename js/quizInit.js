@@ -12,11 +12,12 @@ function zeigeNeuesQuiz() {
     if (titel && exam === 'no') {
         const h3Element = document.getElementById('quiz-title');
         h3Element.textContent = titel;  // Titel anhängen
+        //document.querySelector('h4').style.display = 'none';
         const metaDescription = document.querySelector('meta[name="description"]');
         metaDescription.setAttribute('content', titel);  // Meta-Beschreibung setzen
     }
 
-    if (exam === "yes"){
+    if (exam === 'yes'){
         document.querySelector("h3").style.display = 'none'; // Ich kann Text ausblenden
     }
 
@@ -36,12 +37,14 @@ function zeigeNeuesQuiz() {
             fetch(`https://raw.githubusercontent.com/MatheDoc/digitalmath/main/json/${sammlung}`)
                 .then(response => response.json())
                 .then(data => {
-                    // Erstelle eine neue h4-Überschrift für jede Sammlung
-                    const aufgabeContainer = document.getElementById('aufgabe');
-                    const aufgabeTitel = document.createElement('h4');
-                    aufgabeTitel.textContent = `${aufgabenZaehler}. Aufgabe`;  // Nummer hinzufügen
-                    aufgabeContainer.appendChild(aufgabeTitel);
-    
+                    // Erstelle eine neue h4-Überschrift für jede Sammlung, falls exam=yes
+                    if (exam === 'yes'){
+                        const aufgabeContainer = document.getElementById('aufgabe');
+                        const aufgabeTitel = document.createElement('h4');
+                        aufgabeTitel.textContent = `${aufgabenZaehler}. Aufgabe`;  // Nummer hinzufügen
+                        aufgabeContainer.appendChild(aufgabeTitel);
+                    };
+
                     // Zeige die Aufgabe aus der Sammlung
                     zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
                     aufgabenZaehler++; // Zähler erhöhen
