@@ -70,21 +70,34 @@ function initializeTable() {
 
 
     // Funktion zum Starten eines Tests mit ausgewählten Checkboxes
-        $('#startQuiz').on('click',function(){
-        var row = $(this).closest('tr'); // Zeile ermitteln
-        var rowData = $('#meineTabelle').DataTable().row(row).data(); // Zeilendaten ermitteln
-        var urls = rowData[6]; // URLs in der 7. Spalte
-        var ichKannText = 'Ich kann ' + rowData[5].split('<i')[0].trim(); //Ich kann text als Titel    
-        if (urls) {
-            // Teile die URLs und erstelle Links
-            var links = urls.split(',').map(function(url) {
-                var sammlungsname = url.trim() + '.json';
-                return 'sammlung=' + sammlungsname;
-            });
-            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '&titel=' + encodeURIComponent(ichKannText);
-            window.open(testUrl, '_blank',`width=440px,height=960px}`); // Öffne URL in einem neuen Tab/Fenster
+    $('#startExam').on('click', function() {
+        var urls = [];
+    
+        // Durch alle Zeilen der DataTable iterieren
+        $('#meineTabelle').DataTable().rows().every(function() {
+            var row = $(this.node());
+            var checkbox = row.find('input.rowCheckbox');
+    
+            // Prüfen, ob die Checkbox aktiviert ist
+            if (checkbox.is(':checked')) {
+                var rowData = this.data(); // Zeilendaten abrufen
+                if (rowData[6]) { // Prüfen, ob in der 7. Spalte eine URL vorhanden ist
+                    urls = urls.concat(rowData[6].split(',').map(url => url.trim() + '.json'));
+                }
+            }
+        });
+    
+        if (urls.length > 0) {
+            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + 
+                          urls.map(url => 'sammlung=' + url).join('&') + 
+                          '&exam=yes';
+    
+            window.open(testUrl, '_blank', 'width=440,height=960');
+        } else {
+            alert('Bitte wählen Sie mindestens eine Checkbox aus.');
         }
-    });  
+    });
+    
 
 
     // Funktion zum Auswählen/Auswählen aller Checkboxen
