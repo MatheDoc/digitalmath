@@ -2,7 +2,7 @@ let aufgabenZaehler = 1;  // Initialisiere den Zähler für die Aufgaben
 let questionId = 1;  // Eindeutige Frage-ID für jede Aufgabe
 
 // neue Aufgabe anzeigen
-function zeigeNeueAufgabe() {
+function zeigeNeuesQuiz() {
     const params = new URLSearchParams(window.location.search);
     const sammlungen = params.getAll('sammlung');
     const titel = params.get('titel');
@@ -14,12 +14,9 @@ function zeigeNeueAufgabe() {
         h3Element.textContent = titel;  // Titel anhängen
         const metaDescription = document.querySelector('meta[name="description"]');
         metaDescription.setAttribute('content', titel);  // Meta-Beschreibung setzen
-        document.querySelector("h4").style.display = 'none'; // "i-te. Aufgababe" ausblenden
     }
 
     if (exam === "yes"){
-        const h4Element = document.getElementById('AufgabenNummer');
-        h4Element.textContent = questionId + '. Aufgabe';
         document.querySelector("h3").style.display = 'none'; // Ich kann Text ausblenden
     }
 
@@ -33,23 +30,32 @@ function zeigeNeueAufgabe() {
     });
 
 
-    // Prüfen, ob Sammlungen vorhanden sind
     if (sammlungen.length > 0) {
-        // Eine zufällige Sammlung auswählen
-        const zufaelligeSammlung = sammlungen[Math.floor(Math.random() * sammlungen.length)];
-
-        // Aufgabe aus der zufällig ausgewählten Sammlung laden
-        fetch(`https://raw.githubusercontent.com/MatheDoc/digitalmath/main/json/${zufaelligeSammlung}`)
-            .then(response => response.json())
-            .then(data => zeigeZufaelligeAufgabeAusSammlung(zufaelligeSammlung, data))
-            .catch(error => {
-                console.error(`Fehler beim Laden der JSON-Datei für ${zufaelligeSammlung}:`, error);
-                document.getElementById('aufgabe').innerHTML = `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${zufaelligeSammlung}.</p>`;
-            });
+        shuffleArray(sammlungen); // Sammlungen in zufälliger Reihenfolge sortieren
+        sammlungen.forEach(sammlung => {
+            fetch(`https://raw.githubusercontent.com/MatheDoc/digitalmath/main/json/${sammlung}`)
+                .then(response => response.json())
+                .then(data => {
+                    // Erstelle eine neue h4-Überschrift für jede Sammlung
+                    const aufgabeContainer = document.getElementById('aufgabe');
+                    const aufgabeTitel = document.createElement('h4');
+                    aufgabeTitel.textContent = `${aufgabenZaehler}. Aufgabe`;  // Nummer hinzufügen
+                    aufgabeContainer.appendChild(aufgabeTitel);
+    
+                    // Zeige die Aufgabe aus der Sammlung
+                    zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
+                    aufgabenZaehler++; // Zähler erhöhen
+                })
+                .catch(error => {
+                    console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
+                    document.getElementById('aufgabe').innerHTML += `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${sammlung}.</p>`;
+                });
+        });
     } else {
         console.error('Keine Sammlung in der URL gefunden.');
         document.getElementById('aufgabe').innerText = 'Keine Sammlung gefunden.';
     }
+    
 
     // Wenn es nur ein <li> gibt, entferne die Nummerierung
     document.querySelectorAll('ol').forEach(olElement => {
@@ -105,7 +111,6 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
 
         // MathJax für mathematische Formeln
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, aufgabeContainer]);
-        aufgabenZaehler++;  // Aufgaben-Zähler erhöhen
 
         // Füge Listener für die Check-Icons hinzu
         addCheckIconListeners();
@@ -187,15 +192,24 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
     return htmlContent.replace(pattern, replacer);
 }
 
+
+// Funktion zum Zufällig-Mischen eines Arrays (Fisher-Yates Shuffle)
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Tauschen der Elemente
+    }
+}
+
 // Check-Icon Listener hinzufügen
-function addCheckIconListeners() {
+/*function addCheckIconListeners() {
     document.querySelectorAll('.check-icon').forEach(icon => {
         icon.addEventListener('click', function() {
             // Implementiere hier die Logik zur Überprüfung der Antwort
             console.log("Antwort überprüft!");
         });
     });
-}
+}*/
 
 // Initiales Laden einer zufälligen Aufgabe
-zeigeNeueAufgabe();
+zeigeNeuesQuiz();
