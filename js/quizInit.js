@@ -12,7 +12,6 @@ function zeigeNeuesQuiz() {
     if (titel && exam === 'no') {
         const h3Element = document.getElementById('quiz-title');
         h3Element.textContent = titel;  // Titel anhängen
-        //document.querySelector('h4').style.display = 'none';
         const metaDescription = document.querySelector('meta[name="description"]');
         metaDescription.setAttribute('content', titel);  // Meta-Beschreibung setzen
     }
@@ -58,16 +57,6 @@ function zeigeNeuesQuiz() {
         console.error('Keine Sammlung in der URL gefunden.');
         document.getElementById('aufgabe').innerText = 'Keine Sammlung gefunden.';
     }
-    
-
-    // Wenn es nur ein <li> gibt, entferne die Nummerierung
-    document.querySelectorAll('ol').forEach(olElement => {
-        const listItems = olElement.getElementsByTagName('li');
-        if (listItems.length === 1) {
-            olElement.style.listStyleType = "none";  // Entfernt die Nummerierung
-            olElement.style.paddingLeft = "0";       // Entfernt den linken Abstand
-        }
-    });
 }
 
 // Aufgabe aus der Sammlung anzeigen
@@ -203,16 +192,6 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]]; // Tauschen der Elemente
     }
 }
-
-// Check-Icon Listener hinzufügen
-/*function addCheckIconListeners() {
-    document.querySelectorAll('.check-icon').forEach(icon => {
-        icon.addEventListener('click', function() {
-            // Implementiere hier die Logik zur Überprüfung der Antwort
-            console.log("Antwort überprüft!");
-        });
-    });
-}*/
 
 // Initiales Laden einer zufälligen Aufgabe
 zeigeNeuesQuiz();
