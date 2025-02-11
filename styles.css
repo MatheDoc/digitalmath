@@ -40,7 +40,7 @@ h3 {
 h4  {
     background-color: #B8CEF2; /*#B8CEF2 oder 8889af*/
     color: #4d4d4d;
-    padding: 10px;
+    padding: 2px;
     margin-bottom: 20px;
     text-align: center;
     font-family: 'Arial', sans-serif;
@@ -88,31 +88,30 @@ table{
 .einleitung {
     margin: 0 auto;
     background-color: #e7e6e6;
-    border: 1px solid #ccc;
     margin-bottom: 20px;
-    padding: 20px;
-    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 658px;
 }
 
-.einleitung p {
-    margin-top: 0px;
-}
-
-.nachfolgend ol, .nachfolgend ul {
+ol, ul {
     margin: 0 auto;
     padding: 0px;
     list-style-position: inside;
     max-width: 700px;
 }
 
-.nachfolgend li {
+li {
     background-color: #ffffff;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
-    padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     color: #000000;
@@ -121,7 +120,6 @@ table{
 .antwort{
     padding-top: 0px;
 }
-
 
 
 
@@ -417,12 +415,12 @@ a.link-homepage:hover {
         margin: 0px;
         padding: 0px;
     }
-    .nachfolgend ol, .nachfolgend ul {
+    ol,  ul {
         max-width: 100%;
         list-style-position: outside;
         padding-left: 1cm;
     }
-    .nachfolgend li{
+    li{
         box-shadow: none;
         border: 0px;
         padding: 0px;
@@ -448,10 +446,10 @@ a.link-homepage:hover {
         margin-bottom: 20px;
         max-width: 100%;
     }
-    .nachfolgend li .check-icon{
+    li .check-icon{
         display: none !important;
     }
-    .nachfolgend li .clip-icon{
+    li .clip-icon{
         display: none !important;
     }
 
