@@ -23,7 +23,7 @@ function initializeTable() {
     });
 
     // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
-    $('#hideUnchecked').on('click', function() {
+    function hideUncheckedRows(table) {
         table.rows().every(function() {
             const row = $(this.node());
             const checkbox = row.find('input.rowCheckbox'); // Suche die Checkbox in der Zeile
@@ -34,18 +34,24 @@ function initializeTable() {
             }
         });
         table.draw(); // Tabelle neu rendern
+    }
+    
+
+
+    $('#hideUnchecked').on('click', function() {
+        hideUncheckedRows(table);
     });
     
 
     // Funktion zum Zeigen aller Zeilen
     $('#showAll').on('click', function() {
         table.rows().every(function() {
-            var row = $(this.node()); 
+            var row = $(this.node());
+            var checkbox = row.find('input.rowCheckbox');     
             row.show(); // Zeige die Zeile
         });
         table.draw(); // Zeichne die Tabelle neu
     });
-
 
     // Teilen-Link generieren
     $('#shareLink').on('click', function() {
@@ -68,44 +74,11 @@ function initializeTable() {
         });
     });
 
-
-    // Funktion zum Starten eines Tests mit ausgewählten Checkboxes
-    $('#startExam').on('click', function() {
-        var urls = [];
-    
-        // Durch alle Zeilen der DataTable iterieren
-        $('#meineTabelle').DataTable().rows().every(function() {
-            var row = $(this.node());
-            var checkbox = row.find('input.rowCheckbox');
-    
-            // Prüfen, ob die Checkbox aktiviert ist
-            if (checkbox.is(':checked')) {
-                var rowData = this.data(); // Zeilendaten abrufen
-                if (rowData[6]) { // Prüfen, ob in der 7. Spalte eine URL vorhanden ist
-                    urls = urls.concat(rowData[6].split(',').map(url => url.trim() + '.json'));
-                }
-            }
-        });
-    
-        if (urls.length > 0) {
-            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + 
-                          urls.map(url => 'sammlung=' + url).join('&') + 
-                          '&exam=yes';
-    
-            window.open(testUrl, '_blank', 'width=440,height=960');
-        } else {
-            alert('Bitte wählen Sie mindestens eine Checkbox aus.');
-        }
-    });
-    
-
-
     // Funktion zum Auswählen/Auswählen aller Checkboxen
     $('#checkAll').on('click', function() {
         var rows = table.rows({ 'search': 'applied' }).nodes(); // Holt alle sichtbaren Zeilen
         $('input.rowCheckbox', rows).prop('checked', this.checked); // Setzt den Status der Checkboxen
     });
-
 
     // Überprüfen, ob ein "config"-Parameter in der URL vorhanden ist
     function checkConfigParameter(){
