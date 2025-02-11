@@ -48,6 +48,7 @@
 
     <div id="Aufgabensammlung">
         <select id="link-dropdown" class="mch">
+            <option value=""></option> <!-- Leeres Optionselement für den Platzhalter -->
             <option value="https://www.mathechecks.de/index?config=%5B%2211%22%2C%2212%22%2C%2213%22%2C%2216%22%2C%2233%22%2C%2241%22%2C%2243%22%5D">Lineare Funktionen - Basics</option>    
             <option value="https://www.mathechecks.de/index?config=%5B%2245%22%2C%2246%22%2C%2247%22%2C%2248%22%2C%2249%22%2C%2250%22%2C%2216%22%2C%2233%22%2C%2241%22%2C%2243%22%5D">Lineare Funktionen - Ökonomisch</option>
             <option value="https://www.mathechecks.de/index?config=%5B%2214%22%2C%2215%22%2C%2216%22%2C%2217%22%2C%2218%22%2C%2233%22%2C%2241%22%2C%2243%22%2C%2245%22%2C%2246%22%2C%2247%22%2C%2248%22%2C%2249%22%2C%2250%22%5D">Quadratische Funktionen - Basics</option>
@@ -64,7 +65,7 @@
 
     <script>
         $(document).ready(function() {
-            $('.mch').select2({
+            $('#link-dropdown').select2({
                 placeholder: "Bitte wählen...",
                 allowClear: true,
                 /*templateResult: function(data) {
