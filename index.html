@@ -19,7 +19,8 @@
     <!-- jQuery und externe JS-Bibliotheken -->
     <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
+    
     <!-- Eigene JS-Dateien-->
     <script src="js/tableMain.js"></script>
     <script src="js/tableInit.js"></script>
@@ -45,12 +46,48 @@
         </span>
     </div>
 
+    <div id="Aufgabensammlung">
+        <select id="link-dropdown" class="mch">
+            <option value="https://www.mathechecks.de/index?config=%5B%2211%22%2C%2212%22%2C%2213%22%5D">Lineare Funktionen - Basics</option>
+            <option value="https://www.bing.com">Lineare Funktionen - Wirtschaft</option>
+            <option value="https://www.yahoo.com">Quadratische Funktionen - Basics</option>
+            <option value="https://www.yahoo.com">Quadratische Funktionen - Wirtschaft</option>
+        </select>
+    </div>
+
     <div id="suchleiste"></div>
 
     <div id="content"></div>
    
     <div id="overlay" class="overlay"></div>
     <div id="infoText" class="info-text"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('.mch').select2({
+                placeholder: "Bitte wählen...",
+                allowClear: true,
+                templateResult: function(data) {
+                    if (!data.id) return data.text; // Platzhalter nicht verändern
+                    return $('<a>', {
+                        href: data.id, 
+                        text: data.text, 
+                        target: "_blank", // Öffnet den Link in einem neuen Tab
+                        style: "display: block; padding: 5px; text-decoration: none; color: black;"
+                    });
+                }
+            });
+
+            // Automatisches Öffnen des Links beim Klicken
+            $('#link-dropdown').on('select2:select', function(e) {
+                var url = e.params.data.id;
+                if (url) {
+                    window.open(url, '_self');
+                }
+            });
+        });
+    </script>
+
 
     <footer>
         &copy; 2024 Dr. Sven Führing. Alle Inhalte sind lizenziert unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0.</a>

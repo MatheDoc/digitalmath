@@ -4,6 +4,10 @@ let table;
 // html Inhalt laden, sobald Dokument bereit ist
 $(document).ready(function() {
     loadHTML();
+    /*$('#Aufgabensammlung').select2({
+        placeholder: "Bitte wählen...",
+        allowClear: true
+    });*/
 });
 
 //dynamischer Pfad wegen Github - Liveserver

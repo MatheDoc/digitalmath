@@ -187,6 +187,34 @@ footer {
     height: 50px; 
 }
 
+#Aufgabensammlung {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;*/
+    text-align: center;
+}
+
+#Aufgabensammlung .select2-container {
+    min-width: 300px;
+    max-width: 90%;
+}
+
+
+#suchleiste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; /* sorgt dafür, dass das Div in der Mitte des Viewports ist */
+    width: 50%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+
 /* Größe der sichtbaren Box für das Select2 mit Klasse .mch anpassen */
 select.mch + .select2-container .select2-selection--single {
     height: 40px; /* Höhe der Auswahlbox */
@@ -342,15 +370,7 @@ display: none;
     z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
 }
 
-#suchleiste {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto; /* sorgt dafür, dass das Div in der Mitte des Viewports ist */
-    width: 50%;
-    height: 50px;
-    margin-bottom: 20px;
-}
+
 
 
 div.dataTables_filter input {
