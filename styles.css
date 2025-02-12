@@ -58,20 +58,18 @@ p {
 }
 
 .center-text {
-    position: absolute;                /* Absolute Positionierung */
-    left: 50%;                        /* Mitte der Breite */
-    transform: translateX(-50%);      /* Verschiebt das Element um die Hälfte seiner Breite nach links */
     text-align: center;                /* Text zentrieren */
+    flex: 1; 
 }
 
 .left-text {
-    margin-left: auto;                 /* Macht den rechten Text rechtsbündig */
     text-align: left;                 /* Text rechtsbündig */
+    flex: 1; 
 }
 
 .right-text {
-    margin-left: auto;                 /* Macht den rechten Text rechtsbündig */
     text-align: right;                 /* Text rechtsbündig */
+    flex: 1; 
 }
 
 table{
@@ -242,6 +240,32 @@ select.mch + .select2-container .select2-selection--single {
     min-width: 85px;
     max-width: 90%;
 }
+
+
+.toggle-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ccc;
+}
+
+/* Aktiver Zustand: "gedrückt" */
+.toggle-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+    transform: translateY(2px);
+}
+
 
 .info-icon, .copy-icon, .xml-icon, .test-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon, .clip-icon  {
     background-color: transparent;

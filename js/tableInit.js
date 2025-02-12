@@ -23,7 +23,7 @@ function initializeTable() {
     });
 
 
-    // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
+  /*  // Funktion zum Ausblenden von Zeilen ohne aktivierte Checkbox
     function hideUncheckedRows(table) {
         table.rows().every(function() {
             const row = $(this.node());
@@ -37,41 +37,7 @@ function initializeTable() {
         table.draw(); // Tabelle neu rendern
     }
     
-
-    $('#hideUnchecked').on('click', function() {
-        hideUncheckedRows(table);
-    });
-    
-///////////////////////////
-
-
-let isFiltered = false; // Status für den Filter-Button speichern
-    // Funktion zum Umschalten der Checkbox-Filterung
-    $('#toggleFilter').on('click', function() {
-        if (isFiltered) {
-            // Alle Zeilen wieder anzeigen
-            table.rows().every(function() {
-                $(this.node()).show();
-            });
-            $(this).text('Zeige Auswahl'); // Button-Text anpassen
-        } else {
-            // Nur Zeilen mit aktivierten Checkboxen anzeigen
-            table.rows().every(function() {
-                const row = $(this.node());
-                const checkbox = row.find('input.rowCheckbox');
-                row.toggle(checkbox.is(':checked')); // Zeige nur markierte
-            });
-            $(this).text('Zeige alle'); // Button-Text anpassen
-        }
-        table.draw(); // Tabelle aktualisieren
-        isFiltered = !isFiltered; // Status umschalten
-    });
-//////////////////////////////////////////////////////////
-
-
-
-
-    // Funktion zum Zeigen aller Zeilen
+        // Funktion zum Zeigen aller Zeilen
     $('#showAll').on('click', function() {
         table.rows().every(function() {
             var row = $(this.node());
@@ -80,6 +46,58 @@ let isFiltered = false; // Status für den Filter-Button speichern
         });
         table.draw(); // Zeichne die Tabelle neu
     });
+
+    $('#hideUnchecked').on('click', function() {
+        hideUncheckedRows(table);
+    });*/
+    
+///////////////////////////
+
+// Funktion zum Umschalten der Ansicht
+
+let isFiltered = false; // Status für den Filter-Button speichern
+
+function toggleView(table) {
+    const icon = $('#toggleFilter'); // Das gesamte Button-Element
+    if (isFiltered) {
+        // Alle Zeilen wieder anzeigen
+        table.rows().every(function() {
+            $(this.node()).show();
+        });
+        // Symbol wechseln und Button zurücksetzen
+        icon.removeClass('fa-filter').addClass('fa-eye');
+    } else {
+        // Nur Zeilen mit aktivierten Checkboxen anzeigen
+        table.rows().every(function() {
+            const row = $(this.node());
+            const checkbox = row.find('input.rowCheckbox');
+            row.toggle(checkbox.is(':checked')); // Zeige nur markierte
+        });
+        // Symbol wechseln und Button für aktiven Zustand
+        icon.removeClass('fa-eye').addClass('fa-filter');
+    }
+
+    table.draw(); // Tabelle aktualisieren
+    isFiltered = !isFiltered; // Status umschalten
+}
+
+
+// Click-Handler für den Toggle-Button
+$('#toggleFilter').on('click', function() {
+    toggleView(table); // Nur die Tabelle an die Funktion übergeben
+});
+
+
+
+
+
+
+//////////////////////////////////////////////////////////
+
+
+
+
+
 
     // Teilen-Link generieren
     $('#shareLink').on('click', function() {
@@ -151,7 +169,7 @@ let isFiltered = false; // Status für den Filter-Button speichern
                     const rowId = $(this.node()).find('td:eq(8)').text().trim(); // Zeilen-ID ermitteln
                     const isSelected = importedData.includes(rowId); // Überprüfen, ob die ID in den importierten Daten enthalten ist
                     checkbox.prop('checked', isSelected); // Checkbox entsprechend setzen
-                    hideUncheckedRows(table);// Auswahl anzeigen
+                    toggleView(table);
             });
             } catch (e) {
                 console.error('Ungültige Konfigurationsdaten');

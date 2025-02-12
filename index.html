@@ -31,30 +31,7 @@
     <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
         <h1>MatheChecks.de</h1>
     </a>
-
-    <div style="margin: 20px">
-        <!-- Linkes Element -->
-        <span class="left-text">
-            <button id="toggleFilter">Zeige Auswahl</button>
-            <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
-        </span>
-    
-        <!-- Zentrierter Bereich -->
-        <span class="center-text">
-            <button id="startExam">Test starten</button>
-        </span>
-    
-        <!-- Rechtes Element -->
-        <span class="right-text">
-            <a href="mailto:mathechecks@gmail.com">
-                <i class="fas fa-envelope auswahl-icon" title="Kontakt"></i>
-            </a>
-        </span>
-    </div>
-    
-    
-    
-
+ 
     <div id="Aufgabensammlung">
         <select id="link-dropdown">
             <option value=""></option> <!-- Leeres Optionselement für den Platzhalter -->
@@ -67,6 +44,24 @@
     </div>
 
     <div id="suchleiste"></div>
+
+    <div style="padding: 28px; display: flex; justify-content: space-between;">
+        <!-- Linkes Element -->
+        <span style="text-align: left; flex: 1">
+            <!--<button id="toggleFilter">Zeige Auswahl</button>-->
+            <i class="fas fa-eye auswahl-icon" id="toggleFilter" title=""></i>
+            <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
+        </span>
+    
+        <!-- Zentrierter Bereich -->
+        <span style="text-align: center; flex: 1">
+            <button id="startExam">Test starten</button>
+        </span>
+    
+        <!-- Rechtes Element -->
+        <span style="text-align: right; flex: 1">
+        </span>
+    </div>
 
     <div id="content"></div>
    
@@ -100,9 +95,13 @@
     </script>
 
 
-    <footer>
-        &copy; 2024 Dr. Sven Führing. Alle Inhalte sind lizenziert unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0.</a>
-    </footer>
+<footer>
+    <p>&copy; 2024 Dr. Sven Führing<i class="fas fa-envelope auswahl-icon" title="Kontakt"></i>. Alle Inhalte sind lizenziert unter 
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0.</a>
+    </p>
+</footer>
+
+
 
 </body>
 </html>
