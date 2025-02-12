@@ -159,9 +159,10 @@ $('#toggleFilter').on('click', function() {
                     const rowId = $(this.node()).find('td:eq(8)').text().trim(); // Zeilen-ID ermitteln
                     const isSelected = importedData.includes(rowId); // Überprüfen, ob die ID in den importierten Daten enthalten ist
                     checkbox.prop('checked', isSelected); // Checkbox entsprechend setzen
-                    isFiltered = false
-                    toggleView(table);
+                    
             });
+            // Wende den Filter an, nachdem die Checkboxen gesetzt sind
+            toggleView(table);
             } catch (e) {
                 console.error('Ungültige Konfigurationsdaten');
             }
