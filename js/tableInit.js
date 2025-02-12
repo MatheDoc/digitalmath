@@ -42,6 +42,34 @@ function initializeTable() {
         hideUncheckedRows(table);
     });
     
+///////////////////////////
+
+
+let isFiltered = false; // Status für den Filter-Button speichern
+    // Funktion zum Umschalten der Checkbox-Filterung
+    $('#toggleFilter').on('click', function() {
+        if (isFiltered) {
+            // Alle Zeilen wieder anzeigen
+            table.rows().every(function() {
+                $(this.node()).show();
+            });
+            $(this).text('Zeige Auswahl'); // Button-Text anpassen
+        } else {
+            // Nur Zeilen mit aktivierten Checkboxen anzeigen
+            table.rows().every(function() {
+                const row = $(this.node());
+                const checkbox = row.find('input.rowCheckbox');
+                row.toggle(checkbox.is(':checked')); // Zeige nur markierte
+            });
+            $(this).text('Zeige alle'); // Button-Text anpassen
+        }
+        table.draw(); // Tabelle aktualisieren
+        isFiltered = !isFiltered; // Status umschalten
+    });
+//////////////////////////////////////////////////////////
+
+
+
 
     // Funktion zum Zeigen aller Zeilen
     $('#showAll').on('click', function() {
@@ -143,7 +171,7 @@ function initializeTable() {
         }).remove();
 
         // Setzt den Platzhaltertext des Suchfeldes
-        $('.dataTables_filter input').attr('placeholder', 'Suchbegriff eingeben');
+        $('.dataTables_filter input').attr('placeholder', 'Tabelle filtern...');
     }
     adjustSearchFilter() ;
 }

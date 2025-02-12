@@ -10,10 +10,11 @@ h1 {
     color: #4d4d4d;
     padding: 10px;
     margin-bottom: 20px;
+    margin-top: 0px;
     text-align: center;
     font-family: 'Arial', sans-serif;
-    border-bottom: black solid 1px;
-    border-top: black solid 1px;
+    /*border-bottom: black solid 1px;
+    border-top: black solid 1px;*/
     border-color: #4d4d4d;
 }
 
@@ -201,6 +202,16 @@ footer {
 #Aufgabensammlung .select2-container {
     min-width: 300px;
     max-width: 90%;
+}
+
+#Aufgabensammlung .select2-selection {
+    display: flex;
+    align-items: center;
+    text-align: left !important;
+    border-radius: 20px !important;
+    height: 40px;
+    padding-left: 10px;
+    color: #4d4d4d;
 }
 
 

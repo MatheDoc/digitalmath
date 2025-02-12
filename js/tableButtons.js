@@ -7,7 +7,7 @@ function addButtons(){
         var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
         // var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
         var xmlButton = '<i class="fas fa-file-code xml-icon" id="xmlIcon" title="als Moodle-XML exportieren"></i>';
-        var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Test starten"></i>';
+        var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Einzeltest starten"></i>';
         // Testbutoon ausblenden, falls kein Test vorhanden
         if (aufgaben === '') {
             testButton = ' '

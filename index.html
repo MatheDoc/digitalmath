@@ -32,28 +32,38 @@
         <h1>MatheChecks.de</h1>
     </a>
 
-    <div style="display: flex; justify-content: space-between; margin: 20px;">
-        <span>
-            <i class="fas fa-binoculars auswahl-icon" id="hideUnchecked" title="Auswahl anzeigen"></i>
-            <i class="fas  fa-list auswahl-icon" id="showAll" title="Alle anzeigen"></i>
+    <div style="margin: 20px">
+        <!-- Linkes Element -->
+        <span class="left-text">
+            <button id="toggleFilter">Zeige Auswahl</button>
             <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
-            <i class="fas fa-edit test-icon" id="startExam" title="Starte Prüfung"></i>
         </span>
-        <span>
+    
+        <!-- Zentrierter Bereich -->
+        <span class="center-text">
+            <button id="startExam">Test starten</button>
+        </span>
+    
+        <!-- Rechtes Element -->
+        <span class="right-text">
             <a href="mailto:mathechecks@gmail.com">
                 <i class="fas fa-envelope auswahl-icon" title="Kontakt"></i>
             </a>
         </span>
     </div>
+    
+    
+    
 
     <div id="Aufgabensammlung">
-        <select id="link-dropdown" class="mch">
+        <select id="link-dropdown">
             <option value=""></option> <!-- Leeres Optionselement für den Platzhalter -->
             <option value="https://www.mathechecks.de/index?config=%5B%2211%22%2C%2212%22%2C%2213%22%5D">Lineare Funktionen - Basics</option>    
             <option value="https://www.mathechecks.de/index?config=%5B%2245%22%2C%2246%22%2C%2247%22%2C%2248%22%2C%2249%22%2C%2250%22%5D">Lineare Funktionen - Ökonomisch</option>
             <option value="https://www.mathechecks.de/index?config=%5B%2214%22%2C%2215%22%2C%2216%22%2C%2217%22%2C%2218%22%5D">Quadratische Funktionen - Basics</option>
             <option value="https://www.mathechecks.de/index?config=%5B%2251%22%2C%2252%22%2C%2253%22%2C%2254%22%2C%2255%22%2C%2256%22%5D">Quadratische Funktionen - Ökonomisch</option>
         </select>
+        <p>und / oder</p>
     </div>
 
     <div id="suchleiste"></div>
@@ -66,7 +76,7 @@
     <script>
         $(document).ready(function() {
             $('#link-dropdown').select2({
-                placeholder: "Bitte wählen...",
+                placeholder: "Sammlung wählen...",
                 allowClear: true,
                 /*templateResult: function(data) {
                     if (!data.id) return data.text; // Platzhalter nicht verändern
