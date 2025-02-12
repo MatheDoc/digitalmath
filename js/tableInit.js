@@ -89,16 +89,6 @@ $('#toggleFilter').on('click', function() {
 
 
 
-
-
-
-//////////////////////////////////////////////////////////
-
-
-
-
-
-
     // Teilen-Link generieren
     $('#shareLink').on('click', function() {
         const selectedCheckboxes = []; // Array zur Speicherung der ausgewählten Checkboxen
@@ -169,6 +159,7 @@ $('#toggleFilter').on('click', function() {
                     const rowId = $(this.node()).find('td:eq(8)').text().trim(); // Zeilen-ID ermitteln
                     const isSelected = importedData.includes(rowId); // Überprüfen, ob die ID in den importierten Daten enthalten ist
                     checkbox.prop('checked', isSelected); // Checkbox entsprechend setzen
+                    isFiltered = false
                     toggleView(table);
             });
             } catch (e) {
