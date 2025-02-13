@@ -186,5 +186,10 @@ $('#toggleFilter').on('click', function() {
     adjustSearchFilter() ;
 }
 
-
-
+// Aufgaben ein und ausblenden
+function toggleAufgaben() {
+    var div = document.getElementById("Aufgabensammlung");
+    div.style.display = div.style.display === "none" || div.style.display === "" ? "flex" : "none";
+    var icon = document.getElementById("toggle-icon");
+    icon.textContent = div.style.display === "flex"? "▲" : "▼";
+}

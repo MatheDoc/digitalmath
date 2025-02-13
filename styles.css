@@ -206,11 +206,18 @@ footer {
     color: #4d4d4d;
 }*/
 #Aufgabensammlung {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     gap: 5px;
     margin: 10px;
+    background: rgba(214, 214, 214, 0.719);
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
+
 #Aufgabensammlung button {
     padding: 5px;
     cursor: pointer;
@@ -224,16 +231,32 @@ footer {
     background-color: #3e61c9;
 } 
 
+#toggle-button {
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:#3f62cce1;
+    color: white;
+    border-radius: 20px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 200px;
+}
+
 #startExam {
     padding: 10px;
     cursor: pointer;
     border: none;
     background-color:#e72f8bb0;
     color: white;
-    border-radius: 10px;
-    font-size: 24px;
+    border-radius: 20px;
+    font-size: 15px;
     display: block;
     margin: 0px auto;
+    width: 200px;
 }
 #startExam:hover {
     background-color: #e72f8b;
@@ -241,13 +264,12 @@ footer {
 
 
 #suchleiste {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto; /* sorgt dafür, dass das Div in der Mitte des Viewports ist */
-    width: 50%;
+    display: block;
+
+    margin: 0px auto;
+    width: 200px;
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
