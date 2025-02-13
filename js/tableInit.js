@@ -193,3 +193,19 @@ function toggleAufgaben() {
     var icon = document.getElementById("toggle-icon");
     icon.textContent = div.style.display === "flex"? "▲" : "▼";
 }
+
+/*
+$('#meineTabelle tbody').on('click', 'tr', function(event) {
+    // Prüfen, ob das geklickte Element ein Button, Link oder interaktives Element ist
+    if ($(event.target).closest('button, a, input, select, textarea').length) {
+        return; // Falls ja, nicht die Checkbox umschalten
+    }
+
+    // Checkbox innerhalb der Zeile finden
+    var checkbox = $(this).find('input.rowCheckbox'); 
+
+    if (checkbox.length) {
+        checkbox.prop('checked', !checkbox.prop('checked')); // Checkbox-Status umschalten
+    }
+});
+*/

@@ -210,7 +210,7 @@ footer {
     flex-wrap: wrap;
     gap: 5px;
     margin: 10px;
-    background: rgba(214, 214, 214, 0.719);
+    background: rgba(226, 226, 226, 0.719);
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 0px;
@@ -261,21 +261,6 @@ footer {
 #startExam:hover {
     background-color: #e72f8b;
 } 
-
-
-/*#suchleiste {
-    display: block;
-    margin: 0px auto;
-    width: 50%;
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-.dataTables_filter {
-    text-align: center;
-    max-width: 200px;
-}
-*/
 
 .dataTables_filter input {
     display: block;
