@@ -210,6 +210,7 @@ footer {
     flex-wrap: wrap;
     gap: 5px;
     margin: 10px;
+    display: "none";
 }
 #Aufgabensammlung button {
     padding: 5px;
@@ -223,6 +224,20 @@ footer {
 #Aufgabensammlung button:hover {
     background-color: #3e61c9;
 } 
+
+#toggle-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background-color:#3f62cce1;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+}
 
 #startExam {
     padding: 10px;
