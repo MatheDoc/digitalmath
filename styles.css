@@ -209,11 +209,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    margin-bottom: 20px;
+    margin: 10px;
 }
-button {
+#Aufgabensammlung button {
     padding: 5px;
-    font-size: 16px;
     cursor: pointer;
     border: none;
     background-color:#3f62cce1;
@@ -221,9 +220,23 @@ button {
     border-radius: 5px;
     font-size: 15px;
 }
-button:hover {
+#Aufgabensammlung button:hover {
     background-color: #3e61c9;
+} 
+
+#startExam {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:#e72f8bb0;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
 }
+#startExam:hover {
+    background-color: #e72f8b;
+} 
+
 
 #suchleiste {
     display: flex;
