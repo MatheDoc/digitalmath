@@ -74,9 +74,7 @@
         <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%22141%22%2C%22142%22%2C%22143%22%2C%22144%22%2C%22145%22%2C%22146%22%5D'">Prozentrechnung - Verm. Grundwert</button>
     </div>
 
-
     <div id="suchleiste"></div>
-
 
     <button id="startExam">Test mit Auswahl starten</button>
 
@@ -90,31 +88,6 @@
     <div id="overlay" class="overlay"></div>
     <div id="infoText" class="info-text"></div>
 
-    <script>
-        $(document).ready(function() {
-            $('#link-dropdown').select2({
-                placeholder: "Sammlung wählen...",
-                allowClear: true,
-                /*templateResult: function(data) {
-                    if (!data.id) return data.text; // Platzhalter nicht verändern
-                    return $('<a>', {
-                        href: data.id, 
-                        text: data.text, 
-                        target: "_blank", // Öffnet den Link in einem neuen Tab
-                        style: "display: block; padding: 5px; text-decoration: none; color: black;"
-                    });
-                }*/
-            });
-
-            // Automatisches Öffnen des Links beim Klicken
-            $('#link-dropdown').on('select2:select', function(e) {
-                var url = e.params.data.id;
-                if (url) {
-                    window.location.href(url, '_self');
-                }
-            });
-        });
-    </script>
 
 
 <footer>
