@@ -186,25 +186,7 @@ footer {
     height: 50px; 
 }
 
-/*
-#Aufgabensammlung {
-    text-align: center;
-}
 
-#Aufgabensammlung .select2-container {
-    min-width: 300px;
-    max-width: 90%;
-}
-
-#Aufgabensammlung .select2-selection {
-    display: flex;
-    align-items: center;
-    text-align: left !important;
-    border-radius: 20px !important;
-    height: 40px;
-    padding-left: 10px;
-    color: #4d4d4d;
-}*/
 #Aufgabensammlung {
     display: none;
     flex-wrap: wrap;
@@ -273,22 +255,26 @@ footer {
     font-size: 15px;
     margin-bottom: 15px;
     text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid #7e7e7e; 
 }
 
 
 
 
-/* Größe der sichtbaren Box für das Select2 mit Klasse .mch anpassen */
+
 select.mch + .select2-container .select2-selection--single {
-    height: 40px; /* Höhe der Auswahlbox */
+    height: 40px; 
     display: flex;
-    align-items: center; /* Zentriert den Text vertikal */
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
     width: auto;
     min-width: 85px;
     max-width: 100%;
 }
+
 
 .select2-container{
     min-width: 85px;
@@ -459,23 +445,6 @@ display: none;
     z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
 }
 
-
-
-
-div.dataTables_filter input {
-    width: 300px; /* Passt die Breite an die Containerbreite an */
-    max-width: 300px; /* Optional: Setzt eine maximale Breite */
-    padding: 10px; /* Optional: Fügt etwas Innenabstand hinzu */
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box; /* Stellt sicher, dass Padding und Border in der Breite enthalten sind */
-    color: #474747;
-    background-color: #ffffff;
-    border-radius: 20px;
-    height: 40px;
-    border: 1px solid #7e7e7e; /* Setzt die Rahmeneigenschaften */
-    font-size: 1em;
-}
 
 
 a.link-homepage {
@@ -680,3 +649,23 @@ h3 {
     display: none;
 }
 */
+
+/*
+#Aufgabensammlung {
+    text-align: center;
+}
+
+#Aufgabensammlung .select2-container {
+    min-width: 300px;
+    max-width: 90%;
+}
+
+#Aufgabensammlung .select2-selection {
+    display: flex;
+    align-items: center;
+    text-align: left !important;
+    border-radius: 20px !important;
+    height: 40px;
+    padding-left: 10px;
+    color: #4d4d4d;
+}*/
