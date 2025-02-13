@@ -181,7 +181,7 @@ $('#toggleFilter').on('click', function() {
         }).remove();
 
         // Setzt den Platzhaltertext des Suchfeldes
-        $('.dataTables_filter input').attr('placeholder', 'Tabelle filtern...');
+        $('.dataTables_filter input').attr('placeholder', 'Schlagwortsuche');
     }
     adjustSearchFilter() ;
 }

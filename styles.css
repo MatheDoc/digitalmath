@@ -241,11 +241,14 @@ footer {
     border-radius: 20px;
     display: block;
     margin: 0px auto;
-    margin-bottom: 20px;
-    font-size: 15px;
-    width: 200px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    width: 250px;
 }
 
+#toggle-button:hover {
+    background-color:#3f62cc;
+}
 #startExam {
     padding: 10px;
     cursor: pointer;
@@ -253,10 +256,10 @@ footer {
     background-color:#e72f8bb0;
     color: white;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 20px;
     display: block;
     margin: 0px auto;
-    width: 200px;
+    width: 250px;
 }
 #startExam:hover {
     background-color: #e72f8b;
@@ -265,10 +268,11 @@ footer {
 .dataTables_filter input {
     display: block;
     margin: 0 auto; /* Sorgt für horizontale Zentrierung */
-    width: 200px !important; 
+    width: 250px !important; 
     padding: 5px;
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 
