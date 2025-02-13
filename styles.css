@@ -232,6 +232,8 @@ footer {
     color: white;
     border-radius: 10px;
     font-size: 24px;
+    display: block;
+    margin: 0px auto;
 }
 #startExam:hover {
     background-color: #e72f8b;
