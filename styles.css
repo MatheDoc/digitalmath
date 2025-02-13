@@ -210,8 +210,14 @@ footer {
     flex-wrap: wrap;
     gap: 5px;
     margin: 10px;
-    display: "none";
+    background: rgba(214, 214, 214, 0.719);
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
+
 #Aufgabensammlung button {
     padding: 5px;
     cursor: pointer;
@@ -226,17 +232,17 @@ footer {
 } 
 
 #toggle-button {
-    margin-left: 10px;
-    margin-right: 10px;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
     border: none;
     background-color:#3f62cce1;
     color: white;
-    border-radius: 5px;
-    font-size: 15px;
-    width: 100%;
+    border-radius: 20px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 #startExam {
@@ -245,8 +251,8 @@ footer {
     border: none;
     background-color:#e72f8bb0;
     color: white;
-    border-radius: 10px;
-    font-size: 24px;
+    border-radius: 20px;
+    font-size: 20px;
     display: block;
     margin: 0px auto;
 }
@@ -262,7 +268,7 @@ footer {
     margin: auto; /* sorgt dafür, dass das Div in der Mitte des Viewports ist */
     width: 50%;
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
