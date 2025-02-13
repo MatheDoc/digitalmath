@@ -241,7 +241,7 @@ footer {
     border-radius: 20px;
     display: block;
     margin: 0px auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 15px;
     width: 200px;
 }
@@ -263,14 +263,30 @@ footer {
 } 
 
 
-#suchleiste {
+/*#suchleiste {
     display: block;
-
     margin: 0px auto;
-    width: 2000px;
+    width: 50%;
     height: 50px;
     margin-bottom: 10px;
 }
+
+.dataTables_filter {
+    text-align: center;
+    max-width: 200px;
+}
+*/
+
+.dataTables_filter input {
+    display: block;
+    margin: 0 auto; /* Sorgt für horizontale Zentrierung */
+    width: 200px !important; 
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
 
 
 /* Größe der sichtbaren Box für das Select2 mit Klasse .mch anpassen */
