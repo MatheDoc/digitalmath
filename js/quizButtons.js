@@ -78,14 +78,14 @@ function checkNumericalAnswer(questionId, correctAnswer, tolerance) {
 
     if (!isNaN(userAnswer)) {
         if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
-            feedbackElement.innerHTML = 'Richtig!';
+            feedbackElement.innerHTML = userAnswer + ' ist richtig!';
             if (userAnswer !== correctAnswer) { 
-                feedbackElement.innerHTML += ' (Die genauere Antwort ist: ' + correctAnswer +')';
+                feedbackElement.innerHTML += ' (Die genauere Antwort ist ' + correctAnswer +'.)';
             }
             feedbackElement.style.color = "green";
             return true
         } else {
-            feedbackElement.innerHTML = 'Falsch! Die richtige Antwort ist: ' + correctAnswer;
+            feedbackElement.innerHTML = userAnswer + ' ist falsch. Die richtige Antwort ist ' + correctAnswer +'.';
             feedbackElement.style.color = "red";
             document.body.style.backgroundColor = "#fdbdbd";
         }
