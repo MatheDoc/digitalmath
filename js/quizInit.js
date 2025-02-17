@@ -194,4 +194,6 @@ function shuffleArray(array) {
 
 // Initiales Laden eines Quiz
 zeigeNeuesQuiz();
-MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+window.onload = function() {
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+};
