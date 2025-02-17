@@ -56,7 +56,7 @@ function zeigeNeuesQuiz() {
                     });
                     
                     // MathJax anwenden
-                    MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
+                    //MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
                     aufgabenZaehler++; // Zähler erhöhen
 
                     // Check-all item ggf. ausblenden, evtl position ändern
@@ -194,3 +194,4 @@ function shuffleArray(array) {
 
 // Initiales Laden eines Quiz
 zeigeNeuesQuiz();
+MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
