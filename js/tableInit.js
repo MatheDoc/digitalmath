@@ -51,42 +51,41 @@ function initializeTable() {
         hideUncheckedRows(table);
     });*/
     
-///////////////////////////
+    ///////////////////////////
 
-// Funktion zum Umschalten der Ansicht
+    // Funktion zum Umschalten der Ansicht
 
-let isFiltered = false; // Status für den Filter-Button speichern
+    let isFiltered = false; // Status für den Filter-Button speichern
 
-function toggleView(table) {
-    const icon = $('#toggleFilter'); // Das gesamte Button-Element
-    if (isFiltered) {
-        // Alle Zeilen wieder anzeigen
-        table.rows().every(function() {
-            $(this.node()).show();
-        });
-        // Symbol wechseln und Button zurücksetzen
-        icon.removeClass('fa-filter').addClass('fa-eye');
-    } else {
-        // Nur Zeilen mit aktivierten Checkboxen anzeigen
-        table.rows().every(function() {
-            const row = $(this.node());
-            const checkbox = row.find('input.rowCheckbox');
-            row.toggle(checkbox.is(':checked')); // Zeige nur markierte
-        });
-        // Symbol wechseln und Button für aktiven Zustand
-        icon.removeClass('fa-eye').addClass('fa-filter');
+    function toggleView(table) {
+        const icon = $('#toggleFilter'); // Das gesamte Button-Element
+        if (isFiltered) {
+            // Alle Zeilen wieder anzeigen
+            table.rows().every(function() {
+                $(this.node()).show();
+            });
+            // Symbol wechseln und Button zurücksetzen
+            icon.removeClass('fa-filter').addClass('fa-eye');
+        } else {
+            // Nur Zeilen mit aktivierten Checkboxen anzeigen
+            table.rows().every(function() {
+                const row = $(this.node());
+                const checkbox = row.find('input.rowCheckbox');
+                row.toggle(checkbox.is(':checked')); // Zeige nur markierte
+            });
+            // Symbol wechseln und Button für aktiven Zustand
+            icon.removeClass('fa-eye').addClass('fa-filter');
+        }
+
+        table.draw(); // Tabelle aktualisieren
+        isFiltered = !isFiltered; // Status umschalten
     }
 
-    table.draw(); // Tabelle aktualisieren
-    isFiltered = !isFiltered; // Status umschalten
-}
 
-
-// Click-Handler für den Toggle-Button
-$('#toggleFilter').on('click', function() {
-    toggleView(table); // Nur die Tabelle an die Funktion übergeben
-});
-
+    // Click-Handler für den Toggle-Button
+    $('#toggleFilter').on('click', function() {
+        toggleView(table); // Nur die Tabelle an die Funktion übergeben
+    });
 
 
     // Teilen-Link generieren
@@ -118,7 +117,7 @@ $('#toggleFilter').on('click', function() {
         $('#meineTabelle').DataTable().rows().every(function() {
             var row = $(this.node());
             var checkbox = row.find('input.rowCheckbox');
-    
+
             // Prüfen, ob die Checkbox aktiviert ist
             if (checkbox.is(':checked')) {
                 var rowData = this.data(); // Zeilendaten abrufen
@@ -129,9 +128,9 @@ $('#toggleFilter').on('click', function() {
         });
         if (urls.length > 0) {
             var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + 
-                          urls.map(url => 'sammlung=' + url).join('&') + 
-                          '&exam=yes';
-    
+                            urls.map(url => 'sammlung=' + url).join('&') + 
+                            '&exam=yes';
+
             window.open(testUrl, '_blank', 'width=440,height=960');
         } else {
             alert('Bitte wählen Sie mindestens eine Checkbox aus.');
@@ -184,6 +183,17 @@ $('#toggleFilter').on('click', function() {
         $('.dataTables_filter input').attr('placeholder', 'Schlagwortsuche');
     }
     adjustSearchFilter() ;
+
+
+
+
+    // Falls der Benutzer den Filter manuell über ein Eingabefeld ändert
+    $('#meineTabelle_filter input').on('input change', function() {
+        checkHiddenChecked(); // Überprüfe versteckte Checkboxen
+    });
+
+
+
 }
 
 // Aufgaben ein und ausblenden
@@ -193,6 +203,46 @@ function toggleAufgaben() {
     var icon = document.getElementById("toggle-icon");
     icon.textContent = div.style.display === "flex"? "▲" : "▼";
 }
+
+
+
+// Prüft, ob durch Filter ausgeblendete Elemente markiert sind
+function checkHiddenChecked() {
+    var hiddenChecked = 0; // Zähler für unsichtbare, markierte Checkboxen
+
+    // Iteriere durch alle Zeilen der Tabelle
+    table.rows().every(function() {
+        var row = $(this.node()); // Hole die Zeile
+        var checkbox = row.find('.rowCheckbox'); // Die Checkbox in der Zeile
+
+        // Überprüfe, ob die Checkbox markiert ist und die Zeile unsichtbar ist
+        // jQuery :hidden prüft, ob das Element nicht sichtbar ist (also auch durch Filter ausgeblendet)
+        if (checkbox.is(':checked') && row.is(':hidden')) {
+            hiddenChecked++;
+        }
+    });
+
+    // Warnhinweis ein-/ausblenden
+    if (hiddenChecked > 0) {
+        $('#warningMessage').show();
+    } else {
+        $('#warningMessage').hide();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 $('#meineTabelle tbody').on('click', 'tr', function(event) {
