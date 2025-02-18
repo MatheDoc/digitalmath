@@ -48,6 +48,7 @@ function zeigeNeuesQuiz() {
                     // Hänge das fertige Aufgaben-Div an den Hauptcontainer an
                     aufgabenContainer.appendChild(aufgabeDiv);
 
+
                     // Select2 für alle Dropdowns in der Aufgabe initialisieren
                     $(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
                         placeholder: "Antwort",
@@ -57,6 +58,7 @@ function zeigeNeuesQuiz() {
                     
                     // MathJax anwenden
                     //MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
+                    renderMathJaxForTask(aufgabenZaehler);
                     aufgabenZaehler++; // Zähler erhöhen
 
                     // Check-all item ggf. ausblenden, evtl position ändern
@@ -193,15 +195,20 @@ function shuffleArray(array) {
     }
 }
 
+// MAthJax
+function renderMathJaxForTask(aufgabenZaehler) {
+    if (window.MathJax && MathJax.Hub && MathJax.Hub.Queue) {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
+    } else {
+        console.warn("MathJax ist noch nicht bereit. Warte auf Initialisierung...");
+        setTimeout(() => renderMathJaxForTask(aufgabenZaehler), 500); // 500ms Verzögerung, dann nochmal versuchen
+    }
+}
+
+
 // Initiales Laden eines Quiz
 zeigeNeuesQuiz();
 
 
-window.addEventListener('load', function() {
-    // Sicherstellen, dass MathJax richtig geladen wird
-    if (typeof MathJax !== "undefined") {
-        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-    } else {
-        console.log("MathJax wurde nicht geladen.");
-    }
-});
+
+
