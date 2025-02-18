@@ -74,14 +74,7 @@ function zeigeNeuesQuiz() {
         document.getElementById('aufgabe').innerText = 'Keine Sammlung gefunden.';
     }
     
-    window.addEventListener('load', function() {
-        // Sicherstellen, dass MathJax richtig geladen wird
-        if (typeof MathJax !== "undefined") {
-            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-        } else {
-            console.log("MathJax wurde nicht geladen.");
-        }
-    });
+
 }
 
 // Aufgabe aus der Sammlung anzeigen
