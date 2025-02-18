@@ -57,8 +57,8 @@ function zeigeNeuesQuiz() {
                     });
                     
                     // MathJax anwenden
-                    //MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
-                    renderMathJaxForTask(aufgabenZaehler);
+                    MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
+                    //renderMathJaxForTask(aufgabenZaehler);
                     aufgabenZaehler++; // Zähler erhöhen
 
                     // Check-all item ggf. ausblenden, evtl position ändern
