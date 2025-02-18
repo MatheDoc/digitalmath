@@ -23,13 +23,8 @@
        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
    
        <!-- MathJax Skript einbinden -->
-       <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>-->
-       <script type="module">
-        import MathJax from 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-    </script>
-    
-       
-       <script type="text/x-mathjax-config">
+       <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+              <script type="text/x-mathjax-config">
            MathJax.Hub.Config({
                tex2jax: {
                    inlineMath: [['\\(','\\)']],  // für inline Math (z.B. \( ... \))
@@ -40,7 +35,26 @@
                    linebreaks: { automatic: true }
                }
            });
-       </script>
+           </script>-->
+
+        <script type="module">
+            import MathJax from 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+        
+            // Initialisierung von MathJax mit Optionen
+            MathJax.config({
+                tex: {
+                    inlineMath: [['\\(','\\)']],  // für inline Math (z.B. \( ... \))
+                    displayMath: [['\\[','\\]'], ['$$','$$']] // für Block Math (z.B. \[ ... \] oder $$ ... $$)
+                },
+                svg: {
+                    fontCache: 'local'  // Verwendung des lokalen SVG-Cache
+                }
+            });
+        
+            // Optionale Verwendung von MathJax typeset, um nach der Dynamischen Inhaltserstellung zu rendern
+            window.MathJax = MathJax;
+        </script>
+        
 </head>
  
 <body>
