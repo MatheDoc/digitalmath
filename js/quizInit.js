@@ -47,7 +47,9 @@ function zeigeNeuesQuiz() {
     
                     // Hänge das fertige Aufgaben-Div an den Hauptcontainer an
                     aufgabenContainer.appendChild(aufgabeDiv);
-
+                    
+// MathJax anwenden für das neu hinzugefügte Div
+MathJax.typesetPromise([aufgabeDiv]);
 
                     // Select2 für alle Dropdowns in der Aufgabe initialisieren
                     $(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
