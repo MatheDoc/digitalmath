@@ -475,6 +475,10 @@ a.link-homepage:hover {
 }
 
 @media print {
+    .aufgabe { 
+        page-break-before: always;
+    }
+    
     @page {
         margin: 0; /* Setzt die Seitenränder auf 0, um Kopf und Fußzeilen mit Meta-Info zu vermeiden */
     }

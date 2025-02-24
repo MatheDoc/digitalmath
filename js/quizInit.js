@@ -34,6 +34,7 @@ function zeigeNeuesQuiz() {
                     // Erstelle einen neuen Div-Container für die Aufgabe
                     const aufgabeDiv = document.createElement('div');
                     aufgabeDiv.id = `aufgabe-${aufgabenZaehler}`; // Eindeutige ID
+                    aufgabeDiv.classList.add('aufgabe'); // Fügt die Klasse hinzu
     
                     // Erstelle eine neue h4-Überschrift für jede Sammlung, falls exam=yes
                     if (exam === 'yes') {
