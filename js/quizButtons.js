@@ -65,8 +65,15 @@ function hideAllAnswers() {
 
 
 // pdf Export
+//function printToPDF() {
+//window.print();
+//}
+
 function printToPDF() {
-window.print(); // Öffnet das Druckdialogfenster des Browsers
+    const element = document.getElementById('aufgaben');
+    html2pdf(element, {
+        pagebreak: { mode: ['css', 'legacy'] }
+    });
 }
 
 
