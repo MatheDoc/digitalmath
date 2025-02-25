@@ -65,16 +65,16 @@ function hideAllAnswers() {
 
 
 // pdf Export
-//function printToPDF() {
-//window.print();
-//}
-
 function printToPDF() {
+window.print();
+}
+
+/*function printToPDF() {
     const element = document.getElementById('aufgaben');
     html2pdf(element, {
         pagebreak: { mode: ['css', 'legacy'] }
     });
-}
+}*/
 
 
 function checkNumericalAnswer(questionId, correctAnswer, tolerance) {
