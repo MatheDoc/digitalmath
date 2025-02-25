@@ -494,11 +494,13 @@ a.link-homepage:hover {
         padding-right: 3cm;
         width: 21cm; /* A4-Breite */
         height: 29.7cm; /* A4-Höhe */
+        color: black;
+        font-size: 1.3em;
     }
 
     .einleitung {
         max-width: 100%;
-        background-color: #ffffff;
+        background-color: transparent;
         border: 0px;
         box-shadow: none;
         margin: 0px;
@@ -507,6 +509,7 @@ a.link-homepage:hover {
 
     ol,  ul {
         max-width: 100%;
+        background-color: transparent;
         list-style-position: outside;
         padding-left: 1cm;
     }
@@ -515,16 +518,10 @@ a.link-homepage:hover {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        
     }
-
-    
 
     img {
         max-width: 50%;
-    }
-    h2 { 
-        display: none;
     }
     h1{
         margin-top: 0px;
@@ -532,19 +529,23 @@ a.link-homepage:hover {
         padding-bottom: 0px;
         display: none;
     }
+    h2 { 
+        display: none;
+    }
     h3{
-        background-color: #929292;
-        border: 1px solid #ccc;
+        background-color: transparent;
+        border: 1px solid black;
         padding: 10px;
         border-radius: 8px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: none;
         margin-bottom: 20px;
         max-width: 100%;
+        font-size: 1.3em;
     }
-
     h4{
         margin-top: 70px;
     }
+    
     li .check-icon{
         display: none !important;
     }
@@ -552,11 +553,10 @@ a.link-homepage:hover {
         display: none !important;
     }
 
-
-    .frage{
+    /*.frage{
         display: inline-block;
         margin-bottom: 20px;
-    }
+    }*/
 
     input[type="text"]{
         visibility: hidden; /* Versteckt das Element, ohne den Platz zu entfernen */
