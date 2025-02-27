@@ -315,15 +315,12 @@ select.mch + .select2-container .select2-selection--single {
     margin-left: 5px;
     position: relative;
 }
-
 .clip-icon {
     color: #ff0000c2;
 }
-
 .clip-icon:hover {
     color: #ff0000;   
 }
-
 .info-icon {
     color: #e2a92db0;
 }
@@ -352,7 +349,6 @@ select.mch + .select2-container .select2-selection--single {
     padding-right: 10px;
     padding-left: 10px;
 }
-
 .check-icon, .check-all-icon {
     color: #5882ffb0;
     margin-left: 5px;
@@ -366,7 +362,6 @@ select.mch + .select2-container .select2-selection--single {
 .auswahl-icon:hover{
     color: #919191;
 }
-
 .eye-icon{
     color: #e2a92db0;
 }
@@ -376,23 +371,18 @@ select.mch + .select2-container .select2-selection--single {
 .reload-icon{
     color: #19a35ead;;
 }
-
 .reload-icon:hover{
     color: #19a35e;;
 }
-
 .pdf-icon{
     color: #e03d31a8;
 }
-
 .pdf-icon:hover{
     color: #E03C31;
 }
-
 .trash-icon{
     color: #693c77a4;
 }
-
 .trash-icon:hover{
     color: #693c77e4;
 }
@@ -476,6 +466,7 @@ a.link-homepage:hover {
 
 @media print {
 
+
     
     .aufgabe {
         page-break-after: always; /* Nach jeder Aufgabe ein Seitenumbruch */
@@ -488,6 +479,9 @@ a.link-homepage:hover {
         margin: 0; /* Setzt die Seitenränder auf 0, um Kopf und Fußzeilen mit Meta-Info zu vermeiden */
     }
 
+
+
+    
     body {
         padding: 2cm;
         padding-left: 3cm;
