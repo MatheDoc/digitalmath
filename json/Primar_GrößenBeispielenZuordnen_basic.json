@@ -1,0 +1,382 @@
+﻿[
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Länge",
+"Geld",
+"Fläche",
+"Gewicht",
+"Volumen",
+"Zeit"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Länge",
+"Gewicht",
+"Zeit",
+"Geld",
+"Fläche",
+"Volumen"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Fläche",
+"Gewicht",
+"Geld",
+"Zeit",
+"Volumen",
+"Länge"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Volumen",
+"Zeit",
+"Geld",
+"Länge",
+"Fläche",
+"Gewicht"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Volumen",
+"Geld",
+"Länge",
+"Fläche",
+"Gewicht",
+"Zeit"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Länge",
+"Fläche",
+"Volumen",
+"Geld",
+"Gewicht",
+"Zeit"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Gewicht",
+"Zeit",
+"Länge",
+"Volumen",
+"Fläche",
+"Geld"
+],
+"antworten":[
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Volumen",
+"Länge",
+"Gewicht",
+"Fläche",
+"Zeit",
+"Geld"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Volumen",
+"Zeit",
+"Gewicht",
+"Fläche",
+"Geld",
+"Länge"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Gewicht",
+"Volumen",
+"Fläche",
+"Länge",
+"Zeit",
+"Geld"
+],
+"antworten":[
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Volumen",
+"Gewicht",
+"Geld",
+"Zeit",
+"Länge",
+"Fläche"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Zeit",
+"Gewicht",
+"Länge",
+"Geld",
+"Fläche",
+"Volumen"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Volumen",
+"Fläche",
+"Geld",
+"Länge",
+"Gewicht",
+"Zeit"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Länge",
+"Volumen",
+"Gewicht",
+"Fläche",
+"Geld",
+"Zeit"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Länge",
+"Volumen",
+"Gewicht",
+"Fläche",
+"Zeit",
+"Geld"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Zeit",
+"Länge",
+"Geld",
+"Fläche",
+"Gewicht",
+"Volumen"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Fläche",
+"Länge",
+"Zeit",
+"Gewicht",
+"Geld",
+"Volumen"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Geld",
+"Fläche",
+"Länge",
+"Volumen",
+"Zeit",
+"Gewicht"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Geld",
+"Gewicht",
+"Fläche",
+"Zeit",
+"Länge",
+"Volumen"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Länge",
+"Zeit",
+"Geld",
+"Gewicht",
+"Fläche",
+"Volumen"
+],
+"antworten":[
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~=Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~=Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~=Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~=Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~=Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~Inhalt in einer Packung Kaffee}",
+"{1:MCH:~Menge einer Portion Fleisch~Dauer eines Arbeitstages~Größe eines Restaurant~Kosten einer Bestellung~Entfernung von der Arbeit nach Hause~=Inhalt in einer Packung Kaffee}"
+]
+}
+]
