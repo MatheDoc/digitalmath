@@ -171,7 +171,7 @@ function replaceNumericalWithInteractive(htmlContent) {
 
 // Ersetze Multiple-Choice-Fragen mit Dropdowns
 function replaceMultipleChoiceWithDropdown(htmlContent) {
-    const pattern = /\{\d+:MCH:([^}]*)\}/g;  
+    const pattern = /\{\d+:MC:([^}]*)\}/g;  
     function replacer(match, optionsString) {
         const options = optionsString.split('~');
         const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim();
