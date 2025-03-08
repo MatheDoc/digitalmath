@@ -2,56 +2,37 @@
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
-"Inhalt eines Glas Honigs",
-"Aufladedauer eines Smartphones auf 100 %",
-"Ausdehnung eines großen Sees",
-"Füllmenge eines großen Wasserspenders",
-"Summe für einen Autokauf",
-"Größe einer Straße"
+"Durchschnittliche Last eines Motorrads",
+"Wert eines Unternehmens",
+"Größe eines durchschnittlichen Hotelzimmers",
+"Größe eines Pappkartons",
+"Entfernung zum Tor",
+"Umlaufdauer des Mondes um die Erde"
 ],
 "antworten":[
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Distanz eines Marathons",
-"Verfügbarkeit auf einem digitalen Wallet",
-"Größe einer typischen Wohnung in Deutschland",
-"Transportlimit eines Fahrstuhls",
-"Menge an Milch in einer Packung",
-"Länge einer typischen Mittagspause"
-],
-"antworten":[
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}"
 ]
 },
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
-"Verweildauer eines Wimpernschlags",
-"Fassungsvermögen eines Wasserbehälters",
-"Distanz von der Erde zum Mond",
-"Ausmaß eines Parkplatzes für ein Auto",
-"Transportlimit eines Fahrstuhls",
-"Preis für eine Eintrittskarte"
+"Laufdauer eines Marathon-Weltrekords",
+"Ausmaß eines Fußballtors",
+"Bildschirmdiagonale eines Fernsehers",
+"Größe eines Pappkartons",
+"Traglast eines Gepäckträgers am Fahrrad",
+"Betrag auf einem Bankkonto"
 ],
 "antworten":[
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}"
 ]
@@ -59,19 +40,57 @@
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
-"Summe auf einem Sparbuch",
-"Maximale Belastung einer Küchenwaage",
-"Verweildauer eines Blitzes in einer Wolke",
-"Größe eines Basketballfeldes",
-"Distanz von der Erde zum Mond",
+"Betrag auf einer Rechnung im Restaurant",
+"Höhe eines Baumes",
+"Ausdehnung eines großen Sees",
+"Umlaufdauer der Erde um die eigene Achse",
+"Schwere eines Ziegelsteins",
 "Fassungsvermögen eines Swimmingpool"
 ],
 "antworten":[
 "{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Betrag auf einem Kredit",
+"Größe einer Werbetafel",
+"Maximale Belastung einer Küchenwaage",
+"Waschdauer eines Standardprogramms einer Waschmaschine",
+"Menge an Sand in einem Sandsack",
+"Entfernung zwischen Arbeitsplatz und Wohnung"
+],
+"antworten":[
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Ausdehnung eines großen Sees",
+"Höhe eines Wolkenkratzers",
+"Betrag einer Spende",
+"Dauer einer Schulstunde",
+"Füllmenge eines großen Wasserspenders",
+"Fassungsvermögen eines Tanks"
+],
+"antworten":[
 "{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}"
 ]
 },
@@ -79,150 +98,93 @@
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
 "Kapazität eines Getreidespeichers",
-"Höhe eines Gebäudes",
-"Dauer eines Fußballspiels ohne Verlängerung",
-"Wert eines Lottogewinns",
-"Durchschnittliche Last eines Motorrads",
-"Ausdehnung eines Werbebanners an einem Gebäude"
-],
-"antworten":[
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Größe eines durchschnittlichen Hotelzimmers",
-"Schwere eines Ziegelsteins",
-"Länge eines Schiffs",
-"Backdauer eines Brotes im Ofen",
-"Menge an Milch in einer Packung",
-"Gesamtbetrag einer Rechnung"
-],
-"antworten":[
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Ausmaß eines Parkplatzes für ein Auto",
-"Ausdehnung eines Fußballfeldes",
-"Länge eines durchschnittlichen Kinofilms",
-"Inhalt einer Flasche",
-"Auszahlungsbetrag eines Schecks",
-"Traglast eines Gepäckträgers am Fahrrad"
-],
-"antworten":[
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Größe eines DIN-A4-Blatts",
-"Zuladekapazität eines modernen Elektroautos",
+"Ausdehnung eines Handtuchs",
+"Entfernung zum Tor",
+"Last einer handelsüblichen Kurzhantel",
 "Verbleibender Betrag nach einem Einkauf",
-"Größe einer Straße",
-"Füllmenge eines großen Marmeladenglases",
-"Waschdauer eines Standardprogramms einer Waschmaschine"
+"Kochdauer eines Frühstückseis"
 ],
 "antworten":[
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}"
 ]
 },
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
-"Distanz zwischen zwei Haltestellen",
-"Inhalt eines Kühlschranks",
-"Preis für eine Eintrittskarte",
-"Maximale Belastung einer Küchenwaage",
-"Dauer eines Herzschlags eines Erwachsenen",
-"Ausdehnung einer Tischplatte"
-],
-"antworten":[
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Länge eines Autokennzeichens",
-"Verweildauer eines Blitzes in einer Wolke",
-"Gesamtbetrag einer Rechnung",
-"Ausmaß eines Tennisplatzes",
-"Menge an Brot",
-"Inhalt eines Kühlschranks"
-],
-"antworten":[
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Laufdauer eines Marathon-Weltrekords",
-"Größe eines durchschnittlichen Hotelzimmers",
+"Inhalt eines Glas Honigs",
+"Höhe eines Baums",
+"Wartezeit an einer Supermarktkasse",
 "Wert einer Immobilie",
-"Menge an Sand in einem Sandsack",
-"Schwere eines Fußballes",
-"Höhe eines Wolkenkratzers"
+"Ausmaß eines Fußballtors",
+"Maximale Belastung einer Küchenwaage"
 ],
 "antworten":[
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}"
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}"
 ]
 },
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
-"Größe einer Picknickdecke",
-"Gesamtbetrag einer Rechnung",
-"Menge an Flüssigkeit in einer Badewanne",
-"Länge eines durchschnittlichen Kinofilms",
-"Breite eines Fensters",
-"Menge einer Portion Fleisch"
+"Inhalt eines Kühlschranks",
+"Größe eines Wohnzimmerteppichs",
+"Summe für einen Autokauf",
+"Schwere eines Ziegelsteins",
+"Distanz eines Marathons",
+"Reisedauer für einen Flug von Berlin nach Paris"
 ],
 "antworten":[
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Höhe eines Berges",
+"Kochdauer für eine Portion Nudeln",
+"Kapazität eines Frachtcontainers",
+"Ausmaß eines Parkplatzes für ein Auto",
+"Last einer handelsüblichen Kurzhantel",
+"Wert eines Lottogewinns"
+],
+"antworten":[
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Preis für eine Eintrittskarte",
+"Inhalt einer Flasche",
+"Kochdauer eines Frühstückseis",
+"Ausmaß eines Schwimmbeckens im Freibad",
+"Entfernung zwischen zwei Städten",
+"Zuladekapazität eines modernen Elektroautos"
+],
+"antworten":[
 "{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}"
 ]
@@ -231,152 +193,190 @@
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
 "Verweildauer eines Blitzes in einer Wolke",
-"Ausdehnung eines kleinen Balkons",
-"Summe für einen Autokauf",
-"Höhe eines Baumes",
-"Schwere eines Fußballes",
-"Menge an Sand in einem Sandsack"
+"Ausdehnung eines durchschnittlichen Gartens",
+"Betrag auf einem Bankkonto",
+"Transportlast eines großen Pakets",
+"Inhalt eines Kühlschranks",
+"Breite eines Fensters"
 ],
 "antworten":[
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}"
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}"
 ]
 },
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
 "Transportlimit eines Fahrstuhls",
-"Backdauer eines Brotes im Ofen",
-"Betrag einer Steuererstattung",
-"Fassungsvermögen eines Tanks",
-"Größe eines Basketballfeldes",
-"Durchmesser eines Tisches"
-],
-"antworten":[
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Wert einer Immobilie",
-"Kochdauer eines Frühstückseis",
-"Schwere eines durchschnittlichen Labradors",
-"Größe eines Schulhofs",
-"Maß eines Zuges",
-"Inhalt eines Glas Honigs"
-],
-"antworten":[
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Summe auf einem Sparbuch",
-"Ausdehnung einer Tischplatte",
-"Kochdauer für eine Portion Nudeln",
+"Wert eines Lottogewinns",
+"Entfernung zwischen zwei Städten",
 "Inhalt eines Kühlschranks",
-"Menge an Brot",
-"Tiefe eines Swimmingpools"
+"Ausdehnung einer Tischplatte",
+"Backdauer eines Brotes im Ofen"
+],
+"antworten":[
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Verbleibender Betrag nach einem Einkauf",
+"Wachstumsdauer eines Baumes bis zur ersten Blätterbildung im Frühling",
+"Transportlimit eines Fahrstuhls",
+"Fassungsvermögen eines Swimmingpool",
+"Größe einer Picknickdecke",
+"Bildschirmdiagonale eines Fernsehers"
 ],
 "antworten":[
 "{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}"
 ]
 },
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
-"Menge einer Portion Fleisch",
-"Betrag auf einem Bankkonto",
-"Höhe eines Wolkenkratzers",
-"Umlaufdauer der Erde um die eigene Achse",
-"Inhalt eines Zementsacks",
-"Größe eines Fußballfeldes"
+"Kapazität eines Frachtcontainers",
+"Betrag auf einem Kredit",
+"Bildschirmdiagonale eines Fernsehers",
+"Ausmaß eines Parkplatzes für ein Auto",
+"Dauer eines Herzschlags eines Erwachsenen",
+"Zuladekapazität eines modernen Elektroautos"
+],
+"antworten":[
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Kapazität eines Rucksacks",
+"Bildschirmdiagonale eines Fernsehers",
+"Aufladedauer eines Smartphones auf 100 %",
+"Schwere eines Fußballes",
+"Ausdehnung eines durchschnittlichen Gartens",
+"Summe für einen Autokauf"
+],
+"antworten":[
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Breite eines Flusses",
+"Ausdehnung eines kleinen Balkons",
+"Menge an Luft in einem Raum",
+"Reisedauer für einen Flug von Berlin nach Paris",
+"Transportlast einer Waschmaschine",
+"Summe auf einem Sparbuch"
+],
+"antworten":[
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Betrag einer Steuererstattung",
+"Größe eines Schulhofs",
+"Menge an Wasser in einem Eiskübel",
+"Tiefe eines Swimmingpools",
+"Maximales Gepäcklimit im Flugzeug",
+"Gesprächsdauer eines durchschnittlichen Telefonats"
+],
+"antworten":[
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}"
+]
+},
+{
+"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
+"fragen":[
+"Menge an Brot",
+"Inhalt eines Schwimmbeckens",
+"Breite eines Fensters",
+"Reisedauer für einen Flug von Berlin nach Paris",
+"Betrag einer Steuererstattung",
+"Größe eines Basketballfeldes"
 ],
 "antworten":[
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}"
 ]
 },
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
-"Gesprächsdauer eines durchschnittlichen Telefonats",
-"Transportlast einer Waschmaschine",
-"Ausdehnung eines durchschnittlichen Gartens",
-"Wert eines Unternehmens",
-"Inhalt eines Zementsacks",
-"Höhe eines Gebäudes"
+"Größe einer Picknickdecke",
+"Fassungsvermögen eines Tanks",
+"Wert eines Bargeldbestands",
+"Wartezeit an einer Supermarktkasse",
+"Füllmenge eines großen Wasserspenders",
+"Maß eines Zuges"
 ],
 "antworten":[
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
 "{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}"
 ]
 },
 {
 "einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
 "fragen":[
-"Inhalt einer Flasche",
-"Betrag auf einem Kredit",
-"Höhe eines Berges",
-"Ausdehnung eines großen Sees",
-"Gesprächsdauer eines durchschnittlichen Telefonats",
-"Inhalt eines Mehlsacks"
-],
-"antworten":[
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}"
-]
-},
-{
-"einleitung":"Ordnen Sie die Einheiten der jeweils passenden Größe zu.",
-"fragen":[
-"Wert eines Lottogewinns",
-"Ausdehnung eines Werbebanners an einem Gebäude",
-"Füllmenge eines Eimers",
+"Inhalt eines Zementsacks",
 "Dauer eines Fußballspiels ohne Verlängerung",
-"Durchmesser eines Tisches",
-"Menge an Pizzakäse"
+"Inhalt eines Mehlsacks",
+"Entfernung zum Tor",
+"Kosten für eine Dienstleistung",
+"Ausmaß eines Parkplatzes für ein Auto"
 ],
 "antworten":[
-"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
-"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~Länge~=Volumen}",
 "{1:MC:~Gewicht~=Zeit~Fläche~Geld~Länge~Volumen}",
+"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}",
 "{1:MC:~Gewicht~Zeit~Fläche~Geld~=Länge~Volumen}",
-"{1:MC:~=Gewicht~Zeit~Fläche~Geld~Länge~Volumen}"
+"{1:MC:~Gewicht~Zeit~Fläche~=Geld~Länge~Volumen}",
+"{1:MC:~Gewicht~Zeit~=Fläche~Geld~Länge~Volumen}"
 ]
 }
 ]

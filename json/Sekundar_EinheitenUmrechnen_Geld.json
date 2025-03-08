@@ -1,342 +1,342 @@
 ﻿[
 {
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
 "fragen":[
-"730,8 c (Hunderstel US-Dollar)",
-"8,64 €",
-"1,044 $",
-"392 ct. (Hunderstel Euro)",
-"896,4 c (Hunderstel US-Dollar)"
+"Betrag: 367,2 c (Hunderstel US-Dollar)",
+"Betrag: 7,32 $",
+"Betrag: 5,91 €",
+"Betrag: 903 ct. (Hunderstel Euro)",
+"Betrag: 4,608 $"
 ],
 "antworten":[
-"{1:NUMERICAL:=7,308:0} $",
+"{1:NUMERICAL:=3,672:0} $",
+"{1:NUMERICAL:=6,1:0} €",
+"{1:NUMERICAL:=591:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=1083,6:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=460,8:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 888 c (Hunderstel US-Dollar)",
+"Betrag: 0,516 $",
+"Betrag: 32,4 c (Hunderstel US-Dollar)",
+"Betrag: 7,104 $",
+"Betrag: 778 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=740:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=43:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=0,324:0} $",
+"{1:NUMERICAL:=5,92:0} €",
+"{1:NUMERICAL:=9,336:0} $"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 93,6 c (Hunderstel US-Dollar)",
+"Betrag: 564 ct. (Hunderstel Euro)",
+"Betrag: 799 ct. (Hunderstel Euro)",
+"Betrag: 4,47 €",
+"Betrag: 1,584 $"
+],
+"antworten":[
+"{1:NUMERICAL:=78:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=676,8:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=9,588:0} $",
+"{1:NUMERICAL:=5,364:0} $",
+"{1:NUMERICAL:=158,4:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 603,6 c (Hunderstel US-Dollar)",
+"Betrag: 11,304 $",
+"Betrag: 382 ct. (Hunderstel Euro)",
+"Betrag: 571,2 c (Hunderstel US-Dollar)",
+"Betrag: 10,728 $"
+],
+"antworten":[
+"{1:NUMERICAL:=6,036:0} $",
+"{1:NUMERICAL:=942:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=3,82:0} €",
+"{1:NUMERICAL:=476:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=1072,8:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 367,2 c (Hunderstel US-Dollar)",
+"Betrag: 7,32 $",
+"Betrag: 5,91 €",
+"Betrag: 903 ct. (Hunderstel Euro)",
+"Betrag: 4,608 $"
+],
+"antworten":[
+"{1:NUMERICAL:=3,672:0} $",
+"{1:NUMERICAL:=6,1:0} €",
+"{1:NUMERICAL:=591:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=1083,6:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=460,8:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 888 c (Hunderstel US-Dollar)",
+"Betrag: 0,516 $",
+"Betrag: 32,4 c (Hunderstel US-Dollar)",
+"Betrag: 7,104 $",
+"Betrag: 778 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=740:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=43:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=0,324:0} $",
+"{1:NUMERICAL:=5,92:0} €",
+"{1:NUMERICAL:=9,336:0} $"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 7,13 €",
+"Betrag: 1,3 €",
+"Betrag: 2,148 $",
+"Betrag: 6,9 $",
+"Betrag: 445 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=8,556:0} $",
+"{1:NUMERICAL:=130:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=179:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=5,75:0} €",
+"{1:NUMERICAL:=534:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 517 ct. (Hunderstel Euro)",
+"Betrag: 2,57 €",
+"Betrag: 4,96 €",
+"Betrag: 7,116 $",
+"Betrag: 352,8 c (Hunderstel US-Dollar)"
+],
+"antworten":[
+"{1:NUMERICAL:=620,4:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=257:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=5,952:0} $",
+"{1:NUMERICAL:=711,6:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=294:0} ct. (Hunderstel Euro)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 214,8 c (Hunderstel US-Dollar)",
+"Betrag: 330 ct. (Hunderstel Euro)",
+"Betrag: 2,076 $",
+"Betrag: 8,28 $",
+"Betrag: 183 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=2,148:0} $",
+"{1:NUMERICAL:=3,96:0} $",
+"{1:NUMERICAL:=207,6:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=690:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=219,6:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 614 ct. (Hunderstel Euro)",
+"Betrag: 3,9 $",
+"Betrag: 708 c (Hunderstel US-Dollar)",
+"Betrag: 2,92 €",
+"Betrag: 7,632 $"
+],
+"antworten":[
+"{1:NUMERICAL:=7,368:0} $",
+"{1:NUMERICAL:=3,25:0} €",
+"{1:NUMERICAL:=590:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=3,504:0} $",
+"{1:NUMERICAL:=636:0} ct. (Hunderstel Euro)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 10,128 $",
+"Betrag: 3,36 €",
+"Betrag: 766,8 c (Hunderstel US-Dollar)",
+"Betrag: 330 ct. (Hunderstel Euro)",
+"Betrag: 648 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=8,44:0} €",
+"{1:NUMERICAL:=336:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=7,668:0} $",
+"{1:NUMERICAL:=3,3:0} €",
+"{1:NUMERICAL:=777,6:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 442 ct. (Hunderstel Euro)",
+"Betrag: 3,62 €",
+"Betrag: 171 ct. (Hunderstel Euro)",
+"Betrag: 872,4 c (Hunderstel US-Dollar)",
+"Betrag: 0,528 $"
+],
+"antworten":[
+"{1:NUMERICAL:=4,42:0} €",
+"{1:NUMERICAL:=4,344:0} $",
+"{1:NUMERICAL:=205,2:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=8,724:0} $",
+"{1:NUMERICAL:=44:0} ct. (Hunderstel Euro)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 1009,2 c (Hunderstel US-Dollar)",
+"Betrag: 854 ct. (Hunderstel Euro)",
+"Betrag: 8,08 €",
+"Betrag: 1084,8 c (Hunderstel US-Dollar)",
+"Betrag: 928 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=10,092:0} $",
+"{1:NUMERICAL:=10,248:0} $",
+"{1:NUMERICAL:=9,696:0} $",
+"{1:NUMERICAL:=904:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=9,28:0} €"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 395 ct. (Hunderstel Euro)",
+"Betrag: 234 c (Hunderstel US-Dollar)",
+"Betrag: 1,104 $",
+"Betrag: 2,412 $",
+"Betrag: 418 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=4,74:0} $",
+"{1:NUMERICAL:=2,34:0} $",
+"{1:NUMERICAL:=110,4:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=201:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=501,6:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 5,82 $",
+"Betrag: 0,648 $",
+"Betrag: 1,93 €",
+"Betrag: 818,4 c (Hunderstel US-Dollar)",
+"Betrag: 2,148 $"
+],
+"antworten":[
+"{1:NUMERICAL:=4,85:0} €",
+"{1:NUMERICAL:=54:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=2,316:0} $",
+"{1:NUMERICAL:=8,184:0} $",
+"{1:NUMERICAL:=214,8:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 67 ct. (Hunderstel Euro)",
+"Betrag: 556,8 c (Hunderstel US-Dollar)",
+"Betrag: 5,232 $",
+"Betrag: 7,16 €",
+"Betrag: 225 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=80,4:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=5,568:0} $",
+"{1:NUMERICAL:=523,2:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=716:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=2,25:0} €"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 0,53 €",
+"Betrag: 825 ct. (Hunderstel Euro)",
+"Betrag: 3,31 €",
+"Betrag: 278 ct. (Hunderstel Euro)",
+"Betrag: 2,76 $"
+],
+"antworten":[
+"{1:NUMERICAL:=0,636:0} $",
+"{1:NUMERICAL:=9,9:0} $",
+"{1:NUMERICAL:=331:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=333,6:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=276:0} c (Hunderstel US-Dollar)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 0,504 $",
+"Betrag: 7 €",
+"Betrag: 490 ct. (Hunderstel Euro)",
+"Betrag: 616,8 c (Hunderstel US-Dollar)",
+"Betrag: 2,364 $"
+],
+"antworten":[
+"{1:NUMERICAL:=50,4:0} c (Hunderstel US-Dollar)",
+"{1:NUMERICAL:=700:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=5,88:0} $",
+"{1:NUMERICAL:=514:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=197:0} ct. (Hunderstel Euro)"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 13,2 c (Hunderstel US-Dollar)",
+"Betrag: 654 ct. (Hunderstel Euro)",
+"Betrag: 11,796 $",
+"Betrag: 1,824 $",
+"Betrag: 370 ct. (Hunderstel Euro)"
+],
+"antworten":[
+"{1:NUMERICAL:=11:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=6,54:0} €",
+"{1:NUMERICAL:=9,83:0} €",
+"{1:NUMERICAL:=152:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=4,44:0} $"
+]
+},
+{
+"einleitung":"Geben Sie die Geldbeträge  in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
+"fragen":[
+"Betrag: 1,5 $",
+"Betrag: 567 ct. (Hunderstel Euro)",
+"Betrag: 0,588 $",
+"Betrag: 8,64 €",
+"Betrag: 690 c (Hunderstel US-Dollar)"
+],
+"antworten":[
+"{1:NUMERICAL:=125:0} ct. (Hunderstel Euro)",
+"{1:NUMERICAL:=5,67:0} €",
+"{1:NUMERICAL:=58,8:0} c (Hunderstel US-Dollar)",
 "{1:NUMERICAL:=10,368:0} $",
-"{1:NUMERICAL:=0,87:0} €",
-"{1:NUMERICAL:=4,704:0} $",
-"{1:NUMERICAL:=747:0} ct. (Hunderstel Euro)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"649 ct. (Hunderstel Euro)",
-"6,972 $",
-"4,86 €",
-"4,332 $",
-"9,02 €"
-],
-"antworten":[
-"{1:NUMERICAL:=6,49:0} €",
-"{1:NUMERICAL:=581:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=5,832:0} $",
-"{1:NUMERICAL:=433,2:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=902:0} ct. (Hunderstel Euro)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"3,276 $",
-"175,2 c (Hunderstel US-Dollar)",
-"519,6 c (Hunderstel US-Dollar)",
-"7,88 €",
-"253 ct. (Hunderstel Euro)"
-],
-"antworten":[
-"{1:NUMERICAL:=327,6:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=146:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=5,196:0} $",
-"{1:NUMERICAL:=788:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=2,53:0} €"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"776,4 c (Hunderstel US-Dollar)",
-"486 ct. (Hunderstel Euro)",
-"5,424 $",
-"3,516 $",
-"990 ct. (Hunderstel Euro)"
-],
-"antworten":[
-"{1:NUMERICAL:=7,764:0} $",
-"{1:NUMERICAL:=5,832:0} $",
-"{1:NUMERICAL:=542,4:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=293:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=9,9:0} €"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"511,2 c (Hunderstel US-Dollar)",
-"9,51 €",
-"958 ct. (Hunderstel Euro)",
-"1,512 $",
-"2,976 $"
-],
-"antworten":[
-"{1:NUMERICAL:=426:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=951:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=9,58:0} €",
-"{1:NUMERICAL:=1,26:0} €",
-"{1:NUMERICAL:=248:0} ct. (Hunderstel Euro)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"414 c (Hunderstel US-Dollar)",
-"1005,6 c (Hunderstel US-Dollar)",
-"8,07 €",
-"743 ct. (Hunderstel Euro)",
-"10,152 $"
-],
-"antworten":[
-"{1:NUMERICAL:=345:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=10,056:0} $",
-"{1:NUMERICAL:=807:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=8,916:0} $",
-"{1:NUMERICAL:=8,46:0} €"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"11,28 $",
-"4,75 €",
-"562 ct. (Hunderstel Euro)",
-"799,2 c (Hunderstel US-Dollar)",
-"945 ct. (Hunderstel Euro)"
-],
-"antworten":[
-"{1:NUMERICAL:=940:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=5,7:0} $",
-"{1:NUMERICAL:=6,744:0} $",
-"{1:NUMERICAL:=7,992:0} $",
-"{1:NUMERICAL:=1134:0} c (Hunderstel US-Dollar)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"649,2 c (Hunderstel US-Dollar)",
-"8,59 €",
-"415 ct. (Hunderstel Euro)",
-"4,896 $",
-"10,632 $"
-],
-"antworten":[
-"{1:NUMERICAL:=541:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=10,308:0} $",
-"{1:NUMERICAL:=4,98:0} $",
-"{1:NUMERICAL:=4,08:0} €",
-"{1:NUMERICAL:=886:0} ct. (Hunderstel Euro)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"9,48 €",
-"443 ct. (Hunderstel Euro)",
-"228 c (Hunderstel US-Dollar)",
-"828 c (Hunderstel US-Dollar)",
-"651 ct. (Hunderstel Euro)"
-],
-"antworten":[
-"{1:NUMERICAL:=948:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=4,43:0} €",
-"{1:NUMERICAL:=190:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=8,28:0} $",
-"{1:NUMERICAL:=781,2:0} c (Hunderstel US-Dollar)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"346 ct. (Hunderstel Euro)",
-"853,2 c (Hunderstel US-Dollar)",
-"436 ct. (Hunderstel Euro)",
-"4,9 €",
-"6,996 $"
-],
-"antworten":[
-"{1:NUMERICAL:=415,2:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=711:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=4,36:0} €",
-"{1:NUMERICAL:=490:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=699,6:0} c (Hunderstel US-Dollar)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"4,13 €",
-"381,6 c (Hunderstel US-Dollar)",
-"10,536 $",
-"3,1 €",
-"859 ct. (Hunderstel Euro)"
-],
-"antworten":[
-"{1:NUMERICAL:=4,956:0} $",
-"{1:NUMERICAL:=3,816:0} $",
-"{1:NUMERICAL:=878:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=310:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=1030,8:0} c (Hunderstel US-Dollar)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"11,58 $",
-"4,87 €",
-"80 ct. (Hunderstel Euro)",
-"22,8 c (Hunderstel US-Dollar)",
-"5,82 $"
-],
-"antworten":[
-"{1:NUMERICAL:=9,65:0} €",
-"{1:NUMERICAL:=487:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=96:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=19:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=485:0} ct. (Hunderstel Euro)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"10,236 $",
-"8,22 €",
-"640 ct. (Hunderstel Euro)",
-"11,4 $",
-"916 ct. (Hunderstel Euro)"
-],
-"antworten":[
-"{1:NUMERICAL:=8,53:0} €",
-"{1:NUMERICAL:=822:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=7,68:0} $",
-"{1:NUMERICAL:=1140:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=1099,2:0} c (Hunderstel US-Dollar)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"1,992 $",
-"6,828 $",
-"0,41 €",
-"7,65 €",
-"732 c (Hunderstel US-Dollar)"
-],
-"antworten":[
-"{1:NUMERICAL:=199,2:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=569:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=0,492:0} $",
-"{1:NUMERICAL:=765:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=610:0} ct. (Hunderstel Euro)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"1,89 €",
-"2,556 $",
-"3,432 $",
-"563 ct. (Hunderstel Euro)",
-"4,26 €"
-],
-"antworten":[
-"{1:NUMERICAL:=2,268:0} $",
-"{1:NUMERICAL:=213:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=343,2:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=675,6:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=426:0} ct. (Hunderstel Euro)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"162 ct. (Hunderstel Euro)",
-"274,8 c (Hunderstel US-Dollar)",
-"4,404 $",
-"151,2 c (Hunderstel US-Dollar)",
-"766 ct. (Hunderstel Euro)"
-],
-"antworten":[
-"{1:NUMERICAL:=1,62:0} €",
-"{1:NUMERICAL:=2,748:0} $",
-"{1:NUMERICAL:=440,4:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=126:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=919,2:0} c (Hunderstel US-Dollar)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"511 ct. (Hunderstel Euro)",
-"8,292 $",
-"4,56 $",
-"0,66 €",
-"444 ct. (Hunderstel Euro)"
-],
-"antworten":[
-"{1:NUMERICAL:=6,132:0} $",
-"{1:NUMERICAL:=829,2:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=3,8:0} €",
-"{1:NUMERICAL:=66:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=4,44:0} €"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"4,62 $",
-"486 ct. (Hunderstel Euro)",
-"9,72 $",
-"1,44 €",
-"7,944 $"
-],
-"antworten":[
-"{1:NUMERICAL:=385:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=5,832:0} $",
-"{1:NUMERICAL:=8,1:0} €",
-"{1:NUMERICAL:=1,728:0} $",
-"{1:NUMERICAL:=794,4:0} c (Hunderstel US-Dollar)"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"8,46 $",
-"7,86 $",
-"972 ct. (Hunderstel Euro)",
-"4,6 €",
-"1040,4 c (Hunderstel US-Dollar)"
-],
-"antworten":[
-"{1:NUMERICAL:=705:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=786:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=9,72:0} €",
-"{1:NUMERICAL:=5,52:0} $",
-"{1:NUMERICAL:=10,404:0} $"
-]
-},
-{
-"einleitung":"Geben Sie die Größen in der gesuchten Einheit an. Hinweis: 1€ = 1,2$ (US-Dollar)",
-"fragen":[
-"68 ct. (Hunderstel Euro)",
-"3,03 €",
-"7,74 $",
-"1,884 $",
-"9,43 €"
-],
-"antworten":[
-"{1:NUMERICAL:=81,6:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=3,636:0} $",
-"{1:NUMERICAL:=645:0} ct. (Hunderstel Euro)",
-"{1:NUMERICAL:=188,4:0} c (Hunderstel US-Dollar)",
-"{1:NUMERICAL:=943:0} ct. (Hunderstel Euro)"
+"{1:NUMERICAL:=6,9:0} $"
 ]
 }
 ]
