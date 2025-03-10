@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Sekundar/05 Dreisatz/MerhöhtZuN</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 8 Zimtschnecken werden 80g Zucker benötigt. <br>Zusätzlich werden 20 Zimtschnecken gebacken. Für alle Zimtschnecken zusammen werden {1:NUMERICAL:=280:0}g Zucker benötigt.</li></ol><ol><li value="2">5 Äpfel kosten 6,5 €.<br>Zuätzlich werden 12 Äpfel gekauft. Alle Äpfel zusammen kosten {1:NUMERICAL:=22,1:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 17 Schokoladencroissants werden 255g Zucker benötigt. <br>Zusätzlich werden 6 Schokoladencroissants gebacken. Für alle Schokoladencroissants zusammen werden {1:NUMERICAL:=345:0}g Zucker benötigt.</li></ol><ol><li value="2">5 Bananen kosten 2,5 €.<br>Zuätzlich werden 15 Bananen gekauft. Alle Bananen zusammen kosten {1:NUMERICAL:=10:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">7 Karotten kosten 15,4 €.<br>Zuätzlich werden 5 Karotten gekauft. Alle Karotten zusammen kosten {1:NUMERICAL:=26,4:0}€.</li></ol><ol><li value="2">Für 20 Franzbrötchen werden 1100g Mehl benötigt. <br>Zusätzlich werden 20 Franzbrötchen gebacken. Für alle Franzbrötchen zusammen werden {1:NUMERICAL:=2200:0}g Mehl benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 9 Nussschnecken werden 540g Mehl benötigt. <br>Zusätzlich werden 5 Nussschnecken gebacken. Für alle Nussschnecken zusammen werden {1:NUMERICAL:=840:0}g Mehl benötigt.</li></ol><ol><li value="2">7 Kartoffeln kosten 9,1 €.<br>Zuätzlich werden 8 Kartoffeln gekauft. Alle Kartoffeln zusammen kosten {1:NUMERICAL:=19,5:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 17 Puddingbrezeln werden 1105g Mehl benötigt. <br>Zusätzlich werden 10 Puddingbrezeln gebacken. Für alle Puddingbrezeln zusammen werden {1:NUMERICAL:=1755:0}g Mehl benötigt.</li></ol><ol><li value="2">6 Zwiebeln kosten 3 €.<br>Zuätzlich werden 10 Zwiebeln gekauft. Alle Zwiebeln zusammen kosten {1:NUMERICAL:=8:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 11 Rosinenschnecken werden 385g Zucker benötigt. <br>Zusätzlich werden 7 Rosinenschnecken gebacken. Für alle Rosinenschnecken zusammen werden {1:NUMERICAL:=630:0}g Zucker benötigt.</li></ol><ol><li value="2">2 Tomaten kosten 2,2 €.<br>Zuätzlich werden 7 Tomaten gekauft. Alle Tomaten zusammen kosten {1:NUMERICAL:=9,9:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">20 Gurken kosten 44 €.<br>Zuätzlich werden 10 Gurken gekauft. Alle Gurken zusammen kosten {1:NUMERICAL:=66:0}€.</li></ol><ol><li value="2">Für 19 Apfeltaschen werden 760g Zucker benötigt. <br>Zusätzlich werden 12 Apfeltaschen gebacken. Für alle Apfeltaschen zusammen werden {1:NUMERICAL:=1240:0}g Zucker benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">20 Paprika kosten 28 €.<br>Zuätzlich werden 12 Paprika gekauft. Alle Paprika zusammen kosten {1:NUMERICAL:=44,8:0}€.</li></ol><ol><li value="2">Für 8 Quarktaschen werden 360g Zucker benötigt. <br>Zusätzlich werden 16 Quarktaschen gebacken. Für alle Quarktaschen zusammen werden {1:NUMERICAL:=1080:0}g Zucker benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">19 Eier kosten 9,5 €.<br>Zuätzlich werden 15 Eier gekauft. Alle Eier zusammen kosten {1:NUMERICAL:=17:0}€.</li></ol><ol><li value="2">Für 16 Berliner werden 800g Mehl benötigt. <br>Zusätzlich werden 2 Berliner gebacken. Für alle Berliner zusammen werden {1:NUMERICAL:=900:0}g Mehl benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 5 Krapfen werden 300g Mehl benötigt. <br>Zusätzlich werden 7 Krapfen gebacken. Für alle Krapfen zusammen werden {1:NUMERICAL:=720:0}g Mehl benötigt.</li></ol><ol><li value="2">18 Brötchen kosten 28,8 €.<br>Zuätzlich werden 18 Brötchen gekauft. Alle Brötchen zusammen kosten {1:NUMERICAL:=57,6:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 14 Eclairs werden 910g Mehl benötigt. <br>Zusätzlich werden 12 Eclairs gebacken. Für alle Eclairs zusammen werden {1:NUMERICAL:=1690:0}g Mehl benötigt.</li></ol><ol><li value="2">18 Steckrüben kosten 14,4 €.<br>Zuätzlich werden 2 Steckrüben gekauft. Alle Steckrüben zusammen kosten {1:NUMERICAL:=16:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 8 Buttercroissants werden 280g Zucker benötigt. <br>Zusätzlich werden 8 Buttercroissants gebacken. Für alle Buttercroissants zusammen werden {1:NUMERICAL:=560:0}g Zucker benötigt.</li></ol><ol><li value="2">14 Joghurts kosten 19,6 €.<br>Zuätzlich werden 17 Joghurts gekauft. Alle Joghurts zusammen kosten {1:NUMERICAL:=43,4:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 16 Mandelhörnchen werden 640g Zucker benötigt. <br>Zusätzlich werden 13 Mandelhörnchen gebacken. Für alle Mandelhörnchen zusammen werden {1:NUMERICAL:=1160:0}g Zucker benötigt.</li></ol><ol><li value="2">13 Milchtüten kosten 7,8 €.<br>Zuätzlich werden 20 Milchtüten gekauft. Alle Milchtüten zusammen kosten {1:NUMERICAL:=19,8:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">12 Müsliriegel kosten 20,4 €.<br>Zuätzlich werden 4 Müsliriegel gekauft. Alle Müsliriegel zusammen kosten {1:NUMERICAL:=27,2:0}€.</li></ol><ol><li value="2">Für 5 Donuts werden 225g Zucker benötigt. <br>Zusätzlich werden 18 Donuts gebacken. Für alle Donuts zusammen werden {1:NUMERICAL:=1035:0}g Zucker benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">12 Kaugummipackungen kosten 9,6 €.<br>Zuätzlich werden 6 Kaugummipackungen gekauft. Alle Kaugummipackungen zusammen kosten {1:NUMERICAL:=14,4:0}€.</li></ol><ol><li value="2">Für 13 Vanillekipferl werden 650g Zucker benötigt. <br>Zusätzlich werden 4 Vanillekipferl gebacken. Für alle Vanillekipferl zusammen werden {1:NUMERICAL:=850:0}g Zucker benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">11 Würste kosten 22 €.<br>Zuätzlich werden 9 Würste gekauft. Alle Würste zusammen kosten {1:NUMERICAL:=40:0}€.</li></ol><ol><li value="2">Für 2 Bienenstiche werden 110g Zucker benötigt. <br>Zusätzlich werden 9 Bienenstiche gebacken. Für alle Bienenstiche zusammen werden {1:NUMERICAL:=605:0}g Zucker benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 10 Schweineohren werden 600g Zucker benötigt. <br>Zusätzlich werden 14 Schweineohren gebacken. Für alle Schweineohren zusammen werden {1:NUMERICAL:=1440:0}g Zucker benötigt.</li></ol><ol><li value="2">10 Dosen Linsen kosten 11 €.<br>Zuätzlich werden 12 Dosen Linsen gekauft. Alle Dosen Linsen zusammen kosten {1:NUMERICAL:=24,2:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 5 Dänische Plunder werden 150g Butter benötigt. <br>Zusätzlich werden 10 Dänische Plunder gebacken. Für alle Dänische Plunder zusammen werden {1:NUMERICAL:=450:0}g Butter benötigt.</li></ol><ol><li value="2">6 Ketchuptuben kosten 10,2 €.<br>Zuätzlich werden 9 Ketchuptuben gekauft. Alle Ketchuptuben zusammen kosten {1:NUMERICAL:=25,5:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für 13 Blätterteigstangen werden 455g Butter benötigt. <br>Zusätzlich werden 15 Blätterteigstangen gebacken. Für alle Blätterteigstangen zusammen werden {1:NUMERICAL:=980:0}g Butter benötigt.</li></ol><ol><li value="2">6 Senfgläser kosten 5,4 €.<br>Zuätzlich werden 11 Senfgläser gekauft. Alle Senfgläser zusammen kosten {1:NUMERICAL:=15,3:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">5 Avocados kosten 10 €.<br>Zuätzlich werden 14 Avocados gekauft. Alle Avocados zusammen kosten {1:NUMERICAL:=38:0}€.</li></ol><ol><li value="2">Für 2 Streuseltaler werden 90g Butter benötigt. <br>Zusätzlich werden 20 Streuseltaler gebacken. Für alle Streuseltaler zusammen werden {1:NUMERICAL:=990:0}g Butter benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+

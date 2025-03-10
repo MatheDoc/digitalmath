@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Sekundar/05 Dreisatz/1zuN</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für eine Zimtschnecke werden 85g Zucker benötigt.<br>Für 15 Zimtschnecken werden {1:NUMERICAL:=1275:0}g Zucker benötigt.</li></ol><ol><li value="2">Ein Apfel kostet 0,6€.<br>13 Äpfel kosten {1:NUMERICAL:=7,8:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für ein Schokoladencroissant werden 40g Mehl benötigt.<br>Für 3 Schokoladencroissants werden {1:NUMERICAL:=120:0}g Mehl benötigt.</li></ol><ol><li value="2">Eine Banane kostet 0,6€.<br>18 Bananen kosten {1:NUMERICAL:=10,8:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für ein Franzbrötchen werden 80g Zucker benötigt.<br>Für 6 Franzbrötchen werden {1:NUMERICAL:=480:0}g Zucker benötigt.</li></ol><ol><li value="2">Eine Karotte kostet 2,2€.<br>11 Karotten kosten {1:NUMERICAL:=24,2:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für eine Nussschnecke werden 55g Zucker benötigt.<br>Für 10 Nussschnecken werden {1:NUMERICAL:=550:0}g Zucker benötigt.</li></ol><ol><li value="2">Eine Kartoffel kostet 0,7€.<br>13 Kartoffeln kosten {1:NUMERICAL:=9,1:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für eine Puddingbrezel werden 35g Zucker benötigt.<br>Für 10 Puddingbrezeln werden {1:NUMERICAL:=350:0}g Zucker benötigt.</li></ol><ol><li value="2">Eine Zwiebel kostet 1€.<br>4 Zwiebeln kosten {1:NUMERICAL:=4:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für eine Rosinenschnecke werden 30g Mehl benötigt.<br>Für 12 Rosinenschnecken werden {1:NUMERICAL:=360:0}g Mehl benötigt.</li></ol><ol><li value="2">Eine Tomate kostet 2,1€.<br>4 Tomaten kosten {1:NUMERICAL:=8,4:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für eine Apfeltasche werden 80g Mehl benötigt.<br>Für 17 Apfeltaschen werden {1:NUMERICAL:=1360:0}g Mehl benötigt.</li></ol><ol><li value="2">Eine Gurke kostet 2,4€.<br>7 Gurken kosten {1:NUMERICAL:=16,8:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Eine Paprika kostet 1,6€.<br>20 Paprika kosten {1:NUMERICAL:=32:0}€.</li></ol><ol><li value="2">Für eine Quarktasche werden 65g Mehl benötigt.<br>Für 5 Quarktaschen werden {1:NUMERICAL:=325:0}g Mehl benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für einen Berliner werden 50g Butter benötigt.<br>Für 8 Berliner werden {1:NUMERICAL:=400:0}g Butter benötigt.</li></ol><ol><li value="2">Ein Ei kostet 2,4€.<br>2 Eier kosten {1:NUMERICAL:=4,8:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für einen Krapfen werden 20g Mehl benötigt.<br>Für 2 Krapfen werden {1:NUMERICAL:=40:0}g Mehl benötigt.</li></ol><ol><li value="2">Ein Brötchen kostet 1,6€.<br>9 Brötchen kosten {1:NUMERICAL:=14,4:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für einen Eclair werden 80g Butter benötigt.<br>Für 10 Eclairs werden {1:NUMERICAL:=800:0}g Butter benötigt.</li></ol><ol><li value="2">Eine Steckrübe kostet 0,5€.<br>4 Steckrüben kosten {1:NUMERICAL:=2:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Ein Joghurt kostet 2,4€.<br>8 Joghurts kosten {1:NUMERICAL:=19,2:0}€.</li></ol><ol><li value="2">Für ein Buttercroissant werden 70g Butter benötigt.<br>Für 20 Buttercroissants werden {1:NUMERICAL:=1400:0}g Butter benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Eine Milchtüte kostet 1,3€.<br>16 Milchtüten kosten {1:NUMERICAL:=20,8:0}€.</li></ol><ol><li value="2">Für ein Mandelhörnchen werden 30g Butter benötigt.<br>Für 14 Mandelhörnchen werden {1:NUMERICAL:=420:0}g Butter benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für einen Donut werden 10g Mehl benötigt.<br>Für 10 Donuts werden {1:NUMERICAL:=100:0}g Mehl benötigt.</li></ol><ol><li value="2">Ein Müsliriegel kostet 1,2€.<br>14 Müsliriegel kosten {1:NUMERICAL:=16,8:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Eine Kaugummipackung kostet 0,7€.<br>19 Kaugummipackungen kosten {1:NUMERICAL:=13,3:0}€.</li></ol><ol><li value="2">Für einen Vanillekipferl werden 80g Butter benötigt.<br>Für 3 Vanillekipferl werden {1:NUMERICAL:=240:0}g Butter benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für einen Bienenstich werden 80g Zucker benötigt.<br>Für 15 Bienenstiche werden {1:NUMERICAL:=1200:0}g Zucker benötigt.</li></ol><ol><li value="2">Eine Wurst kostet 1,2€.<br>14 Würste kosten {1:NUMERICAL:=16,8:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Eine Dose Linsen kostet 0,7€.<br>14 Dosen Linsen kosten {1:NUMERICAL:=9,8:0}€.</li></ol><ol><li value="2">Für ein Schweineohr werden 50g Zucker benötigt.<br>Für 12 Schweineohren werden {1:NUMERICAL:=600:0}g Zucker benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für einen Dänischen Plunder werden 35g Zucker benötigt.<br>Für 11 Dänische Plunder werden {1:NUMERICAL:=385:0}g Zucker benötigt.</li></ol><ol><li value="2">Eine Ketchuptube kostet 1,2€.<br>3 Ketchuptuben kosten {1:NUMERICAL:=3,6:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Ein Senfglas kostet 0,9€.<br>15 Senfgläser kosten {1:NUMERICAL:=13,5:0}€.</li></ol><ol><li value="2">Für eine Blätterteigstange werden 75g Zucker benötigt.<br>Für 14 Blätterteigstangen werden {1:NUMERICAL:=1050:0}g Zucker benötigt.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Vervollständigen Sie:</p><ol><li value="1">Für einen Streuseltaler werden 50g Butter benötigt.<br>Für 18 Streuseltaler werden {1:NUMERICAL:=900:0}g Butter benötigt.</li></ol><ol><li value="2">Eine Avocado kostet 1,4€.<br>18 Avocados kosten {1:NUMERICAL:=25,2:0}€.</li></ol>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+
