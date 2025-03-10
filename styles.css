@@ -9,32 +9,24 @@ h1 {
     background-color: #B8CEF2; /*#B8CEF2 oder 8889af*/
     color: #4d4d4d;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
     font-family: 'Arial', sans-serif;
     /*border-bottom: black solid 1px;
     border-top: black solid 1px;*/
     border-color: #4d4d4d;
-    position: fixed;
-    z-index: 1000;
-    top: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
+
 }
 
 h2 {
     color: #7e7e7e;
+    background-color: #f5f5f5;
+    padding: 20px;
     margin: 0px auto 0; /* Oben und unten: 20px, zentriert */
     text-align: center;
-
     align-items: center; /* Zentriert die Elemente vertikal */
-    font-size: 1.3em;
- 
-
-    position: fixed;
-    left: 50%; transform: translateX(-50%); z-index: 1000; background-color:#f5f5f5;width: 100%;top: 50px;padding: 20px;
+    font-size: 20px;
 }
 
 h3 {
@@ -45,7 +37,6 @@ h3 {
     font-style: italic;
     font-size: 1em;
     font-weight: normal;
-    margin-top: 100px;
 }
 
 h4  {
@@ -203,7 +194,7 @@ footer {
     gap: 5px;
     margin: 10px;
     background: rgba(226, 226, 226, 0.719);
-    padding: 10px;
+    padding: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 0px;
     margin-bottom: 20px;
@@ -211,19 +202,21 @@ footer {
 }
 
 #Aufgabensammlung button {
+    font-size: inherit;
     padding: 5px;
     cursor: pointer;
     border: none;
     background-color:#3f62cce1;
     color: white;
     border-radius: 5px;
-    font-size: 15px;
+
 }
 #Aufgabensammlung button:hover {
     background-color: #3e61c9;
 } 
 
 #toggle-button {
+    font-size: inherit;
     margin-bottom: 10px;
     padding: 10px;
     cursor: pointer;
@@ -234,28 +227,39 @@ footer {
     display: block;
     margin: 0px auto;
     margin-bottom: 15px;
-    font-size: 15px;
     width: 250px;
 }
-
 #toggle-button:hover {
     background-color:#3f62cc;
 }
+
 #startExam {
+    font-size: inherit;
     padding: 10px;
     cursor: pointer;
     border: none;
     background-color:#e72f8bb0;
     color: white;
     border-radius: 20px;
-    font-size: 15px;
     display: block;
     margin: 0px auto;
     width: 250px;
+    margin-bottom: 15px;
 }
 #startExam:hover {
     background-color: #e72f8b;
 } 
+
+.symbole {
+    font-size: inherit;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    display: block;
+    margin: 0px auto;
+    width: 230px;
+}
+
 
 .dataTables_filter input {
     display: block;
