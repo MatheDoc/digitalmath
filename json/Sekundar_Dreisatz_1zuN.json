@@ -2,221 +2,221 @@
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Ein Apfel kostet 0,6€.</p> <p>",
-"Für eine Zimtschnecke werden 60g Mehl benötigt.</p> <p>"
+"Für eine Zimtschnecke werden 30g Mehl benötigt.",
+"Ein Apfel kostet 2,2€."
 ],
 "antworten":[
-"18 Äpfel kosten {1:NUMERICAL:=10,8:0}€.",
-"Für 16 Zimtschnecken werden {1:NUMERICAL:=960:0}g Mehl benötigt."
+"Für 3 Zimtschnecken werden {1:NUMERICAL:=90:0}g Mehl benötigt.",
+"5 Äpfel kosten {1:NUMERICAL:=11:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Banane kostet 2,4€.</p> <p>",
-"Für ein Schokoladencroissant werden 15g Mehl benötigt.</p> <p>"
+"Eine Banane kostet 1,2€.",
+"Für ein Schokoladencroissant werden 30g Mehl benötigt."
 ],
 "antworten":[
-"7 Bananen kosten {1:NUMERICAL:=16,8:0}€.",
-"Für 11 Schokoladencroissants werden {1:NUMERICAL:=165:0}g Mehl benötigt."
+"8 Bananen kosten {1:NUMERICAL:=9,6:0}€.",
+"Für 12 Schokoladencroissants werden {1:NUMERICAL:=360:0}g Mehl benötigt."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Karotte kostet 1,7€.</p> <p>",
-"Für ein Franzbrötchen werden 85g Mehl benötigt.</p> <p>"
+"Eine Karotte kostet 0,6€.",
+"Für ein Franzbrötchen werden 70g Zucker benötigt."
 ],
 "antworten":[
-"16 Karotten kosten {1:NUMERICAL:=27,2:0}€.",
-"Für 11 Franzbrötchen werden {1:NUMERICAL:=935:0}g Mehl benötigt."
+"5 Karotten kosten {1:NUMERICAL:=3:0}€.",
+"Für 3 Franzbrötchen werden {1:NUMERICAL:=210:0}g Zucker benötigt."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Für eine Nussschnecke werden 80g Mehl benötigt.</p> <p>",
-"Eine Kartoffel kostet 1,4€.</p> <p>"
+"Für eine Nussschnecke werden 70g Zucker benötigt.",
+"Eine Kartoffel kostet 0,9€."
 ],
 "antworten":[
-"Für 9 Nussschnecken werden {1:NUMERICAL:=720:0}g Mehl benötigt.",
-"5 Kartoffeln kosten {1:NUMERICAL:=7:0}€."
+"Für 4 Nussschnecken werden {1:NUMERICAL:=280:0}g Zucker benötigt.",
+"4 Kartoffeln kosten {1:NUMERICAL:=3,6:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Zwiebel kostet 2,1€.</p> <p>",
-"Für eine Puddingbrezel werden 65g Mehl benötigt.</p> <p>"
+"Eine Zwiebel kostet 1,7€.",
+"Für eine Puddingbrezel werden 35g Butter benötigt."
 ],
 "antworten":[
-"10 Zwiebeln kosten {1:NUMERICAL:=21:0}€.",
-"Für 19 Puddingbrezeln werden {1:NUMERICAL:=1235:0}g Mehl benötigt."
+"16 Zwiebeln kosten {1:NUMERICAL:=27,2:0}€.",
+"Für 6 Puddingbrezeln werden {1:NUMERICAL:=210:0}g Butter benötigt."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Für eine Rosinenschnecke werden 30g Butter benötigt.</p> <p>",
-"Eine Tomate kostet 0,5€.</p> <p>"
+"Eine Tomate kostet 0,8€.",
+"Für eine Rosinenschnecke werden 90g Zucker benötigt."
 ],
 "antworten":[
-"Für 17 Rosinenschnecken werden {1:NUMERICAL:=510:0}g Butter benötigt.",
-"10 Tomaten kosten {1:NUMERICAL:=5:0}€."
+"7 Tomaten kosten {1:NUMERICAL:=5,6:0}€.",
+"Für 7 Rosinenschnecken werden {1:NUMERICAL:=630:0}g Zucker benötigt."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Gurke kostet 0,5€.</p> <p>",
-"Für eine Apfeltasche werden 20g Zucker benötigt.</p> <p>"
+"Für eine Apfeltasche werden 90g Butter benötigt.",
+"Eine Gurke kostet 1,4€."
 ],
 "antworten":[
-"10 Gurken kosten {1:NUMERICAL:=5:0}€.",
-"Für 19 Apfeltaschen werden {1:NUMERICAL:=380:0}g Zucker benötigt."
+"Für 12 Apfeltaschen werden {1:NUMERICAL:=1080:0}g Butter benötigt.",
+"18 Gurken kosten {1:NUMERICAL:=25,2:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Für eine Quarktasche werden 70g Mehl benötigt.</p> <p>",
-"Eine Paprika kostet 2,2€.</p> <p>"
+"Für eine Quarktasche werden 65g Zucker benötigt.",
+"Eine Paprika kostet 1,8€."
 ],
 "antworten":[
-"Für 9 Quarktaschen werden {1:NUMERICAL:=630:0}g Mehl benötigt.",
-"6 Paprika kosten {1:NUMERICAL:=13,2:0}€."
+"Für 5 Quarktaschen werden {1:NUMERICAL:=325:0}g Zucker benötigt.",
+"5 Paprika kosten {1:NUMERICAL:=9:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Für einen Berliner werden 70g Butter benötigt.</p> <p>",
-"Ein Ei kostet 1,6€.</p> <p>"
+"Für einen Berliner werden 35g Zucker benötigt.",
+"Ein Ei kostet 1,2€."
 ],
 "antworten":[
-"Für 3 Berliner werden {1:NUMERICAL:=210:0}g Butter benötigt.",
-"2 Eier kosten {1:NUMERICAL:=3,2:0}€."
+"Für 10 Berliner werden {1:NUMERICAL:=350:0}g Zucker benötigt.",
+"8 Eier kosten {1:NUMERICAL:=9,6:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Ein Brötchen kostet 0,6€.</p> <p>",
-"Für einen Krapfen werden 40g Mehl benötigt.</p> <p>"
+"Für einen Krapfen werden 15g Butter benötigt.",
+"Ein Brötchen kostet 0,9€."
 ],
 "antworten":[
-"12 Brötchen kosten {1:NUMERICAL:=7,2:0}€.",
-"Für 4 Krapfen werden {1:NUMERICAL:=160:0}g Mehl benötigt."
+"Für 13 Krapfen werden {1:NUMERICAL:=195:0}g Butter benötigt.",
+"10 Brötchen kosten {1:NUMERICAL:=9:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Steckrübe kostet 0,7€.</p> <p>",
-"Für einen Eclair werden 90g Zucker benötigt.</p> <p>"
+"Für einen Eclair werden 75g Butter benötigt.",
+"Eine Steckrübe kostet 1,6€."
 ],
 "antworten":[
-"19 Steckrüben kosten {1:NUMERICAL:=13,3:0}€.",
-"Für 17 Eclairs werden {1:NUMERICAL:=1530:0}g Zucker benötigt."
+"Für 10 Eclairs werden {1:NUMERICAL:=750:0}g Butter benötigt.",
+"8 Steckrüben kosten {1:NUMERICAL:=12,8:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Ein Joghurt kostet 1,1€.</p> <p>",
-"Für ein Buttercroissant werden 65g Butter benötigt.</p> <p>"
+"Für ein Buttercroissant werden 60g Mehl benötigt.",
+"Ein Joghurt kostet 0,6€."
 ],
 "antworten":[
-"6 Joghurts kosten {1:NUMERICAL:=6,6:0}€.",
-"Für 10 Buttercroissants werden {1:NUMERICAL:=650:0}g Butter benötigt."
+"Für 6 Buttercroissants werden {1:NUMERICAL:=360:0}g Mehl benötigt.",
+"6 Joghurts kosten {1:NUMERICAL:=3,6:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Milchtüte kostet 0,5€.</p> <p>",
-"Für ein Mandelhörnchen werden 35g Mehl benötigt.</p> <p>"
+"Eine Milchtüte kostet 0,7€.",
+"Für ein Mandelhörnchen werden 40g Mehl benötigt."
 ],
 "antworten":[
-"9 Milchtüten kosten {1:NUMERICAL:=4,5:0}€.",
-"Für 15 Mandelhörnchen werden {1:NUMERICAL:=525:0}g Mehl benötigt."
+"19 Milchtüten kosten {1:NUMERICAL:=13,3:0}€.",
+"Für 13 Mandelhörnchen werden {1:NUMERICAL:=520:0}g Mehl benötigt."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Für einen Donut werden 20g Zucker benötigt.</p> <p>",
-"Ein Müsliriegel kostet 2,2€.</p> <p>"
+"Ein Müsliriegel kostet 1€.",
+"Für einen Donut werden 30g Zucker benötigt."
 ],
 "antworten":[
-"Für 18 Donuts werden {1:NUMERICAL:=360:0}g Zucker benötigt.",
-"11 Müsliriegel kosten {1:NUMERICAL:=24,2:0}€."
+"12 Müsliriegel kosten {1:NUMERICAL:=12:0}€.",
+"Für 20 Donuts werden {1:NUMERICAL:=600:0}g Zucker benötigt."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Kaugummipackung kostet 1,5€.</p> <p>",
-"Für einen Vanillekipferl werden 25g Butter benötigt.</p> <p>"
+"Für einen Vanillekipferl werden 10g Mehl benötigt.",
+"Eine Kaugummipackung kostet 2,4€."
 ],
 "antworten":[
-"13 Kaugummipackungen kosten {1:NUMERICAL:=19,5:0}€.",
-"Für 7 Vanillekipferl werden {1:NUMERICAL:=175:0}g Butter benötigt."
+"Für 19 Vanillekipferl werden {1:NUMERICAL:=190:0}g Mehl benötigt.",
+"2 Kaugummipackungen kosten {1:NUMERICAL:=4,8:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Wurst kostet 2€.</p> <p>",
-"Für einen Bienenstich werden 60g Butter benötigt.</p> <p>"
+"Für einen Bienenstich werden 55g Mehl benötigt.",
+"Eine Wurst kostet 1,5€."
 ],
 "antworten":[
-"7 Würste kosten {1:NUMERICAL:=14:0}€.",
-"Für 11 Bienenstiche werden {1:NUMERICAL:=660:0}g Butter benötigt."
+"Für 6 Bienenstiche werden {1:NUMERICAL:=330:0}g Mehl benötigt.",
+"6 Würste kosten {1:NUMERICAL:=9:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Dose Linsen kostet 2€.</p> <p>",
-"Für ein Schweineohr werden 40g Butter benötigt.</p> <p>"
+"Für ein Schweineohr werden 45g Butter benötigt.",
+"Eine Dose Linsen kostet 2,2€."
 ],
 "antworten":[
-"20 Dosen Linsen kosten {1:NUMERICAL:=40:0}€.",
-"Für 18 Schweineohren werden {1:NUMERICAL:=720:0}g Butter benötigt."
+"Für 17 Schweineohren werden {1:NUMERICAL:=765:0}g Butter benötigt.",
+"11 Dosen Linsen kosten {1:NUMERICAL:=24,2:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Für einen Dänischen Plunder werden 30g Butter benötigt.</p> <p>",
-"Eine Ketchuptube kostet 2,3€.</p> <p>"
+"Für einen Dänischen Plunder werden 90g Butter benötigt.",
+"Eine Ketchuptube kostet 0,6€."
 ],
 "antworten":[
-"Für 6 Dänische Plunder werden {1:NUMERICAL:=180:0}g Butter benötigt.",
-"13 Ketchuptuben kosten {1:NUMERICAL:=29,9:0}€."
+"Für 15 Dänische Plunder werden {1:NUMERICAL:=1350:0}g Butter benötigt.",
+"11 Ketchuptuben kosten {1:NUMERICAL:=6,6:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Für eine Blätterteigstange werden 10g Butter benötigt.</p> <p>",
-"Ein Senfglas kostet 1,7€.</p> <p>"
+"Für eine Blätterteigstange werden 85g Zucker benötigt.",
+"Ein Senfglas kostet 0,6€."
 ],
 "antworten":[
-"Für 5 Blätterteigstangen werden {1:NUMERICAL:=50:0}g Butter benötigt.",
-"3 Senfgläser kosten {1:NUMERICAL:=5,1:0}€."
+"Für 17 Blätterteigstangen werden {1:NUMERICAL:=1445:0}g Zucker benötigt.",
+"11 Senfgläser kosten {1:NUMERICAL:=6,6:0}€."
 ]
 },
 {
 "einleitung":"Vervollständigen Sie:",
 "fragen":[
-"Eine Avocado kostet 1,5€.</p> <p>",
-"Für einen Streuseltaler werden 60g Mehl benötigt.</p> <p>"
+"Eine Avocado kostet 2,4€.",
+"Für einen Streuseltaler werden 50g Mehl benötigt."
 ],
 "antworten":[
-"6 Avocados kosten {1:NUMERICAL:=9:0}€.",
-"Für 13 Streuseltaler werden {1:NUMERICAL:=780:0}g Mehl benötigt."
+"7 Avocados kosten {1:NUMERICAL:=16,8:0}€.",
+"Für 7 Streuseltaler werden {1:NUMERICAL:=350:0}g Mehl benötigt."
 ]
 }
 ]
