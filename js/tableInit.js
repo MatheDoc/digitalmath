@@ -65,7 +65,7 @@ function initializeTable() {
                 $(this.node()).show();
             });
             // Symbol wechseln und Button zurücksetzen
-            icon.removeClass('fa-filter').addClass('fa-eye');
+            icon.removeClass('fa-filexeter').addClass('fa-filter').attr('title', 'Auswahl anzeigen');
         } else {
             // Nur Zeilen mit aktivierten Checkboxen anzeigen
             table.rows().every(function() {
@@ -74,7 +74,7 @@ function initializeTable() {
                 row.toggle(checkbox.is(':checked')); // Zeige nur markierte
             });
             // Symbol wechseln und Button für aktiven Zustand
-            icon.removeClass('fa-eye').addClass('fa-filter');
+            icon.removeClass('fa-filter').addClass('fa-eye').attr('title', 'Alle anzeigen');
         }
 
         table.draw(); // Tabelle aktualisieren
@@ -108,6 +108,9 @@ function initializeTable() {
             console.error('Fehler beim Kopieren in die Zwischenablage: ', err);
         });
     });
+
+
+
 
 
     // Funktion zum Starten eines Tests mit ausgewählten Checkboxes
@@ -199,14 +202,77 @@ function initializeTable() {
 
 }
 
+
+    // Funktion zum Starten eines Tests mit ausgewählten Checkboxes
+    function startExam(){
+        var urls = [];
+        // Durch alle Zeilen der DataTable iterieren
+        $('#meineTabelle').DataTable().rows().every(function() {
+            var row = $(this.node());
+            var checkbox = row.find('input.rowCheckbox');
+
+            // Prüfen, ob die Checkbox aktiviert ist
+            if (checkbox.is(':checked')) {
+                var rowData = this.data(); // Zeilendaten abrufen
+                if (rowData[6]) { // Prüfen, ob in der 7. Spalte eine URL vorhanden ist
+                    urls = urls.concat(rowData[6].split(',').map(url => url.trim() + '.json'));
+                }
+            }
+        });
+        if (urls.length > 0) {
+            var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + 
+                            urls.map(url => 'sammlung=' + url).join('&') + 
+                            '&exam=yes';
+
+            window.open(testUrl, '_blank', 'width=440,height=960');
+        } else {
+            alert('Bitte wählen Sie mindestens eine Checkbox aus.');
+        }
+    };     
+    
+
+
 // Aufgaben ein und ausblenden
 function toggleAufgaben() {
     var div = document.getElementById("Aufgabensammlung");
     div.style.display = div.style.display === "none" || div.style.display === "" ? "flex" : "none";
     var icon = document.getElementById("toggle-icon");
     icon.textContent = div.style.display === "flex"? "▲" : "▼";
+    
+    icon = document.getElementById("sammlungAnzeigen");
+    if (icon.classList.contains("fa-folder")) {
+        // Geschlossenen Ordner in offenen Ordner ändern
+        icon.classList.remove("fa-folder");
+        icon.classList.add("fa-folder-open");
+        icon.setAttribute("title", "Sammlungen ausblenden");
+    } else {
+        // Offenen Ordner wieder schließen
+        icon.classList.remove("fa-folder-open");
+        icon.classList.add("fa-folder");
+        icon.setAttribute("title", "Sammlungen anzeigen");
+    }
 }
 
+
+// Suchleiste ein und ausblenden
+function zeigeSuchleiste() {
+    var div = document.getElementById("suchleiste");
+    div.style.display = div.style.display === "none" || div.style.display === "" ? "flex" : "none";
+    
+    var icon = document.getElementById("suchleisteAnzeigen");
+    if (icon.classList.contains("fa-search-plus")) {
+        // plus in minus
+        icon.classList.remove("fa-search-plus");
+        icon.classList.add("fa-search-minus");
+        icon.setAttribute("title", "Suchleiste ausblenden");
+    } else {
+        // Offenen Ordner wieder schließen
+        icon.classList.remove("fa-search-minus");
+        icon.classList.add("fa-search-plus");
+        icon.setAttribute("title", "Suchleiste anzeigen");
+    }
+
+}
 
 
 // Prüft, ob durch Filter ausgeblendete Elemente markiert sind

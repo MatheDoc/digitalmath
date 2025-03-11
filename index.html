@@ -46,7 +46,18 @@
     -->
 
     <h2>
-        <button id="toggle-button" onclick="toggleAufgaben()">Sammlungen <span id="toggle-icon">▼</span></button>
+        <!--<button id="toggle-button" onclick="toggleAufgaben()">Sammlungen <span id="toggle-icon">▼</span></button>
+        <button id="startExam">Test starten</button>-->
+        
+        <div class="symbole">
+            <i class="fas fa-folder sammlungs-icon" id="sammlungAnzeigen" title="Sammlungen anzeigen" onclick="toggleAufgaben()"></i>
+            <i class="fas fa-edit test-icon"  title="Test mit Auswahl" onclick="startExam()"></i>
+            <i class="fas fa-search-plus suchleiste-icon" id="suchleisteAnzeigen" title="Suchleiste anzeigen" onclick="zeigeSuchleiste()"></i>
+            <i class="fas fa-filter auswahl-icon" id="toggleFilter" title="Auswahl filtern"></i>
+            <i class="fas fa-share-alt sharelink-icon" id="shareLink" title="Auswahl teilen"></i>
+        </div>
+        
+        <div id="suchleiste"></div>
 
         <div id="Aufgabensammlung">
             <!-- Analysis -->
@@ -82,22 +93,14 @@
             <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2266%22%2C%2267%22%2C%2268%22%2C%2269%22%5D'">Rentenrechnung</button>
             <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2262%22%2C%2263%22%2C%2264%22%2C%2265%22%5D'">Kapitalaufbau und -abbau</button>
         </div>
-    
-        <div id="suchleiste"></div>
 
-        <button id="startExam">Test starten</button>
-        
-        <div class="symbole">
-            <i class="fas fa-eye auswahl-icon" id="toggleFilter" title=""></i>
-            <i class="fas fa-share-alt auswahl-icon" id="shareLink" title="Auswahl teilen"></i>
-        </div>
-        
-        <div id="warningMessage" style="display: none; color: red; padding: 10px;">
-            Es gibt ausgewählte, aber nicht sichtbare Elemente!
-        </div>
+
     </h2>
     </div>
 
+    <div id="warningMessage" style="display: none; color: red; padding: 10px;">
+        Es gibt ausgewählte, aber nicht sichtbare Elemente!
+    </div>
 
     <div id="content"></div>
    

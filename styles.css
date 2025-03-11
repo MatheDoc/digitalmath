@@ -26,7 +26,7 @@ h2 {
     margin: 0px auto 0; /* Oben und unten: 20px, zentriert */
     text-align: center;
     align-items: center; /* Zentriert die Elemente vertikal */
-    font-size: 15px;
+    font-size: 20px;
 }
 
 h3 {
@@ -152,6 +152,7 @@ input[type="text"]::-webkit-outer-spin-button {
     margin-right: -20px;
     float: right;
     display: none;
+
 }
 
 /*Tabellen in Aufgaben:*/
@@ -187,6 +188,12 @@ footer {
     height: 50px; 
 }
 
+#suchleiste{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
 
 #Aufgabensammlung {
     display: none;
@@ -199,6 +206,7 @@ footer {
     margin-top: 0px;
     margin-bottom: 20px;
     border-radius: 5px;
+    font-size: 12px;
 }
 
 #Aufgabensammlung button {
@@ -255,10 +263,12 @@ footer {
     padding: 10px;
     border: 1px solid grey;
     border-radius: 25px;
-    display: block;
+    display: flex;
+    gap: 15px;
     margin: 0px auto;
-    width: 180px;
-    background-color: white;
+    width: 230px;
+    background-color: #f5f5f5;
+    justify-content: center; 
 }
 
 
@@ -322,14 +332,44 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 
-.info-icon, .copy-icon, .xml-icon, .test-icon, .check-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon, .clip-icon  {
+.info-icon, .copy-icon, .xml-icon, .check-icon, .suchleiste-icon, .sharelink-icon, .sammlungs-icon, .test-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon, .clip-icon  {
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
-    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
     margin-left: 5px;
     position: relative;
 }
+
+
+
+.sharelink-icon{
+    color: #693c77a4;
+}
+
+.sharelink-icon:hover{
+    color: #693c77e4;
+}
+
+
+
+.suchleiste-icon{
+    color: #e2a92db0;
+}
+
+
+.suchleiste-icon:hover{
+    color: #e2a92d;
+}
+
+.sammlungs-icon{
+    color: #5882ffb0;
+}
+.sammlungs-icon:hover{
+    color: #5882ff;
+}
+
 .clip-icon {
     color: #ff0000c2;
 }
@@ -360,10 +400,7 @@ select.mch + .select2-container .select2-selection--single {
 .test-icon:hover {
     color: #e72f8b;      
 }
-.pdf-icon, .eye-icon, .reload-icon, .trash-icon, .check-all-icon {
-    padding-right: 10px;
-    padding-left: 10px;
-}
+
 .check-icon, .check-all-icon {
     color: #5882ffb0;
     margin-left: 5px;
@@ -372,10 +409,10 @@ select.mch + .select2-container .select2-selection--single {
     color: #5882ff;
 }
 .auswahl-icon{
-    color: #919191cb;
+    color: #19a35ead;
 }
 .auswahl-icon:hover{
-    color: #919191;
+    color: #19a35e;
 }
 .eye-icon{
     color: #e2a92db0;
@@ -384,10 +421,10 @@ select.mch + .select2-container .select2-selection--single {
     color: #e2a92d;
 }
 .reload-icon{
-    color: #19a35ead;;
+    color: #19a35ead;
 }
 .reload-icon:hover{
-    color: #19a35e;;
+    color: #19a35e;
 }
 .pdf-icon{
     color: #e03d31a8;
