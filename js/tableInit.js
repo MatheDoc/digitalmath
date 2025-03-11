@@ -182,7 +182,8 @@ function initializeTable() {
         // Setzt den Platzhaltertext des Suchfeldes
         $('.dataTables_filter input')
             .attr('placeholder', 'Schlagwortsuche')
-            .css('font-size', 'inherit');
+            .css('font-size', 'inherit')
+            .css('max-width', '200px');
     }   
     adjustSearchFilter() ;
 
