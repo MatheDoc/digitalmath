@@ -332,7 +332,7 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 
-.info-icon, .copy-icon, .xml-icon, .check-icon, .suchleiste-icon, .sharelink-icon, .sammlungs-icon, .test-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon, .clip-icon  {
+.mail-icon, .info-icon, .copy-icon, .xml-icon, .check-icon, .suchleiste-icon, .sharelink-icon, .sammlungs-icon, .test-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon, .clip-icon  {
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
@@ -342,7 +342,13 @@ select.mch + .select2-container .select2-selection--single {
     position: relative;
 }
 
+.mail-icon{
+    color: rgba(128, 128, 128, 0.692);
+}
 
+.mail-icon:hover{
+    color: grey;
+}
 
 .sharelink-icon{
     color: #693c77a4;

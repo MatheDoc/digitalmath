@@ -186,7 +186,7 @@ function initializeTable() {
         $('.dataTables_filter input')
             .attr('placeholder', 'Schlagwortsuche')
             .css('font-size', 'inherit')
-            .css('max-width', '200px');
+            .css('max-width', '250px');
     }   
     adjustSearchFilter() ;
 
@@ -236,10 +236,10 @@ function initializeTable() {
 function toggleAufgaben() {
     var div = document.getElementById("Aufgabensammlung");
     div.style.display = div.style.display === "none" || div.style.display === "" ? "flex" : "none";
-    var icon = document.getElementById("toggle-icon");
-    icon.textContent = div.style.display === "flex"? "▲" : "▼";
+    /*var icon = document.getElementById("toggle-icon");
+    icon.textContent = div.style.display === "flex"? "▲" : "▼";*/
     
-    icon = document.getElementById("sammlungAnzeigen");
+    var icon = document.getElementById("sammlungAnzeigen");
     if (icon.classList.contains("fa-folder")) {
         // Geschlossenen Ordner in offenen Ordner ändern
         icon.classList.remove("fa-folder");
