@@ -16,7 +16,6 @@ h1 {
     /*border-bottom: black solid 1px;
     border-top: black solid 1px;*/
     border-color: #4d4d4d;
-
 }
 
 h2 {
@@ -62,12 +61,10 @@ p {
     text-align: center;                /* Text zentrieren */
     flex: 1; 
 }
-
 .left-text {
     text-align: left;                 /* Text rechtsbündig */
     flex: 1; 
 }
-
 .right-text {
     text-align: right;                 /* Text rechtsbündig */
     flex: 1; 
@@ -139,21 +136,6 @@ input[type="text"]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-.neueAufgabe {
-    background-color:#4e73df;
-    color: white;
-    border: none;
-    padding: 5px 5px;
-    border-radius: 4px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 0px;
-    margin-right: -20px;
-    float: right;
-    display: none;
-
-}
 
 /*Tabellen in Aufgaben:*/
 .TabelleEinleitung {
@@ -332,50 +314,39 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 
-.mail-icon, .info-icon, .copy-icon, .xml-icon, .check-icon, .suchleiste-icon, .sharelink-icon, .sammlungs-icon, .test-icon, .auswahl-icon, .teilen-icon, .check-all-icon, .pdf-icon, .eye-icon, .reload-icon, .trash-icon, .clip-icon  {
+.icon {
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     position: relative;
 }
 
 .mail-icon{
     color: rgba(128, 128, 128, 0.692);
 }
-
 .mail-icon:hover{
     color: grey;
 }
-
 .sharelink-icon{
     color: #693c77a4;
 }
-
 .sharelink-icon:hover{
     color: #693c77e4;
 }
-
-
-
 .suchleiste-icon{
     color: #e2a92db0;
 }
-
-
 .suchleiste-icon:hover{
     color: #e2a92d;
 }
-
 .sammlungs-icon{
     color: #5882ffb0;
 }
 .sammlungs-icon:hover{
     color: #5882ff;
 }
-
 .clip-icon {
     color: #ff0000c2;
 }
@@ -406,10 +377,8 @@ select.mch + .select2-container .select2-selection--single {
 .test-icon:hover {
     color: #e72f8b;      
 }
-
 .check-icon, .check-all-icon {
     color: #5882ffb0;
-    margin-left: 5px;
 }
 .check-icon:hover,.check-all-icon:hover {
     color: #5882ff;
@@ -444,6 +413,7 @@ select.mch + .select2-container .select2-selection--single {
 .trash-icon:hover{
     color: #693c77e4;
 }
+
 /* Modernere Hover-Effekte */
 table.dataTable tbody tr:hover {
     background-color: #f1f1f1;
@@ -741,4 +711,21 @@ h3 {
     height: 40px;
     padding-left: 10px;
     color: #4d4d4d;
+
+    .neueAufgabe {
+    background-color:#4e73df;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 0px;
+    margin-right: -20px;
+    float: right;
+    display: none;
+
+}
+
 }*/

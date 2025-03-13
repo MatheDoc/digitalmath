@@ -4,10 +4,10 @@ function addButtons(){
         var data = this.data();
         var ichKannText = data[5];
         var aufgaben = data[6];
-        var infoButton ='<i class="fas fa-info-circle info-icon" id="infoIcon" title="Info anzeigen"></i>';
+        var infoButton ='<i class="fas fa-info-circle icon info-icon" id="infoIcon" title="Info anzeigen"></i>';
         // var copyButton =  '<i class="fas fa-copy copy-icon" id="copyIcon" title="Prompt kopieren"></i>';
-        var xmlButton = '<i class="fas fa-file-code xml-icon" id="xmlIcon" title="als Moodle-XML exportieren"></i>';
-        var testButton =  '<i class="fas fa-edit test-icon" id="testIcon" title="Einzeltest starten"></i>';
+        var xmlButton = '<i class="fas fa-file-code icon xml-icon" id="xmlIcon" title="als Moodle-XML exportieren"></i>';
+        var testButton =  '<i class="fas fa-edit icon test-icon" id="testIcon" title="Einzeltest starten"></i>';
         // Testbutoon ausblenden, falls kein Test vorhanden
         if (aufgaben === '') {
             testButton = ' '
