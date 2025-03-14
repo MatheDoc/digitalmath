@@ -25,86 +25,29 @@
     <script src="js/tableMain.js"></script>
     <script src="js/tableInit.js"></script>
     <script src="js/tableButtons.js"></script>
+    <script src="js/SammlungenHinzufügen.js"></script>
 </head>
 
 <body>
     <div style="position: sticky; top: 0; z-index: 1000">
-    <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
-        <h1>MatheChecks.de</h1>
-    </a>
- 
-    <!--neu
-    <h2>
-        <i class="fas fa-paper-plane check-all-icon" title="Alle Fragen abschicken" onclick="toggleAufgaben()"><span id="toggle-icon">▼</span></i>
-        <i class="fas fa-eye eye-icon" title="Lösungen anzeigen" onclick="showAllAnswers()"></i>
-        <i class="fas fa-trash-can trash-icon" title="Lösungen löschen" onclick="hideAllAnswers()"></i> 
-        <i class="fas fa-file-pdf pdf-icon" title="PDF erstellen" onclick="printToPDF()"></i>
-        <i class="fas fa-redo reload-icon" title="Neue Aufgabe anzeigen" onclick="window.location.reload();"></i>
-    </h2>
-    </h2>
-    
-    -->
-
-    <h2>
-        <!--<button id="toggle-button" onclick="toggleAufgaben()">Sammlungen <span id="toggle-icon">▼</span></button>
-        <button id="startExam">Test starten</button>-->
-        
-        <div class="symbole">
-            <i class="fas fa-folder icon sammlungs-icon" id="sammlungAnzeigen" title="Sammlungen anzeigen" onclick="toggleAufgaben()"></i>
-            <i class="fas fa-edit icon test-icon"  title="Test mit Auswahl" onclick="startExam()"></i>
-            <i class="fas fa-search-plus icon suchleiste-icon" id="suchleisteAnzeigen" title="Suchleiste anzeigen" onclick="zeigeSuchleiste()"></i>
-            <i class="fas fa-filter icon auswahl-icon" id="toggleFilter" title="Auswahl filtern"></i>
-            <i class="fas fa-share-alt icon sharelink-icon" id="shareLink" title="Auswahl teilen"></i>
-        </div>
-        
-        <div id="suchleiste"></div>
-
-        <div id="Aufgabensammlung">
-            <!-- Analysis -->
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2211%22%2C%2212%22%2C%2213%22%5D'">Lineare Funktionen - Basics</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2245%22%2C%2246%22%2C%2247%22%2C%2248%22%2C%2249%22%2C%2250%22%5D'">Lineare Funktionen - Ökonomisch</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2214%22%2C%2215%22%2C%2216%22%2C%2217%22%2C%2218%22%5D'">Quadratische Funktionen - Basics</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2251%22%2C%2252%22%2C%2253%22%2C%2254%22%2C%2255%22%2C%2256%22%5D'">Quadratische Funktionen - Ökonomisch</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%226%22%2C%227%22%2C%228%22%2C%229%22%2C%2210%22%5D'">Kubische Funktionen - Basics</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2232%22%2C%2233%22%2C%2234%22%2C%2235%22%2C%2236%22%2C%2237%22%2C%2238%22%2C%2239%22%2C%2240%22%2C%2241%22%2C%2242%22%2C%2243%22%2C%2244%22%5D'">Kubische Funktionen - Ökonomisch</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2221%22%2C%2245%22%2C%2251%22%2C%2257%22%2C%2258%22%2C%2259%22%5D'">Marktgleichgewicht</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2222%22%2C%2223%22%2C%2224%22%2C%2225%22%2C%2226%22%2C%2227%22%2C%2228%22%2C%2229%22%2C%2230%22%2C%2231%22%5D'">Produktlebenszyklus</button>
-
-            <!-- Stochastik -->
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%22111%22%2C%22112%22%2C%22113%22%2C%22114%22%2C%22115%22%2C%22116%22%2C%22117%22%2C%22118%22%5D'">Baumdiagramme</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%22125%22%2C%22126%22%2C%22127%22%2C%22128%22%2C%22129%22%2C%22130%22%2C%22131%22%2C%22132%22%5D'">Vierfeldertafeln</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2290%22%2C%2291%22%2C%2292%22%2C%2293%22%2C%2294%22%2C%2295%22%5D'">Hypothesentests</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2296%22%2C%2297%22%2C%2298%22%2C%2299%22%2C%22100%22%2C%22101%22%2C%22102%22%2C%22103%22%2C%22104%22%2C%22105%22%2C%22106%22%2C%22107%22%2C%22108%22%2C%22109%22%2C%22110%22%5D'">Binomialverteilung</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%22122%22%2C%22123%22%5D'">Interpretation von Wahrscheinlichkeiten</button>        
-            
-            <!-- Lineare Algeba -->
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2274%22%2C%2275%22%2C%2276%22%5D'">Matrizenrechnung</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2271%22%2C%2272%22%2C%2273%22%5D'">Gleichungssysteme</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2279%22%2C%2280%22%2C%2281%22%2C%2282%22%2C%2283%22%2C%2284%22%2C%2285%22%2C%2286%22%2C%2287%22%2C%2288%22%2C%2289%22%5D'">Mehrstufige Produktionsprozesse</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2277%22%2C%2278%22%5D'">Markov-Ketten</button>
-            
-            <!-- Weiteres -->
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%22138%22%2C%22139%22%2C%22140%22%5D'">Prozentrechnung - Basics</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%22141%22%2C%22142%22%2C%22143%22%2C%22144%22%2C%22145%22%2C%22146%22%5D'">Prozentrechnung - Verm. Grundwert</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%22147%22%2C%22148%22%2C%22149%22%2C%22150%22%2C%22151%22%2C%22152%22%2C%22153%22%2C%22154%22%2C%22155%22%2C%22156%22%2C%22157%22%2C%22158%22%2C%22159%22%2C%22160%22%5D'">Einheiten</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%22161%22%2C%22162%22%2C%22163%22%2C%22164%22%5D'">Dreisatz</button>
-
-            <!-- Finanzmathe -->
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2270%22%5D'">Zinseszinsrechnung</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2266%22%2C%2267%22%2C%2268%22%2C%2269%22%5D'">Rentenrechnung</button>
-            <button onclick="window.location.href='https://www.mathechecks.de/index?config=%5B%2262%22%2C%2263%22%2C%2264%22%2C%2265%22%5D'">Kapitalaufbau und -abbau</button>
-        </div>
-
-
-    </h2>
+        <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
+            <h1>MatheChecks.de</h1>
+        </a>
+        <h2>
+            <div class="symbole">
+                <i class="fas fa-folder icon sammlungs-icon" id="sammlungAnzeigen" title="Sammlungen anzeigen" onclick="toggleAufgaben()"></i>
+                <i class="fas fa-edit icon test-icon"  title="Test mit Auswahl" onclick="startExam()"></i>
+                <i class="fas fa-search-plus icon suchleiste-icon" id="suchleisteAnzeigen" title="Suchleiste anzeigen" onclick="zeigeSuchleiste()"></i>
+                <i class="fas fa-filter icon auswahl-icon" id="toggleFilter" title="Auswahl filtern"></i>
+                <i class="fas fa-share-alt icon sharelink-icon" id="shareLink" title="Auswahl teilen"></i>
+            </div>            
+            <div id="suchleiste"></div>
+            <div id="Aufgabensammlung"></div>
+        </h2>
     </div>
 
-    <div id="warningMessage" style="display: none; color: red; padding: 10px;">
-        Es gibt ausgewählte, aber nicht sichtbare Elemente!
-    </div>
-
+    <div id="warningMessage" style="display: none; color: red; padding: 10px;"> Es gibt ausgewählte, aber nicht sichtbare Elemente! </div>
     <div id="content"></div>
-   
     <div id="overlay" class="overlay"></div>
     <div id="infoText" class="info-text"></div>
 
