@@ -22,7 +22,7 @@ alter_text = '<table border="1" class="dataframe">'
 neuer_text = '<table id="meineTabelle" class="display">'
 # Text2, der ersetzt werden soll
 alter_text2 = '<th>' + df.columns[0] + '</th>'  # Alte Überschrift der ersten Spalte
-neuer_text2 = '<th><input type="checkbox" id="checkAll" /></th>'  # Neue Überschrift mit Checkbox
+neuer_text2 = '<th><input type="checkbox" id="checkAll" style="cursor: pointer;"/></th>'  # Neue Überschrift mit Checkbox
 # Text3, der ersetzt werden soll
 alter_text3 = 'NaN'
 neuer_text3 = ''

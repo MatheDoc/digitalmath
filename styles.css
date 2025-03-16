@@ -74,6 +74,10 @@ table{
     max-width: 99%;
 }
 
+.rowCheckbox{
+    cursor: pointer;
+}
+
 .dataTables_length,
 .dataTables_info,
 .dataTables_paginate {
@@ -213,22 +217,22 @@ footer {
     background-color: #8e44ad; /* Etwas dunkler als der Originalton */
 }
 .linearealgebra {
-    background-color: #f39c12;
+    background-color: #d48910;
 }
 .linearealgebra:hover {
-    background-color: #e67e22; /* Etwas dunkler als der Originalton */
+    background-color: #be681d; /* Etwas dunkler als der Originalton */
 }
 .weiteres {
-    background-color: #34495e;
+    background-color: #496785;
 }
 .weiteres:hover {
-    background-color: #2c3e50; /* Etwas dunkler als der Originalton */
+    background-color: #415c77; /* Etwas dunkler als der Originalton */
 }
 .finanzmathe {
-    background-color: #e74c3c;
+    background-color: #eb5f50;
 }
 .finanzmathe:hover {
-    background-color: #c0392b; /* Etwas dunkler als der Originalton */
+    background-color: #c25448; /* Etwas dunkler als der Originalton */
 }
 
 
