@@ -287,20 +287,19 @@ footer {
 
 
 
-select.mch + .select2-container .select2-selection--single {
+select.mch + .select2-container .select2-selection--single.select2-selection--single {
     height: 40px; 
     display: flex;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: auto;
+    width: 600px;
     min-width: 85px;
     max-width: 100%;
 }
 
 
 .select2-container{
-    min-width: 85px;
     max-width: 90%;
 }
 
@@ -480,9 +479,9 @@ a.link-homepage:hover {
         width: 75%;
         max-width: 75%; 
     }
-    .select2-container {
-        max-width: 75%;
-    }
+    /*.select2-container {
+        max-width: 90%;
+    }*/
 }
 
 @media print {
