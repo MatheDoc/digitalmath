@@ -287,13 +287,13 @@ footer {
 
 
 
-select.mch + .select2-container .select2-selection--single.select2-selection--single {
+select.mch + .select2-container .select2-selection--single {
     height: 40px; 
     display: flex;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 600px;
+    width: 600px !important;
     min-width: 85px;
     max-width: 100%;
 }
