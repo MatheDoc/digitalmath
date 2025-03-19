@@ -287,14 +287,24 @@ footer {
 
 
 
-select.mch + .select2-container .select2-selection--single {
+/*select.mch + .select2-container .select2-selection--single {
     height: 40px; 
     display: flex;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 600px !important;
+    width: 1000px;
     min-width: 85px;
+    max-width: 100% ;
+}*/
+
+select.mch + .select2-container .select2-selection--single{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1000px;
     max-width: 100%;
 }
 

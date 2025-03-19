@@ -189,6 +189,19 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
             <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
             <span id="feedback${questionId}"></span>
         `;
+
+
+        // Verzögertes Initialisieren von Select2 und Breitenanpassung
+        /*setTimeout(() => {
+            const $select = $(`#answer${questionId}`);
+            $select.select2({
+                minimumResultsForSearch: -1
+            });
+
+            adjustSelectWidth($select);
+        }, 10);*/
+
+        
         questionId++;  // Eindeutige ID für jede Frage
         return interactiveHtml;
     }
@@ -202,6 +215,37 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]]; // Tauschen der Elemente
     }
 }
+
+// ?????
+function adjustSelectWidth($select) {
+    let maxWidth = 0;
+    let tempSpan = $('<span>').css({
+        "visibility": "hidden",
+        "white-space": "nowrap",
+        "position": "absolute"
+    }).appendTo('body');
+
+    // Bestimmt die maximale Breite der Optionen
+    $select.find('option').each(function () {
+        tempSpan.text($(this).text());
+        maxWidth = Math.max(maxWidth, tempSpan.width());
+    });
+
+    tempSpan.remove();
+
+    // Berechnet die endgültige Breite (40px Puffer für das Dropdown-Icon)
+    const parentWidth = $select.parent().width() * 0.9; // 90% der Elternelementbreite
+    const finalWidth = Math.min(maxWidth + 40, parentWidth);
+
+    // **Richtige Methode, um Select2-Container zu setzen**
+    $select.next('.select2-container').css({
+        'width': finalWidth + 'px',
+        'min-width': '85px',
+        'max-width': '100%'
+    });
+}
+
+
 
 
 // Initiales Laden eines Quiz
