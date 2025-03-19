@@ -57,7 +57,9 @@ function zeigeNeuesQuiz() {
                         minimumResultsForSearch: Infinity,
                         width: 'auto'   
                     });
-                    
+                    //neu
+                    adjustSelect2Width(`#aufgabe-${aufgabenZaehler} select.mch`);
+
                     // MathJax anwenden für das neu hinzugefügte Div
                     //MathJax.typesetPromise([aufgabeDiv]);
                     // MathJax anwenden
@@ -216,35 +218,20 @@ function shuffleArray(array) {
     }
 }
 
-// ?????
-function adjustSelectWidth($select) {
+function adjustSelect2Width(selectElementSelector) { // Geändert, um Selektor zu akzeptieren
+    const $select2 = $(selectElementSelector);
+    const $select2Container = $select2.next('.select2-container');
     let maxWidth = 0;
-    let tempSpan = $('<span>').css({
-        "visibility": "hidden",
-        "white-space": "nowrap",
-        "position": "absolute"
-    }).appendTo('body');
 
-    // Bestimmt die maximale Breite der Optionen
-    $select.find('option').each(function () {
-        tempSpan.text($(this).text());
+    $select2.find('option').each(function() {
+        const optionText = $(this).text();
+        const tempSpan = $('<span>').text(optionText).appendTo('body');
         maxWidth = Math.max(maxWidth, tempSpan.width());
+        tempSpan.remove();
     });
 
-    tempSpan.remove();
-
-    // Berechnet die endgültige Breite (40px Puffer für das Dropdown-Icon)
-    const parentWidth = $select.parent().width() * 0.9; // 90% der Elternelementbreite
-    const finalWidth = Math.min(maxWidth + 40, parentWidth);
-
-    // **Richtige Methode, um Select2-Container zu setzen**
-    $select.next('.select2-container').css({
-        'width': finalWidth + 'px',
-        'min-width': '85px',
-        'max-width': '100%'
-    });
+    $select2Container.width(maxWidth + 30);
 }
-
 
 
 
