@@ -2,301 +2,301 @@
 {
 "einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
 "fragen":[
-"\\( \\quad K_0=9600;\\quad p=0,025;\\quad K_n=13000; \\)",
-"\\( \\quad K_0=9200;\\quad p=0,04;\\quad n=14; \\)",
-"\\( \\quad K_n=9600;\\quad p=0,03;\\quad n=16; \\)",
-"\\( \\quad K_0=4300;\\quad K_n=7400;\\quad n=14; \\)"
+"\\( \\quad K_n=6000;\\quad p=0,065;\\quad n=19; \\)",
+"\\( \\quad K_0=8500;\\quad p=0,055;\\quad n=5; \\)",
+"\\( \\quad K_0=4000;\\quad K_n=5900;\\quad n=16; \\)",
+"\\( \\quad K_0=1800;\\quad p=0,02;\\quad K_n=2500; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=12,2784:0,1}",
-"\\( K_n= \\){1:NUMERICAL:=15931,4233:1,6}",
-"\\( K_0= \\){1:NUMERICAL:=5982,4026:0,6}",
-"\\( p= \\){1:NUMERICAL:=0,0395:0,001}"
+"\\( K_0= \\){1:NUMERICAL:=1813,463:0,2}",
+"\\( K_n= \\){1:NUMERICAL:=11109,1601:1,1}",
+"\\( p= \\){1:NUMERICAL:=0,0246:0,001}",
+"\\( n= \\){1:NUMERICAL:=16,5889:0,1}"
 ]
 },
 {
 "einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
 "fragen":[
-"\\( \\quad K_0=1800;\\quad p=0,03;\\quad K_n=3000; \\)",
-"\\( \\quad K_n=3900;\\quad p=0,02;\\quad n=12; \\)",
-"\\( \\quad K_0=1400;\\quad p=0,025;\\quad n=8; \\)",
-"\\( \\quad K_0=3300;\\quad K_n=6600;\\quad n=13; \\)"
+"\\( \\quad K_0=9600;\\quad K_n=15000;\\quad n=15; \\)",
+"\\( \\quad K_0=2700;\\quad p=0,06;\\quad n=15; \\)",
+"\\( \\quad K_0=5000;\\quad p=0,045;\\quad K_n=7100; \\)",
+"\\( \\quad K_n=12000;\\quad p=0,025;\\quad n=9; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=17,2817:0,1}",
-"\\( K_0= \\){1:NUMERICAL:=3075,1234:0,3}",
-"\\( K_n= \\){1:NUMERICAL:=1705,7641:0,2}",
-"\\( p= \\){1:NUMERICAL:=0,0548:0,001}"
+"\\( p= \\){1:NUMERICAL:=0,0302:0,001}",
+"\\( K_n= \\){1:NUMERICAL:=6470,7071:0,6}",
+"\\( n= \\){1:NUMERICAL:=7,9664:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=9608,7403:1}"
 ]
 },
 {
 "einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
 "fragen":[
-"\\( \\quad K_0=4400;\\quad p=0,02;\\quad n=10; \\)",
-"\\( \\quad K_0=9300;\\quad K_n=13000;\\quad n=8; \\)",
-"\\( \\quad K_n=3800;\\quad p=0,03;\\quad n=6; \\)",
-"\\( \\quad K_0=4900;\\quad p=0,055;\\quad K_n=10000; \\)"
+"\\( \\quad K_0=3900;\\quad K_n=4800;\\quad n=11; \\)",
+"\\( \\quad K_0=7100;\\quad p=0,04;\\quad n=13; \\)",
+"\\( \\quad K_0=9400;\\quad p=0,065;\\quad K_n=14000; \\)",
+"\\( \\quad K_n=13000;\\quad p=0,04;\\quad n=7; \\)"
 ],
 "antworten":[
-"\\( K_n= \\){1:NUMERICAL:=5363,5754:0,5}",
-"\\( p= \\){1:NUMERICAL:=0,0428:0,001}",
-"\\( K_0= \\){1:NUMERICAL:=3182,4402:0,3}",
-"\\( n= \\){1:NUMERICAL:=13,3235:0,1}"
+"\\( p= \\){1:NUMERICAL:=0,0191:0,001}",
+"\\( K_n= \\){1:NUMERICAL:=11822,0219:1,2}",
+"\\( n= \\){1:NUMERICAL:=6,3255:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=9878,9316:1}"
 ]
 },
 {
 "einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
 "fragen":[
-"\\( \\quad K_0=7700;\\quad p=0,055;\\quad K_n=11000; \\)",
-"\\( \\quad K_0=7200;\\quad p=0,07;\\quad n=16; \\)",
-"\\( \\quad K_n=9800;\\quad p=0,025;\\quad n=15; \\)",
-"\\( \\quad K_0=4900;\\quad K_n=8200;\\quad n=15; \\)"
+"\\( \\quad K_0=6900;\\quad K_n=12000;\\quad n=18; \\)",
+"\\( \\quad K_0=6800;\\quad p=0,025;\\quad K_n=8100; \\)",
+"\\( \\quad K_n=13000;\\quad p=0,04;\\quad n=7; \\)",
+"\\( \\quad K_0=4500;\\quad p=0,07;\\quad n=8; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=6,6617:0,1}",
-"\\( K_n= \\){1:NUMERICAL:=21255,579:2,1}",
-"\\( K_0= \\){1:NUMERICAL:=6766,5625:0,7}",
-"\\( p= \\){1:NUMERICAL:=0,0349:0,001}"
+"\\( p= \\){1:NUMERICAL:=0,0312:0,001}",
+"\\( n= \\){1:NUMERICAL:=7,0848:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=9878,9316:1}",
+"\\( K_n= \\){1:NUMERICAL:=7731,8378:0,8}"
 ]
 },
 {
 "einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
 "fragen":[
-"\\( \\quad K_0=2400;\\quad p=0,02;\\quad n=13; \\)",
-"\\( \\quad K_0=2100;\\quad p=0,03;\\quad K_n=3400; \\)",
-"\\( \\quad K_0=4500;\\quad K_n=6100;\\quad n=9; \\)",
-"\\( \\quad K_n=2200;\\quad p=0,055;\\quad n=6; \\)"
+"\\( \\quad K_0=6600;\\quad p=0,05;\\quad n=14; \\)",
+"\\( \\quad K_0=6000;\\quad K_n=16000;\\quad n=20; \\)",
+"\\( \\quad K_n=9800;\\quad p=0,045;\\quad n=5; \\)",
+"\\( \\quad K_0=8900;\\quad p=0,055;\\quad K_n=13000; \\)"
 ],
 "antworten":[
-"\\( K_n= \\){1:NUMERICAL:=3104,6559:0,3}",
-"\\( n= \\){1:NUMERICAL:=16,301:0,1}",
+"\\( K_n= \\){1:NUMERICAL:=13067,5486:1,3}",
+"\\( p= \\){1:NUMERICAL:=0,0503:0,001}",
+"\\( K_0= \\){1:NUMERICAL:=7864,0203:0,8}",
+"\\( n= \\){1:NUMERICAL:=7,0768:0,1}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=3800;\\quad p=0,02;\\quad K_n=4400; \\)",
+"\\( \\quad K_n=4500;\\quad p=0,06;\\quad n=13; \\)",
+"\\( \\quad K_0=1300;\\quad K_n=3800;\\quad n=20; \\)",
+"\\( \\quad K_0=1500;\\quad p=0,045;\\quad n=5; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=7,4032:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=2109,7756:0,2}",
+"\\( p= \\){1:NUMERICAL:=0,0551:0,001}",
+"\\( K_n= \\){1:NUMERICAL:=1869,2729:0,2}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=8200;\\quad K_n=18000;\\quad n=15; \\)",
+"\\( \\quad K_n=10000;\\quad p=0,05;\\quad n=15; \\)",
+"\\( \\quad K_0=3100;\\quad p=0,07;\\quad n=6; \\)",
+"\\( \\quad K_0=5500;\\quad p=0,025;\\quad K_n=6900; \\)"
+],
+"antworten":[
+"\\( p= \\){1:NUMERICAL:=0,0538:0,001}",
+"\\( K_0= \\){1:NUMERICAL:=4810,171:0,5}",
+"\\( K_n= \\){1:NUMERICAL:=4652,2641:0,5}",
+"\\( n= \\){1:NUMERICAL:=9,1839:0,1}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=1900;\\quad p=0,07;\\quad n=19; \\)",
+"\\( \\quad K_0=1300;\\quad K_n=1700;\\quad n=5; \\)",
+"\\( \\quad K_n=4200;\\quad p=0,07;\\quad n=7; \\)",
+"\\( \\quad K_0=4200;\\quad p=0,06;\\quad K_n=5600; \\)"
+],
+"antworten":[
+"\\( K_n= \\){1:NUMERICAL:=6871,4023:0,7}",
+"\\( p= \\){1:NUMERICAL:=0,0551:0,001}",
+"\\( K_0= \\){1:NUMERICAL:=2615,5489:0,3}",
+"\\( n= \\){1:NUMERICAL:=4,9371:0,1}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_n=8800;\\quad p=0,055;\\quad n=6; \\)",
+"\\( \\quad K_0=2900;\\quad K_n=5100;\\quad n=9; \\)",
+"\\( \\quad K_0=8000;\\quad p=0,045;\\quad n=17; \\)",
+"\\( \\quad K_0=1400;\\quad p=0,05;\\quad K_n=3400; \\)"
+],
+"antworten":[
+"\\( K_0= \\){1:NUMERICAL:=6382,1633:0,6}",
+"\\( p= \\){1:NUMERICAL:=0,0647:0,001}",
+"\\( K_n= \\){1:NUMERICAL:=16907,0145:1,7}",
+"\\( n= \\){1:NUMERICAL:=18,1861:0,1}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=6600;\\quad K_n=9400;\\quad n=8; \\)",
+"\\( \\quad K_0=7400;\\quad p=0,065;\\quad K_n=19000; \\)",
+"\\( \\quad K_n=17000;\\quad p=0,05;\\quad n=13; \\)",
+"\\( \\quad K_0=5100;\\quad p=0,05;\\quad n=13; \\)"
+],
+"antworten":[
+"\\( p= \\){1:NUMERICAL:=0,0452:0,001}",
+"\\( n= \\){1:NUMERICAL:=14,9736:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=9015,463:0,9}",
+"\\( K_n= \\){1:NUMERICAL:=9616,8106:1}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=4100;\\quad p=0,06;\\quad n=17; \\)",
+"\\( \\quad K_n=18000;\\quad p=0,07;\\quad n=17; \\)",
+"\\( \\quad K_0=6400;\\quad p=0,05;\\quad K_n=8600; \\)",
+"\\( \\quad K_0=8300;\\quad K_n=24000;\\quad n=18; \\)"
+],
+"antworten":[
+"\\( K_n= \\){1:NUMERICAL:=11040,3684:1,1}",
+"\\( K_0= \\){1:NUMERICAL:=5698,339:0,6}",
+"\\( n= \\){1:NUMERICAL:=6,0558:0,1}",
+"\\( p= \\){1:NUMERICAL:=0,0608:0,001}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=8600;\\quad K_n=17000;\\quad n=10; \\)",
+"\\( \\quad K_0=5100;\\quad p=0,06;\\quad K_n=8100; \\)",
+"\\( \\quad K_n=6400;\\quad p=0,02;\\quad n=5; \\)",
+"\\( \\quad K_0=2700;\\quad p=0,02;\\quad n=8; \\)"
+],
+"antworten":[
+"\\( p= \\){1:NUMERICAL:=0,0705:0,001}",
+"\\( n= \\){1:NUMERICAL:=7,9395:0,1}",
+"\\( K_0= \\){1:NUMERICAL:=5796,6772:0,6}",
+"\\( K_n= \\){1:NUMERICAL:=3163,4803:0,3}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=5300;\\quad K_n=6700;\\quad n=12; \\)",
+"\\( \\quad K_n=10000;\\quad p=0,045;\\quad n=14; \\)",
+"\\( \\quad K_0=9200;\\quad p=0,055;\\quad K_n=17000; \\)",
+"\\( \\quad K_0=6900;\\quad p=0,07;\\quad n=13; \\)"
+],
+"antworten":[
+"\\( p= \\){1:NUMERICAL:=0,0197:0,001}",
+"\\( K_0= \\){1:NUMERICAL:=5399,7286:0,5}",
+"\\( n= \\){1:NUMERICAL:=11,4681:0,1}",
+"\\( K_n= \\){1:NUMERICAL:=16627,9305:1,7}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=6900;\\quad p=0,065;\\quad K_n=20000; \\)",
+"\\( \\quad K_0=7600;\\quad K_n=14000;\\quad n=11; \\)",
+"\\( \\quad K_0=4600;\\quad p=0,07;\\quad n=7; \\)",
+"\\( \\quad K_n=4900;\\quad p=0,045;\\quad n=7; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=16,899:0,1}",
+"\\( p= \\){1:NUMERICAL:=0,0571:0,001}",
+"\\( K_n= \\){1:NUMERICAL:=7386,5948:0,7}",
+"\\( K_0= \\){1:NUMERICAL:=3600,6594:0,4}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_n=24000;\\quad p=0,06;\\quad n=19; \\)",
+"\\( \\quad K_0=1700;\\quad p=0,035;\\quad K_n=2200; \\)",
+"\\( \\quad K_0=8300;\\quad p=0,055;\\quad n=7; \\)",
+"\\( \\quad K_0=3300;\\quad K_n=4600;\\quad n=7; \\)"
+],
+"antworten":[
+"\\( K_0= \\){1:NUMERICAL:=7932,3123:0,8}",
+"\\( n= \\){1:NUMERICAL:=7,4947:0,1}",
+"\\( K_n= \\){1:NUMERICAL:=12073,837:1,2}",
+"\\( p= \\){1:NUMERICAL:=0,0486:0,001}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_n=5500;\\quad p=0,02;\\quad n=6; \\)",
+"\\( \\quad K_0=3900;\\quad K_n=5100;\\quad n=8; \\)",
+"\\( \\quad K_0=6600;\\quad p=0,02;\\quad K_n=7300; \\)",
+"\\( \\quad K_0=3500;\\quad p=0,02;\\quad n=5; \\)"
+],
+"antworten":[
+"\\( K_0= \\){1:NUMERICAL:=4883,8426:0,5}",
+"\\( p= \\){1:NUMERICAL:=0,0341:0,001}",
+"\\( n= \\){1:NUMERICAL:=5,0905:0,1}",
+"\\( K_n= \\){1:NUMERICAL:=3864,2828:0,4}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=4000;\\quad K_n=7200;\\quad n=10; \\)",
+"\\( \\quad K_0=7300;\\quad p=0,025;\\quad K_n=9300; \\)",
+"\\( \\quad K_0=4200;\\quad p=0,025;\\quad n=9; \\)",
+"\\( \\quad K_n=11000;\\quad p=0,06;\\quad n=12; \\)"
+],
+"antworten":[
+"\\( p= \\){1:NUMERICAL:=0,0605:0,001}",
+"\\( n= \\){1:NUMERICAL:=9,8062:0,1}",
+"\\( K_n= \\){1:NUMERICAL:=5245,2245:0,5}",
+"\\( K_0= \\){1:NUMERICAL:=5466,663:0,5}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=5700;\\quad p=0,04;\\quad K_n=7800; \\)",
+"\\( \\quad K_0=2600;\\quad p=0,07;\\quad n=17; \\)",
+"\\( \\quad K_0=4900;\\quad K_n=7600;\\quad n=10; \\)",
+"\\( \\quad K_n=12000;\\quad p=0,065;\\quad n=7; \\)"
+],
+"antworten":[
+"\\( n= \\){1:NUMERICAL:=7,9972:0,1}",
+"\\( K_n= \\){1:NUMERICAL:=8212,9195:0,8}",
+"\\( p= \\){1:NUMERICAL:=0,0449:0,001}",
+"\\( K_0= \\){1:NUMERICAL:=7722,0746:0,8}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_0=3600;\\quad p=0,045;\\quad n=20; \\)",
+"\\( \\quad K_0=6700;\\quad p=0,04;\\quad K_n=14000; \\)",
+"\\( \\quad K_0=4300;\\quad K_n=5400;\\quad n=5; \\)",
+"\\( \\quad K_n=8700;\\quad p=0,055;\\quad n=6; \\)"
+],
+"antworten":[
+"\\( K_n= \\){1:NUMERICAL:=8682,1705:0,9}",
+"\\( n= \\){1:NUMERICAL:=18,7898:0,1}",
+"\\( p= \\){1:NUMERICAL:=0,0466:0,001}",
+"\\( K_0= \\){1:NUMERICAL:=6309,6387:0,6}"
+]
+},
+{
+"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
+"fragen":[
+"\\( \\quad K_n=1900;\\quad p=0,045;\\quad n=11; \\)",
+"\\( \\quad K_0=5100;\\quad p=0,055;\\quad n=13; \\)",
+"\\( \\quad K_0=2600;\\quad K_n=3900;\\quad n=12; \\)",
+"\\( \\quad K_0=8200;\\quad p=0,045;\\quad K_n=13000; \\)"
+],
+"antworten":[
+"\\( K_0= \\){1:NUMERICAL:=1170,7776:0,1}",
+"\\( K_n= \\){1:NUMERICAL:=10229,4469:1}",
 "\\( p= \\){1:NUMERICAL:=0,0344:0,001}",
-"\\( K_0= \\){1:NUMERICAL:=1595,5408:0,2}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=3000;\\quad K_n=3700;\\quad n=7; \\)",
-"\\( \\quad K_0=5800;\\quad p=0,07;\\quad n=12; \\)",
-"\\( \\quad K_0=5400;\\quad p=0,025;\\quad K_n=8400; \\)",
-"\\( \\quad K_n=10000;\\quad p=0,025;\\quad n=15; \\)"
-],
-"antworten":[
-"\\( p= \\){1:NUMERICAL:=0,0304:0,001}",
-"\\( K_n= \\){1:NUMERICAL:=13062,7112:1,3}",
-"\\( n= \\){1:NUMERICAL:=17,8933:0,1}",
-"\\( K_0= \\){1:NUMERICAL:=6904,6556:0,7}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=4300;\\quad p=0,035;\\quad K_n=7000; \\)",
-"\\( \\quad K_0=2900;\\quad K_n=7600;\\quad n=18; \\)",
-"\\( \\quad K_n=9800;\\quad p=0,03;\\quad n=16; \\)",
-"\\( \\quad K_0=4600;\\quad p=0,04;\\quad n=11; \\)"
-],
-"antworten":[
-"\\( n= \\){1:NUMERICAL:=14,165:0,1}",
-"\\( p= \\){1:NUMERICAL:=0,055:0,001}",
-"\\( K_0= \\){1:NUMERICAL:=6107,036:0,6}",
-"\\( K_n= \\){1:NUMERICAL:=7081,4887:0,7}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=1400;\\quad p=0,02;\\quad n=8; \\)",
-"\\( \\quad K_n=3000;\\quad p=0,025;\\quad n=14; \\)",
-"\\( \\quad K_0=7300;\\quad K_n=13000;\\quad n=9; \\)",
-"\\( \\quad K_0=1000;\\quad p=0,05;\\quad K_n=1400; \\)"
-],
-"antworten":[
-"\\( K_n= \\){1:NUMERICAL:=1640,3231:0,2}",
-"\\( K_0= \\){1:NUMERICAL:=2123,1816:0,2}",
-"\\( p= \\){1:NUMERICAL:=0,0662:0,001}",
-"\\( n= \\){1:NUMERICAL:=6,8963:0,1}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=2600;\\quad K_n=5900;\\quad n=12; \\)",
-"\\( \\quad K_n=10000;\\quad p=0,055;\\quad n=9; \\)",
-"\\( \\quad K_0=5800;\\quad p=0,045;\\quad K_n=13000; \\)",
-"\\( \\quad K_0=6200;\\quad p=0,065;\\quad n=10; \\)"
-],
-"antworten":[
-"\\( p= \\){1:NUMERICAL:=0,0707:0,001}",
-"\\( K_0= \\){1:NUMERICAL:=6176,2926:0,6}",
-"\\( n= \\){1:NUMERICAL:=18,336:0,1}",
-"\\( K_n= \\){1:NUMERICAL:=11638,2523:1,2}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=8600;\\quad p=0,035;\\quad n=17; \\)",
-"\\( \\quad K_n=5000;\\quad p=0,055;\\quad n=9; \\)",
-"\\( \\quad K_0=7900;\\quad K_n=12000;\\quad n=11; \\)",
-"\\( \\quad K_0=8300;\\quad p=0,045;\\quad K_n=12000; \\)"
-],
-"antworten":[
-"\\( K_n= \\){1:NUMERICAL:=15434,2097:1,5}",
-"\\( K_0= \\){1:NUMERICAL:=3088,1463:0,3}",
-"\\( p= \\){1:NUMERICAL:=0,0387:0,001}",
-"\\( n= \\){1:NUMERICAL:=8,3752:0,1}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=4800;\\quad p=0,05;\\quad n=18; \\)",
-"\\( \\quad K_0=4500;\\quad p=0,035;\\quad K_n=5900; \\)",
-"\\( \\quad K_0=2500;\\quad K_n=3800;\\quad n=6; \\)",
-"\\( \\quad K_n=7200;\\quad p=0,03;\\quad n=13; \\)"
-],
-"antworten":[
-"\\( K_n= \\){1:NUMERICAL:=11551,7723:1,2}",
-"\\( n= \\){1:NUMERICAL:=7,8739:0,1}",
-"\\( p= \\){1:NUMERICAL:=0,0723:0,001}",
-"\\( K_0= \\){1:NUMERICAL:=4902,8496:0,5}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=2900;\\quad p=0,06;\\quad n=17; \\)",
-"\\( \\quad K_0=2600;\\quad p=0,02;\\quad K_n=3300; \\)",
-"\\( \\quad K_n=16000;\\quad p=0,045;\\quad n=18; \\)",
-"\\( \\quad K_0=6000;\\quad K_n=14000;\\quad n=13; \\)"
-],
-"antworten":[
-"\\( K_n= \\){1:NUMERICAL:=7809,0411:0,8}",
-"\\( n= \\){1:NUMERICAL:=12,0394:0,1}",
-"\\( K_0= \\){1:NUMERICAL:=7244,8059:0,7}",
-"\\( p= \\){1:NUMERICAL:=0,0673:0,001}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=2700;\\quad p=0,045;\\quad n=12; \\)",
-"\\( \\quad K_n=20000;\\quad p=0,06;\\quad n=15; \\)",
-"\\( \\quad K_0=3800;\\quad K_n=11000;\\quad n=17; \\)",
-"\\( \\quad K_0=2500;\\quad p=0,03;\\quad K_n=2900; \\)"
-],
-"antworten":[
-"\\( K_n= \\){1:NUMERICAL:=4578,8799:0,5}",
-"\\( K_0= \\){1:NUMERICAL:=8345,3012:0,8}",
-"\\( p= \\){1:NUMERICAL:=0,0645:0,001}",
-"\\( n= \\){1:NUMERICAL:=5,0212:0,1}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=7400;\\quad p=0,02;\\quad n=7; \\)",
-"\\( \\quad K_0=8500;\\quad K_n=22000;\\quad n=16; \\)",
-"\\( \\quad K_n=7000;\\quad p=0,035;\\quad n=13; \\)",
-"\\( \\quad K_0=7100;\\quad p=0,02;\\quad K_n=8200; \\)"
-],
-"antworten":[
-"\\( K_n= \\){1:NUMERICAL:=8500,2739:0,9}",
-"\\( p= \\){1:NUMERICAL:=0,0612:0,001}",
-"\\( K_0= \\){1:NUMERICAL:=4475,8291:0,4}",
-"\\( n= \\){1:NUMERICAL:=7,2738:0,1}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=6900;\\quad K_n=11000;\\quad n=10; \\)",
-"\\( \\quad K_0=9800;\\quad p=0,025;\\quad n=11; \\)",
-"\\( \\quad K_n=20000;\\quad p=0,04;\\quad n=20; \\)",
-"\\( \\quad K_0=9500;\\quad p=0,045;\\quad K_n=15000; \\)"
-],
-"antworten":[
-"\\( p= \\){1:NUMERICAL:=0,0477:0,001}",
-"\\( K_n= \\){1:NUMERICAL:=12858,4492:1,3}",
-"\\( K_0= \\){1:NUMERICAL:=9127,7389:0,9}",
-"\\( n= \\){1:NUMERICAL:=10,3769:0,1}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=7600;\\quad p=0,06;\\quad K_n=10000; \\)",
-"\\( \\quad K_n=6800;\\quad p=0,045;\\quad n=7; \\)",
-"\\( \\quad K_0=7800;\\quad p=0,045;\\quad n=20; \\)",
-"\\( \\quad K_0=8500;\\quad K_n=23000;\\quad n=17; \\)"
-],
-"antworten":[
-"\\( n= \\){1:NUMERICAL:=4,7098:0,1}",
-"\\( K_0= \\){1:NUMERICAL:=4996,8335:0,5}",
-"\\( K_n= \\){1:NUMERICAL:=18811,3694:1,9}",
-"\\( p= \\){1:NUMERICAL:=0,0603:0,001}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_n=3200;\\quad p=0,045;\\quad n=12; \\)",
-"\\( \\quad K_0=1500;\\quad K_n=4400;\\quad n=20; \\)",
-"\\( \\quad K_0=5400;\\quad p=0,02;\\quad K_n=6000; \\)",
-"\\( \\quad K_0=5700;\\quad p=0,055;\\quad n=6; \\)"
-],
-"antworten":[
-"\\( K_0= \\){1:NUMERICAL:=1886,9244:0,2}",
-"\\( p= \\){1:NUMERICAL:=0,0553:0,001}",
-"\\( n= \\){1:NUMERICAL:=5,3205:0,1}",
-"\\( K_n= \\){1:NUMERICAL:=7859,404:0,8}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_n=3400;\\quad p=0,025;\\quad n=13; \\)",
-"\\( \\quad K_0=2000;\\quad p=0,025;\\quad n=15; \\)",
-"\\( \\quad K_0=4800;\\quad K_n=13000;\\quad n=20; \\)",
-"\\( \\quad K_0=1700;\\quad p=0,065;\\quad K_n=4400; \\)"
-],
-"antworten":[
-"\\( K_0= \\){1:NUMERICAL:=2466,4293:0,2}",
-"\\( K_n= \\){1:NUMERICAL:=2896,5963:0,3}",
-"\\( p= \\){1:NUMERICAL:=0,0511:0,001}",
-"\\( n= \\){1:NUMERICAL:=15,1009:0,1}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_n=1700;\\quad p=0,06;\\quad n=7; \\)",
-"\\( \\quad K_0=7000;\\quad K_n=14000;\\quad n=14; \\)",
-"\\( \\quad K_0=1700;\\quad p=0,07;\\quad n=6; \\)",
-"\\( \\quad K_0=1400;\\quad p=0,07;\\quad K_n=2400; \\)"
-],
-"antworten":[
-"\\( K_0= \\){1:NUMERICAL:=1130,5971:0,1}",
-"\\( p= \\){1:NUMERICAL:=0,0508:0,001}",
-"\\( K_n= \\){1:NUMERICAL:=2551,2416:0,3}",
-"\\( n= \\){1:NUMERICAL:=7,9664:0,1}"
-]
-},
-{
-"einleitung":"Zinseszinsrechnung: \\( K_n=K_0\\cdot q^n \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS). (Runden Sie p auf 4 NKS.)",
-"fragen":[
-"\\( \\quad K_0=1200;\\quad p=0,06;\\quad n=16; \\)",
-"\\( \\quad K_0=9900;\\quad p=0,05;\\quad K_n=19000; \\)",
-"\\( \\quad K_n=4900;\\quad p=0,025;\\quad n=17; \\)",
-"\\( \\quad K_0=7600;\\quad K_n=9700;\\quad n=5; \\)"
-],
-"antworten":[
-"\\( K_n= \\){1:NUMERICAL:=3048,422:0,3}",
-"\\( n= \\){1:NUMERICAL:=13,3614:0,1}",
-"\\( K_0= \\){1:NUMERICAL:=3220,2558:0,3}",
-"\\( p= \\){1:NUMERICAL:=0,05:0,001}"
+"\\( n= \\){1:NUMERICAL:=10,4691:0,1}"
 ]
 }
 ]
