@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 8267,52707705228 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 15 Jahren auf 16000 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 2400 €. Er möchte das Geld für 5 Jahre anlegen und erwartet, dass es auf 3200 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,065:0,001}"
+"{1:NUMERICAL:=0,0592:0,001}"
 ]
 },
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 2100 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 15 Jahren auf 5400 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 6500 €. Er möchte das Geld für 10 Jahre anlegen und erwartet, dass es auf 8300 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0465:0,001}"
+"{1:NUMERICAL:=0,0247:0,001}"
 ]
 },
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 4700 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 5 Jahren auf 5900 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 9100 €. Er möchte das Geld für 16 Jahre anlegen und erwartet, dass es auf 23000 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0442:0,001}"
+"{1:NUMERICAL:=0,0597:0,001}"
 ]
 },
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 5700 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 13 Jahren auf 10000 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 1100 €. Er möchte das Geld für 8 Jahre anlegen und erwartet, dass es auf 1700 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0596:0,001}"
+"{1:NUMERICAL:=0,0559:0,001}"
 ]
 },
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 5200 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 7 Jahren auf 7800 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 9600 €. Er möchte das Geld für 18 Jahre anlegen und erwartet, dass es auf 32000 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0692:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 4700 €. Er möchte das Geld für 7 Jahre anlegen und erwartet, dass es auf 6000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0355:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 1100 €. Er möchte das Geld für 20 Jahre anlegen und erwartet, dass es auf 2000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0303:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 2200 €. Er möchte das Geld für 12 Jahre anlegen und erwartet, dass es auf 3000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0262:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 7800 €. Er möchte das Geld für 15 Jahre anlegen und erwartet, dass es auf 11000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0232:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 5800 €. Er möchte das Geld für 11 Jahre anlegen und erwartet, dass es auf 11000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0599:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 8300 €. Er möchte das Geld für 17 Jahre anlegen und erwartet, dass es auf 16000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0394:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 9400 €. Er möchte das Geld für 9 Jahre anlegen und erwartet, dass es auf 13000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0367:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 9400 €. Er möchte das Geld für 15 Jahre anlegen und erwartet, dass es auf 24000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0645:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 4500 €. Er möchte das Geld für 20 Jahre anlegen und erwartet, dass es auf 7400 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0252:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 9900 €. Er möchte das Geld für 17 Jahre anlegen und erwartet, dass es auf 14000 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
+],
+"antworten":[
+"{1:NUMERICAL:=0,0206:0,001}"
+]
+},
+{
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 1900 €. Er möchte das Geld für 9 Jahre anlegen und erwartet, dass es auf 2300 € wächst.",
+"fragen":[
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
 "{1:NUMERICAL:=0,0215:0,001}"
 ]
 },
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 9300 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 12 Jahren auf 12000 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 7600 €. Er möchte das Geld für 12 Jahre anlegen und erwartet, dass es auf 9600 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0644:0,001}"
+"{1:NUMERICAL:=0,0197:0,001}"
 ]
 },
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 5700 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 9 Jahren auf 10000 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 5500 €. Er möchte das Geld für 8 Jahre anlegen und erwartet, dass es auf 8100 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0695:0,001}"
+"{1:NUMERICAL:=0,0496:0,001}"
 ]
 },
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 6700 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 17 Jahren auf 21000 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 8100 €. Er möchte das Geld für 14 Jahre anlegen und erwartet, dass es auf 12000 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0694:0,001}"
+"{1:NUMERICAL:=0,0285:0,001}"
 ]
 },
 {
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 3400 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 20 Jahren auf 13000 € erhöht.",
+"einleitung":"Lukas möchte für seinen Ruhestand vorsorgen. Zurzeit verfügt Lukas über 9100 €. Er möchte das Geld für 6 Jahre anlegen und erwartet, dass es auf 11000 € wächst.",
 "fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
+"Berechnen Sie den Zinssatz, den er erhalten muss (Angabe als Dezimalzahl)."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,0509:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 1400 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 16 Jahren auf 3100 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0316:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 3900 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 6 Jahren auf 4700 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0254:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 5000 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 14 Jahren auf 7100 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0395:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 4400 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 8 Jahren auf 6000 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0585:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 8600 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 13 Jahren auf 18000 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0397:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 2100 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 19 Jahren auf 4400 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0356:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 3200 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 11 Jahren auf 4700 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0488:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 2600 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 5 Jahren auf 3300 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0283:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 9600 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 16 Jahren auf 15000 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,049:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 9300 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 16 Jahren auf 20000 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0461:0,001}"
-]
-},
-{
-"einleitung":"Emma möchte ein finanzielles Polster für ihre Zukunft aufbauen. Sie hat etwas Geld zur Verfügung und überlegt, es gewinnbringend anzulegen. Aktuell verfügt sie über 1400 €. Ihre Bank stellt ihr in Aussicht, dass sich bei einer festverzinslichen Anlage dieser Betrag in 9 Jahren auf 2100 € erhöht.",
-"fragen":[
-"Berechnen Sie, welchen Zinssatz die Bank gewährt (Angabe als Dezimalzahl)."
-],
-"antworten":[
-"{1:NUMERICAL:=0,0601:0,001}"
+"{1:NUMERICAL:=0,0321:0,001}"
 ]
 }
 ]
