@@ -29,7 +29,7 @@ const aufgabenKategorien = {
         { text: "Dreisatz", url: "https://www.mathechecks.de/index?config=%5B%22161%22%2C%22162%22%2C%22163%22%2C%22164%22%5D" }
     ],
     Finanzmathe: [
-        { text: "Zinseszinsrechnung", url: "" },
+        { text: "Zinseszinsrechnung", url: "https://www.mathechecks.de/index?config=%5B%2270%22%2C%22165%22%2C%22166%22%2C%22167%22%2C%22168%22%5D" },
         { text: "Rentenrechnung", url: "https://www.mathechecks.de/index?config=%5B%2266%22%2C%2267%22%2C%2268%22%2C%2269%22%5D" },
         { text: "Kapitalaufbau und -abbau", url: "https://www.mathechecks.de/index?config=%5B%2262%22%2C%2263%22%2C%2264%22%2C%2265%22%5D" }
     ]
