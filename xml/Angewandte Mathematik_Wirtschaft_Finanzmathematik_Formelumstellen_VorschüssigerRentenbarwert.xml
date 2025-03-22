@@ -17,7 +17,7 @@
     <text>01 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=47000;\quad p=0,055;\quad r=3800; \)<br>\( n= \){1:NUMERICAL:=17,2847:0,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=11000;\quad p=0,065;\quad n=10; \)<br>\( r= \){1:NUMERICAL:=1436,7621:0,1}</li></ol><ol><li value="3">\( \quad r=5900;\quad p=0,025;\quad n=6; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=33310,3881:3,3}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad r=7800;\quad p=0,03;\quad n=13; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=85441,2311:8,5}</li></ol><ol><li value="2">\( \quad \overline{R}_0=25000;\quad p=0,035;\quad n=5; \)<br>\( r= \){1:NUMERICAL:=5349,7916:0,5}</li></ol><ol><li value="3">\( \quad \overline{R}_0=53000;\quad p=0,05;\quad r=4700; \)<br>\( n= \){1:NUMERICAL:=14,9037:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -26,7 +26,7 @@
     <text>02 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=4200;\quad p=0,04;\quad n=15; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=48565,1163:4,9}</li></ol><ol><li value="2">\( \quad \overline{R}_0=12000;\quad p=0,04;\quad n=5; \)<br>\( r= \){1:NUMERICAL:=2591,8513:0,3}</li></ol><ol><li value="3">\( \quad \overline{R}_0=25000;\quad p=0,025;\quad r=4400; \)<br>\( n= \){1:NUMERICAL:=5,7815:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad r=2000;\quad p=0,065;\quad n=8; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=12969,0395:1,3}</li></ol><ol><li value="2">\( \quad \overline{R}_0=23000;\quad p=0,07;\quad n=11; \)<br>\( r= \){1:NUMERICAL:=2866,5503:0,3}</li></ol><ol><li value="3">\( \quad \overline{R}_0=14000;\quad p=0,04;\quad r=1000; \)<br>\( n= \){1:NUMERICAL:=17,673:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -35,7 +35,7 @@
     <text>03 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=18000;\quad p=0,025;\quad n=19; \)<br>\( r= \){1:NUMERICAL:=1172,3815:0,1}</li></ol><ol><li value="2">\( \quad r=2600;\quad p=0,045;\quad n=13; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=26308,31:2,6}</li></ol><ol><li value="3">\( \quad \overline{R}_0=48000;\quad p=0,04;\quad r=6800; \)<br>\( n= \){1:NUMERICAL:=7,6834:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=92000;\quad p=0,07;\quad r=8100; \)<br>\( n= \){1:NUMERICAL:=17,5306:0,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=31000;\quad p=0,065;\quad n=5; \)<br>\( r= \){1:NUMERICAL:=7004,3856:0,7}</li></ol><ol><li value="3">\( \quad r=5300;\quad p=0,035;\quad n=7; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=33541,331:3,4}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -44,7 +44,7 @@
     <text>04 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=7800;\quad p=0,04;\quad n=6; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=42524,2142:4,3}</li></ol><ol><li value="2">\( \quad \overline{R}_0=150000;\quad p=0,03;\quad n=20; \)<br>\( r= \){1:NUMERICAL:=9788,6953:1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=73000;\quad p=0,07;\quad r=9700; \)<br>\( n= \){1:NUMERICAL:=9,0695:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=39000;\quad p=0,02;\quad r=6800; \)<br>\( n= \){1:NUMERICAL:=5,8606:0,1}</li></ol><ol><li value="2">\( \quad r=6400;\quad p=0,05;\quad n=19; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=81213,3562:8,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=42000;\quad p=0,02;\quad n=17; \)<br>\( r= \){1:NUMERICAL:=2881,1111:0,3}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -53,7 +53,7 @@
     <text>05 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=45000;\quad p=0,045;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=6528,6454:0,7}</li></ol><ol><li value="2">\( \quad r=4200;\quad p=0,03;\quad n=5; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=19811,8133:2}</li></ol><ol><li value="3">\( \quad \overline{R}_0=54000;\quad p=0,04;\quad r=5500; \)<br>\( n= \){1:NUMERICAL:=11,5241:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=46000;\quad p=0,03;\quad r=6400; \)<br>\( n= \){1:NUMERICAL:=7,7525:0,1}</li></ol><ol><li value="2">\( \quad r=6100;\quad p=0,035;\quad n=13; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=65046,3394:6,5}</li></ol><ol><li value="3">\( \quad \overline{R}_0=15000;\quad p=0,07;\quad n=20; \)<br>\( r= \){1:NUMERICAL:=1323,2653:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -62,7 +62,7 @@
     <text>06 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=21000;\quad p=0,03;\quad r=1800; \)<br>\( n= \){1:NUMERICAL:=13,2281:0,1}</li></ol><ol><li value="2">\( \quad r=7400;\quad p=0,06;\quad n=16; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=79270,6425:7,9}</li></ol><ol><li value="3">\( \quad \overline{R}_0=48000;\quad p=0,025;\quad n=14; \)<br>\( r= \){1:NUMERICAL:=4005,6129:0,4}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad r=5100;\quad p=0,035;\quad n=9; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=40157,1732:4}</li></ol><ol><li value="2">\( \quad \overline{R}_0=61000;\quad p=0,045;\quad r=7400; \)<br>\( n= \){1:NUMERICAL:=9,555:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=20000;\quad p=0,055;\quad n=5; \)<br>\( r= \){1:NUMERICAL:=4439,3637:0,4}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -71,7 +71,7 @@
     <text>07 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=61000;\quad p=0,02;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=8163,8213:0,8}</li></ol><ol><li value="2">\( \quad \overline{R}_0=89000;\quad p=0,065;\quad r=8900; \)<br>\( n= \){1:NUMERICAL:=13,6264:0,1}</li></ol><ol><li value="3">\( \quad r=1700;\quad p=0,03;\quad n=16; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=21994,4896:2,2}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=86000;\quad p=0,065;\quad r=9400; \)<br>\( n= \){1:NUMERICAL:=11,8521:0,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=12000;\quad p=0,025;\quad n=14; \)<br>\( r= \){1:NUMERICAL:=1001,4032:0,1}</li></ol><ol><li value="3">\( \quad r=2800;\quad p=0,06;\quad n=20; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=34042,7262:3,4}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -80,7 +80,7 @@
     <text>08 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=2800;\quad p=0,045;\quad n=11; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=24955,6109:2,5}</li></ol><ol><li value="2">\( \quad \overline{R}_0=81000;\quad p=0,065;\quad r=7500; \)<br>\( n= \){1:NUMERICAL:=15,3007:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=59000;\quad p=0,03;\quad n=19; \)<br>\( r= \){1:NUMERICAL:=3999,0475:0,4}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=33000;\quad p=0,045;\quad n=20; \)<br>\( r= \){1:NUMERICAL:=2427,6677:0,2}</li></ol><ol><li value="2">\( \quad r=8700;\quad p=0,035;\quad n=17; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=113918,8162:11,4}</li></ol><ol><li value="3">\( \quad \overline{R}_0=42000;\quad p=0,035;\quad r=3700; \)<br>\( n= \){1:NUMERICAL:=13,2276:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -89,7 +89,7 @@
     <text>09 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=2500;\quad p=0,03;\quad n=5; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=11792,746:1,2}</li></ol><ol><li value="2">\( \quad \overline{R}_0=110000;\quad p=0,025;\quad r=7100; \)<br>\( n= \){1:NUMERICAL:=19,221:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=16000;\quad p=0,025;\quad n=7; \)<br>\( r= \){1:NUMERICAL:=2458,4652:0,2}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad r=4300;\quad p=0,04;\quad n=13; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=44655,8172:4,5}</li></ol><ol><li value="2">\( \quad \overline{R}_0=83000;\quad p=0,045;\quad n=19; \)<br>\( r= \){1:NUMERICAL:=6306,9948:0,6}</li></ol><ol><li value="3">\( \quad \overline{R}_0=85000;\quad p=0,07;\quad r=8100; \)<br>\( n= \){1:NUMERICAL:=15,0203:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -98,7 +98,7 @@
     <text>10 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=45000;\quad p=0,035;\quad r=8100; \)<br>\( n= \){1:NUMERICAL:=5,7516:0,1}</li></ol><ol><li value="2">\( \quad r=1500;\quad p=0,03;\quad n=17; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=20341,653:2}</li></ol><ol><li value="3">\( \quad \overline{R}_0=35000;\quad p=0,07;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=5477,9175:0,5}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=59000;\quad p=0,05;\quad r=4800; \)<br>\( n= \){1:NUMERICAL:=16,6208:0,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=65000;\quad p=0,045;\quad n=15; \)<br>\( r= \){1:NUMERICAL:=5791,768:0,6}</li></ol><ol><li value="3">\( \quad r=8300;\quad p=0,055;\quad n=11; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=70862,2944:7,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -107,7 +107,7 @@
     <text>11 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=27000;\quad p=0,035;\quad n=17; \)<br>\( r= \){1:NUMERICAL:=2061,9947:0,2}</li></ol><ol><li value="2">\( \quad \overline{R}_0=7200;\quad p=0,06;\quad r=1100; \)<br>\( n= \){1:NUMERICAL:=7,3908:0,1}</li></ol><ol><li value="3">\( \quad r=8100;\quad p=0,055;\quad n=12; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=73649,5443:7,4}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=35000;\quad p=0,04;\quad r=2500; \)<br>\( n= \){1:NUMERICAL:=18,8778:0,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=120000;\quad p=0,02;\quad n=18; \)<br>\( r= \){1:NUMERICAL:=7847,3061:0,8}</li></ol><ol><li value="3">\( \quad r=1800;\quad p=0,04;\quad n=7; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=11235,8463:1,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -116,7 +116,7 @@
     <text>12 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=5100;\quad p=0,03;\quad n=9; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=40900,4302:4,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=20000;\quad p=0,055;\quad n=7; \)<br>\( r= \){1:NUMERICAL:=3335,8183:0,3}</li></ol><ol><li value="3">\( \quad \overline{R}_0=40000;\quad p=0,03;\quad r=4500; \)<br>\( n= \){1:NUMERICAL:=9,5506:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=12000;\quad p=0,07;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=1878,1431:0,2}</li></ol><ol><li value="2">\( \quad \overline{R}_0=59000;\quad p=0,05;\quad r=9700; \)<br>\( n= \){1:NUMERICAL:=6,5887:0,1}</li></ol><ol><li value="3">\( \quad r=2100;\quad p=0,025;\quad n=15; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=26650,9156:2,7}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -125,7 +125,7 @@
     <text>13 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=63000;\quad p=0,02;\quad n=18; \)<br>\( r= \){1:NUMERICAL:=4119,8357:0,4}</li></ol><ol><li value="2">\( \quad \overline{R}_0=83000;\quad p=0,02;\quad r=6300; \)<br>\( n= \){1:NUMERICAL:=14,6691:0,1}</li></ol><ol><li value="3">\( \quad r=5100;\quad p=0,05;\quad n=18; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=62597,7379:6,3}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=31000;\quad p=0,025;\quad n=17; \)<br>\( r= \){1:NUMERICAL:=2205,6204:0,2}</li></ol><ol><li value="2">\( \quad r=2600;\quad p=0,045;\quad n=13; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=26308,31:2,6}</li></ol><ol><li value="3">\( \quad \overline{R}_0=71000;\quad p=0,055;\quad r=9700; \)<br>\( n= \){1:NUMERICAL:=8,3381:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -134,7 +134,7 @@
     <text>14 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=9000;\quad p=0,06;\quad n=15; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=92654,8553:9,3}</li></ol><ol><li value="2">\( \quad \overline{R}_0=34000;\quad p=0,055;\quad r=3000; \)<br>\( n= \){1:NUMERICAL:=15,914:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=35000;\quad p=0,07;\quad n=14; \)<br>\( r= \){1:NUMERICAL:=3740,255:0,4}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=17000;\quad p=0,055;\quad r=2200; \)<br>\( n= \){1:NUMERICAL:=9,6296:0,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=53000;\quad p=0,03;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=7330,2802:0,7}</li></ol><ol><li value="3">\( \quad r=2400;\quad p=0,02;\quad n=12; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=25888,4353:2,6}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -143,7 +143,7 @@
     <text>15 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=2500;\quad p=0,05;\quad n=12; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=23266,0355:2,3}</li></ol><ol><li value="2">\( \quad \overline{R}_0=120000;\quad p=0,045;\quad r=9700; \)<br>\( n= \){1:NUMERICAL:=17,2853:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=75000;\quad p=0,045;\quad n=18; \)<br>\( r= \){1:NUMERICAL:=5902,1697:0,6}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad r=8300;\quad p=0,065;\quad n=20; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=97398,0948:9,7}</li></ol><ol><li value="2">\( \quad \overline{R}_0=39000;\quad p=0,035;\quad r=3700; \)<br>\( n= \){1:NUMERICAL:=12,4019:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=17000;\quad p=0,04;\quad n=11; \)<br>\( r= \){1:NUMERICAL:=1865,8978:0,2}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -152,7 +152,7 @@
     <text>16 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=2900;\quad p=0,03;\quad n=20; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=44439,0174:4,4}</li></ol><ol><li value="2">\( \quad \overline{R}_0=36000;\quad p=0,055;\quad r=7900; \)<br>\( n= \){1:NUMERICAL:=4,7455:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=59000;\quad p=0,045;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=8559,7795:0,9}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=80000;\quad p=0,045;\quad r=7500; \)<br>\( n= \){1:NUMERICAL:=13,2582:0,1}</li></ol><ol><li value="2">\( \quad r=6000;\quad p=0,025;\quad n=20; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=95873,3481:9,6}</li></ol><ol><li value="3">\( \quad \overline{R}_0=35000;\quad p=0,02;\quad n=7; \)<br>\( r= \){1:NUMERICAL:=5301,8808:0,5}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -161,7 +161,7 @@
     <text>17 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=110000;\quad p=0,05;\quad n=17; \)<br>\( r= \){1:NUMERICAL:=9292,291:0,9}</li></ol><ol><li value="2">\( \quad r=3400;\quad p=0,055;\quad n=17; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=38971,3509:3,9}</li></ol><ol><li value="3">\( \quad \overline{R}_0=47000;\quad p=0,06;\quad r=7900; \)<br>\( n= \){1:NUMERICAL:=6,4995:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=31000;\quad p=0,035;\quad r=2400; \)<br>\( n= \){1:NUMERICAL:=15,9703:0,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=76000;\quad p=0,06;\quad n=16; \)<br>\( r= \){1:NUMERICAL:=7094,682:0,7}</li></ol><ol><li value="3">\( \quad r=9900;\quad p=0,05;\quad n=12; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=92133,5008:9,2}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -170,7 +170,7 @@
     <text>18 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=61000;\quad p=0,06;\quad r=9300; \)<br>\( n= \){1:NUMERICAL:=7,4727:0,1}</li></ol><ol><li value="2">\( \quad r=3200;\quad p=0,03;\quad n=17; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=43395,5265:4,3}</li></ol><ol><li value="3">\( \quad \overline{R}_0=35000;\quad p=0,055;\quad n=8; \)<br>\( r= \){1:NUMERICAL:=5237,1947:0,5}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=120000;\quad p=0,025;\quad r=7700; \)<br>\( n= \){1:NUMERICAL:=19,3665:0,1}</li></ol><ol><li value="2">\( \quad \overline{R}_0=26000;\quad p=0,04;\quad n=6; \)<br>\( r= \){1:NUMERICAL:=4769,0476:0,5}</li></ol><ol><li value="3">\( \quad r=4000;\quad p=0,03;\quad n=7; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=25668,7658:2,6}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -179,7 +179,7 @@
     <text>19 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad r=9000;\quad p=0,02;\quad n=8; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=67247,9196:6,7}</li></ol><ol><li value="2">\( \quad \overline{R}_0=17000;\quad p=0,04;\quad r=1900; \)<br>\( n= \){1:NUMERICAL:=10,7543:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=72000;\quad p=0,065;\quad n=11; \)<br>\( r= \){1:NUMERICAL:=8792,4646:0,9}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad r=7300;\quad p=0,05;\quad n=7; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=44352,5521:4,4}</li></ol><ol><li value="2">\( \quad \overline{R}_0=71000;\quad p=0,06;\quad r=5800; \)<br>\( n= \){1:NUMERICAL:=18,2077:0,1}</li></ol><ol><li value="3">\( \quad \overline{R}_0=120000;\quad p=0,03;\quad n=16; \)<br>\( r= \){1:NUMERICAL:=9275,0504:0,9}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -188,7 +188,7 @@
     <text>20 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).</p><ol><li value="1">\( \quad \overline{R}_0=53000;\quad p=0,05;\quad r=5700; \)<br>\( n= \){1:NUMERICAL:=11,3802:0,1}</li></ol><ol><li value="2">\( \quad r=6800;\quad p=0,03;\quad n=9; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=54533,9069:5,5}</li></ol><ol><li value="3">\( \quad \overline{R}_0=19000;\quad p=0,045;\quad n=7; \)<br>\( r= \){1:NUMERICAL:=3085,4812:0,3}</li></ol>]]></text>
+    <text><![CDATA[<p>Vorschüssiger Rentenbarwert:  \( \overline{R}_0=\frac{r\cdot q\cdot (q^n-1)}{q^n\cdot (q-1)} \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).</p><ol><li value="1">\( \quad \overline{R}_0=42000;\quad p=0,045;\quad n=11; \)<br>\( r= \){1:NUMERICAL:=4712,3671:0,5}</li></ol><ol><li value="2">\( \quad r=8400;\quad p=0,065;\quad n=18; \)<br>\( \overline{R}_0= \){1:NUMERICAL:=93328,8443:9,3}</li></ol><ol><li value="3">\( \quad \overline{R}_0=23000;\quad p=0,065;\quad r=4400; \)<br>\( n= \){1:NUMERICAL:=5,4675:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 

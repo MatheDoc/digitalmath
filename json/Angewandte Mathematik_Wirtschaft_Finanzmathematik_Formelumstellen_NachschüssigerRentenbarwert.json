@@ -1,262 +1,262 @@
 ﻿[
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad r=4200;\\quad p=0,04;\\quad n=9; \\)",
-"\\( \\quad R_0=98000;\\quad p=0,05;\\quad r=9400; \\)",
-"\\( \\quad R_0=56000;\\quad p=0,02;\\quad n=11; \\)"
+"\\( \\quad R_0=26000;\\quad p=0,07;\\quad r=6300; \\)",
+"\\( \\quad r=7600;\\quad p=0,035;\\quad n=17; \\)",
+"\\( \\quad R_0=84000;\\quad p=0,04;\\quad n=15; \\)"
 ],
 "antworten":[
-"\\( R_0= \\){1:NUMERICAL:=31228,3928:3,1}",
-"\\( n= \\){1:NUMERICAL:=15,098:0,1}",
-"\\( r= \\){1:NUMERICAL:=3701,1902:0,4}"
+"\\( n= \\){1:NUMERICAL:=5,0389:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=96150,0365:9,6}",
+"\\( r= \\){1:NUMERICAL:=2329,3637:0,2}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=12000;\\quad p=0,02;\\quad n=12; \\)",
-"\\( \\quad r=8000;\\quad p=0,04;\\quad n=19; \\)",
-"\\( \\quad R_0=14000;\\quad p=0,03;\\quad r=1100; \\)"
+"\\( \\quad r=5900;\\quad p=0,05;\\quad n=10; \\)",
+"\\( \\quad R_0=62000;\\quad p=0,065;\\quad n=10; \\)",
+"\\( \\quad R_0=46000;\\quad p=0,04;\\quad r=6800; \\)"
 ],
 "antworten":[
-"\\( r= \\){1:NUMERICAL:=705,4768:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=105071,5152:10,5}",
-"\\( n= \\){1:NUMERICAL:=16,2717:0,1}"
+"\\( R_0= \\){1:NUMERICAL:=45558,2361:4,6}",
+"\\( r= \\){1:NUMERICAL:=2447,6049:0,2}",
+"\\( n= \\){1:NUMERICAL:=8,0446:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=49000;\\quad p=0,055;\\quad r=4400; \\)",
-"\\( \\quad r=2400;\\quad p=0,025;\\quad n=18; \\)",
-"\\( \\quad R_0=22000;\\quad p=0,04;\\quad n=16; \\)"
+"\\( \\quad r=4300;\\quad p=0,055;\\quad n=8; \\)",
+"\\( \\quad R_0=52000;\\quad p=0,05;\\quad n=9; \\)",
+"\\( \\quad R_0=65000;\\quad p=0,05;\\quad r=9200; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=17,7069:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=34448,0727:3,4}",
-"\\( r= \\){1:NUMERICAL:=538,2008:0,1}"
+"\\( R_0= \\){1:NUMERICAL:=27238,6337:2,7}",
+"\\( r= \\){1:NUMERICAL:=3039,901:0,3}",
+"\\( n= \\){1:NUMERICAL:=8,9324:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad r=8300;\\quad p=0,07;\\quad n=19; \\)",
-"\\( \\quad R_0=55000;\\quad p=0,05;\\quad n=18; \\)",
-"\\( \\quad R_0=18000;\\quad p=0,02;\\quad r=1100; \\)"
+"\\( \\quad R_0=46000;\\quad p=0,055;\\quad n=9; \\)",
+"\\( \\quad R_0=32000;\\quad p=0,03;\\quad r=3200; \\)",
+"\\( \\quad r=9500;\\quad p=0,05;\\quad n=18; \\)"
 ],
 "antworten":[
-"\\( R_0= \\){1:NUMERICAL:=85785,4405:8,6}",
-"\\( r= \\){1:NUMERICAL:=812,3604:0,1}",
-"\\( n= \\){1:NUMERICAL:=20,0183:0,1}"
+"\\( r= \\){1:NUMERICAL:=2524,0131:0,3}",
+"\\( n= \\){1:NUMERICAL:=12,0666:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=111051,0756:11,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=82000;\\quad p=0,065;\\quad n=15; \\)",
-"\\( \\quad r=8000;\\quad p=0,025;\\quad n=12; \\)",
-"\\( \\quad R_0=47000;\\quad p=0,025;\\quad r=8500; \\)"
+"\\( \\quad R_0=31000;\\quad p=0,07;\\quad n=14; \\)",
+"\\( \\quad r=5900;\\quad p=0,04;\\quad n=17; \\)",
+"\\( \\quad R_0=72000;\\quad p=0,055;\\quad r=7900; \\)"
 ],
 "antworten":[
-"\\( r= \\){1:NUMERICAL:=1318,4828:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=82062,1168:8,2}",
-"\\( n= \\){1:NUMERICAL:=6,025:0,1}"
+"\\( r= \\){1:NUMERICAL:=533,1297:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=71777,4462:7,2}",
+"\\( n= \\){1:NUMERICAL:=12,9935:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad r=4200;\\quad p=0,055;\\quad n=14; \\)",
-"\\( \\quad R_0=55000;\\quad p=0,055;\\quad r=9700; \\)",
-"\\( \\quad R_0=19000;\\quad p=0,055;\\quad n=7; \\)"
+"\\( \\quad R_0=13000;\\quad p=0,055;\\quad n=20; \\)",
+"\\( \\quad r=9000;\\quad p=0,07;\\quad n=11; \\)",
+"\\( \\quad R_0=45000;\\quad p=0,045;\\quad r=4200; \\)"
 ],
 "antworten":[
-"\\( R_0= \\){1:NUMERICAL:=40276,5212:4}",
-"\\( n= \\){1:NUMERICAL:=6,9808:0,1}",
-"\\( r= \\){1:NUMERICAL:=1579,9525:0,2}"
+"\\( r= \\){1:NUMERICAL:=127,7801:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=67488,069:6,7}",
+"\\( n= \\){1:NUMERICAL:=14,9501:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad r=3100;\\quad p=0,045;\\quad n=8; \\)",
-"\\( \\quad R_0=24000;\\quad p=0,07;\\quad r=3700; \\)",
-"\\( \\quad R_0=63000;\\quad p=0,05;\\quad n=10; \\)"
+"\\( \\quad R_0=12000;\\quad p=0,07;\\quad n=18; \\)",
+"\\( \\quad R_0=18000;\\quad p=0,045;\\quad r=1500; \\)",
+"\\( \\quad r=1800;\\quad p=0,025;\\quad n=20; \\)"
 ],
 "antworten":[
-"\\( R_0= \\){1:NUMERICAL:=20447,2468:2}",
-"\\( n= \\){1:NUMERICAL:=8,9454:0,1}",
-"\\( r= \\){1:NUMERICAL:=3074,9615:0,3}"
+"\\( r= \\){1:NUMERICAL:=104,4255:0,1}",
+"\\( n= \\){1:NUMERICAL:=17,6416:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=28060,4921:2,8}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=87000;\\quad p=0,025;\\quad r=9100; \\)",
-"\\( \\quad r=4700;\\quad p=0,04;\\quad n=20; \\)",
-"\\( \\quad R_0=55000;\\quad p=0,035;\\quad n=11; \\)"
+"\\( \\quad r=2100;\\quad p=0,07;\\quad n=14; \\)",
+"\\( \\quad R_0=32000;\\quad p=0,07;\\quad n=20; \\)",
+"\\( \\quad R_0=64000;\\quad p=0,05;\\quad r=5500; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=11,0615:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=63874,5338:6,4}",
-"\\( r= \\){1:NUMERICAL:=2866,5376:0,3}"
+"\\( R_0= \\){1:NUMERICAL:=18365,4828:1,8}",
+"\\( r= \\){1:NUMERICAL:=201,7151:0,1}",
+"\\( n= \\){1:NUMERICAL:=17,8692:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=75000;\\quad p=0,05;\\quad r=7600; \\)",
-"\\( \\quad R_0=32000;\\quad p=0,06;\\quad n=20; \\)",
-"\\( \\quad r=2900;\\quad p=0,065;\\quad n=15; \\)"
+"\\( \\quad r=1800;\\quad p=0,055;\\quad n=8; \\)",
+"\\( \\quad R_0=7800;\\quad p=0,06;\\quad n=7; \\)",
+"\\( \\quad R_0=58000;\\quad p=0,06;\\quad r=5100; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=13,9388:0,1}",
-"\\( r= \\){1:NUMERICAL:=271,2407:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=27267,7397:2,7}"
+"\\( R_0= \\){1:NUMERICAL:=11402,2188:1,1}",
+"\\( r= \\){1:NUMERICAL:=618,0064:0,1}",
+"\\( n= \\){1:NUMERICAL:=19,6814:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=13000;\\quad p=0,025;\\quad n=10; \\)",
-"\\( \\quad r=3700;\\quad p=0,04;\\quad n=12; \\)",
-"\\( \\quad R_0=110000;\\quad p=0,02;\\quad r=8500; \\)"
+"\\( \\quad R_0=29000;\\quad p=0,05;\\quad n=8; \\)",
+"\\( \\quad r=9900;\\quad p=0,055;\\quad n=5; \\)",
+"\\( \\quad R_0=34000;\\quad p=0,02;\\quad r=6100; \\)"
 ],
 "antworten":[
-"\\( r= \\){1:NUMERICAL:=906,4744:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=34724,7729:3,5}",
-"\\( n= \\){1:NUMERICAL:=15,1251:0,1}"
+"\\( r= \\){1:NUMERICAL:=2055,5155:0,2}",
+"\\( R_0= \\){1:NUMERICAL:=42275,8163:4,2}",
+"\\( n= \\){1:NUMERICAL:=5,9685:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=29000;\\quad p=0,05;\\quad r=2600; \\)",
-"\\( \\quad R_0=64000;\\quad p=0,025;\\quad n=9; \\)",
-"\\( \\quad r=1100;\\quad p=0,05;\\quad n=8; \\)"
+"\\( \\quad R_0=16000;\\quad p=0,02;\\quad n=17; \\)",
+"\\( \\quad R_0=55000;\\quad p=0,04;\\quad r=8100; \\)",
+"\\( \\quad r=7500;\\quad p=0,02;\\quad n=15; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=16,7195:0,1}",
-"\\( r= \\){1:NUMERICAL:=5148,0756:0,5}",
-"\\( R_0= \\){1:NUMERICAL:=7109,534:0,7}"
+"\\( r= \\){1:NUMERICAL:=570,9854:0,1}",
+"\\( n= \\){1:NUMERICAL:=8,0802:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=96369,4763:9,6}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=110000;\\quad p=0,03;\\quad r=8000; \\)",
-"\\( \\quad r=1100;\\quad p=0,06;\\quad n=6; \\)",
-"\\( \\quad R_0=35000;\\quad p=0,025;\\quad n=5; \\)"
+"\\( \\quad R_0=15000;\\quad p=0,04;\\quad n=7; \\)",
+"\\( \\quad R_0=17000;\\quad p=0,065;\\quad r=2400; \\)",
+"\\( \\quad r=4500;\\quad p=0,055;\\quad n=12; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=17,9939:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=5409,0568:0,5}",
-"\\( r= \\){1:NUMERICAL:=5885,2676:0,6}"
+"\\( r= \\){1:NUMERICAL:=1443,1935:0,1}",
+"\\( n= \\){1:NUMERICAL:=9,7969:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=38783,3303:3,9}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=31000;\\quad p=0,02;\\quad r=6600; \\)",
-"\\( \\quad r=6700;\\quad p=0,05;\\quad n=18; \\)",
-"\\( \\quad R_0=37000;\\quad p=0,055;\\quad n=8; \\)"
+"\\( \\quad r=9100;\\quad p=0,06;\\quad n=8; \\)",
+"\\( \\quad R_0=61000;\\quad p=0,045;\\quad r=6700; \\)",
+"\\( \\quad R_0=34000;\\quad p=0,04;\\quad n=6; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=4,9816:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=78320,2322:7,8}",
-"\\( r= \\){1:NUMERICAL:=2479,9647:0,2}"
+"\\( R_0= \\){1:NUMERICAL:=56509,1237:5,7}",
+"\\( n= \\){1:NUMERICAL:=11,9756:0,1}",
+"\\( r= \\){1:NUMERICAL:=4051,0769:0,4}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=49000;\\quad p=0,035;\\quad r=7200; \\)",
-"\\( \\quad R_0=86000;\\quad p=0,05;\\quad n=14; \\)",
-"\\( \\quad r=3100;\\quad p=0,03;\\quad n=10; \\)"
+"\\( \\quad R_0=41000;\\quad p=0,025;\\quad r=3500; \\)",
+"\\( \\quad r=4000;\\quad p=0,02;\\quad n=6; \\)",
+"\\( \\quad R_0=78000;\\quad p=0,035;\\quad n=18; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=7,9085:0,1}",
-"\\( r= \\){1:NUMERICAL:=2216,2692:0,2}",
-"\\( R_0= \\){1:NUMERICAL:=26443,6288:2,6}"
+"\\( n= \\){1:NUMERICAL:=14,0335:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=22405,7236:2,2}",
+"\\( r= \\){1:NUMERICAL:=1713,9877:0,2}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad r=8000;\\quad p=0,05;\\quad n=8; \\)",
-"\\( \\quad R_0=44000;\\quad p=0,06;\\quad n=7; \\)",
-"\\( \\quad R_0=11000;\\quad p=0,035;\\quad r=1400; \\)"
+"\\( \\quad R_0=33000;\\quad p=0,07;\\quad n=5; \\)",
+"\\( \\quad r=6500;\\quad p=0,06;\\quad n=19; \\)",
+"\\( \\quad R_0=10000;\\quad p=0,07;\\quad r=1100; \\)"
 ],
 "antworten":[
-"\\( R_0= \\){1:NUMERICAL:=51705,7021:5,2}",
-"\\( r= \\){1:NUMERICAL:=3486,19:0,3}",
-"\\( n= \\){1:NUMERICAL:=9,348:0,1}"
+"\\( r= \\){1:NUMERICAL:=4091,3948:0,4}",
+"\\( R_0= \\){1:NUMERICAL:=72527,7572:7,3}",
+"\\( n= \\){1:NUMERICAL:=14,9515:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad r=3700;\\quad p=0,07;\\quad n=17; \\)",
-"\\( \\quad R_0=55000;\\quad p=0,06;\\quad r=6600; \\)",
-"\\( \\quad R_0=33000;\\quad p=0,035;\\quad n=18; \\)"
+"\\( \\quad r=6900;\\quad p=0,04;\\quad n=11; \\)",
+"\\( \\quad R_0=120000;\\quad p=0,025;\\quad r=8400; \\)",
+"\\( \\quad R_0=15000;\\quad p=0,065;\\quad n=11; \\)"
 ],
 "antworten":[
-"\\( R_0= \\){1:NUMERICAL:=36123,9251:3,6}",
-"\\( n= \\){1:NUMERICAL:=11,8957:0,1}",
-"\\( r= \\){1:NUMERICAL:=725,1486:0,1}"
+"\\( R_0= \\){1:NUMERICAL:=60447,2893:6}",
+"\\( n= \\){1:NUMERICAL:=17,8933:0,1}",
+"\\( r= \\){1:NUMERICAL:=488,1212:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=46000;\\quad p=0,07;\\quad r=5300; \\)",
-"\\( \\quad r=7800;\\quad p=0,02;\\quad n=15; \\)",
-"\\( \\quad R_0=34000;\\quad p=0,02;\\quad n=17; \\)"
+"\\( \\quad R_0=120000;\\quad p=0,03;\\quad r=8400; \\)",
+"\\( \\quad R_0=38000;\\quad p=0,02;\\quad n=20; \\)",
+"\\( \\quad r=7300;\\quad p=0,065;\\quad n=8; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=13,8244:0,1}",
-"\\( R_0= \\){1:NUMERICAL:=100224,2553:10}",
-"\\( r= \\){1:NUMERICAL:=1213,344:0,1}"
+"\\( n= \\){1:NUMERICAL:=18,9323:0,1}",
+"\\( r= \\){1:NUMERICAL:=1052,4971:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=44447,882:4,4}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad r=2600;\\quad p=0,07;\\quad n=9; \\)",
-"\\( \\quad R_0=65000;\\quad p=0,05;\\quad r=6000; \\)",
-"\\( \\quad R_0=99000;\\quad p=0,025;\\quad n=18; \\)"
+"\\( \\quad r=5600;\\quad p=0,025;\\quad n=17; \\)",
+"\\( \\quad R_0=46000;\\quad p=0,05;\\quad r=9000; \\)",
+"\\( \\quad R_0=35000;\\quad p=0,045;\\quad n=15; \\)"
 ],
 "antworten":[
-"\\( R_0= \\){1:NUMERICAL:=16939,6038:1,7}",
-"\\( n= \\){1:NUMERICAL:=15,9901:0,1}",
-"\\( r= \\){1:NUMERICAL:=2835,4523:0,3}"
+"\\( R_0= \\){1:NUMERICAL:=76788,3072:7,7}",
+"\\( n= \\){1:NUMERICAL:=6,0487:0,1}",
+"\\( r= \\){1:NUMERICAL:=870,1486:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=130000;\\quad p=0,02;\\quad r=9300; \\)",
-"\\( \\quad R_0=40000;\\quad p=0,04;\\quad n=6; \\)",
-"\\( \\quad r=6000;\\quad p=0,055;\\quad n=8; \\)"
+"\\( \\quad R_0=23000;\\quad p=0,03;\\quad n=14; \\)",
+"\\( \\quad r=4000;\\quad p=0,03;\\quad n=15; \\)",
+"\\( \\quad R_0=15000;\\quad p=0,065;\\quad r=2400; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=16,5588:0,1}",
-"\\( r= \\){1:NUMERICAL:=4765,9729:0,5}",
-"\\( R_0= \\){1:NUMERICAL:=38007,3959:3,8}"
+"\\( r= \\){1:NUMERICAL:=889,9345:0,1}",
+"\\( R_0= \\){1:NUMERICAL:=47751,7403:4,8}",
+"\\( n= \\){1:NUMERICAL:=8,2779:0,1}"
 ]
 },
 {
-"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (runden Sie mögliche Zwischenergebnisse auf 4 NKS, Endergebnisse auf 2 NKS).",
+"einleitung":"Nachschüssiger Rentenbarwert:  \\( R_0=\\frac{r\\cdot (q^n-1)}{q^n\\cdot (q-1)} \\)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet).",
 "fragen":[
-"\\( \\quad R_0=61000;\\quad p=0,065;\\quad r=5500; \\)",
-"\\( \\quad R_0=41000;\\quad p=0,02;\\quad n=12; \\)",
-"\\( \\quad r=9100;\\quad p=0,035;\\quad n=18; \\)"
+"\\( \\quad r=9300;\\quad p=0,03;\\quad n=9; \\)",
+"\\( \\quad R_0=15000;\\quad p=0,035;\\quad n=15; \\)",
+"\\( \\quad R_0=42000;\\quad p=0,045;\\quad r=5300; \\)"
 ],
 "antworten":[
-"\\( n= \\){1:NUMERICAL:=20,2655:0,1}",
-"\\( r= \\){1:NUMERICAL:=2410,3791:0,2}",
-"\\( R_0= \\){1:NUMERICAL:=120026,1037:12}"
+"\\( R_0= \\){1:NUMERICAL:=72410,813:7,2}",
+"\\( r= \\){1:NUMERICAL:=464,0085:0,1}",
+"\\( n= \\){1:NUMERICAL:=10,0188:0,1}"
 ]
 }
 ]
