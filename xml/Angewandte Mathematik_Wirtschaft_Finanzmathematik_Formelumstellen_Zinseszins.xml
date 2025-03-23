@@ -17,7 +17,7 @@
     <text>01 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=4900;\quad K_n=9800;\quad n=11; \)<br>\( p= \){1:NUMERICAL:=0,065:0,001}</li></ol><ol><li value="2">\( \quad K_0=4100;\quad p=0,045;\quad K_n=9100; \)<br>\( n= \){1:NUMERICAL:=18,1132:0,1}</li></ol><ol><li value="3">\( \quad K_n=14000;\quad p=0,04;\quad n=9; \)<br>\( K_0= \){1:NUMERICAL:=9836,2143:1}</li></ol><ol><li value="4">\( \quad K_0=5200;\quad p=0,06;\quad n=8; \)<br>\( K_n= \){1:NUMERICAL:=8288,01:0,8}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=3700;\quad p=0,04;\quad n=12; \)<br>\( K_0= \){1:NUMERICAL:=2311,0091:0,2}</li></ol><ol><li value="2">\( \quad K_0=9300;\quad p=0,035;\quad n=5; \)<br>\( K_n= \){1:NUMERICAL:=11045,4826:1,1}</li></ol><ol><li value="3">\( \quad K_0=4100;\quad K_n=12000;\quad n=18; \)<br>\( p= \){1:NUMERICAL:=0,0615:0,001}</li></ol><ol><li value="4">\( \quad K_0=6100;\quad p=0,065;\quad K_n=14000; \)<br>\( n= \){1:NUMERICAL:=13,1921:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -26,7 +26,7 @@
     <text>02 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=3100;\quad p=0,02;\quad n=7; \)<br>\( K_0= \){1:NUMERICAL:=2698,7366:0,3}</li></ol><ol><li value="2">\( \quad K_0=7900;\quad K_n=14000;\quad n=10; \)<br>\( p= \){1:NUMERICAL:=0,0589:0,001}</li></ol><ol><li value="3">\( \quad K_0=8800;\quad p=0,035;\quad K_n=18000; \)<br>\( n= \){1:NUMERICAL:=20,802:0,1}</li></ol><ol><li value="4">\( \quad K_0=1200;\quad p=0,04;\quad n=19; \)<br>\( K_n= \){1:NUMERICAL:=2528,219:0,3}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=2700;\quad K_n=8200;\quad n=19; \)<br>\( p= \){1:NUMERICAL:=0,0602:0,001}</li></ol><ol><li value="2">\( \quad K_n=12000;\quad p=0,055;\quad n=20; \)<br>\( K_0= \){1:NUMERICAL:=4112,7476:0,4}</li></ol><ol><li value="3">\( \quad K_0=2600;\quad p=0,07;\quad n=16; \)<br>\( K_n= \){1:NUMERICAL:=7675,6257:0,8}</li></ol><ol><li value="4">\( \quad K_0=8100;\quad p=0,03;\quad K_n=10000; \)<br>\( n= \){1:NUMERICAL:=7,1289:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -35,7 +35,7 @@
     <text>03 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=9300;\quad K_n=25000;\quad n=20; \)<br>\( p= \){1:NUMERICAL:=0,0507:0,001}</li></ol><ol><li value="2">\( \quad K_0=7200;\quad p=0,065;\quad K_n=13000; \)<br>\( n= \){1:NUMERICAL:=9,3826:0,1}</li></ol><ol><li value="3">\( \quad K_0=1600;\quad p=0,04;\quad n=7; \)<br>\( K_n= \){1:NUMERICAL:=2105,4908:0,2}</li></ol><ol><li value="4">\( \quad K_n=2300;\quad p=0,025;\quad n=14; \)<br>\( K_0= \){1:NUMERICAL:=1627,7726:0,2}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=9800;\quad p=0,055;\quad K_n=16000; \)<br>\( n= \){1:NUMERICAL:=9,1558:0,1}</li></ol><ol><li value="2">\( \quad K_n=12000;\quad p=0,03;\quad n=9; \)<br>\( K_0= \){1:NUMERICAL:=9197,0008:0,9}</li></ol><ol><li value="3">\( \quad K_0=6700;\quad K_n=8300;\quad n=5; \)<br>\( p= \){1:NUMERICAL:=0,0438:0,001}</li></ol><ol><li value="4">\( \quad K_0=5000;\quad p=0,055;\quad n=17; \)<br>\( K_n= \){1:NUMERICAL:=12424,0107:1,2}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -44,7 +44,7 @@
     <text>04 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=2700;\quad p=0,025;\quad n=16; \)<br>\( K_0= \){1:NUMERICAL:=1818,7873:0,2}</li></ol><ol><li value="2">\( \quad K_0=6100;\quad p=0,06;\quad n=17; \)<br>\( K_n= \){1:NUMERICAL:=16425,914:1,6}</li></ol><ol><li value="3">\( \quad K_0=2100;\quad K_n=4000;\quad n=11; \)<br>\( p= \){1:NUMERICAL:=0,0603:0,001}</li></ol><ol><li value="4">\( \quad K_0=8800;\quad p=0,02;\quad K_n=13000; \)<br>\( n= \){1:NUMERICAL:=19,7043:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=2500;\quad p=0,045;\quad K_n=5100; \)<br>\( n= \){1:NUMERICAL:=16,1972:0,1}</li></ol><ol><li value="2">\( \quad K_0=3600;\quad p=0,025;\quad n=8; \)<br>\( K_n= \){1:NUMERICAL:=4386,2504:0,4}</li></ol><ol><li value="3">\( \quad K_n=8800;\quad p=0,06;\quad n=18; \)<br>\( K_0= \){1:NUMERICAL:=3083,0254:0,3}</li></ol><ol><li value="4">\( \quad K_0=4700;\quad K_n=7400;\quad n=13; \)<br>\( p= \){1:NUMERICAL:=0,0355:0,001}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -53,7 +53,7 @@
     <text>05 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=1800;\quad p=0,035;\quad K_n=3300; \)<br>\( n= \){1:NUMERICAL:=17,6195:0,1}</li></ol><ol><li value="2">\( \quad K_0=6700;\quad K_n=15000;\quad n=14; \)<br>\( p= \){1:NUMERICAL:=0,0593:0,001}</li></ol><ol><li value="3">\( \quad K_0=6700;\quad p=0,07;\quad n=18; \)<br>\( K_n= \){1:NUMERICAL:=22645,5462:2,3}</li></ol><ol><li value="4">\( \quad K_n=8400;\quad p=0,03;\quad n=6; \)<br>\( K_0= \){1:NUMERICAL:=7034,8678:0,7}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=3400;\quad p=0,055;\quad n=8; \)<br>\( K_n= \){1:NUMERICAL:=5217,9342:0,5}</li></ol><ol><li value="2">\( \quad K_0=4100;\quad p=0,065;\quad K_n=11000; \)<br>\( n= \){1:NUMERICAL:=15,6715:0,1}</li></ol><ol><li value="3">\( \quad K_0=4800;\quad K_n=6300;\quad n=14; \)<br>\( p= \){1:NUMERICAL:=0,0196:0,001}</li></ol><ol><li value="4">\( \quad K_n=38000;\quad p=0,07;\quad n=20; \)<br>\( K_0= \){1:NUMERICAL:=9819,9221:1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -62,7 +62,7 @@
     <text>06 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=5100;\quad p=0,025;\quad K_n=7000; \)<br>\( n= \){1:NUMERICAL:=12,8245:0,1}</li></ol><ol><li value="2">\( \quad K_n=10000;\quad p=0,065;\quad n=6; \)<br>\( K_0= \){1:NUMERICAL:=6853,3412:0,7}</li></ol><ol><li value="3">\( \quad K_0=7300;\quad K_n=14000;\quad n=14; \)<br>\( p= \){1:NUMERICAL:=0,0476:0,001}</li></ol><ol><li value="4">\( \quad K_0=9100;\quad p=0,04;\quad n=11; \)<br>\( K_n= \){1:NUMERICAL:=14009,0319:1,4}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=7900;\quad K_n=11000;\quad n=5; \)<br>\( p= \){1:NUMERICAL:=0,0684:0,001}</li></ol><ol><li value="2">\( \quad K_0=8400;\quad p=0,065;\quad n=14; \)<br>\( K_n= \){1:NUMERICAL:=20284,9432:2}</li></ol><ol><li value="3">\( \quad K_0=5900;\quad p=0,045;\quad K_n=7700; \)<br>\( n= \){1:NUMERICAL:=6,0492:0,1}</li></ol><ol><li value="4">\( \quad K_n=7100;\quad p=0,025;\quad n=8; \)<br>\( K_0= \){1:NUMERICAL:=5827,3007:0,6}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -71,7 +71,7 @@
     <text>07 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=7200;\quad p=0,03;\quad K_n=8600; \)<br>\( n= \){1:NUMERICAL:=6,0111:0,1}</li></ol><ol><li value="2">\( \quad K_n=17000;\quad p=0,04;\quad n=17; \)<br>\( K_0= \){1:NUMERICAL:=8727,3452:0,9}</li></ol><ol><li value="3">\( \quad K_0=6600;\quad K_n=10000;\quad n=8; \)<br>\( p= \){1:NUMERICAL:=0,0533:0,001}</li></ol><ol><li value="4">\( \quad K_0=2300;\quad p=0,035;\quad n=18; \)<br>\( K_n= \){1:NUMERICAL:=4272,2251:0,4}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=3800;\quad p=0,06;\quad n=14; \)<br>\( K_0= \){1:NUMERICAL:=1680,7437:0,2}</li></ol><ol><li value="2">\( \quad K_0=7500;\quad p=0,02;\quad K_n=8600; \)<br>\( n= \){1:NUMERICAL:=6,9112:0,1}</li></ol><ol><li value="3">\( \quad K_0=1800;\quad p=0,05;\quad n=15; \)<br>\( K_n= \){1:NUMERICAL:=3742,0707:0,4}</li></ol><ol><li value="4">\( \quad K_0=2900;\quad K_n=3900;\quad n=7; \)<br>\( p= \){1:NUMERICAL:=0,0432:0,001}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -80,7 +80,7 @@
     <text>08 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=2600;\quad p=0,065;\quad n=11; \)<br>\( K_0= \){1:NUMERICAL:=1300,5518:0,1}</li></ol><ol><li value="2">\( \quad K_0=6200;\quad K_n=14000;\quad n=15; \)<br>\( p= \){1:NUMERICAL:=0,0558:0,001}</li></ol><ol><li value="3">\( \quad K_0=7900;\quad p=0,07;\quad K_n=16000; \)<br>\( n= \){1:NUMERICAL:=10,4307:0,1}</li></ol><ol><li value="4">\( \quad K_0=1200;\quad p=0,025;\quad n=13; \)<br>\( K_n= \){1:NUMERICAL:=1654,2133:0,2}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=9300;\quad p=0,02;\quad n=6; \)<br>\( K_n= \){1:NUMERICAL:=10473,3105:1}</li></ol><ol><li value="2">\( \quad K_0=1000;\quad K_n=1700;\quad n=15; \)<br>\( p= \){1:NUMERICAL:=0,036:0,001}</li></ol><ol><li value="3">\( \quad K_n=5900;\quad p=0,03;\quad n=6; \)<br>\( K_0= \){1:NUMERICAL:=4941,1571:0,5}</li></ol><ol><li value="4">\( \quad K_0=9200;\quad p=0,065;\quad K_n=22000; \)<br>\( n= \){1:NUMERICAL:=13,8443:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -89,7 +89,7 @@
     <text>09 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=4200;\quad p=0,035;\quad K_n=6100; \)<br>\( n= \){1:NUMERICAL:=10,8485:0,1}</li></ol><ol><li value="2">\( \quad K_0=6700;\quad p=0,045;\quad n=14; \)<br>\( K_n= \){1:NUMERICAL:=12408,031:1,2}</li></ol><ol><li value="3">\( \quad K_n=7900;\quad p=0,02;\quad n=13; \)<br>\( K_0= \){1:NUMERICAL:=6106,9569:0,6}</li></ol><ol><li value="4">\( \quad K_0=8600;\quad K_n=29000;\quad n=18; \)<br>\( p= \){1:NUMERICAL:=0,0699:0,001}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=9200;\quad p=0,05;\quad n=5; \)<br>\( K_n= \){1:NUMERICAL:=11741,7904:1,2}</li></ol><ol><li value="2">\( \quad K_n=3700;\quad p=0,045;\quad n=8; \)<br>\( K_0= \){1:NUMERICAL:=2601,785:0,3}</li></ol><ol><li value="3">\( \quad K_0=1900;\quad p=0,03;\quad K_n=2900; \)<br>\( n= \){1:NUMERICAL:=14,3056:0,1}</li></ol><ol><li value="4">\( \quad K_0=1100;\quad K_n=1500;\quad n=15; \)<br>\( p= \){1:NUMERICAL:=0,0209:0,001}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -98,7 +98,7 @@
     <text>10 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=6100;\quad p=0,025;\quad K_n=8600; \)<br>\( n= \){1:NUMERICAL:=13,91:0,1}</li></ol><ol><li value="2">\( \quad K_0=6600;\quad p=0,06;\quad n=5; \)<br>\( K_n= \){1:NUMERICAL:=8832,2888:0,9}</li></ol><ol><li value="3">\( \quad K_0=6800;\quad K_n=20000;\quad n=17; \)<br>\( p= \){1:NUMERICAL:=0,0655:0,001}</li></ol><ol><li value="4">\( \quad K_n=10000;\quad p=0,06;\quad n=16; \)<br>\( K_0= \){1:NUMERICAL:=3936,4628:0,4}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=8800;\quad p=0,04;\quad n=20; \)<br>\( K_0= \){1:NUMERICAL:=4016,2051:0,4}</li></ol><ol><li value="2">\( \quad K_0=3600;\quad p=0,025;\quad K_n=4200; \)<br>\( n= \){1:NUMERICAL:=6,2428:0,1}</li></ol><ol><li value="3">\( \quad K_0=1300;\quad p=0,03;\quad n=14; \)<br>\( K_n= \){1:NUMERICAL:=1966,3666:0,2}</li></ol><ol><li value="4">\( \quad K_0=3100;\quad K_n=4900;\quad n=8; \)<br>\( p= \){1:NUMERICAL:=0,0589:0,001}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -107,7 +107,7 @@
     <text>11 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=4100;\quad p=0,035;\quad n=18; \)<br>\( K_0= \){1:NUMERICAL:=2207,2807:0,2}</li></ol><ol><li value="2">\( \quad K_0=3700;\quad K_n=6300;\quad n=12; \)<br>\( p= \){1:NUMERICAL:=0,0453:0,001}</li></ol><ol><li value="3">\( \quad K_0=2200;\quad p=0,02;\quad K_n=2500; \)<br>\( n= \){1:NUMERICAL:=6,4554:0,1}</li></ol><ol><li value="4">\( \quad K_0=7700;\quad p=0,03;\quad n=8; \)<br>\( K_n= \){1:NUMERICAL:=9754,1296:1}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=7600;\quad p=0,045;\quad n=12; \)<br>\( K_n= \){1:NUMERICAL:=12888,6989:1,3}</li></ol><ol><li value="2">\( \quad K_n=6300;\quad p=0,03;\quad n=19; \)<br>\( K_0= \){1:NUMERICAL:=3592,802:0,4}</li></ol><ol><li value="3">\( \quad K_0=8200;\quad K_n=12000;\quad n=8; \)<br>\( p= \){1:NUMERICAL:=0,0487:0,001}</li></ol><ol><li value="4">\( \quad K_0=5300;\quad p=0,035;\quad K_n=11000; \)<br>\( n= \){1:NUMERICAL:=21,2255:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -116,7 +116,7 @@
     <text>12 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=9900;\quad p=0,045;\quad n=20; \)<br>\( K_n= \){1:NUMERICAL:=23875,9688:2,4}</li></ol><ol><li value="2">\( \quad K_0=1100;\quad K_n=2100;\quad n=19; \)<br>\( p= \){1:NUMERICAL:=0,0346:0,001}</li></ol><ol><li value="3">\( \quad K_0=1900;\quad p=0,025;\quad K_n=2200; \)<br>\( n= \){1:NUMERICAL:=5,9371:0,1}</li></ol><ol><li value="4">\( \quad K_n=5400;\quad p=0,02;\quad n=5; \)<br>\( K_0= \){1:NUMERICAL:=4890,9464:0,5}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=6300;\quad K_n=11000;\quad n=17; \)<br>\( p= \){1:NUMERICAL:=0,0333:0,001}</li></ol><ol><li value="2">\( \quad K_0=6100;\quad p=0,07;\quad n=19; \)<br>\( K_n= \){1:NUMERICAL:=22060,818:2,2}</li></ol><ol><li value="3">\( \quad K_0=7000;\quad p=0,025;\quad K_n=9200; \)<br>\( n= \){1:NUMERICAL:=11,0678:0,1}</li></ol><ol><li value="4">\( \quad K_n=13000;\quad p=0,06;\quad n=11; \)<br>\( K_0= \){1:NUMERICAL:=6848,2378:0,7}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -125,7 +125,7 @@
     <text>13 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=12000;\quad p=0,045;\quad n=5; \)<br>\( K_0= \){1:NUMERICAL:=9629,4126:1}</li></ol><ol><li value="2">\( \quad K_0=1500;\quad p=0,06;\quad K_n=2500; \)<br>\( n= \){1:NUMERICAL:=8,7667:0,1}</li></ol><ol><li value="3">\( \quad K_0=1200;\quad K_n=1400;\quad n=6; \)<br>\( p= \){1:NUMERICAL:=0,026:0,001}</li></ol><ol><li value="4">\( \quad K_0=2300;\quad p=0,02;\quad n=20; \)<br>\( K_n= \){1:NUMERICAL:=3417,679:0,3}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=7500;\quad K_n=11000;\quad n=16; \)<br>\( p= \){1:NUMERICAL:=0,0242:0,001}</li></ol><ol><li value="2">\( \quad K_0=9800;\quad p=0,02;\quad n=16; \)<br>\( K_n= \){1:NUMERICAL:=13453,2999:1,3}</li></ol><ol><li value="3">\( \quad K_n=9800;\quad p=0,03;\quad n=6; \)<br>\( K_0= \){1:NUMERICAL:=8207,3457:0,8}</li></ol><ol><li value="4">\( \quad K_0=8700;\quad p=0,03;\quad K_n=11000; \)<br>\( n= \){1:NUMERICAL:=7,9358:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -134,7 +134,7 @@
     <text>14 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=2500;\quad p=0,045;\quad n=16; \)<br>\( K_n= \){1:NUMERICAL:=5055,9254:0,5}</li></ol><ol><li value="2">\( \quad K_0=6500;\quad K_n=8100;\quad n=5; \)<br>\( p= \){1:NUMERICAL:=0,045:0,001}</li></ol><ol><li value="3">\( \quad K_n=4100;\quad p=0,065;\quad n=6; \)<br>\( K_0= \){1:NUMERICAL:=2809,8699:0,3}</li></ol><ol><li value="4">\( \quad K_0=2900;\quad p=0,04;\quad K_n=4100; \)<br>\( n= \){1:NUMERICAL:=8,8289:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=1900;\quad p=0,055;\quad n=9; \)<br>\( K_n= \){1:NUMERICAL:=3076,2791:0,3}</li></ol><ol><li value="2">\( \quad K_0=1400;\quad p=0,025;\quad K_n=2100; \)<br>\( n= \){1:NUMERICAL:=16,4205:0,1}</li></ol><ol><li value="3">\( \quad K_0=9500;\quad K_n=17000;\quad n=9; \)<br>\( p= \){1:NUMERICAL:=0,0668:0,001}</li></ol><ol><li value="4">\( \quad K_n=15000;\quad p=0,025;\quad n=18; \)<br>\( K_0= \){1:NUMERICAL:=9617,4886:1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -143,7 +143,7 @@
     <text>15 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=10000;\quad p=0,035;\quad n=15; \)<br>\( K_0= \){1:NUMERICAL:=5968,9062:0,6}</li></ol><ol><li value="2">\( \quad K_0=1800;\quad p=0,02;\quad K_n=2500; \)<br>\( n= \){1:NUMERICAL:=16,5889:0,1}</li></ol><ol><li value="3">\( \quad K_0=9900;\quad K_n=25000;\quad n=16; \)<br>\( p= \){1:NUMERICAL:=0,0596:0,001}</li></ol><ol><li value="4">\( \quad K_0=2600;\quad p=0,04;\quad n=16; \)<br>\( K_n= \){1:NUMERICAL:=4869,7512:0,5}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=3200;\quad p=0,02;\quad K_n=4100; \)<br>\( n= \){1:NUMERICAL:=12,5153:0,1}</li></ol><ol><li value="2">\( \quad K_0=3000;\quad p=0,055;\quad n=20; \)<br>\( K_n= \){1:NUMERICAL:=8753,2725:0,9}</li></ol><ol><li value="3">\( \quad K_0=6700;\quad K_n=9700;\quad n=7; \)<br>\( p= \){1:NUMERICAL:=0,0543:0,001}</li></ol><ol><li value="4">\( \quad K_n=4800;\quad p=0,03;\quad n=9; \)<br>\( K_0= \){1:NUMERICAL:=3678,8003:0,4}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -152,7 +152,7 @@
     <text>16 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=1600;\quad p=0,04;\quad n=9; \)<br>\( K_0= \){1:NUMERICAL:=1124,1388:0,1}</li></ol><ol><li value="2">\( \quad K_0=5100;\quad K_n=6500;\quad n=7; \)<br>\( p= \){1:NUMERICAL:=0,0353:0,001}</li></ol><ol><li value="3">\( \quad K_0=9600;\quad p=0,045;\quad K_n=16000; \)<br>\( n= \){1:NUMERICAL:=11,6052:0,1}</li></ol><ol><li value="4">\( \quad K_0=8100;\quad p=0,03;\quad n=12; \)<br>\( K_n= \){1:NUMERICAL:=11548,6632:1,2}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=4800;\quad K_n=9300;\quad n=15; \)<br>\( p= \){1:NUMERICAL:=0,0451:0,001}</li></ol><ol><li value="2">\( \quad K_0=4900;\quad p=0,06;\quad K_n=16000; \)<br>\( n= \){1:NUMERICAL:=20,3085:0,1}</li></ol><ol><li value="3">\( \quad K_n=19000;\quad p=0,06;\quad n=17; \)<br>\( K_0= \){1:NUMERICAL:=7055,924:0,7}</li></ol><ol><li value="4">\( \quad K_0=1600;\quad p=0,02;\quad n=11; \)<br>\( K_n= \){1:NUMERICAL:=1989,3989:0,2}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -161,7 +161,7 @@
     <text>17 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=2900;\quad K_n=4500;\quad n=10; \)<br>\( p= \){1:NUMERICAL:=0,0449:0,001}</li></ol><ol><li value="2">\( \quad K_0=3500;\quad p=0,035;\quad K_n=6100; \)<br>\( n= \){1:NUMERICAL:=16,1483:0,1}</li></ol><ol><li value="3">\( \quad K_n=6100;\quad p=0,025;\quad n=7; \)<br>\( K_0= \){1:NUMERICAL:=5131,7179:0,5}</li></ol><ol><li value="4">\( \quad K_0=5400;\quad p=0,065;\quad n=13; \)<br>\( K_n= \){1:NUMERICAL:=12244,4325:1,2}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_n=6800;\quad p=0,02;\quad n=19; \)<br>\( K_0= \){1:NUMERICAL:=4667,7292:0,5}</li></ol><ol><li value="2">\( \quad K_0=6500;\quad p=0,025;\quad K_n=10000; \)<br>\( n= \){1:NUMERICAL:=17,4458:0,1}</li></ol><ol><li value="3">\( \quad K_0=1400;\quad p=0,05;\quad n=11; \)<br>\( K_n= \){1:NUMERICAL:=2394,4751:0,2}</li></ol><ol><li value="4">\( \quad K_0=4900;\quad K_n=7900;\quad n=16; \)<br>\( p= \){1:NUMERICAL:=0,0303:0,001}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -170,7 +170,7 @@
     <text>18 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=5800;\quad K_n=11000;\quad n=9; \)<br>\( p= \){1:NUMERICAL:=0,0737:0,001}</li></ol><ol><li value="2">\( \quad K_0=3000;\quad p=0,03;\quad n=6; \)<br>\( K_n= \){1:NUMERICAL:=3582,1569:0,4}</li></ol><ol><li value="3">\( \quad K_n=8500;\quad p=0,045;\quad n=10; \)<br>\( K_0= \){1:NUMERICAL:=5473,3853:0,5}</li></ol><ol><li value="4">\( \quad K_0=3500;\quad p=0,07;\quad K_n=6000; \)<br>\( n= \){1:NUMERICAL:=7,9664:0,1}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=2500;\quad p=0,03;\quad n=19; \)<br>\( K_n= \){1:NUMERICAL:=4383,7651:0,4}</li></ol><ol><li value="2">\( \quad K_0=8200;\quad p=0,025;\quad K_n=11000; \)<br>\( n= \){1:NUMERICAL:=11,8967:0,1}</li></ol><ol><li value="3">\( \quad K_n=15000;\quad p=0,065;\quad n=15; \)<br>\( K_0= \){1:NUMERICAL:=5832,3979:0,6}</li></ol><ol><li value="4">\( \quad K_0=6900;\quad K_n=13000;\quad n=9; \)<br>\( p= \){1:NUMERICAL:=0,0729:0,001}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -179,7 +179,7 @@
     <text>19 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=1300;\quad p=0,03;\quad K_n=1600; \)<br>\( n= \){1:NUMERICAL:=7,0246:0,1}</li></ol><ol><li value="2">\( \quad K_n=20000;\quad p=0,055;\quad n=17; \)<br>\( K_0= \){1:NUMERICAL:=8048,9306:0,8}</li></ol><ol><li value="3">\( \quad K_0=4800;\quad K_n=16000;\quad n=19; \)<br>\( p= \){1:NUMERICAL:=0,0654:0,001}</li></ol><ol><li value="4">\( \quad K_0=5100;\quad p=0,025;\quad n=17; \)<br>\( K_n= \){1:NUMERICAL:=7760,2531:0,8}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=3000;\quad K_n=4900;\quad n=9; \)<br>\( p= \){1:NUMERICAL:=0,056:0,001}</li></ol><ol><li value="2">\( \quad K_n=12000;\quad p=0,06;\quad n=13; \)<br>\( K_0= \){1:NUMERICAL:=5626,0683:0,6}</li></ol><ol><li value="3">\( \quad K_0=8800;\quad p=0,05;\quad n=18; \)<br>\( K_n= \){1:NUMERICAL:=21178,2493:2,1}</li></ol><ol><li value="4">\( \quad K_0=9900;\quad p=0,035;\quad K_n=14000; \)<br>\( n= \){1:NUMERICAL:=10,0729:0,1}</li></ol>]]></text>
   </questiontext>
 </question>
 
@@ -188,7 +188,7 @@
     <text>20 </text>
   </name>
   <questiontext format="html">
-    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=2100;\quad p=0,03;\quad n=8; \)<br>\( K_n= \){1:NUMERICAL:=2660,2172:0,3}</li></ol><ol><li value="2">\( \quad K_0=6500;\quad K_n=11000;\quad n=10; \)<br>\( p= \){1:NUMERICAL:=0,054:0,001}</li></ol><ol><li value="3">\( \quad K_0=7200;\quad p=0,03;\quad K_n=9100; \)<br>\( n= \){1:NUMERICAL:=7,923:0,1}</li></ol><ol><li value="4">\( \quad K_n=10000;\quad p=0,05;\quad n=8; \)<br>\( K_0= \){1:NUMERICAL:=6768,3936:0,7}</li></ol>]]></text>
+    <text><![CDATA[<p>Zinseszinsrechnung: \( K_n=K_0\cdot q^n \)</p> <p>Bestimmen Sie den gesuchten Wert (auf 4 NKS gerundet). (Runden Sie p auf 4 NKS.)</p><ol><li value="1">\( \quad K_0=9000;\quad K_n=18000;\quad n=18; \)<br>\( p= \){1:NUMERICAL:=0,0393:0,001}</li></ol><ol><li value="2">\( \quad K_0=3500;\quad p=0,04;\quad n=11; \)<br>\( K_n= \){1:NUMERICAL:=5388,0892:0,5}</li></ol><ol><li value="3">\( \quad K_0=2600;\quad p=0,04;\quad K_n=5700; \)<br>\( n= \){1:NUMERICAL:=20,0138:0,1}</li></ol><ol><li value="4">\( \quad K_n=6500;\quad p=0,02;\quad n=13; \)<br>\( K_0= \){1:NUMERICAL:=5024,7114:0,5}</li></ol>]]></text>
   </questiontext>
 </question>
 
