@@ -414,6 +414,10 @@ select.mch + .select2-container .select2-selection--single{
     color: #693c77e4;
 }
 
+i.fab.fa-youtube.clip-icon:hover {
+    cursor: pointer;
+}
+
 /* Modernere Hover-Effekte */
 table.dataTable tbody tr:hover {
     background-color: #f1f1f1;
