@@ -5,7 +5,7 @@
     "Geben Sie an, welche Wahrscheinlichkeit im Venn-Diagramm abgebildet ist. Das dunkle Blau bezeichnet den Teil, das dunkle zusammen mit dem hellen Blau das Ganze."
     ],
     "antworten":[
-    "{1:MC:~=\\( P(B) \\)~\\( P(A\\cap B) \\)}"
+    "{1:MC:~=\\( P(B_A) \\)~\\( P(A\\cdot B) \\)}"
     ]
     }
     ]

@@ -56,20 +56,21 @@ function zeigeNeuesQuiz() {
                         //width: 'auto'   
                     //});
 
-// Select2 für alle Dropdowns in der Aufgabe initialisieren
-$(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
-    placeholder: "Antwort",
-    minimumResultsForSearch: Infinity,
-    width: 'auto',
-    //templateResult: renderWithMathJax,
-    //templateSelection: renderWithMathJax
-});
+                    // Select2 für alle Dropdowns in der Aufgabe initialisieren
+                    $(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
+                        placeholder: "Antwort",
+                        minimumResultsForSearch: Infinity,
+                        width: 'auto',
+                        templateResult: renderWithMathJax,
+                        templateSelection: renderWithMathJax
+                    });
 
                     //Select2 Breite anpassen
                     adjustSelect2Width(`#aufgabe-${aufgabenZaehler} select.mch`);
 
                     // MathJax anwenden
-                    MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
+                    //MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
+                    MathJax.typesetPromise([document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
 
                     
                     
