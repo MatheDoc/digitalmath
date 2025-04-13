@@ -245,13 +245,11 @@ function renderWithMathJax(data) {
     if (!data.id) return data.text;
     const span = document.createElement('span');
     span.innerHTML = data.text;
-    setTimeout(() => {
-      if (document.body.contains(span)) {
-        MathJax.typesetPromise([span]);
-      }
-    }, 0);
+    MathJax.typesetPromise([span]).then(() => {
+        return span;
+    });
     return span;
-  }
+}
 
 
 
