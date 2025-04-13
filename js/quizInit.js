@@ -66,15 +66,23 @@ function zeigeNeuesQuiz() {
                     $select.on('select2:open', () => {
                         setTimeout(() => {
                             const dropdown = document.querySelector('.select2-results');
-                            if (dropdown) MathJax.typesetPromise([dropdown]);
-                        }, 0);
+                            if (dropdown) {
+                                MathJax.typesetClear([dropdown]); // optional: cache löschen
+                                MathJax.typesetPromise([dropdown]);
+                            }
+                        }, 50); // kleine Verzögerung für Stabilität
                     });
+                    
 
                     // MathJax auf Auswahl anwenden
                     $select.on('select2:select', () => {
                         const selection = document.querySelector('.select2-selection__rendered');
                         if (selection) MathJax.typesetPromise([selection]);
                     });
+
+
+
+
 
                     aufgabenZaehler++;
                     addCheckIconListeners();
@@ -238,12 +246,16 @@ function adjustSelect2Width(selectElementSelector) {
 
 // Funktion zur Darstellung mit gerendertem LaTeX
 function renderWithMathJax(data) {
-    if (!data.id) return data.text;
+    if (!data.id) return data.text; // z. B. Placeholder
+
     const span = document.createElement('span');
     span.innerHTML = data.text;
-    MathJax.typesetPromise([span]);
+
+    // Erst rendern, wenn das Element auch im DOM sichtbar ist
+    setTimeout(() => MathJax.typesetPromise([span]), 0);
     return span;
 }
+
 
 
 // Initiales Laden eines Quiz
