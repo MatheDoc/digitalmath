@@ -70,7 +70,7 @@ function zeigeNeuesQuiz() {
                                 MathJax.typesetClear([dropdown]); // optional: cache löschen
                                 MathJax.typesetPromise([dropdown]);
                             }
-                        }, 50); // kleine Verzögerung für Stabilität
+                        }, 250); // kleine Verzögerung für Stabilität
                     });
                     
 
@@ -79,10 +79,6 @@ function zeigeNeuesQuiz() {
                         const selection = document.querySelector('.select2-selection__rendered');
                         if (selection) MathJax.typesetPromise([selection]);
                     });
-
-
-
-
 
                     aufgabenZaehler++;
                     addCheckIconListeners();
@@ -247,16 +243,13 @@ function adjustSelect2Width(selectElementSelector) {
 // Funktion zur Darstellung mit gerendertem LaTeX
 function renderWithMathJax(data) {
     if (!data.id) return data.text;
-
     const span = document.createElement('span');
     span.innerHTML = data.text;
-
     setTimeout(() => {
       if (document.body.contains(span)) {
         MathJax.typesetPromise([span]);
       }
     }, 0);
-
     return span;
   }
 
