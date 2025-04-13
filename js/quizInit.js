@@ -251,11 +251,14 @@ function renderWithMathJax(data) {
     const span = document.createElement('span');
     span.innerHTML = data.text;
 
-    // Nur MathJax rendern, wenn die Select2-Liste geöffnet ist
-    requestAnimationFrame(() => MathJax.typesetPromise([span]));
+    setTimeout(() => {
+      if (document.body.contains(span)) {
+        MathJax.typesetPromise([span]);
+      }
+    }, 0);
 
     return span;
-}
+  }
 
 
 
