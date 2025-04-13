@@ -65,6 +65,11 @@ function zeigeNeuesQuiz() {
                         templateSelection: renderWithMathJax
                     });
 
+// MathJax bei Öffnen und Schließen des Dropdowns erneut rendern
+$(`#aufgabe-${aufgabenZaehler} select.mch`).on('select2:open select2:close', function () {
+    MathJax.typesetPromise();
+});
+
                     //Select2 Breite anpassen
                     adjustSelect2Width(`#aufgabe-${aufgabenZaehler} select.mch`);
 
@@ -243,13 +248,9 @@ function adjustSelect2Width(selectElementSelector) {
 // Funktion zur Darstellung mit gerendertem LaTeX
 function renderWithMathJax(data) {
     if (!data.id) return data.text;
-
     const span = document.createElement('span');
     span.innerHTML = data.text;
-
-    // MathJax später rendern – hat keine Auswirkung auf das Return
     MathJax.typesetPromise([span]);
-
     return span;
 }
 
