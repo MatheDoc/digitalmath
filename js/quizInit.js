@@ -8,83 +8,76 @@ function zeigeNeuesQuiz() {
     const titel = params.get('titel');
     const exam = params.get('exam');
 
-    // Prüfen, ob der Parameter 'Titel' vorhanden ist und ob kein exam
+    // Titel setzen, wenn vorhanden
     if (titel && exam === 'no') {
         const h3Element = document.getElementById('quiz-title');
-        h3Element.textContent = titel;  // Titel anhängen
+        h3Element.textContent = titel;
         const metaDescription = document.querySelector('meta[name="description"]');
-        metaDescription.setAttribute('content', titel);  // Meta-Beschreibung setzen
+        metaDescription.setAttribute('content', titel);
     }
 
-    if (exam === 'yes'){
-        document.querySelector("h3").style.display = 'none'; // Ich kann Text ausblenden
+    // Überschrift ausblenden, falls Prüfung
+    if (exam === 'yes') {
+        document.querySelector("h3").style.display = 'none';
     }
 
     if (sammlungen.length > 0) {
-        shuffleArray(sammlungen); // Sammlungen in zufälliger Reihenfolge sortieren
-        
-        // Aufgaben-Div
+        shuffleArray(sammlungen);
         const aufgabenContainer = document.getElementById('aufgaben');
 
         sammlungen.forEach(sammlung => {
             fetch(`https://raw.githubusercontent.com/MatheDoc/digitalmath/main/json/${sammlung}`)
                 .then(response => response.json())
                 .then(data => {
-             
-                    // Erstelle einen neuen Div-Container für die Aufgabe
                     const aufgabeDiv = document.createElement('div');
-                    aufgabeDiv.id = `aufgabe-${aufgabenZaehler}`; // Eindeutige ID
-                    aufgabeDiv.classList.add('aufgabe'); // Fügt die Klasse hinzu
-    
-                    // Erstelle eine neue h4-Überschrift für jede Sammlung, falls exam=yes
+                    aufgabeDiv.id = `aufgabe-${aufgabenZaehler}`;
+                    aufgabeDiv.classList.add('aufgabe');
+
                     if (exam === 'yes') {
                         const aufgabeTitel = document.createElement('h4');
                         aufgabeTitel.textContent = `${aufgabenZaehler}. Aufgabe`;
                         aufgabeDiv.appendChild(aufgabeTitel);
                     }
-    
-                    // Füge die Aufgabe in das neue Div ein
+
+                    // Aufgabe einfügen
                     aufgabeDiv.innerHTML += zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
-    
-                    // Hänge das fertige Aufgaben-Div an den Hauptcontainer an
                     aufgabenContainer.appendChild(aufgabeDiv);
 
-                    // Select2 für alle Dropdowns in der Aufgabe initialisieren
-                    //$(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
-                      //  placeholder: "Antwort",
-                        //minimumResultsForSearch: Infinity,
-                        //width: 'auto'   
-                    //});
+                    // Initialisiere Select2
+                    const selector = `#aufgabe-${aufgabenZaehler} select.mch`;
+                    const $select = $(selector);
 
-                    // Select2 für alle Dropdowns in der Aufgabe initialisieren
-                    $(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
+                    $select.select2({
                         placeholder: "Antwort",
                         minimumResultsForSearch: Infinity,
                         width: 'auto',
+                        dropdownAutoWidth: true,
                         templateResult: renderWithMathJax,
                         templateSelection: renderWithMathJax
                     });
 
-// MathJax bei Öffnen und Schließen des Dropdowns erneut rendern
-$(`#aufgabe-${aufgabenZaehler} select.mch`).on('select2:open select2:close', function () {
-    MathJax.typesetPromise();
-});
+                    // Breite anpassen
+                    adjustSelect2Width(selector);
 
-                    //Select2 Breite anpassen
-                    adjustSelect2Width(`#aufgabe-${aufgabenZaehler} select.mch`);
-
-                    // MathJax anwenden
-                    //MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
+                    // MathJax auf gesamte Aufgabe anwenden (inkl. statischem Inhalt)
                     MathJax.typesetPromise([document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
 
-                    
-                    
-                    
-                    
-                    aufgabenZaehler++; // Zähler erhöhen
+                    // MathJax bei Dropdown-Öffnung erneut anwenden
+                    $select.on('select2:open', () => {
+                        setTimeout(() => {
+                            const dropdown = document.querySelector('.select2-results');
+                            if (dropdown) MathJax.typesetPromise([dropdown]);
+                        }, 0);
+                    });
 
-                    // Check-all item ggf. ausblenden, evtl position ändern
-                    addCheckIconListeners(); 
+                    // MathJax auf Auswahl anwenden
+                    $select.on('select2:select', () => {
+                        const selection = document.querySelector('.select2-selection__rendered');
+                        if (selection) MathJax.typesetPromise([selection]);
+                    });
+
+                    aufgabenZaehler++;
+                    addCheckIconListeners();
                 })
                 .catch(error => {
                     console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
@@ -92,14 +85,12 @@ $(`#aufgabe-${aufgabenZaehler} select.mch`).on('select2:open select2:close', fun
                 });
         });
 
-        
     } else {
         console.error('Keine Sammlung in der URL gefunden.');
         document.getElementById('aufgabe').innerText = 'Keine Sammlung gefunden.';
     }
-    
-
 }
+
 
 // Aufgabe aus der Sammlung anzeigen
 function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
