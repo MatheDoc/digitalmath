@@ -48,20 +48,26 @@ function zeigeNeuesQuiz() {
     
                     // Hänge das fertige Aufgaben-Div an den Hauptcontainer an
                     aufgabenContainer.appendChild(aufgabeDiv);
-                    
-                  
 
                     // Select2 für alle Dropdowns in der Aufgabe initialisieren
-                    $(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
-                        placeholder: "Antwort",
-                        minimumResultsForSearch: Infinity,
-                        width: 'auto'   
-                    });
-                    //neu
+                    //$(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
+                      //  placeholder: "Antwort",
+                        //minimumResultsForSearch: Infinity,
+                        //width: 'auto'   
+                    //});
+
+// Select2 für alle Dropdowns in der Aufgabe initialisieren
+$(`#aufgabe-${aufgabenZaehler} select.mch`).select2({
+    placeholder: "Antwort",
+    minimumResultsForSearch: Infinity,
+    width: 'auto',
+    //templateResult: renderWithMathJax,
+    //templateSelection: renderWithMathJax
+});
+
+                    //Select2 Breite anpassen
                     adjustSelect2Width(`#aufgabe-${aufgabenZaehler} select.mch`);
 
-                    // MathJax anwenden für das neu hinzugefügte Div
-                    //MathJax.typesetPromise([aufgabeDiv]);
                     // MathJax anwenden
                     MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
 
@@ -173,7 +179,9 @@ function replaceNumericalWithInteractive(htmlContent) {
 
 // Ersetze Multiple-Choice-Fragen mit Dropdowns
 function replaceMultipleChoiceWithDropdown(htmlContent) {
-    const pattern = /\{\d+:MC:([^}]*)\}/g;  
+    const pattern = /\{\d+:MC:([^}]*)\}/g;
+    //const pattern = /\{\d+:MC:([\s\S]*?)\}/g;
+
     function replacer(match, optionsString) {
         const options = optionsString.split('~');
         const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim();
@@ -190,25 +198,22 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
             </select>
             <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
             <span id="feedback${questionId}"></span>
-        `;
-
-
-        // Verzögertes Initialisieren von Select2 und Breitenanpassung
-        /*setTimeout(() => {
-            const $select = $(`#answer${questionId}`);
-            $select.select2({
-                minimumResultsForSearch: -1
-            });
-
-            adjustSelectWidth($select);
-        }, 10);*/
-
-        
+        `;      
         questionId++;  // Eindeutige ID für jede Frage
         return interactiveHtml;
     }
     return htmlContent.replace(pattern, replacer);
 }
+
+
+
+
+
+
+
+
+
+
 
 // Funktion zum Zufällig-Mischen eines Arrays (Fisher-Yates Shuffle)
 function shuffleArray(array) {
@@ -218,7 +223,8 @@ function shuffleArray(array) {
     }
 }
 
-function adjustSelect2Width(selectElementSelector) { // Geändert, um Selektor zu akzeptieren
+// Funktion, um Breite der Select2 Options anzupassen
+function adjustSelect2Width(selectElementSelector) { 
     const $select2 = $(selectElementSelector);
     const $select2Container = $select2.next('.select2-container');
     let maxWidth = 0;
@@ -233,6 +239,18 @@ function adjustSelect2Width(selectElementSelector) { // Geändert, um Selektor z
     $select2Container.width(maxWidth + 30);
 }
 
+// Funktion zur Darstellung mit gerendertem LaTeX
+function renderWithMathJax(data) {
+    if (!data.id) return data.text;
+
+    const span = document.createElement('span');
+    span.innerHTML = data.text;
+
+    // MathJax später rendern – hat keine Auswirkung auf das Return
+    MathJax.typesetPromise([span]);
+
+    return span;
+}
 
 
 // Initiales Laden eines Quiz
