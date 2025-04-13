@@ -246,15 +246,17 @@ function adjustSelect2Width(selectElementSelector) {
 
 // Funktion zur Darstellung mit gerendertem LaTeX
 function renderWithMathJax(data) {
-    if (!data.id) return data.text; // z. B. Placeholder
+    if (!data.id) return data.text;
 
     const span = document.createElement('span');
     span.innerHTML = data.text;
 
-    // Erst rendern, wenn das Element auch im DOM sichtbar ist
-    setTimeout(() => MathJax.typesetPromise([span]), 0);
+    // Nur MathJax rendern, wenn die Select2-Liste geöffnet ist
+    requestAnimationFrame(() => MathJax.typesetPromise([span]));
+
     return span;
 }
+
 
 
 
