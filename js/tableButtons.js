@@ -10,7 +10,8 @@ function addButtons(){
         var testButton =  '<i class="fas fa-edit icon test-icon" id="testIcon" title="Einzeltest starten"></i>';
         // Testbutoon ausblenden, falls kein Test vorhanden
         if (aufgaben === '') {
-            testButton = ' '
+            testButton = ' ';
+            xmlButton = ' '
         }
         // Infobutoon ausblenden, falls keine Info vorhanden
         if (data[7] === ''){
