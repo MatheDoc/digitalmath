@@ -40,8 +40,11 @@ function zeigeNeuesQuiz() {
                     }
 
                     // Aufgabe einfügen
-                    aufgabeDiv.innerHTML += zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
-                    aufgabenContainer.appendChild(aufgabeDiv);
+                    //aufgabeDiv.innerHTML += zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
+                    //aufgabenContainer.appendChild(aufgabeDiv);
+
+                    aufgabeDiv.innerHTML = zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
+                    document.getElementById('aufgaben').appendChild(aufgabeDiv); 
 
                     // Initialisiere Select2
                     const selector = `#aufgabe-${aufgabenZaehler} select.mch`;
@@ -56,29 +59,12 @@ function zeigeNeuesQuiz() {
                         templateSelection: renderWithMathJax
                     });
 
+
                     // Breite anpassen
                     adjustSelect2Width(selector);
 
                     // MathJax auf gesamte Aufgabe anwenden (inkl. statischem Inhalt)
                     MathJax.typesetPromise([document.getElementById(`aufgabe-${aufgabenZaehler}`)]);
-
-                    // MathJax bei Dropdown-Öffnung erneut anwenden
-                    $select.on('select2:open', () => {
-                        setTimeout(() => {
-                            const dropdown = document.querySelector('.select2-results');
-                            if (dropdown) {
-                                MathJax.typesetClear([dropdown]); // optional: cache löschen
-                                MathJax.typesetPromise([dropdown]);
-                            }
-                        }, 250); // kleine Verzögerung für Stabilität
-                    });
-                    
-
-                    // MathJax auf Auswahl anwenden
-                    $select.on('select2:select', () => {
-                        const selection = document.querySelector('.select2-selection__rendered');
-                        if (selection) MathJax.typesetPromise([selection]);
-                    });
 
                     aufgabenZaehler++;
                     addCheckIconListeners();
@@ -181,17 +167,18 @@ function replaceNumericalWithInteractive(htmlContent) {
 // Ersetze Multiple-Choice-Fragen mit Dropdowns
 function replaceMultipleChoiceWithDropdown(htmlContent) {
     const pattern = /\{\d+:MC:([^}]*)\}/g;
-    //const pattern = /\{\d+:MC:([\s\S]*?)\}/g;
 
     function replacer(match, optionsString) {
         const options = optionsString.split('~');
         const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim();
 
-        const optionsHtml = options.map(option => {
-            const isCorrect = option.startsWith('=');
-            const trimmedOption = isCorrect ? option.substring(1).trim() : option.trim();  // Entfernen von `=`
-            return `<option value="${trimmedOption}">${trimmedOption}</option>`;
+        const optionsHtml = options.map(rawOption => {
+            const isCorrect = rawOption.startsWith('=');
+            const displayText = isCorrect ? rawOption.substring(1).trim() : rawOption.trim();
+            return `<option value="${displayText}" data-html="${displayText}">${displayText}</option>`;
         }).join('');
+        
+        
 
         const interactiveHtml = `
             <select id="answer${questionId}" class="mch" aria-label="Multiple Choice Frage ${questionId}" data-correct-answer="${correctAnswer}">
@@ -199,12 +186,15 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
             </select>
             <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
             <span id="feedback${questionId}"></span>
-        `;      
+        `;
+
         questionId++;  // Eindeutige ID für jede Frage
         return interactiveHtml;
     }
+
     return htmlContent.replace(pattern, replacer);
 }
+
 
 
 
@@ -242,18 +232,27 @@ function adjustSelect2Width(selectElementSelector) {
 
 // Funktion zur Darstellung mit gerendertem LaTeX
 function renderWithMathJax(data) {
-    if (!data.id) return data.text;
+    if (!data.element) return data.text;
+
+    const latexHtml = data.element.getAttribute('data-html') || data.text;
     const span = document.createElement('span');
-    span.innerHTML = data.text;
-    MathJax.typesetPromise([span]).then(() => {
-        return span;
+    span.innerHTML = latexHtml;
+
+    MathJax.typesetPromise([span]).catch(err => {
+        console.error("MathJax Error:", err);
     });
+
     return span;
 }
 
 
 
 
+
+
+
 // Initiales Laden eines Quiz
 zeigeNeuesQuiz();
+
+
 
