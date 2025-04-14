@@ -160,7 +160,7 @@ function checkAllQuestions() {
     document.querySelectorAll('select.mch').forEach(select => {
         totalCount++;
         const questionId = select.id.replace('answer', '');
-        // Überprüfe die Antwort und zähle korrekt
+
         if (checkMultipleChoiceAnswer(questionId)) {
             correctCount++;
         }
