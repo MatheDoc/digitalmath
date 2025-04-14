@@ -232,17 +232,6 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // Funktion zum Zufällig-Mischen eines Arrays (Fisher-Yates Shuffle)
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {

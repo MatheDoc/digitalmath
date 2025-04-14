@@ -112,6 +112,7 @@ function checkMultipleChoiceAnswer(questionId) {
     if (userAnswer === correctAnswer) {
         feedback.textContent = "Richtig!";
         feedback.style.color = "green";
+        return true
     } else {
         feedback.textContent = "Falsch. Die richtige Antwort ist: " + correctAnswer;
         feedback.style.color = "red";
@@ -159,7 +160,6 @@ function checkAllQuestions() {
     document.querySelectorAll('select.mch').forEach(select => {
         totalCount++;
         const questionId = select.id.replace('answer', '');
-        const correctAnswer = select.getAttribute('data-correct-answer');
         // Überprüfe die Antwort und zähle korrekt
         if (checkMultipleChoiceAnswer(questionId)) {
             correctCount++;
