@@ -14,7 +14,7 @@ const aufgabenKategorien = {
         { text: "Vierfeldertafeln", url: "https://www.mathechecks.de/index?config=%5B%22125%22%2C%22126%22%2C%22127%22%2C%22128%22%2C%22129%22%2C%22130%22%2C%22131%22%2C%22132%22%5D" },
         { text: "Hypothesentests", url: "https://www.mathechecks.de/index?config=%5B%2290%22%2C%2291%22%2C%2292%22%2C%2293%22%2C%2294%22%2C%2295%22%5D" },
         { text: "Binomialverteilung", url: "https://www.mathechecks.de/index?config=%5B%2296%22%2C%2297%22%2C%2298%22%2C%2299%22%2C%22100%22%2C%22101%22%2C%22102%22%2C%22103%22%2C%22104%22%2C%22105%22%2C%22106%22%2C%22107%22%2C%22108%22%2C%22109%22%2C%22110%22%5D" },
-        { text: "Interpretation von Wahrscheinlichkeiten", url: "https://www.mathechecks.de/index?config=%5B%22122%22%2C%22123%22%5D" }
+        { text: "Interpretation von Wahrscheinlichkeiten", url: "https://www.mathechecks.de/index?config=%5B%22122%22%2C%22123%22%2C%22187%22%2C%22188%22%5D" }
     ],
     LineareAlgebra: [
         { text: "Matrizenrechnung", url: "https://www.mathechecks.de/index?config=%5B%2274%22%2C%2275%22%2C%2276%22%5D" },
