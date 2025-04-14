@@ -103,8 +103,22 @@ function checkNumericalAnswer(questionId, correctAnswer, tolerance) {
         feedbackElement.style.color = "orange";
     }
 }
+function checkMultipleChoiceAnswer(questionId) {
+    const select = document.getElementById(`answer${questionId}`);
+    const userAnswer = select.value;
+    const correctAnswer = select.dataset.correctAnswer;
 
-function checkMultipleChoiceAnswer(questionId, correctAnswer) {
+    const feedback = document.getElementById(`feedback${questionId}`);
+    if (userAnswer === correctAnswer) {
+        feedback.textContent = "Richtig!";
+        feedback.style.color = "green";
+    } else {
+        feedback.textContent = "Falsch. Die richtige Antwort ist: " + correctAnswer;
+        feedback.style.color = "red";
+        MathJax.typesetPromise([feedback]);
+    }
+}
+/*function checkMultipleChoiceAnswer(questionId, correctAnswer) {
     const userAnswer = document.getElementById(`answer${questionId}`).value;
     const feedbackElement = document.getElementById(`feedback${questionId}`);
 
@@ -122,7 +136,7 @@ function checkMultipleChoiceAnswer(questionId, correctAnswer) {
         feedbackElement.textContent = "Bitte eine Auswahl treffen";
         feedbackElement.style.color = "orange";
     }
-}
+}*/
 
 //alle Fragen überprüfen
 function checkAllQuestions() {

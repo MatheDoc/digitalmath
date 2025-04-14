@@ -203,7 +203,8 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
 
         // Verarbeite Optionen
         const options = innerContent.split(/(?<!\\)~/); // `~` als Trenner, kein Escaping davor
-        const correctAnswer = options.find(opt => opt.startsWith('='))?.substring(1).trim();
+        const correctOption = options.find(opt => opt.startsWith('='));
+        const correctAnswer = correctOption ? correctOption.substring(1).trim() : null;
 
         const optionsHtml = options.map(option => {
             const isCorrect = option.startsWith('=');
@@ -215,7 +216,7 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
             <select id="answer${questionId}" class="mch" aria-label="Multiple Choice Frage ${questionId}" data-correct-answer="${correctAnswer}">
                 ${optionsHtml}
             </select>
-            <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId}, '${correctAnswer}')"></i>
+            <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId})"></i>
             <span id="feedback${questionId}"></span>
         `;
 
@@ -226,6 +227,9 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
 
     return result.join('');
 }
+
+
+
 
 
 
