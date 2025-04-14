@@ -379,6 +379,7 @@ select.mch + .select2-container .select2-selection--single{
 }
 .check-icon, .check-all-icon {
     color: #5882ffb0;
+    cursor: pointer;
 }
 .check-icon:hover,.check-all-icon:hover {
     color: #5882ff;
