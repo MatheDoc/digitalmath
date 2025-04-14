@@ -161,12 +161,12 @@ function checkAllQuestions() {
         const questionId = select.id.replace('answer', '');
         const correctAnswer = select.getAttribute('data-correct-answer');
         // Überprüfe die Antwort und zähle korrekt
-        if (checkMultipleChoiceAnswer(questionId, correctAnswer)) {
+        if (checkMultipleChoiceAnswer(questionId)) {
             correctCount++;
         }
     });
 
-    // Zeige die Gesamtbewertung an
+    // Feedback
     if (totalCount > 0) { // Sicherstellen, dass Fragen vorhanden sind
         // Hintergrundfarbe basierend auf der Anzahl der richtigen Antworten ändern
         if (correctCount === totalCount) {
