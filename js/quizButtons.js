@@ -69,12 +69,6 @@ function printToPDF() {
 window.print();
 }
 
-/*function printToPDF() {
-    const element = document.getElementById('aufgaben');
-    html2pdf(element, {
-        pagebreak: { mode: ['css', 'legacy'] }
-    });
-}*/
 
 
 function checkNumericalAnswer(questionId, correctAnswer, tolerance) {
@@ -119,25 +113,7 @@ function checkMultipleChoiceAnswer(questionId) {
         MathJax.typesetPromise([feedback]);
     }
 }
-/*function checkMultipleChoiceAnswer(questionId, correctAnswer) {
-    const userAnswer = document.getElementById(`answer${questionId}`).value;
-    const feedbackElement = document.getElementById(`feedback${questionId}`);
 
-    if (userAnswer) {
-        if (userAnswer === correctAnswer) {
-            feedbackElement.innerHTML = 'Richtig!';
-            feedbackElement.style.color = "green";
-        } else {
-            feedbackElement.innerHTML = 'Falsch! Die richtige Antwort ist: ' + correctAnswer;
-            feedbackElement.style.color = "red";
-        }
-        feedbackElement.style.transition = "opacity 0.5s ease-in-out";
-        feedbackElement.style.opacity = 1;
-    } else {
-        feedbackElement.textContent = "Bitte eine Auswahl treffen";
-        feedbackElement.style.color = "orange";
-    }
-}*/
 
 //alle Fragen überprüfen
 function checkAllQuestions() {
