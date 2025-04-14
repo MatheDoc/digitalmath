@@ -166,21 +166,52 @@ function replaceNumericalWithInteractive(htmlContent) {
 
 // Ersetze Multiple-Choice-Fragen mit Dropdowns
 function replaceMultipleChoiceWithDropdown(htmlContent) {
-    const pattern = /\{\d+:MC:([^}]*)\}/g;
+    const result = [];
+    let index = 0;
 
-    function replacer(match, optionsString) {
-        const options = optionsString.split('~');
-        const correctAnswer = options.find(option => option.startsWith('='))?.substring(1).trim();
+    while (index < htmlContent.length) {
+        const start = htmlContent.indexOf('{', index);
 
-        const optionsHtml = options.map(rawOption => {
-            const isCorrect = rawOption.startsWith('=');
-            const displayText = isCorrect ? rawOption.substring(1).trim() : rawOption.trim();
-            return `<option value="${displayText}" data-html="${displayText}">${displayText}</option>`;
+        // Kein weiterer Platzhalter
+        if (start === -1) {
+            result.push(htmlContent.slice(index));
+            break;
+        }
+
+        // Prüfe, ob es ein MC-Platzhalter ist
+        const pre = htmlContent.slice(index, start);
+        const maybeMC = htmlContent.slice(start);
+
+        const mcMatch = maybeMC.match(/^\{(\d+):MC:/);
+        if (!mcMatch) {
+            result.push(pre + '{');
+            index = start + 1;
+            continue;
+        }
+
+        // Suche balanciertes Ende
+        let braceLevel = 1;
+        let end = start + 1;
+        while (end < htmlContent.length && braceLevel > 0) {
+            if (htmlContent[end] === '{') braceLevel++;
+            if (htmlContent[end] === '}') braceLevel--;
+            end++;
+        }
+
+        const fullMatch = htmlContent.slice(start, end);
+        const innerContent = fullMatch.replace(/^\{\d+:MC:/, '').slice(0, -1); // Nur das Innere
+
+        // Verarbeite Optionen
+        const options = innerContent.split(/(?<!\\)~/); // `~` als Trenner, kein Escaping davor
+        const correctAnswer = options.find(opt => opt.startsWith('='))?.substring(1).trim();
+
+        const optionsHtml = options.map(option => {
+            const isCorrect = option.startsWith('=');
+            const trimmed = isCorrect ? option.substring(1).trim() : option.trim();
+            return `<option value="${trimmed}" data-html="${trimmed}">${trimmed}</option>`;
         }).join('');
-        
-        
 
-        const interactiveHtml = `
+        const selectHtml = `
             <select id="answer${questionId}" class="mch" aria-label="Multiple Choice Frage ${questionId}" data-correct-answer="${correctAnswer}">
                 ${optionsHtml}
             </select>
@@ -188,12 +219,14 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
             <span id="feedback${questionId}"></span>
         `;
 
-        questionId++;  // Eindeutige ID für jede Frage
-        return interactiveHtml;
+        result.push(pre + selectHtml);
+        index = end;
+        questionId++;
     }
 
-    return htmlContent.replace(pattern, replacer);
+    return result.join('');
 }
+
 
 
 
