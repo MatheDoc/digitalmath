@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Checke lineare Funktionen (innermathematisch).">
+    <meta name="author" content="Dr. Sven Führing">
+    <meta name='robots' content='index,follow'>    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/situationen/styles-situationen.css"> 
+</head>
+<body>
+
+    <h1>MatheChecks.de</h1>
+    
+    <h2></h2>
+    <main class="container">
+
+      <div class="box">
+        <h3>Orientierung</h3>      
+        
+        <!-- Um was es geht-->
+        <a onclick="zeigeOverlay('um-was-es-geht')">Um was geht es hier?</a>
+        <!-- Vorkenntnisse-->
+        <a onclick="zeigeOverlay('vorkenntnisse')">Welche Vorkenntnisse sind nötig?</a>
+        <!-- Worauf es ankommt-->
+        <a onclick="zeigeOverlay('worauf-es-ankommt')">Worauf kommt es an?</a>
+        <!-- Ich kann Liste-->
+        <a id="ich-kann-liste">Was soll ich können?</a>
+      </div>
+    
+      <div class="box" id="Musteraufgaben">
+        <h3>Musteraufgaben</h3>
+        <p>Neue interaktive Aufgaben mit Sofort-Feedback über H5P.</p>
+        <a href="h5p.html">Zu den H5P-Aufgaben</a>
+      </div>
+
+      <!--Overlay-->
+      <div id="overlay" class="overlay" onclick="versteckeOverlay()">
+        <div class="overlay-content" onclick="event.stopPropagation()">
+          <span class="close-button" onclick="versteckeOverlay()">&times;</span>
+          <div id="overlay-text"></div> <!-- Hier kommt der Inhalt rein -->
+        </div>
+      </div>
+
+    </main>
+  
+
+
+
+    <script src="/situationen/situationInit.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  h1 {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    padding: 10px;
+    text-align: center;
+    color:#004080;
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+
+  .box:hover {
+    transform: scale(1.03);
+  }
+
+  .box h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #004080;
+  }
+
+  .box p {
+    color: #333;
+  }
+
+  .box a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 250px;
+  }
+
+  .box a:hover {
+    background-color: #0066cc;
+    cursor: pointer;
+  }
+
+
+  
+  /* Overlay*/
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .overlay-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    height: 80px;
+    width: 180px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none; 
+  }
+
+  .nav-block:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+  }
+
+.analysis {
+    background-color: #1abc9c;
+}
+.analysis:hover {
+    background-color: #16a085; /* Etwas dunkler als der Originalton */
+}
+.stochastik {
+    background-color: #9b59b6;
+}
+.stochastik:hover {
+    background-color: #8e44ad; /* Etwas dunkler als der Originalton */
+}
+.linearealgebra {
+    background-color: #d48910;
+}
+.linearealgebra:hover {
+    background-color: #be681d; /* Etwas dunkler als der Originalton */
+}
+.weiteres {
+    background-color: #496785;
+}
+.weiteres:hover {
+    background-color: #415c77; /* Etwas dunkler als der Originalton */
+}
+.finanzmathe {
+    background-color: #eb5f50;
+}
+.finanzmathe:hover {
+    background-color: #c25448; /* Etwas dunkler als der Originalton */
+}
