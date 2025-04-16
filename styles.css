@@ -557,7 +557,9 @@ a.link-homepage:hover {
 
 @media print {
 
-
+    .box:hover {
+        transform: scale(1);
+    }
     
     .aufgabe {
         page-break-after: always; /* Nach jeder Aufgabe ein Seitenumbruch */
