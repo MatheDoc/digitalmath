@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Entdecke Übungen zu allen Themen der Mathematik: interaktiv und kostenlos; online, als Moodle-XML oder als PDF zum Download.">
+    <meta name="description" content="Entdecke Mathematik: interaktiv und kostenlos.">
     <meta name="author" content="Dr. Sven Führing">
     <meta name='robots' content='index,follow'>    
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -11,57 +11,44 @@
     <title>MatheChecks</title>
 
     <!-- Einbinden der externen CSS-Datei -->
-    <link rel="stylesheet" href="styles.css"> 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css">
 
-    <!-- jQuery und externe JS-Bibliotheken -->
-    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
-    
     <!-- Eigene JS-Dateien-->
-    <script src="js/tableMain.js"></script>
-    <script src="js/tableInit.js"></script>
-    <script src="js/tableButtons.js"></script>
-    <script src="js/SammlungenHinzufügen.js"></script>
+    <script src="js/indexInit.js"></script>
 </head>
 
 <body>
-    <div class="header">
-        <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
-            <h1>MatheChecks</h1>
-        </a>
+  <header>
+    <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
+        <h1>MatheChecks</h1>
+    </a>
+    <a href="https://www.google.de">Kompetenzliste</a>
 
-        <h2>Kompetenzliste</h2>
-        
-        <div class="symbolleiste">
-            <i class="fas fa-folder icon sammlungs-icon" id="sammlungAnzeigen" title="Sammlungen anzeigen" onclick="toggleAufgaben()"></i>
-            <i class="fas fa-edit icon test-icon"  title="Test mit Auswahl" onclick="startExam()"></i>
-            <i class="fas fa-search-plus icon suchleiste-icon" id="suchleisteAnzeigen" title="Suchleiste anzeigen" onclick="zeigeSuchleiste()"></i>
-            <i class="fas fa-filter icon auswahl-icon" id="toggleFilter" title="Auswahl filtern"></i>
-            <i class="fas fa-share-alt icon sharelink-icon" id="shareLink" title="Auswahl teilen"></i>
-        </div>
-
-        <div id="suchleiste"></div>
-        
-        <div id="Aufgabensammlung"></div>
-    </div>
-
-    <div id="warningMessage" style="display: none; color: red; padding: 10px;"> Es gibt ausgewählte, aber nicht sichtbare Elemente! </div>
-    <div id="content"></div>
-    <div id="overlay" class="overlay"></div>
-    <div id="infoText" class="info-text"></div>
+    <h2>Lernbereiche</h2>
+  <header>    
     
+  <main class="container">
+    <a class="nav-block analysis">Lineare Funktionen - Basics</a>
+    <a class="nav-block analysis">Lineare Funktionen - Ökonomisch</a>
+    <a class="nav-block analysis">Quadratische Funktionen - Basics</a>
+    <a class="nav-block analysis">Quadratische Funktionen - Ökonomisch</a>
+    <a class="nav-block stochastik">Mehrstufige Zufallsexperimente - Basics</a>
+    <a class="nav-block stochastik">Mehrstufige Zufallsexperimente - Fortgeschritten</a>
+    <a class="nav-block stochastik">Hypothesentests</a>
+    <a class="nav-block linearealgebra">Mehrstufige Produktionsprozesse</a>
+    <a class="nav-block weiteres">Prozentrechnung - Basics</a>
+    <a class="nav-block weiteres">Prozentrechnung - Fortgeschritten</a>
+    <a class="nav-block finanzmathe">Zinseszinsrechnung</a>
+    <a class="nav-block finanzmathe">Rentenrechnung</a>
+    <a class="nav-block finanzmathe">Kapitalaufbau und -abbau</a>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 Dr. Sven Führing<i class="fas fa-envelope icon mail-icon" title="Kontakt" onclick="window.location.href='mailto:mathechecks@gmail.com'"></i>.
-            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0.</a>
-        </p>
-    </footer>
-
-
+  <footer>
+    <p>&copy; 2025 Dr. Sven Führing<i class="fas fa-envelope icon mail-icon" title="Kontakt" onclick="window.location.href='mailto:mathechecks@gmail.com'"></i>. 
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0</a>
+    </p>
+  </footer>
 
 </body>
 </html>

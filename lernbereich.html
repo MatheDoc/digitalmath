@@ -8,21 +8,28 @@
     <meta name='robots' content='index,follow'>    
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="/styles.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-    <div class="header">
-      <h1>MatheChecks</h1>
-      <h2></h2>
-    </div>
-    <main class="container">
+    <title>MatheChecks</title>
 
+    <!-- Einbinden der externen CSS-Datei -->
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Eigene JS-Dateien-->
+    <script src="/js/lernbereichInit.js"></script>
+</head>
+
+<body>
+    <header>
+      <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
+        <h1>MatheChecks</h1>
+      </a>
+      <h2></h2>
+    </header>
+
+    <main class="container">
       <div class="box">
         <h3>Orientierung</h3>      
-        
         <!-- Um was es geht-->
-        <!--<a onclick="zeigeOverlay('um-was-es-geht')">Um was geht es hier?</a>-->
         <a href="#" onclick="toggleInhalt(this,'um-was-es-geht')">Um was geht es hier?</a>
         <div></div>
         <!-- Vorkenntnisse-->
@@ -47,19 +54,13 @@
         <p>Neue interaktive Aufgaben mit Sofort-Feedback über H5P.</p>
         <a href="h5p.html">Zu den H5P-Aufgaben</a>
       </div>
-
-
-
     </main>
   
+    <footer>
+      <p>&copy; 2025 Dr. Sven Führing<i class="fas fa-envelope icon mail-icon" title="Kontakt" onclick="window.location.href='mailto:mathechecks@gmail.com'"></i>. 
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0</a>
+      </p>
+    </footer>
 
-
-
-    <script src="/situationen/situationInit.js"></script>
 </body>
-<footer>
-  <p>&copy; 2025 Dr. Sven Führing<i class="fas fa-envelope icon mail-icon" title="Kontakt" onclick="window.location.href='mailto:mathechecks@gmail.com'"></i>. 
-      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0</a>
-  </p>
-</footer>
 </html>

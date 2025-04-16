@@ -1,4 +1,4 @@
-.header {
+header {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -30,16 +30,6 @@ h2 {
     margin-bottom: 0px;
     text-align: center;
 }
-
-/*h3 {
-    color: #000000;
-    margin: 0px auto 0;
-    max-width: 658px;
-    padding: 20px;
-    font-style: italic;
-    font-size: 1em;
-    font-weight: normal;
-}*/
 
 h3{
     max-width: 658px;
@@ -228,6 +218,26 @@ footer {
 
 }
 
+.nav-block {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    color: white;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-block:hover {
+    cursor: pointer;
+}
 
 .analysis {
     background-color: #1abc9c;
