@@ -8,11 +8,12 @@
     <meta name='robots' content='index,follow'>    
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="/situationen/styles-situationen.css"> 
+    <link rel="stylesheet" href="/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-    <h1>MatheChecks.de</h1>
+    <h1>MatheChecks</h1>
     
     <h2></h2>
     <main class="container">
@@ -31,13 +32,13 @@
         <a onclick="toggleInhalt(this,'worauf-es-ankommt')">Worauf kommt es an?</a>
         <div></div>
         <!-- Ich kann Liste-->
-        <a id="ich-kann-liste">Was soll ich können?</a>
+        <a id="ich-kann-liste">Was soll ich können? <i class="fas fa-link"></i></a>
       </div>
     
       <div class="box">
         <h3>Aktivitäten</h3>    
         <!-- Fachbegriffe -->
-        <a href="#" onclick="toggleInhalt(this, 'fachbegriffe')">Welche Fachbegriffe muss ich kennen?</a>
+        <a href="#" onclick="toggleInhalt(this, 'fachbegriffe')">Karteikarten mit Fachbegriffen</a>
         <div></div>
       </div>
 
@@ -47,13 +48,7 @@
         <a href="h5p.html">Zu den H5P-Aufgaben</a>
       </div>
 
-      <!--Overlay-->
-      <div id="overlay" class="overlay" onclick="versteckeOverlay()">
-        <div class="overlay-content" onclick="event.stopPropagation()">
-          <span class="close-button" onclick="versteckeOverlay()">&times;</span>
-          <div id="overlay-text"></div> <!-- Hier kommt der Inhalt rein -->
-        </div>
-      </div>
+
 
     </main>
   
@@ -62,4 +57,9 @@
 
     <script src="/situationen/situationInit.js"></script>
 </body>
+<footer>
+  <p>&copy; 2025 Dr. Sven Führing<i class="fas fa-envelope icon mail-icon" title="Kontakt" onclick="window.location.href='mailto:mathechecks@gmail.com'"></i>. 
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0</a>
+  </p>
+</footer>
 </html>

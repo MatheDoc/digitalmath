@@ -1,41 +1,53 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
     margin: 0;
-    padding: 0;
 }
 
-h1 {
-    background-color: #004080; /*#B8CEF2 oder 8889af*/
+h1 {    
+    background-color: #004080;
     color: #ffffff;
     padding: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
-    font-family: 'Arial', sans-serif;
-    /*border-bottom: black solid 1px;
-    border-top: black solid 1px;*/
-    border-color: #4d4d4d;
 }
 
 h2 {
-    color: #7e7e7e;
-    background-color: #f5f5f5;
+    background-color: #f8f8f8;
+    color:#004080;
     padding: 20px;
-    margin: 0px auto 0; /* Oben und unten: 20px, zentriert */
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
-    align-items: center; /* Zentriert die Elemente vertikal */
-    font-size: 20px;
 }
 
-h3 {
+/*h3 {
     color: #000000;
-    margin: 0px auto 0; /* Oben und unten: 20px, zentriert */
+    margin: 0px auto 0;
     max-width: 658px;
     padding: 20px;
     font-style: italic;
     font-size: 1em;
     font-weight: normal;
+}*/
+
+h3{
+    max-width: 658px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #004080;
+    margin: 0px auto 0;
 }
 
 h4  {
@@ -48,6 +60,19 @@ h4  {
     border-bottom: black solid 1px;
     border-top: black solid 1px;
     border-color: #4d4d4d;
+}
+
+.symbolleiste {
+    font-size: 1.1em;
+    padding: 10px;
+    border: 1px solid #004080;
+    border-radius: 25px;
+    display: flex;
+    gap: 15px;
+    margin: 0px auto;
+    width: 230px;
+    background-color: #f5f5f5;
+    justify-content: center;
 }
 
 p {
@@ -258,18 +283,7 @@ footer {
     background-color: #e72f8b;
 } 
 
-.symbole {
-    font-size: inherit;
-    padding: 10px;
-    border: 1px solid grey;
-    border-radius: 25px;
-    display: flex;
-    gap: 15px;
-    margin: 0px auto;
-    width: 230px;
-    background-color: #f5f5f5;
-    justify-content: center; 
-}
+
 
 
 .dataTables_filter input {
@@ -472,6 +486,59 @@ a.link-homepage:hover {
     color: inherit;         /* Farbe bleibt unverändert */
 }
 
+
+/*Lernbereiche*/
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+
+  .box:hover {
+    transform: scale(1.03);
+  }
+
+  .box h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #004080;
+  }
+
+  .box p {
+    color: #333;
+  }
+
+  .box a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 250px;
+  }
+
+  .box a:hover {
+    background-color: #0066cc;
+    cursor: pointer;
+  }
+
+
 @media (max-width: 768px) {
     li {
         padding: 15px;
@@ -504,8 +571,6 @@ a.link-homepage:hover {
     }
 
 
-
-    
     body {
         padding: 2cm;
         padding-left: 3cm;
@@ -541,12 +606,10 @@ a.link-homepage:hover {
     img {
         max-width: 50%;
     }
-    h1{
+    .header{
         display: none;
     }
-    h2 { 
-        display: none;
-    }
+    
     h3{
         background-color: transparent;
         border: 1px solid black;
@@ -555,7 +618,7 @@ a.link-homepage:hover {
         box-shadow: none;
         margin-bottom: 20px;
         max-width: 100%;
-        font-size: 1.3em;
+        font-size: 1em;
     }
     h4{
         margin-top: 70px;
