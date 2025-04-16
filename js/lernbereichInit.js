@@ -34,15 +34,19 @@ function toggleInhalt(linkElement, dateiname) {
     return;
   }
 
-  // Sonst laden und anzeigen
   const pfad = `lernbereiche/${thema}/${dateiname}.html`;
 
   fetch(pfad)
-    .then(res => res.text())
+    .then(res => {
+      if (!res.ok) {
+        throw new Error(`Datei nicht gefunden: ${pfad} (Status: ${res.status})`);
+      }
+      return res.text();
+    })
     .then(text => {
       contentDiv.innerHTML = text;
       contentDiv.style.display = 'block';
-      // Resizer-Skript einfügen, für H5P Skalierung
+
       const script = document.createElement("script");
       script.src = "https://app.Lumi.education/api/v1/h5p/core/js/h5p-resizer.js";
       script.charset = "UTF-8";
@@ -54,3 +58,4 @@ function toggleInhalt(linkElement, dateiname) {
       console.error(err);
     });
 }
+
