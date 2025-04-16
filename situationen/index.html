@@ -21,15 +21,26 @@
         <h3>Orientierung</h3>      
         
         <!-- Um was es geht-->
-        <a onclick="zeigeOverlay('um-was-es-geht')">Um was geht es hier?</a>
+        <!--<a onclick="zeigeOverlay('um-was-es-geht')">Um was geht es hier?</a>-->
+        <a href="#" onclick="toggleInhalt(this,'um-was-es-geht')">Um was geht es hier?</a>
+        <div></div>
         <!-- Vorkenntnisse-->
-        <a onclick="zeigeOverlay('vorkenntnisse')">Welche Vorkenntnisse sind nötig?</a>
+        <a onclick="toggleInhalt(this,'vorkenntnisse')">Welche Vorkenntnisse sind nötig?</a>
+        <div></div>
         <!-- Worauf es ankommt-->
-        <a onclick="zeigeOverlay('worauf-es-ankommt')">Worauf kommt es an?</a>
+        <a onclick="toggleInhalt(this,'worauf-es-ankommt')">Worauf kommt es an?</a>
+        <div></div>
         <!-- Ich kann Liste-->
         <a id="ich-kann-liste">Was soll ich können?</a>
       </div>
     
+      <div class="box">
+        <h3>Aktivitäten</h3>    
+        <!-- Fachbegriffe -->
+        <a href="#" onclick="toggleInhalt(this, 'fachbegriffe')">Welche Fachbegriffe muss ich kennen?</a>
+        <div></div>
+      </div>
+
       <div class="box" id="Musteraufgaben">
         <h3>Musteraufgaben</h3>
         <p>Neue interaktive Aufgaben mit Sofort-Feedback über H5P.</p>

@@ -5,8 +5,6 @@ body {
     padding: 0;
   }
 
-
-
   h1 {
     background-color: #004080;
     color: white;
@@ -27,6 +25,7 @@ body {
     gap: 40px;
     padding: 20px 20px;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
 
   .box {
