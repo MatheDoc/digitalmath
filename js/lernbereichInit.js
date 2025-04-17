@@ -19,6 +19,19 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(err => {
       console.error("Fehler beim Laden der Ich-kann-Liste:", err);
     });
+
+  // Skript
+  const skriptPfad = `lernbereiche/${thema}/skript.pdf`;
+  fetch(skriptPfad)
+    .then(res => res.text())
+    .then(url => {
+      document.getElementById('skript').setAttribute('href', url.trim());
+      document.getElementById('skript').setAttribute('target', '_blank');
+    })
+    .catch(err => {
+      console.error("Fehler beim Laden des Skripts:", err);
+    });
+
 });
 
 function toggleInhalt(linkElement, dateiname) {
