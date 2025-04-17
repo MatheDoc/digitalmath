@@ -16,13 +16,14 @@ function zeigeNeuesQuiz() {
         metaDescription.setAttribute('content', titel);
     }
 
-    // Überschrift ausblenden, falls Prüfung
+    // Ich kann Text ausblenden, falls Prüfung
+    document.addEventListener('DOMContentLoaded', () => {
     if (exam === 'yes') {
-        document.querySelector("h3").style.display = 'none';
-    }
-
+        document.querySelector("h4").style.display = 'none';
+    }});
+    
     if (sammlungen.length > 0) {
-        shuffleArray(sammlungen);
+        //shuffleArray(sammlungen);
         const aufgabenContainer = document.getElementById('aufgaben');
 
         sammlungen.forEach(sammlung => {
@@ -32,18 +33,19 @@ function zeigeNeuesQuiz() {
                     const aufgabeDiv = document.createElement('div');
                     aufgabeDiv.id = `aufgabe-${aufgabenZaehler}`;
                     aufgabeDiv.classList.add('aufgabe');
-
+                    
+                    
                     if (exam === 'yes') {
-                        const aufgabeTitel = document.createElement('h4');
+                        const aufgabeTitel = document.createElement('h3');
                         aufgabeTitel.textContent = `${aufgabenZaehler}. Aufgabe`;
                         aufgabeDiv.appendChild(aufgabeTitel);
                     }
 
-                    // Aufgabe einfügen
-                    //aufgabeDiv.innerHTML += zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
-                    //aufgabenContainer.appendChild(aufgabeDiv);
-
-                    aufgabeDiv.innerHTML = zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
+                    const aufgabenInhalt = zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
+                    const tempContainer = document.createElement('div');
+                    tempContainer.innerHTML = aufgabenInhalt;
+                    aufgabeDiv.appendChild(tempContainer);
+                    
                     document.getElementById('aufgaben').appendChild(aufgabeDiv); 
 
                     // Initialisiere Select2
