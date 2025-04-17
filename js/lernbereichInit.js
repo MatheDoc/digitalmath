@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error("Fehler beim Laden der Ich-kann-Liste:", err);
     });
 
-  // "dahboard"-Link setzen
+  // "dashboard"-Link setzen
   const dashboardPfad = `lernbereiche/${thema}/aufgaben-dashboard.txt`;
   fetch(dashboardPfad)
     .then(res => res.text())
