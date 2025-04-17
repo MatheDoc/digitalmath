@@ -5,7 +5,9 @@
     --hintergrundfarbe-hover : hsl(0, 0%, 89%);
   }
   
-
+* {
+    box-sizing: border-box;
+}
 
 header {
     position: sticky;
@@ -503,8 +505,8 @@ a.link-homepage:hover {
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 12px;
-    padding: 30px;
-    width: 300px;
+    padding-bottom: 20px;
+    width: 350px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
@@ -528,7 +530,7 @@ a.link-homepage:hover {
     color: white;
     padding: 10px 20px;
     border-radius: 6px;
-    width: 250px;
+    width: 300px;
   }
 
   .box a:hover {
