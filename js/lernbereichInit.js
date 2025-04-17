@@ -20,12 +20,24 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error("Fehler beim Laden der Ich-kann-Liste:", err);
     });
 
-  // Skript
-  const skriptPfad = `lernbereiche/${thema}/skript.pdf`;
-  fetch(skriptPfad)
+  // "dahboard"-Link setzen
+  const dashboardPfad = `lernbereiche/${thema}/aufgaben-dashboard.txt`;
+  fetch(dashboardPfad)
     .then(res => res.text())
     .then(url => {
-      document.getElementById('skript').setAttribute('href', url.trim());
+      document.getElementById('aufgaben-dashboard').setAttribute('href', url.trim());
+      document.getElementById('aufgaben-dashboard').setAttribute('target', '_blank');
+    })
+    .catch(err => {
+      console.error("Fehler beim Laden der Ich-kann-Liste:", err);
+    });    
+  
+
+  // Skript
+  const skriptPfad = `lernbereiche/${thema}/${thema}.pdf`;
+  fetch(skriptPfad)
+    .then(() => {
+      document.getElementById('skript').setAttribute('href', skriptPfad);
       document.getElementById('skript').setAttribute('target', '_blank');
     })
     .catch(err => {

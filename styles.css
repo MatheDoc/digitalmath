@@ -506,7 +506,9 @@ a.link-homepage:hover {
     border: 1px solid #ccc;
     border-radius: 12px;
     padding-bottom: 20px;
-    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
@@ -561,12 +563,12 @@ a.link-homepage:hover {
 }
 
 
-ol, ul {
+.aufgabe ol, ul {
     list-style-position: inside;
     padding-left: 0;    
 }
 
-li{
+.aufgabe li {
     background-color: var(--hintergrundfarbe);
     border: 1px solid var(--hauptfarbe);
     border-radius: 12px;
