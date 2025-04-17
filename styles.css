@@ -553,7 +553,7 @@ a.link-homepage:hover {
     border-radius: 12px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 1000px;
+    width: 700px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
 }
@@ -624,6 +624,10 @@ li {
 
 
 @media (max-width: 768px) {
+
+    .aufgabe{
+        width: 100vw;
+    }
 
     input[type="text"] {
         width: 60px;
