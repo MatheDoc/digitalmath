@@ -34,18 +34,17 @@
             <h1>MatheChecks</h1>
         </a>
 
-        <h2>Kompetenzliste</h2>
+        <h2>Kompetenzliste
+            <div class="symbolleiste">
+                <i class="fas fa-folder icon sammlungs-icon" id="sammlungAnzeigen" title="Sammlungen anzeigen" onclick="toggleAufgaben()"></i>
+                <i class="fas fa-edit icon test-icon"  title="Test mit Auswahl" onclick="startExam()"></i>
+                <i class="fas fa-search-plus icon suchleiste-icon" id="suchleisteAnzeigen" title="Suchleiste anzeigen" onclick="zeigeSuchleiste()"></i>
+                <i class="fas fa-filter icon auswahl-icon" id="toggleFilter" title="Auswahl filtern"></i>
+                <i class="fas fa-share-alt icon sharelink-icon" id="shareLink" title="Auswahl teilen"></i>
+            </div>
+        </h2>
         
-        <div class="symbolleiste">
-            <i class="fas fa-folder icon sammlungs-icon" id="sammlungAnzeigen" title="Sammlungen anzeigen" onclick="toggleAufgaben()"></i>
-            <i class="fas fa-edit icon test-icon"  title="Test mit Auswahl" onclick="startExam()"></i>
-            <i class="fas fa-search-plus icon suchleiste-icon" id="suchleisteAnzeigen" title="Suchleiste anzeigen" onclick="zeigeSuchleiste()"></i>
-            <i class="fas fa-filter icon auswahl-icon" id="toggleFilter" title="Auswahl filtern"></i>
-            <i class="fas fa-share-alt icon sharelink-icon" id="shareLink" title="Auswahl teilen"></i>
-        </div>
-
         <div id="suchleiste"></div>
-        
         <div id="Aufgabensammlung"></div>
     </header>
 
