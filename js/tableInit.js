@@ -103,7 +103,7 @@ function initializeTable() {
         // Die Werte der ausgewählten Checkboxen in einen JSON-String umwandeln
         const json = JSON.stringify(selectedCheckboxes);
         const encodedJson = encodeURIComponent(json); // JSON-String URL-kodieren
-        const shareableLink = `https://www.mathechecks.de/index?config=${encodedJson}`; // Teilen-Link erstellen
+        const shareableLink = `https://www.mathechecks.de/kompetenzliste.html?config=${encodedJson}`; // Teilen-Link erstellen
         // Link in die Zwischenablage kopieren
         navigator.clipboard.writeText(shareableLink).then(() => {
             alert('Link der Auswahl wurde in die Zwischenablage kopiert: ' + shareableLink);
