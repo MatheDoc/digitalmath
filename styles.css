@@ -625,9 +625,7 @@ li {
 
 
 @media (max-width: 768px) {
-    li {
-        padding: 15px;
-    }
+
     input[type="text"] {
         width: 60px;
     }
