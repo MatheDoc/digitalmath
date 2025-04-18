@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('ich-kann-liste').setAttribute('target', '_blank');
     })
     .catch(err => {
-      console.error("Fehler beim Laden der Ich-kann-Liste:", err);
+      console.error("Fehler beim Laden:", err);
     });
 
   // "dashboard"-Link setzen
@@ -29,19 +29,30 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('aufgaben-dashboard').setAttribute('target', '_blank');
     })
     .catch(err => {
-      console.error("Fehler beim Laden der Ich-kann-Liste:", err);
+      console.error("Fehler beim Laden:", err);
     });    
   
 
   // Skript
-  const skriptPfad = `lernbereiche/${thema}/${thema}.pdf`;
+  const skriptPfad = `lernbereiche/${thema}/${thema} - Skript.pdf`;
   fetch(skriptPfad)
     .then(() => {
       document.getElementById('skript').setAttribute('href', skriptPfad);
       document.getElementById('skript').setAttribute('target', '_blank');
     })
     .catch(err => {
-      console.error("Fehler beim Laden des Skripts:", err);
+      console.error("Fehler beim Laden:", err);
+    });
+
+  // Musteraufgaben
+  const musteraufgabenPfad = `lernbereiche/${thema}/${thema} - Musteraufgaben.pdf`;
+  fetch(skriptPfad)
+    .then(() => {
+      document.getElementById('musteraufgaben').setAttribute('href', musteraufgabenPfad);
+      document.getElementById('musteraufgaben').setAttribute('target', '_blank');
+    })
+    .catch(err => {
+      console.error("Fehler beim Laden:", err);
     });
 
 });

@@ -120,7 +120,7 @@ input[type="text"] {
     font-size: 1em;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 60px;
+    width: 80px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -569,11 +569,14 @@ a.link-homepage:hover {
 }
 
 .aufgabe li {
-    background-color: var(--hintergrundfarbe);
-    border: 1px solid var(--hauptfarbe);
+    background-color: #deeaef;
+    border: 1px solid #ccc;
     border-radius: 12px;
     padding: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
 }
 
 li:hover{
