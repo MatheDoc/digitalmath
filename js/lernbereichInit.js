@@ -13,8 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch(ichKannPfad)
     .then(res => res.text())
     .then(url => {
-      document.getElementById('ich-kann-liste').setAttribute('href', url.trim());
-      document.getElementById('ich-kann-liste').setAttribute('target', '_blank');
+      const button = document.getElementById('ich-kann-liste');
+      button.addEventListener('click', () => {
+        window.open(url, '_blank');
+      });
     })
     .catch(err => {
       console.error("Fehler beim Laden:", err);
@@ -25,8 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch(dashboardPfad)
     .then(res => res.text())
     .then(url => {
-      document.getElementById('aufgaben-dashboard').setAttribute('href', url.trim());
-      document.getElementById('aufgaben-dashboard').setAttribute('target', '_blank');
+      const button = document.getElementById('aufgaben-dashboard');
+      button.addEventListener('click', () => {
+        window.open(url, '_blank');
+      });
     })
     .catch(err => {
       console.error("Fehler beim Laden:", err);
@@ -37,34 +41,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const skriptPfad = `lernbereiche/${thema}/${thema} - Skript.pdf`;
   fetch(skriptPfad)
     .then(() => {
-      document.getElementById('skript').setAttribute('href', skriptPfad);
-      document.getElementById('skript').setAttribute('target', '_blank');
+      const button = document.getElementById('skript');
+      button.addEventListener('click', () => {
+        window.open(skriptPfad, '_blank');
+      });
     })
     .catch(err => {
       console.error("Fehler beim Laden:", err);
     });
 
-      // Skript
-  const abPfad = `lernbereiche/${thema}/${thema} - Arbeitsblätter.pdf`;
-  fetch(abPfad)
-    .then(() => {
-      document.getElementById('arbeitsblätter').setAttribute('href', abPfad);
-      document.getElementById('arbeitsblätter').setAttribute('target', '_blank');
-    })
-    .catch(err => {
-      console.error("Fehler beim Laden:", err);
-    });
 
-  // Musteraufgaben
-  const musteraufgabenPfad = `lernbereiche/${thema}/${thema} - Musteraufgaben.pdf`;
-  fetch(skriptPfad)
-    .then(() => {
-      document.getElementById('musteraufgaben').setAttribute('href', musteraufgabenPfad);
-      document.getElementById('musteraufgaben').setAttribute('target', '_blank');
-    })
-    .catch(err => {
-      console.error("Fehler beim Laden:", err);
-    });
+
+
 
 });
 
