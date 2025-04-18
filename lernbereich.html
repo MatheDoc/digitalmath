@@ -30,42 +30,47 @@
       <div class="box">
         <h3>Orientierung</h3>      
         <!-- Um was es geht-->
-        <a href="#" onclick="toggleInhalt(this,'um-was-es-geht')">Um was geht es hier?</a>
+        <button onclick="toggleInhalt(this,'um-was-es-geht')">Um was geht es hier?<i class="fas fa-chevron-down"></i></button>
         <div></div>
         <!-- Vorkenntnisse-->
-        <a onclick="toggleInhalt(this,'vorkenntnisse')">Welche Vorkenntnisse sind nötig?</a>
+        <button onclick="toggleInhalt(this,'vorkenntnisse')">Welche Vorkenntnisse sind nötig?<i class="fas fa-chevron-down"></i></button>
         <div></div>
         <!-- Worauf es ankommt-->
-        <a onclick="toggleInhalt(this,'worauf-es-ankommt')">Worauf kommt es an?</a>
+        <button onclick="toggleInhalt(this,'worauf-es-ankommt')">Worauf kommt es an?<i class="fas fa-chevron-down"></i></button>
         <div></div>
         <!-- Ich kann Liste-->
-        <a id="ich-kann-liste">Was soll ich können? <i class="fas fa-link"></i></a>
+        <button id="ich-kann-liste">Was soll ich können?<i class="fas fa-link"></i></button>
       </div>
     
       <div class="box">
-        <h3>Aktivitäten</h3>    
+        <h3>Warm-ups</h3>    
         <!-- Fachbegriffe -->
-        <a href="#" onclick="toggleInhalt(this, 'fachbegriffe')">Karteikarten mit Fachbegriffen</a>
-        <div></div>
+        <button onclick="toggleInhalt(this, 'fachbegriffe')">Fachbegriffe<i class="fas fa-chevron-down"></i></button>
+        <div style="display: none;"></div>
       </div>
       
       <div class="box">
-        <h3>Erarbeitung</h3>  
-        <!-- E1 -->
+        <h3>Interaktive Übungen</h3>  
+          <!-- Aufgaben dashbord-->
+          <button id="aufgaben-dashboard">Aufgaben-Dashboard<i class="fas fa-link"></i></button>
       </div> 
 
       <div class="box">
         <h3>Material</h3>  
         <!-- Skript -->
-        <a id="skript">Skript <i class="fas fa-link"></i></a>
-        <!-- Skript -->
-        <a id="musteraufgaben">Musteraufgaben <i class="fas fa-link"></i></a>
-        <!-- Aufgaben dashbord-->
-        <a id="aufgaben-dashboard">Aufgaben-Dashboard <i class="fas fa-link"></i></a>
+        <button id="skript">Skript <i class="fas fa-link"></i></button>
+        <!-- Arbeitsblätter -->
+        <button onclick="toggleInhalt(this, 'arbeitsblätter')">Arbeitsblätter<i class="fas fa-chevron-down"></i></button>
+        <div></div>
+        <!-- Musteraufgaben -->
+        <button id="musteraufgaben">Musteraufgaben <i class="fas fa-link"></i></button>
       </div>  
       
       <div class="box">
         <h3>Fundgrube</h3>
+        <!-- Lernvideos -->
+        <button onclick="toggleInhalt(this, 'lernvideos')">Lernvideos<i class="fas fa-chevron-down"></i></button>
+        <div></div>
       </div>
 
       <div class="box">

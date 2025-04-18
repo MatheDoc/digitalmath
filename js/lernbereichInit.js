@@ -44,6 +44,17 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error("Fehler beim Laden:", err);
     });
 
+      // Skript
+  const abPfad = `lernbereiche/${thema}/${thema} - Arbeitsblätter.pdf`;
+  fetch(abPfad)
+    .then(() => {
+      document.getElementById('arbeitsblätter').setAttribute('href', abPfad);
+      document.getElementById('arbeitsblätter').setAttribute('target', '_blank');
+    })
+    .catch(err => {
+      console.error("Fehler beim Laden:", err);
+    });
+
   // Musteraufgaben
   const musteraufgabenPfad = `lernbereiche/${thema}/${thema} - Musteraufgaben.pdf`;
   fetch(skriptPfad)
@@ -62,12 +73,22 @@ function toggleInhalt(linkElement, dateiname) {
   if (!thema) return;
 
   const contentDiv = linkElement.nextElementSibling;
+  const symbol = linkElement.querySelector('i');
 
   // Falls bereits geöffnet → schließen
   if (contentDiv.style.display === 'block') {
     contentDiv.style.display = 'none';
-    contentDiv.innerHTML = '';
+    //contentDiv.innerHTML = '';
+    if (symbol) {
+      symbol.classList.remove('fa-chevron-up');
+      symbol.classList.add('fa-chevron-down');
+    }
     return;
+  }
+  // Icon nur beim Öffnen anpassen
+  if (symbol) {
+    symbol.classList.remove('fa-chevron-down');
+    symbol.classList.add('fa-chevron-up');
   }
 
   const pfad = `lernbereiche/${thema}/${dateiname}.html`;
@@ -83,6 +104,7 @@ function toggleInhalt(linkElement, dateiname) {
       contentDiv.innerHTML = text;
       contentDiv.style.display = 'block';
 
+      // h5p reziser
       const script = document.createElement("script");
       script.src = "https://app.Lumi.education/api/v1/h5p/core/js/h5p-resizer.js";
       script.charset = "UTF-8";
