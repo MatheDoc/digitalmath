@@ -1,5 +1,6 @@
 :root {
     --hauptfarbe: #156082; /*bisher: #004080;*/
+    --hauptfarbe-hover: #1d7ca6;
     --textfarbe: #333;
     --hintergrundfarbe: #f8f8f8;
     --hintergrundfarbe-hover : hsl(0, 0%, 89%);
@@ -555,7 +556,7 @@ a.link-homepage:hover {
   }
   
   .box button:hover {
-    background-color: #0066cc;
+    background-color: var(--hauptfarbe-hover);
     cursor: pointer;
   }
 
