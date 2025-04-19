@@ -59,6 +59,9 @@ function hideAllAnswers() {
             templateResult: renderWithMathJax,
             templateSelection: renderWithMathJax
         });
+
+        // Breite anpassen
+        adjustSelect2Width(select);
     });
 
     document.querySelectorAll('.check-icon').forEach(icon => {
