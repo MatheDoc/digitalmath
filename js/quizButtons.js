@@ -54,7 +54,10 @@ function hideAllAnswers() {
         $(select).select2({
             placeholder: "Antwort",
             minimumResultsForSearch: Infinity,
-            width: 'auto'
+            width: 'auto',
+            dropdownAutoWidth: true,
+            templateResult: renderWithMathJax,
+            templateSelection: renderWithMathJax
         });
     });
 
