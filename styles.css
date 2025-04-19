@@ -27,7 +27,7 @@ body {
 h1 {    
     background-color: var(--hauptfarbe);
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
@@ -35,7 +35,7 @@ h1 {
 
 h2 {
     color:var(--hauptfarbe);
-    padding: 20px;
+    padding: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;

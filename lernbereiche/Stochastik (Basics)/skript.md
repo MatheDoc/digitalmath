@@ -1,4 +1,4 @@
-## Stochastik (Basics)
+## Mengen
 
 In der Stochastik beschäftigen wir mit der Berechnung von Wahrscheinlichkeiten. Um diese präzise und eindeutig zu beschreiben, verwenden wir die Sprache der Mengenlehre.
 
@@ -159,8 +159,6 @@ Dann gilt:
 $$
 P(A) = \frac{18}{37}
 $$
-
-
 <figure>
   <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 200px">
   <figcaption>KI-generiert mit ChatGPT</figcaption>

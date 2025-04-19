@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 
   // Skript
-  const skriptPfad = `lernbereiche/${thema}/${thema} - Skript.pdf`;
+  const skriptPfad = `skript.html?thema=${thema}`;
   fetch(skriptPfad)
     .then(() => {
       const button = document.getElementById('skript');
