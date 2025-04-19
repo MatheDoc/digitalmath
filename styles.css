@@ -518,10 +518,17 @@ a.link-homepage:hover {
     flex-direction: column;           /* Stellt sicher, dass die <a>-Tags untereinander stehen */
     align-items: center;              /* Zentriert die <a>-Tags horizontal */
     justify-content: flex-start;      /* Falls du weitere Anpassungen mit vertikalem Abstand möchtest */
+    box-sizing: border-box;
+    padding: 30px;
   }
   
+  .box h3{
+    padding-top: 0px;
+  }
   /* Stil für alle <a>-Tags innerhalb von .box */
   .box button {
+    width: 100%;
+    box-sizing: border-box;
     font-size: 1em;
     border: 0;
     display: flex;                    /* Flexbox für die Ausrichtung von Text und Icon */
@@ -533,15 +540,16 @@ a.link-homepage:hover {
     color: white;                     /* Textfarbe */
     padding: 10px 20px;               /* Innenabstände für den Link */
     border-radius: 6px;               /* Abgerundete Ecken */
-    width: 350px;                     /* Feste Breite des Links */
     margin-top: 15px;                 /* Abstand nach oben */
   }
   
 .box div{
+    width: 100%;
+    box-sizing: border-box;
     display: none;
-    padding-left: 25px;
+    /*padding-left: 25px;
     padding-right: 25px;
-    width: 400px;
+    width: 400px;*/
 }
 
   /* Icon rechts positionieren */
