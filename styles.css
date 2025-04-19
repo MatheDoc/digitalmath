@@ -253,10 +253,10 @@ footer {
     background-color: #be681d; /* Etwas dunkler als der Originalton */
 }
 .weiteres {
-    background-color: #496785;
+    background-color: rgb(29, 127, 247);
 }
 .weiteres:hover {
-    background-color: #415c77; /* Etwas dunkler als der Originalton */
+    background-color: rgba(19, 100, 198, 0.983); /* Etwas dunkler als der Originalton */
 }
 .finanzmathe {
     background-color: #eb5f50;
