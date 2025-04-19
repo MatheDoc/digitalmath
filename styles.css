@@ -61,8 +61,23 @@ h4  {
     padding-bottom: 0;
 }
 
+figure {
+    display: block;
+    width: fit-content;       /* So breit wie nötig */
+    margin: 0 auto;           /* horizontal zentriert */
+    text-align: right;        /* Caption innerhalb des Blocks rechtsbündig */
+  }
 
 
+
+figcaption {
+    font-size: 0.8em; /* Kleinere Schrift für die Unterschrift */
+    color: #7a7a7a; /* Graue Farbe für die Unterschrift */
+}
+  
+.script img{
+    all: unset;
+}
 .symbolleiste {
     font-size: 0.7em;
     border: 1px solid var(--hauptfarbe);
@@ -99,6 +114,25 @@ table{
     max-width: 99%;
 }
 
+.script th, .script td {
+    border: 1px solid #999;
+    padding: 0.5em 1em;
+    text-align: center;
+  }
+
+.script thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .script{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.script li{
+    padding: 5px;
+}
 .rowCheckbox{
     cursor: pointer;
 }

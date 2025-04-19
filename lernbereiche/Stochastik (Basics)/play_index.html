@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>HTML + externe Markdown‑Datei + MathJax</title>
+
+    <!-- Einbinden der externen CSS-Datei -->
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- 1. marked.js (Defer lädt nach HTML-Parsen) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+
+  <!-- 2. MathJax‑Konfiguration -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']]
+      },
+      startup: {
+        typeset: false,
+        ready: () => {
+          MathJax.startup.defaultReady();
+          document.dispatchEvent(new Event('mathjax-ready'));
+        }
+      }
+    };
+  </script>
+
+  <!-- 3. MathJax‑Core (Defer für richtige Reihenfolge) -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+
+
+</head>
+
+<body>
+  <div id="content" class="script">Lade Inhalt…</div>
+
+  <script>
+    // Pfad zur Markdown-Datei
+    const mdUrl = 'play_content.md';
+
+    // Promises für DOM- und MathJax‑Bereitschaft
+    const domReady = new Promise(res => document.addEventListener('DOMContentLoaded', res));
+    const mathjaxReady = new Promise(res => document.addEventListener('mathjax-ready', res));
+
+    Promise.all([domReady, mathjaxReady])
+      .then(() => fetch(mdUrl))
+      .then(response => {
+        if (!response.ok) throw new Error('Fehler beim Laden der MD-Datei');
+        return response.text();
+      })
+      .then(markdownText => {
+        const container = document.getElementById('content');
+        container.innerHTML = marked.parse(markdownText);
+        return MathJax.typesetPromise([container]);
+      })
+      .catch(err => {
+        document.getElementById('content').textContent = 'Fehler: ' + err.message;
+      });
+  </script>
+</body>
+</html>
