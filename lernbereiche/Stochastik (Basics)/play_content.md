@@ -162,7 +162,7 @@ $$
 
 
 <figure>
-  <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 500px">
+  <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 200px">
   <figcaption>KI-generiert mit ChatGPT</figcaption>
 </figure>
 
@@ -186,9 +186,15 @@ für alle Teilmenge $A$ und $B$ von $\Omega$.
 Beispiel: Aus $P(A)=0,3$ folgt $P(\overline{A})=1-0,3=0,7$.
 * Falls $A\cap B\neq\emptyset$, so ist im Allgemeinen $P(A\cap B)\neq P(A)+P(B)$.
 Man kann vielmehr zeigen, dass $P(A\cup B)=P(A)+P(B)-P(A\cap B)$ (Satz von Sylvester).
-Hieraus folgt, dass man, wenn drei der vier Wahrscheinlichkeiten $P(A)$,$P(B)$,$P(A\cap B)$ und $P(A\cup B)$ bekannt sind, die vierte berechnet werden kann.
+Hieraus folgt, dass man, wenn drei der vier Wahrscheinlichkeiten $P(A)$, $P(B)$, $P(A\cap B)$ und $P(A\cup B)$ bekannt sind, die vierte berechnet werden kann.
 Beispiel: Aus $P(A)=0,3$, $P(B)=0,4$ und $P(A\cap B)=0,2$ folgt $P(A\cup B)=0,3+0,4-0,2=0,5$.
 * Ausschließendes Oder: Die Wahrscheinlichkeit für entweder $A$ oder $B$ (aber nicht $A$ und $B$ gleichzeitig) ist $P(A\cup B)- P(A\cap B)=P(A\cap\overline{B})+P(\overline{A}\cap B)$.
 
 #### Venn-Diagramme
-Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1.
+Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1. Man erhält z.B.:
+|$P(B)$|$P(A\cap B)$|$P(\overline{A}\cap B)$|$P(A\cup B)$|$P(A\cup B)-P(A\cap B)$|
+|-|-|-|-|-|
+|<figure>  <img src="venn1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn2.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn3.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn4.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn5.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|
+
+
+

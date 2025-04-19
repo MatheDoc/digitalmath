@@ -16,12 +16,15 @@
         const feedbackElement = document.getElementById(`feedback${questionId}`);
         feedbackElement.innerHTML = correctAnswer;
         feedbackElement.style.color = "blue";
-        feedbackElement.style.opacity = 1;
+        feedbackElement.style.opacity = 1;  
+        MathJax.typesetPromise([feedbackElement]);
+        
         // Select2-Container ausblenden
         const select2Container = select.nextElementSibling; // Nächstes Geschwisterelement nach select
         if (select2Container && select2Container.classList.contains('select2')) {
             select2Container.style.display = "none";
         }
+
     });
 
     document.querySelectorAll('.check-icon').forEach(icon => {

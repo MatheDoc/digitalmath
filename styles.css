@@ -62,7 +62,7 @@ h4  {
 }
 
 figure {
-    display: block;
+    display: inline-block;
     width: fit-content;       /* So breit wie nötig */
     margin: 0 auto;           /* horizontal zentriert */
     text-align: right;        /* Caption innerhalb des Blocks rechtsbündig */
