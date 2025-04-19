@@ -7,23 +7,23 @@ Eine Menge ist eine Zusammenfassung von einzelnen Elementen.e
 
 ### Beispiele
 
-* Die Menge der besten Schulfächer: $ S=\\\\\{Mathe,Physik\\\\\} $
-* Die Menge der natürlichen Zahlen: $ N=\\\\\{1;2;3;…\\\\\} $
-* Die Menge der erfolgreichsten Fußballmannschaft: $ F=\\\\\{\text{FC Bayern München}\\\\\} $
-* Die Menge der Würfelergebnisse: $ W=\\\\\{1;2;3;4;5;6\\\\\} $
-* Die Menge der Ergebnisse eines Münzwurfs: $ M=\\\\\{K;Z\\\\\} $
+* Die Menge der besten Schulfächer: $ S=\\{Mathe,Physik\\} $
+* Die Menge der natürlichen Zahlen: $ N=\\{1;2;3;…\\} $
+* Die Menge der erfolgreichsten Fußballmannschaft: $ F=\\{\text{FC Bayern München}\\} $
+* Die Menge der Würfelergebnisse: $ W=\\{1;2;3;4;5;6\\} $
+* Die Menge der Ergebnisse eines Münzwurfs: $ M=\\{K;Z\\} $
 
 ### Grundbegriffe
 
 * Die Elemente einer Menge werden häufig geeignet abgekürzt.  
-* Die Elemente einer Menge werden immer in geschweiften Klammern $\\\\\{…\\\\\}$ angegeben.  
+* Die Elemente einer Menge werden immer in geschweiften Klammern $\\{…\\}$ angegeben.  
 * Die leere Menge enthält keine Elemente und wird mit $\emptyset$ bezeichnet.  
 * Liegen alle Elemente einer Menge $A$ auch in einer Menge $X$, so ist $A$ eine Teilmenge von $X$. Man schreibt auch $A \subset X$.  
-* Beispiel: Die Menge $X = \\\\\{1,3,4,6,8\\\\\}$ hat die Teilmenge $A = \\\\\{3,6\\\\\}$.  
-* Beispiel: Die Menge einer Spielgruppe von Kindern ist $X = \\\\\{\text{Tobias}, \text{Jessica}, \text{Achmed}, \text{Lydia}\\\\\}$. Dann ist die Teilmenge der Mädchen $A = \\\\\{\text{Jessica}, \text{Lydia}\\\\\}$.  
+* Beispiel: Die Menge $X = \\{1,3,4,6,8\\}$ hat die Teilmenge $A = \\{3,6\\}$.  
+* Beispiel: Die Menge einer Spielgruppe von Kindern ist $X = \\{\text{Tobias}, \text{Jessica}, \text{Achmed}, \text{Lydia}\\}$. Dann ist die Teilmenge der Mädchen $A = \\{\text{Jessica}, \text{Lydia}\\}$.  
 * Ist $A$ eine Teilmenge von $X$, so bilden alle Elemente von $X$, die nicht in $A$ liegen, das Komplement von $A$. Das Komplement von $A$ wird mit $\overline{A}$ bezeichnet.  
-* Beispiel: Für $X = \\\\\{1,3,4,6,8\\\\\}$ und der Teilmenge $A = \\\\\{3,6\\\\\}$ ist das Komplement $\overline{A} = \\\\\{1;4;8\\\\\}$.  
-* Beispiel: Für $X = \\\\\{\text{Tobias}, \text{Jessica}, \text{Achmed}, \text{Lydia}\\\\\}$ und der Teilmenge der Mädchen $A = \\\\\{\text{Jessica}, \text{Lydia}\\\\\}$ ist das Komplement die Teilmenge der Jungen $\overline{A} = \\\\\{\text{Tobias};\text{Achmed}\\\\\}$.  
+* Beispiel: Für $X = \\{1,3,4,6,8\\}$ und der Teilmenge $A = \\{3,6\\}$ ist das Komplement $\overline{A} = \\{1;4;8\\}$.  
+* Beispiel: Für $X = \\{\text{Tobias}, \text{Jessica}, \text{Achmed}, \text{Lydia}\\}$ und der Teilmenge der Mädchen $A = \\{\text{Jessica}, \text{Lydia}\\}$ ist das Komplement die Teilmenge der Jungen $\overline{A} = \\{\text{Tobias};\text{Achmed}\\}$.  
 
 ## Mengeoperationen
 
@@ -31,7 +31,7 @@ Sind $A$ und $B$ Teilmengen einer Menge $X$, so entstehen durch Vereinigungen, D
 
 ### Beispiele
 
-Es sei $ X=\\\\\{1;2;3;4;5;6\\\\\} $.
+Es sei $ X=\\{1;2;3;4;5;6\\} $.
 
 | Textuelle Beschreibung                                   | Symbol        | Operation                  | Mengenschreibweise             |
 |----------------------------------------------------------|---------------|-----------------------------|--------------------------------|
@@ -98,7 +98,7 @@ In der Stochastik treffen wir Aussagen über (vermeintlich) zufällige Ausgänge
 
 ## WAHRSCHEINLICHKEITEN
 
-Eine Wahrscheinlichkeitsfunktion – oder einfacher: „die Wahrscheinlichkeiten“ – eines Zufallsexperiments, ordnet jedem Ereignis des Zufallsexperiments eine Zahl zwischen 0 und 1 zu.
+Eine Wahrscheinlichkeitsverteilung $P$ eines Zufallsexperiments, ordnet jedem Ereignis des Zufallsexperiments eine Zahl zwischen 0 und 1 zu.
 
 ### BEISPIELE
 
@@ -167,3 +167,28 @@ $$
 </figure>
 
 
+### Wahrscheinlichkeiten - Weitere Betrachtungen
+
+#### Axiome von Kolmogorov
+Eine solide mathematische Fundierung der Stochastik wurde erst in den 1930er Jahren von Andrej Nikolajewitsch Kolmogorov (1903-1987) entwickelt. Kolmogorov formulierte die folgenden Grundsätze (Axiome), aus denen sich dann weitere Rechenregeln folgern lassen.
+Betrachtet wird ein Zufallsexperiment mit Ergebnismenge $\Omega$ und Ereignissen $A$ und $B$. Eine Wahrscheinlichkeitsverteilung $P$ ordnet jeder Teilmenge von $\Omega$, also jedem Ereignis, eine reelle Zahl zu, so dass gilt:
+* $P(A)\geq 0$
+* $P(\Omega)=1$
+* $P(A\cup B)=P(A)+P(B)$, falls $A\cap B=\emptyset$,
+
+für alle Teilmenge $A$ und $B$ von $\Omega$.
+
+#### Folgerungen
+
+* $P(\emptyset)=0$
+* Alle Wahrscheinlichkeiten liegen immer zwischen einschließlich 0 und einschließlich 1.
+* Für die Wahrscheinlichkeit des Gegenereignisses von Ereignis $A$ gilt $P(\overline{A})=1-P(A)$.
+Beispiel: Aus $P(A)=0,3$ folgt $P(\overline{A})=1-0,3=0,7$.
+* Falls $A\cap B\neq\emptyset$, so ist im Allgemeinen $P(A\cap B)\neq P(A)+P(B)$.
+Man kann vielmehr zeigen, dass $P(A\cup B)=P(A)+P(B)-P(A\cap B)$ (Satz von Sylvester).
+Hieraus folgt, dass man, wenn drei der vier Wahrscheinlichkeiten $P(A)$,$P(B)$,$P(A\cap B)$ und $P(A\cup B)$ bekannt sind, die vierte berechnet werden kann.
+Beispiel: Aus $P(A)=0,3$, $P(B)=0,4$ und $P(A\cap B)=0,2$ folgt $P(A\cup B)=0,3+0,4-0,2=0,5$.
+* Ausschließendes Oder: Die Wahrscheinlichkeit für entweder $A$ oder $B$ (aber nicht $A$ und $B$ gleichzeitig) ist $P(A\cup B)- P(A\cap B)=P(A\cap\overline{B})+P(\overline{A}\cap B)$.
+
+#### Venn-Diagramme
+Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1.
