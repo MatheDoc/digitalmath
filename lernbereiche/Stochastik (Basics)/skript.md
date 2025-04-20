@@ -214,3 +214,8 @@ Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sic
   <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 200px">
   <figcaption>KI-generiert mit ChatGPT</figcaption>
 </figure>
+
+<figure>
+  <img src="venn1.png" style="width: 200px">
+  <figcaption>KI-generiert mit ChatGPT</figcaption>
+</figure>
