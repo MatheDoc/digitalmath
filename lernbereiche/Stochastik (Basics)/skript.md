@@ -7,9 +7,9 @@ Eine Menge ist eine Zusammenfassung von einzelnen Elementen.
 
 ### Beispiele
 
-* Die Menge der besten Schulfächer: $ S=\\{Mathe,Physik\\} $
+* Die Menge der besten Schulfächer: $ S=\\{Mathe;Physik\\} $
 * Die Menge der natürlichen Zahlen: $ N=\\{1;2;3;…\\} $
-* Die Menge der erfolgreichsten Fußballmannschaft: $ F=\\{\text{FC Bayern München}\\} $
+* Die Menge der beliebtesten Fußballmannschaften: $ F=\\{\text{FC Bayern München}\\} $
 * Die Menge der Würfelergebnisse: $ W=\\{1;2;3;4;5;6\\} $
 * Die Menge der Ergebnisse eines Münzwurfs: $ M=\\{K;Z\\} $
 
@@ -19,11 +19,11 @@ Eine Menge ist eine Zusammenfassung von einzelnen Elementen.
 * Die Elemente einer Menge werden immer in geschweiften Klammern $\\{…\\}$ angegeben.  
 * Die leere Menge enthält keine Elemente und wird mit $\emptyset$ bezeichnet.  
 * Liegen alle Elemente einer Menge $A$ auch in einer Menge $X$, so ist $A$ eine Teilmenge von $X$. Man schreibt auch $A \subset X$.  
-* Beispiel: Die Menge $X = \\{1,3,4,6,8\\}$ hat die Teilmenge $A = \\{3,6\\}$.  
-* Beispiel: Die Menge einer Spielgruppe von Kindern ist $X = \\{\text{Tobias}, \text{Jessica}, \text{Achmed}, \text{Lydia}\\}$. Dann ist die Teilmenge der Mädchen $A = \\{\text{Jessica}, \text{Lydia}\\}$.  
+* Beispiel: Die Menge $X = \\{1;3;4;6;8\\}$ hat die Teilmenge $A = \\{3;6\\}$.  
+* Beispiel: Die Menge einer Spielgruppe von Kindern ist $X = \\{\text{Tobias}; \text{Jessica}; \text{Achmed}; \text{Lydia}\\}$. Dann ist die Teilmenge der Mädchen $A = \\{\text{Jessica}; \text{Lydia}\\}$.  
 * Ist $A$ eine Teilmenge von $X$, so bilden alle Elemente von $X$, die nicht in $A$ liegen, das Komplement von $A$. Das Komplement von $A$ wird mit $\overline{A}$ bezeichnet.  
-* Beispiel: Für $X = \\{1,3,4,6,8\\}$ und der Teilmenge $A = \\{3,6\\}$ ist das Komplement $\overline{A} = \\{1;4;8\\}$.  
-* Beispiel: Für $X = \\{\text{Tobias}, \text{Jessica}, \text{Achmed}, \text{Lydia}\\}$ und der Teilmenge der Mädchen $A = \\{\text{Jessica}, \text{Lydia}\\}$ ist das Komplement die Teilmenge der Jungen $\overline{A} = \\{\text{Tobias};\text{Achmed}\\}$.  
+* Beispiel: Für $X = \\{1;3;4;6;8\\}$ und der Teilmenge $A = \\{3;6\\}$ ist das Komplement $\overline{A} = \\{1;4;8\\}$.  
+* Beispiel: Für $X = \\{\text{Tobias}; \text{Jessica}; \text{Achmed}; \text{Lydia}\\}$ und der Teilmenge der Mädchen $A = \\{\text{Jessica}; \text{Lydia}\\}$ ist das Komplement die Teilmenge der Jungen $\overline{A} = \\{\text{Tobias};\text{Achmed}\\}$.  
 
 ## Mengeoperationen
 
@@ -35,12 +35,12 @@ Es sei $ X=\\{1;2;3;4;5;6\\} $.
 
 | Textuelle Beschreibung                                   | Symbol        | Operation                  | Mengenschreibweise             |
 |----------------------------------------------------------|---------------|-----------------------------|--------------------------------|
-| Die Zahl ist durch 2 teilbar.                            | $A$           |                             | $\\\\{2;4;6\\\\}$                     |
-| Die Zahl ist durch 3 teilbar.                            | $B$           |                             | $\\\\{3;6\\\\}$                       |
-| Die Zahl ist durch 2 oder 3 teilbar.                     | $A \cup B$    | Vereinigung von $A$ und $B$ | $\\\\{2;3;4;6\\\\}$                   |
-| Die Zahl ist durch 2 und 3 teilbar.                      | $A \cap B$    | Durchschnitt von $A$ und $B$| $\\\\{6\\\\}$                         |
-| Die Zahl ist **nicht** durch 2 teilbar.                  | $\overline{A}$| Komplement von $A$         | $\\\\{1;3;5\\\\}$                     |
-| Die Zahl ist **nicht** durch 3 teilbar.                  | $\overline{B}$| Komplement von $B$         | $\\\\{1;2;4;5\\\\}$                   |
+| Die Zahl ist durch 2 teilbar.                            | $A$           |                             | $\\{2;4;6\\}$                     |
+| Die Zahl ist durch 3 teilbar.                            | $B$           |                             | $\\{3;6\\}$                       |
+| Die Zahl ist durch 2 oder 3 teilbar.                     | $A \cup B$    | Vereinigung von $A$ und $B$ | $\\{2;3;4;6\\}$                   |
+| Die Zahl ist durch 2 und 3 teilbar.                      | $A \cap B$    | Durchschnitt von $A$ und $B$| $\\{6\\}$                         |
+| Die Zahl ist **nicht** durch 2 teilbar.                  | $\overline{A}$| Komplement von $A$         | $\\{1;3;5\\}$                     |
+| Die Zahl ist **nicht** durch 3 teilbar.                  | $\overline{B}$| Komplement von $B$         | $\\{1;2;4;5\\}$                   |
 
 ### Rechenregeln
 
@@ -74,26 +74,26 @@ In der Stochastik treffen wir Aussagen über (vermeintlich) zufällige Ausgänge
 
 #### EINMALIGER WÜRFELWURF
 
-* Ergebnisse: $\\\{1\\\}, \\\{2\\\}, \\\{3\\\}, \\\{4\\\}, \\\{5\\\}, \\\{6\\\}$
-* Ergebnismenge: $S = \\\{1; 2; 3; 4; 5; 6\\\}$
-* (z. B.) Ereignis $A$: Es wird eine Zahl größer als 4 geworfen. → $A = \\\{5; 6\\\}$
-* Gegenereignis $\overline{A}$: Es wird eine Zahl kleiner als 5 geworfen. → $\overline{A} = \\\{1; 2; 3; 4\\\}$
+* Ergebnisse: $\\{1\\}, \\{2\\}, \\{3\\}, \\{4\\}, \\{5\\}, \\{6\\}$
+* Ergebnismenge: $S = \\{1; 2; 3; 4; 5; 6\\}$
+* (z. B.) Ereignis $A$: Es wird eine Zahl größer als 4 geworfen. → $A = \\{5; 6\\}$
+* Gegenereignis $\overline{A}$: Es wird eine Zahl kleiner als 5 geworfen. → $\overline{A} = \\{1; 2; 3; 4\\}$
 
 
 #### ZWEIMALIGER MÜNZWURF MIT BEACHTUNG DER REIHENFOLGE
 
-* Ergebnisse: $\\\{KK\\\}, \\\{KZ\\\}, \\\{ZK\\\}, \\\{ZZ\\\}$
-* Ergebnismenge: $S = \\\{KK; KZ; ZK; ZZ\\\}$
-* (z. B.) Ereignis $B$: Es wird das Gleiche geworfen. → $B = \\\{KK; ZZ\\\}$
-* Gegenereignis $\overline{B}$: Es wird etwas Unterschiedliches geworfen. → $\overline{B} = \\\{KZ; ZK\\\}$
+* Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZK\\}, \\{ZZ\\}$
+* Ergebnismenge: $S = \\{KK; KZ; ZK; ZZ\\}$
+* (z. B.) Ereignis $B$: Es wird das Gleiche geworfen. → $B = \\{KK; ZZ\\}$
+* Gegenereignis $\overline{B}$: Es wird etwas Unterschiedliches geworfen. → $\overline{B} = \\{KZ; ZK\\}$
 
 
 #### ZWEIMALIGER MÜNZWURF OHNE BEACHTUNG DER REIHENFOLGE
 
-* Ergebnisse: $\\\{KK\\\}, \\\{KZ\\\}, \\\{ZZ\\\}$
-* Ergebnismenge: $S = \\\{KK; KZ; ZZ\\\}$
-* (z. B.) Ereignis $C$: Es wird mindestens einmal Kopf geworfen. → $C = \\\{KK; KZ\\\}$
-* Gegenereignis $\overline{C}$: Es wird niemals Kopf geworfen. → $\overline{C} = \\\{ZZ\\\}$
+* Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZZ\\}$
+* Ergebnismenge: $S = \\{KK; KZ; ZZ\\}$
+* (z. B.) Ereignis $C$: Es wird mindestens einmal Kopf geworfen. → $C = \\{KK; KZ\\}$
+* Gegenereignis $\overline{C}$: Es wird niemals Kopf geworfen. → $\overline{C} = \\{ZZ\\}$
 
 
 ## WAHRSCHEINLICHKEITEN
