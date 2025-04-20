@@ -92,8 +92,8 @@ In der Stochastik treffen wir Aussagen über (vermeintlich) zufällige Ausgänge
 
 * Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZZ\\}$
 * Ergebnismenge: $S = \\{KK; KZ; ZZ\\}$
-* (z. B.) Ereignis $C$: Es wird mindestens einmal Kopf geworfen. → $C = \\{KK; KZ\\}$
-* Gegenereignis $\overline{C}$: Es wird niemals Kopf geworfen. → $\overline{C} = \\{ZZ\\}$
+* (z. B.) Ereignis $C$: Es wird mindestens einmal Kopf geworfen. $\Rightarrow$ $C = \\{KK; KZ\\}$
+* Gegenereignis $\overline{C}$: Es wird niemals Kopf geworfen. $\Rightarrow$ $\overline{C} = \\{ZZ\\}$
 
 
 ## WAHRSCHEINLICHKEITEN
@@ -104,21 +104,21 @@ Eine Wahrscheinlichkeitsverteilung $P$ eines Zufallsexperiments, ordnet jedem Er
 
 #### EINMALIGER WÜRFELWURF
 
-* $P(\\{1\\}) = \frac{1}{6}, \quad P(\\{2\\}) = \frac{1}{6}, \quad P(\\{3\\}) = \frac{1}{6}, \quad P(\\{4\\}) = \frac{1}{6}, \quad P(\\{5\\}) = \frac{1}{6}, \quad P(\\{6\\}) = \frac{1}{6}$
-* $A = \\{5; 6\\} \quad \Rightarrow \quad P(A) = \frac{2}{6} = \frac{1}{3}$
-* $\overline{A} = \\{1; 2; 3; 4\\} \quad \Rightarrow \quad P(\overline{A}) = \frac{4}{6} = \frac{2}{3}$
+* $P(\\{1\\}) = \frac{1}{6},\   P(\\{2\\}) = \frac{1}{6},\   P(\\{3\\}) = \frac{1}{6},\   P(\\{4\\}) = \frac{1}{6},\   P(\\{5\\}) = \frac{1}{6},\   P(\\{6\\}) = \frac{1}{6}$
+* $A = \\{5; 6\\}   \Rightarrow   P(A) = \frac{2}{6} = \frac{1}{3}$
+* $\overline{A} = \\{1; 2; 3; 4\\}   \Rightarrow   P(\overline{A}) = \frac{4}{6} = \frac{2}{3}$
 
 #### ZWEIMALIGER MÜNZWURF MIT BEACHTUNG DER REIHENFOLGE
 
-* $P(\\{KK\\}) = 0{,}25, \quad P(\\{KZ\\}) = 0{,}25, \quad P(\\{ZK\\}) = 0{,}25, \quad P(\\{ZZ\\}) = 0{,}25$
-* $B = \\{KK; ZZ\\} \quad \Rightarrow \quad P(B) = 0{,}5$
-* $\overline{B} = \\{KZ; ZK\\} \quad \Rightarrow \quad P(\overline{B}) = 0{,}5$
+* $P(\\{KK\\}) = 0{,}25,\   P(\\{KZ\\}) = 0{,}25,\   P(\\{ZK\\}) = 0{,}25,\   P(\\{ZZ\\}) = 0{,}25$
+* $B = \\{KK; ZZ\\}  \Rightarrow  P(B) = 0{,}5$
+* $\overline{B} = \\{KZ; ZK\\}  \Rightarrow  P(\overline{B}) = 0{,}5$
 
 #### ZWEIMALIGER MÜNZWURF OHNE BEACHTUNG DER REIHENFOLGE
 
-* $P(\\{KK\\}) = 0{,}25, \quad P(\\{KZ\\}) = 0{,}5, \quad P(\\{ZZ\\}) = 0{,}25$
-* $C = \\{KK; KZ\\} \quad \Rightarrow \quad P(C) = 0{,}75$
-* $\overline{C} = \\{ZZ\\} \quad \Rightarrow \quad P(\overline{C}) = 0{,}25$
+* $P(\\{KK\\}) = 0{,}25,\   P(\\{KZ\\}) = 0{,}5,\   P(\\{ZZ\\}) = 0{,}25$
+* $C = \\{KK; KZ\\}   \Rightarrow   P(C) = 0{,}75$
+* $\overline{C} = \\{ZZ\\}   \Rightarrow   P(\overline{C}) = 0{,}25$
 
 ### WAHRSCHEINLICHKEITEN – EINFACHE BERECHNUNGSMETHODEN
 
@@ -146,7 +146,7 @@ $$
 
 #### BEISPIEL 1
 
-Würfelwurf: Es sei $ A $ das Ereignis „Es wird eine Primzahl geworfen.“ → $ A = \\{2; 3; 5\\} $
+Würfelwurf: Es sei $ A $ das Ereignis „Es wird eine Primzahl geworfen.“  $\Rightarrow A = \\{2; 3; 5\\} $
 Dann gilt:
 $$
 P(A) = \frac{3}{6} = \frac{1}{2}
