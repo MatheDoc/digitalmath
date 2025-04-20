@@ -22,7 +22,7 @@ Promise.all([domReady, mathjaxReady])
     const container = document.getElementById('content');
     container.innerHTML = marked.parse(markdownText);
 
-    // Alle Bilder nachträglich anpassen
+    // Pfade der lokalen Bilder nachträglich anpassen
     const bilder = container.querySelectorAll('img');
     bilder.forEach(img => {
         const originalSrc = img.getAttribute('src');
