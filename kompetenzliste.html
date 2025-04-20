@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <style>
+        html {
+          display: none;
+        }
+      </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Entdecke Übungen zu allen Themen der Mathematik: interaktiv und kostenlos; online, als Moodle-XML oder als PDF zum Download.">
@@ -9,6 +14,9 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <title>MatheChecks</title>
+
+
+      
 
     <!-- Einbinden der externen CSS-Datei -->
     <link rel="stylesheet" href="styles.css"> 
@@ -22,6 +30,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
     
     <!-- Eigene JS-Dateien-->
+
+      
+    <script>
+        (function() {
+          const urlParams = new URLSearchParams(window.location.search);
+          if (urlParams.get('listonly')) {
+            document.documentElement.classList.add('listonly'); // für html-Element (falls nötig)
+            document.body.classList.add('listonly');
+          }
+        })();
+      </script>
+      
     <script src="js/tableMain.js"></script>
     <script src="js/tableInit.js"></script>
     <script src="js/tableButtons.js"></script>

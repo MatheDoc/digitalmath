@@ -50,21 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error("Fehler beim Laden:", err);
     });
 
-  // Kompetenzliste
-  /*const kompetenzlistePfad = `lernbereiche/${thema}/ich-kann-liste.html`;
-  const div = document.getElementById('kompetenzliste')
-  fetch(kompetenzlistePfad)
-    .then(res => res.text())
-    .then(html => {
-      div.innerHTML = html;
-    })
-  .catch(err => {
-    console.error("Fehler beim Laden der Kompetenzliste:", err);
-  });*/
-
-
-
 });
+
 
 function toggleInhalt(linkElement, dateiname) {
   const thema = new URLSearchParams(window.location.search).get('thema');
@@ -115,7 +102,8 @@ function toggleInhalt(linkElement, dateiname) {
     });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+
+/*document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const thema = params.get('thema');
   if (!thema) return;
@@ -137,3 +125,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+*/
