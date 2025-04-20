@@ -199,4 +199,6 @@ Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sic
 |-|-|-|-|-|
 |<figure>  <img src="venn1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn2.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn3.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn4.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn5.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|
 
+<figure>  <img src="venn1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption>
+
 
