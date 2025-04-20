@@ -50,7 +50,17 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error("Fehler beim Laden:", err);
     });
 
-
+  // Kompetenzliste
+  /*const kompetenzlistePfad = `lernbereiche/${thema}/ich-kann-liste.html`;
+  const div = document.getElementById('kompetenzliste')
+  fetch(kompetenzlistePfad)
+    .then(res => res.text())
+    .then(html => {
+      div.innerHTML = html;
+    })
+  .catch(err => {
+    console.error("Fehler beim Laden der Kompetenzliste:", err);
+  });*/
 
 
 
@@ -104,4 +114,41 @@ function toggleInhalt(linkElement, dateiname) {
       console.error(err);
     });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const thema = params.get('thema');
+  if (!thema) return;
+
+  // Link zur Kompetenzliste aus Datei laden
+  const configPfad = `lernbereiche/${thema}/ich-kann-liste.txt`;
+
+  fetch(configPfad)
+    .then(res => {
+      if (!res.ok) throw new Error("Datei nicht gefunden");
+      return res.text();
+    })
+    .then(url => {
+      const iframe = document.getElementById("kompetenzliste-frame");
+      iframe.src = url.trim(); // Leerzeichen/Zeilenumbrüche entfernen
+
+      // Sobald das iframe geladen wurde, h1 und h2 ausblenden
+      iframe.onload = () => {
+        try {
+          const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+          const h1 = iframeDocument.querySelector('h1');
+          const h2 = iframeDocument.querySelector('h2');
+          
+          if (h1) h1.style.display = 'none';  // H1 ausblenden
+          if (h2) h2.style.display = 'none';  // H2 ausblenden
+        } catch (error) {
+          console.error("Fehler beim Zugriff auf das iframe-Dokument:", error);
+        }
+      };
+
+    })
+    .catch(err => {
+      console.error("Fehler beim Laden der Kompetenz-URL:", err);
+    });
+});
 
