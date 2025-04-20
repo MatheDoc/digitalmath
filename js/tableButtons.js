@@ -17,6 +17,12 @@ function addButtons(){
         if (data[7] === ''){
             infoButton = ' '
         }
+        // xml-button ausblenden wenn listonly
+        const urlParams = new URLSearchParams(window.location.search);
+        const listonly = urlParams.get('listonly');
+        if (listonly){
+            xmlButton = ' '
+        }
         table.cell(rowIdx, 5).data(ichKannText + ' ' + infoButton + ' ' + xmlButton + ' ' + testButton);
     });
 

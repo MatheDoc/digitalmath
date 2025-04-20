@@ -175,6 +175,19 @@ function initializeTable() {
     }
     checkConfigParameter();
 
+    // Überprüfen, ob listonly=true
+    const urlParams = new URLSearchParams(window.location.search);
+    const listonly = urlParams.get('listonly');
+    if (listonly){
+        document.querySelector('h1').style.display = 'none';
+        document.querySelector('h2').style.display = 'none';
+        // Erste Spalte der Tabelle ausblenden
+        $('#meineTabelle tr').each(function() {
+            $(this).find('td:first, th:first').css('display', 'none'); // Die erste Spalte ausblenden
+        });
+        
+    }
+
     // Funktion zum Anpassen der Suchleiste
     function adjustSearchFilter() {
         // Verschiebt das Filter-Div in den gewünschten Container
