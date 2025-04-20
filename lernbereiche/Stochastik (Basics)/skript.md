@@ -3,7 +3,7 @@
 In der Stochastik beschäftigen wir mit der Berechnung von Wahrscheinlichkeiten. Um diese präzise und eindeutig zu beschreiben, verwenden wir die Sprache der Mengenlehre.
 
 ### Definition
-Eine Menge ist eine Zusammenfassung von einzelnen Elementen.e
+Eine Menge ist eine Zusammenfassung von einzelnen Elementen.
 
 ### Beispiele
 
@@ -192,7 +192,11 @@ Beispiel: Aus $P(A)=0,3$, $P(B)=0,4$ und $P(A\cap B)=0,2$ folgt $P(A\cup B)=0,3+
 Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1. Man erhält z.B.:
 |$P(B)$|$P(A\cap B)$|$P(\overline{A}\cap B)$|$P(A\cup B)$|$P(A\cup B)-P(A\cap B)$|
 |-|-|-|-|-|
-|<figure>  <img src="venn1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn2.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn3.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn4.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn5.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|
+|<img src="venn1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption>|<figure>  <img src="venn2.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn3.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn4.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn5.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|
 
+
+|$P(B)$|$P(A\cap B)$|$P(\overline{A}\cap B)$|$P(A\cup B)$|$P(A\cup B)-P(A\cap B)$|
+|-|-|-|-|-|
+|<figure>  <img src="venn1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn2.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn3.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn4.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="venn5.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|
 
 
