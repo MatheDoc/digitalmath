@@ -662,15 +662,7 @@ iframe {
     display: block;
   }
 
-  body.listonly h1,
-  body.listonly h2 {
-    display: none !important;
-  }
 
-  body.listonly #meineTabelle td:first-child,
-  body.listonly #meineTabelle th:first-child {
-    display: none !important;
-  }
 
   
 
