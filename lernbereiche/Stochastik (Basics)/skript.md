@@ -25,6 +25,20 @@ Eine Menge ist eine Zusammenfassung von einzelnen Elementen.
 * Beispiel: Für $X = \\{1;3;4;6;8\\}$ und der Teilmenge $A = \\{3;6\\}$ ist das Komplement $\overline{A} = \\{1;4;8\\}$.  
 * Beispiel: Für $X = \\{\text{Tobias}; \text{Jessica}; \text{Achmed}; \text{Lydia}\\}$ und der Teilmenge der Mädchen $A = \\{\text{Jessica}; \text{Lydia}\\}$ ist das Komplement die Teilmenge der Jungen $\overline{A} = \\{\text{Tobias};\text{Achmed}\\}$.  
 
+### Exkurs: Das Russellsche Paradoxon
+
+Der Mengenbegriff erscheint zunächst klar und einfach: Eine Menge ist eine Zusammenfassung von verschiedenen Objekten. Doch wenn man genauer hinschaut, können Widersprüche auftreten.
+Ein bekanntes Beispiel ist das Russellsche Paradoxon:
+
+Wir betrachten die Menge $M$, die alle Mengen enthält, die sich nicht selbst enthalten.
+Nun stellt man die Frage: Enthält $M$ sich selbst?
+* Wenn ja, dann dürfte sie sich nicht enthalten (denn sie enthält ja nur Mengen, die sich nicht selbst enthalten).
+* Wenn nein, dann müsste sie sich enthalten (denn sie erfüllt ja die Bedingung, sich nicht selbst zu enthalten).
+
+Beides führt zu einem Widerspruch.
+Dieses Paradoxon zeigt, dass der naive Mengenbegriff überarbeitet werden muss. Deshalb arbeiten Mathematiker heute mit exakteren, axiomatischen Grundlagen der Mengenlehre.
+
+
 ## Mengeoperationen
 
 Sind $A$ und $B$ Teilmengen einer Menge $X$, so entstehen durch Vereinigungen, Durchschnitte und Komplemente neue Teilmengen.
@@ -41,6 +55,8 @@ Es sei $ X=\\{1;2;3;4;5;6\\} $.
 | Die Zahl ist durch 2 und 3 teilbar.                      | $A \cap B$    | Durchschnitt von $A$ und $B$| $\\{6\\}$                         |
 | Die Zahl ist **nicht** durch 2 teilbar.                  | $\overline{A}$| Komplement von $A$         | $\\{1;3;5\\}$                     |
 | Die Zahl ist **nicht** durch 3 teilbar.                  | $\overline{B}$| Komplement von $B$         | $\\{1;2;4;5\\}$                   |
+
+Elemente werden nicht dopellt aufgeführt. Für die Vereinigung von $A=\\{2;4;6\\}$ und $B=\\{3;6\\}$ schreibt man $\\{2;3;4;6\\}$ und nicht $\\{2;3;4;6;6\\}$ (obwohl es formal nicht verkehrt wäre).
 
 ### Rechenregeln
 
