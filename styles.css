@@ -1,5 +1,5 @@
 :root {
-    --hauptfarbe: #156082; /*bisher: #004080;*/
+    --hauptfarbe: #156082;
     --hauptfarbe-hover: #1d7ca6;
     --textfarbe: #333;
     --hintergrundfarbe: #f8f8f8;
@@ -10,12 +10,16 @@
     box-sizing: border-box;
 }
 
-header {
+.web-header {
     position: sticky;
     top: 0;
     z-index: 1000;
     width: 100%;
     background-color: var(--hintergrundfarbe);
+}
+
+.pdf-header {
+    display: none;
 }
 
 body {
@@ -75,9 +79,8 @@ figcaption {
     color: #7a7a7a; /* Graue Farbe für die Unterschrift */
 }
   
-.script img{
-    all: unset;
-}
+
+
 .symbolleiste {
     font-size: 0.7em;
     border: 1px solid var(--hauptfarbe);
@@ -114,6 +117,10 @@ table{
     max-width: 99%;
 }
 
+.script img{
+    all: unset;
+}
+
 .script th, .script td {
     border: 1px solid #999;
     padding: 0.5em 1em;
@@ -125,7 +132,7 @@ table{
     font-weight: bold;
   }
 
-  .script{
+.script{
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -133,6 +140,7 @@ table{
 .script li{
     padding: 5px;
 }
+
 .rowCheckbox{
     cursor: pointer;
 }
@@ -733,41 +741,69 @@ li {
 
 @media print {
 
+    /*@page {
+        margin-top: 0px
+    }*/
+
+    .web-header {
+        display: none; 
+      }
+
+    .pdf-header{
+        top: 0;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10pt;
+        width: 100%;
+        height: 5cm;
+    } 
+
+    h1, h2, h3, h4 {
+        border-bottom: #000000 solid;
+        color: black;
+        page-break-after: avoid;
+    }
+
+    .script {
+        margin: 2cm;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        color: black !important;
+    }
+
+    body{
+        margin-top: 8cm;
+    }
+    
+  /* Tabellen anpassen */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+    nav, footer, .symbolleiste, .navi, .info-text, .overlay, .icon, .mail-icon, .test-icon {
+        display: none !important;
+      }
+
+    /*Lernbereich*/
+
     .box:hover {
         transform: scale(1);
     }
     
+    /*Quiz*/
     .aufgabe {
         page-break-after: always; /* Nach jeder Aufgabe ein Seitenumbruch */
     }
     .aufgabe:last-child {
         page-break-after: auto; /* Kein Umbruch nach der letzten Aufgabe */
     }
-        
-    @page {
-        margin: 0; /* Setzt die Seitenränder auf 0, um Kopf und Fußzeilen mit Meta-Info zu vermeiden */
-    }
-
-
-    body {
-        padding: 2cm;
-        padding-left: 3cm;
-        padding-right: 3cm;
-        width: 21cm; /* A4-Breite */
-        height: 29.7cm; /* A4-Höhe */
-        color: black;
-        font-size: 1.3em;
-    }
-
-    .einleitung {
-        max-width: 100%;
-        background-color: transparent;
-        border: 0px;
-        box-shadow: none;
-        margin: 0px;
-        padding: 0px;
-    }
-
     ol,  ul {
         max-width: 100%;
         background-color: transparent;
@@ -784,23 +820,7 @@ li {
     img {
         max-width: 50%;
     }
-    .header{
-        display: none;
-    }
-    
-    h3{
-        background-color: transparent;
-        border: 1px solid black;
-        padding: 10px;
-        border-radius: 8px;
-        box-shadow: none;
-        margin-bottom: 20px;
-        max-width: 100%;
-        font-size: 1em;
-    }
-    h4{
-        margin-top: 70px;
-    }
+   
     
     li .check-icon{
         display: none !important;
@@ -809,10 +829,14 @@ li {
         display: none !important;
     }
 
-    /*.frage{
-        display: inline-block;
-        margin-bottom: 20px;
-    }*/
+    .einleitung {
+        max-width: 100%;
+        background-color: transparent;
+        border: 0px;
+        box-shadow: none;
+        margin: 0px;
+        padding: 0px;
+    }
 
     input[type="text"]{
         visibility: hidden; /* Versteckt das Element, ohne den Platz zu entfernen */
@@ -821,17 +845,13 @@ li {
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    /*.select2-container {
-        display: none !important;
-    }*/
+
     .select2-container  {
         visibility: hidden !important;;
         min-width: 0px !important;
         width: 40px !important;
     }
-    /*.antwort{
-        display: none;
-    }*/
+
 }
 
 
