@@ -219,6 +219,6 @@ Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sic
 </figure>
 
 <figure>
-  <img src="venn1.png" style="width: 200px">
+  <img src="v1.png" style="width: 200px">
   <figcaption>Eigene Darstellung</figcaption>
 </figure>
