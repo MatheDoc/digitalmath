@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown zu PDF</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.10/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .pdf-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+      font-size: 14pt;
+      font-weight: bold;
+      z-index: 100;
+    }
+
+    .content {
+      margin-top: 50px; /* Platz für Kopfzeile schaffen */
+    }
+
+    /* Druckeinstellungen */
+    @media print {
+      .pdf-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+        font-size: 14pt;
+        font-weight: bold;
+        width: 100%;
+      }
+
+      .content {
+        margin-top: 80px; /* Platz für Kopfzeile im Druck */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="pdf-header">
+    Dies ist die Kopfzeile, die auf jeder Seite wiederholt wird
+  </div>
+
+  <div class="content" id="markdown-content">
+    <!-- Der Markdown-Inhalt kommt hierhin -->
+  </div>
+
+  <div class="pdf-container">
+    <button id="generate-pdf">PDF Erstellen</button>
+  </div>
+
+  <script>
+    // Beispiel-Markdown-Inhalt
+    const markdownText = `
+# Mein Markdown-Dokument
+
+## Abschnitt 1
+
+Dies ist der erste Abschnitt im Markdown. Hier kann beliebig Text eingefügt werden. Markdown erlaubt es, Text schnell zu formatieren, zum Beispiel *kursiv* oder **fett**.
+
+### Unterabschnitt 1.1
+
+Markdown unterstützt auch Listen:
+
+- Punkt 1
+- Punkt 2
+  - Unterpunkt 1
+  - Unterpunkt 2
+
+## Abschnitt 2
+
+Dieser Abschnitt enthält ebenfalls mehr Text und Markdown-Elemente. Hier eine Tabelle:
+
+| Name   | Alter |
+|--------|-------|
+| Anna   | 25    |
+| Tom    | 30    |
+
+## Abschluss
+
+Das war's! Ende des Dokuments.
+    `;
+
+    // Wandelt Markdown in HTML um
+    document.getElementById('markdown-content').innerHTML = marked.parse(markdownText);
+
+    // Event listener für den Button
+    document.getElementById('generate-pdf').addEventListener('click', () => {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+
+      // HTML-Inhalt in PDF umwandeln
+      doc.html(document.getElementById('markdown-content'), {
+        callback: function (doc) {
+          // PDF speichern
+          doc.save('Markdown_Dokument_mit_Kopfzeile.pdf');
+        },
+        margin: [20, 20, 20, 20],
+        x: 10,
+        y: 10,
+      });
+    });
+  </script>
+
+</body>
+</html>

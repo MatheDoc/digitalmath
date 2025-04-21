@@ -741,10 +741,18 @@ li {
 
 @media print {
 
-    /*@page {
-        margin-top: 0px
-    }*/
+    @page {
+        margin: 2cm; 
+    }    
 
+    body {
+        /*width: 21cm; 
+        height: 29.7cm;*/ 
+        color: black;
+        font-size: 1em;
+    }
+
+    /*
     .web-header {
         display: none; 
       }
@@ -758,23 +766,25 @@ li {
         width: 100%;
         height: 5cm;
     } 
+    */
 
     h1, h2, h3, h4 {
-        border-bottom: #000000 solid;
+        /*border-bottom: #000000 solid;*/
         color: black;
         page-break-after: avoid;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    .script {
+    /*.script {
         margin: 2cm;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 20 !important;
+        padding-right: 20 !important;
         color: black !important;
-    }
+        all: unset;
+    }*/
 
-    body{
-        margin-top: 8cm;
-    }
+
     
   /* Tabellen anpassen */
   table {
@@ -787,7 +797,7 @@ li {
     padding: 5px;
   }
 
-    nav, footer, .symbolleiste, .navi, .info-text, .overlay, .icon, .mail-icon, .test-icon {
+    h1, nav, footer, .symbolleiste, .navi, .info-text, .overlay, .icon, .mail-icon, .test-icon {
         display: none !important;
       }
 
@@ -804,13 +814,13 @@ li {
     .aufgabe:last-child {
         page-break-after: auto; /* Kein Umbruch nach der letzten Aufgabe */
     }
-    ol,  ul {
+    .aufgabe ol,  ul {
         max-width: 100%;
         background-color: transparent;
         list-style-position: outside;
         padding-left: 1cm;
     }
-    li{
+    .aufgabe li{
         box-shadow: none;
         border: 0px;
         padding: 0px;
@@ -829,7 +839,8 @@ li {
         display: none !important;
     }
 
-    .einleitung {
+
+    .aufgabe  {
         max-width: 100%;
         background-color: transparent;
         border: 0px;
