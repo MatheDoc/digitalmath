@@ -40,6 +40,18 @@
       </div>
     
       <div class="box">
+        <h3>Material</h3>  
+        <!-- Skript -->
+        <button id="skript">Skript <i class="fas fa-link"></i></button>
+        <!-- Arbeitsblätter -->
+        <button onclick="toggleInhalt(this, 'arbeitsblaetter')">Ergänzungen<i class="fas fa-chevron-down"></i></button>
+        <div></div>
+        <!-- Lernvideos -->
+        <button onclick="toggleInhalt(this, 'lernvideos')">Lernvideos<i class="fas fa-chevron-down"></i></button>
+        <div></div>
+      </div> 
+
+      <div class="box">
         <h3>Aktivitäten</h3>
         <!-- Warm-up -->
         <button onclick="toggleInhalt(this, 'warm-up')">Warm-up<i class="fas fa-chevron-down"></i></button>
@@ -61,25 +73,8 @@
         <div></div>  
       </div> 
 
-      <div class="box">
-        <h3>Material</h3>  
-        <!-- Skript -->
-        <button id="skript">Skript <i class="fas fa-link"></i></button>
-        <!-- Arbeitsblätter -->
-        <button onclick="toggleInhalt(this, 'arbeitsblaetter')">Arbeitsblätter<i class="fas fa-chevron-down"></i></button>
-        <div></div>
-        <!-- Musteraufgaben -->
-        <button onclick="toggleInhalt(this, 'musteraufgaben')">Musteraufgaben<i class="fas fa-chevron-down"></i></button>
-        <div></div>
-      </div>  
+ 
       
-      <div class="box">
-        <h3>Fundgrube</h3>
-        <!-- Lernvideos -->
-        <button onclick="toggleInhalt(this, 'lernvideos')">Lernvideos<i class="fas fa-chevron-down"></i></button>
-        <div></div>
-      </div>
-
       <!--<div class="box">
         <h3>???</h3>
         <button onclick="zeigeElement()">Skript <i class="fas fa-link"></i></button>

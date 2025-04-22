@@ -92,16 +92,16 @@ In der Stochastik treffen wir Aussagen über (vermeintlich) zufällige Ausgänge
 
 * Ergebnisse: $\\{1\\}, \\{2\\}, \\{3\\}, \\{4\\}, \\{5\\}, \\{6\\}$
 * Ergebnismenge: $S = \\{1; 2; 3; 4; 5; 6\\}$
-* (z. B.) Ereignis $A$: Es wird eine Zahl größer als 4 geworfen. → $A = \\{5; 6\\}$
-* Gegenereignis $\overline{A}$: Es wird eine Zahl kleiner als 5 geworfen. → $\overline{A} = \\{1; 2; 3; 4\\}$
+* (z. B.) Ereignis $A$: Es wird eine Zahl größer als 4 geworfen. $\RightarrowA = \\{5; 6\\}$
+* Gegenereignis $\overline{A}$: Es wird eine Zahl kleiner als 5 geworfen. $\Rightarrow\overline{A} = \\{1; 2; 3; 4\\}$
 
 
 #### ZWEIMALIGER MÜNZWURF MIT BEACHTUNG DER REIHENFOLGE
 
 * Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZK\\}, \\{ZZ\\}$
 * Ergebnismenge: $S = \\{KK; KZ; ZK; ZZ\\}$
-* (z. B.) Ereignis $B$: Es wird das Gleiche geworfen. → $B = \\{KK; ZZ\\}$
-* Gegenereignis $\overline{B}$: Es wird etwas Unterschiedliches geworfen. → $\overline{B} = \\{KZ; ZK\\}$
+* (z. B.) Ereignis $B$: Es wird das Gleiche geworfen. $\Rightarrow B = \\{KK; ZZ\\}$
+* Gegenereignis $\overline{B}$: Es wird etwas Unterschiedliches geworfen.  $\Rightarrow\overline{B} = \\{KZ; ZK\\}$
 
 
 #### ZWEIMALIGER MÜNZWURF OHNE BEACHTUNG DER REIHENFOLGE

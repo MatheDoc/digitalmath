@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<quiz>
+
+<question type="category">
+  <category>
+    <text>Stochastik_basics/01 Empirie/absoluteHäufigkeiten</text>
+  </category>
+  <info format="html">
+    <text></text>
+  </info>
+  <idnumber></idnumber>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>01 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Es werden vier verschiedene Arten von Halbleitern produziert. In einer Stunde werden folgende Anzahlen produziert: 8 intrinsische Halbleiter, 74 extrinsische Halbleiter, 90 Halbleiter vom P-Typ und 4 Halbleiter vom N-Typ. Einmal pro Stunde prüft die Maschine einen zufällig ausgewählten Halbleiter. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Die Maschine prüft</p><ol><li value="1">weder einen Halbleiter vom P-Typ noch einen Halbleiter vom N-Typ.<br>{1:NUMERICAL:=0,4659:0,001}</li></ol><ol><li value="2">einen extrinsischen Halbleiter.<br>{1:NUMERICAL:=0,4205:0,001}</li></ol><ol><li value="3">keinen intrinsischen Halbleiter.<br>{1:NUMERICAL:=0,9545:0,001}</li></ol><ol><li value="4">einen Halbleiter vom P-Typ oder einen intrinsischen Halbleiter.<br>{1:NUMERICAL:=0,5568:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>02 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Der Eisstand bietet 4 exotische Eissorten an. An einem Tag wurden bestellt: 57 Kugeln Marshmallow-Keks, 42 Kugeln Whisky-Cola, 32 Kugeln Karotte-Honig und 75 Kugeln Lakritz-Ingwer. Eine Bestellung besteht immer nur aus einer Kugel Eis. Eine Mitarbeiterin befragt einen zufällig ausgewählten Kunden nach der gewählten Sorte. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Die Mitarbeiterin befragt</p><ol><li value="1">keine Kugel Marshmallow-Keks.<br>{1:NUMERICAL:=0,7233:0,001}</li></ol><ol><li value="2">weder eine Kugel Marshmallow-Keks noch eine Kugel Lakritz-Ingwer.<br>{1:NUMERICAL:=0,3592:0,001}</li></ol><ol><li value="3">eine Kugel Karotte-Honig.<br>{1:NUMERICAL:=0,1553:0,001}</li></ol><ol><li value="4">eine Kugel Marshmallow-Keks oder eine Kugel Lakritz-Ingwer.<br>{1:NUMERICAL:=0,6408:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>03 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>An einem Beratungsstand für die Ausbildung von Verwaltungsfachangestellten gibt es 76 Interessenten mit FOR, 4 Interessenten mit FHR, 65 Interessenten mit Abitur und 92 Interessenten mit Hauptschulabschluss. (Hier und in der Folge wird jeweils nur der höchste Bildungsabschluss aufgeführt.) Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Die Statistik zeigt</p><ol><li value="1">nicht den Hauptschulabschluss.<br>{1:NUMERICAL:=0,6118:0,001}</li></ol><ol><li value="2">weder das Abitur noch die FOR.<br>{1:NUMERICAL:=0,4051:0,001}</li></ol><ol><li value="3">das Abitur oder die FHR.<br>{1:NUMERICAL:=0,2911:0,001}</li></ol><ol><li value="4">die FHR.<br>{1:NUMERICAL:=0,0169:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>04 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einem Sportgeschäft liegen verschiedene Hosen aus. Es gibt 36 kurze Turnhosen, 84 Skihosen, 32 Jogginghosen und 3 Rennradhosen. Ein Dieb klaut eine zufällige Hose. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Der Dieb klaut</p><ol><li value="1">eine Jogginghose oder eine Skihose.<br>{1:NUMERICAL:=0,7484:0,001}</li></ol><ol><li value="2">keine Skihose.<br>{1:NUMERICAL:=0,4581:0,001}</li></ol><ol><li value="3">eine Rennradhose.<br>{1:NUMERICAL:=0,0194:0,001}</li></ol><ol><li value="4">weder eine Jogginghose noch eine kurze Turnhose.<br>{1:NUMERICAL:=0,5613:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>05 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Gartencenter bietet verschiedene Frühlingsblumen an. Es gibt 88 Tulpen, 42 Narzissen, 87 Pfingstrosen und 28 Primeln. Eine Kundin kauft zufällig eine Blume. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Die Kundin kauft</p><ol><li value="1">eine Tulpe oder eine Pfingstrose.<br>{1:NUMERICAL:=0,7143:0,001}</li></ol><ol><li value="2">keine Primel.<br>{1:NUMERICAL:=0,8857:0,001}</li></ol><ol><li value="3">eine Primel.<br>{1:NUMERICAL:=0,1143:0,001}</li></ol><ol><li value="4">weder eine Tulpe noch eine Pfingstrose.<br>{1:NUMERICAL:=0,2857:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>06 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Geschäft für Heimwerkerbedarf verfügt über verschiedene Schrauben. Es gibt 59 Holzschrauben, 63 Metallschrauben, 93 Steinschrauben und 91 Universalschrauben. Ein Mitarbeiter prüft zufällig eine Schraube. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Der Mitarbeiter prüft</p><ol><li value="1">eine Universalschraube oder eine Holzschraube.<br>{1:NUMERICAL:=0,4902:0,001}</li></ol><ol><li value="2">keine Steinschraube.<br>{1:NUMERICAL:=0,6961:0,001}</li></ol><ol><li value="3">eine Steinschraube.<br>{1:NUMERICAL:=0,3039:0,001}</li></ol><ol><li value="4">weder eine Universalschraube noch eine Metallschraube.<br>{1:NUMERICAL:=0,4967:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>07 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Eine Gläserei stellt unterschiedliche Flaschenarten her. In einem Lager stehen 63 Weingläser, 13 Biergläser, 34 Wassergläser und 79 Schnapsgläser. Eine unvorsichtige Mitarbeiterin stößt zufällig ein Glas um. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Die Mitarbeiterin stößt um</p><ol><li value="1">ein Wasserglas oder ein Weinglas.<br>{1:NUMERICAL:=0,5132:0,001}</li></ol><ol><li value="2">kein Wasserglas.<br>{1:NUMERICAL:=0,8201:0,001}</li></ol><ol><li value="3">ein Wasserglas.<br>{1:NUMERICAL:=0,1799:0,001}</li></ol><ol><li value="4">weder ein Wasserglas noch ein Weinglas.<br>{1:NUMERICAL:=0,4868:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>08 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Im Garten der Schmidts leben 35 Fliegen, 54 Bienen, 37 Wespen und 8 Bremsen. Herr Schmidt zertritt zufällig ein Tier. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Herr Schmidt zertritt</p><ol><li value="1">keine Biene.<br>{1:NUMERICAL:=0,597:0,001}</li></ol><ol><li value="2">eine Fliege.<br>{1:NUMERICAL:=0,2612:0,001}</li></ol><ol><li value="3">weder eine Wespe noch eine Biene.<br>{1:NUMERICAL:=0,3209:0,001}</li></ol><ol><li value="4">eine Wespe oder eine Biene.<br>{1:NUMERICAL:=0,6791:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>09 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Buchladen bietet verschiedene Bücher an. Es gibt 50 Romane, 64 Sachbücher, 14 Kinderbücher und 15 Hörbücher. Ein zufälliger Kunde bestellt ein Buch. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Kunde bestellt</p><ol><li value="1">einen Roman oder ein Kinderbuch.<br>{1:NUMERICAL:=0,4476:0,001}</li></ol><ol><li value="2">weder einen Roman noch ein Sachbuch.<br>{1:NUMERICAL:=0,2028:0,001}</li></ol><ol><li value="3">einen Roman.<br>{1:NUMERICAL:=0,3497:0,001}</li></ol><ol><li value="4">kein Kinderbuch.<br>{1:NUMERICAL:=0,9021:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>10 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einer Bibliothek stehen viele verschiedene Bücher zur Verfügung. Es gibt 5 Fachliteratur, 10 Belletristik, 54 Wissenschaftsmagazine und 86 Lexika. Ein Bibliothekar stellt fest, wie oft ein Buch ausgeliehen wurde. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Der Bibliothekar stellt fest</p><ol><li value="1">Fachliteratur oder ein Wissenschaftsmagazin.<br>{1:NUMERICAL:=0,3806:0,001}</li></ol><ol><li value="2">kein Wissenschaftsmagazin.<br>{1:NUMERICAL:=0,6516:0,001}</li></ol><ol><li value="3">weder Fachliteratur noch ein Wissenschaftsmagazin.<br>{1:NUMERICAL:=0,6194:0,001}</li></ol><ol><li value="4">Belletristik.<br>{1:NUMERICAL:=0,0645:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>11 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Im Restaurant gibt es unterschiedliche Gerichte. Heute wurden bestellt: 52 Pizza, 20 Suppe, 85 Steak und 46 Salat. Ein zufälliger Gast bestellt im Restaurant. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Gast bestellt</p><ol><li value="1">ein Steak oder einen Salat.<br>{1:NUMERICAL:=0,6453:0,001}</li></ol><ol><li value="2">weder ein Steak noch eine Suppe.<br>{1:NUMERICAL:=0,4828:0,001}</li></ol><ol><li value="3">kein Steak.<br>{1:NUMERICAL:=0,5813:0,001}</li></ol><ol><li value="4">einen Salat.<br>{1:NUMERICAL:=0,2266:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>12 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Spielzeuggeschäft verkauft verschiedene Spielzeuge. Es gibt 15 Puppen, 62 Autos, 9 Baukästen und 95 Plüschtiere. Ein zufälliger Kunde kauft ein Spielzeug. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Kunde kauft</p><ol><li value="1">weder eine Puppe noch ein Auto.<br>{1:NUMERICAL:=0,5746:0,001}</li></ol><ol><li value="2">keinen Baukasten.<br>{1:NUMERICAL:=0,9503:0,001}</li></ol><ol><li value="3">einen Baukasten.<br>{1:NUMERICAL:=0,0497:0,001}</li></ol><ol><li value="4">eine Puppe oder ein Plüschtier.<br>{1:NUMERICAL:=0,6077:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>13 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Im Supermarkt gibt es eine Auswahl an Obst. Es wurden heute gekauft: 5 Äpfel, 98 Bananen, 55 Kirschen und 56 Trauben. Ein zufälliger Käufer wählt Obst im Supermarkt. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Käufer wählt</p><ol><li value="1">eine Banane oder einen Apfel.<br>{1:NUMERICAL:=0,4813:0,001}</li></ol><ol><li value="2">eine Kirsche.<br>{1:NUMERICAL:=0,257:0,001}</li></ol><ol><li value="3">keine Kirsche.<br>{1:NUMERICAL:=0,743:0,001}</li></ol><ol><li value="4">weder eine Banane noch einen Apfel.<br>{1:NUMERICAL:=0,5187:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>14 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einer Bäckerei gibt es unterschiedliche Brotsorten. Es wurden verkauft: 52 Baguette, 85 Krustenbrot, 74 Ciabatta und 30 Roggenbrot. Ein zufälliger Kunde kauft Brot in der Bäckerei. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Kunde kauft</p><ol><li value="1">ein Roggenbrot oder ein Krustenbrot.<br>{1:NUMERICAL:=0,4772:0,001}</li></ol><ol><li value="2">kein Baguette.<br>{1:NUMERICAL:=0,7842:0,001}</li></ol><ol><li value="3">ein Baguette.<br>{1:NUMERICAL:=0,2158:0,001}</li></ol><ol><li value="4">weder ein Roggenbrot noch ein Baguette.<br>{1:NUMERICAL:=0,6598:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>15 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Im Elektronikgeschäft gibt es verschiedene Modelle von Handys. Es wurden verkauft: 92 Smartphones, 19 Tablets, 93 Laptops und 6 Smartwatches. Ein zufälliger Kunde kauft ein Gerät im Elektronikgeschäft. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Kunde kauft</p><ol><li value="1">einen Laptop oder ein Smartphone.<br>{1:NUMERICAL:=0,881:0,001}</li></ol><ol><li value="2">eine Smartwatch.<br>{1:NUMERICAL:=0,0286:0,001}</li></ol><ol><li value="3">keine Smartwatch.<br>{1:NUMERICAL:=0,9714:0,001}</li></ol><ol><li value="4">weder einen Laptop noch eine Smartwatch.<br>{1:NUMERICAL:=0,5286:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>16 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Bekleidungsgeschäft bietet verschiedene Kleidungsstücke an. Es wurden gekauft: 77 Hosen, 84 Hemden, 5 Jacken und 14 T-Shirts. Ein zufälliger Kunde kauft Kleidung. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Kunde kauft</p><ol><li value="1">ein T-Shirt oder eine Hose.<br>{1:NUMERICAL:=0,5056:0,001}</li></ol><ol><li value="2">kein T-Shirt.<br>{1:NUMERICAL:=0,9222:0,001}</li></ol><ol><li value="3">eine Hose.<br>{1:NUMERICAL:=0,4278:0,001}</li></ol><ol><li value="4">weder ein T-Shirt noch ein Hemd.<br>{1:NUMERICAL:=0,4556:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>17 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einer Apotheke gibt es unterschiedliche Medikamente. Es wurden abgegeben: 67 Schmerzmittel, 88 Hustenbonbons, 40 Vitamine und 57 Pflaster. Ein zufälliger Käufer kauft einen medizinischen Artikel in der Apotheke. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Käufer kauft</p><ol><li value="1">weder ein Schmerzmittel noch ein Hustenbonbon.<br>{1:NUMERICAL:=0,3849:0,001}</li></ol><ol><li value="2">ein Schmerzmittel oder ein Vitaminpräparat.<br>{1:NUMERICAL:=0,4246:0,001}</li></ol><ol><li value="3">kein Vitaminpräparat.<br>{1:NUMERICAL:=0,8413:0,001}</li></ol><ol><li value="4">ein Hustenbonbon.<br>{1:NUMERICAL:=0,3492:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>18 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ein Café bietet verschiedene Kaffeesorten an. Es wurden heute bestellt: 76 Espresso, 9 Cappuccino, 18 Latte Macchiato und 97 Filterkaffee. Ein zufälliger Kunde bestellt im Café. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Kunde bestellt</p><ol><li value="1">einen Espresso oder einen Latte Macchiato.<br>{1:NUMERICAL:=0,47:0,001}</li></ol><ol><li value="2">keinen Cappuccino.<br>{1:NUMERICAL:=0,955:0,001}</li></ol><ol><li value="3">einen Filterkaffee.<br>{1:NUMERICAL:=0,485:0,001}</li></ol><ol><li value="4">weder einen Espresso noch einen Filterkaffee.<br>{1:NUMERICAL:=0,135:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>19 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Im Zoogeschäft gibt es verschiedene Tiere. Es wurden verkauft: 62 Katzen, 62 Hunde, 13 Vögel und 53 Hamster. Ein zufälliger Kunde kauft ein Tier im Zoogeschäft. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Kunde kauft</p><ol><li value="1">einen Vogel oder einen Hamster.<br>{1:NUMERICAL:=0,3474:0,001}</li></ol><ol><li value="2">keine Katze.<br>{1:NUMERICAL:=0,6737:0,001}</li></ol><ol><li value="3">weder einen Vogel noch einen Hund.<br>{1:NUMERICAL:=0,6053:0,001}</li></ol><ol><li value="4">einen Hund.<br>{1:NUMERICAL:=0,3263:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+<question type="cloze">
+  <name>
+    <text>20 </text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>In einem Fitnessstudio gibt es unterschiedliche Kurse. Es wurden gebucht: 25 Yoga, 29 Krafttraining, 48 Cardio und 87 Pilates. Ein zufälliger Kunde bucht einen Kurs im Fitnessstudio. Berechnen Sie die Wahrscheinlichkeit der folgenden Ereignisse: Ein Kunde bucht</p><ol><li value="1">kein Cardiotraining.<br>{1:NUMERICAL:=0,746:0,001}</li></ol><ol><li value="2">einen Pilates-Kurs.<br>{1:NUMERICAL:=0,4603:0,001}</li></ol><ol><li value="3">weder ein Krafttraining noch einen Pilates-Kurs.<br>{1:NUMERICAL:=0,3862:0,001}</li></ol><ol><li value="4">ein Krafttraining oder einen Yoga-Kurs.<br>{1:NUMERICAL:=0,2857:0,001}</li></ol>]]></text>
+  </questiontext>
+</question>
+
+</quiz>
+
