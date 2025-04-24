@@ -65,21 +65,40 @@ h4  {
     padding-bottom: 0;
 }
 
-figure {
+/*figure {
     display: inline-block;
-    width: fit-content;       /* So breit wie nötig */
-    margin: 0 auto;           /* horizontal zentriert */
-    text-align: right;        /* Caption innerhalb des Blocks rechtsbündig */
+    width: fit-content;       
+    margin: 0 auto;           
+    text-align: right;        
   }
 
-
-
 figcaption {
-    font-size: 0.8em; /* Kleinere Schrift für die Unterschrift */
-    color: #7a7a7a; /* Graue Farbe für die Unterschrift */
+    font-size: 0.8em;
+    color: #7a7a7a; 
 }
-  
+*/
 
+figure {
+    display: flex;
+    flex-direction: column; /* Stellt sicher, dass das Bild und die Beschriftung vertikal gestapelt sind */
+    justify-content: center;
+    align-items: center; /* Zentriert sowohl das Bild als auch das figcaption */
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  figure img {
+    width: 500px;
+  }
+  
+  figure figcaption {
+    color: #7a7a7a;
+    padding: 5px;
+    margin-top: 5px; /* Fügt etwas Abstand zwischen Bild und Beschriftung hinzu */
+    align-self: flex-end;
+  }
+  
+  
 
 .symbolleiste {
     font-size: 0.7em;

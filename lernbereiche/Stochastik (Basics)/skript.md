@@ -18,7 +18,7 @@ Eine Menge ist eine Zusammenfassung von einzelnen Elementen.
 * Die Elemente einer Menge werden häufig geeignet abgekürzt.  
 * Die Elemente einer Menge werden immer in geschweiften Klammern $\\{…\\}$ angegeben.  
 * Die leere Menge enthält keine Elemente und wird mit $\emptyset$ bezeichnet.  
-* Liegen alle Elemente einer Menge $A$ auch in einer Menge $X$, so ist $A$ eine Teilmenge von $X$. Man schreibt auch $A \subset X$.  
+* Liegen alle Elemente einer Menge $A$ auch in einer Menge $X$, so ist $A$ eine Teilmenge von $X$. Wir schreiben auch $A \subset X$.  
 * Beispiel: Die Menge $X = \\{1;3;4;6;8\\}$ hat die Teilmenge $A = \\{3;6\\}$.  
 * Beispiel: Die Menge einer Spielgruppe von Kindern ist $X = \\{\text{Tobias}; \text{Jessica}; \text{Achmed}; \text{Lydia}\\}$. Dann ist die Teilmenge der Mädchen $A = \\{\text{Jessica}; \text{Lydia}\\}$.  
 * Ist $A$ eine Teilmenge von $X$, so bilden alle Elemente von $X$, die nicht in $A$ liegen, das Komplement von $A$. Das Komplement von $A$ wird mit $\overline{A}$ bezeichnet.  
@@ -27,11 +27,11 @@ Eine Menge ist eine Zusammenfassung von einzelnen Elementen.
 
 ### Exkurs: Das Russellsche Paradoxon
 
-Der Mengenbegriff erscheint zunächst klar und einfach: Eine Menge ist eine Zusammenfassung von verschiedenen Objekten. Doch wenn man genauer hinschaut, können Widersprüche auftreten.
+Der Mengenbegriff erscheint zunächst klar und einfach: Eine Menge ist eine Zusammenfassung von verschiedenen Objekten. Doch wenn wir genauer hinschauen, können Widersprüche auftreten.
 Ein bekanntes Beispiel ist das Russellsche Paradoxon:
 
 Wir betrachten die Menge $M$, die alle Mengen enthält, die sich nicht selbst enthalten.
-Nun stellt man die Frage: Enthält $M$ sich selbst?
+Nun stellen wir die Frage: Enthält $M$ sich selbst?
 * Wenn ja, dann dürfte sie sich nicht enthalten (denn sie enthält ja nur Mengen, die sich nicht selbst enthalten).
 * Wenn nein, dann müsste sie sich enthalten (denn sie erfüllt ja die Bedingung, sich nicht selbst zu enthalten).
 
@@ -56,7 +56,7 @@ Es sei $ X=\\{1;2;3;4;5;6\\} $.
 | Die Zahl ist **nicht** durch 2 teilbar.                  | $\overline{A}$| Komplement von $A$         | $\\{1;3;5\\}$                     |
 | Die Zahl ist **nicht** durch 3 teilbar.                  | $\overline{B}$| Komplement von $B$         | $\\{1;2;4;5\\}$                   |
 
-Elemente werden nicht dopellt aufgeführt. Für die Vereinigung von $A=\\{2;4;6\\}$ und $B=\\{3;6\\}$ schreibt man $\\{2;3;4;6\\}$ und nicht $\\{2;3;4;6;6\\}$ (obwohl es formal nicht verkehrt wäre).
+Elemente werden nicht dopellt aufgeführt. Für die Vereinigung von $A=\\{2;4;6\\}$ und $B=\\{3;6\\}$ schreiben wir $\\{2;3;4;6\\}$ und nicht $\\{2;3;4;6;6\\}$ (obwohl es formal nicht verkehrt wäre).
 
 ### Rechenregeln
 
@@ -92,7 +92,7 @@ In der Stochastik treffen wir Aussagen über (vermeintlich) zufällige Ausgänge
 
 * Ergebnisse: $\\{1\\}, \\{2\\}, \\{3\\}, \\{4\\}, \\{5\\}, \\{6\\}$
 * Ergebnismenge: $S = \\{1; 2; 3; 4; 5; 6\\}$
-* (z. B.) Ereignis $A$: Es wird eine Zahl größer als 4 geworfen. $\RightarrowA = \\{5; 6\\}$
+* (z. B.) Ereignis $A$: Es wird eine Zahl größer als 4 geworfen. $\Rightarrow A = \\{5; 6\\}$
 * Gegenereignis $\overline{A}$: Es wird eine Zahl kleiner als 5 geworfen. $\Rightarrow\overline{A} = \\{1; 2; 3; 4\\}$
 
 
@@ -106,7 +106,7 @@ In der Stochastik treffen wir Aussagen über (vermeintlich) zufällige Ausgänge
 
 #### ZWEIMALIGER MÜNZWURF OHNE BEACHTUNG DER REIHENFOLGE
 
-* Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZZ\\}$
+* Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZZ\\}$ (Hierbei wird nicht zwischen $KZ$ ud $ZK$ unterschieden.)
 * Ergebnismenge: $S = \\{KK; KZ; ZZ\\}$
 * (z. B.) Ereignis $C$: Es wird mindestens einmal Kopf geworfen. $\Rightarrow$ $C = \\{KK; KZ\\}$
 * Gegenereignis $\overline{C}$: Es wird niemals Kopf geworfen. $\Rightarrow$ $\overline{C} = \\{ZZ\\}$
@@ -176,7 +176,7 @@ $$
 P(A) = \frac{18}{37}
 $$
 <figure>
-  <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 200px">
+  <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 500px">
   <figcaption>KI-generiert mit ChatGPT</figcaption>
 </figure>
 
@@ -192,22 +192,21 @@ Betrachtet wird ein Zufallsexperiment mit Ergebnismenge $\Omega$ und Ereignissen
 
 für alle Teilmenge $A$ und $B$ von $\Omega$.
 
-#### Folgerungen
+#### Folgerungen und Hinweise
 
 * $P(\emptyset)=0$
 * Alle Wahrscheinlichkeiten liegen immer zwischen einschließlich 0 und einschließlich 1.
 * Für die Wahrscheinlichkeit des Gegenereignisses von Ereignis $A$ gilt $P(\overline{A})=1-P(A)$.
 Beispiel: Aus $P(A)=0,3$ folgt $P(\overline{A})=1-0,3=0,7$.
-* Falls $A\cap B\neq\emptyset$, so ist im Allgemeinen $P(A\cap B)\neq P(A)+P(B)$.
-Man kann vielmehr zeigen, dass $P(A\cup B)=P(A)+P(B)-P(A\cap B)$ (Satz von Sylvester).
-Hieraus folgt, dass man, wenn drei der vier Wahrscheinlichkeiten $P(A)$, $P(B)$, $P(A\cap B)$ und $P(A\cup B)$ bekannt sind, die vierte berechnet werden kann.
+* Falls $A\cap B\neq\emptyset$, so ist im Allgemeinen $P(A\cup B)\neq P(A)+P(B)$. Die Wahrscheinlichkeit $P(A\cap B)$ taucht in $P(A\cup B)$ nur einmal, in $P(A)+P(B)$ jedpch zweimal auf. Daher gilt $P(A\cup B)=P(A)+P(B)-P(A\cap B)$ (Satz von Sylvester).
+Hieraus folgt, dass wir, wenn drei der vier Wahrscheinlichkeiten $P(A)$, $P(B)$, $P(A\cap B)$ und $P(A\cup B)$ bekannt sind, die vierte berechnen können.
 Beispiel: Aus $P(A)=0,3$, $P(B)=0,4$ und $P(A\cap B)=0,2$ folgt $P(A\cup B)=0,3+0,4-0,2=0,5$.
 * Ausschließendes Oder: Die Wahrscheinlichkeit für entweder $A$ oder $B$ (aber nicht $A$ und $B$ gleichzeitig) ist $P(A\cup B)- P(A\cap B)=P(A\cap\overline{B})+P(\overline{A}\cap B)$.
 
 #### Venn-Diagramme
-Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1. Man erhält z.B.:
+Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1. Wir erhalten z.B.:
 |$P(B)$|$P(A\cap B)$|$P(\overline{A}\cap B)$|$P(A\cup B)$|$P(A\cup B)-P(A\cap B)$|
 |-|-|-|-|-|
-|<img src="v1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption>|<figure>  <img src="v2.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v3.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v4.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v5.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|
+|<figure><img src="v1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption>|<figure>  <img src="v2.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v3.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v4.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v5.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|
 
 
