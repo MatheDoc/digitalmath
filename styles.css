@@ -160,6 +160,13 @@ table{
     padding: 5px;
 }
 
+.script h4{
+    padding-top: 20px;
+}
+
+.script p{
+    line-height: 1.5;
+}
 .rowCheckbox{
     cursor: pointer;
 }
@@ -761,6 +768,9 @@ li {
 
 @media print {
 
+
+
+
     @page {
         margin: 2cm; 
     }    
@@ -817,7 +827,7 @@ li {
     padding: 5px;
   }
 
-    h1, nav, footer, .symbolleiste, .navi, .info-text, .overlay, .icon, .mail-icon, .test-icon {
+    h1, nav, footer, .symbolleiste, .navi, .info-text, .overlay, .icon, .mail-icon, .test-icon, .clip-icon {
         display: none !important;
       }
 
@@ -844,6 +854,7 @@ li {
         box-shadow: none;
         border: 0px;
         padding: 0px;
+        padding-bottom: 10px;
         margin: 0px;
     }
 

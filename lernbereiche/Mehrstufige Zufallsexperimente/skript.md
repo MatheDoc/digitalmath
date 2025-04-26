@@ -11,9 +11,9 @@ Da generell die Summe aller Wahrscheinlichkeiten eines Zufallsexperiments immer 
 ### Beispiele
 
 #### Zweimaliger Münzwurf mit Beachtung der Reihenfolge
-Da Kopf ($K$) und Zahl ($Z$) treten bei einem einmaligen Wurf beide mit einer Wahrscheinlichkeit von 50% auf. Daraus ergibt sich
+Da Kopf ($K$) und Zahl ($Z$) treten bei einem einmaligen Wurf beide mit einer Wahrscheinlichkeit von 50&nbsp;\% auf. Daraus ergibt sich
 <figure>
-  <img src="münze2x.png" style="width: 500px;">
+  <img src="münze2x.png" style="width: 100vw;max-width:500px">
 </figure>
 Nach der Pfadmultiplikationsregel haben wir jede Endwahrscheinlichkeit mit $\frac{1}{2}\cdot\frac{1}{2}=\frac{1}{4}$ berechnet.
 
@@ -27,13 +27,13 @@ P(E)&=P(\\{KK\\})+P(\\{ZZ\\})\\\\
 #### Jugendliche auf dem Weg zu Schule
 Baumdiagramme eignen sich vor allem dazu, kompliziertere Zufallsexperimente zu veranschaulichen:
 
-Es ist bekannt, dass 4,7% aller Jugendlichen aus unterschiedlichen Gründen nicht zur Schule kommen und zu Hause bleiben ($H$). Vier Fünftel werden kommen selbstständig ($S$) zur Schule, die übrigen werden von ihren Eltern ($E$) gebracht. Von denjenigen, die selbstständig zur Schule kommen, nutzen 30% das Fahrrad ($F$), 23% das Auto ($A$), 12% gehen zu Fuß ($G$) und die restlichen Schülerinnen und Schüler benutzen den öffentlichen Personennahverkehr (Ö). 
+Es ist bekannt, dass 4,7&nbsp;\% aller Jugendlichen aus unterschiedlichen Gründen nicht zur Schule kommen und zu Hause bleiben ($H$). Vier Fünftel werden kommen selbstständig ($S$) zur Schule, die übrigen werden von ihren Eltern ($E$) gebracht. Von denjenigen, die selbstständig zur Schule kommen, nutzen 30&nbsp;\% das Fahrrad ($F$), 23&nbsp;\% das Auto ($A$), 12&nbsp;\% gehen zu Fuß ($G$) und die restlichen Schülerinnen und Schüler benutzen den öffentlichen Personennahverkehr (Ö). 
 Alle Jugendlichen, die den Großteil ihres Schulwegs an der frischen Luft verbringen, sind in der ersten Unterrichtsstunde wach ($W$). Bei den mit dem Auto gebrachten Jugendlichen ist es lediglich ein Viertel, bei den Nutzern des öffentlichen Personennahverkehrs immerhin noch die Hälfte.
 Von den Jugendlichen, die von ihren Eltern zur Schule gebracht werden, ist nur jeder 10. wach.
 
 Das entsprechende Baumdiagramm lautet:
  <figure>
-  <img src="fahrradwach.png" style="width: 500px;">
+  <img src="fahrradwach.png" style="width: 100vw;max-width:500px">
 </figure>
 Hier haben wir für jede Endwahrscheinlichkeit die Pfadmultiplikationsregel angewendet.
 
@@ -52,7 +52,7 @@ Verwenden wir für die Pfadwahrscheinlichkeiten die Prozentschreibweise, so müs
 Häufig liegt eine Situation vor, in der zwei Ereignisse $A$ und $B$ und deren Gegenereignisse auftreten. Das Baumdiagramm hat dann die Gestalt
 
  <figure>
-  <img src="BaumAB.png" style="width: 500px;">
+  <img src="BaumAB.png" style="width: 100vw;max-width:500px">
 </figure>
 
 Wir beobachten:
@@ -70,18 +70,22 @@ P(\overline{A}\cup B)&=P(\\{AB\\}) +P(\\{\overline{A}B\\})  +P(\\{\overline{A}\o
 \end{align*}
 
 ### Baumdiagramme vervollständigen
+
+Häufig stehen wir vor der Aufgabe, ein teilweise ausgefülltes Baumdiagramm zu vervollständigen. Dazu verwenden wir, dass die Summe der Wahrscheinlichkeiten der Pfade, die von einem Knotenpunkt start, gleich 1 ist. Außerdem wenden wir die P
+Pfadregeln geschickt an.
+
 #### Beispiel 1
 Gegeben ist das folgende Baumdiagramm:
  <figure>
-  <img src="Baum1.png" style="width: 500px;">
+  <img src="Baum1.png" style="width: 100vw;max-width:500px">
 </figure>
-Die Wahrscheinlichkeit 4 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $0{,}2\cdot x = 0{,}06$ $\Rightarrow$ $x=0{,}3$.
+Die Wahrscheinlichkeit 4 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $0{,}2\cdot x = 0{,}06$ $\Rightarrow$ $x=0{,}3$. Dann kann suksessive das Baumdiagramm vervollständigt werden.
 
 #### Beispiel 2
 Gegeben ist das folgende Baumdiagramm:
  <figure>
-  <img src="Baum2.png" style="width: 500px;">
+  <img src="Baum2.png" style="width: 100vw;max-width:500px">
 </figure>
-Die Wahrscheinlichkeit 2 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $ x = 0{,}28+0{,}12=0{,}4$.
+Die Wahrscheinlichkeit 2 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $ x = 0{,}28+0{,}12=0{,}4$. Dann kann suksessive das Baumdiagramm vervollständigt werden.
 
 <!--### Urnenmodelle-->

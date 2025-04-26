@@ -146,12 +146,11 @@ Relative Häufigkeiten (Aussagen über die Vergangenheit) können als Wahrschein
 
 #### BEISPIEL 1
 
-Aus persönlichen Beobachtungen sei bekannt, dass 50 % aller Kinder am liebsten Pizza essen, 30 % Pommes und 20 % Nudeln mit Ketchup. Dann ist die Wahrscheinlichkeit, dass ein zufällig ausgewähltes Kind Pommes am liebsten isst, 30 %.
+Aus persönlichen Beobachtungen sei bekannt, dass 50&nbsp;\% aller Kinder am liebsten Pizza essen, 30&nbsp;\% Pommes und 20&nbsp;\% Nudeln mit Ketchup. Dann ist die Wahrscheinlichkeit, dass ein zufällig ausgewähltes Kind am liebsten Pommes isst, 30&nbsp;\%.
 
 #### BEISPIEL 2
 
-In einer Disco tanzen um 3 Uhr noch 45 Männer und 5 Frauen. Dann ist die Wahrscheinlichkeit, dass ein zufällig ausgewählter Gast eine Frau ist, $
-\frac{5}{50} = 10\%$.
+In einer Klausur spicken 2 von 20 Schülern. Dann ist die Wahrscheinlichkeit, dass ein zufällig ausgewählter Schüler spickt, $\frac{2}{20}$ oder 10&nbsp;\%.
 
 ### LAPLACE-EXPERIMENT
 
@@ -162,7 +161,7 @@ $$
 
 #### BEISPIEL 1
 
-Würfelwurf: Es sei $ A $ das Ereignis „Es wird eine Primzahl geworfen.“  $\Rightarrow A = \\{2; 3; 5\\} $
+Würfelwurf: Es sei $A$ das Ereignis „Es wird eine Primzahl geworfen.“  $\Rightarrow A = \\{2; 3; 5\\} $
 Dann gilt:
 $$
 P(A) = \frac{3}{6} = \frac{1}{2}
@@ -176,7 +175,7 @@ $$
 P(A) = \frac{18}{37}
 $$
 <figure>
-  <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 500px">
+  <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 100vw;max-width:500px">
   <figcaption>KI-generiert mit ChatGPT</figcaption>
 </figure>
 
@@ -198,7 +197,7 @@ für alle Teilmenge $A$ und $B$ von $\Omega$.
 * Alle Wahrscheinlichkeiten liegen immer zwischen einschließlich 0 und einschließlich 1.
 * Für die Wahrscheinlichkeit des Gegenereignisses von Ereignis $A$ gilt $P(\overline{A})=1-P(A)$.
 Beispiel: Aus $P(A)=0,3$ folgt $P(\overline{A})=1-0,3=0,7$.
-* Falls $A\cap B\neq\emptyset$, so ist im Allgemeinen $P(A\cup B)\neq P(A)+P(B)$. Die Wahrscheinlichkeit $P(A\cap B)$ taucht in $P(A\cup B)$ nur einmal, in $P(A)+P(B)$ jedpch zweimal auf. Daher gilt $P(A\cup B)=P(A)+P(B)-P(A\cap B)$ (Satz von Sylvester).
+* Falls $A\cap B\neq\emptyset$, so ist im Allgemeinen $P(A\cup B)\neq P(A)+P(B)$. Die Wahrscheinlichkeit $P(A\cap B)$ taucht in $P(A\cup B)$ nur einmal, in $P(A)+P(B)$ jedoch zweimal auf. Daher gilt $P(A\cup B)=P(A)+P(B)-P(A\cap B)$ (Satz von Sylvester).
 Hieraus folgt, dass wir, wenn drei der vier Wahrscheinlichkeiten $P(A)$, $P(B)$, $P(A\cap B)$ und $P(A\cup B)$ bekannt sind, die vierte berechnen können.
 Beispiel: Aus $P(A)=0,3$, $P(B)=0,4$ und $P(A\cap B)=0,2$ folgt $P(A\cup B)=0,3+0,4-0,2=0,5$.
 * Ausschließendes Oder: Die Wahrscheinlichkeit für entweder $A$ oder $B$ (aber nicht $A$ und $B$ gleichzeitig) ist $P(A\cup B)- P(A\cap B)=P(A\cap\overline{B})+P(\overline{A}\cap B)$.
@@ -207,6 +206,6 @@ Beispiel: Aus $P(A)=0,3$, $P(B)=0,4$ und $P(A\cap B)=0,2$ folgt $P(A\cup B)=0,3+
 Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1. Wir erhalten z.B.:
 |$P(B)$|$P(A\cap B)$|$P(\overline{A}\cap B)$|$P(A\cup B)$|$P(A\cup B)-P(A\cap B)$|
 |-|-|-|-|-|
-|<figure><img src="v1.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption>|<figure>  <img src="v2.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v3.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v4.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|<figure>  <img src="v5.png" style="width: 15vw">  <figcaption>Eigene Darstellung</figcaption></figure>|
+|<figure><img src="v1.png" style="width: 15vw"> |<figure>  <img src="v2.png" style="width: 15vw"> </figure>|<figure>  <img src="v3.png" style="width: 15vw">  </figure>|<figure>  <img src="v4.png" style="width: 15vw">  </figure>|<figure>  <img src="v5.png" style="width: 15vw"> </figure>|
 
 
