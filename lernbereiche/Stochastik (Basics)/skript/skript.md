@@ -175,7 +175,7 @@ $$
 P(A) = \frac{18}{37}
 $$
 <figure>
-  <img src="ChatGPTImage19.Apr.2025,14_05_47.png" style="width: 100vw;max-width:500px">
+  <img src="ChatGPTImage19.Apr.2025,14_05_47.png">
   <figcaption>KI-generiert mit ChatGPT</figcaption>
 </figure>
 

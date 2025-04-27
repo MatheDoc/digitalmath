@@ -6,7 +6,7 @@ const h2 = document.querySelector('h2');
 h2.innerText = thema;
 
 // Pfad zur Markdown-Datei
-const mdUrl = `lernbereiche/${thema}/skript.md`;
+const mdUrl = `lernbereiche/${thema}/skript/skript.md`;
 
 // Promises für DOM- und MathJax‑Bereitschaft
 const domReady = new Promise(res => document.addEventListener('DOMContentLoaded', res));

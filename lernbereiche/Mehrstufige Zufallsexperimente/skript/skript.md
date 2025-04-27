@@ -13,7 +13,7 @@ Da generell die Summe aller Wahrscheinlichkeiten eines Zufallsexperiments immer 
 #### Zweimaliger Münzwurf mit Beachtung der Reihenfolge
 Da Kopf ($K$) und Zahl ($Z$) treten bei einem einmaligen Wurf beide mit einer Wahrscheinlichkeit von 50&nbsp;\% auf. Daraus ergibt sich
 <figure>
-  <img src="münze2x.png" style="width: 100vw;max-width:500px">
+  <img src="münze2x.png">
 </figure>
 Nach der Pfadmultiplikationsregel haben wir jede Endwahrscheinlichkeit mit $\frac{1}{2}\cdot\frac{1}{2}=\frac{1}{4}$ berechnet.
 
@@ -33,7 +33,7 @@ Von den Jugendlichen, die von ihren Eltern zur Schule gebracht werden, ist nur j
 
 Das entsprechende Baumdiagramm lautet:
  <figure>
-  <img src="fahrradwach.png" style="width: 100vw;max-width:500px">
+  <img src="fahrradwach.png">
 </figure>
 Hier haben wir für jede Endwahrscheinlichkeit die Pfadmultiplikationsregel angewendet.
 
@@ -50,11 +50,9 @@ Verwenden wir für die Pfadwahrscheinlichkeiten die Prozentschreibweise, so müs
 
 ### Mehrstufige Zufallsexperimente mit zwei Ereignissen
 Häufig liegt eine Situation vor, in der zwei Ereignisse $A$ und $B$ und deren Gegenereignisse auftreten. Das Baumdiagramm hat dann die Gestalt
-
  <figure>
-  <img src="BaumAB.png" style="width: 100vw;max-width:500px">
+  <img src="BaumAB.png">
 </figure>
-
 Wir beobachten:
 
 * Es gilt $A=\\{AB;A\overline{B}\\}$ und $B=\\{AB;\overline{A}B\\}$.
@@ -77,15 +75,23 @@ Pfadregeln geschickt an.
 #### Beispiel 1
 Gegeben ist das folgende Baumdiagramm:
  <figure>
-  <img src="Baum1.png" style="width: 100vw;max-width:500px">
+  <img src="Baum1.png">
 </figure>
 Die Wahrscheinlichkeit 4 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $0{,}2\cdot x = 0{,}06$ $\Rightarrow$ $x=0{,}3$. Dann kann suksessive das Baumdiagramm vervollständigt werden.
 
 #### Beispiel 2
 Gegeben ist das folgende Baumdiagramm:
  <figure>
-  <img src="Baum2.png" style="width: 100vw;max-width:500px">
+  <img src="Baum2.png">
 </figure>
 Die Wahrscheinlichkeit 2 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $ x = 0{,}28+0{,}12=0{,}4$. Dann kann suksessive das Baumdiagramm vervollständigt werden.
 
-<!--### Urnenmodelle-->
+<!--### Urnenmodelle
+Ein wichtiges Beipsiel für mehrstufige Zufallsexperimente sind das Ziehen von Kugeln aus einer Urne. Hier müssen wir unterscheiden, ob Kugeln zurückgegelgt werden oder nicht.
+
+#### Beispiel: Ziehen mit Zurücklegen
+In einer Urne
+
+und dann ein alltägliches zufallsexpeirment, das als urnenmodell interpretiert werden kann
+
+-->
