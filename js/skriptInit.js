@@ -8,6 +8,9 @@ h2.innerText = thema;
 // Pfad zur Markdown-Datei
 const mdUrl = `lernbereiche/${thema}/skript/skript.md`;
 
+
+
+
 // Promises für DOM- und MathJax‑Bereitschaft
 const domReady = new Promise(res => document.addEventListener('DOMContentLoaded', res));
 const mathjaxReady = new Promise(res => document.addEventListener('mathjax-ready', res));
@@ -27,7 +30,7 @@ Promise.all([domReady, mathjaxReady])
     bilder.forEach(img => {
         const originalSrc = img.getAttribute('src');
         if (originalSrc && !originalSrc.startsWith('http')) {
-        img.src = `lernbereiche/${encodeURIComponent(thema)}/${originalSrc}`;
+        img.src = `lernbereiche/${encodeURIComponent(thema)}/skript/${originalSrc}`;
         }
     });
 
@@ -36,3 +39,4 @@ Promise.all([domReady, mathjaxReady])
   .catch(err => {
     document.getElementById('content').textContent = 'Fehler: ' + err.message;
   });
+
