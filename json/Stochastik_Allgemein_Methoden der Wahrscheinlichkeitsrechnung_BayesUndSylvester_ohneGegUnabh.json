@@ -1,461 +1,461 @@
 ﻿[
 {
-"einleitung":"Ein Hersteller von Halbleitern erhält Aufträge von Groß- und Kleinkunden. Alle Kunden können zwischen Basis- und Premium-Qualität wählen. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Großkunde bestellt Halbleiter.<br>B: Halbleiter werden in Premium-Qualität bestellt.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Großkunde Halbleiter bestellt, 72% beträgt, dass die Wahrscheinlichkeit, dass Halbleiter in Premium-Qualität bestellt werden, 43,28% beträgt und dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,36 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Ein Hersteller von Halbleitern erhält Aufträge von Groß- und Kleinkunden. Alle Kunden können zwischen Basis- und Premium-Qualität wählen. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Großkunde bestellt Halbleiter.<br>B: Halbleiter werden in Premium-Qualität bestellt.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,09 \\), dass die Wahrscheinlichkeit, dass Halbleiter in Premium-Qualität bestellt werden, 34% beträgt und dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,0306 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"die Wahrscheinlichkeit, dass Halbleiter in Basis-Qualität bestellt werden.",
-"die Wahrscheinlichkeit, dass ein Großkunde Halbleiter bestellt oder Halbleiter in Premium-Qualität bestellt werden.",
-"die Wahrscheinlichkeit, dass der Auftrag eines Großkunden Premium-Qualität erfordert.",
-"\\( P_A(\\overline{B}) \\).",
-"\\( P(A\\cap\\overline{B}) \\).",
-"die Wahrscheinlichkeit, dass ein Auftrag in Basis-Qualität von einem Großkunden stammt.",
-"die Wahrscheinlichkeit, dass ein Großkunde Halbleiter bestellt oder Halbleiter in Basis-Qualität bestellt werden.",
+"\\( P(\\overline{B}) \\).",
+"\\( P(A\\cup B) \\).",
+"\\( P_B(A) \\).",
+"die Wahrscheinlichkeit, dass ein Auftrag in Premium-Qualität von einem Kleinkunden stammt.",
+"die Wahrscheinlichkeit, dass eine Bestellung von einem Kleinkunden stammt und Premium-Qualität erfordert.",
+"\\( P_{\\overline{A}}(B) \\).",
+"\\( P(\\overline{A}\\cup B) \\).",
 "Überprüfen Sie die folgende Behauptung: Die Art eines Kunden hat eine Auswirkung auf die Qualität der bestellen Halbleiter. "
 ],
 "antworten":[
-"{1:NUMERICAL:=0,5672:0,0001}",
-"{1:NUMERICAL:=0,7928:0,0001}",
-"{1:NUMERICAL:=0,5:0,0001}",
-"{1:NUMERICAL:=0,5:0,0001}",
-"{1:NUMERICAL:=0,36:0,0001}",
-"{1:NUMERICAL:=0,6347:0,0001}",
-"{1:NUMERICAL:=0,9272:0,0001}",
-"{1:MC:~=Richtig~Falsch}"
-]
-},
-{
-"einleitung":"Eine Zugbegleiterin kontrolliert die Fahrscheine und das Einhalten einer pandemiebedingten Maskenpflicht in einem ICE von Hamburg nach München. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Passagier hat einen gültigen Fahrschein.<br>B: Ein Passagier trägt eine Maske.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat, 60% beträgt, dass die Wahrscheinlichkeit, dass ein Passagier eine Maske trägt, 41% beträgt und dass die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat und eine Maske trägt, 24,6% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Wahrscheinlichkeit, dass ein Passagier keine Maske trägt.",
-"die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat oder eine Maske trägt.",
-"\\( P_A(B) \\).",
-"die Wahrscheinlichkeit, dass ein Passagier mit gültigen Fahrschein keine Maske trägt",
-"\\( P(A\\cap\\overline{B}) \\).",
-"die Wahrscheinlichkeit, dass ein Passagier, der keine Maske trägt, einen gültigen Fahrschein hat.",
-"\\( P(A\\cup\\overline{B}) \\).",
-"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch abhängig."
-],
-"antworten":[
-"{1:NUMERICAL:=0,59:0,0001}",
-"{1:NUMERICAL:=0,764:0,0001}",
-"{1:NUMERICAL:=0,41:0,0001}",
-"{1:NUMERICAL:=0,59:0,0001}",
-"{1:NUMERICAL:=0,354:0,0001}",
-"{1:NUMERICAL:=0,6:0,0001}",
-"{1:NUMERICAL:=0,836:0,0001}",
+"{1:NUMERICAL:=0,66:0,0001}",
+"{1:NUMERICAL:=0,3994:0,0001}",
+"{1:NUMERICAL:=0,09:0,0001}",
+"{1:NUMERICAL:=0,91:0,0001}",
+"{1:NUMERICAL:=0,3094:0,0001}",
+"{1:NUMERICAL:=0,34:0,0001}",
+"{1:NUMERICAL:=0,9406:0,0001}",
 "{1:MC:~Richtig~=Falsch}"
 ]
 },
 {
-"einleitung":"Ein Eisstand bietet Getränke an: Schokolade und Kaffee, jeweils entweder heiß oder kalt zubereitet. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde bestellt eine Schokolade.<br>B: Ein Kunde bestellt ein heißes Getränk.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Kunde eine Schokolade bestellt, 19% beträgt, dass \\( P(B) \\)\\( = \\)\\( 0,3298 \\) und dass die Wahrscheinlichkeit, dass ein Kunde eine Schokolade oder ein heißes Getränk bestellt, 39,25% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Eine Zugbegleiterin kontrolliert die Fahrscheine und das Einhalten einer pandemiebedingten Maskenpflicht in einem ICE von Hamburg nach München. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Passagier hat einen gültigen Fahrschein.<br>B: Ein Passagier trägt eine Maske.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat, 48% beträgt, dass \\( P(B) \\)\\( = \\)\\( 0,5664 \\) und dass die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat oder eine Maske trägt, 72,96% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "\\( P(\\overline{B}) \\).",
-"\\( P(A\\cap B) \\).",
-"\\( P_B(A) \\).",
-"\\( P_B(\\overline{A}) \\).",
-"die Wahrscheinlichkeit, dass ein Kunde einen heißen Kaffee bestellt.",
-"die Wahrscheinlichkeit, dass ein bestellter Kaffee heiß erwünscht ist.",
-"\\( P(\\overline{A}\\cup B) \\).",
+"die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat und eine Maske trägt.",
+"\\( P_A(B) \\).",
+"die Wahrscheinlichkeit, dass ein Passagier mit gültigen Fahrschein keine Maske trägt",
+"die Wahrscheinlichkeit, dass ein Passagier einen gültigen Fahrschein hat und keine Maske trägt.",
+"\\( P_{\\overline{B}}(A) \\).",
+"\\( P(A\\cup\\overline{B}) \\).",
 "Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch abhängig."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,6702:0,0001}",
-"{1:NUMERICAL:=0,1273:0,0001}",
-"{1:NUMERICAL:=0,386:0,0001}",
-"{1:NUMERICAL:=0,614:0,0001}",
-"{1:NUMERICAL:=0,2025:0,0001}",
-"{1:NUMERICAL:=0,25:0,0001}",
-"{1:NUMERICAL:=0,9373:0,0001}",
+"{1:NUMERICAL:=0,4336:0,0001}",
+"{1:NUMERICAL:=0,3168:0,0001}",
+"{1:NUMERICAL:=0,66:0,0001}",
+"{1:NUMERICAL:=0,34:0,0001}",
+"{1:NUMERICAL:=0,1632:0,0001}",
+"{1:NUMERICAL:=0,3764:0,0001}",
+"{1:NUMERICAL:=0,7504:0,0001}",
 "{1:MC:~=Richtig~Falsch}"
 ]
 },
 {
-"einleitung":"Ein angeblich verzauberter Würfel wird geworfen. Bevor man wirft, kann man einen Zauberspruch aufsagen. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Es wird eine Sechs geworfen.<br>B: Es wird ein Zauberspruch aufgesagt.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass eine Sechs geworfen wird, 4% beträgt, dass \\( P(B) \\)\\( = \\)\\( 0,02 \\) und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,0592 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Ein Eisstand bietet Getränke an: Schokolade und Kaffee, jeweils entweder heiß oder kalt zubereitet. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde bestellt eine Schokolade.<br>B: Ein Kunde bestellt ein heißes Getränk.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Kunde eine Schokolade bestellt, 61% beträgt, dass die Wahrscheinlichkeit, dass ein Kunde ein heißes Getränk bestellt, 71,64% beträgt und dass die Wahrscheinlichkeit, dass ein Kunde eine Schokolade oder ein heißes Getränk bestellt, 83,23% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Wahrscheinlichkeit, dass ein Kunde einen Kaffee bestellt.",
+"\\( P(A\\cap B) \\).",
+"\\( P_A(B) \\).",
+"die Wahrscheinlichkeit, dass eine bestellte Schokolade kalt erwünscht ist.",
+"\\( P(A\\cap\\overline{B}) \\).",
+"die Wahrscheinlichkeit, dass ein bestelltes kaltes Getränk eine Schokolade ist.",
+"\\( P(A\\cup\\overline{B}) \\).",
+"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
+],
+"antworten":[
+"{1:NUMERICAL:=0,39:0,0001}",
+"{1:NUMERICAL:=0,4941:0,0001}",
+"{1:NUMERICAL:=0,81:0,0001}",
+"{1:NUMERICAL:=0,19:0,0001}",
+"{1:NUMERICAL:=0,1159:0,0001}",
+"{1:NUMERICAL:=0,4087:0,0001}",
+"{1:NUMERICAL:=0,7777:0,0001}",
+"{1:MC:~Richtig~=Falsch}"
+]
+},
+{
+"einleitung":"Ein angeblich verzauberter Würfel wird geworfen. Bevor man wirft, kann man einen Zauberspruch aufsagen. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Es wird eine Sechs geworfen.<br>B: Es wird ein Zauberspruch aufgesagt.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,3 \\), dass die Wahrscheinlichkeit, dass ein Zauberspruch aufgesagt wird, 90% beträgt und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,93 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Wahrscheinlichkeit, dass kein Zauberspruch aufgesagt wird.",
 "die Wahrscheinlichkeit, dass eine Sechs geworfen und ein Zauberspruch aufgesagt wird.",
-"\\( P_B(A) \\).",
-"die Wahrscheinlichkeit, dass keine Sechs geworfen wird, wenn ein Zauberspruch aufgesagt wurde.",
-"\\( P(\\overline{A}\\cap B) \\).",
-"\\( P_{\\overline{A}}(B) \\).",
-"\\( P(\\overline{A}\\cup B) \\).",
-"Überprüfen Sie die folgende Behauptung: Der Zauberspruch wirkt."
+"die Wahrscheinlichkeit, dass ein Zauberspruch aufgesagt wurde, wenn eine sechs geworfen wird.",
+"die Wahrscheinlichkeit, dass kein Zauberspruch aufgesagt wurde, wenn eine sechs geworfen wird.",
+"\\( P(A\\cap\\overline{B}) \\).",
+"\\( P_{\\overline{B}}(A) \\).",
+"die Wahrscheinlichkeit, dass eine Sechs geworfen oder kein Zauberspruch aufgesagt wird.",
+"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,98:0,0001}",
-"{1:NUMERICAL:=0,0008:0,0001}",
-"{1:NUMERICAL:=0,04:0,0001}",
-"{1:NUMERICAL:=0,96:0,0001}",
-"{1:NUMERICAL:=0,0192:0,0001}",
-"{1:NUMERICAL:=0,02:0,0001}",
-"{1:NUMERICAL:=0,9608:0,0001}",
+"{1:NUMERICAL:=0,1:0,0001}",
+"{1:NUMERICAL:=0,27:0,0001}",
+"{1:NUMERICAL:=0,9:0,0001}",
+"{1:NUMERICAL:=0,1:0,0001}",
+"{1:NUMERICAL:=0,03:0,0001}",
+"{1:NUMERICAL:=0,3:0,0001}",
+"{1:NUMERICAL:=0,37:0,0001}",
+"{1:MC:~=Richtig~Falsch}"
+]
+},
+{
+"einleitung":"Für das Controlling bei der Deutschen Bundesbank bewerben sich Mathematiker und Wirtschaftswissenschaftler mit Bachelor- oder Masterabschluss. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Bewerber ist Mathematiker.<br>B: Ein Bewerber hat einen Bachelor.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,82 \\), dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,3854 \\) und dass die Wahrscheinlichkeit, dass ein Bewerber Mathematiker ist oder einen Bachelor hat, 98,02% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Wahrscheinlichkeit, dass ein Bewerber Wirtschaftswissenschaftler ist.",
+"\\( P(B) \\).",
+"die Wahrscheinlichkeit, dass ein Bewerber mit Bachelor Mathematiker ist.",
+"die Wahrscheinlichkeit, dass ein Bewerber mit einem Bachelor Wirtschaftswissenschaftler ist.",
+"\\( P(\\overline{A}\\cap B) \\).",
+"die Wahrscheinlichkeit, dass ein Wirtschaftswissenschaftler einen Bachelor hat.",
+"die Wahrscheinlichkeit, dass ein Bewerber Wirtschaftswissenschaftler ist oder einen Bachelor hat.",
+"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
+],
+"antworten":[
+"{1:NUMERICAL:=0,18:0,0001}",
+"{1:NUMERICAL:=0,5456:0,0001}",
+"{1:NUMERICAL:=0,7064:0,0001}",
+"{1:NUMERICAL:=0,2936:0,0001}",
+"{1:NUMERICAL:=0,1602:0,0001}",
+"{1:NUMERICAL:=0,89:0,0001}",
+"{1:NUMERICAL:=0,5654:0,0001}",
 "{1:MC:~Richtig~=Falsch}"
 ]
 },
 {
-"einleitung":"Für das Controlling bei der Deutschen Bundesbank bewerben sich Mathematiker und Wirtschaftswissenschaftler mit Bachelor- oder Masterabschluss. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Bewerber ist Mathematiker.<br>B: Ein Bewerber hat einen Bachelor.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,39 \\), dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,2379 \\) und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,5059 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Praktische Führerscheinprüfung: In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Der Prüfling besteht.<br>B: Der Prüfer ist ausgeschlafen.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,27 \\), dass die Wahrscheinlichkeit, dass ein Prüfer ausgeschlafen ist, 29% beträgt und dass die Wahrscheinlichkeit, dass ein Prüfling besteht und ein Prüfer ausgeschlafen ist, 7,83% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"die Wahrscheinlichkeit, dass ein Bewerber Wirtschaftswissenschaftler ist.",
-"die Wahrscheinlichkeit, dass ein Bewerber einen Bachelor hat.",
-"\\( P_B(A) \\).",
+"\\( P(\\overline{A}) \\).",
+"die Wahrscheinlichkeit, dass ein Prüfling besteht oder ein Prüfer ausgeschlafen ist.",
+"die Wahrscheinlichkeit, dass bei einem ausgeschlafenen Prüfer ein Prüfling besteht.",
 "\\( P_B(\\overline{A}) \\).",
-"die Wahrscheinlichkeit, dass ein Bewerber einen Bachelor in Wirtschaftswissenschaft hat.",
+"\\( P(\\overline{A}\\cap B) \\).",
 "\\( P_{\\overline{A}}(B) \\).",
 "\\( P(\\overline{A}\\cup B) \\).",
 "Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch abhängig."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,61:0,0001}",
-"{1:NUMERICAL:=0,3538:0,0001}",
-"{1:NUMERICAL:=0,6724:0,0001}",
-"{1:NUMERICAL:=0,3276:0,0001}",
-"{1:NUMERICAL:=0,1159:0,0001}",
-"{1:NUMERICAL:=0,19:0,0001}",
-"{1:NUMERICAL:=0,8479:0,0001}",
-"{1:MC:~=Richtig~Falsch}"
-]
-},
-{
-"einleitung":"Praktische Führerscheinprüfung: In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Der Prüfling besteht.<br>B: Der Prüfer ist ausgeschlafen.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Prüfling besteht, 92% beträgt, dass \\( P(B) \\)\\( = \\)\\( 0,06 \\) und dass die Wahrscheinlichkeit, dass ein Prüfling besteht und ein Prüfer ausgeschlafen ist, 5,52% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Wahrscheinlichkeit, dass ein Prüfling durchfällt.",
-"die Wahrscheinlichkeit, dass ein Prüfling besteht oder ein Prüfer ausgeschlafen ist.",
-"die Wahrscheinlichkeit, dass ein Prüfer ausgeschlafen ist, wenn ein Prüfling besteht.",
-"\\( P_A(\\overline{B}) \\).",
-"die Wahrscheinlichkeit, dass ein Prüfling besteht und ein Prüfer nicht ausgeschlafen ist.",
-"\\( P_{\\overline{B}}(A) \\).",
-"\\( P(A\\cup\\overline{B}) \\).",
-"Überprüfen Sie die folgende Behauptung: Es gibt einen Zusammenhang zwischen dem Bestehen einer Prüfung und der Müdigkeit eines Prüfers."
-],
-"antworten":[
-"{1:NUMERICAL:=0,08:0,0001}",
-"{1:NUMERICAL:=0,9248:0,0001}",
-"{1:NUMERICAL:=0,06:0,0001}",
-"{1:NUMERICAL:=0,94:0,0001}",
-"{1:NUMERICAL:=0,8648:0,0001}",
-"{1:NUMERICAL:=0,92:0,0001}",
-"{1:NUMERICAL:=0,9952:0,0001}",
+"{1:NUMERICAL:=0,73:0,0001}",
+"{1:NUMERICAL:=0,4817:0,0001}",
+"{1:NUMERICAL:=0,27:0,0001}",
+"{1:NUMERICAL:=0,73:0,0001}",
+"{1:NUMERICAL:=0,2117:0,0001}",
+"{1:NUMERICAL:=0,29:0,0001}",
+"{1:NUMERICAL:=0,8083:0,0001}",
 "{1:MC:~Richtig~=Falsch}"
 ]
 },
 {
-"einleitung":"In einem Sportgeschäft werden Hanteln aus Metall und Kunststoff angeboten. Zur Schonung der Handgelenke sind einige Hanteln zudem mit einem drehbaren Griff ausgestattet. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Eine Hantel ist aus Metall.<br>B: Eine Hantel hat einen drehbaren Griff.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,49 \\), dass \\( P(B) \\)\\( = \\)\\( 0,6536 \\) und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,9133 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"In einem Sportgeschäft werden Hanteln aus Metall und Kunststoff angeboten. Zur Schonung der Handgelenke sind einige Hanteln zudem mit einem drehbaren Griff ausgestattet. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Eine Hantel ist aus Metall.<br>B: Eine Hantel hat einen drehbaren Griff.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass eine Hantel aus Metall ist, 31% beträgt, dass die Wahrscheinlichkeit, dass eine Hantel einen drehbaren Griff hat, 36,98% beträgt und dass die Wahrscheinlichkeit, dass eine Hantel aus Metall ist und einen drehbaren Griff hat, 23,87% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"\\( P(\\overline{B}) \\).",
-"die Wahrscheinlichkeit, dass eine Hantel aus Metall ist und einen drehbaren Griff hat.",
-"die Wahrscheinlichkeit, dass eine Hantel mit drehbaren Griff aus Metall ist.",
-"die Wahrscheinlichkeit, dass eine Hantel mit drehbaren Griff aus Kunststoff ist.",
-"die Wahrscheinlichkeit, dass eine Hantel aus Kunststoff ist und einen drehbaren Griff hat.",
-"die Wahrscheinlichkeit, dass eine Kunststoffhantel einen drehbaren Griff hat.",
-"\\( P(\\overline{A}\\cup B) \\).",
+"die Wahrscheinlichkeit, dass eine Hantel keinen drehbaren Griff hat.",
+"die Wahrscheinlichkeit, dass eine Hantel aus Metall ist oder einen drehbaren Griff hat.",
+"die Wahrscheinlichkeit, dass eine Metallhantel einen drehbaren Griff hat.",
+"die Wahrscheinlichkeit, dass eine Metallhantel keinen drehbaren Griff hat.",
+"die Wahrscheinlichkeit, dass eine Hantel aus Metall ist und keinen drehbaren Griff hat.",
+"die Wahrscheinlichkeit, dass eine Hantel ohne drehbaren Griff aus Metall ist.",
+"\\( P(A\\cup\\overline{B}) \\).",
 "Überprüfen Sie die folgende Behauptung: Das Material einer Hantel beeinflusst die Art die Griffes."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,3464:0,0001}",
-"{1:NUMERICAL:=0,2303:0,0001}",
-"{1:NUMERICAL:=0,3524:0,0001}",
-"{1:NUMERICAL:=0,6476:0,0001}",
-"{1:NUMERICAL:=0,4233:0,0001}",
-"{1:NUMERICAL:=0,83:0,0001}",
-"{1:NUMERICAL:=0,7403:0,0001}",
+"{1:NUMERICAL:=0,6302:0,0001}",
+"{1:NUMERICAL:=0,4411:0,0001}",
+"{1:NUMERICAL:=0,77:0,0001}",
+"{1:NUMERICAL:=0,23:0,0001}",
+"{1:NUMERICAL:=0,0713:0,0001}",
+"{1:NUMERICAL:=0,1131:0,0001}",
+"{1:NUMERICAL:=0,8689:0,0001}",
 "{1:MC:~=Richtig~Falsch}"
 ]
 },
 {
-"einleitung":"Eine Fußballspielerin nimmt vor einigen Spielen Doping ein. Spiele können entweder gewonnen oder verloren werden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Sie gewinnt ein Spiel.<br>B: Sie dopt in einem Spiel.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,52 \\), dass \\( P(B) \\)\\( = \\)\\( 0,2 \\) und dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,104 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"\\( P(\\overline{A}) \\).",
-"die Wahrscheinlichkeit, dass sie ein Spiel gewinnt oder dopt.",
-"die Wahrscheinlichkeit, dass sie in einem gewonnenen Spiel gedopt hat.",
-"\\( P_A(\\overline{B}) \\).",
-"die Wahrscheinlichkeit, dass sie ein Spiel gewinnt und nicht dopt.",
-"\\( P_{\\overline{B}}(A) \\).",
-"die Wahrscheinlichkeit, dass sie ein Spiel gewinnt oder nicht dopt.",
-"Überprüfen Sie die folgende Behauptung: Doping hat keinen Einfluss auf die Leistung der Fußballspielerin."
-],
-"antworten":[
-"{1:NUMERICAL:=0,48:0,0001}",
-"{1:NUMERICAL:=0,616:0,0001}",
-"{1:NUMERICAL:=0,2:0,0001}",
-"{1:NUMERICAL:=0,8:0,0001}",
-"{1:NUMERICAL:=0,416:0,0001}",
-"{1:NUMERICAL:=0,52:0,0001}",
-"{1:NUMERICAL:=0,904:0,0001}",
-"{1:MC:~=Richtig~Falsch}"
-]
-},
-{
-"einleitung":"Ein Unternehmen stellt fest, ob seine Mitarbeiter im Home-Office oder in Präsenz arbeiten. Es gibt Voll- und Teilzeitkräfte. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Mitarbeiter arbeitet im Home-Office.<br>B: Ein Mitarbeiter arbeitet in Vollzeit.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Mitarbeiter im Home-Office arbeitet, 23% beträgt, dass die Wahrscheinlichkeit, dass ein Mitarbeiter vollzeit arbeitet, 59,14% beträgt und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,6535 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Eine Fußballspielerin nimmt vor einigen Spielen Doping ein. Spiele können entweder gewonnen oder verloren werden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Sie gewinnt ein Spiel.<br>B: Sie dopt in einem Spiel.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,03 \\), dass \\( P(B) \\)\\( = \\)\\( 0,2194 \\) und dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,006 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "\\( P(\\overline{B}) \\).",
+"\\( P(A\\cup B) \\).",
+"die Wahrscheinlichkeit, dass sie in einem gewonnenen Spiel gedopt hat.",
+"\\( P_A(\\overline{B}) \\).",
+"\\( P(A\\cap\\overline{B}) \\).",
+"\\( P_{\\overline{B}}(A) \\).",
+"die Wahrscheinlichkeit, dass sie ein Spiel gewinnt oder nicht dopt.",
+"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
+],
+"antworten":[
+"{1:NUMERICAL:=0,7806:0,0001}",
+"{1:NUMERICAL:=0,2434:0,0001}",
+"{1:NUMERICAL:=0,2:0,0001}",
+"{1:NUMERICAL:=0,8:0,0001}",
+"{1:NUMERICAL:=0,024:0,0001}",
+"{1:NUMERICAL:=0,0307:0,0001}",
+"{1:NUMERICAL:=0,7866:0,0001}",
+"{1:MC:~Richtig~=Falsch}"
+]
+},
+{
+"einleitung":"Ein Unternehmen stellt fest, ob seine Mitarbeiter im Home-Office oder in Präsenz arbeiten. Es gibt Voll- und Teilzeitkräfte. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Mitarbeiter arbeitet im Home-Office.<br>B: Ein Mitarbeiter arbeitet in Vollzeit.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Mitarbeiter im Home-Office arbeitet, 71% beträgt, dass die Wahrscheinlichkeit, dass ein Mitarbeiter vollzeit arbeitet, 83,24% beträgt und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,8608 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Wahrscheinlichkeit, dass ein Mitarbeiter teilzeit arbeitet.",
 "die Wahrscheinlichkeit, dass ein Mitarbeiter vollzeit und im Home-Office arbeitet.",
 "die Wahrscheinlichkeit, dass ein Mitarbeiter im Home-Office vollzeit arbeitet.",
 "die Wahrscheinlichkeit, dass ein Mitarbeiter im Home-Office teilzeit arbeitet.",
 "die Wahrscheinlichkeit, dass ein Mitarbeiter teilzeit und im Home-Office arbeitet.",
 "die Wahrscheinlichkeit, dass eine Teilzeitkraft im Home-Office arbeitet.",
 "\\( P(A\\cup\\overline{B}) \\).",
-"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch abhängig."
+"Überprüfen Sie die folgende Behauptung: Es gibt einen Zusammenhang zwischen der Arbeitsstätte und dem Umfang der Arbeitszeit."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,4086:0,0001}",
-"{1:NUMERICAL:=0,1679:0,0001}",
-"{1:NUMERICAL:=0,73:0,0001}",
-"{1:NUMERICAL:=0,27:0,0001}",
-"{1:NUMERICAL:=0,0621:0,0001}",
-"{1:NUMERICAL:=0,152:0,0001}",
-"{1:NUMERICAL:=0,5765:0,0001}",
+"{1:NUMERICAL:=0,1676:0,0001}",
+"{1:NUMERICAL:=0,6816:0,0001}",
+"{1:NUMERICAL:=0,96:0,0001}",
+"{1:NUMERICAL:=0,04:0,0001}",
+"{1:NUMERICAL:=0,0284:0,0001}",
+"{1:NUMERICAL:=0,1695:0,0001}",
+"{1:NUMERICAL:=0,8492:0,0001}",
 "{1:MC:~=Richtig~Falsch}"
 ]
 },
 {
-"einleitung":"Die Geschäftsleitung des Restaurants interessiert sich dafür, wie kinderfreundlich die konkurrierenden Restaurants der Stadt sind. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Restaurant hat einen Biergarten.<br>B: Ein Restaurant hat eine Spielecke.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Restaurant über einen Biergarten verfügt, 15% beträgt, dass die Wahrscheinlichkeit, dass ein Restaurant über eine Spielecke verfügt, 59% beträgt und dass die Wahrscheinlichkeit, dass ein Restaurant über einen Biergarten und eine Spielecke verfügt, 6,3% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Die Geschäftsleitung des Restaurants interessiert sich dafür, wie kinderfreundlich die konkurrierenden Restaurants der Stadt sind. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Restaurant hat einen Biergarten.<br>B: Ein Restaurant hat eine Spielecke.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,15 \\), dass die Wahrscheinlichkeit, dass ein Restaurant über eine Spielecke verfügt, 57% beträgt und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,6345 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"\\( P(\\overline{A}) \\).",
-"\\( P(A\\cup B) \\).",
-"die Wahrscheinlichkeit, dass ein Restaurant mit Biergarten über eine Spielecke verfügt.",
+"die Wahrscheinlichkeit, dass ein Restaurant über keine Spielecke verfügt.",
+"die Wahrscheinlichkeit, dass ein Restaurant über einen Biergarten und eine Spielecke verfügt.",
+"\\( P_A(B) \\).",
 "\\( P_A(\\overline{B}) \\).",
-"die Wahrscheinlichkeit, dass ein Restaurant über einen Biergarten aber über keine Spielecke verfügt.",
+"\\( P(A\\cap\\overline{B}) \\).",
 "die Wahrscheinlichkeit, dass ein Restaurant ohne Spielecke über einen Biergarten verfügt.",
 "\\( P(A\\cup\\overline{B}) \\).",
-"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
+"Überprüfen Sie die folgende Behauptung: Ob ein Restaurant einen Biergarten hat oder nicht, hat einen Einfluss darauf, ob es auch über eine Spielecke verfügt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,85:0,0001}",
-"{1:NUMERICAL:=0,677:0,0001}",
-"{1:NUMERICAL:=0,42:0,0001}",
-"{1:NUMERICAL:=0,58:0,0001}",
-"{1:NUMERICAL:=0,087:0,0001}",
-"{1:NUMERICAL:=0,2122:0,0001}",
-"{1:NUMERICAL:=0,473:0,0001}",
+"{1:NUMERICAL:=0,43:0,0001}",
+"{1:NUMERICAL:=0,0855:0,0001}",
+"{1:NUMERICAL:=0,57:0,0001}",
+"{1:NUMERICAL:=0,43:0,0001}",
+"{1:NUMERICAL:=0,0645:0,0001}",
+"{1:NUMERICAL:=0,15:0,0001}",
+"{1:NUMERICAL:=0,5155:0,0001}",
 "{1:MC:~Richtig~=Falsch}"
 ]
 },
 {
-"einleitung":"In einem Gartencenter wird konventionelle und nachhaltige Holzkohle angeboten. Beide Kohlearten sind als teure Originalprodukte oder günstige Nachahmerprodukte erhältlich. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde kauft nachhaltige Holzkohle.<br>B: Ein Kunde kauft ein Originalprodukt.</p> <p>Es ist bekannt, dass \\( P(B) \\)\\( = \\)\\( 0,0448 \\), dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,0013 \\) und dass die Wahrscheinlichkeit, dass ein Kunde nachhaltige Holzkohle oder ein Originalprodukt kauft, 17,35% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"In einem Gartencenter wird konventionelle und nachhaltige Holzkohle angeboten. Beide Kohlearten sind als teure Originalprodukte oder günstige Nachahmerprodukte erhältlich. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde kauft nachhaltige Holzkohle.<br>B: Ein Kunde kauft ein Originalprodukt.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,72 \\), dass \\( P(B) \\)\\( = \\)\\( 0,704 \\) und dass die Wahrscheinlichkeit, dass ein Kunde nachhaltige Holzkohle oder ein Originalprodukt kauft, 82,64% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"\\( P(\\overline{B}) \\).",
-"\\( P(A) \\).",
-"die Wahrscheinlichkeit, dass ein gekauftes Originalprodukt nachhaltig ist.",
-"die Wahrscheinlichkeit, dass ein gekauftes Originalprodukt konventionell ist.",
-"die Wahrscheinlichkeit, dass ein Kunde ein konventionelles Originalprodukt kauft.",
-"\\( P_{\\overline{A}}(B) \\).",
-"\\( P(\\overline{A}\\cup B) \\).",
+"die Wahrscheinlichkeit, dass ein Kunde ein Nachahmerprodukt kauft.",
+"\\( P(A\\cap B) \\).",
+"die Wahrscheinlichkeit, dass gekaufte nachhaltige Holzkohle ein Originalprodukt ist.",
+"die Wahrscheinlichkeit, dass gekaufte nachhaltige Holzkohle ein Nachahmerprodukt ist.",
+"die Wahrscheinlichkeit, dass ein Kunde ein nachhaltiges Nachahmerprodukt kauft.",
+"\\( P_{\\overline{B}}(A) \\).",
+"\\( P(A\\cup\\overline{B}) \\).",
 "Überprüfen Sie die folgende Behauptung: Die Ökobilanz der gekauften Holzkohle hat einen Effekt darauf, ob es sich um Original- oder Nachahmerprodukt handelt."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,9552:0,0001}",
-"{1:NUMERICAL:=0,13:0,0001}",
-"{1:NUMERICAL:=0,029:0,0001}",
-"{1:NUMERICAL:=0,971:0,0001}",
-"{1:NUMERICAL:=0,0435:0,0001}",
-"{1:NUMERICAL:=0,05:0,0001}",
-"{1:NUMERICAL:=0,8713:0,0001}",
-"{1:MC:~=Richtig~Falsch}"
-]
-},
-{
-"einleitung":"Ein Geschäft für Heimwerkerbedarf bietet Wandfarbe in den Farben weiß und beige an, jeweils entweder matt oder glänzend. Genau ein Produkt ist im Sonderangebot. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Weiße Farbe ist im Sonderangebot.<br>B: Matte Farbe ist im Sonderangebot.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,8 \\), dass \\( P(B) \\)\\( = \\)\\( 0,532 \\) und dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,456 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"\\( P(\\overline{B}) \\).",
-"\\( P(A\\cup B) \\).",
-"\\( P_B(A) \\).",
-"die Wahrscheinlichkeit, dass matte Farbe im Sonderangebot beige ist.",
-"\\( P(\\overline{A}\\cap B) \\).",
-"die Wahrscheinlichkeit, dass beige Farbe im Sonderangebot matt ist.",
-"\\( P(\\overline{A}\\cup B) \\).",
-"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
-],
-"antworten":[
-"{1:NUMERICAL:=0,468:0,0001}",
-"{1:NUMERICAL:=0,876:0,0001}",
-"{1:NUMERICAL:=0,8571:0,0001}",
-"{1:NUMERICAL:=0,1429:0,0001}",
-"{1:NUMERICAL:=0,076:0,0001}",
-"{1:NUMERICAL:=0,38:0,0001}",
-"{1:NUMERICAL:=0,656:0,0001}",
-"{1:MC:~Richtig~=Falsch}"
-]
-},
-{
-"einleitung":"Personen werden damit erpresst, dass Hacker angeblich Mitschnitte einer Webcam besitzen, die die Person beim Pornokonsum zeigt. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Opfer ist minderjährig.<br>B: Ein Opfer alarmiert die Polizei.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Opfer minderjährig ist, 83% beträgt, dass \\( P(B) \\)\\( = \\)\\( 0,3 \\) und dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,249 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"\\( P(\\overline{A}) \\).",
-"\\( P(A\\cup B) \\).",
-"die Wahrscheinlichkeit, dass ein Opfer, das die Polizei alarmiert, minderjährig ist.",
-"\\( P_B(\\overline{A}) \\).",
-"\\( P(\\overline{A}\\cap B) \\).",
-"die Wahrscheinlichkeit, dass ein erwachsenes Opfer die Polizei alarmiert.",
-"die Wahrscheinlichkeit, dass ein Opfer erwachsen ist oder die Polizei alarmiert.",
-"Überprüfen Sie die folgende Behauptung: Das Alter des Opfers hat keine Auswirkung darauf, ob die Polizei alarmiert wird."
-],
-"antworten":[
-"{1:NUMERICAL:=0,17:0,0001}",
-"{1:NUMERICAL:=0,881:0,0001}",
+"{1:NUMERICAL:=0,296:0,0001}",
+"{1:NUMERICAL:=0,5976:0,0001}",
 "{1:NUMERICAL:=0,83:0,0001}",
 "{1:NUMERICAL:=0,17:0,0001}",
-"{1:NUMERICAL:=0,051:0,0001}",
-"{1:NUMERICAL:=0,3:0,0001}",
-"{1:NUMERICAL:=0,419:0,0001}",
+"{1:NUMERICAL:=0,1224:0,0001}",
+"{1:NUMERICAL:=0,4135:0,0001}",
+"{1:NUMERICAL:=0,8936:0,0001}",
 "{1:MC:~=Richtig~Falsch}"
 ]
 },
 {
-"einleitung":"In einer Glaserei können bei der Produktion von hochwertigen Weingläsern zwei Fehler auftreten: Risse und Blaseneinschlüsse. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Glas hat einen Riss.<br>B: Ein Glas hat einen Blaseneinschluss.</p> <p>Es ist bekannt, dass \\( P(B) \\)\\( = \\)\\( 0,4942 \\), dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,4482 \\) und dass die Wahrscheinlichkeit, dass ein Glas mindestens einen Fehler aufweist, 58,6% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Ein Geschäft für Heimwerkerbedarf bietet Wandfarbe in den Farben weiß und beige an, jeweils entweder matt oder glänzend. Genau ein Produkt ist im Sonderangebot. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Weiße Farbe ist im Sonderangebot.<br>B: Matte Farbe ist im Sonderangebot.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,62 \\), dass \\( P(B) \\)\\( = \\)\\( 0,8168 \\) und dass die Wahrscheinlichkeit, dass weiße oder matte Farbe im Sonderangebot ist, 89,74% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"die Wahrscheinlichkeit, dass ein Glas keinen Blaseneinschluss hat.",
-"die Wahrscheinlichkeit, dass ein Glas einen Riss hat.",
-"\\( P_A(B) \\).",
-"die Wahrscheinlichkeit, dass ein Glas mit Riss keinen Blaseneinschluss hat.",
-"die Wahrscheinlichkeit, dass ein Glas einen Riss aber keinen Blaseneinschluss hat.",
+"die Wahrscheinlichkeit, dass glänzende Farbe im Sonderangebot ist.",
+"die Wahrscheinlichkeit, dass weiße, matte Farbe im Sonderangebot ist.",
+"die Wahrscheinlichkeit, dass weiße Farbe im Sonderangebot matt ist.",
+"die Wahrscheinlichkeit, dass weiße Farbe im Sonderangebot glänzend ist.",
+"die Wahrscheinlichkeit, dass weiße, glänzende Farbe im Sonderangebot ist.",
+"die Wahrscheinlichkeit, dass glänzende Farbe im Sonderangebot weiß ist.",
+"die Wahrscheinlichkeit, dass weiße oder glänzende Farbe im Sonderangebot ist.",
+"Überprüfen Sie die folgende Behauptung: Ob sich eine weiße oder beige Farbe im Sonderangebot befindet, hat eine Auswirkung darauf, ob die Farbe matt oder glänzend ist."
+],
+"antworten":[
+"{1:NUMERICAL:=0,1832:0,0001}",
+"{1:NUMERICAL:=0,5394:0,0001}",
+"{1:NUMERICAL:=0,87:0,0001}",
+"{1:NUMERICAL:=0,13:0,0001}",
+"{1:NUMERICAL:=0,0806:0,0001}",
+"{1:NUMERICAL:=0,44:0,0001}",
+"{1:NUMERICAL:=0,7226:0,0001}",
+"{1:MC:~=Richtig~Falsch}"
+]
+},
+{
+"einleitung":"Personen werden damit erpresst, dass Hacker angeblich Mitschnitte einer Webcam besitzen, die die Person beim Pornokonsum zeigt. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Opfer ist minderjährig.<br>B: Ein Opfer alarmiert die Polizei.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Opfer minderjährig ist, 34% beträgt, dass \\( P(B) \\)\\( = \\)\\( 0,597 \\) und dass die Wahrscheinlichkeit, dass ein Opfer minderjährig ist oder die Polizei alarmiert, 83,5% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Wahrscheinlichkeit, dass ein Opfer nicht die Polizei alarmiert.",
+"\\( P(A\\cap B) \\).",
+"die Wahrscheinlichkeit, dass ein minderjähriges Opfer die Polizei alarmiert.",
+"\\( P_A(\\overline{B}) \\).",
+"die Wahrscheinlichkeit, dass ein Opfer minderjährig ist und nicht die Polizei alarmiert.",
 "\\( P_{\\overline{B}}(A) \\).",
 "\\( P(A\\cup\\overline{B}) \\).",
-"Überprüfen Sie die folgende Behauptung: Die beiden Fehler hängen nicht voneinander ab."
-],
-"antworten":[
-"{1:NUMERICAL:=0,5058:0,0001}",
-"{1:NUMERICAL:=0,54:0,0001}",
-"{1:NUMERICAL:=0,83:0,0001}",
-"{1:NUMERICAL:=0,17:0,0001}",
-"{1:NUMERICAL:=0,0918:0,0001}",
-"{1:NUMERICAL:=0,1815:0,0001}",
-"{1:NUMERICAL:=0,954:0,0001}",
-"{1:MC:~Richtig~=Falsch}"
-]
-},
-{
-"einleitung":"Amalia sucht auf einer Online-Partnerbörse den Mann fürs Leben. Neben der äußerlichen Attraktivität ist es für sie wichtig, dass ihr Partner nicht raucht. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein vorgeschlagener Partner ist attraktiv.<br>B: Ein vorgeschlagener Partner raucht.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein vorgeschlagener Partner attraktiv ist, 20% beträgt, dass die Wahrscheinlichkeit, dass ein vorgeschlagener Partner raucht, 12% beträgt und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,296 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"die Wahrscheinlichkeit, dass ein vorgeschlagener Partner nicht raucht.",
-"\\( P(A\\cap B) \\).",
-"die Wahrscheinlichkeit, dass ein vorgeschlagener Raucher attraktiv ist.",
-"die Wahrscheinlichkeit, dass ein vorgeschlagener Raucher unattraktiv ist.",
-"\\( P(\\overline{A}\\cap B) \\).",
-"die Wahrscheinlichkeit, dass ein vorgeschlagener, unattraktiver Partner raucht.",
-"\\( P(\\overline{A}\\cup B) \\).",
 "Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch abhängig."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,88:0,0001}",
-"{1:NUMERICAL:=0,024:0,0001}",
-"{1:NUMERICAL:=0,2:0,0001}",
-"{1:NUMERICAL:=0,8:0,0001}",
-"{1:NUMERICAL:=0,096:0,0001}",
-"{1:NUMERICAL:=0,12:0,0001}",
-"{1:NUMERICAL:=0,824:0,0001}",
+"{1:NUMERICAL:=0,403:0,0001}",
+"{1:NUMERICAL:=0,102:0,0001}",
+"{1:NUMERICAL:=0,3:0,0001}",
+"{1:NUMERICAL:=0,7:0,0001}",
+"{1:NUMERICAL:=0,238:0,0001}",
+"{1:NUMERICAL:=0,5906:0,0001}",
+"{1:NUMERICAL:=0,505:0,0001}",
+"{1:MC:~=Richtig~Falsch}"
+]
+},
+{
+"einleitung":"In einer Glaserei können bei der Produktion von hochwertigen Weingläsern zwei Fehler auftreten: Risse und Blaseneinschlüsse. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Glas hat einen Riss.<br>B: Ein Glas hat einen Blaseneinschluss.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Glas einen Blaseneinschluss hat, 7,04% beträgt, dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,0032 \\) und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,1072 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Wahrscheinlichkeit, dass ein Glas keinen Blaseneinschluss hat.",
+"\\( P(A) \\).",
+"\\( P_A(B) \\).",
+"\\( P_A(\\overline{B}) \\).",
+"die Wahrscheinlichkeit, dass ein Glas einen Riss aber keinen Blaseneinschluss hat.",
+"\\( P_{\\overline{B}}(A) \\).",
+"\\( P(A\\cup\\overline{B}) \\).",
+"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
+],
+"antworten":[
+"{1:NUMERICAL:=0,9296:0,0001}",
+"{1:NUMERICAL:=0,04:0,0001}",
+"{1:NUMERICAL:=0,08:0,0001}",
+"{1:NUMERICAL:=0,92:0,0001}",
+"{1:NUMERICAL:=0,0368:0,0001}",
+"{1:NUMERICAL:=0,0396:0,0001}",
+"{1:NUMERICAL:=0,9328:0,0001}",
 "{1:MC:~Richtig~=Falsch}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen produziert Smartwatches, die vor dem Verkauf durch ein automatisiertes Verfahren ausgiebig getestet werden. Smartwatches mit Fehlern werden aussortiert. Allerdings kommt es auch vor, dass einige fehlerfreie Smartwatches aussortiert werden und dass einige fehlerbehaftete Smartwatches nicht aussortiert werden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Eine Smartwatch ist fehlerfrei.<br>B: Eine Smartwatch wird aussortiert.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,26 \\), dass die Wahrscheinlichkeit, dass eine Smartwatch aussortiert wird, 50% beträgt und dass die Wahrscheinlichkeit, dass eine Smartwatch fehlerfrei ist und aussortiert wird, 13% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Amalia sucht auf einer Online-Partnerbörse den Mann fürs Leben. Neben der äußerlichen Attraktivität ist es für sie wichtig, dass ihr Partner nicht raucht. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein vorgeschlagener Partner ist attraktiv.<br>B: Ein vorgeschlagener Partner raucht.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,2 \\), dass \\( P(B) \\)\\( = \\)\\( 0,27 \\) und dass die Wahrscheinlichkeit, dass ein vorgeschlagener Partner attraktiv ist oder raucht, 41,6% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Wahrscheinlichkeit, dass ein vorgeschlagener Partner nicht raucht.",
+"die Wahrscheinlichkeit, dass ein vorgeschlagener Partner ein attraktiver Raucher ist.",
+"\\( P_B(A) \\).",
+"\\( P_B(\\overline{A}) \\).",
+"\\( P(\\overline{A}\\cap B) \\).",
+"die Wahrscheinlichkeit, dass ein vorgeschlagener, unattraktiver Partner raucht.",
+"\\( P(\\overline{A}\\cup B) \\).",
+"Überprüfen Sie die folgende Behauptung: Es gibt einen Zusammenhang zwischen der Attraktivität eines vorgeschlagenen Rauchers und seinem Rauchverhalten."
+],
+"antworten":[
+"{1:NUMERICAL:=0,73:0,0001}",
+"{1:NUMERICAL:=0,054:0,0001}",
+"{1:NUMERICAL:=0,2:0,0001}",
+"{1:NUMERICAL:=0,8:0,0001}",
+"{1:NUMERICAL:=0,216:0,0001}",
+"{1:NUMERICAL:=0,27:0,0001}",
+"{1:NUMERICAL:=0,854:0,0001}",
+"{1:MC:~Richtig~=Falsch}"
+]
+},
+{
+"einleitung":"Ein Unternehmen produziert Smartwatches, die vor dem Verkauf durch ein automatisiertes Verfahren ausgiebig getestet werden. Smartwatches mit Fehlern werden aussortiert. Allerdings kommt es auch vor, dass einige fehlerfreie Smartwatches aussortiert werden und dass einige fehlerbehaftete Smartwatches nicht aussortiert werden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Eine Smartwatch ist fehlerfrei.<br>B: Eine Smartwatch wird aussortiert.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass eine Smartwatch aussortiert wird, 91,1% beträgt, dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,0465 \\) und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,9145 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Wahrscheinlichkeit, dass eine Smartwatch nicht aussortiert wird.",
-"die Wahrscheinlichkeit, dass eine Smartwatch fehlerfrei ist oder aussortiert wird.",
-"die Wahrscheinlichkeit, dass eine fehlerfreie Smartwatch aussortiert wird.",
+"die Wahrscheinlichkeit, dass eine Smartwatch fehlerfrei ist.",
+"\\( P_A(B) \\).",
 "die Wahrscheinlichkeit, dass eine fehlerfreie Smartwatch nicht aussortiert wird.",
-"die Wahrscheinlichkeit, dass eine Smartwatch fehlerfrei ist und nicht aussortiert wird.",
+"\\( P(A\\cap\\overline{B}) \\).",
 "die Wahrscheinlichkeit, dass eine nicht aussortierte Smartwatch fehlerfrei ist.",
 "\\( P(A\\cup\\overline{B}) \\).",
 "Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,5:0,0001}",
-"{1:NUMERICAL:=0,63:0,0001}",
-"{1:NUMERICAL:=0,5:0,0001}",
-"{1:NUMERICAL:=0,5:0,0001}",
-"{1:NUMERICAL:=0,13:0,0001}",
-"{1:NUMERICAL:=0,26:0,0001}",
-"{1:NUMERICAL:=0,63:0,0001}",
-"{1:MC:~=Richtig~Falsch}"
+"{1:NUMERICAL:=0,089:0,0001}",
+"{1:NUMERICAL:=0,05:0,0001}",
+"{1:NUMERICAL:=0,93:0,0001}",
+"{1:NUMERICAL:=0,07:0,0001}",
+"{1:NUMERICAL:=0,0035:0,0001}",
+"{1:NUMERICAL:=0,0393:0,0001}",
+"{1:NUMERICAL:=0,1355:0,0001}",
+"{1:MC:~Richtig~=Falsch}"
 ]
 },
 {
-"einleitung":"Der Besitzer einer Imbissbude interessiert sich dafür, in welchen Größen Pommes bestellt werden und ob die Pommes mit Ketchup oder Mayonnaise bestellt wird. Es gibt nur große und kleine Pommes. Zudem wird jede Pommes mit Ketchup oder Mayonnaise bestellt. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Es wird eine große Pommes bestellt.<br>B: Es wird eine Pommes mit Ketchup bestellt.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,11 \\), dass \\( P(B) \\)\\( = \\)\\( 0,0276 \\) und dass die Wahrscheinlichkeit, dass eine große Pommes mit Ketchup bestellt wird, 1,87% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Der Besitzer einer Imbissbude interessiert sich dafür, in welchen Größen Pommes bestellt werden und ob die Pommes mit Ketchup oder Mayonnaise bestellt wird. Es gibt nur große und kleine Pommes. Zudem wird jede Pommes mit Ketchup oder Mayonnaise bestellt. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Es wird eine große Pommes bestellt.<br>B: Es wird eine Pommes mit Ketchup bestellt.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass eine große Pommes bestellt wird, 93% beträgt, dass die Wahrscheinlichkeit, dass eine Pommes mit Ketchup bestellt wird, 92,17% beträgt und dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,9021 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "\\( P(\\overline{B}) \\).",
 "die Wahrscheinlichkeit, dass eine große Pommes oder eine Pommes mit Ketchup bestellt wird.",
-"\\( P_B(A) \\).",
-"\\( P_B(\\overline{A}) \\).",
-"\\( P(\\overline{A}\\cap B) \\).",
-"die Wahrscheinlichkeit, dass die Bestellung einer kleinen Pommes mit Ketchup ist.",
-"die Wahrscheinlichkeit, dass eine kleine Pommes oder eine Pommes mit Ketchup bestellt wird.",
-"Überprüfen Sie die folgende Behauptung: Es gibt einen Zusammenhang zwischen der Größe einer bestellten Pommes und dem gewünschte Dressing."
+"\\( P_A(B) \\).",
+"die Wahrscheinlichkeit, dass die Bestellung einer großen Pommes mit Mayonnaise ist.",
+"die Wahrscheinlichkeit, dass eine große Pommes mit Mayonnaise bestellt wird.",
+"\\( P_{\\overline{B}}(A) \\).",
+"die Wahrscheinlichkeit, dass eine große Pommes oder eine Pommes mit Mayonnaise bestellt wird.",
+"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch unabhängig."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,9724:0,0001}",
-"{1:NUMERICAL:=0,1189:0,0001}",
-"{1:NUMERICAL:=0,6775:0,0001}",
-"{1:NUMERICAL:=0,3225:0,0001}",
-"{1:NUMERICAL:=0,0089:0,0001}",
-"{1:NUMERICAL:=0,01:0,0001}",
-"{1:NUMERICAL:=0,9087:0,0001}",
-"{1:MC:~=Richtig~Falsch}"
+"{1:NUMERICAL:=0,0783:0,0001}",
+"{1:NUMERICAL:=0,9496:0,0001}",
+"{1:NUMERICAL:=0,97:0,0001}",
+"{1:NUMERICAL:=0,03:0,0001}",
+"{1:NUMERICAL:=0,0279:0,0001}",
+"{1:NUMERICAL:=0,3563:0,0001}",
+"{1:NUMERICAL:=0,9804:0,0001}",
+"{1:MC:~Richtig~=Falsch}"
 ]
 },
 {
-"einleitung":"Ein Unternehmen verkauft neue und gebrauchte Beamer. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde kauft Neuware.<br>B: Ein Kunde reklamiert das Produkt.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Kunde Neuware kauft, 73% beträgt, dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,5767 \\) und dass die Wahrscheinlichkeit, dass ein Kunde Neuware kauft oder die Ware reklamiert, 94,33% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Ein Unternehmen verkauft neue und gebrauchte Beamer. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Kunde kauft Neuware.<br>B: Ein Kunde reklamiert das Produkt.</p> <p>Es ist bekannt, dass \\( P(A) \\)\\( = \\)\\( 0,39 \\), dass die Wahrscheinlichkeit, dass ein Kunde ein Produkt reklamiert, 46,76% beträgt und dass die Wahrscheinlichkeit, dass ein Kunde Neuware kauft und diese reklamiert, 38,22% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
-"\\( P(\\overline{A}) \\).",
-"\\( P(B) \\).",
+"\\( P(\\overline{B}) \\).",
+"die Wahrscheinlichkeit, dass ein Kunde Neuware kauft oder die Ware reklamiert.",
 "die Wahrscheinlichkeit, dass ein Kunde Neuware reklamiert.",
 "\\( P_A(\\overline{B}) \\).",
 "\\( P(A\\cap\\overline{B}) \\).",
-"\\( P_{\\overline{B}}(A) \\).",
+"die Wahrscheinlichkeit, dass eine nicht reklamierte Ware neu ist.",
 "\\( P(A\\cup\\overline{B}) \\).",
 "Überprüfen Sie die folgende Behauptung: Ob es sich bei einem Produkt um Neu- oder Gebrauchtware handelt, hat keinen Einfluss darauf, ob es reklamiert wird."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,27:0,0001}",
-"{1:NUMERICAL:=0,79:0,0001}",
-"{1:NUMERICAL:=0,79:0,0001}",
-"{1:NUMERICAL:=0,21:0,0001}",
-"{1:NUMERICAL:=0,1533:0,0001}",
-"{1:NUMERICAL:=0,73:0,0001}",
-"{1:NUMERICAL:=0,7867:0,0001}",
-"{1:MC:~=Richtig~Falsch}"
+"{1:NUMERICAL:=0,5324:0,0001}",
+"{1:NUMERICAL:=0,4754:0,0001}",
+"{1:NUMERICAL:=0,98:0,0001}",
+"{1:NUMERICAL:=0,02:0,0001}",
+"{1:NUMERICAL:=0,0078:0,0001}",
+"{1:NUMERICAL:=0,0147:0,0001}",
+"{1:NUMERICAL:=0,9146:0,0001}",
+"{1:MC:~Richtig~=Falsch}"
 ]
 },
 {
-"einleitung":"Eine Influencerin stellt ihren Followern zwei neue Lippenstifte vor: Ambition und Bonny. Sie möchte von ihren Followern wissen, wie sie die beiden Lippenstifte finden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Einem Follower gefällt Ambition.<br>B: Einem Follower gefällt Bonny.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass einem Follower Ambition gefällt, 10% beträgt, dass \\( P(B) \\)\\( = \\)\\( 0,4 \\) und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,46 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"einleitung":"Eine Influencerin stellt ihren Followern zwei neue Lippenstifte vor: Ambition und Bonny. Sie möchte von ihren Followern wissen, wie sie die beiden Lippenstifte finden. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Einem Follower gefällt Ambition.<br>B: Einem Follower gefällt Bonny.</p> <p>Es ist bekannt, dass \\( P(B) \\)\\( = \\)\\( 0,18 \\), dass \\( P(A\\cap B) \\)\\( = \\)\\( 0,063 \\) und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,467 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
 "fragen":[
 "die Wahrscheinlichkeit, dass einem Follower Bonny nicht gefällt.",
-"\\( P(A\\cap B) \\).",
+"\\( P(A) \\).",
 "\\( P_A(B) \\).",
-"die Wahrscheinlichkeit, dass einem Follower, dem Ambition gefällt, Bonny nicht gefällt.",
-"\\( P(A\\cap\\overline{B}) \\).",
+"\\( P_A(\\overline{B}) \\).",
+"die Wahrscheinlichkeit, dass einem Follower Ambition gefällt, Bonny aber nicht.",
 "\\( P_{\\overline{B}}(A) \\).",
-"\\( P(A\\cup\\overline{B}) \\).",
-"Überprüfen Sie die folgende Behauptung: Ob einem Follower Ambition gefällt, keinen Einfluss darauf, ob ihm auch Bonny gefällt."
-],
-"antworten":[
-"{1:NUMERICAL:=0,6:0,0001}",
-"{1:NUMERICAL:=0,04:0,0001}",
-"{1:NUMERICAL:=0,4:0,0001}",
-"{1:NUMERICAL:=0,6:0,0001}",
-"{1:NUMERICAL:=0,06:0,0001}",
-"{1:NUMERICAL:=0,1:0,0001}",
-"{1:NUMERICAL:=0,64:0,0001}",
-"{1:MC:~=Richtig~Falsch}"
-]
-},
-{
-"einleitung":"Ein Lebensmittelkonzern verschafft sich einen Überblick darüber, welche seiner Produkte biologisch und regional sind. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Produkt ist biologisch.<br>B: Ein Produkt ist regional.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Produkt biologisch ist, 76% beträgt, dass die Wahrscheinlichkeit, dass ein Produkt biologisch und regional ist, 7,6% beträgt und dass die Wahrscheinlichkeit, dass ein Produkt biologisch oder regional ist, 90,88% beträgt.</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
-"fragen":[
-"\\( P(\\overline{A}) \\).",
-"\\( P(B) \\).",
-"\\( P_B(A) \\).",
-"die Wahrscheinlichkeit, dass ein regionales Produkt nicht biologisch ist.",
-"\\( P(\\overline{A}\\cap B) \\).",
-"die Wahrscheinlichkeit, dass ein Produkt, das nicht biologisch ist, aus der Region stammt.",
-"die Wahrscheinlichkeit, dass ein Produkt nicht biologisch oder regional ist.",
+"die Wahrscheinlichkeit, dass einem Follower Ambition gefällt oder Bonny nicht gefällt.",
 "Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch abhängig."
 ],
 "antworten":[
-"{1:NUMERICAL:=0,24:0,0001}",
-"{1:NUMERICAL:=0,2248:0,0001}",
-"{1:NUMERICAL:=0,3381:0,0001}",
-"{1:NUMERICAL:=0,6619:0,0001}",
-"{1:NUMERICAL:=0,1488:0,0001}",
-"{1:NUMERICAL:=0,62:0,0001}",
-"{1:NUMERICAL:=0,316:0,0001}",
+"{1:NUMERICAL:=0,82:0,0001}",
+"{1:NUMERICAL:=0,35:0,0001}",
+"{1:NUMERICAL:=0,18:0,0001}",
+"{1:NUMERICAL:=0,82:0,0001}",
+"{1:NUMERICAL:=0,287:0,0001}",
+"{1:NUMERICAL:=0,35:0,0001}",
+"{1:NUMERICAL:=0,883:0,0001}",
+"{1:MC:~Richtig~=Falsch}"
+]
+},
+{
+"einleitung":"Ein Lebensmittelkonzern verschafft sich einen Überblick darüber, welche seiner Produkte biologisch und regional sind. In diesem Zusammenhang werden die folgenden Ereignisse betrachtet.</p> <p>A: Ein Produkt ist biologisch.<br>B: Ein Produkt ist regional.</p> <p>Es ist bekannt, dass die Wahrscheinlichkeit, dass ein Produkt biologisch ist, 42% beträgt, dass \\( P(B) \\)\\( = \\)\\( 0,6144 \\) und dass \\( P(A\\cup B) \\)\\( = \\)\\( 0,8202 \\).</p> <p>Berechnen Sie (auf 4 NKS gerundet)",
+"fragen":[
+"die Wahrscheinlichkeit, dass ein Produkt nicht aus der Region stammt.",
+"die Wahrscheinlichkeit, dass ein Produkt biologisch und regional ist.",
+"die Wahrscheinlichkeit, dass ein regionales Produkt biologisch ist.",
+"\\( P_B(\\overline{A}) \\).",
+"\\( P(\\overline{A}\\cap B) \\).",
+"die Wahrscheinlichkeit, dass ein Produkt, das nicht biologisch ist, aus der Region stammt.",
+"\\( P(\\overline{A}\\cup B) \\).",
+"Überprüfen Sie die folgende Behauptung: Die Ereignisse A und B sind stochastisch abhängig."
+],
+"antworten":[
+"{1:NUMERICAL:=0,3856:0,0001}",
+"{1:NUMERICAL:=0,2142:0,0001}",
+"{1:NUMERICAL:=0,3486:0,0001}",
+"{1:NUMERICAL:=0,6514:0,0001}",
+"{1:NUMERICAL:=0,4002:0,0001}",
+"{1:NUMERICAL:=0,69:0,0001}",
+"{1:NUMERICAL:=0,7942:0,0001}",
 "{1:MC:~=Richtig~Falsch}"
 ]
 }
