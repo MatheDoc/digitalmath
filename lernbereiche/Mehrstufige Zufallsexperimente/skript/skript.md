@@ -1,4 +1,5 @@
 ## Einführung
+
 Wenn mehrere Zufallsexperimente nacheinander durchgeführt werden, sprechen wir von einem mehrstufigen Zufallsexperiment. Zu übersichtlichen Darstellung nutzen wir häufig Baumdiagramme. Für jede Stufe des Zufallsexperiments werden die Ergebnisse des einzelnen Zufallsexperiments als Knotenpunkte notiert. Die Stufen werden dann durch Pfade miteinander verbunden. Ein Ergebnis des mehrstufigen Zufallsexperiment entspricht dann einem vollständigen Pfad im Baumdiagramm. An den einzelnen Pfaden stehen die entsprechenden Wahrscheinlichkeiten. Es gibt zwei wichtige Regeln:
 
 * **Pfadmultiplikationsregel:** Die Wahrscheinlichkeit eines Ergebnisses ist das Produkt der Wahrscheinlichkeiten entlang des entsprechenden Pfades.
@@ -6,11 +7,10 @@ Wenn mehrere Zufallsexperimente nacheinander durchgeführt werden, sprechen wir 
 
 Da generell die Summe aller Wahrscheinlichkeiten eines Zufallsexperiments immer gleich 1 ist, ist auch Summe der Wahrscheinlichkeiten aller Pfade, die von einem Knotenpunkt starten, gleich 1. Ebenso ist auch die Summe der Endwahrscheinlichkeiten gleich 1.
 
-
-
 ### Beispiele
 
 #### Zweimaliger Münzwurf mit Beachtung der Reihenfolge
+
 Da Kopf ($K$) und Zahl ($Z$) treten bei einem einmaligen Wurf beide mit einer Wahrscheinlichkeit von 50&nbsp;\% auf. Daraus ergibt sich
 <figure>
   <img src="münze2x.png">
@@ -25,9 +25,10 @@ P(E)&=P(\\{KK\\})+P(\\{ZZ\\})\\\\
 \end{align*}
 
 #### Jugendliche auf dem Weg zu Schule
+
 Baumdiagramme eignen sich vor allem dazu, kompliziertere Zufallsexperimente zu veranschaulichen:
 
-Es ist bekannt, dass 4,7&nbsp;\% aller Jugendlichen aus unterschiedlichen Gründen nicht zur Schule kommen und zu Hause bleiben ($H$). Vier Fünftel werden kommen selbstständig ($S$) zur Schule, die übrigen werden von ihren Eltern ($E$) gebracht. Von denjenigen, die selbstständig zur Schule kommen, nutzen 30&nbsp;\% das Fahrrad ($F$), 23&nbsp;\% das Auto ($A$), 12&nbsp;\% gehen zu Fuß ($G$) und die restlichen Schülerinnen und Schüler benutzen den öffentlichen Personennahverkehr (Ö). 
+Es ist bekannt, dass 4,7&nbsp;\% aller Jugendlichen aus unterschiedlichen Gründen nicht zur Schule kommen und zu Hause bleiben ($H$). Vier Fünftel werden kommen selbstständig ($S$) zur Schule, die übrigen werden von ihren Eltern ($E$) gebracht. Von denjenigen, die selbstständig zur Schule kommen, nutzen 30&nbsp;\% das Fahrrad ($F$), 23&nbsp;\% das Auto ($A$), 12&nbsp;\% gehen zu Fuß ($G$) und die restlichen Schülerinnen und Schüler benutzen den öffentlichen Personennahverkehr (Ö).
 Alle Jugendlichen, die den Großteil ihres Schulwegs an der frischen Luft verbringen, sind in der ersten Unterrichtsstunde wach ($W$). Bei den mit dem Auto gebrachten Jugendlichen ist es lediglich ein Viertel, bei den Nutzern des öffentlichen Personennahverkehrs immerhin noch die Hälfte.
 Von den Jugendlichen, die von ihren Eltern zur Schule gebracht werden, ist nur jeder 10. wach.
 
@@ -44,11 +45,11 @@ P(E)&=P(\\{E\overline{W}\\})+P(\\{SA\overline{W}\\})+P(\\{SÖ\overline{W}\\})\\\
 &=0{,}4157.
 \end{align*}
 
-
 <!--#### Achtung bei Prozentzahlen
 Verwenden wir für die Pfadwahrscheinlichkeiten die Prozentschreibweise, so müssen wir darauf achten, die Prozentzahlen korrekt zu multiplizieren. Im Fall eines zweimaligen Münzwurfs ohne Beachtung der Reihenfolge gilt ja bekanntlich auf jedem Pfad $0,5\cdot 0,5=0,25$. Wir erinnern daran, dass aber $50\\%\cdot 50\\% \neq 2500\\%$ ist.-->
 
 ### Mehrstufige Zufallsexperimente mit zwei Ereignissen
+
 Häufig liegt eine Situation vor, in der zwei Ereignisse $A$ und $B$ und deren Gegenereignisse auftreten. Das Baumdiagramm hat dann die Gestalt
  <figure>
   <img src="BaumAB.png">
@@ -73,6 +74,7 @@ Häufig stehen wir vor der Aufgabe, ein teilweise ausgefülltes Baumdiagramm zu 
 Pfadregeln geschickt an.
 
 #### Beispiel 1
+
 Gegeben ist das folgende Baumdiagramm:
  <figure>
   <img src="Baum1.png">
@@ -80,6 +82,7 @@ Gegeben ist das folgende Baumdiagramm:
 Die Wahrscheinlichkeit 4 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $0{,}2\cdot x = 0{,}06$ $\Rightarrow$ $x=0{,}3$. Dann kann suksessive das Baumdiagramm vervollständigt werden.
 
 #### Beispiel 2
+
 Gegeben ist das folgende Baumdiagramm:
  <figure>
   <img src="Baum2.png">

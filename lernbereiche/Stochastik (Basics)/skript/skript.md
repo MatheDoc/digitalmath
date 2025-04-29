@@ -3,6 +3,7 @@
 In der Stochastik beschäftigen wir mit der Berechnung von Wahrscheinlichkeiten. Um diese präzise und eindeutig zu beschreiben, verwenden wir die Sprache der Mengenlehre.
 
 ### Definition
+
 Eine Menge ist eine Zusammenfassung von einzelnen Elementen.
 
 ### Beispiele
@@ -32,12 +33,12 @@ Ein bekanntes Beispiel ist das Russellsche Paradoxon:
 
 Wir betrachten die Menge $M$, die alle Mengen enthält, die sich nicht selbst enthalten.
 Nun stellen wir die Frage: Enthält $M$ sich selbst?
+
 * Wenn ja, dann dürfte sie sich nicht enthalten (denn sie enthält ja nur Mengen, die sich nicht selbst enthalten).
 * Wenn nein, dann müsste sie sich enthalten (denn sie erfüllt ja die Bedingung, sich nicht selbst zu enthalten).
 
 Beides führt zu einem Widerspruch.
 Dieses Paradoxon zeigt, dass der naive Mengenbegriff überarbeitet werden muss. Deshalb arbeiten Mathematiker heute mit exakteren, axiomatischen Grundlagen der Mengenlehre.
-
 
 ## Mengeoperationen
 
@@ -95,7 +96,6 @@ In der Stochastik treffen wir Aussagen über (vermeintlich) zufällige Ausgänge
 * (z. B.) Ereignis $A$: Es wird eine Zahl größer als 4 geworfen. $\Rightarrow A = \\{5; 6\\}$
 * Gegenereignis $\overline{A}$: Es wird eine Zahl kleiner als 5 geworfen. $\Rightarrow\overline{A} = \\{1; 2; 3; 4\\}$
 
-
 #### ZWEIMALIGER MÜNZWURF MIT BEACHTUNG DER REIHENFOLGE
 
 * Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZK\\}, \\{ZZ\\}$
@@ -103,14 +103,12 @@ In der Stochastik treffen wir Aussagen über (vermeintlich) zufällige Ausgänge
 * (z. B.) Ereignis $B$: Es wird das Gleiche geworfen. $\Rightarrow B = \\{KK; ZZ\\}$
 * Gegenereignis $\overline{B}$: Es wird etwas Unterschiedliches geworfen.  $\Rightarrow\overline{B} = \\{KZ; ZK\\}$
 
-
 #### ZWEIMALIGER MÜNZWURF OHNE BEACHTUNG DER REIHENFOLGE
 
 * Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZZ\\}$ (Hierbei wird nicht zwischen $KZ$ ud $ZK$ unterschieden.)
 * Ergebnismenge: $S = \\{KK; KZ; ZZ\\}$
 * (z. B.) Ereignis $C$: Es wird mindestens einmal Kopf geworfen. $\Rightarrow$ $C = \\{KK; KZ\\}$
 * Gegenereignis $\overline{C}$: Es wird niemals Kopf geworfen. $\Rightarrow$ $\overline{C} = \\{ZZ\\}$
-
 
 ## WAHRSCHEINLICHKEITEN
 
@@ -179,12 +177,13 @@ $$
   <figcaption>KI-generiert mit ChatGPT</figcaption>
 </figure>
 
-
 ### Wahrscheinlichkeiten - Weitere Betrachtungen
 
 #### Axiome von Kolmogorov
+
 Eine solide mathematische Fundierung der Stochastik wurde erst in den 1930er Jahren von Andrej Nikolajewitsch Kolmogorov (1903-1987) entwickelt. Kolmogorov formulierte die folgenden Grundsätze (Axiome), aus denen sich dann weitere Rechenregeln folgern lassen.
 Betrachtet wird ein Zufallsexperiment mit Ergebnismenge $\Omega$ und Ereignissen $A$ und $B$. Eine Wahrscheinlichkeitsverteilung $P$ ordnet jeder Teilmenge von $\Omega$, also jedem Ereignis, eine reelle Zahl zu, so dass gilt:
+
 * $P(A)\geq 0$
 * $P(\Omega)=1$
 * $P(A\cup B)=P(A)+P(B)$, falls $A\cap B=\emptyset$,
@@ -203,9 +202,9 @@ Beispiel: Aus $P(A)=0,3$, $P(B)=0,4$ und $P(A\cap B)=0,2$ folgt $P(A\cup B)=0,3+
 * Ausschließendes Oder: Die Wahrscheinlichkeit für entweder $A$ oder $B$ (aber nicht $A$ und $B$ gleichzeitig) ist $P(A\cup B)- P(A\cap B)=P(A\cap\overline{B})+P(\overline{A}\cap B)$.
 
 #### Venn-Diagramme
+
 Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1. Wir erhalten z.B.:
+
 |$P(B)$|$P(A\cap B)$|$P(\overline{A}\cap B)$|$P(A\cup B)$|$P(A\cup B)-P(A\cap B)$|
 |-|-|-|-|-|
 |<figure><img src="v1.png" style="width: 15vw"> |<figure>  <img src="v2.png" style="width: 15vw"> </figure>|<figure>  <img src="v3.png" style="width: 15vw">  </figure>|<figure>  <img src="v4.png" style="width: 15vw">  </figure>|<figure>  <img src="v5.png" style="width: 15vw"> </figure>|
-
-

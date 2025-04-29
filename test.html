@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathe-Race</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e0f7fa;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .race-track {
+      position: relative;
+      background: #c8e6c9;
+      height: 100px;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+
+    .car {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%);
+      font-size: 40px;
+      transition: left 0.5s ease;
+    }
+
+    .finish {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(50%, -50%);
+      font-size: 30px;
+    }
+
+    .question {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      width: 150px;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    .feedback {
+      margin-top: 15px;
+      font-size: 1.2rem;
+    }
+
+    .scoreboard {
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+
+  </style>
+</head>
+<body>
+
+<h1>🏎️ Mathe-Race 🏁</h1>
+
+<div class="race-track">
+  <div class="car" id="car">🚗</div>
+  <div class="finish">🏁</div>
+</div>
+
+<div id="task" class="question"></div>
+
+<input type="text" id="answer" placeholder="Antwort eingeben" />
+<br/>
+<button onclick="checkAnswer()">Antwort prüfen</button>
+
+<div id="feedback" class="feedback"></div>
+<div class="scoreboard" id="scoreboard"></div>
+
+<script>
+// Aufgaben-Array
+const aufgaben = [
+  {"einleitung":"Gegeben: \\( f(x)=-7x-0,7 \\)","antworten":["-0,1"]},
+  {"einleitung":"Gegeben: \\( f(x)=-9x-7,2 \\)","antworten":["-0,8"]},
+  {"einleitung":"Gegeben: \\( f(x)=-2x+6,6 \\)","antworten":["3,3"]},
+  {"einleitung":"Gegeben: \\( f(x)=-x+5,1 \\)","antworten":["5,1"]},
+  {"einleitung":"Gegeben: \\( f(x)=7x-17,5 \\)","antworten":["2,5"]},
+  {"einleitung":"Gegeben: \\( f(x)=-9x-22,5 \\)","antworten":["-2,5"]},
+  {"einleitung":"Gegeben: \\( f(x)=-8x+20,8 \\)","antworten":["2,6"]},
+  {"einleitung":"Gegeben: \\( f(x)=-8x+11,2 \\)","antworten":["1,4"]},
+  {"einleitung":"Gegeben: \\( f(x)=-6x-1,2 \\)","antworten":["-0,2"]},
+  {"einleitung":"Gegeben: \\( f(x)=-x+1,1 \\)","antworten":["1,1"]}
+];
+
+// Variablen
+let aktuelleAufgabe = 0;
+let punkte = 0;
+let startTime = Date.now();
+const car = document.getElementById('car');
+const taskDiv = document.getElementById('task');
+const answerInput = document.getElementById('answer');
+const feedbackDiv = document.getElementById('feedback');
+const scoreboardDiv = document.getElementById('scoreboard');
+
+// Auto-Position
+function moveCar() {
+  const trackWidth = document.querySelector('.race-track').clientWidth - 60; // 60px Platz für Auto
+  const step = trackWidth / aufgaben.length;
+  car.style.left = (aktuelleAufgabe * step) + 'px';
+}
+
+// Frage laden
+function loadQuestion() {
+  feedbackDiv.textContent = "";
+  answerInput.value = "";
+  if (aktuelleAufgabe < aufgaben.length) {
+    taskDiv.innerHTML = aufgaben[aktuelleAufgabe].einleitung;
+    if (window.MathJax) { MathJax.typeset(); }
+  } else {
+    endGame();
+  }
+}
+
+// Zahlenformat anpassen
+function normalizeNumber(input) {
+  return input.replace(',', '.').trim();
+}
+
+// Antwort prüfen
+function checkAnswer() {
+  const userAnswer = normalizeNumber(answerInput.value);
+  const correctAnswer = normalizeNumber(aufgaben[aktuelleAufgabe].antworten[0]);
+  const tolerance = 0.01;
+
+  if (Math.abs(parseFloat(userAnswer) - parseFloat(correctAnswer)) < tolerance) {
+    feedbackDiv.textContent = "✅ Richtig!";
+    punkte++;
+    aktuelleAufgabe++;
+    moveCar();
+    setTimeout(loadQuestion, 1000);
+  } else {
+    feedbackDiv.textContent = "❌ Falsch! Versuche es erneut.";
+    car.style.transition = "left 0.1s";
+    car.style.left = (parseFloat(car.style.left) - 10) + "px";
+    setTimeout(() => car.style.transition = "left 0.5s", 300);
+  }
+}
+
+// Spielende
+function endGame() {
+  const endTime = Date.now();
+  const timeTaken = ((endTime - startTime) / 1000).toFixed(1);
+  taskDiv.innerHTML = "🏁 Ziel erreicht!";
+  answerInput.style.display = "none";
+  document.querySelector('button').style.display = "none";
+  feedbackDiv.innerHTML = "";
+  scoreboardDiv.innerHTML = `Punkte: ${punkte} / ${aufgaben.length}<br>Zeit: ${timeTaken} Sekunden`;
+}
+
+loadQuestion();
+</script>
+
+<!-- Optional: MathJax für schöne Formeln -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>
