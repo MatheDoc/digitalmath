@@ -1,3 +1,23 @@
 title der seiten dynamsich setzen
 ico erneuern
 reihenfolge der aufgaben bei exam=yes
+
+Prompts:
+
+
+
+Bitte überprüfe das folgende mathematische Skript (im Markdown-Format) auf:
+
+Fachliche Richtigkeit der Inhalte
+Korrekte mathematische Notation
+Sprachliche Klarheit und grammatikalische Korrektheit
+Verständlichkeit für Schüler
+Falls möglich, mache konkrete Verbesserungsvorschläge oder formuliere unklare Passagen neu.
+Vermeide rein positive Kommentare ohne Korrekturvorschlag.
+
+Weitere Hinweise:
+
+Aus programmiertechnsichen Gründen muss im Mathemodus manchmal doppelt escaped werden, z.b. ist "$\\{...\\}$" korrekt.
+Außerhalb des Mathemodus sollen Prozentzeichen in der Form "&nbsp;\%" geschrieben werden, z.B. "50&nbsp;\%".
+Beispiele sollen typischerweise im h5-Tag (#####) stehen.
+Es sollen keine h1- und h2-Tags (# und ##) auftreten.

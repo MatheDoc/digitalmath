@@ -8,9 +8,6 @@ h2.innerText = thema;
 // Pfad zur Markdown-Datei
 const mdUrl = `lernbereiche/${thema}/skript/skript.md`;
 
-
-
-
 // Promises für DOM- und MathJax‑Bereitschaft
 const domReady = new Promise(res => document.addEventListener('DOMContentLoaded', res));
 const mathjaxReady = new Promise(res => document.addEventListener('mathjax-ready', res));
@@ -23,6 +20,9 @@ Promise.all([domReady, mathjaxReady])
   })
   .then(markdownText => {
     const container = document.getElementById('content');
+
+
+    
     container.innerHTML = marked.parse(markdownText);
 
     // Pfade der lokalen Bilder nachträglich anpassen
