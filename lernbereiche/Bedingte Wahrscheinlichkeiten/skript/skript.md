@@ -275,7 +275,7 @@ Damit lautet die vollständige Vier-Felder-Tafel
 
 #### Vier-Felder-Tafeln und stochastische Unabhängigkeit
 
-Eine Formulierung der stochastischen Unabhängigkeit ist $P(A\cap B)=P(A)\cdot P(B)$. Diese Bedingung kann leicht anhand einer Vier-Felder-Tafel geprüft werden: Der innere Wert $P(A\cap B)$ ist das Produkt der entsprechenden äußeren Wahrscheinlichkeiten $P(A)$ und $P(B)$. Ist dies sagen Fall, sagen wir, dass die Vier-Felder-Tafel **multiplikativ** ist.
+Eine Formulierung der stochastischen Unabhängigkeit ist $P(A\cap B)=P(A)\cdot P(B)$. Diese Bedingung kann leicht anhand einer Vier-Felder-Tafel geprüft werden: Der innere Wert $P(A\cap B)$ ist das Produkt der entsprechenden äußeren Wahrscheinlichkeiten $P(A)$ und $P(B)$. Ist dies der Fall, so sagen wir, dass die Vier-Felder-Tafel **multiplikativ** ist.
 
 ##### Beispiel: Cannabis und Amphetamine
 
@@ -299,11 +299,11 @@ Die Vier-Felder-Tafel hatte die Gestalt
 | $\overline{A}$ | $0{,}3$                    | $0{,}1$                   | $0{,}4$              |
 | $\Sigma$       | $0{,}75$                   | $0{,}25$                  | $1$                  |
 
-Wir erkennen, dass $0{,}6 \cdot 0{,}75 = 0{,}45$ ist. Die Vier-Felder-Tafel ist multiplikativ, und $A$ und $B$ stochastisch unabhängig.
+Wir erkennen, dass $0{,}6 \cdot 0{,}75 = 0{,}45$ ist. Die Vier-Felder-Tafel ist multiplikativ, und $A$ und $B$ sind stochastisch unabhängig.
 
 ### Baumdiagramme und Vier-Felder-Tafeln bei stochastischer Unabhängigkeit
 
-Sind zwei Ereignisse $A$ und $B$ als stochastisch unabhängig bekannt, so können wir diese Information beim Erstellen von Baumdiagrammen und Vier-Felder-Tafeln gezielt nutzen.
+Sind zwei Ereignisse $A$ und $B$ stochastisch unabhängig, so können wir diese Information beim Erstellen von Baumdiagrammen und Vier-Felder-Tafeln gezielt nutzen.
 
 ##### Beispiel: Baumdiagramm
 
@@ -312,7 +312,7 @@ Ein Baumdiagramm habe die Gestalt
   <img src="Beispiel3.png">
 </figure>
 
-Zudem sei bekannt, dass $A$ und $B$ als stochastisch unabhängig sind. Damit gilt $P_A(B)=P_{\overline{A}}(B)$. Die Wahrscheinlichkeit 5 ist also $0{,}3$. Das restliche Baumdigramm kann nun wie im Abschnitt [Baumdiagramme vervollständigen](skript.html?thema=Mehrstufige%20Zufallsexperimente#baumdiagramme-vervollstaendigen) vervollständigt werden.
+Zudem sei bekannt, dass $A$ und $B$ stochastisch unabhängig sind. Damit gilt $P_A(B)=P_{\overline{A}}(B)$. Die Wahrscheinlichkeit 5 ist also $0{,}3$. Das restliche Baumdigramm kann nun wie im Abschnitt [Baumdiagramme vervollständigen](skript.html?thema=Mehrstufige%20Zufallsexperimente#baumdiagramme-vervollstaendigen) vervollständigt werden.
 
 ##### Beispiel: Vier-Felder-Tafel
 
@@ -324,4 +324,4 @@ Eine Vier-Felder-Tafel habe die Gestalt
 | $\overline{A}$ |                     |                    |               |
 | $\Sigma$       | $0{,}2$                    |                   | $1$                  |
 
-Zudem sei bekannt, dass $A$ und $B$ als stochastisch unabhängig sind. Damit ist die Vier-Felder-Tafel mutiplikativ, und es gilt $P(A\cap B)=P(A)\cdot P(B)$. Die Wahrscheinlichkeit $x$ ist also $0{,}2\cdot 0{,}7=0{,}14$. Die restliche Vier-Felder-Tafel kann nun wie im Abschnitt [Vier-Felder-Tafeln vervollständigen](#vier-felder-tafeln-vervollständigen) vervollständigt werden.
+Zudem sei bekannt, dass $A$ und $B$ stochastisch unabhängig sind. Damit ist die Vier-Felder-Tafel mutiplikativ, und es gilt $P(A\cap B)=P(A)\cdot P(B)$. Die Wahrscheinlichkeit $x$ ist also $0{,}2\cdot 0{,}7=0{,}14$. Die restliche Vier-Felder-Tafel kann nun wie im Abschnitt [Vier-Felder-Tafeln vervollständigen](#vier-felder-tafeln-vervollständigen) vervollständigt werden.
