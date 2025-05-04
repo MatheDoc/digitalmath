@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown Beispiel</title>
-    <!-- Verwendung einer stabilen Version von Marked.js (2.x) -->
-    <script src="https://cdn.jsdelivr.net/npm/marked@2.1.3/marked.min.js"></script>
+    <!-- Verwendung der neuesten Version von Marked.js (4.x) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.10/lib/marked.min.js"></script>
 </head>
 <body>
 
@@ -24,18 +24,19 @@ Dies ist ein Beispiel für **Markdown**.
     </textarea>
 
     <script>
-        // Funktion zum Umwandeln von Markdown in HTML
+        // Zugriff auf das globale `marked` Objekt, das durch das Skript geladen wird
         const inputElement = document.getElementById('markdown-input');
         const outputElement = document.getElementById('markdown-content');
 
         // Konvertiere Markdown bei Eingabe
         inputElement.addEventListener('input', function() {
             const markdownText = inputElement.value;
-            outputElement.innerHTML = marked(markdownText);  // Verwendung von marked() statt marked.parse()
+            // Richtiges Aufrufen der `marked.parse()` Methode
+            outputElement.innerHTML = marked.parse(markdownText); 
         });
 
         // Initiale Konvertierung
-        outputElement.innerHTML = marked(inputElement.value);  // Verwendung von marked()
+        outputElement.innerHTML = marked.parse(inputElement.value); 
     </script>
 
 </body>

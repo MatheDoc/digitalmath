@@ -20,10 +20,8 @@ Promise.all([domReady, mathjaxReady])
   })
   .then(markdownText => {
     const container = document.getElementById('content');
-
-
     
-    container.innerHTML = marked.parse(markdownText);
+    container.innerHTML = marked(markdownText);
 
     // Pfade der lokalen Bilder nachträglich anpassen
     const bilder = container.querySelectorAll('img');
@@ -34,9 +32,17 @@ Promise.all([domReady, mathjaxReady])
         }
     });
 
-    return MathJax.typesetPromise([container]);
+    return MathJax.typesetPromise([container])
+
+  
+
+
+    
   })
   .catch(err => {
     document.getElementById('content').textContent = 'Fehler: ' + err.message;
   });
 
+
+
+  
