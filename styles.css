@@ -693,7 +693,9 @@ a.link-homepage:hover {
 }
 
 .aufgabe li:hover{
-    border: 5px solid var(--hauptfarbe);
+    
+    background-color: #c3e2ef;
+
 }
 
 iframe {
