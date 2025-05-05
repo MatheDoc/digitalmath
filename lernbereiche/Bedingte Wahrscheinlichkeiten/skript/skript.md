@@ -336,4 +336,3 @@ Eine Vier-Felder-Tafel habe die Gestalt
 | $\Sigma$       | $0{,}2$                    |                   | $1$                  |
 
 Zudem sei bekannt, dass $A$ und $B$ stochastisch unabhängig sind. Damit ist die Vier-Felder-Tafel mutiplikativ, und es gilt $P(A\cap B)=P(A)\cdot P(B)$. Die Wahrscheinlichkeit $x$ ist also $0{,}2\cdot 0{,}7=0{,}14$. Die restliche Vier-Felder-Tafel kann nun wie im Abschnitt [Vier-Felder-Tafeln vervollständigen](#vier-felder-tafeln-vervollständigen) vervollständigt werden.
-
