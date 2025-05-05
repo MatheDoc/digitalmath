@@ -1,17 +1,43 @@
 const params = new URLSearchParams(window.location.search);
 const thema = params.get('thema');
 
-// h2 Tag setzen
+// h2-Überschrift setzen
 const h2 = document.querySelector('h2');
 h2.innerText = thema;
 
-// Pfad zur Markdown-Datei
+// Pfad zur Markdown-Datei festlegen
 const mdUrl = `lernbereiche/${thema}/skript/skript.md`;
 
-// Promises für DOM- und MathJax‑Bereitschaft
+// DOM- und MathJax-Bereitschaft abwarten
 const domReady = new Promise(res => document.addEventListener('DOMContentLoaded', res));
 const mathjaxReady = new Promise(res => document.addEventListener('mathjax-ready', res));
 
+// Funktion für robustes Scrollen zum Ankerziel
+function scrollToAnchor(id, maxAttempts = 5, delay = 300) {
+  const target = document.getElementById(id);
+  if (!target) return;
+
+  let attempts = 0;
+
+  const tryScroll = () => {
+    attempts++;
+    target.scrollIntoView({ behavior: 'smooth' });
+
+    // Nach kurzer Zeit prüfen, ob das Ziel korrekt sichtbar ist
+    setTimeout(() => {
+      const rect = target.getBoundingClientRect();
+      const headerHeight = 120; // ggf. anpassen
+
+      if ((rect.top < headerHeight || rect.top > window.innerHeight) && attempts < maxAttempts) {
+        requestAnimationFrame(tryScroll);
+      }
+    }, delay);
+  };
+
+  requestAnimationFrame(() => requestAnimationFrame(tryScroll));
+}
+
+// Inhalte laden und verarbeiten
 Promise.all([domReady, mathjaxReady])
   .then(() => fetch(mdUrl))
   .then(response => {
@@ -21,10 +47,10 @@ Promise.all([domReady, mathjaxReady])
   .then(markdownText => {
     const container = document.getElementById('content');
 
-    // Markdown in HTML umwandeln und einfügen
+    // Markdown in HTML umwandeln
     container.innerHTML = marked(markdownText);
 
-    // Lokale Bildpfade anpassen
+    // Lokale Bildpfade korrigieren
     const bilder = container.querySelectorAll('img');
     bilder.forEach(img => {
       const originalSrc = img.getAttribute('src');
@@ -33,34 +59,11 @@ Promise.all([domReady, mathjaxReady])
       }
     });
 
-    // MathJax rendern und anschließend ggf. zum Anker springen
+    // MathJax rendern und danach ggf. zum Anker springen
     return MathJax.typesetPromise([container]).then(() => {
       if (window.location.hash) {
         const targetId = decodeURIComponent(window.location.hash.substring(1));
-        const targetElement = document.getElementById(targetId);
-
-        const scrollToTarget = () => {
-          if (!targetElement) return;
-
-          // Erster Versuch
-          targetElement.scrollIntoView({ behavior: 'smooth' });
-
-          // Nachprüfen nach kurzer Zeit
-          setTimeout(() => {
-            const rect = targetElement.getBoundingClientRect();
-            const headerHeight = 120; // Höhe des Sticky-Headers ggf. anpassen
-
-            if (rect.top < 0 || rect.top < headerHeight) {
-              // Zweiter Versuch
-              targetElement.scrollIntoView({ behavior: 'smooth' });
-            }
-          }, 300);
-        };
-
-        // Scrollen nach Layout-Stabilisierung
-        requestAnimationFrame(() => {
-          requestAnimationFrame(scrollToTarget);
-        });
+        scrollToAnchor(targetId);
       }
     });
   })
