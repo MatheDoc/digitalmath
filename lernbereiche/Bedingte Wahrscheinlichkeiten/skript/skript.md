@@ -166,7 +166,7 @@ Um festzustellen, ob zwei Ereinisse $A$ und $B$ stochastisch abhängig oder unab
 
 Sind keine bedingten Wahrscheinlichkeiten bekannt, verwenden wir häufig die 3. Formulierung.
 
-##### Beispiel: Cannabis und Amphetamine
+##### Beispiel: Cannabis und Amphetamine (1)
 
 Wir betrachten die Ereignisse
 
@@ -179,10 +179,7 @@ Sind $A$ und $B$ stochastisch unabhängig?
 
 Es gilt $P(A)\cdot P(B)=0{,}03\cdot 0{,}01=0{,}0003$. Da $P(A\cap B)=0{,}0002\neq0{,}0003$ sind $A$ und $B$ stochastisch abhängig.
 
-##### Beispiel: Romeo und Julia
-
-<!--An Freitagen fehlen Romeo und Julia häufig in der Schule, Romeo mit einer Wahrscheinlichkeit von 40&nbsp;\% und Julia mit einer Wahrscheinlichkeit von 25&nbsp;\%. Die Wahrscheinlichkeit, dass beide anwesend sind, beträgt 45&nbsp;\%.-->
-<!--Es gilt $P(A)=0{,}6$, $P(B)=0{,}75$ und $P(A\cap B)=0{,}45$. Damit haben wir $P(A)\cdot P(B)=0{,}6\cdot 0{,}75=0{,}45$. Also gilt $P(A\cap B)=P(A)\cdot P(B)$. Damit sind $A$ und $B$ stochastisch unabhängig.-->
+##### Beispiel: Romeo und Julia (1)
 
 Die Wahrscheinlichkeit, dass beide anwesend sind, beträgt 45&nbsp;\%. Die Wahrscheinlichkeit, dass beide fehlen, beträgt 10&nbsp;\%. Die Wahrscheinlichkeit, dass Romeo anwesend ist und Julia fehlt, beträgt 15&nbsp;\%.
 
@@ -198,7 +195,7 @@ Es gilt $P(A\cap B)=0{,}45$, $P(\overline{A}\cap \overline{B})=0{,}1$ und $P(A\c
 * $P(A) = P(A\cap B) + P(A\cap \overline{B}) = 0{,}45 + 0{,}15 = 0{,}6$
 * $P(\overline{B}) = P(A\cap \overline{B}) + P(\overline{A}\cap \overline{B}) = 0{,}15 + 0{,}1 = 0{,}25$
 
-Nun ist $P(A)\cdot (\overline{B})=0{,}6 \cdot 0{,}25 = 0{,}15$. Es gilt also $P(A)\cdot (\overline{B}) = P(A\cap \overline{B})$. Damit sind $A$ und $\overline{B}$ stochastisch unabhängig, und somit auch $A$ und $B$. (Diese Berechnungen werden einfacher mit den Begriffen des nächsten Abschnitts.)
+Nun ist $P(A)\cdot (\overline{B})=0{,}6 \cdot 0{,}25 = 0{,}15$. Es gilt also $P(A)\cdot (\overline{B}) = P(A\cap \overline{B})$. Damit sind $A$ und $\overline{B}$ stochastisch unabhängig, und somit auch $A$ und $B$. (Diese Berechnungen werden mit den Begriffen des nächsten Abschnitts übersichtlicher.)
 
 ### Vier-Felder-Tafeln
 
@@ -221,7 +218,12 @@ Diese Beobachtung ist wichtig, wenn wir Vier-Felder-Tafeln aufstellen wollen.
 
 #### Vier-Felder-Tafeln vervollständigen
 
-##### Beispiel: Cannabis und Amphetamine
+##### Beispiel: Cannabis und Amphetamine (2)
+
+Wir hatten die Ereignisse
+
+* A: Eine Person konsumiert Cannabis.
+* B: Eine Person konsumiert Amphetamine.
 
 Bekannt war, dass $P(A)=3\\%$, $P(B)=1\\%$ und $P(A\cap B)=0{,}02\\%$. Damit ergibt sich
 
@@ -247,7 +249,14 @@ Damit lautet die vollständige Vier-Felder-Tafel
 | $\overline{A}$ | $0{,}0098$                 | $0{,}9602$                | $0{,}97$              |
 | $\Sigma$       | $0{,}01$                   | $0{,}99$                  | $1$                   |
 
-##### Beispiel: Romeo und Julia
+Hier können wir z.B. ablesen, dass eine Person mit einer Wahrschheinlichkeit von 96,02&nbsp;\% weder Cannabis noch Amphetamine konsumiert.
+
+##### Beispiel: Romeo und Julia (2)
+
+Wir hatten die Ereignisse
+
+* A: Romeo ist anwesend.
+* B: Julia ist anwesend.
 
 Bekannt war $P(A\cap B)=0{,}45$, $P(\overline{A}\cap \overline{B})=0{,}1$ und $P(A\cap \overline{B})=0{,}15$. Damit ergibt sich
 
@@ -273,11 +282,13 @@ Damit lautet die vollständige Vier-Felder-Tafel
 | $\overline{A}$ | $0{,}3$   | $0{,}1$                   | $0{,}4$    |
 | $\Sigma$       | $0{,}75$                     | $0{,}25$         | $1$                  |
 
+Hier können wir z.B. ablesen, dass Romeo mit einer Wahrschheinlichkeit von 60&nbsp;\% anwesend ist.
+
 #### Vier-Felder-Tafeln und stochastische Unabhängigkeit
 
 Eine Formulierung der stochastischen Unabhängigkeit ist $P(A\cap B)=P(A)\cdot P(B)$. Diese Bedingung kann leicht anhand einer Vier-Felder-Tafel geprüft werden: Der innere Wert $P(A\cap B)$ ist das Produkt der entsprechenden äußeren Wahrscheinlichkeiten $P(A)$ und $P(B)$. Ist dies der Fall, so sagen wir, dass die Vier-Felder-Tafel **multiplikativ** ist.
 
-##### Beispiel: Cannabis und Amphetamine
+##### Beispiel: Cannabis und Amphetamine (3)
 
 Die Vier-Felder-Tafel hatte die Gestalt
 
@@ -289,7 +300,7 @@ Die Vier-Felder-Tafel hatte die Gestalt
 
 Wir erkennen, dass $0{,}03 \cdot 0{,}01 \neq 0{,}0002$ ist. Die Vier-Felder-Tafel ist nicht multiplikativ, und $A$ und $B$ sind stochastisch abhängig.
 
-##### Beispiel: Romeo und Julia
+##### Beispiel: Romeo und Julia (3)
 
 Die Vier-Felder-Tafel hatte die Gestalt
 
@@ -325,3 +336,4 @@ Eine Vier-Felder-Tafel habe die Gestalt
 | $\Sigma$       | $0{,}2$                    |                   | $1$                  |
 
 Zudem sei bekannt, dass $A$ und $B$ stochastisch unabhängig sind. Damit ist die Vier-Felder-Tafel mutiplikativ, und es gilt $P(A\cap B)=P(A)\cdot P(B)$. Die Wahrscheinlichkeit $x$ ist also $0{,}2\cdot 0{,}7=0{,}14$. Die restliche Vier-Felder-Tafel kann nun wie im Abschnitt [Vier-Felder-Tafeln vervollständigen](#vier-felder-tafeln-vervollständigen) vervollständigt werden.
+
