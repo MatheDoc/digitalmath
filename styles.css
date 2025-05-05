@@ -65,6 +65,13 @@ h4  {
     padding-bottom: 0;
 }
 
+h5 {
+    color:var(--hauptfarbe);
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
 /* Offset für die Scrollposition bei Ankerlinks */
 h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 100px; 

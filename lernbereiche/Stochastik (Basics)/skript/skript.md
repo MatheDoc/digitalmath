@@ -241,9 +241,8 @@ Ausschließendes Oder: Die Wahrscheinlichkeit für entweder $A$ oder $B$ (aber n
 
 #### Venn-Diagramme
 
-Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1.
+Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1. Wir erhalten z.B.:
 
-##### Beispiele
 
 |$P(B)$|$P(A\cap B)$|$P(\overline{A}\cap B)$|$P(A\cup B)$|$P(A\cup B)-P(A\cap B)$|
 |-|-|-|-|-|
