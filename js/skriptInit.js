@@ -21,28 +21,36 @@ Promise.all([domReady, mathjaxReady])
   .then(markdownText => {
     const container = document.getElementById('content');
     
+    // Markdown in HTML umwandeln und einfügen
     container.innerHTML = marked(markdownText);
 
-    // Pfade der lokalen Bilder nachträglich anpassen
+    // Lokale Bildpfade anpassen
     const bilder = container.querySelectorAll('img');
     bilder.forEach(img => {
-        const originalSrc = img.getAttribute('src');
-        if (originalSrc && !originalSrc.startsWith('http')) {
+      const originalSrc = img.getAttribute('src');
+      if (originalSrc && !originalSrc.startsWith('http')) {
         img.src = `lernbereiche/${encodeURIComponent(thema)}/skript/${originalSrc}`;
-        }
+      }
     });
 
-    return MathJax.typesetPromise([container])
-
-  
-
-
+    // MathJax rendern und anschließend ggf. zum Anker springen
+    return MathJax.typesetPromise([container]).then(() => {
+      if (window.location.hash) {
+        const targetId = decodeURIComponent(window.location.hash.substring(1));
+        const targetElement = document.getElementById(targetId);
+    
+        if (targetElement) {
+          // Scrollen erst im nächsten Frame ausführen
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              targetElement.scrollIntoView({ behavior: 'smooth' });
+            });
+          });
+        }
+      }
+    });
     
   })
   .catch(err => {
     document.getElementById('content').textContent = 'Fehler: ' + err.message;
   });
-
-
-
-  
