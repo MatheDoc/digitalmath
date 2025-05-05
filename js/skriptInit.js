@@ -20,7 +20,7 @@ Promise.all([domReady, mathjaxReady])
   })
   .then(markdownText => {
     const container = document.getElementById('content');
-    
+
     // Markdown in HTML umwandeln und einfügen
     container.innerHTML = marked(markdownText);
 
@@ -38,18 +38,31 @@ Promise.all([domReady, mathjaxReady])
       if (window.location.hash) {
         const targetId = decodeURIComponent(window.location.hash.substring(1));
         const targetElement = document.getElementById(targetId);
-    
-        if (targetElement) {
-          // Scrollen erst im nächsten Frame ausführen
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
+
+        const scrollToTarget = () => {
+          if (!targetElement) return;
+
+          // Erster Versuch
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+
+          // Nachprüfen nach kurzer Zeit
+          setTimeout(() => {
+            const rect = targetElement.getBoundingClientRect();
+            const headerHeight = 120; // Höhe des Sticky-Headers ggf. anpassen
+
+            if (rect.top < 0 || rect.top < headerHeight) {
+              // Zweiter Versuch
               targetElement.scrollIntoView({ behavior: 'smooth' });
-            });
-          });
-        }
+            }
+          }, 300);
+        };
+
+        // Scrollen nach Layout-Stabilisierung
+        requestAnimationFrame(() => {
+          requestAnimationFrame(scrollToTarget);
+        });
       }
     });
-    
   })
   .catch(err => {
     document.getElementById('content').textContent = 'Fehler: ' + err.message;
