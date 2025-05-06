@@ -96,7 +96,7 @@ function toggleInhalt(linkElement, dateiname) {
       document.body.appendChild(script);
     })
     .catch(err => {
-      contentDiv.innerHTML = "<p>Inhalt konnte nicht geladen werden.</p>";
+      contentDiv.innerHTML = "<p>Keine Daten vorhanden.</p>";
       contentDiv.style.display = 'block';
       console.error(err);
     });
