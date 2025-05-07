@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Lern-Screensaver</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+        body {
+      margin: 0;
+      overflow: hidden;
+      background-color: rgb(210, 210, 210);
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="floating-box">Lade Aufgabe…</div>
+  <script src="js/screensaver.js"></script>
+  <!-- Dynamisch Thema-Skript laden 
+  <script>
+    function getThemaName() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("thema") || "ableitung"; 
+    }
+
+    const thema = getThemaName();
+    const aufgabenScript = document.createElement("script");
+    aufgabenScript.src = `js/aufgaben_${thema}.js`;
+    aufgabenScript.onload = () => {
+      // Lade screensaver erst, wenn das Thema geladen ist
+      const screensaverScript = document.createElement("script");
+      screensaverScript.src = "js/screensaver.js";
+      document.body.appendChild(screensaverScript);
+    };
+    aufgabenScript.onerror = () => {
+      document.getElementById("floating-box").textContent = "Thema nicht gefunden.";
+    };
+    document.body.appendChild(aufgabenScript);
+  </script>-->
+
+  <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</body>
+</html>

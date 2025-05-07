@@ -1,43 +1,77 @@
-<!DOCTYPE html>
+Put your HTML text here<!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown Beispiel</title>
-    <!-- Verwendung der neuesten Version von Marked.js (4.x) -->
-    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.10/lib/marked.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Frage-Screensaver mit MathJax</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: black;
+      font-family: sans-serif;
+    }
+
+    #floating-box {
+      position: absolute;
+      padding: 1rem 2rem;
+      background-color: #00bfff;
+      color: white;
+      font-size: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      user-select: none;
+      cursor: default;
+      transition: background-color 0.5s;
+    }
+  </style>
 </head>
 <body>
+  <div id="floating-box">Was ist \( a^2 + b^2 \) bei rechtwinkligem Dreieck?</div>
 
-    <h1>Markdown Beispiel</h1>
-    
-    <div id="markdown-content">
-        <!-- Hier wird der Markdown-Inhalt angezeigt -->
-    </div>
+  <script>
+    const box = document.getElementById("floating-box");
 
-    <textarea id="markdown-input" rows="10" cols="50">
-# Überschrift 1
-Dies ist ein Beispiel für **Markdown**.
+    let x = 100, y = 100;
+    let dx = 2, dy = 2;
+    let showingSolution = false;
 
-- Liste Punkt 1
-- Liste Punkt 2
-    </textarea>
+    function animate() {
+      const w = window.innerWidth - box.clientWidth;
+      const h = window.innerHeight - box.clientHeight;
 
-    <script>
-        // Zugriff auf das globale `marked` Objekt, das durch das Skript geladen wird
-        const inputElement = document.getElementById('markdown-input');
-        const outputElement = document.getElementById('markdown-content');
+      x += dx;
+      y += dy;
 
-        // Konvertiere Markdown bei Eingabe
-        inputElement.addEventListener('input', function() {
-            const markdownText = inputElement.value;
-            // Richtiges Aufrufen der `marked.parse()` Methode
-            outputElement.innerHTML = marked.parse(markdownText); 
-        });
+      if (!showingSolution && (x <= 0 || x >= w || y <= 0 || y >= h)) {
+        showSolution();
+        showingSolution = true;
+      }
 
-        // Initiale Konvertierung
-        outputElement.innerHTML = marked.parse(inputElement.value); 
-    </script>
+      if (x <= 0 || x >= w) dx *= -1;
+      if (y <= 0 || y >= h) dy *= -1;
 
+      box.style.left = x + "px";
+      box.style.top = y + "px";
+
+      requestAnimationFrame(animate);
+    }
+
+    function showSolution() {
+      box.innerHTML = "Lösung: \\( a^2 + b^2 = c^2 \\)";
+      box.style.backgroundColor = "#28a745";
+      if (window.MathJax) MathJax.typeset(); // Neu rendern
+    }
+
+    animate();
+  </script>
+
+  <!-- MathJax korrekt eingebunden -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </body>
 </html>

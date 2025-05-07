@@ -943,6 +943,21 @@ li {
     }
 }
 
+#floating-box {
+    position: absolute;
+    font-size: 1.5rem;
+    height: 10px;
+    /*padding: 1rem 2rem;
+    background-color: #a6ca8d;
+    color: rgb(0, 0, 0);
+    
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);*/
+    user-select: none;
+    cursor: default;
+    transition: background-color 0.5s;
+  }
+
 /* Modifikationen für Clips */
 /*
 .nachfolgend li:hover {
