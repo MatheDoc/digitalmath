@@ -20,12 +20,9 @@ function animate() {
   const w = window.innerWidth - box.clientWidth;
   const h = window.innerHeight - box.clientHeight;
 
-
   x += dx;
   y += dy;
 
-
-  
   if (!showingSolution && (x <= 0 || x >= w || y <= 0 || y >= h)) {
     box.innerHTML = aktuelleAufgabe.antwort;
     box.style.backgroundColor = "#e0ffde";
@@ -55,31 +52,21 @@ const h2 = document.querySelector('h2');
 h2.innerText = thema;
 
 fetch(`/json_screen/${thema}.json`)
-  .then(res => {
-    if (!res.ok) throw new Error("Datei nicht gefunden");
-    return res.json();
-  })
+  .then(res => res.json())
   .then(data => {
     aufgaben = data;
     ladeNeueAufgabe();
     animate();
-
-    // Timer-Logik NUR starten, wenn die Datei gefunden wurde
-    timeout = setTimeout(showBox, delay);
-    ['mousemove', 'keydown', 'mousedown', 'scroll', 'touchstart'].forEach(event => {
-      document.addEventListener(event, resetTimer);
-    });
   })
   .catch(err => {
-    console.warn("JSON konnte nicht geladen werden:", err.message);
-    // Box und Overlay bleiben unsichtbar, kein Timer, keine Bewegung
+    box.innerText = "Kein Bildschirmschoner vorhanden.";
+    console.error(err);
   });
-
 
 
   // Timer
   let timeout;
-  const delay = 30000; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
+  const delay = 5000; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
   const overlay = document.getElementById("screensaver-overlay");
   
   function showBox() {
@@ -98,3 +85,10 @@ fetch(`/json_screen/${thema}.json`)
     timeout = setTimeout(showBox, delay); // Timer neu starten
   }
 
+  // Auf alle relevanten Aktivitäten reagieren:
+  ['mousemove', 'keydown', 'mousedown', 'scroll', 'touchstart'].forEach(event => {
+    document.addEventListener(event, resetTimer);
+  });
+
+  // Initialen Timer starten
+  timeout = setTimeout(showBox, delay);

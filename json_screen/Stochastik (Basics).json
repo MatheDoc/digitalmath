@@ -1,0 +1,78 @@
+[
+    {
+        "frage": "Wkt., dass eine Münze Kopf zeigt",
+        "antwort": "$\\frac{1}{2}$"
+    },
+    {
+        "frage": "Wkt., dass eine Münze Zahl zeigt",
+        "antwort": "$\\frac{1}{2}$"
+    },
+    {
+        "frage":"Wkt., dass ein Würfel 1 zeigt",
+        "antwort":"$\\frac{1}{6}$"
+    },
+    {
+        "frage":"Wkt., dass ein Würfel 2 zeigt",
+        "antwort":"$\\frac{1}{6}$"
+    },
+    {
+        "frage":"Wkt., dass ein Würfel 3 zeigt",
+        "antwort":"$\\frac{1}{6}$"
+    },
+    {
+        "frage":"Wkt., dass ein Würfel 4 zeigt",
+        "antwort":"$\\frac{1}{6}$"
+    },
+    {
+        "frage":"Wkt., dass ein Würfel 5 zeigt",
+        "antwort":"$\\frac{1}{6}$"
+    },
+    {
+        "frage":"Wkt., dass ein Würfel 6 zeigt",
+        "antwort":"$\\frac{1}{6}$"
+    },
+    {
+        "frage": "$P(\\emptyset)$",
+        "antwort": "$0$"
+    },
+    {
+        "frage": "$P(\\Omega)$",
+        "antwort": "$1$"
+    },
+    {
+        "frage": "$P(A\\cup B)$",
+        "antwort": "$P(A) + P(B) - P(A\\cap B)$"
+    },
+    {
+        "frage": "$P(A\\cap B)$",
+        "antwort": "$P(A) + P(B) - P(A\\cup B)$"
+    },
+    {
+        "frage": "$P(A\\cap\\overline{A})$",
+        "antwort": "$0$"
+    },
+    {
+        "frage": "$P(A\\cup\\overline{A})$",
+        "antwort": "$1$"
+    },
+    {
+        "frage": "$P(A\\cup B)-P(A\\cap B)$",
+        "antwort": "$P(A\\cap\\overline{B}) + P(\\overline{A}\\cap B)$"
+    },
+    {
+        "frage": "$P(\\overline{A})$",
+        "antwort": "$1 - P(A)$"
+    },
+    {
+        "frage": "Wkt. Laplace-Experiment",
+        "antwort": "$P=\\frac{\\text{Anzahl der günstigen Ergebnisse}}{\\text{Anzahl der möglichen Ergebnisse}}$"
+    },
+    {
+        "frage": "Vereingung zweier Ereignissen",
+        "antwort" : "$A\\cup B$"
+    },
+    {
+        "frage": "Durchschnitt zweier Ereignisse",
+        "antwort" : "$A\\cap B$"
+    }
+]

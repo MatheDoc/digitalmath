@@ -202,13 +202,13 @@ $$
 #### Axiome von Kolmogorov
 
 Eine solide mathematische Fundierung der Stochastik wurde erst in den 1930er Jahren von Andrej Nikolajewitsch Kolmogorov (1903-1987) entwickelt. Kolmogorov formulierte die folgenden Grundsätze (Axiome), aus denen sich dann weitere Rechenregeln folgern lassen.
-Betrachtet wird ein Zufallsexperiment mit Ergebnismenge $\Omega$ und Ereignissen $A$ und $B$. Eine Wahrscheinlichkeitsverteilung $P$ ordnet jeder Teilmenge von $\Omega$, also jedem Ereignis, eine reelle Zahl zu, so dass gilt:
+Betrachtet wird ein Zufallsexperiment mit Ergebnismenge $S$ und Ereignissen $A$ und $B$. Eine Wahrscheinlichkeitsverteilung $P$ ordnet jeder Teilmenge von $S$, also jedem Ereignis, eine reelle Zahl zu, so dass gilt:
 
 * $P(A)\geq 0$
-* $P(\Omega)=1$
+* $P(S)=1$
 * $P(A\cup B)=P(A)+P(B)$, falls $A\cap B=\emptyset$,
 
-für alle Teilmenge $A$ und $B$ von $\Omega$.
+für alle Teilmenge $A$ und $B$ von $S$.
 
 #### Folgerungen
 

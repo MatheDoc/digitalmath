@@ -557,7 +557,7 @@ display: none;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2); /* Halbtransparente Verdunkelung */
+    background-color: rgba(240, 240, 240, 0.8); /* Halbtransparente Verdunkelung */
     z-index: 999; /* Liegt hinter dem Infotext, aber vor dem Rest der Seite */
 }
 
@@ -701,7 +701,7 @@ a.link-homepage:hover {
 
 .aufgabe li:hover{
     
-    background-color: #c3e2ef;
+    background-color: #bce1f1;
 
 }
 
@@ -944,19 +944,28 @@ li {
 }
 
 #floating-box {
+    font-size: 1.2em;
     position: absolute;
-    font-size: 1.5rem;
-    height: 10px;
-    /*padding: 1rem 2rem;
-    background-color: #a6ca8d;
-    color: rgb(0, 0, 0);
-    
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);*/
+    height: 50px;
+    width: 330px;
+    background-color: #e0ffde;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
     user-select: none;
     cursor: default;
-    transition: background-color 0.5s;
+    overflow: hidden;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    white-space: nowrap; /* Verhindert Zeilenumbruch */
+    z-index: 10000 ;
   }
+  
+  
+  
 
 /* Modifikationen für Clips */
 /*
