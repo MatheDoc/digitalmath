@@ -946,7 +946,7 @@ li {
 #floating-box {
     font-size: 1.2em;
     position: absolute;
-    height: 50px;
+    height: 100px;
     width: 330px;
     background-color: #e0ffde;
     color: black;
@@ -956,15 +956,17 @@ li {
     cursor: default;
     overflow: hidden;
     display: none;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    padding-top: 12px;
     text-align: center;
-    white-space: nowrap; /* Verhindert Zeilenumbruch */
+    white-space: nowrap;
     z-index: 10000 ;
+    flex-direction: column;
+    align-items: center;
   }
   
-  
+  #floating-frage, #floating-antwort{
+    margin: 5px;
+  }
   
 
 /* Modifikationen für Clips */

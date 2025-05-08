@@ -1,6 +1,8 @@
 
 
 const box = document.getElementById("floating-box");
+const frage = document.getElementById("floating-frage");
+const antwort = document.getElementById("floating-antwort");
 
 let x = 100, y = 100;
 let dx = 2, dy = 2;
@@ -10,7 +12,8 @@ let aufgaben = [];
 
 function ladeNeueAufgabe() {
   aktuelleAufgabe = aufgaben[Math.floor(Math.random() * aufgaben.length)];
-  box.innerHTML = aktuelleAufgabe.frage;
+  frage.innerHTML = aktuelleAufgabe.frage;
+  antwort.innerHTML = "";
   box.style.backgroundColor = "#ffdede";
   showingSolution = false;
   if (window.MathJax) MathJax.typeset();
@@ -27,7 +30,7 @@ function animate() {
 
   
   if (!showingSolution && (x <= 0 || x >= w || y <= 0 || y >= h)) {
-    box.innerHTML = aktuelleAufgabe.antwort;
+    antwort.innerHTML = aktuelleAufgabe.antwort;
     box.style.backgroundColor = "#e0ffde";
     showingSolution = true;
     if (window.MathJax) MathJax.typeset();
@@ -79,7 +82,7 @@ fetch(`/json_screen/${thema}.json`)
 
   // Timer
   let timeout;
-  const delay = 30000; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
+  const delay = 3000; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
   const overlay = document.getElementById("screensaver-overlay");
   
   function showBox() {
@@ -93,7 +96,7 @@ fetch(`/json_screen/${thema}.json`)
   }
 
   function resetTimer() {
-    hideBox(); // Box sofort ausblenden
+    hideBox();
     clearTimeout(timeout);
     timeout = setTimeout(showBox, delay); // Timer neu starten
   }

@@ -1,62 +1,78 @@
 [
     {
-        "frage": "Wkt., dass eine Münze Kopf zeigt",
-        "antwort": "$\\frac{1}{2}$"
+        "frage": "Wkt., dass eine Münze Kopf zeigt:",
+        "antwort": "$P(\\{K\\})=\\frac{1}{2}$"
     },
     {
-        "frage": "Wkt., dass eine Münze Zahl zeigt",
-        "antwort": "$\\frac{1}{2}$"
+        "frage": "Wkt., dass eine Münze Zahl zeigt:",
+        "antwort": "$P(\\{Z\\})=\\frac{1}{2}$"
     },
     {
-        "frage":"Wkt., dass ein Würfel 1 zeigt",
-        "antwort":"$\\frac{1}{6}$"
+        "frage":"Wkt., dass ein Würfel 1 zeigt:",
+        "antwort":"$P(\\{1\\})=\\frac{1}{6}$"
     },
     {
-        "frage":"Wkt., dass ein Würfel 6 zeigt",
-        "antwort":"$\\frac{1}{6}$"
+        "frage":"Wkt., dass ein Würfel 6 zeigt:",
+        "antwort":"$P(\\{6\\})=\\frac{1}{6}$"
     },
     {
-        "frage": "$P(\\emptyset)$",
-        "antwort": "$0$"
+        "frage": "$P(\\emptyset)=$",
+        "antwort": "$P(\\emptyset)=0$"
     },
     {
-        "frage": "$P(\\Omega)$",
+        "frage": "$P(\\Omega)=$",
         "antwort": "$1$"
     },
     {
-        "frage": "$P(A\\cup B)$",
+        "frage": "$P(A\\cup B)=$",
         "antwort": "$P(A) + P(B) - P(A\\cap B)$"
     },
     {
-        "frage": "$P(A\\cap B)$",
+        "frage": "$P(A\\cap B)=$",
         "antwort": "$P(A) + P(B) - P(A\\cup B)$"
     },
     {
-        "frage": "$P(A\\cap\\overline{A})$",
+        "frage": "$P(A\\cap\\overline{A})=$",
         "antwort": "$0$"
     },
     {
-        "frage": "$P(A\\cup\\overline{A})$",
+        "frage": "$P(A\\cup\\overline{A})=$",
         "antwort": "$1$"
     },
     {
-        "frage": "$P(A\\cup B)-P(A\\cap B)$",
+        "frage": "$P(A\\cup B)-P(A\\cap B)=$",
         "antwort": "$P(A\\cap\\overline{B}) + P(\\overline{A}\\cap B)$"
     },
     {
-        "frage": "$P(\\overline{A})$",
+        "frage": "$P(\\overline{A})=$",
         "antwort": "$1 - P(A)$"
     },
     {
-        "frage": "Wkt. Laplace-Experiment",
+        "frage": "Wkt. Laplace-Experiment:",
         "antwort": "$P=\\frac{\\text{Anzahl der günstigen Ergebnisse}}{\\text{Anzahl der möglichen Ergebnisse}}$"
     },
     {
-        "frage": "Vereingung zweier Ereignissen",
+        "frage": "Vereingung zweier Ereignisse:",
         "antwort" : "$A\\cup B$"
     },
     {
-        "frage": "Durchschnitt zweier Ereignisse",
+        "frage": "Durchschnitt zweier Ereignisse:",
         "antwort" : "$A\\cap B$"
+    },
+    {
+        "frage": "$A=$",
+        "antwort" : "$(A \\cap B) \\cup (A \\cap \\overline{B})$"
+    },
+    {
+        "frage": "$\\overline{\\overline{A}}=$",
+        "antwort" : "$A$"
+    },
+    {
+        "frage": "$\\overline{A} \\cup \\overline{B} =$",
+        "antwort" : "$\\overline{A \\cap B}$"
+    },
+    {
+        "frage": "$\\overline{A} \\cap \\overline{B} = $",
+        "antwort" : "$\\overline{A \\cup B}$"
     }
 ]
