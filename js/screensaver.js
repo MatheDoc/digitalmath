@@ -86,7 +86,7 @@ fetch(aufgabenPfad)
 
   // Timer
   let timeout;
-  const delay = 300; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
+  const delay = 30000; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
   const overlay = document.getElementById("screensaver-overlay");
   
   function showBox() {
