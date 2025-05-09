@@ -1,78 +1,86 @@
 [
     {
-        "frage": "Wkt., dass eine Münze Kopf zeigt:",
+        "frage": "Wkt., dass eine Münze Kopf zeigt",
         "antwort": "$P(\\{K\\})=\\frac{1}{2}$"
     },
     {
-        "frage": "Wkt., dass eine Münze Zahl zeigt:",
+        "frage": "Wkt., dass eine Münze Zahl zeigt",
         "antwort": "$P(\\{Z\\})=\\frac{1}{2}$"
     },
     {
-        "frage":"Wkt., dass ein Würfel 1 zeigt:",
+        "frage":"Wkt., dass ein Würfel 1 zeigt",
         "antwort":"$P(\\{1\\})=\\frac{1}{6}$"
     },
     {
-        "frage":"Wkt., dass ein Würfel 6 zeigt:",
+        "frage":"Wkt., dass ein Würfel 6 zeigt",
         "antwort":"$P(\\{6\\})=\\frac{1}{6}$"
     },
     {
-        "frage": "$P(\\emptyset)=$",
-        "antwort": "$0$"
+        "frage": "Wkt. des unmöglichen Ereignisses",
+        "antwort": "$P(\\emptyset) = 0$"
     },
     {
-        "frage": "$P(\\Omega)=$",
-        "antwort": "$1$"
+        "frage": "Wkt. des sicheren Ereignisses",
+        "antwort": "$P(S) = 1$"
     },
     {
-        "frage": "$P(A\\cup B)=$",
-        "antwort": "$P(A) + P(B) - P(A\\cap B)$"
+        "frage": "Satz von Sylvester 1",
+        "antwort": "$P(A\\cup B) = P(A) + P(B) - P(A\\cap B)$"
     },
     {
-        "frage": "$P(A\\cap B)=$",
-        "antwort": "$P(A) + P(B) - P(A\\cup B)$"
+        "frage": "Satz von Sylvester 2",
+        "antwort": "$P(A\\cap B) = P(A) + P(B) - P(A\\cup B)$"
     },
     {
-        "frage": "$P(A\\cap\\overline{A})=$",
-        "antwort": "$0$"
+        "frage": "Niemals $A$ und $\\overline{A}$",
+        "antwort": "$P(A\\cap\\overline{A}) = 0$"
     },
     {
-        "frage": "$P(A\\cup\\overline{A})=$",
-        "antwort": "$1$"
+        "frage": "Immer $A$ oder $\\overline{A}$",
+        "antwort": "$P(A\\cup\\overline{A})=1$"
     },
     {
-        "frage": "$P(A\\cup B)-P(A\\cap B)=$",
+        "frage": "Entweder-oder-Wkt. 1",
         "antwort": "$P(A\\cap\\overline{B}) + P(\\overline{A}\\cap B)$"
     },
     {
-        "frage": "$P(\\overline{A})=$",
-        "antwort": "$1 - P(A)$"
+        "frage": "Entweder-oder-Wkt. 2",
+        "antwort": "$P(A\\cup B)-P(A\\cap B)$"
     },
     {
-        "frage": "Wkt. Laplace-Experiment:",
+        "frage": "Wkt. des Gegenereignisses",
+        "antwort": "$P(\\overline{A}) = 1 - P(A)$"
+    },
+    {
+        "frage": "Wkt. Laplace-Experiment",
         "antwort": "$P=\\frac{\\text{Anzahl der günstigen Ergebnisse}}{\\text{Anzahl der möglichen Ergebnisse}}$"
     },
     {
-        "frage": "Vereingung zweier Ereignisse:",
+        "frage": "Vereingung zweier Ereignisse",
         "antwort" : "$A\\cup B$"
     },
     {
-        "frage": "Durchschnitt zweier Ereignisse:",
+        "frage": "Durchschnitt zweier Ereignisse",
         "antwort" : "$A\\cap B$"
     },
     {
-        "frage": "$A=$",
-        "antwort" : "$(A \\cap B) \\cup (A \\cap \\overline{B})$"
+        "frage": "Zerlegung von Mengen",
+        "antwort" : "$A=(A \\cap B) \\cup (A \\cap \\overline{B})$"
     },
     {
-        "frage": "$\\overline{\\overline{A}}=$",
-        "antwort" : "$A$"
+        "frage": "Doppelte Negation",
+        "antwort" : "$\\overline{\\overline{A}}=A$"
     },
     {
-        "frage": "$\\overline{A} \\cup \\overline{B} =$",
-        "antwort" : "$\\overline{A \\cap B}$"
+        "frage": "De Morgansche Gesetz 1",
+        "antwort" : "$\\overline{A \\cap B}  =\\overline{A} \\cup \\overline{B}$"
     },
     {
-        "frage": "$\\overline{A} \\cap \\overline{B} = $",
-        "antwort" : "$\\overline{A \\cup B}$"
+        "frage": "De Morgansche Gesetz 2",
+        "antwort" : "$\\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}$"
+    },
+    {
+        "frage": "Sagt die $0$ zur $8$",
+        "antwort" : "Schicker Gürtel!"
     }
 ]

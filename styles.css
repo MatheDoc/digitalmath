@@ -593,7 +593,7 @@ a.link-homepage:hover {
     border: 1px solid #ccc;
     border-radius: 12px;
     padding-bottom: 20px;
-    width: 600px;
+    width: 500px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
@@ -947,7 +947,7 @@ li {
     font-size: 1.2em;
     position: absolute;
     height: 100px;
-    width: 330px;
+    min-width: 330px;
     background-color: #e0ffde;
     color: black;
     border-radius: 50px;
@@ -965,7 +965,7 @@ li {
   }
   
   #floating-frage, #floating-antwort{
-    margin: 5px;
+    margin: 7px;
   }
   
 

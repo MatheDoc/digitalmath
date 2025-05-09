@@ -57,7 +57,13 @@ const thema = params.get('thema');
 const h2 = document.querySelector('h2');
 h2.innerText = thema;
 
-fetch(`/json_screen/${thema}.json`)
+if (Math.random() < 1) {
+  aufgabenPfad = `/json_screen/${thema}.json`;
+} else {
+  aufgabenPfad = `/json_screen/jokes.json`
+}
+
+fetch(aufgabenPfad)
   .then(res => {
     if (!res.ok) throw new Error("Datei nicht gefunden");
     return res.json();
@@ -82,11 +88,11 @@ fetch(`/json_screen/${thema}.json`)
 
   // Timer
   let timeout;
-  const delay = 3000; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
+  const delay = 30000; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
   const overlay = document.getElementById("screensaver-overlay");
   
   function showBox() {
-    box.style.display = 'flex';
+    box.style.display = 'block';
     overlay.style.display = 'block';
   }
 
@@ -100,4 +106,5 @@ fetch(`/json_screen/${thema}.json`)
     clearTimeout(timeout);
     timeout = setTimeout(showBox, delay); // Timer neu starten
   }
+
 
