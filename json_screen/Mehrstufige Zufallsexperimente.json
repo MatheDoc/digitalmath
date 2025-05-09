@@ -1,86 +1,34 @@
 [
     {
-        "frage": "Wkt., dass eine Münze Kopf zeigt",
-        "antwort": "$P(\\{K\\})=\\frac{1}{2}$"
+        "frage": "Pfadmultiplikationsregel",
+        "antwort": "$P(A)\\cdot P_A(B) = P(A\\cap B)$"
     },
     {
-        "frage": "Wkt., dass eine Münze Zahl zeigt",
-        "antwort": "$P(\\{Z\\})=\\frac{1}{2}$"
+        "frage": "Pfadmultiplikationsregel",
+        "antwort": "$P(A)\\cdot P_A(\\overline{B}) = P(A\\cap \\overline{B})$"
     },
     {
-        "frage":"Wkt., dass ein Würfel 1 zeigt",
-        "antwort":"$P(\\{1\\})=\\frac{1}{6}$"
+        "frage": "Pfadmultiplikationsregel",
+        "antwort": "$P(\\overline{A})\\cdot P_{\\overline{A}}(B) = P(\\overline{A}\\cap B)$"
     },
     {
-        "frage":"Wkt., dass ein Würfel 6 zeigt",
-        "antwort":"$P(\\{6\\})=\\frac{1}{6}$"
+        "frage": "Pfadmultiplikationsregel",
+        "antwort": "$P(\\overline{A})\\cdot P_{\\overline{A}}(\\overline{B}) = P(\\overline{A}\\cap \\overline{B})$"
     },
     {
-        "frage": "Wkt. des unmöglichen Ereignisses",
-        "antwort": "$P(\\emptyset) = 0$"
+        "frage": "Pfadadditionsregel",
+        "antwort": "$P(B)=P(A\\cap B)+P(\\overline{A}\\cap B)$"
     },
     {
-        "frage": "Wkt. des sicheren Ereignisses",
-        "antwort": "$P(S) = 1$"
+        "frage": "Pfadadditionsregel",
+        "antwort": "$P(\\overline{B})=P(A\\cap \\overline{B})+P(\\overline{A}\\cap \\overline{B})$"
     },
     {
-        "frage": "Satz von Sylvester (1)",
-        "antwort": "$P(A\\cup B) = P(A) + P(B) - P(A\\cap B)$"
+        "frage": "Pfadadditionsregel",
+        "antwort": "$P(A)=P(A\\cap B)+P(A\\cap \\overline{B})$"
     },
     {
-        "frage": "Satz von Sylvester (2)",
-        "antwort": "$P(A\\cap B) = P(A) + P(B) - P(A\\cup B)$"
-    },
-    {
-        "frage": "Niemals $A$ und $\\overline{A}$",
-        "antwort": "$P(A\\cap\\overline{A}) = 0$"
-    },
-    {
-        "frage": "Immer $A$ oder $\\overline{A}$",
-        "antwort": "$P(A\\cup\\overline{A})=1$"
-    },
-    {
-        "frage": "Entweder-oder-Wkt. (1)",
-        "antwort": "$P(A\\cap\\overline{B}) + P(\\overline{A}\\cap B)$"
-    },
-    {
-        "frage": "Entweder-oder-Wkt. (2)",
-        "antwort": "$P(A\\cup B)-P(A\\cap B)$"
-    },
-    {
-        "frage": "Wkt. des Gegenereignisses",
-        "antwort": "$P(\\overline{A}) = 1 - P(A)$"
-    },
-    {
-        "frage": "Wkt. Laplace-Experiment",
-        "antwort": "$P=\\frac{\\text{Anzahl der günstigen Ergebnisse}}{\\text{Anzahl der möglichen Ergebnisse}}$"
-    },
-    {
-        "frage": "Vereingung zweier Ereignisse",
-        "antwort" : "$A\\cup B$"
-    },
-    {
-        "frage": "Durchschnitt zweier Ereignisse",
-        "antwort" : "$A\\cap B$"
-    },
-    {
-        "frage": "Zerlegung von Mengen",
-        "antwort" : "$A=(A \\cap B) \\cup (A \\cap \\overline{B})$"
-    },
-    {
-        "frage": "Doppelte Negation",
-        "antwort" : "$\\overline{\\overline{A}}=A$"
-    },
-    {
-        "frage": "De Morgansche Gesetz (1)",
-        "antwort" : "$\\overline{A \\cap B}  =\\overline{A} \\cup \\overline{B}$"
-    },
-    {
-        "frage": "De Morgansche Gesetz (2)",
-        "antwort" : "$\\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}$"
-    },
-    {
-        "frage": "Sagt die $0$ zur $8$",
-        "antwort" : "Schicker Gürtel!"
+        "frage": "Pfadadditionsregel",
+        "antwort": "$P(\\overline{A})=P(\\overline{A}\\cap B)+P(\\overline{A}\\cap \\overline{B})$"
     }
-]
+    ]

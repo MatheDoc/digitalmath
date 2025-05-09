@@ -1,0 +1,34 @@
+[
+    {
+        "frage": "Wkt. von $B$ unter Bedingung $A$",
+        "antwort": "$P_A(B)=\\frac{P(A\\cap B)}{P(A)}$"
+    },
+    {
+        "frage": "Wkt. von $\\overline{B}$ unter Bedingung $A$",
+        "antwort": "$P_A(\\overline{B})=\\frac{P(A\\cap \\overline{B})}{P(A)}$"
+    },
+    {
+        "frage": "Wkt. von $A$ unter Bedingung $\\overline{B}$",
+        "antwort": "$P_{\\overline{B}}(A)=\\frac{P(A\\cap \\overline{B})}{P(\\overline{B})}$"
+    },
+    {
+        "frage": "Wkt. von $\\overline{A}$ unter Bedingung $\\overline{B}$",
+        "antwort": "$P_{\\overline{B}}(\\overline{A})=\\frac{P(\\overline{A}\\cap \\overline{B})}{P(\\overline{B})}$"
+    },
+    {
+        "frage": "Stochastische Unabhängigkeit (1)",
+        "antwort": "$P_A(B)=P_{\\overline{A}}(B)$"
+    },
+    {
+        "frage": "Stochastische Unabhängigkeit (2)",
+        "antwort": "$P(B) = P_A(B)$"
+    },
+    {
+        "frage": "Stochastische Unabhängigkeit (3)",
+        "antwort": "$P(A\\cap B) = P(A) \\cdot P(B)$"
+    },
+    {
+        "frage": "Multiplikative Vier-Felder-Tafel",
+        "antwort": "$A$ und $B$ stochastik unabhängig"
+    }
+]
