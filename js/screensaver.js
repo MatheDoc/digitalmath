@@ -1,5 +1,3 @@
-
-
 const box = document.getElementById("floating-box");
 const frage = document.getElementById("floating-frage");
 const antwort = document.getElementById("floating-antwort");
@@ -88,10 +86,17 @@ fetch(aufgabenPfad)
 
   // Timer
   let timeout;
-  const delay = 30000; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
+  const delay = 300; // Zeit in Millisekunden (z. B. 5000 = 5 Sekunden)
   const overlay = document.getElementById("screensaver-overlay");
   
   function showBox() {
+      // Position zurücksetzen
+  x = 100;
+  y = 100;
+
+  // Bewegungsrichtung neu festlegen (optional, damit nicht immer gleich)
+  dx = (Math.random() < 0.5 ? -1 : 1) * 2;
+  dy = (Math.random() < 0.5 ? -1 : 1) * 2;
     box.style.display = 'block';
     overlay.style.display = 'block';
   }

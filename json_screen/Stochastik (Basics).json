@@ -24,11 +24,11 @@
         "antwort": "$P(S) = 1$"
     },
     {
-        "frage": "Satz von Sylvester 1",
+        "frage": "Satz von Sylvester (1)",
         "antwort": "$P(A\\cup B) = P(A) + P(B) - P(A\\cap B)$"
     },
     {
-        "frage": "Satz von Sylvester 2",
+        "frage": "Satz von Sylvester (2)",
         "antwort": "$P(A\\cap B) = P(A) + P(B) - P(A\\cup B)$"
     },
     {
@@ -40,11 +40,11 @@
         "antwort": "$P(A\\cup\\overline{A})=1$"
     },
     {
-        "frage": "Entweder-oder-Wkt. 1",
+        "frage": "Entweder-oder-Wkt. (1)",
         "antwort": "$P(A\\cap\\overline{B}) + P(\\overline{A}\\cap B)$"
     },
     {
-        "frage": "Entweder-oder-Wkt. 2",
+        "frage": "Entweder-oder-Wkt. (2)",
         "antwort": "$P(A\\cup B)-P(A\\cap B)$"
     },
     {
@@ -72,11 +72,11 @@
         "antwort" : "$\\overline{\\overline{A}}=A$"
     },
     {
-        "frage": "De Morgansche Gesetz 1",
+        "frage": "De Morgansche Gesetz (1)",
         "antwort" : "$\\overline{A \\cap B}  =\\overline{A} \\cup \\overline{B}$"
     },
     {
-        "frage": "De Morgansche Gesetz 2",
+        "frage": "De Morgansche Gesetz (2)",
         "antwort" : "$\\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}$"
     },
     {
