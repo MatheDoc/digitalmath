@@ -16,6 +16,22 @@
         "antwort": "$P_{\\overline{B}}(\\overline{A})=\\frac{P(\\overline{A}\\cap \\overline{B})}{P(\\overline{B})}$"
     },
     {
+        "frage": "Wkt. von $A$ unter Bedingung $B$",
+        "antwort": "$P_B(A)=\\frac{P(A\\cap B)}{P(B)}$"
+    },
+    {
+        "frage": "Wkt. von $\\overline{A}$ unter Bedingung $B$",
+        "antwort": "$P_B(\\overline{A})=\\frac{P(\\overline{A}\\cap B)}{P(B)}$"
+    },
+    {
+        "frage": "Wkt. von $B$ unter Bedingung $\\overline{A}$",
+        "antwort": "$P_{\\overline{A}}(B)=\\frac{P(\\overline{A}\\cap B)}{P(\\overline{A})}$"
+    },
+    {
+        "frage": "Wkt. von $\\overline{B}$ unter Bedingung $\\overline{A}$",
+        "antwort": "$P_{\\overline{A}}(\\overline{B})=\\frac{P(\\overline{A}\\cap \\overline{B})}{P(\\overline{A})}$"
+    },
+    {
         "frage": "Stochastische Unabhängigkeit (1)",
         "antwort": "$P_A(B)=P_{\\overline{A}}(B)$"
     },
@@ -29,6 +45,22 @@
     },
     {
         "frage": "Multiplikative Vier-Felder-Tafel",
-        "antwort": "$A$ und $B$ stochastik unabhängig"
+        "antwort": "Stochastisch unabhängige Ereignisse"
+    },
+    {
+        "frage": "$A$ und $B$ stochastisch unabhängig $\\Leftrightarrow$ ",
+        "antwort": "$\\overline{A}$ und $B$ stochastisch unabhängig"
+    },
+    {
+        "frage": "$A$ und $B$ stochastisch unabhängig $\\Leftrightarrow$ ",
+        "antwort": "$A$ und $\\overline{B}$ stochastisch unabhängig"
+    },
+    {
+        "frage": "$A$ und $B$ stochastisch unabhängig $\\Leftrightarrow$ ",
+        "antwort": "$\\overline{A}$ und $\\overline{B}$ stochastisch unabhängig"
+    },
+    {
+        "frage": "Satz von Bayes",
+        "antwort": "P_B(A)=\\frac{P_A(B)\\cdot P(A)}{P(B)}"
     }
 ]
