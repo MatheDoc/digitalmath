@@ -6,7 +6,13 @@ Eine **Zufallsgröße** $X$ ordnet jedem Ergebnis eines Zufallsexperiment eine r
 
 ##### Beispiel: Kiosk
 
-Getränke
+All you can eat
+
+80% können normal über den Handel verkauft werden. DAbei kommt es zu einem Gewinn von 1,50€.
+8% fehlerhafter Belag, hier kann man noch ... machen. Der Gewinn ist dann 0,9
+5% etwas andere, Gewinn noch 0
+
+7% müssen entsorgt, werden, für diese pizzen kommt es dann zum verlust
 
 ##### Beispiel: Wurf zweier Würfel
 
