@@ -596,7 +596,6 @@ a.link-homepage:hover {
     align-items: flex-start;
   }
 
-  
 
 /* Die Box mit Flexbox für horizontale Zentrierung */
 .box {
@@ -606,7 +605,6 @@ a.link-homepage:hover {
     padding-bottom: 20px;
     width: 30vw;
     min-width: 400px;
-    max-width: 90vw !important;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
@@ -643,9 +641,6 @@ a.link-homepage:hover {
     width: 100%;
     box-sizing: border-box;
     display: none;
-    /*padding-left: 25px;
-    padding-right: 25px;
-    width: 400px;*/
 }
 
   /* Icon rechts positionieren */
@@ -657,7 +652,7 @@ a.link-homepage:hover {
 
 
   .box:hover {
-    transform: scale(1.03);
+    background-color: #d7eaf3;
   }
   
   .box button:hover {
@@ -781,10 +776,10 @@ li {
 
 @media (max-width: 768px) {
 
-    .aufgabe{
-        width: 100vw;
+    .aufgabe, .box {
+        min-width: 90vw;
+        max-width: 90vw;
     }
-
     input[type="text"] {
         width: 60px;
     }
@@ -792,13 +787,11 @@ li {
         width: 75%;
         max-width: 75%; 
     }
+    
 
 }
 
 @media print {
-
-
-
 
     @page {
         margin: 2cm; 

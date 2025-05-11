@@ -54,7 +54,7 @@ Der Erwartungswert beträgt also $1{,}72$. Das bedeutet: Biathlet A verfehlt im 
 ##### Beispiel: Der Erwartungswert von Biathlet B
 
 \begin{align*}
-E(X_B) &= 0 \cdot 0{,}37 + 1 \cdot 0{,}16 + 2 \cdot 0{,}18 + 3 \cdot 0{,}08 + 4 \cdot 0{,}09 + 5 \cdot 0{,}12 \\\\
+E(X) &= 0 \cdot 0{,}37 + 1 \cdot 0{,}16 + 2 \cdot 0{,}18 + 3 \cdot 0{,}08 + 4 \cdot 0{,}09 + 5 \cdot 0{,}12 \\\\
 &= 0 + 0{,}16 + 0{,}36 + 0{,}24 + 0{,}36 + 0{,}60 \\\\
 &= 1{,}72
 \end{align*}
@@ -71,7 +71,7 @@ Wir suchen nun eine Kennzahl, mit der wir genau messen können, wie stark eine Z
 
 \begin{align*}
 \sigma(X)  &= \sqrt{(x_1-E(X))^2 \cdot P(X = x_1) + (x_2-E(X))^2 \cdot P(X = x_2) + \ldots + (x_n-E(X))^2 \cdot P(X = x_n)} \\\\\\\\
-           &=  \sqrt{\sum_{i=1}^{n} (x_i - \mu)^2\cdot P(X=x_i)} 
+           &=  \sqrt{\sum_{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)} 
 \end{align*}
 
 Auch der Ausdruck unter der Wurzel eignet sich, die Schwankungen zu messen. Er wird **Varianz** genannt und mit $\sigma^2$ bezeichnet.
@@ -163,7 +163,7 @@ In vielen Anwendungssituationen ist eine kleine Standardabweichung vorteilhaft, 
 
 Dazu wechseln wir einmal die Perspektive: Statistik und ohne Gewichtung mit Wahrscheinlichkeiten. Dann haben wir folgendes Setting:
 Beobachtungswerte $x_1, x_2, \ldots x_n$: Dem Erwartungswert entpsriht hier das airthnetische Mittel. (An dieser Stelle könnte man im übrigen grundsätzlich fragen, ob das arithmetische Mittel ok ist)
-Frage: Wie messen wir die Abweichung vom airthmwtschen Mittel. Wir betrachten 3 Möglchkeiten
+Frage: Wie messen wir die Abweichung vom airthmwtschen Mittel. Wir betrachten folgende 3 Möglchkeiten
 
 1. absolute Abweichung
 2. quadraitsche Abweichung
