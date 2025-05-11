@@ -106,7 +106,7 @@ figure {
     width: 100%;
     height: auto;
     margin: 0 auto; /* zentriert das Diagramm */
-    padding: 20px;
+    margin-top: 20px; 
 }
 
 

@@ -57,8 +57,8 @@ Elemente werden nicht doppelt aufgeführt. Für die Vereinigung von $A=\\{2, 4, 
 
 Mit Hilfe dieser Operationen, lassen sich weitere Mengen beschreiben, z.B.:
 
-* Eine Zahl ist weder durch 2 noch durch 3 teilbar: $\overline{A}\cap{\overline{B}}$ $\Rightarrow$ $\\{1, 5\\}$
-* Eine Zahl ist entweder durch 2 oder durch 3 teilbar: $(A\cap\overline{B}) \cup (\overline{A}\cap B)$ $\Rightarrow$ $\\{2, 3, 4\\}$
+* Eine Zahl ist weder durch 2 noch durch 3 teilbar: $\overline{A}\cap{\overline{B}}=\\{1, 5\\}$
+* Eine Zahl ist entweder durch 2 oder durch 3 teilbar: $(A\cap\overline{B}) \cup (\overline{A}\cap B)=\\{2, 3, 4\\}$
 
 #### Rechenregeln
 
