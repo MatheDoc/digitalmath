@@ -33,7 +33,6 @@ function scrollToAnchor(id, maxAttempts = 5, delay = 300) {
       }
     }, delay);
   };
-
   requestAnimationFrame(() => requestAnimationFrame(tryScroll));
 }
 
@@ -49,6 +48,36 @@ Promise.all([domReady, mathjaxReady])
 
     // Markdown in HTML umwandeln
     container.innerHTML = marked(markdownText);
+
+    // Canvas-Skript dynamisch einfügen
+    const canvasPfad = `canvas/${thema}.js`;  // Der Pfad zur JavaScript-Datei, basierend auf dem Thema
+    // Neues <script>-Tag erstellen
+    const script = document.createElement('script');
+    script.src = canvasPfad;
+    script.async = true;  // Skript asynchron laden
+    // Fehlerbehandlung für das Skript (optional)
+    script.onerror = () => {
+      console.error(`Fehler: Das Skript für das Thema '${thema}' konnte nicht geladen werden.`);
+    };
+    // Füge das Skript ans Ende des <body> hinzu
+    document.body.appendChild(script);
+    script.onload = () => {
+      console.log(`${thema}.js wurde erfolgreich geladen.`);
+    };
+
+
+    const canvasElements = container.querySelectorAll('canvas');
+    canvasElements.forEach(canvas => {
+      const id = canvas.getAttribute('id');
+      if (id) {
+        const scriptPath = `canvas/${thema}/skript/${id}.js`;
+        const script = document.createElement('script');
+        script.src = scriptPath;
+        script.async = true;
+        container.appendChild(script);
+      }
+    }
+    );
 
     // Lokale Bildpfade korrigieren
     const bilder = container.querySelectorAll('img');

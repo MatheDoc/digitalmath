@@ -100,9 +100,19 @@ figure {
     margin: 0 auto;
   }
   
-  .script figure img {
+
+.diagramm {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto; /* zentriert das Diagramm */
+}
+
+
+  .script figure img{
     max-width: 500px;
     width: 90vw;
+    max-height: 500px;
   }
   
   figure figcaption {
@@ -595,6 +605,7 @@ a.link-homepage:hover {
     padding-bottom: 20px;
     width: 30vw;
     min-width: 400px;
+    max-width: 90vw;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
