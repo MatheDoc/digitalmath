@@ -15,13 +15,14 @@ Ein Biathlet A absolviert eine Schießeinheit mit fünf Schüssen auf Zielscheib
 <div id="histogramm" class="diagramm"></div>
 
 
+<!--
 ##### Beispiel: Wurf zweier Würfel
-
 Die Ergebnismenge ist $S=\\{(1;1),(1;2),\ldots,(6;6)\\}$. Die Zufallsgröße bestehe nun darin, jedem Ergebnis die Summe der Augenzahlen zuzuordnen: $(1;1) \mapsto 2$, $(1;2) \mapsto 3$, $\ldots$, $(6;6) \mapsto 12$.
 
 | $x_i$            | $2$            | $3$            | $4$            | $5$            | $6$            | $7$            | $8$            | $9$            | $10$           | $11$           | $12$           |
 |------------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|
 | $P(X = x_i)$     | $\frac{1}{36}$ | $\frac{2}{36}$ | $\frac{3}{36}$ | $\frac{4}{36}$ | $\frac{5}{36}$ | $\frac{6}{36}$ | $\frac{5}{36}$ | $\frac{4}{36}$ | $\frac{3}{36}$ | $\frac{2}{36}$ | $\frac{1}{36}$ |
+-->
 
 ### Histogramme
 
