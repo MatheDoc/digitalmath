@@ -66,7 +66,8 @@ Promise.all([domReady, mathjaxReady])
     };
 
 
-    const canvasElements = container.querySelectorAll('canvas');
+
+    /*const canvasElements = container.querySelectorAll('canvas');
     canvasElements.forEach(canvas => {
       const id = canvas.getAttribute('id');
       if (id) {
@@ -77,7 +78,7 @@ Promise.all([domReady, mathjaxReady])
         container.appendChild(script);
       }
     }
-    );
+    );*/
 
     // Lokale Bildpfade korrigieren
     const bilder = container.querySelectorAll('img');

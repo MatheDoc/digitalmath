@@ -7,6 +7,14 @@ function zeigeNeuesQuiz() {
     const sammlungen = params.getAll('sammlung');
     const titel = params.get('titel');
     const exam = params.get('exam');
+    const quizonly = params.get('quizonly')
+
+    // Bei iframe in script h1 und h4 ausblenden
+    document.addEventListener('DOMContentLoaded', () => {
+    if (quizonly === 'true') {
+        document.querySelector("h1").style.display = 'none';
+        document.querySelector("h4").style.display = 'none';
+    }});
 
     // Titel setzen, wenn vorhanden
     if (titel && exam === 'no') {

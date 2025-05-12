@@ -192,6 +192,11 @@ table{
 .script p{
     line-height: 1.5;
 }
+
+.script iframe h1 {
+    display: none;
+}
+
 .rowCheckbox{
     cursor: pointer;
 }
