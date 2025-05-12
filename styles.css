@@ -652,7 +652,7 @@ a.link-homepage:hover {
 
 
   .box:hover {
-    background-color: #d7eaf3;
+   transform: scale(1.03);
   }
   
   .box button:hover {
@@ -787,7 +787,9 @@ li {
         width: 75%;
         max-width: 75%; 
     }
-    
+  .box:hover {
+   transform: scale(1);
+  }    
 
 }
 
