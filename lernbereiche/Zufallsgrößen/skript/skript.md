@@ -63,6 +63,8 @@ Der Erwartungswert für Biathlet B beträgt also $1{,}72$. Auch Biathlet B verfe
 
 Wären die Erwartungswerte der beiden Biathleten unterschiedlich gewesen, hätten wir eine fundierte Entscheidungsgrundlage gehabt, um zu entscheiden, welcher der treffsicherere Biathlet ist.
 
+##### Übung: Bestimmung des Erwartungswerts
+
  <iframe 
  src="https://www.mathechecks.de/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungEX.json&titel=Ich kann den Erwartungswert einer allgemeinen Zufallsgröße berechnen.&quizonly=true" 
  frameborder="0" 
