@@ -68,7 +68,7 @@ Wären die Erwartungswerte der beiden Biathleten unterschiedlich gewesen, hätte
  <iframe 
  src="https://www.mathechecks.de/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungEX.json&titel=Ich kann den Erwartungswert einer allgemeinen Zufallsgröße berechnen.&quizonly=true" 
  frameborder="0" 
- style="width: 100%; height: 500px;" 
+ style="width: 100%;" 
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
  referrerpolicy="strict-origin-when-cross-origin" 
  allowfullscreen>

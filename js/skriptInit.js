@@ -100,3 +100,27 @@ Promise.all([domReady, mathjaxReady])
   .catch(err => {
     document.getElementById('content').textContent = 'Fehler: ' + err.message;
   });
+
+
+  // alle iframe Höhen anpassen
+const iframes = document.querySelectorAll('iframe');
+iframes.forEach(iframe => {
+  if (iframe.complete) {
+    resizeIframe(iframe);
+  } else {
+    iframe.addEventListener('load', () => resizeIframe(iframe));
+  }
+});
+
+function resizeIframe(iframe) {
+  try {
+    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+    const contentHeight = iframeDoc.body.scrollHeight;
+    iframe.style.height = (contentHeight + 10) + 'px';
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+  } catch (e) {
+    console.warn('Kein Zugriff auf iframe-Inhalt möglich:', e);
+  }
+}
+
