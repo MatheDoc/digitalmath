@@ -72,7 +72,7 @@ iframes.forEach(iframe => {
   iframe.addEventListener('load', () => {
     setTimeout(() => {
       resizeIframe(iframe);
-    }, 300); // 300 ms warten – ggf. anpassen
+    }, 1000); // 300 ms warten – ggf. anpassen
   });
 });
     

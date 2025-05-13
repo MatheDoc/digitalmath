@@ -1,6 +1,7 @@
-function erstelleQuiz(divId, url) {
+function erstelleQuiz(divId, sammlungsname) {
     var div = document.getElementById(divId);
-    div.innerHTML = '<iframe src="' + url + '&quizonly=true" ' +
+    div.innerHTML = '<iframe src="' + 
+        '/quiz.html?sammlung=' + sammlungsname + '.json&quizonly=true" ' +
         'frameborder="0" ' +
         'style="" ' +
         'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
@@ -8,7 +9,6 @@ function erstelleQuiz(divId, url) {
         'allowfullscreen>' +
         '</iframe>';
 }
-
 
 
 

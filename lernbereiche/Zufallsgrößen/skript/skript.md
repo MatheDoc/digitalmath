@@ -65,7 +65,7 @@ Wären die Erwartungswerte der beiden Biathleten unterschiedlich gewesen, hätte
 
 ##### Übung: Bestimmung des Erwartungswerts
 
-<div id="quiz-erwartungswert"></div>
+<div id="quiz-erwartungswert-allgemein"></div>
 
 #### Die Standardabweichung
 
@@ -127,8 +127,7 @@ Die Standardabweichung von Biathlet B beträgt also ungefähr $1{,}75$. Die Anza
 
 #### Übung: Bestimmung der Standardabweichung
 
-<div id="quiz-standardabweichung"></div>
-
+<div id="quiz-standardabweichung-allgemein"></div>
 
 #### Interpretationen
 
@@ -213,6 +212,10 @@ P(X = -1) & = 1 - (0,07 + 0,06 + 0,41 + 0,44) \\\\
           & = 0,02
 \end{align*}
 
+#### Übung
+
+<div id="quiz-fehlendeWkt"></div>
+
 #### Ein fehlender Wert
 
 Die Wahrscheinlichkeitsverteilung lautet:
@@ -236,6 +239,10 @@ Diese Gleichung können wir nach $x$ auflösen
 -1{,}17 & =0{,}39x \quad |:0{,}39\\\\
 x&=3
 \end{align*}
+
+#### Übung
+
+<div id="quiz-fehlenderWert"></div>
 
 #### Zwei fehlende Wahrscheinlichkeiten
 
@@ -265,6 +272,8 @@ Nun gibt es verschiedene Techniken, dieses Gleichungssystem zu lösen. Wir löse
 2. $x = 4y - 1{,}35 $
 
 und setzen gleich: $0{,}5 -y = 4y - 1{,}35$. Es folgt $1{,}85 = 5y$ und so $y=0{,}37$. Nun folgt $x=0{,}5 - 0{,}37 = 0{,}13$.
+
+<div id="quiz-zweiFehlendeWkt"></div>
 
 <!--
 ##### Beispiel: Wurf zweier Würfel

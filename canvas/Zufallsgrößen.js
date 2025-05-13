@@ -8,6 +8,12 @@ x = [0, 1, 2, 3, 4, 5];
 y = [0.37, 0.16, 0.18, 0.08, 0.09, 0.12];
 zeichneDiskretesHistogramm(x, y, 'histogramm-biathlet-B', 'Biathlet B');
 
-erstelleQuiz('quiz-erwartungswert',"/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungEX.json&titel=Ich kann den Erwartungswert einer allgemeinen Zufallsgröße berechnen");
+erstelleQuiz('quiz-erwartungswert-allgemein', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungEX");
 
-erstelleQuiz('quiz-standardabweichung',"quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungSX.json&titel=Ich kann die Standardabweichung einer allgemeinen Zufallsgröße berechnen.");
+erstelleQuiz('quiz-standardabweichung-allgemein', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungSX");
+
+erstelleQuiz('quiz-fehlendeWkt', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_FehlendeWkt");
+
+erstelleQuiz('quiz-fehlenderWert', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_FehlenderWert");
+
+erstelleQuiz('quiz-zweiFehlendeWkt', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_ZweiFehlendeWkt");
