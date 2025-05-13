@@ -63,7 +63,51 @@ Promise.all([domReady, mathjaxReady])
     document.body.appendChild(script);
     script.onload = () => {
       console.log(`${thema}.js wurde erfolgreich geladen.`);
+    
+    const iframes = container.querySelectorAll('iframe');
+
+console.log("Gefundene iframes:", iframes);
+
+iframes.forEach(iframe => {
+  iframe.addEventListener('load', () => {
+    setTimeout(() => {
+      resizeIframe(iframe);
+    }, 300); // 300 ms warten – ggf. anpassen
+  });
+});
+    
     };
+
+    /*  
+      setTimeout(() => {
+        
+        const iframes = container.querySelectorAll('iframe');
+          
+    console.log("Gefundene iframes:", iframes);
+        iframes.forEach(iframe => {
+          iframe.addEventListener('load', () => resizeIframe(iframe));
+        });
+      }, 0); 
+*/
+
+
+
+
+function resizeIframe(iframe) {
+  try {
+    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+    const contentHeight = iframeDoc.body.scrollHeight;
+    console.log("Berechnete Höhe:", contentHeight);
+    iframe.style.height = (contentHeight + 20) + 'px';
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+  } catch (e) {
+    console.warn('Zugriff auf iframe-Inhalt nicht möglich:', e);
+  }
+}
+
+
+
 
 
 
@@ -102,25 +146,4 @@ Promise.all([domReady, mathjaxReady])
   });
 
 
-  // alle iframe Höhen anpassen
-const iframes = document.querySelectorAll('iframe');
-iframes.forEach(iframe => {
-  if (iframe.complete) {
-    resizeIframe(iframe);
-  } else {
-    iframe.addEventListener('load', () => resizeIframe(iframe));
-  }
-});
-
-function resizeIframe(iframe) {
-  try {
-    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-    const contentHeight = iframeDoc.body.scrollHeight;
-    iframe.style.height = (contentHeight + 10) + 'px';
-    iframe.style.border = 'none';
-    iframe.style.width = '100%';
-  } catch (e) {
-    console.warn('Kein Zugriff auf iframe-Inhalt möglich:', e);
-  }
-}
 

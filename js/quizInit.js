@@ -14,6 +14,7 @@ function zeigeNeuesQuiz() {
     if (quizonly === 'true') {
         document.querySelector("h1").style.display = 'none';
         document.querySelector("h4").style.display = 'none';
+        document.getElementById('aufgaben').style.paddingTop = '0px';
     }});
 
     // Titel setzen, wenn vorhanden

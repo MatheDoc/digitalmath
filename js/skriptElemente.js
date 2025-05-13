@@ -1,3 +1,17 @@
+function erstelleQuiz(divId, url) {
+    var div = document.getElementById(divId);
+    div.innerHTML = '<iframe src="' + url + '&quizonly=true" ' +
+        'frameborder="0" ' +
+        'style="" ' +
+        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
+        'referrerpolicy="strict-origin-when-cross-origin" ' +
+        'allowfullscreen>' +
+        '</iframe>';
+}
+
+
+
+
 function zeichneFunktion(funktion, xMin, xMax, divId, titel = '') {
     const xWerte = [];
     const yWerte = [];

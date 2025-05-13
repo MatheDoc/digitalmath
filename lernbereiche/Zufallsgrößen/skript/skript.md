@@ -65,14 +65,7 @@ Wären die Erwartungswerte der beiden Biathleten unterschiedlich gewesen, hätte
 
 ##### Übung: Bestimmung des Erwartungswerts
 
- <iframe 
- src="https://www.mathechecks.de/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungEX.json&titel=Ich kann den Erwartungswert einer allgemeinen Zufallsgröße berechnen.&quizonly=true" 
- frameborder="0" 
- style="width: 100%;" 
- allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
- referrerpolicy="strict-origin-when-cross-origin" 
- allowfullscreen>
-</iframe>
+<div id="quiz-erwartungswert"></div>
 
 #### Die Standardabweichung
 
@@ -131,6 +124,11 @@ $$
 $$
 
 Die Standardabweichung von Biathlet B beträgt also ungefähr $1{,}75$. Die Anzahl der Fehlschüsse schwankt hier also stärker um den Erwartungswert als bei Biathlet A.
+
+#### Übung: Bestimmung der Standardabweichung
+
+<div id="quiz-standardabweichung"></div>
+
 
 #### Interpretationen
 
