@@ -273,6 +273,8 @@ Nun gibt es verschiedene Techniken, dieses Gleichungssystem zu lösen. Wir löse
 
 und setzen gleich: $0{,}5 -y = 4y - 1{,}35$. Es folgt $1{,}85 = 5y$ und so $y=0{,}37$. Nun folgt $x=0{,}5 - 0{,}37 = 0{,}13$.
 
+#### Übung
+
 <div id="quiz-zweiFehlendeWkt"></div>
 
 <!--
