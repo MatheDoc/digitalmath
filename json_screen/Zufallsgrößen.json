@@ -1,0 +1,22 @@
+[
+    {
+        "frage": "Formel Erwartungswert",
+        "antwort": "$\\sum_{i=1}^{n} x_i \\cdot P(X = x_i)$"
+    },
+    {
+        "frage": "Formel Standardabweichung",
+        "antwort": "$\\sqrt{\\sum_{i=1}^{n} (x_i - E(X))^2\\cdot P(X=x_i)}$"
+    },
+    {
+        "frage": "Formel Varianz",
+        "antwort": "$\\sum_{i=1}^{n} (x_i - E(X))^2\\cdot P(X=x_i)$"
+    },
+    {
+        "frage": "Bedeutung Erwartungswert",
+        "antwort": "erwarteter Mittelwert"
+    },
+    {
+        "frage": "Bedeutung Standardabweichung",
+        "antwort": "Streuungsmaß"
+    }
+]

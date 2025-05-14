@@ -78,7 +78,10 @@ function printToPDF() {
 window.print();
 }
 
-
+// neu laden, abhängig ob reines quiz oder skript
+function reload(){
+    window.location.reload();
+}
 
 function checkNumericalAnswer(questionId, correctAnswer, tolerance) {
     let userAnswerString = document.getElementById(`answer${questionId}`).value;

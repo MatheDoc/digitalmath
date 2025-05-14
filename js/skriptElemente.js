@@ -1,7 +1,7 @@
-function erstelleQuiz(divId, sammlungsname) {
+function erstelleQuiz(divId, url) {
     var div = document.getElementById(divId);
     div.innerHTML = '<iframe src="' + 
-        '/quiz.html?sammlung=' + sammlungsname + '.json&quizonly=true" ' +
+        url + '&quizonly=true" ' +
         'frameborder="0" ' +
         'style="" ' +
         'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
@@ -9,7 +9,6 @@ function erstelleQuiz(divId, sammlungsname) {
         'allowfullscreen>' +
         '</iframe>';
 }
-
 
 
 function zeichneFunktion(funktion, xMin, xMax, divId, titel = '') {

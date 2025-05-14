@@ -31,11 +31,18 @@ function zeigeNeuesQuiz() {
         document.querySelector("h4").style.display = 'none';
     }});
     
+    let verwendeteSammlungen = sammlungen;
+
     if (sammlungen.length > 0) {
         //shuffleArray(sammlungen);
         const aufgabenContainer = document.getElementById('aufgaben');
 
-        sammlungen.forEach(sammlung => {
+        if (quizonly) {
+            const zufallsIndex = Math.floor(Math.random() * sammlungen.length);
+            verwendeteSammlungen = [sammlungen[zufallsIndex]];
+        }
+
+        verwendeteSammlungen.forEach(sammlung => {
             fetch(`https://raw.githubusercontent.com/MatheDoc/digitalmath/main/json/${sammlung}`)
                 .then(response => response.json())
                 .then(data => {

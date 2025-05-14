@@ -8,12 +8,17 @@ x = [0, 1, 2, 3, 4, 5];
 y = [0.37, 0.16, 0.18, 0.08, 0.09, 0.12];
 zeichneDiskretesHistogramm(x, y, 'histogramm-biathlet-B', 'Biathlet B');
 
-erstelleQuiz('quiz-erwartungswert-allgemein', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungEX");
+erstelleQuiz('quiz-erwartungswert-allgemein', 
+    "/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungEX.json");
 
-erstelleQuiz('quiz-standardabweichung-allgemein', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungSX");
+erstelleQuiz('quiz-standardabweichung-allgemein', 
+    "/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_BestimmungSX.json");
 
-erstelleQuiz('quiz-fehlendeWkt', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_FehlendeWkt");
+erstelleQuiz('quiz-fehlendeWkt',
+     "/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_FehlendeWkt.json");
 
-erstelleQuiz('quiz-fehlenderWert', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_FehlenderWert");
+erstelleQuiz('quiz-fehlenderWert', 
+    "/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_FehlenderWert.json");
 
-erstelleQuiz('quiz-zweiFehlendeWkt', "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_ZweiFehlendeWkt");
+erstelleQuiz('quiz-zweiFehlendeWkt', 
+    "/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_ZweiFehlendeWkt.json");
