@@ -59,7 +59,7 @@ h4  {
     justify-content: center;
     color: var(--hauptfarbe);
     max-width: 700px;
-    margin: 0 auto; /* zentriert das Element selbst horizontal */
+    margin: 0 auto; 
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 0;
@@ -77,19 +77,6 @@ h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 100px; 
   }
   
-
-/*figure {
-    display: inline-block;
-    width: fit-content;       
-    margin: 0 auto;           
-    text-align: right;        
-  }
-
-figcaption {
-    font-size: 0.8em;
-    color: #7a7a7a; 
-}
-*/
 
 figure {
     display: flex;
@@ -110,16 +97,15 @@ figure {
 }
 
 
-  .script figure img{
+ .script figure img{
     max-width: 500px;
     width: 90vw;
     max-height: 500px;
   }
   
-  figure figcaption {
+ figure figcaption {
     color: #7a7a7a;
     padding: 5px;
-    margin-top: 5px; /* Fügt etwas Abstand zwischen Bild und Beschriftung hinzu */
     align-self: flex-end;
   }
   
@@ -135,11 +121,6 @@ figure {
     padding: 10px;
     margin: 10px auto;
     gap: 15px;
-}
-
-p {
-    color: #000000;
-    font-size: 1em;
 }
 
 .center-text {
@@ -160,6 +141,8 @@ table{
     margin: 0 auto;
     max-width: 99%;
 }
+
+/* Skript-Einstellungen */
 
 .script img{
     all: unset;
@@ -197,6 +180,8 @@ table{
     display: none;
 }
 
+/* Kompetnzliste */
+
 .rowCheckbox{
     cursor: pointer;
 }
@@ -207,11 +192,9 @@ table{
     display: none;
 }
 
-
 .antwort{
     padding-top: 0px;
 }
-
 
 
 input[type="text"] {
@@ -232,19 +215,25 @@ input[type="text"]::-webkit-outer-spin-button {
 }
 
 
+/* Quiz */
+
 /*Tabellen in Aufgaben:*/
 .TabelleEinleitung {
     width: 100%;                /* Breite der Tabelle */
     border-collapse: collapse;  /* Zusammenführung der Randlinien */
     text-align: center;         /* Zentrierung aller Inhalte */
     table-layout: fixed;        /* Erzwingt gleichmäßige Spaltenbreite */
-    font-size: clamp(0.5em, 5vw, 1em);
+    font-size: clamp(0.1em, 4vw, 1em);
+    /*  transform: scale(1);
+  transform-origin: top left; */
 }
 
 .TabelleEinleitung td, .TabelleEinleitung th {
     border: 1px solid black;    /* Schwarze Gitternetzlinien */
     padding: 8px;               /* Innenabstand für bessere Lesbarkeit */
 }
+
+
 
 img {
     display: block;
@@ -548,9 +537,6 @@ table.dataTable tr td:nth-child(9)   {
 display: none;
 }
 
-
-
-
 /* Die Infobox */
 .info-text {
     display: none;
@@ -612,7 +598,6 @@ a.link-homepage:hover {
     min-width: 400px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
     display: flex;                    /* Flexbox für die Box */
     flex-direction: column;           /* Stellt sicher, dass die <a>-Tags untereinander stehen */
     align-items: center;              /* Zentriert die <a>-Tags horizontal */
@@ -624,11 +609,11 @@ a.link-homepage:hover {
   .box h3{
     padding-top: 0px;
   }
-  /* Stil für alle <a>-Tags innerhalb von .box */
+
   .box button {
     width: 100%;
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: 1.2em;
     border: 0;
     display: flex;                    /* Flexbox für die Ausrichtung von Text und Icon */
     justify-content: center;          /* Zentriert den Text */
@@ -640,6 +625,7 @@ a.link-homepage:hover {
     padding: 10px 20px;               /* Innenabstände für den Link */
     border-radius: 6px;               /* Abgerundete Ecken */
     margin-top: 15px;                 /* Abstand nach oben */
+    margin-bottom: 15px;              
   }
   
 .box div{
@@ -648,29 +634,24 @@ a.link-homepage:hover {
     display: none;
 }
 
-  /* Icon rechts positionieren */
-  .box button i {
+.box button i {
     position: absolute;
     padding-right: 10px;
-  }
-  
+}
 
-
-  .box:hover {
+.box:hover {
    transform: scale(1.03);
-  }
+}
   
-  .box button:hover {
+.box button:hover {
     background-color: var(--hauptfarbe-hover);
     cursor: pointer;
-  }
-
-
+}
   
-  .box button i {
+.box button i {
     position: absolute;
     right: 0;
-  }
+}
 
 
 /*Quiz*/
@@ -692,7 +673,6 @@ a.link-homepage:hover {
     padding-right: 20px;
     width: 700px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
 }
 
 
@@ -709,74 +689,15 @@ a.link-homepage:hover {
     padding-bottom: 0;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
 }
 
 .aufgabe li:hover{
-    
     background-color: #bce1f1;
-
-}
-
-iframe {
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    border: none;
-    display: block;
-  }
-
-
-
-  
-
-
-
-/*.einleitung {
-    margin: 0 auto;
-    background-color: #e7e6e6;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 658px;
 }
 
 
-ol, ul {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    padding: 30px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
-    list-style-position: inside;
-    max-width: 700px;
-}
 
-ol, ul {
-    margin: 0 auto;
-    padding: 0px;
-    list-style-position: inside;
-    max-width: 700px;
-}
 
-li {
-    background-color: #ffffff;
-    margin-bottom: 10px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    color: #000000;
-}*/
 
 
 @media (max-width: 768px) {
@@ -942,7 +863,6 @@ li {
     }
 }
 
-/* Definieren des stärkeren Blinkeffekts */
 /* Keyframes für das Blinken */
 @keyframes blink {
     0% {
@@ -955,6 +875,8 @@ li {
         box-shadow: inset 0 0 5px 5px #8897af; /* Zurück zu schwächerem Glow */
     }
 }
+
+/* Screensaver */
 
 #floating-box {
     font-size: 1.2em;
@@ -977,43 +899,9 @@ li {
     align-items: center;
   }
   
-  #floating-frage, #floating-antwort{
+#floating-frage, #floating-antwort{
     margin: 7px;
   }
-  
-
-/* Modifikationen für Clips */
-/*
-.nachfolgend li:hover {
-    animation: blink 0.2s infinite; 
-}
-
-ol li:nth-child(-n+1) {
-    visibility: hidden; 
-    height: 0; 
-    margin: 0; 
-    padding: 0; 
-    overflow: hidden;
-  }
-  
-.einleitung {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.nachfolgend li {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-    position: sticky;
-    top: 10px;
-}
-/*
 
 
 /* Klasse für den stroboskopischen Hintergrund */
@@ -1021,104 +909,3 @@ img {
     animation: strobeEffect 0.2s 4;
     background-size: 200% 200%;
 }
-/*
-h1 {
-    margin-bottom: 150px;
-}
-h2 {
-    display:none;
-}
-h3 {
-    display: none;
-}
-*/
-
-
-/*Zzzz
-#dropdowns {
-    border-collapse: separate;
-    border-spacing: 5px;
-    margin-bottom: 20px;
-    position: sticky;
-    display: none;
-}
-*/
-
-/*
-#Aufgabensammlung {
-    text-align: center;
-}
-
-#Aufgabensammlung .select2-container {
-    min-width: 300px;
-    max-width: 90%;
-}
-
-#Aufgabensammlung .select2-selection {
-    display: flex;
-    align-items: center;
-    text-align: left !important;
-    border-radius: 20px !important;
-    height: 40px;
-    padding-left: 10px;
-    color: #4d4d4d;
-
-    .neueAufgabe {
-    background-color:#4e73df;
-    color: white;
-    border: none;
-    padding: 5px 5px;
-    border-radius: 4px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 0px;
-    margin-right: -20px;
-    float: right;
-    display: none;
-
-}
-
-#toggle-button {
-    font-size: inherit;
-    margin-bottom: 10px;
-    padding: 10px;
-    cursor: pointer;
-    border: none;
-    background-color:#3f62cce1;
-    color: white;
-    border-radius: 20px;
-    display: block;
-    margin: 0px auto;
-    margin-bottom: 15px;
-    width: 200px;
-}
-#toggle-button:hover {
-    background-color:#3f62cc;
-}
-
-.toggle-button {
-    display: inline-block;
-    padding: 12px 20px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    cursor: pointer;
-    user-select: none;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    transition: all 0.2s ease-in-out;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    border: 2px solid #ccc;
-}
-
-
-.toggle-button.active {
-    background-color: #007bff;
-    color: white;
-    border-color: #0056b3;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
-    transform: translateY(2px);
-}
-
-}*/

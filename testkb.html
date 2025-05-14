@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Fenster öffnen</title>
+  <style>
+    button {
+      font-size: 1em;
+      padding: 0.5em 1em;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="openWindow()">Fenster öffnen</button>
+
+  <script>
+    function openWindow() {
+      const testUrl = "/quiz.html?sammlung=Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_FehlenderWert.json&titel=Ich%20kann%20bei%20gegebenem%20Erwartungswert%20einen%20fehlenden%20Wert%20einer%20Wahrscheinlichkeitsverteilung%20berechnen.&exam=no"; // Ziel-URL anpassen
+      window.open(testUrl, '_blank', 'width=440,height=960');
+    }
+  </script>
+
+</body>
+</html>
