@@ -8,6 +8,7 @@
   
 * {
     box-sizing: border-box;
+    transition: transform 0.2s ease;
 }
 
 .web-header {
@@ -604,7 +605,6 @@ a.link-homepage:hover {
     justify-content: flex-start;      /* Falls du weitere Anpassungen mit vertikalem Abstand möchtest */
     box-sizing: border-box;
     padding: 30px;
-    transition: transform 0.2s ease;
   }
   
   .box h3{
