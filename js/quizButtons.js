@@ -78,7 +78,7 @@ function printToPDF() {
 window.print();
 }
 
-// neu laden, abhängig ob reines quiz oder skript
+// neu laden
 function reload(){
     window.location.reload();
 }

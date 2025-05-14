@@ -30,7 +30,7 @@ Wichtig ist die Unterscheidung zwischen $P(A\cap B)$ und $P_A(B)$:
 * $P(A\cap B)$ bezeichnet die Wahrscheinlichkeit, dass ein Schüler die Prüfung besteht **und** gelernt hat.
 * $P_A(B)$ bezeichnet die Wahrscheinlichkeit, dass ein Schüler die Prüfung besteht, **wenn** er gelernt hat.
 
-##### Übung
+##### Übung: Interpretation (mit bedingten Wahrscheinlichkeiten)
 
 <div id="quiz-interpretationen-bedingt"></div>
 
@@ -115,8 +115,7 @@ Bedingte Wahrscheinlichkeiten können auch in Venn-Diagrammen dargestellt werden
 |-|-|-|
 |<figure><img src="v1.png" style="width: 25vw"></figure>|<figure>  <img src="v2.png" style="width: 25vw"></figure>|<figure>  <img src="v3.png" style="width: 25vw"></figure>|
 
-
-##### Übung
+##### Übung: Venn-Diagramme mit bedingten Wahrscheinlichkeiten
 
 <div id="quiz-venn-bedingt"></div>
 
@@ -206,7 +205,7 @@ Es gilt $P(A\cap B)=0{,}45$, $P(\overline{A}\cap \overline{B})=0{,}1$ und $P(A\c
 
 Nun ist $P(A)\cdot (\overline{B})=0{,}6 \cdot 0{,}25 = 0{,}15$. Es gilt also $P(A)\cdot (\overline{B}) = P(A\cap \overline{B})$. Damit sind $A$ und $\overline{B}$ stochastisch unabhängig, und somit auch $A$ und $B$. (Diese Berechnungen werden mit den Begriffen des nächsten Abschnitts übersichtlicher.)
 
-##### Übung
+##### Übung: Gemischte Aufgaben mit bedingten Wahrscheuinlichkeiten
 
 <div id="quiz-gemischt-bedingt"></div>
 
@@ -297,14 +296,13 @@ Damit lautet die vollständige Vier-Felder-Tafel
 
 Hier können wir z.B. ablesen, dass Romeo mit einer Wahrschheinlichkeit von 60&nbsp;\% anwesend ist.
 
-##### Übung
+##### Übung: Vier-Felder-Tafel vervollständigen (ohne stochastische Unabhängigkeit)
 
 <div id="quiz-vft-aufstellen"></div>
 
-##### Übung
+##### Übung: Vier-Felder-Tafel interpretieren (ohne bedingten Wahrscheinlichkeiten)
 
 <div id="quiz-vft-folgern"></div>
-
 
 #### Vier-Felder-Tafeln und stochastische Unabhängigkeit
 
@@ -347,14 +345,13 @@ Ein Baumdiagramm habe die Gestalt
 
 Zudem sei bekannt, dass $A$ und $B$ stochastisch unabhängig sind. Damit gilt $P_A(B)=P_{\overline{A}}(B)$. Die Wahrscheinlichkeit 5 ist also $0{,}3$. Das restliche Baumdigramm kann nun wie im Abschnitt [Baumdiagramme vervollständigen](skript.html?thema=Mehrstufige%20Zufallsexperimente#baumdiagramme-vervollständigen) vervollständigt werden.
 
-##### Übung
+##### Übung: Baumdiagramm vervollständigen (mit stochastischer Unabhängigkeit)
 
 <div id="quiz-bm-aufstellen-su"></div>
 
-##### Übung
+##### Übung: Baumdiagramm interpretieren (mit bedingten Wahrscheinlichkeiten)
 
 <div id="quiz-bm-folgern-su"></div>
-
 
 ##### Beispiel: Vier-Felder-Tafel
 
@@ -368,10 +365,10 @@ Eine Vier-Felder-Tafel habe die Gestalt
 
 Zudem sei bekannt, dass $A$ und $B$ stochastisch unabhängig sind. Damit ist die Vier-Felder-Tafel mutiplikativ, und es gilt $P(A\cap B)=P(A)\cdot P(B)$. Die Wahrscheinlichkeit $x$ ist also $0{,}2\cdot 0{,}7=0{,}14$. Die restliche Vier-Felder-Tafel kann nun wie im Abschnitt [Vier-Felder-Tafeln vervollständigen](#vier-felder-tafeln-vervollständigen) vervollständigt werden.
 
-##### Übung
+##### Übung: Vier-Felder-Tafel aufstellen (mit stochastischer Unabhängigkeit)
 
 <div id="quiz-vft-aufstellen-su"></div>
 
-##### Übung
+##### Übung: Vier-Felder-Tafel interpretieren (mit bedingten Wahrscheinlichkeiten)
 
 <div id="quiz-vft-folgern-su"></div>

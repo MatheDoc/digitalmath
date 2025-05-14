@@ -75,7 +75,7 @@ Wir suchen nun eine Kennzahl, mit der wir genau messen können, wie stark eine Z
 
 \begin{align*}
 \sigma(X)  &= \sqrt{(x_1-E(X))^2 \cdot P(X = x_1) + (x_2-E(X))^2 \cdot P(X = x_2) + \ldots + (x_n-E(X))^2 \cdot P(X = x_n)} \\\\\\\\
-           &=  \sqrt{\sum_{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)} 
+           &=  \sqrt{\sum_{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
 \end{align*}
 
 Auch der Ausdruck unter der Wurzel eignet sich, die Schwankungen zu messen. Er wird **Varianz** genannt und mit $\sigma^2$ bezeichnet.
@@ -103,7 +103,6 @@ $$
 $$
 
 Die Standardabweichung von Biathlet A beträgt also ungefähr $0{,}75$.
-
 
 ##### Beispiel: Die Standardabweichung von Biathlet B
 
@@ -212,7 +211,7 @@ P(X = -1) & = 1 - (0,07 + 0,06 + 0,41 + 0,44) \\\\
           & = 0,02
 \end{align*}
 
-#### Übung
+#### Übung: Fehlende Wahrscheinlichkeit
 
 <div id="quiz-fehlendeWkt"></div>
 
@@ -240,7 +239,7 @@ Diese Gleichung können wir nach $x$ auflösen
 x&=-3
 \end{align*}
 
-#### Übung
+#### Übung: Fehlender Wert
 
 <div id="quiz-fehlenderWert"></div>
 
@@ -273,7 +272,7 @@ Nun gibt es verschiedene Techniken, dieses Gleichungssystem zu lösen. Wir löse
 
 und setzen gleich: $0{,}5 -y = 4y - 1{,}35$. Es folgt $1{,}85 = 5y$ und so $y=0{,}37$. Nun folgt $x=0{,}5 - 0{,}37 = 0{,}13$.
 
-#### Übung
+#### Übung: Fehlende Wahrscheinlichkeiten
 
 <div id="quiz-zweiFehlendeWkt"></div>
 

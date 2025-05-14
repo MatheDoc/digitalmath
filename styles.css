@@ -48,11 +48,6 @@ h2 {
 
 h3{
     color:var(--hauptfarbe);
-    padding: 20px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
 }
 
 h4  {
@@ -68,7 +63,6 @@ h4  {
 
 h5 {
     color:var(--hauptfarbe);
-    text-align: center;
     font-size: 1em;
     margin-bottom: 0;
 }
@@ -675,6 +669,14 @@ a.link-homepage:hover {
     width: 700px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+/*.aufgabe div{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}*/
 
 
 .aufgabe ol, ul {

@@ -22,7 +22,7 @@ P(E)&=P(\\{KK\\})+P(\\{ZZ\\})\\\\
 &=0{,}5.
 \end{align*}
 
-##### Beispiel: Jugendliche auf dem Weg zu Schule
+##### Beispiel: Jugendliche auf dem Weg zur Schule
 
 Baumdiagramme eignen sich vor allem dazu, kompliziertere Zufallsexperimente zu veranschaulichen:
 
@@ -74,11 +74,23 @@ P(\overline{A}\cup B)&=P(\\{AB\\}) + P(\\{\overline{A}B\\})  + P(\\{\overline{A}
 \end{align*}
 Die Wahrscheinlichkeit, dass eine Person sich nicht regelmäßig die Zähne putzt oder gesunde Zähne hat, beträgt also 70&nbsp;\%.
 
+##### Übung: Baumdiagramm interpretieren
+
+<div id="quiz-bm-folgern"></div>
+
 ### Baumdiagramme vervollständigen
 
 Häufig stehen wir vor der Aufgabe, ein unvollständiges Baumdiagramm zu vervollständigen. Dazu verwenden wir, dass die Summe der Wahrscheinlichkeiten der Pfade, die von einem Knotenpunkt starten, gleich 1 ist. Außerdem wenden wir die Pfadregeln geschickt an.
 
 ##### Beispiel 1
+
+Sind alle Pfadwahrscheinlichkeiten gegeben – gegebenenfalls durch Berechnung von Gegenwahrscheinlichkeiten –, so lässt sich das Baumdiagramm wie [Beispiel: Jugendliche auf dem Weg zur Schule](#beispiel-jugendliche-auf-dem-weg-zur-schule) vervollständigen.
+
+##### Übung: Baumdiagramm vervollständigen 1
+
+<div id="quiz-bm-aufstellen1"></div>
+
+##### Beispiel 2
 
 Gegeben ist das folgende Baumdiagramm:
  <figure>
@@ -86,13 +98,21 @@ Gegeben ist das folgende Baumdiagramm:
 </figure>
 Die Wahrscheinlichkeit 4 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $0{,}2\cdot x = 0{,}06$ $\Rightarrow$ $x=0{,}3$. Dann kann sukzessive das Baumdiagramm vervollständigt werden.
 
-##### Beispiel 2
+##### Übung: Baumdiagramm vervollständigen 2
+
+<div id="quiz-bm-aufstellen2"></div>
+
+##### Beispiel 3
 
 Gegeben ist das folgende Baumdiagramm:
  <figure>
   <img src="Baum2.png">
 </figure>
 Die Wahrscheinlichkeit 2 wird mit $x$ bezeichnet und kann wie folgt berechnet werden $ x = 0{,}28+0{,}12=0{,}4$. Dann kann sukzessive das Baumdiagramm vervollständigt werden.
+
+##### Übung: Baumdiagramm vervollständigen 3
+
+<div id="quiz-bm-aufstellen3"></div>
 
 <!--### Urnenmodelle
 Ein wichtiges Beipsiel für mehrstufige Zufallsexperimente sind das Ziehen von Kugeln aus einer Urne. Hier müssen wir unterscheiden, ob Kugeln zurückgegelgt werden oder nicht.
