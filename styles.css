@@ -92,11 +92,13 @@ figure {
 }
 
 
- .script figure img{
-    max-width: 500px;
-    width: 90vw;
-    max-height: 500px;
-  }
+.script figure img {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  max-width: 500px;
+}
   
  figure figcaption {
     color: #7a7a7a;
@@ -199,8 +201,7 @@ input[type="text"] {
     border-radius: 4px;
     min-width: 80px;
     width: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px;;
 }
 
 input[type="text"]::-webkit-inner-spin-button,
@@ -393,7 +394,7 @@ select.mch + .select2-container .select2-selection--single{
     align-items: center;
     height: 40px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     width: 1000px;
     min-width: 85px;
     max-width: 100%;
@@ -651,47 +652,58 @@ a.link-homepage:hover {
 
 /*Quiz*/
 
-  #aufgaben {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding-top: 20px;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-
-.aufgabe{
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 700px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+#aufgaben {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
-/*.aufgabe div{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}*/
-
-
-.aufgabe ol, ul {
-    list-style-position: inside;
-    padding-left: 0;    
+.aufgabe {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 0 20px;
+  width: 90vw;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
 }
+
+/* Flexcontainer innerhalb .aufgabe */
+.aufgabe > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+/* Spaltenaufteilung */
+.aufgabe > div > .einleitung,
+.aufgabe > div > ol {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+/* Listen */
+.aufgabe ol, .aufgabe ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
 
 .aufgabe li {
     background-color: #deeaef;
     border: 1px solid #ccc;
     border-radius: 12px;
     padding: 10px;
-    padding-bottom: 0;
+    /*padding-top: 0px;
+    padding-bottom: 0;*/
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
 }
 
 .aufgabe li:hover{
@@ -719,6 +731,15 @@ a.link-homepage:hover {
   .box:hover {
    transform: scale(1);
   }    
+    .aufgabe > div {
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .aufgabe > div > .einleitung,
+  .aufgabe > div > ol {
+    width: 100%;
+  }
 
 }
 

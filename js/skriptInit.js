@@ -23,16 +23,16 @@ function scrollToAnchor(id, maxAttempts = 5, delay = 300) {
     attempts++;
     target.scrollIntoView({ behavior: 'smooth' });
 
-    // Nach kurzer Zeit prüfen, ob das Ziel korrekt sichtbar ist
     setTimeout(() => {
       const rect = target.getBoundingClientRect();
-      const headerHeight = 120; // ggf. anpassen
+      const headerHeight = 120;
 
       if ((rect.top < headerHeight || rect.top > window.innerHeight) && attempts < maxAttempts) {
         requestAnimationFrame(tryScroll);
       }
     }, delay);
   };
+
   requestAnimationFrame(() => requestAnimationFrame(tryScroll));
 }
 
@@ -45,55 +45,59 @@ Promise.all([domReady, mathjaxReady])
   })
   .then(markdownText => {
     const container = document.getElementById('content');
-
-    // Markdown in HTML umwandeln
     container.innerHTML = marked(markdownText);
 
-    // Canvas-Skript dynamisch einfügen
-    const canvasPfad = `canvas/${thema}.js`;  // Der Pfad zur JavaScript-Datei, basierend auf dem Thema
-    // Neues <script>-Tag erstellen
+    const canvasPfad = `canvas/${thema}.js`;
     const script = document.createElement('script');
     script.src = canvasPfad;
-    script.async = true;  // Skript asynchron laden
-    // Fehlerbehandlung für das Skript (optional)
+    script.async = true;
+
     script.onerror = () => {
       console.error(`Fehler: Das Skript für das Thema '${thema}' konnte nicht geladen werden.`);
     };
-    // Füge das Skript ans Ende des <body> hinzu
+
     document.body.appendChild(script);
-    script.onload = () => {
-      console.log(`${thema}.js wurde erfolgreich geladen.`);
-    
+script.onload = () => {
+  console.log(`${thema}.js wurde erfolgreich geladen.`);
+
+  setTimeout(() => {
     const iframes = container.querySelectorAll('iframe');
+    console.log("iframe-Check nach canvas-Load:", iframes);
+    iframes.forEach(iframe => {
+      iframe.addEventListener('load', () => {
+        setTimeout(() => {
+          resizeIframe(iframe);
+        }, 500);
+      });
+    });
+  }, 1000); // Genug warten, bis auch die iframes aus dem Canvas-Skript da sind
+};
 
-console.log("Gefundene iframes:", iframes);
 
-iframes.forEach(iframe => {
-  iframe.addEventListener('load', () => {
-    setTimeout(() => {
-      resizeIframe(iframe);
-    }, 1000); // 300 ms warten – ggf. anpassen
+
+    // Bildpfade korrigieren
+    const bilder = container.querySelectorAll('img');
+    bilder.forEach(img => {
+      const originalSrc = img.getAttribute('src');
+      if (originalSrc && !originalSrc.startsWith('http')) {
+        img.src = `lernbereiche/${encodeURIComponent(thema)}/skript/${originalSrc}`;
+      }
+    });
+
+    // MathJax rendern und ggf. scrollen
+    return MathJax.typesetPromise([container]).then(() => {
+      if (window.location.hash) {
+        const targetId = decodeURIComponent(window.location.hash.substring(1));
+        scrollToAnchor(targetId);
+      }
+    });
+  })
+  .catch(err => {
+    document.getElementById('content').textContent = 'Fehler: ' + err.message;
   });
-});
-    
-    };
 
-    /*  
-      setTimeout(() => {
-        
-        const iframes = container.querySelectorAll('iframe');
-          
-    console.log("Gefundene iframes:", iframes);
-        iframes.forEach(iframe => {
-          iframe.addEventListener('load', () => resizeIframe(iframe));
-        });
-      }, 0); 
-*/
-
-
-
-
-function resizeIframe(iframe) {
+// Hilfsfunktion zur Größenanpassung
+/*function resizeIframe(iframe) {
   try {
     const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
     const contentHeight = iframeDoc.body.scrollHeight;
@@ -107,43 +111,15 @@ function resizeIframe(iframe) {
 }
 
 
+function setupIframe(iframe) {
+  if (iframe.dataset.resizeAttached) return; // Nur einmal behandeln
 
+  iframe.dataset.resizeAttached = "true";
 
-
-
-    /*const canvasElements = container.querySelectorAll('canvas');
-    canvasElements.forEach(canvas => {
-      const id = canvas.getAttribute('id');
-      if (id) {
-        const scriptPath = `canvas/${thema}/skript/${id}.js`;
-        const script = document.createElement('script');
-        script.src = scriptPath;
-        script.async = true;
-        container.appendChild(script);
-      }
-    }
-    );*/
-
-    // Lokale Bildpfade korrigieren
-    const bilder = container.querySelectorAll('img');
-    bilder.forEach(img => {
-      const originalSrc = img.getAttribute('src');
-      if (originalSrc && !originalSrc.startsWith('http')) {
-        img.src = `lernbereiche/${encodeURIComponent(thema)}/skript/${originalSrc}`;
-      }
-    });
-
-    // MathJax rendern und danach ggf. zum Anker springen
-    return MathJax.typesetPromise([container]).then(() => {
-      if (window.location.hash) {
-        const targetId = decodeURIComponent(window.location.hash.substring(1));
-        scrollToAnchor(targetId);
-      }
-    });
-  })
-  .catch(err => {
-    document.getElementById('content').textContent = 'Fehler: ' + err.message;
+  iframe.addEventListener('load', () => {
+    setTimeout(() => {
+      resizeIframe(iframe);
+    }, 300); // leichte Verzögerung zur Sicherheit
   });
-
-
-
+}
+*/

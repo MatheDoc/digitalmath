@@ -120,6 +120,7 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
         selectedTask.fragen.forEach((frage, index) => {
             htmlContent += `<li><span class="frage">${frage}</span><br><span class="antwort">${selectedTask.antworten[index]}</span></li>`;
         });
+
         htmlContent += `</ol>`;
 
 

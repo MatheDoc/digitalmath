@@ -205,7 +205,7 @@ Es gilt $P(A\cap B)=0{,}45$, $P(\overline{A}\cap \overline{B})=0{,}1$ und $P(A\c
 
 Nun ist $P(A)\cdot (\overline{B})=0{,}6 \cdot 0{,}25 = 0{,}15$. Es gilt also $P(A)\cdot (\overline{B}) = P(A\cap \overline{B})$. Damit sind $A$ und $\overline{B}$ stochastisch unabhängig, und somit auch $A$ und $B$. (Diese Berechnungen werden mit den Begriffen des nächsten Abschnitts übersichtlicher.)
 
-##### Übung: Gemischte Aufgaben mit bedingten Wahrscheuinlichkeiten
+##### Übung: Gemischte Aufgaben mit bedingten Wahrscheinlichkeiten
 
 <div id="quiz-gemischt-bedingt"></div>
 

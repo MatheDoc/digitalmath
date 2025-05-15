@@ -137,7 +137,7 @@ function initializeTable() {
                             urls.map(url => 'sammlung=' + url).join('&') + 
                             '&exam=yes';
 
-            window.open(testUrl, '_blank', 'width=440,height=960');
+            window.open(testUrl, '_blank');
         } else {
             alert('Bitte wählen Sie mindestens eine Checkbox aus.');
         }
@@ -239,7 +239,7 @@ function initializeTable() {
                             urls.map(url => 'sammlung=' + url).join('&') + 
                             '&exam=yes';
 
-            window.open(testUrl, '_blank', 'width=440,height=960');
+            window.open(testUrl, '_blank');
         } else {
             alert('Bitte wählen Sie mindestens eine Checkbox aus.');
         }

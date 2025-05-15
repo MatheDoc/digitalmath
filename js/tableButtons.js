@@ -77,7 +77,7 @@ function addButtons(){
             });
             // Url mit Params: sammlung, titel, exam = no
             var testUrl = 'https://mathedoc.github.io/digitalmath/quiz.html?' + links.join('&') + '&titel=' + encodeURIComponent(ichKannText) + '&exam=no';
-            window.open(testUrl, '_blank',`width=440px,height=960px}`); // Öffne URL in einem neuen Tab/Fenster
+            window.open(testUrl, '_blank'); // Öffne URL in einem neuen Tab/Fenster
         }
     });   
     

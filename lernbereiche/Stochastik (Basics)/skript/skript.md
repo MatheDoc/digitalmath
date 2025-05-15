@@ -154,6 +154,10 @@ Wir betrachten das Zufallsexperiment, bei dem ein Buchstabe zufällig ausgewähl
   * $\Rightarrow A\cap\overline{B} = \\{u\\}$
   * $\Rightarrow P(A\cap\overline{B}) = 0{,}0370$
 
+##### Übung: Interpretation von Symbolen
+
+<div id="quiz-interpretationen"></div>
+
 ### Wahrscheinlichkeiten – Einfache Berechnungsmethoden
 
 In einfachen Alltagssituationen funktioniert unser intuitiver Umgang mit Wahrscheinlichkeiten oft gut (wie in den obigen Beispielen), und wir können mit einfachen Methoden die Wahrscheinlichkeiten berechnen.
@@ -169,6 +173,10 @@ Aus persönlichen Beobachtungen sei bekannt, dass 50&nbsp;\% aller Kinder am lie
 ##### Beispiel: Spicken
 
 In einer Klausur spicken 2 von 20 Schülern. Dann ist die Wahrscheinlichkeit, dass ein zufällig ausgewählter Schüler spickt, $\frac{2}{20}$ oder 10&nbsp;\%.
+
+##### Übung: Wahrscheinlichkeit als relative Häufigkeit
+
+<div id="quiz-wkt-als-rel-h"></div>
 
 #### Laplace-Experiment
 
@@ -239,6 +247,10 @@ P(A\cup B)&=P(A\cap\overline{B}) + P(A\cap B) + P(\overline{A}\cap B)\\\\
 Ausschließendes Oder: Die Wahrscheinlichkeit für entweder $A$ oder $B$ (aber nicht $A$ und $B$ gleichzeitig) ist $P(A\cup B)- P(A\cap B)=P(A\cap\overline{B})+P(\overline{A}\cap B)$.
 -->
 
+##### Übung: Gegenwahrscheinlichkeit und Satz von Sylvester
+
+<div id="quiz-gegen-syl"></div>
+
 #### Venn-Diagramme
 
 Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sich anschaulich anhand sogenannter Venn-Diagramme nachvollziehen: Ereignisse können als Teilflächen einer Fläche $X$ interpretiert werden. Die Wahrscheinlichkeiten der Ereignisse entsprechen dann den Inhalten dieser Teilflächen. Der Inhalt der Fläche $X$ ist nach Definition 1. Wir erhalten z.B.:
@@ -246,3 +258,7 @@ Die Mengenoperationen und Axiome von Kolmogorov mit ihren Folgerungen lassen sic
 |$P(B)$|$P(A\cap B)$|$P(\overline{A}\cap B)$|$P(A\cup B)$|$P(A\cup B)-P(A\cap B)$|
 |-|-|-|-|-|
 |<figure><img src="v1.png" style="width: 15vw"> </figure>|<figure>  <img src="v2.png" style="width: 15vw"> </figure>|<figure>  <img src="v3.png" style="width: 15vw">  </figure>|<figure>  <img src="v4.png" style="width: 15vw">  </figure>|<figure>  <img src="v5.png" style="width: 15vw"> </figure>|
+
+##### Übung: Wahrscheinlichkeiten und Venn-Diagramme
+
+<div id="quiz-venn"></div>
