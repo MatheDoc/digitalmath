@@ -135,7 +135,7 @@ Die 30 Buchstaben des Alphabets (a-z, ä, ö, ü, ß) treten in Texten mit unter
 
 <!--<details>-->
 <figure>
-  <img src="buchstaben.png"><figcaption>https://de.wikipedia.org/wiki/Buchstabenh%C3%A4ufigkeit</figcaption>
+  <img src="buchstaben.png"><figcaption>https://de.wikipedia.org/wiki/Buchstabenhäufigkeit</figcaption>
 </figure>
 <!--</details>-->
 
