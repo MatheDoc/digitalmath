@@ -40,7 +40,7 @@ h1 {
 
 h2 {
     color:var(--hauptfarbe);
-    padding: 10px;
+    padding: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
@@ -78,44 +78,6 @@ figure {
     width: fit-content;
     margin: 0 auto;
   }
-/*
-#aufgaben {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding-top: 20px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-
-.aufgabe {
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  padding: 0;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-
-.aufgabe > div {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.aufgabe > div > .einleitung,
-.aufgabe > div > ol {
-  width: 50%;
-  box-sizing: border-box;
-}
-
-#aufgaben img{
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 500px;
-}
-*/
 
 .script figure img {
   width: 500px;
