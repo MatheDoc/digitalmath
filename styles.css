@@ -78,7 +78,7 @@ figure {
     width: fit-content;
     margin: 0 auto;
   }
-
+/*
 #aufgaben {
   display: flex;
   justify-content: center;
@@ -96,15 +96,13 @@ figure {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Flexcontainer innerhalb .aufgabe */
+
 .aufgabe > div {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 2rem;
 }
 
-/* Spaltenaufteilung */
 .aufgabe > div > .einleitung,
 .aufgabe > div > ol {
   width: 50%;
@@ -117,6 +115,7 @@ figure {
     width: 100%;
     max-width: 500px;
 }
+*/
 
 .script figure img {
   width: 500px;
@@ -176,7 +175,7 @@ table{
     font-weight: bold;
   }
 
-.script main{
+ main{
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -617,7 +616,7 @@ a.link-homepage:hover {
   }
   
   .box h3{
-    padding-top: 0px;
+    margin-top: 0px;
   }
 
   .box button {
@@ -634,10 +633,13 @@ a.link-homepage:hover {
     color: white;                     /* Textfarbe */
     padding: 10px 20px;               /* Innenabstände für den Link */
     border-radius: 6px;               /* Abgerundete Ecken */
-    margin-top: 15px;                 /* Abstand nach oben */
-    margin-bottom: 15px;              
+              
   }
-  
+
+.box button:not(:first-of-type) {
+  margin-top: 20px;
+}
+
 .box div{
     width: 100%;
     box-sizing: border-box;
@@ -666,21 +668,23 @@ a.link-homepage:hover {
 
 /*Quiz*/
 
-#aufgaben {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding-top: 20px;
-  flex-wrap: wrap;
-  align-items: flex-start;
+#aufgaben .aufgabe + .aufgabe{
+    margin-top: 40px;
+}
 
+#aufgaben img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
 }
 
 .aufgabe {
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 12px;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -688,7 +692,7 @@ a.link-homepage:hover {
 .aufgabe > div {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -711,12 +715,15 @@ a.link-homepage:hover {
     border: 1px solid #ccc;
     border-radius: 12px;
     padding: 10px;
-    /*padding-top: 0px;
-    padding-bottom: 0;*/
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    
+    margin-bottom: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);   
 }
+
+.aufgabe li + li {
+  margin-top: 20px;
+}
+
+
 
 .aufgabe li:hover{
     background-color: #bce1f1;
