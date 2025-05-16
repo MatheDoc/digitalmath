@@ -93,41 +93,41 @@ Eine Wahrscheinlichkeitsverteilung $P$ eines Zufallsexperiments, ordnet dann jed
 ##### Beispiel: Einmaliger Würfelwurf
 
 * Ergebnismenge: $S = \\{1,  2,  3,  4,  5,  6\\}$
-  * $\Rightarrow$ Ergebnisse: $\\{1\\}, \\{2\\}, \\{3\\}, \\{4\\}, \\{5\\}, \\{6\\}$
-  * $\Rightarrow$ $P(\\{1\\}) = \frac{1}{6}$, $P(\\{2\\}) = \frac{1}{6}$, $P(\\{3\\}) = \frac{1}{6}$, $P(\\{4\\}) = \frac{1}{6}$, $P(\\{5\\}) = \frac{1}{6}$, $P(\\{6\\}) = \frac{1}{6}$
+  * Ergebnisse: $\\{1\\}, \\{2\\}, \\{3\\}, \\{4\\}, \\{5\\}, \\{6\\}$
+  * $P(\\{1\\}) = \frac{1}{6}$, $P(\\{2\\}) = \frac{1}{6}$, $P(\\{3\\}) = \frac{1}{6}$, $P(\\{4\\}) = \frac{1}{6}$, $P(\\{5\\}) = \frac{1}{6}$, $P(\\{6\\}) = \frac{1}{6}$
 * $A$: Es wird eine Zahl größer als 4 geworfen.
-  * $\Rightarrow A = \\{5,  6\\}$
-  * $\Rightarrow P(A) = \frac{2}{6} = \frac{1}{3}$
+  * $A = \\{5,  6\\}$
+  * $P(A) = \frac{2}{6} = \frac{1}{3}$
 * $\overline{A}$: Es wird eine Zahl kleiner als 5 geworfen.
-  * $\Rightarrow\overline{A} = \\{1, 2, 3, 4\\}$
-  * $\Rightarrow P(\overline{A})=\frac{4}{6} = \frac{2}{3}$
+  * $\overline{A} = \\{1, 2, 3, 4\\}$
+  * $P(\overline{A})=\frac{4}{6} = \frac{2}{3}$
 * $B$: Es wird eine geraden Zahl geworfen.
-  * $\Rightarrow B=\\{2, 4, 6\\}$
-  * $\Rightarrow P(B)=\frac{3}{6} = \frac{1}{2}$
+  * $B=\\{2, 4, 6\\}$
+  * $P(B)=\frac{3}{6} = \frac{1}{2}$
 * $\overline{A}\cup B$: Es wird eine Zahl kleiner als 5 oder eine gerade Zahl geworfen.
-  * $\Rightarrow \overline{A}\cup B= \\{1, 2, 3, 4, 6\\}$
-  * $\Rightarrow P(\overline{A}\cup B) = \frac{5}{6}$
+  * $\overline{A}\cup B= \\{1, 2, 3, 4, 6\\}$
+  * $P(\overline{A}\cup B) = \frac{5}{6}$
 * $(A\cap\overline{B}) \cup (\overline{A}\cap B)$: Es wird entweder eine Zahl größer als 4 oder eine gerade Zahl geworfen.
-  * $\Rightarrow (A\cap\overline{B}) \cup (\overline{A}\cap B)= \\{2, 4, 5\\}$
-  * $\Rightarrow P((A\cap\overline{B}) \cup (\overline{A}\cap B))=\frac{3}{6} =\frac{1}{2}$
+  * $(A\cap\overline{B}) \cup (\overline{A}\cap B)= \\{2, 4, 5\\}$
+  * $P((A\cap\overline{B}) \cup (\overline{A}\cap B))=\frac{3}{6} =\frac{1}{2}$
 
 ##### Beispiel: Zweimaliger Münzwurf
 
 * Ergebnismenge: $S = \\{KK, KZ, ZK, ZZ\\}$
-  * $\Rightarrow$ Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZK\\}, \\{ZZ\\}$
-  * $\Rightarrow$ $P(\\{KK\\}) = 0{,}25$, $P(\\{KZ\\}) = 0{,}25$, $P(\\{ZK\\}) = 0{,}25$, $P(\\{ZZ\\}) = 0{,}25$
-* $A$: Es wird das Gleiche geworfen. $\Rightarrow A = \\{KK, ZZ\\}$
-  * $\Rightarrow A = \\{KK, ZZ\\}$  
-  * $\Rightarrow P(A) = 0{,}5$
+  * Ergebnisse: $\\{KK\\}, \\{KZ\\}, \\{ZK\\}, \\{ZZ\\}$
+  * $P(\\{KK\\}) = 0{,}25$, $P(\\{KZ\\}) = 0{,}25$, $P(\\{ZK\\}) = 0{,}25$, $P(\\{ZZ\\}) = 0{,}25$
+* $A$: Es wird das Gleiche geworfen.
+  * $A = \\{KK, ZZ\\}$  
+  * $P(A) = 0{,}5$
 * $\overline{A}$: Es wird etwas Unterschiedliches geworfen.
-  * $\Rightarrow\overline{A} = \\{KZ, ZK\\}$
-  * $\Rightarrow P(\overline{A}) =0{,}5$
+  * $\overline{A} = \\{KZ, ZK\\}$
+  * $P(\overline{A}) =0{,}5$
 * $B$: Es wird die Kombination Kopf-Zahl geworfen.
-  * $\Rightarrow B=\\{KZ\\}$
-  * $\Rightarrow P(B)=\frac{1}{4}$
+  * $B=\\{KZ\\}$
+  * $P(B)=\frac{1}{4}$
 * $\overline{A}\cap{\overline{B}}$: Es wird weder das Gleiche noch die Kombination Kopf-Zahl geworfen.
-  * $\Rightarrow \overline{A}\cap{\overline{B}}=\\{ZK\\}$
-  * $\Rightarrow P(\overline{A}\cap{\overline{B}})=\frac{1}{4}$
+  * $\overline{A}\cap{\overline{B}}=\\{ZK\\}$
+  * $P(\overline{A}\cap{\overline{B}})=\frac{1}{4}$
 
 ##### Beispiel: Häufigkeit von Buchstaben
 
@@ -142,17 +142,17 @@ Die 30 Buchstaben des Alphabets (a-z, ä, ö, ü, ß) treten in Texten mit unter
 Wir betrachten das Zufallsexperiment, bei dem ein Buchstabe zufällig ausgewählt wird.
 
 * Ergebnismenge: $S = \\{a, b, c, \ldots \\}$
-  * $\Rightarrow$ Ergebnisse: $\\{a\\}, \\{b\\}, \\{c\\}, \ldots$
-  * $\Rightarrow P(\\{a\\}) = 0{,}0560$, $P(\\{b\\}) = 0{,}0219$, $P(\\{c\\}) = 0{,}0340$, $\ldots$
+  * Ergebnisse: $\\{a\\}, \\{b\\}, \\{c\\}, \ldots$
+  * $P(\\{a\\}) = 0{,}0560$, $P(\\{b\\}) = 0{,}0219$, $P(\\{c\\}) = 0{,}0340$, $\ldots$
 * $A$: Es wird ein Vokal ausgewählt (ohne Umlaute).
-  * $\Rightarrow A = \\{a, e, i, o, u\\}$
-  * $\Rightarrow P(A) = 0{,}056+0{,}1611+0{,}0905+0{,}0232+0{,}0370=0{,}3678$
+  * $A = \\{a, e, i, o, u\\}$
+  * $P(A) = 0{,}056+0{,}1611+0{,}0905+0{,}0232+0{,}0370=0{,}3678$
 * $B$: Es wird ein Buchstabe aus der ersten Hälfte (a-o) des Alphabets ausgewählt.
-  * $\Rightarrow B = \\{a,  b,  c,  \ldots ,  o\\}$
-  * $\Rightarrow P(B)=0{,}0560 + 0{,}0219 + 0{,}0340 + \ldots + 0{,}0251 = 0{,}7066$
+  * $B = \\{a,  b,  c,  \ldots ,  o\\}$
+  * $P(B)=0{,}0560 + 0{,}0219 + 0{,}0340 + \ldots + 0{,}0251 = 0{,}7066$
 * $A\cap \overline{B}$: Es wird ein Vokal ausgewählt, der sich in der zweiten Hälfte (p-ß) des Alphabets befindet.
-  * $\Rightarrow A\cap\overline{B} = \\{u\\}$
-  * $\Rightarrow P(A\cap\overline{B}) = 0{,}0370$
+  * $A\cap\overline{B} = \\{u\\}$
+  * $P(A\cap\overline{B}) = 0{,}0370$
 
 ##### Übung: Interpretation von Symbolen
 
