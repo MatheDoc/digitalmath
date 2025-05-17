@@ -69,7 +69,7 @@ function zeichneFunktion(funktion, xMin, xMax, divId, titel = '') {
     yaxis: {
         title: 'y'
     },
-    margin: { t: 40, r: 20, b: 40, l: 50 }
+    margin: { t: 40, r: 20, b: 40, l: 50 },
 };
 
 
@@ -106,8 +106,14 @@ function zeichneDiskretesHistogramm(xWerte, yWerte, divId, titel = '') {
         },
         bargap: 0,
         showlegend: false,
-        margin: { t: 40, r: 20, b: 40, l: 50 }
+        margin: { t: 100, r: 20, b: 40, l: 50 },
+        dragmode: "pan" 
     };
 
-    Plotly.newPlot(divId, data, layout);
+        const config = {
+      scrollZoom: true  
+    };
+
+
+    Plotly.newPlot(divId, data, layout, config);
 }
