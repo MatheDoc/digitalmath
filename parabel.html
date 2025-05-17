@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Quadratische Funktion mit Plotly</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <h2>Quadratische Funktion: f(x) = a·x² + b·x + c</h2>
+
+  <div>
+    <label>a = <span id="aWert">1</span></label><br>
+    <input type="range" id="aSlider" min="-3" max="3" value="1" step="0.1"><br><br>
+
+    <label>b = <span id="bWert">0</span></label><br>
+    <input type="range" id="bSlider" min="-5" max="5" value="0" step="0.1"><br><br>
+
+    <label>c = <span id="cWert">0</span></label><br>
+    <input type="range" id="cSlider" min="-5" max="5" value="0" step="0.1"><br><br>
+
+    <label><input type="checkbox" id="autoY" checked> y-Achse automatisch skalieren</label><br><br>
+  </div>
+
+  <div id="plot" style="width:600px; height:400px;"></div>
+
+  <script>
+    const xWerte = [];
+    for (let x = -10; x <= 10; x += 0.2) {
+      xWerte.push(x);
+    }
+
+    function zeichneFunktion(a, b, c) {
+      const yWerte = xWerte.map(x => a * x * x + b * x + c);
+      const spur = {
+        x: xWerte,
+        y: yWerte,
+        mode: "lines",
+        type: "scatter",
+        name: `f(x) = ${a.toFixed(1)}x² + ${b.toFixed(1)}x + ${c.toFixed(1)}`,
+        line: { color: "blue" }
+      };
+
+      const autoY = document.getElementById("autoY").checked;
+
+      const layout = {
+        title: "Quadratische Funktion",
+        xaxis: { title: "x", range: [-10, 10] },
+        yaxis: {
+          title: "f(x)",
+          range: autoY ? undefined : [-10, 10]
+        },
+        dragmode: "pan"
+      };
+
+      const config = {
+        scrollZoom: true
+      };
+
+      Plotly.newPlot("plot", [spur], layout, config);
+    }
+
+    // Initial zeichnen
+    let a = 1, b = 0, c = 0;
+    zeichneFunktion(a, b, c);
+
+    // Aktualisiere Werte & Diagramm
+    function aktualisiere() {
+      a = parseFloat(document.getElementById("aSlider").value);
+      b = parseFloat(document.getElementById("bSlider").value);
+      c = parseFloat(document.getElementById("cSlider").value);
+
+      document.getElementById("aWert").innerText = a.toFixed(1);
+      document.getElementById("bWert").innerText = b.toFixed(1);
+      document.getElementById("cWert").innerText = c.toFixed(1);
+
+      zeichneFunktion(a, b, c);
+    }
+
+    // Event-Listener für alle Regler
+    document.getElementById("aSlider").addEventListener("input", aktualisiere);
+    document.getElementById("bSlider").addEventListener("input", aktualisiere);
+    document.getElementById("cSlider").addEventListener("input", aktualisiere);
+    document.getElementById("autoY").addEventListener("change", aktualisiere);
+  </script>
+</body>
+</html>

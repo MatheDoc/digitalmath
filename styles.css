@@ -267,10 +267,11 @@ footer {
     text-decoration: none;
     background-color: var(--hauptfarbe);
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 12px;
-    width: 160px;
+    width: 140px;
     text-align: center;
+    font-size: 1em;
 }
 .navi:hover{
     background-color: #1d7ca6;
@@ -281,7 +282,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 12px;
     padding: 20px;
-    width: 200px;
+    width: 300px;
     height: 65px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -291,7 +292,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.2s ease;
 }
 
 
