@@ -21,7 +21,9 @@ function zeichneBaumdiagramm(
 
     const container = document.getElementById(divID);
   const width = container.offsetWidth;
-  const height = width / aspect;
+  const minHeight = 300;
+const height = Math.max(width / aspect, minHeight);
+
   // Definition der Knoten
   const nodes = [
     { x: 0, y: 0.5, label: "", id: "start" },
