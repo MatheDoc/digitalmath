@@ -16,17 +16,18 @@
     <label>p = <span id="pWert">0.5</span></label><br>
     <input type="range" id="pSlider" min="0" max="1" value="0.5" step="0.01"><br><br>
 
+    <label>a = <span id="aWert">3</span></label><br>
+    <input type="range" id="aSlider" min="0" max="10" value="3"><br><br>
+
+    <label>b = <span id="bWert">7</span></label><br>
+    <input type="range" id="bSlider" min="0" max="10" value="7"><br><br>
+
     <label><input type="checkbox" id="autoY" checked> y-Achse automatisch skalieren</label><br><br>
-
-    <label>Intervallgrenzen:</label>
-    a = <input type="number" id="aGrenze" value="3" style="width:50px">
-    b = <input type="number" id="bGrenze" value="7" style="width:50px"><br><br>
-
     <div><strong>Intervallwahrscheinlichkeit:</strong> <span id="intervallWert">P(3 ≤ X ≤ 7) = ...</span></div><br>
   </div>
 
-  <div id="plotEinzeln" style="width:700px; height:400px;"></div>
-  <div id="plotKumuliert" style="width:700px; height:400px;"></div>
+  <div id="plotEinzeln" style="width: 90vw;"></div>
+  <div id="plotKumuliert" style="width: 90vw;"></div>
 
 
 
@@ -40,26 +41,45 @@
 function updateFromInputs() {
   const n = parseInt(document.getElementById('nSlider').value);
   const p = parseFloat(document.getElementById('pSlider').value);
-  const a = parseInt(document.getElementById('aGrenze').value);
-  const b = parseInt(document.getElementById('bGrenze').value);
+  const a = parseInt(document.getElementById('aSlider').value);
+  const b = parseInt(document.getElementById('bSlider').value);
   const autoY = document.getElementById('autoY').checked;
 
+  // Werte anzeigen
   document.getElementById("nWert").innerText = n;
   document.getElementById("pWert").innerText = p.toFixed(2);
+  document.getElementById("aWert").innerText = a;
+  document.getElementById("bWert").innerText = b;
 
   zeichneHistogrammEinzeln(n, p, a, b, 'plotEinzeln', 'Einzelwahrscheinlichkeiten', autoY);
   zeichneHistogrammKumuliert(n, p, a, b, 'plotKumuliert', 'Kumulierte Wahrscheinlichkeiten');
 }
 
-  // Inputs mit Handler verbinden
-  document.getElementById("nSlider").addEventListener("input", updateFromInputs);
-  document.getElementById("pSlider").addEventListener("input", updateFromInputs);
-  document.getElementById("aGrenze").addEventListener("input", updateFromInputs);
-  document.getElementById("bGrenze").addEventListener("input", updateFromInputs);
-  document.getElementById("autoY").addEventListener("change", updateFromInputs);
+function updateSliderRanges() {
+  const n = parseInt(document.getElementById('nSlider').value);
+  document.getElementById('aSlider').max = n;
+  document.getElementById('bSlider').max = n;
 
-  // Initiales Diagramm
+  // Optional: Werte von a und b anpassen, falls sie außerhalb des neuen Bereichs liegen
+  const aSlider = document.getElementById('aSlider');
+  const bSlider = document.getElementById('bSlider');
+  if (parseInt(aSlider.value) > n) aSlider.value = n;
+  if (parseInt(bSlider.value) > n) bSlider.value = n;
+}
+
+// Event-Handler verbinden
+document.getElementById("nSlider").addEventListener("input", function() {
+  updateSliderRanges();
   updateFromInputs();
+});
+document.getElementById("pSlider").addEventListener("input", updateFromInputs);
+document.getElementById("aSlider").addEventListener("input", updateFromInputs);
+document.getElementById("bSlider").addEventListener("input", updateFromInputs);
+document.getElementById("autoY").addEventListener("change", updateFromInputs);
+
+// Initiales Diagramm
+updateSliderRanges();
+updateFromInputs();
 </script>
 </body>
 </html>
