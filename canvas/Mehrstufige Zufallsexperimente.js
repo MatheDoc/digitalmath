@@ -9,3 +9,12 @@ erstelleQuiz('quiz-bm-aufstellen2',
 
 erstelleQuiz('quiz-bm-aufstellen3', 
 "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BaumdiagrammErstellen_Var3KeineInfoUnabh.json");
+
+
+// Script dynamisch laden und Callback setzen
+const script = document.createElement('script');
+script.src = "js/baumdiagramm.js";
+script.onload = function() {
+  zeichneBaumdiagramm(0.5, 0.4, 0.1, 'baumdiagramm-mit-2-ereignissen', 'Baumdiagramm mit 2 Ereignissen');
+};
+document.body.appendChild(script);

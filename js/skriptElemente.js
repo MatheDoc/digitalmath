@@ -1,15 +1,3 @@
-/*function erstelleQuiz(divId, url) {
-    var div = document.getElementById(divId);
-    div.innerHTML = '<iframe src="' + 
-        url + '&quizonly=true" ' +
-        'frameborder="0" ' +
-        'style="" ' +
-        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
-        'referrerpolicy="strict-origin-when-cross-origin" ' +
-        'allowfullscreen>' +
-        '</iframe>';
-}*/
-
 function resizeIframe(iframe) {
   try {
     const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;

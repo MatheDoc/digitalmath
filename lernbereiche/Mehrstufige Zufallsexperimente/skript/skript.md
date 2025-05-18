@@ -54,9 +54,8 @@ Häufig liegt eine Situation vor, in der zwei Ereignisse $A$ und $B$ und deren G
 * $B$: Eine Person hat gesunde Zähne.
 
 Das Baumdiagramm habe die Gestalt
- <figure>
-  <img src="BaumAB.png">
-</figure>
+
+<div id="baumdiagramm-mit-2-ereignissen" class="diagramm"></div>
 
 Hinweise:
 
