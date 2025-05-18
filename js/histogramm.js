@@ -24,7 +24,7 @@ function zeichneHistogrammEinzeln(n, p, a, b, divID, titel = '', autoY = true) {
     yWerte.push(wkt);
     yKumuliert.push(summe);
     if (k >= a && k <= b) {
-      farben.push("rgba(255, 99, 132, 0.7)");
+      farben.push("rgba(5, 56, 166, 0.6)");
     } else {
       farben.push("rgba(54, 162, 235, 0.4)");
     }
@@ -33,7 +33,8 @@ function zeichneHistogrammEinzeln(n, p, a, b, divID, titel = '', autoY = true) {
   // Intervallwahrscheinlichkeit berechnen (optional für Anzeige)
   const P_b = yKumuliert[b] ?? 0;
   const P_vor_a = a > 0 ? yKumuliert[a - 1] : 0;
-  const P_intervall = P_b - P_vor_a;
+  let P_intervall = P_b - P_vor_a;
+  if (a > b) P_intervall = 0;
   if (document.getElementById("intervallWert")) {
     document.getElementById("intervallWert").innerText =
       `P(${a} ≤ X ≤ ${b}) = ${P_intervall.toFixed(4)}`;
@@ -58,10 +59,10 @@ function zeichneHistogrammEinzeln(n, p, a, b, divID, titel = '', autoY = true) {
     xaxis: { title: "k", tickmode: "linear" },
     yaxis: { title: "P(X = k)", range: autoY ? undefined : [0, 1] },
     bargap: 0,
-    dragmode: "pan"
+    dragmode: false,
   };
 
-  const config = { scrollZoom: true };
+  const config = { scrollZoom: false };
 
   Plotly.newPlot(divID, [spur], layout, config);
 }
@@ -103,10 +104,10 @@ function zeichneHistogrammKumuliert(n, p, a, b, divID, titel = '') {
     xaxis: { title: "k", tickmode: "linear" },
     yaxis: { title: "P(X ≤ k)", range: [0, 1.05] },
     bargap: 0,
-    dragmode: "pan"
+    dragmode: false
   };
 
-  const config = { scrollZoom: true };
+  const config = { scrollZoom: false };
 
   Plotly.newPlot(divID, [spur], layout, config);
 }

@@ -98,9 +98,7 @@ function zeichneDiskretesHistogramm(xWerte, yWerte, divId, titel = '') {
         dragmode: "pan" 
     };
 
-        const config = {
-      scrollZoom: true  
-    };
+        const config = { scrollZoom: false};
 
 
     Plotly.newPlot(divId, data, layout, config);
