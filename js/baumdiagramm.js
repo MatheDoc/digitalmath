@@ -1,6 +1,5 @@
-const aspect = 4/3; 
-const baseR = 0.076;
-const r = baseR / Math.sqrt(aspect); // oder baseR / aspect
+const aspect = 1; 
+const r = 0.076;
 
 
 function shortenLine(x0, y0, x1, y1, rStart = r, rEnd = r) {
@@ -20,9 +19,9 @@ function zeichneBaumdiagramm(
 ) {
 
     const container = document.getElementById(divID);
-  const width = container.offsetWidth;
+  /*const width = container.offsetWidth;
   const minHeight = 300;
-const height = Math.max(width / aspect, minHeight);
+const height = Math.max(width / aspect, minHeight);*/
 
   // Definition der Knoten
   const nodes = [
@@ -78,7 +77,7 @@ const height = Math.max(width / aspect, minHeight);
   const edgeLabels = edges.map(e => {
     const xm = (e.from.x + e.to.x) / 2;
     const ym = (e.from.y + e.to.y) / 2 + 0.045;
-    const dx = (e.to.x - e.from.x) * aspect;
+    const dx = e.to.x - e.from.x;
     const dy = e.to.y - e.from.y;
     const angle = Math.atan2(dy, dx) * (-180) / Math.PI;
     return {
@@ -131,8 +130,7 @@ const height = Math.max(width / aspect, minHeight);
     annotations: [...edgeLabels, ...leafLabels],
     margin: { l: 20, r: 20, t: 100, b: 20 },
     dragmode: false,
-    width: width,
-    height: height
+
   };
 
   const config = {
@@ -141,5 +139,21 @@ const height = Math.max(width / aspect, minHeight);
   };
 
   Plotly.newPlot(divID, [nodeTrace], layout, config);
-  
+    // Skalierungsfunktion
+  function scaleDiagramm(divID, baseWidth = 450, baseHeight = 450) {
+    const container = document.getElementById(divID);
+    const scale = container.offsetWidth / baseWidth;
+    container.style.transform = `scale(${scale})`;
+    container.style.height = `${baseHeight * scale}px`;
+  }
+
+  // Direkt nach dem Rendern skalieren
+  scaleDiagramm(divID);
+
+  // Resize-Listener nur einmal setzen
+
+  if (!container.hasResizeHandler) {
+    window.addEventListener('resize', () => scaleDiagramm(divID));
+    container.hasResizeHandler = true;
+  }
 }
