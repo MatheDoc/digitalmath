@@ -10,10 +10,10 @@ Da generell die Summe aller Wahrscheinlichkeiten eines Zufallsexperiments immer 
 ##### Beispiel: Zweimaliger Münzwurf
 
 Kopf ($K$) und Zahl ($Z$) treten bei einem einmaligen Wurf beide mit einer Wahrscheinlichkeit von 50&nbsp;\% auf. Daraus ergibt sich folgendes Baumdiagramm:
-<figure>
-  <img src="münze2x.png">
-</figure>
-Nach der Pfadmultiplikationsregel haben wir jede Endwahrscheinlichkeit mit $\frac{1}{2}\cdot\frac{1}{2}=\frac{1}{4}$ berechnet.
+
+<div id="kopfzahl" class="diagramm"></div>
+
+Nach der Pfadmultiplikationsregel haben wir jede Endwahrscheinlichkeit mit $0{,}5\cdot 0{,}5=0{,}25$ berechnet.
 
 Betrachten wir z.B. das Ereignis $E$: "Es wird zweimal das Gleiche geworfen.", so ist $E=\\{KK, ZZ\\}$, und nach der Pfadadditionsregel folgt nun
 \begin{align*}

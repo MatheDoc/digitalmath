@@ -11,16 +11,19 @@ function shortenLine(x0, y0, x1, y1, rStart = r, rEnd = r) {
   return { x0: x0s, y0: y0s, x1: x1s, y1: y1s };
 }
 
-function zeichneBaumdiagramm(pa, pba, pbna, divID, titel = '', labelA = 'A', labelB = 'B') {
+function zeichneBaumdiagramm(
+  pa, pba, pbna, divID, titel = '',
+  labelA = 'A', labelAbar = 'A̅', labelB = 'B', labelBbar = 'B̅'
+) {
   // Definition der Knoten
   const nodes = [
     { x: 0, y: 0.5, label: "", id: "start" },
     { x: 0.5, y: 0.75, label: labelA },
-    { x: 0.5, y: 0.25, label: labelA + "\u0305" },
+    { x: 0.5, y: 0.25, label: labelAbar },
     { x: 1, y: 0.875, label: labelB },
-    { x: 1, y: 0.625, label: labelB + "\u0305" },
+    { x: 1, y: 0.625, label: labelBbar },
     { x: 1, y: 0.375, label: labelB },
-    { x: 1, y: 0.125, label: labelB + "\u0305" }
+    { x: 1, y: 0.125, label: labelBbar }
   ];
 
   // Wahrscheinlichkeiten berechnen
@@ -114,7 +117,8 @@ function zeichneBaumdiagramm(pa, pba, pbna, divID, titel = '', labelA = 'A', lab
     yaxis: { visible: false, range: [0, 0.95] },
     shapes: edgeShapes,
     annotations: [...edgeLabels, ...leafLabels],
-    margin: { l: 20, r: 20, t: 100, b: 20 }
+    margin: { l: 20, r: 20, t: 100, b: 20 },
+    dragmode: false,
   };
 
   Plotly.newPlot(divID, [nodeTrace], layout);

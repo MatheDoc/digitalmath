@@ -16,5 +16,6 @@ const script = document.createElement('script');
 script.src = "js/baumdiagramm.js";
 script.onload = function() {
   zeichneBaumdiagramm(0.5, 0.4, 0.1, 'baumdiagramm-mit-2-ereignissen', 'Baumdiagramm mit 2 Ereignissen');
+  zeichneBaumdiagramm(0.5, 0.5, 0.5, 'kopfzahl', 'Zweimaliger Münzwurf', 'K', 'Z', 'K', 'Z');
 };
 document.body.appendChild(script);

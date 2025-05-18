@@ -95,7 +95,7 @@ function zeichneDiskretesHistogramm(xWerte, yWerte, divId, titel = '') {
         bargap: 0,
         showlegend: false,
         margin: { t: 100, r: 20, b: 40, l: 50 },
-        dragmode: "pan" 
+        dragmode: false,
     };
 
         const config = { scrollZoom: false};
