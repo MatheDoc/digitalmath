@@ -107,7 +107,10 @@ function zeichneHistogrammKumuliert(n, p, a, b, divID, titel = '') {
     dragmode: false
   };
 
-  const config = { scrollZoom: false };
+  const config = {
+    scrollZoom: false,
+    responsive: true
+  };
 
   Plotly.newPlot(divID, [spur], layout, config);
 }

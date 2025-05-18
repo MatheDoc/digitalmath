@@ -1,4 +1,7 @@
-const r = 0.06;
+const aspect = 4 / 3; 
+const baseR = 0.076;
+const r = baseR / Math.sqrt(aspect); // oder baseR / aspect
+
 
 function shortenLine(x0, y0, x1, y1, rStart = r, rEnd = r) {
   const dx = x1 - x0;
@@ -15,6 +18,10 @@ function zeichneBaumdiagramm(
   pa, pba, pbna, divID, titel = '',
   labelA = 'A', labelAbar = 'A̅', labelB = 'B', labelBbar = 'B̅'
 ) {
+
+    const container = document.getElementById(divID);
+  const width = container.offsetWidth;
+  const height = width / aspect;
   // Definition der Knoten
   const nodes = [
     { x: 0, y: 0.5, label: "", id: "start" },
@@ -68,8 +75,8 @@ function zeichneBaumdiagramm(
   // Kanten-Labels
   const edgeLabels = edges.map(e => {
     const xm = (e.from.x + e.to.x) / 2;
-    const ym = (e.from.y + e.to.y) / 2 + 0.04;
-    const dx = e.to.x - e.from.x;
+    const ym = (e.from.y + e.to.y) / 2 + 0.045;
+    const dx = (e.to.x - e.from.x) * aspect;
     const dy = e.to.y - e.from.y;
     const angle = Math.atan2(dy, dx) * (-180) / Math.PI;
     return {
@@ -77,7 +84,7 @@ function zeichneBaumdiagramm(
       y: ym,
       text: e.label,
       showarrow: false,
-      font: { size: 16 },
+      font: { size: 15 },
       textangle: angle
     };
   });
@@ -88,7 +95,7 @@ function zeichneBaumdiagramm(
     y: lp.node.y,
     text: `${lp.prob.toFixed(4)}`,
     showarrow: false,
-    font: { size: 16 }
+    font: { size: 15 }
   }));
 
   // Knoten
@@ -112,14 +119,23 @@ function zeichneBaumdiagramm(
   };
 
   const layout = {
-    title: titel,
+      title: {
+        text: titel,
+        y: 0.85
+      },
     xaxis: { visible: false, range: [0, 1.4] },
-    yaxis: { visible: false, range: [0, 0.95] },
+    yaxis: { visible: false, range: [0, 1] },
     shapes: edgeShapes,
     annotations: [...edgeLabels, ...leafLabels],
     margin: { l: 20, r: 20, t: 100, b: 20 },
     dragmode: false,
   };
 
-  Plotly.newPlot(divID, [nodeTrace], layout);
+  const config = {
+    scrollZoom: false,
+    responsive: false
+  };
+
+  Plotly.newPlot(divID, [nodeTrace], layout, config);
+  
 }
