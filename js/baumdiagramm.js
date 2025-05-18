@@ -1,4 +1,4 @@
-const aspect = 4/3; 
+const aspect = 3/3; 
 const baseR = 0.076;
 const r = baseR / Math.sqrt(aspect); // oder baseR / aspect
 
@@ -131,7 +131,7 @@ function zeichneBaumdiagramm(
     dragmode: false,
     width: width,
     height: height
-  };a
+  };
 
   const config = {
     scrollZoom: false,
