@@ -131,11 +131,11 @@ function zeichneBaumdiagramm(
     dragmode: false,
     width: width,
     height: height
-  };
+  };a
 
   const config = {
     scrollZoom: false,
-    responsive: false
+    responsive: true
   };
 
   Plotly.newPlot(divID, [nodeTrace], layout, config);
