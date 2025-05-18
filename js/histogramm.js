@@ -114,14 +114,21 @@ function zeichneHistogrammKumuliert(n, p, a, b, divID, titel = '') {
 
   Plotly.newPlot(divID, [spur], layout, config);
 
-  function scaleDiagramm(divID, baseWidth = 600) {
-  const container = document.getElementById(divID);
-  const scale = container.offsetWidth / baseWidth;
-  container.style.transform = `scale(${scale})`;
-  container.style.height = `${450 * scale}px`; // Höhe anpassen!
-}
+  // Skalierungsfunktion
+  function scaleDiagramm(divID, baseWidth = 600, baseHeight = 450) {
+    const container = document.getElementById(divID);
+    const scale = container.offsetWidth / baseWidth;
+    container.style.transform = `scale(${scale})`;
+    container.style.height = `${baseHeight * scale}px`;
+  }
 
-// Nach dem Rendern und bei Resize:
-scaleDiagramm('meinDiagramm');
-window.addEventListener('resize', () => scaleDiagramm('meinDiagramm'));
+  // Direkt nach dem Rendern skalieren
+  scaleDiagramm(divID);
+
+  // Resize-Listener nur einmal setzen
+  const container = document.getElementById(divID);
+  if (!container.hasResizeHandler) {
+    window.addEventListener('resize', () => scaleDiagramm(divID));
+    container.hasResizeHandler = true;
+  }
 }
