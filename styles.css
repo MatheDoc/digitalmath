@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     margin: 0 auto; 
     margin-top: 20px;
+    transform-origin: top left;
 }
 
 .modebar-container .modebar {
