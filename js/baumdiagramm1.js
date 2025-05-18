@@ -1,10 +1,27 @@
-// Baumdiagramm
+const aspect = 1; 
+const r = 0.076;
+
+
+function shortenLine(x0, y0, x1, y1, rStart = r, rEnd = r) {
+  const dx = x1 - x0;
+  const dy = y1 - y0;
+  const len = Math.sqrt(dx * dx + dy * dy);
+  const x0s = x0 + (rStart * dx) / len;
+  const y0s = y0 + (rStart * dy) / len;
+  const x1s = x1 - (rEnd * dx) / len;
+  const y1s = y1 - (rEnd * dy) / len;
+  return { x0: x0s, y0: y0s, x1: x1s, y1: y1s };
+}
+
 function zeichneBaumdiagramm(
   pa, pba, pbna, divID, titel = '',
   labelA = 'A', labelAbar = 'A̅', labelB = 'B', labelBbar = 'B̅'
 ) {
 
-
+    const container = document.getElementById(divID);
+  /*const width = container.offsetWidth;
+  const minHeight = 300;
+const height = Math.max(width / aspect, minHeight);*/
 
   // Definition der Knoten
   const nodes = [
@@ -44,43 +61,34 @@ function zeichneBaumdiagramm(
 
   // Linien
   const edgeShapes = edges.map(e => {
+    const fromIsStart = e.from.id === "start";
+    const rStart = fromIsStart ? 0 : r;
+    const rEnd = r;
+    const coords = shortenLine(e.from.x, e.from.y, e.to.x, e.to.y, rStart, rEnd);
     return {
       type: 'line',
-      x0: e.from.x, y0: e.from.y,
-      x1: e.to.x,   y1: e.to.y,
-      line: { width: 2, color:  'gray'},
-      layer: 'below'
+      x0: coords.x0, y0: coords.y0,
+      x1: coords.x1, y1: coords.y1,
+      line: { width: 2 }
     };
   });
 
   // Kanten-Labels
- const edgeLabels = edges.map((e, i) => {
-  const xm = (e.from.x + e.to.x) / 2;
-  const ym = (e.from.y + e.to.y) / 2;
-  // Erste Stufe: Startknoten (i==0 oder i==1)
-  if (e.from.id === "start") {
-    // weiter weg vom Pfad
-    const yOffset = e.to.y > e.from.y ? -0.08 : 0.08;
+  const edgeLabels = edges.map(e => {
+    const xm = (e.from.x + e.to.x) / 2;
+    const ym = (e.from.y + e.to.y) / 2 + 0.045;
+    const dx = e.to.x - e.from.x;
+    const dy = e.to.y - e.from.y;
+    const angle = Math.atan2(dy, dx) * (-180) / Math.PI;
     return {
       x: xm,
-      y: ym - yOffset,
+      y: ym,
       text: e.label,
       showarrow: false,
-      font: { size: 15 }
+      font: { size: 15 },
+      textangle: angle
     };
-  } else {
-    // wie gehabt für die anderen
-    const isUpper = e.from.y > e.to.y;
-    const yOffset = isUpper ? 0.05 : -0.05;
-    return {
-      x: xm,
-      y: ym - yOffset,
-      text: e.label,
-      showarrow: false,
-      font: { size: 15 }
-    };
-  }
-});
+  });
 
   // Endknoten-Labels mit Wahrscheinlichkeit
   const leafLabels = leafProbs.map(lp => ({
@@ -104,9 +112,8 @@ function zeichneBaumdiagramm(
     },
     marker: {
       size: nodes.map((n, i) => i === 0 ? 0 : 40), 
-      color: '#b3e0ff',
-      opacity: 1 ,
-      line: { width: 2, color: 'gray' },
+      color: 'rgba(54, 162, 235, 0.4)',
+      line: { width: 2, color: 'black' },
       symbol: 'circle'
     },
     hoverinfo: 'none'
@@ -132,6 +139,21 @@ function zeichneBaumdiagramm(
   };
 
   Plotly.newPlot(divID, [nodeTrace], layout, config);
+    // Skalierungsfunktion
+  function scaleDiagramm(divID, baseWidth = 450, baseHeight = 450) {
+    const container = document.getElementById(divID);
+    const scale = container.offsetWidth / baseWidth;
+    container.style.transform = `scale(${scale})`;
+    container.style.height = `${baseHeight * scale}px`;
+  }
 
+  // Direkt nach dem Rendern skalieren
+  scaleDiagramm(divID);
 
+  // Resize-Listener nur einmal setzen
+
+  if (!container.hasResizeHandler) {
+    window.addEventListener('resize', () => scaleDiagramm(divID));
+    container.hasResizeHandler = true;
+  }
 }
