@@ -27,9 +27,9 @@ erstelleQuiz('quiz-vft-folgern-su',
 
 // Script dynamisch laden und Callback setzen
 const script = document.createElement('script');
-script.src = "js/baumdiagramm.js";
+script.src = "js_tools/baumdiagramm.js";
 script.onload = function() {
-  zeichneBaumdiagramm(0.7, 0.9, 0.2, 'baumdiagramm-einleitung', 'Lernen und Bestehen');
+  zeichneBaumdiagramm(0.7, 0.9, 0.2, 'baumdiagramm-einleitung', 'Lernen (A) und Bestehen (B)');
   zeichneBaumdiagramm(0.5, 0.1, 0.3, 'invers1', '1. Stufe A, 2. Stufe B');
   zeichneBaumdiagramm(0.2, 0.25, 0.5625, 'invers2', '1. Stufe B, 2. Stufe A', 'B', 'B\u0305', 'A', 'A\u0305');
   zeichneBaumdiagramm(0.7, 0.9, 0.2, 'sa', 'Stochastische Abhängigkeit');
