@@ -1,7 +1,7 @@
 // Baumdiagramm
 function zeichneBaumdiagramm(
   pa, pba, pbna, divID, titel = '',
-  labelA = 'A', labelAbar = 'A̅', labelB = 'B', labelBbar = 'B̅'
+  labelA = 'A', labelAbar = 'A\u0305', labelB = 'B', labelBbar = 'B\u0305'
 ) {
 
 
