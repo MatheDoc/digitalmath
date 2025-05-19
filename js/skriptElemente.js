@@ -25,7 +25,7 @@ function erstelleQuiz(divId, url) {
   }
   
   iframe.addEventListener('load', () => {
-    setTimeout(() => resizeIframe(iframe), 300);
+    setTimeout(() => resizeIframe(iframe), 1000);
   });
 }
 

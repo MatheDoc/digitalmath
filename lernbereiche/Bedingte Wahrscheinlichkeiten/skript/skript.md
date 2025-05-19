@@ -6,9 +6,8 @@ Wir betrachten ein mehrstufiges Zufallsexperiment mit den zwei Ereignissen
 * $B$: Ein Schüler besteht die Prüfung.
 
 Das Baumdiagramm habe die Gestalt
-<figure>
-  <img src="Beispiel1.png">
-</figure>
+
+<div id="baumdiagramm-einleitung" class="diagramm"></div>
 
 Hat ein Schüler gelernt, so besteht er mit einer Wahrscheinlichkeit von 90&nbsp;\% die Prüfung, hat er nicht gelernt, besteht er die Prüfung nur mit einer Wahrscheinlichkeit von 20&nbsp;\%. Die Wahrscheinlichkeit, dass ein Schüler die Prüfung besteht, hängt also davon ab, ob er gelernt hat. Mit anderen Worten: Die Wahrscheinlichkeit für $B$ (und auch für $\overline{B}$) hängt davon ab, ob $A$ eingetreten ist (oder nicht). Diese Wahrscheinlichkeiten der zweiten Stufe des Baumdiagramms heißen **bedingte Wahrscheinlichkeiten**, da für sie eine Bedingung $-$ hier $A$ oder $\overline{A}$ $-$ vorliegt.
 Wir verwenden die folgenden Bezeichnungen
@@ -16,6 +15,17 @@ Wir verwenden die folgenden Bezeichnungen
 <figure>
   <img src="BedingteWkt.png">
 </figure>
+
+#### Interpretation
+
+Es ergeben sich die folgenden Interpretationen:
+
+* $P_A(B)$ ist die Wahrscheinlichkeit, dass ein Schüler, der für die Prüfung gelernt hat, die Prüfung auch besteht.
+* $P_A(\overline{B})$ ist die Wahrscheinlichkeit, dass ein Schüler, der für die Prüfung gelernt hat, die Prüfung nicht besteht.
+* $P_{\overline{A}}(B)$ ist die Wahrscheinlichkeit, dass ein Schüler, der nicht für die Prüfung gelernt hat, die Prüfung dennoch besteht.
+* $P_{\overline{A}}(\overline{B})$ ist die Wahrscheinlichkeit, dass ein Schüler, der nicht für die Prüfung gelernt hat, die Prüfung auch nicht besteht.
+
+#### Berechnung
 
 Mit Hilfe der Pfadregeln folgt unmittelbar
 $$
@@ -61,31 +71,17 @@ Zusammengefasst:
 
 Es ist wichtig zu erwähnen, dass im Baumdiagramm
 
-<figure>
-  <img src="BedingteWkt.png">
-</figure>
+<div id="invers1" class="diagramm"></div>
 
-die Wahrscheinlichkeiten $P_B(A)$, $P_B(\overline{A})$, $P_{\overline{B}}(A)$ und $P_{\overline{B}}({\overline{A}})$ **nicht** abgelesen werden können. Um diese bedingten Wahrscheinlichkeiten ablesen zu können, benötigen wir $B$ und $\overline{B}$ auf der ersten und $A$ und $\overline{A}$ auf der zweiten Stufe. Mit anderen Worten: $A$ und $B$ müssen vertauscht werden. Wenn wir dies tun, entsteht das sogenannte **inverse Baumdiagramm**:
+die Wahrscheinlichkeiten $P_B(A)$, $P_B(\overline{A})$, $P_{\overline{B}}(A)$ und $P_{\overline{B}}({\overline{A}})$ **nicht** abgelesen werden können. Um diese bedingten Wahrscheinlichkeiten ablesen zu können, benötigen wir $B$ und $\overline{B}$ auf der ersten und $A$ und $\overline{A}$ auf der zweiten Stufe. Mit anderen Worten: Wir müssen ein neues Baumdiagramm aufstellen, das sogenannte **inverse Baumdiagramm**, indem $A$ und $B$ vertauscht sind.
 
-<figure>
-  <img src="BedingteWktInvers.png">
-</figure>
+Dafür berechnen wir zunächst $P(B)=0{,}05+0{,}15=0{,}2$. Damit ist $P(\overline{B})=0{,}8$. Aus $P(A\cap B)=P(B)\cdot P_B(A)$ (1.&nbsp;Pfadendwahrscheinlichkeit des inversen Baumdiagramms) folgt dann $P_B(A)=0{,}05:0{,}2=0{,}25$. Analog berechnen wir die weiteren bedingten Wahrscheinlichkeiten.
 
-##### Beispiel
+Das inverse Baumdiagramm lautet schließlich
 
-Gegeben sei das Baumdiagramm
+<div id="invers2" class="diagramm"></div>
 
-<figure>
-  <img src="inversesBaumdiagramm1.png">
-</figure>
-
-Wir berechnen zunächst $P(B)=0{,}05+0{,}15=0{,}2$. Damit ist $P(\overline{B})=0{,}8$. Aus $P(A\cap B)=P(B)\cdot P_B(A)$ (1.&nbsp;Pfadendwahrscheinlichkeit des inversen Baumdiagramms) folgt dann $P_B(A)=0{,}05:0{,}2=0{,}25$. Analog berechnen wir die weiteren bedingten Wahrscheinlichkeiten. Schließlich erhalten wir für das inverse Baumdiagramm
-
-<figure>
-  <img src="inversesBaumdiagramm2.png">
-</figure>
-
-in dem nun die bedingten Wahrscheinlichkeiten mit $B$- und $\overline{B}$-Bedingung auftreten.
+Hier treten nun die Wahrscheinlichkeiten mit $B$- und $\overline{B}$-Bedingung auf. Wir können z.B. ablesen, dass $P_{\overline{B}}(A)=0{,}5625$ ist. Für das Beispiel bedeutet dies: Die Wahrscheinlichkeit, dass ein Schüler, der die Prüfung nicht besteht, gelernt hat, beträgt 56{,}25&nbsp;\%.
 
 #### Der Satz von Bayes
 
@@ -132,15 +128,11 @@ Eng verbunden mit dem Begriff der stochastischen Unabhängigkeit ist die **stoch
 
 und dem Baumdiagramm
 
-<figure>
-  <img src="Beispiel1_markiert.png">
-</figure>
+<div id="sa" class="diagramm"></div>
 
 Die Wahrscheinlichkeit von $B$ hängt hier davon ab, ob $A$ eingetreten ist. Wir sagen dazu auch, dass $A$ und $B$ **stochastisch abhängig** sind. Wäre dies nicht der Fall, hätte das Baumdiagramm also z.B. die Gestalt
 
-<figure>
-  <img src="Beispiel2_markiert.png">
-</figure>
+<div id="su" class="diagramm"></div>
 
 so wäre die Wahrscheinlichkeit von $B$ nicht davon abhängig, ob $A$ eingetreten ist. Wir sagen dann, dass $A$ und $B$ **stochastisch unabhängig** sind. Mit anderen Worten: Zwei Ereignisse $A$ und $B$ sind stochastisch unabhängig, falls $P_A(B)=P_{\overline{A}}(B)$.
 
