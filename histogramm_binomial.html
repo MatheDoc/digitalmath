@@ -21,6 +21,15 @@
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
  
   <script src="js_tools/histogramm.js"></script>
+  <style>
+  .diagramm-row {
+  display: flex;
+  gap: 10px; /* Abstand zwischen den Elementen */
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Optional: Zeilenumbruch auf kleinen Bildschirmen */
+  }
+</style>
 </head>
 
 <body>
@@ -48,15 +57,13 @@
     <label><input type="checkbox" id="autoY" checked> y-Achse automatisch skalieren</label><br><br>
     <div><span id="intervallWert"></span></div><br>
   </div>
-
-  <div id="plotEinzeln" style="width: 90vw; margin: 0 auto"></div>
-  <div id="plotKumuliert" style="width: 90vw; margin: 0 auto"></div>
-
+<div class="diagramm-row">
+  <div id="plotEinzeln"  class="diagramm"></div>
+  <div id="plotKumuliert"  class="diagramm"></div>
+</div>
 </main>
 
-<!-- ... -->
 
-<!-- Am Ende des <body>: -->
 <script>
 
 
@@ -99,6 +106,28 @@ document.getElementById("pSlider").addEventListener("input", updateFromInputs);
 document.getElementById("aSlider").addEventListener("input", updateFromInputs);
 document.getElementById("bSlider").addEventListener("input", updateFromInputs);
 document.getElementById("autoY").addEventListener("change", updateFromInputs);
+
+// Mausradsteuerung für alle Histogramm-Slider aktivieren
+['nSlider', 'pSlider', 'aSlider', 'bSlider'].forEach(id => {
+  const slider = document.getElementById(id);
+  slider.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    const step = parseFloat(slider.step) || 1;
+    let value = parseFloat(slider.value);
+    if (e.deltaY < 0) {
+      value = Math.min(parseFloat(slider.max), value + step);
+    } else {
+      value = Math.max(parseFloat(slider.min), value - step);
+    }
+    // Für Ganzzahl-Slider (n, a, b) runde auf int, für p auf 2 Nachkommastellen
+    if (id === 'pSlider') {
+      slider.value = value.toFixed(2);
+    } else {
+      slider.value = Math.round(value);
+    }
+    slider.dispatchEvent(new Event('input'));
+  });
+});
 
 // Initiales Diagramm
 updateSliderRanges();
