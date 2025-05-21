@@ -37,7 +37,7 @@ function zeichneHistogrammEinzeln(n, p, a, b, divID, titel = '', autoY = true) {
   if (a > b) P_intervall = 0;
   if (document.getElementById("intervallWert")) {
     document.getElementById("intervallWert").innerText =
-      `P(${a} ≤ X ≤ ${b}) = ${P_intervall.toFixed(4)}`;
+      `$ P(${a} ≤ X ≤ ${b}) = ${P_intervall.toFixed(4)} $`;
   }
 
   const spur = {
