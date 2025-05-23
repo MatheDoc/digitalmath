@@ -65,7 +65,10 @@ if (document.getElementById("intervallWert")) {
     dragmode: false,
   };
 
-  const config = { scrollZoom: false };
+  const config = {
+    scrollZoom: false,
+    responsive: true
+  };
 
   Plotly.newPlot(divID, [spur], layout, config);
 }
