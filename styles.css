@@ -613,6 +613,7 @@ a.link-homepage:hover {
     width: 100%;
     box-sizing: border-box;
     display: none;
+    margin-top: 20px;
 }
 
 .box button i {
