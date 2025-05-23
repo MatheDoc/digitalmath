@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
   <meta charset="UTF-8">
-  <title>Zufallsrad für Namen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Histogramme der Binomialverteilung">
+  <meta name="author" content="Dr. Sven Führing">
+  <meta name='robots' content='index,follow'>    
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Glücksrad</title>
+  <link rel="stylesheet" href="styles.css"> 
   <style>
-    body {
-      font-family: Arial, sans-serif;
+
+
+    .page-flex {
       display: flex;
       justify-content: space-between;
-      padding: 20px;
-      background: linear-gradient(to bottom, #f0f8ff, #e0ffff);
     }
+
     .left {
       width: 30%;
       text-align: left;
@@ -55,7 +62,15 @@
 </head>
 <body>
 
-<div class="left">
+      <header>
+      <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
+        <h1>MatheChecks</h1>
+      </a>
+      <h2>Glücksrad</h2>
+    </header>
+<main>
+  <div class="page-flex">
+    <div class="left">
 
 
   <p>Namen einfügen:</p>
@@ -68,9 +83,10 @@
 </div>
 
 <div class="right">
-  <canvas id="wheel" width="800" height="800"></canvas>
+  <canvas id="wheel" width="700" height="700"></canvas>
 </div>
-
+  </div>
+</main>
 <script>
 const canvas = document.getElementById("wheel");
 const ctx = canvas.getContext("2d");
@@ -81,6 +97,9 @@ let spinTimeout = null;
 let spinAngleStart = 0;
 let spinTime = 0;
 let spinTimeTotal = 0;
+
+const centerX = canvas.width / 2;
+const centerY = canvas.height / 2;
 
 function setupWheel() {
   const input = document.getElementById("names").value;
@@ -94,7 +113,7 @@ function setupWheel() {
 }
 
 function drawWheel() {
-  const outsideRadius = 300;  // Erhöht für größere Darstellung
+  const outsideRadius = 275;  // Erhöht für größere Darstellung
   const textRadius = 250;
   const insideRadius = 80;  // Innenradius angepasst
 
@@ -104,7 +123,7 @@ function drawWheel() {
   ctx.lineWidth = 2;
 
   // Glanzeffekt
-  const gradient = ctx.createRadialGradient(400, 400, insideRadius, 400, 400, outsideRadius);
+  const gradient = ctx.createRadialGradient(centerX, centerY, insideRadius, centerX, centerY, outsideRadius);
   gradient.addColorStop(0, "#ffffff");
   gradient.addColorStop(1, "#cccccc");
 
@@ -114,15 +133,15 @@ function drawWheel() {
 
     // Segment zeichnen
     ctx.beginPath();
-    ctx.moveTo(400, 400);
-    ctx.arc(400, 400, outsideRadius, angle, angle + arc, false);
-    ctx.arc(400, 400, insideRadius, angle + arc, angle, true);
+    ctx.moveTo(centerX, centerY);
+    ctx.arc(centerX, centerY, outsideRadius, angle, angle + arc, false);
+    ctx.arc(centerX, centerY, insideRadius, angle + arc, angle, true);
     ctx.fill();
     ctx.stroke();
     ctx.save();
 
     // Namen strahlenförmig zeichnen
-    ctx.translate(400, 400);
+    ctx.translate(centerX, centerY);
     ctx.rotate(angle + arc / 2);
 
     ctx.font = "bold 14px Arial";  // Schriftgröße angepasst
@@ -148,9 +167,9 @@ function drawWheel() {
 ctx.strokeStyle = "black";
 ctx.lineWidth = 4;
 ctx.beginPath();
-ctx.moveTo(400 - 30, 400 - (outsideRadius + 40));
-ctx.lineTo(400 + 30, 400 - (outsideRadius + 40));
-ctx.lineTo(400, 400 - (outsideRadius - 20));
+ctx.moveTo(centerX - 30, centerY - (outsideRadius + 40));
+ctx.lineTo(centerX + 30, centerY - (outsideRadius + 40));
+ctx.lineTo(centerX, centerY - (outsideRadius - 20));
 ctx.closePath();
 ctx.fill();
 ctx.stroke();
