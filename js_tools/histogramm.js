@@ -35,10 +35,13 @@ function zeichneHistogrammEinzeln(n, p, a, b, divID, titel = '', autoY = true) {
   const P_vor_a = a > 0 ? yKumuliert[a - 1] : 0;
   let P_intervall = P_b - P_vor_a;
   if (a > b) P_intervall = 0;
-  if (document.getElementById("intervallWert")) {
-    document.getElementById("intervallWert").innerText =
-      `$ P(${a} ≤ X ≤ ${b}) = ${P_intervall.toFixed(4)} $`;
+if (document.getElementById("intervallWert")) {
+  document.getElementById("intervallWert").innerHTML =
+    `$ P(${a} ≤ X ≤ ${b}) = ${P_intervall.toFixed(4)} $`;
+  if (window.MathJax && MathJax.typesetPromise) {
+    MathJax.typesetPromise([document.getElementById("intervallWert")]);
   }
+}
 
   const spur = {
     x: xWerte,
