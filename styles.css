@@ -262,16 +262,18 @@ footer {
 }
 
 .navi {
-    display: inline-block;
-    margin-top: 15px;
+    display: flex;
     text-decoration: none;
     background-color: var(--hauptfarbe);
     color: white;
     padding: 10px;
     border-radius: 12px;
+    height: 65px;
     width: 140px;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
+        align-items: center;
+    justify-content: center;
 }
 .navi:hover{
     background-color: #1d7ca6;
