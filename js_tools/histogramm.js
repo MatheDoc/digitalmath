@@ -86,7 +86,7 @@ function zeichneHistogrammKumuliert(n, p, a, b, divID, titel = '') {
   }
 
   const farben = xWerte.map(k => {
-    if (k === b) return "rgba(200, 0, 0, 0.7)";
+    if (k === b) return "rgba(255, 160, 160, 0.6)";
     if (k === a - 1) return "rgba(255, 160, 160, 0.6)";
     return "rgba(100, 100, 100, 0.2)";
   });
@@ -105,12 +105,58 @@ function zeichneHistogrammKumuliert(n, p, a, b, divID, titel = '') {
     name: "P(X ≤ k)"
   };
 
+  const xPfeil = a - 1;        // Mittig über der Säule bei k = a-1
+  const yUnten = yKumuliert[a-1];           // Unten bei 0
+  const yOben = yKumuliert[b]; // Oben bei P(X ≤ b)
+
   const layout = {
     title: titel,
     xaxis: { title: "k", tickmode: "linear" },
     yaxis: { title: "P(X ≤ k)", range: [0, 1.05] },
     bargap: 0,
-    dragmode: false
+    dragmode: false,
+    shapes: [
+      // Vertikale durchgezogene Linie
+      {
+        type: "line",
+        x0: xPfeil,
+        x1: xPfeil,
+        y0: yUnten,
+        y1: yOben,
+        line: {
+          color: "black",
+          width: 2,
+          dash: "solid"
+        }
+      },
+      // Pfeil oben (nach oben zeigend)
+      {
+        type: "path",
+        path: `M ${xPfeil - 0.05} ${yOben - 0.02} L ${xPfeil} ${yOben} L ${xPfeil + 0.05} ${yOben - 0.02} Z`,
+        fillcolor: "black",
+        line: { color: "black" }
+      },
+      // Pfeil unten (nach unten zeigend)
+      {
+        type: "path",
+        path: `M ${xPfeil - 0.05} ${yUnten + 0.02} L ${xPfeil} ${yUnten} L ${xPfeil + 0.05} ${yUnten + 0.02} Z`,
+        fillcolor: "black",
+        line: { color: "black" }
+      },
+            // Horizontale Linie von der oberen Pfeilspitze bis rechts (x = n)
+      {
+        type: "line",
+        x0: xPfeil,
+        x1: b,
+        y0: yOben,
+        y1: yOben,
+        line: {
+          color: "black",
+          width: 2,
+          dash: "dash"
+        }
+      }
+    ]
   };
 
   const config = {
@@ -119,6 +165,4 @@ function zeichneHistogrammKumuliert(n, p, a, b, divID, titel = '') {
   };
 
   Plotly.newPlot(divID, [spur], layout, config);
-
-
 }
