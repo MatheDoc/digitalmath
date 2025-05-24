@@ -1,178 +1,218 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Histogramme der Binomialverteilung" />
+    <meta name="author" content="Dr. Sven Führing" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Histogramme der Binomialverteilung">
-  <meta name="author" content="Dr. Sven Führing">
-  <meta name='robots' content='index,follow'>    
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Histogramme der Binomialverteilung</title>
 
-  <title>Histogramme der Binomialverteilung</title>
-
-  <link rel="stylesheet" href="styles.css"> 
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script>
-    window.MathJax = {
-      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
-    };
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
- 
-  <script src="js_tools/histogramm.js"></script>
-  <style>
-  .diagramm-row {
-  display: flex;
-  gap: 10px; /* Abstand zwischen den Elementen */
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap; /* Optional: Zeilenumbruch auf kleinen Bildschirmen */
-  }
+      window.MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+        },
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  .eingabe-box {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 340px;
-  margin: 0 auto 20px auto;
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 18px 20px;
-  box-shadow: 0 2px 8px #0001;
-}
+    <script src="js_tools/histogramm.js"></script>
+    <style>
+      .diagramm-row {
+        display: flex;
+        gap: 10px; /* Abstand zwischen den Elementen */
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap; /* Optional: Zeilenumbruch auf kleinen Bildschirmen */
+      }
 
-.eingabe-zeile {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  justify-content: space-between;
-}
+      .eingabe-box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 340px;
+        margin: 0 auto 20px auto;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 18px 20px;
+        box-shadow: 0 2px 8px #0001;
+      }
 
-.eingabe-zeile label {
-  min-width: 110px;
-}
+      .eingabe-zeile {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: space-between;
+      }
 
-.eingabe-zeile input[type="range"] {
-  flex: 1;
-  margin-left: 10px;
-}
+      .eingabe-zeile label {
+        min-width: 110px;
+      }
 
-.eingabe-zeile:last-child {
-  justify-content: center;
-}
-</style>
-</head>
+      .eingabe-zeile input[type="range"] {
+        flex: 1;
+        margin-left: 10px;
+      }
 
-<body>
-      <header>
-      <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
+      .eingabe-zeile:last-child {
+        justify-content: center;
+      }
+      input[type="range"]:hover {
+        cursor: ew-resize; /* oder z. B. 'grab', 'crosshair', etc. */
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a
+        href="https://mathedoc.github.io/digitalmath/index"
+        class="link-homepage"
+        title="home"
+      >
         <h1>MatheChecks</h1>
       </a>
       <h2>Histogramme der Binomialverteilung</h2>
     </header>
-  
+
     <main>
-  <div class="eingabe-box">
-  <div class="eingabe-zeile">
-    <label for="nSlider">n = <span id="nWert">10</span></label>
-    <input type="range" id="nSlider" min="1" max="50" value="10">
-  </div>
-  <div class="eingabe-zeile">
-    <label for="pSlider">p = <span id="pWert">0.5</span></label>
-    <input type="range" id="pSlider" min="0" max="1" value="0.5" step="0.01">
-  </div>
-  <div class="eingabe-zeile">
-    <label for="aSlider">a = <span id="aWert">3</span></label>
-    <input type="range" id="aSlider" min="0" max="10" value="3">
-  </div>
-  <div class="eingabe-zeile">
-    <label for="bSlider">b = <span id="bWert">7</span></label>
-    <input type="range" id="bSlider" min="0" max="10" value="7">
-  </div>
-  <div class="eingabe-zeile">
-    <label><input type="checkbox" id="autoY" checked> y-Achse automatisch skalieren</label>
-  </div>
-  <div class="eingabe-zeile" style="justify-content:center;">
-    <span id="intervallWert"></span>
-  </div>
-</div>
-<div class="diagramm-row">
-  <div id="plotEinzeln" class="diagramm-tool"></div>
-  <div id="plotKumuliert"  class="diagramm-tool"></div>
-</div>
-</main>
+      <div class="eingabe-box">
+        <div class="eingabe-zeile">
+          <label for="nSlider">n = <span id="nWert">10</span></label>
+          <input type="range" id="nSlider" min="1" max="50" value="10" />
+        </div>
+        <div class="eingabe-zeile">
+          <label for="pSlider">p = <span id="pWert">0.5</span></label>
+          <input
+            type="range"
+            id="pSlider"
+            min="0"
+            max="1"
+            value="0.5"
+            step="0.01"
+          />
+        </div>
+        <div class="eingabe-zeile">
+          <label for="aSlider">a = <span id="aWert">3</span></label>
+          <input type="range" id="aSlider" min="0" max="10" value="3" />
+        </div>
+        <div class="eingabe-zeile">
+          <label for="bSlider">b = <span id="bWert">7</span></label>
+          <input type="range" id="bSlider" min="0" max="10" value="7" />
+        </div>
+        <div class="eingabe-zeile">
+          <label
+            ><input type="checkbox" id="autoY" checked /> y-Achse automatisch
+            skalieren</label
+          >
+        </div>
+        <div class="eingabe-zeile" style="justify-content: center">
+          <span id="intervallWert"></span>
+        </div>
+      </div>
+      <div class="diagramm-row">
+        <div id="plotEinzeln" class="diagramm-tool"></div>
+        <div id="plotKumuliert" class="diagramm-tool"></div>
+      </div>
+    </main>
 
+    <script>
+      // Event-Handler für Inputs
+      function updateFromInputs() {
+        const n = parseInt(document.getElementById("nSlider").value);
+        const p = parseFloat(document.getElementById("pSlider").value);
+        const a = parseInt(document.getElementById("aSlider").value);
+        const b = parseInt(document.getElementById("bSlider").value);
+        const autoY = document.getElementById("autoY").checked;
 
-<script>
+        // Werte anzeigen
+        document.getElementById("nWert").innerText = n;
+        document.getElementById("pWert").innerText = p.toFixed(2);
+        document.getElementById("aWert").innerText = a;
+        document.getElementById("bWert").innerText = b;
 
+        zeichneHistogrammEinzeln(
+          n,
+          p,
+          a,
+          b,
+          "plotEinzeln",
+          "Einzelwahrscheinlichkeiten",
+          autoY
+        );
+        zeichneHistogrammKumuliert(
+          n,
+          p,
+          a,
+          b,
+          "plotKumuliert",
+          "Kumulierte Wahrscheinlichkeiten"
+        );
+      }
 
-  // Event-Handler für Inputs
-function updateFromInputs() {
-  const n = parseInt(document.getElementById('nSlider').value);
-  const p = parseFloat(document.getElementById('pSlider').value);
-  const a = parseInt(document.getElementById('aSlider').value);
-  const b = parseInt(document.getElementById('bSlider').value);
-  const autoY = document.getElementById('autoY').checked;
+      function updateSliderRanges() {
+        const n = parseInt(document.getElementById("nSlider").value);
+        document.getElementById("aSlider").max = n;
+        document.getElementById("bSlider").max = n;
 
-  // Werte anzeigen
-  document.getElementById("nWert").innerText = n;
-  document.getElementById("pWert").innerText = p.toFixed(2);
-  document.getElementById("aWert").innerText = a;
-  document.getElementById("bWert").innerText = b;
+        // Optional: Werte von a und b anpassen, falls sie außerhalb des neuen Bereichs liegen
+        const aSlider = document.getElementById("aSlider");
+        const bSlider = document.getElementById("bSlider");
+        if (parseInt(aSlider.value) > n) aSlider.value = n;
+        if (parseInt(bSlider.value) > n) bSlider.value = n;
+      }
 
-  zeichneHistogrammEinzeln(n, p, a, b, 'plotEinzeln', 'Einzelwahrscheinlichkeiten', autoY);
-  zeichneHistogrammKumuliert(n, p, a, b, 'plotKumuliert', 'Kumulierte Wahrscheinlichkeiten');
-  
-}
+      // Event-Handler verbinden
+      document.getElementById("nSlider").addEventListener("input", function () {
+        updateSliderRanges();
+        updateFromInputs();
+      });
+      document
+        .getElementById("pSlider")
+        .addEventListener("input", updateFromInputs);
+      document
+        .getElementById("aSlider")
+        .addEventListener("input", updateFromInputs);
+      document
+        .getElementById("bSlider")
+        .addEventListener("input", updateFromInputs);
+      document
+        .getElementById("autoY")
+        .addEventListener("change", updateFromInputs);
 
-function updateSliderRanges() {
-  const n = parseInt(document.getElementById('nSlider').value);
-  document.getElementById('aSlider').max = n;
-  document.getElementById('bSlider').max = n;
+      // Mausradsteuerung für alle Histogramm-Slider aktivieren
+      ["nSlider", "pSlider", "aSlider", "bSlider"].forEach((id) => {
+        const slider = document.getElementById(id);
+        slider.addEventListener("wheel", function (e) {
+          e.preventDefault();
+          const step = parseFloat(slider.step) || 1;
+          let value = parseFloat(slider.value);
+          if (e.deltaY < 0) {
+            value = Math.min(parseFloat(slider.max), value + step);
+          } else {
+            value = Math.max(parseFloat(slider.min), value - step);
+          }
+          // Für Ganzzahl-Slider (n, a, b) runde auf int, für p auf 2 Nachkommastellen
+          if (id === "pSlider") {
+            slider.value = value.toFixed(2);
+          } else {
+            slider.value = Math.round(value);
+          }
+          slider.dispatchEvent(new Event("input"));
+        });
+      });
 
-  // Optional: Werte von a und b anpassen, falls sie außerhalb des neuen Bereichs liegen
-  const aSlider = document.getElementById('aSlider');
-  const bSlider = document.getElementById('bSlider');
-  if (parseInt(aSlider.value) > n) aSlider.value = n;
-  if (parseInt(bSlider.value) > n) bSlider.value = n;
-}
-
-// Event-Handler verbinden
-document.getElementById("nSlider").addEventListener("input", function() {
-  updateSliderRanges();
-  updateFromInputs();
-});
-document.getElementById("pSlider").addEventListener("input", updateFromInputs);
-document.getElementById("aSlider").addEventListener("input", updateFromInputs);
-document.getElementById("bSlider").addEventListener("input", updateFromInputs);
-document.getElementById("autoY").addEventListener("change", updateFromInputs);
-
-// Mausradsteuerung für alle Histogramm-Slider aktivieren
-['nSlider', 'pSlider', 'aSlider', 'bSlider'].forEach(id => {
-  const slider = document.getElementById(id);
-  slider.addEventListener('wheel', function(e) {
-    e.preventDefault();
-    const step = parseFloat(slider.step) || 1;
-    let value = parseFloat(slider.value);
-    if (e.deltaY < 0) {
-      value = Math.min(parseFloat(slider.max), value + step);
-    } else {
-      value = Math.max(parseFloat(slider.min), value - step);
-    }
-    // Für Ganzzahl-Slider (n, a, b) runde auf int, für p auf 2 Nachkommastellen
-    if (id === 'pSlider') {
-      slider.value = value.toFixed(2);
-    } else {
-      slider.value = Math.round(value);
-    }
-    slider.dispatchEvent(new Event('input'));
-  });
-});
-
-// Initiales Diagramm
-updateSliderRanges();
-updateFromInputs();
-</script>
-</body>
+      // Initiales Diagramm
+      updateSliderRanges();
+      updateFromInputs();
+    </script>
+  </body>
 </html>

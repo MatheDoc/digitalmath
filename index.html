@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Entdecke allen Themen der Mathematik: interaktiv und kostenlos."
+    />
+    <meta name="author" content="Dr. Sven Führing" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Entdecke allen Themen der Mathematik: interaktiv und kostenlos.">
-  <meta name="author" content="Dr. Sven Führing">
-  <meta name='robots' content='index,follow'>    
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>MatheChecks</title>
 
-  <title>MatheChecks</title>
+    <!-- Einbinden der externen CSS-Datei -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
-  <!-- Einbinden der externen CSS-Datei -->
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Eigene JS-Dateien-->
+    <script src="js/indexInit.js"></script>
+  </head>
 
-  <!-- Eigene JS-Dateien-->
-  <script src="js/indexInit.js"></script>
-</head>
-
-<body>
-  <header>
-    <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
+  <body>
+    <header>
+      <a
+        href="https://mathedoc.github.io/digitalmath/index"
+        class="link-homepage"
+        title="home"
+      >
         <h1>MatheChecks</h1>
-    </a>    
-  </header>
-  
-  <main>
+      </a>
+    </header>
 
-  <h2>Schnellzugriff</h2>
-    <div class="container" style="gap: 20px;">
-      <a href="https://www.mathechecks.de/kompetenzliste.html" class="navi">Kompetenzliste</a>
-      <a href="https://www.mathechecks.de/Glücksrad.html" class="navi">Glücksrad</a>
-      <a href="https://www.mathechecks.de/baumdiagramme-vierfeldertafeln.html" class="navi stochastik">Baumdiagramme und Vierfeldertafeln</a>
-      <a href="https://www.mathechecks.de/binomialverteillung-histogramme.html" class="navi stochastik">Histogramme der Binomialverteilung</a>
-    </div>
-  
+    <main>
+      <h2>Schnellzugriff</h2>
+      <div class="container" style="gap: 20px">
+        <a href="https://www.mathechecks.de/kompetenzliste.html" class="navi"
+          >Kompetenzliste</a
+        >
+        <a href="https://www.mathechecks.de/Glücksrad.html" class="navi"
+          >Glücksrad</a
+        >
+        <a
+          href="https://www.mathechecks.de/baumdiagramme-vierfeldertafeln.html"
+          class="navi stochastik"
+          >Baumdiagramme und Vierfeldertafeln</a
+        >
+        <a
+          href="https://www.mathechecks.de/binomialverteillung-histogramme.html"
+          class="navi stochastik"
+          >Histogramme der Binomialverteilung</a
+        >
+      </div>
 
-  <h2>Lernbereiche</h2>
-  <div class="container" style="gap: 20px;">
-    <!--
+      <h2>Lernbereiche</h2>
+      <div class="container" style="gap: 20px">
+        <!--
     <a class="nav-block analysis">Lineare Funktionen (Basics)</a>
     <a class="nav-block analysis">Lineare Funktionen (ökonomisch)</a>
     <a class="nav-block analysis">Quadratische Funktionen (Basics)</a>
@@ -47,11 +66,11 @@
     <a class="nav-block analysis">Kubische Funktionen (Basics)</a>
     <a class="nav-block analysis">Kubische Funktionen (ökonomisch)</a>
     -->
-    <a class="nav-block stochastik">Stochastik (Basics)</a>
-    <a class="nav-block stochastik">Mehrstufige Zufallsexperimente</a>
-    <a class="nav-block stochastik">Bedingte Wahrscheinlichkeiten</a>
-    <a class="nav-block stochastik">Zufallsgrößen</a>
-    <!--<a class="nav-block stochastik">Binomialverteilung</a>
+        <a class="nav-block stochastik">Stochastik (Basics)</a>
+        <a class="nav-block stochastik">Mehrstufige Zufallsexperimente</a>
+        <a class="nav-block stochastik">Bedingte Wahrscheinlichkeiten</a>
+        <a class="nav-block stochastik">Zufallsgrößen</a>
+        <!--<a class="nav-block stochastik">Binomialverteilung</a>
     <a class="nav-block stochastik">Hypothesentests</a>
     <a class="nav-block linearealgebra">Mehrstufige Produktionsprozesse</a>
     <a class="nav-block weiteres">Prozentrechnung (Basics)</a>
@@ -60,14 +79,23 @@
     <a class="nav-block finanzmathe">Rentenrechnung</a>
     <a class="nav-block finanzmathe">Kapitalaufbau und -abbau</a>
   -->
-    </div>
-  </main>
+      </div>
+    </main>
 
-  <footer>
-    <p>&copy; 2025 Dr. Sven Führing<i class="fas fa-envelope icon mail-icon" title="Kontakt" onclick="window.location.href='mailto:mathechecks@gmail.com'"></i>. 
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0</a>
-    </p>
-  </footer>
-
-</body>
+    <footer>
+      <p>
+        &copy; 2025 Dr. Sven Führing<i
+          class="fas fa-envelope icon mail-icon"
+          title="Kontakt"
+          onclick="window.location.href='mailto:mathechecks@gmail.com'"
+        ></i
+        >.
+        <a
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de"
+          target="_blank"
+          >CC BY-NC-SA 4.0</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
