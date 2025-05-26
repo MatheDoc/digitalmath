@@ -240,11 +240,13 @@ function replaceMultipleChoiceWithDropdown(htmlContent) {
       .join("");
 
     const selectHtml = `
+            <div style="margin-top: 10px;">
             <select id="answer${questionId}" class="mch" aria-label="Multiple Choice Frage ${questionId}" data-correct-answer="${correctAnswer}">
                 ${optionsHtml}
             </select>
             <i class="fas fa-paper-plane check-icon" onclick="checkMultipleChoiceAnswer(${questionId})"></i>
             <span id="feedback${questionId}"></span>
+            </div>
         `;
 
     result.push(pre + selectHtml);

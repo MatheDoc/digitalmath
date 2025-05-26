@@ -110,7 +110,7 @@ figure {
 }
 
 .symbolleiste {
-  font-size: 1em;
+  font-size: 0.9em;
   border: 1px solid var(--hauptfarbe);
   border-radius: 25px;
   width: 230px;
@@ -205,6 +205,20 @@ input[type="text"]::-webkit-inner-spin-button,
 input[type="text"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+select.mch + .select2-container .select2-selection--single {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-top: 0px; /* wird inline gesetzt*/
+  margin-bottom: 0px;
+  min-width: 85px;
+  max-width: 100%;
+}
+
+.select2-container {
+  max-width: 90%;
 }
 
 /* Quiz */
@@ -368,21 +382,6 @@ footer {
   border-radius: 20px;
   height: 40px;
   border: 1px solid #7e7e7e;
-}
-
-select.mch + .select2-container .select2-selection--single {
-  display: flex;
-  align-items: center;
-  height: 40px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  width: 1000px;
-  min-width: 85px;
-  max-width: 100%;
-}
-
-.select2-container {
-  max-width: 90%;
 }
 
 .icon {
