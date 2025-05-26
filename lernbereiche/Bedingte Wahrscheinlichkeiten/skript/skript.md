@@ -12,9 +12,7 @@ Das Baumdiagramm habe die Gestalt
 Hat ein Schüler gelernt, so besteht er mit einer Wahrscheinlichkeit von 90&nbsp;\% die Prüfung, hat er nicht gelernt, besteht er die Prüfung nur mit einer Wahrscheinlichkeit von 20&nbsp;\%. Die Wahrscheinlichkeit, dass ein Schüler die Prüfung besteht, hängt also davon ab, ob er gelernt hat. Mit anderen Worten: Die Wahrscheinlichkeit für $B$ (und auch für $\overline{B}$) hängt davon ab, ob $A$ eingetreten ist (oder nicht). Diese Wahrscheinlichkeiten der zweiten Stufe des Baumdiagramms heißen **bedingte Wahrscheinlichkeiten**, da für sie eine Bedingung $-$ hier $A$ oder $\overline{A}$ $-$ vorliegt.
 Wir verwenden die folgenden Bezeichnungen
 
-<figure>
-  <img src="BedingteWkt.png">
-</figure>
+<div id="notationen" class="diagramm"></div>
 
 #### Interpretation
 
@@ -27,7 +25,7 @@ Es ergeben sich die folgenden Interpretationen:
 
 #### Berechnung
 
-Mit Hilfe der Pfadregeln folgt unmittelbar
+Die Pfadmultiplikationsregel besagt, dass $P(A)\cdot P_A(B) = P(A\cap B)$. Damit folgt unmittelbar
 $$
 P_A(B)=\frac{P(A\cap B)}{P(A)}.
 $$
