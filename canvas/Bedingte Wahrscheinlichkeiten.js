@@ -10,12 +10,12 @@ ladeIframe(
 
 ladeIframe(
   "quiz-gemischt-bedingt",
-  "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BayesUndSylvester_ohneGegUnabh.json&/sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BayesUndSylvester_mitGegUnabh.json"
+  "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BayesUndSylvester_ohneGegUnabh.json&/sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BayesUndSylvester_mitGegUnabh.json&single=true"
 );
 
 ladeIframe(
   "quiz-vft-aufstellen",
-  "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var1keineInfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var2keineInfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var3keineInfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var4keineInfoUnabh.json"
+  "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var1keineInfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var2keineInfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var3keineInfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var4keineInfoUnabh.json&single=true"
 );
 
 ladeIframe(
@@ -25,7 +25,7 @@ ladeIframe(
 
 ladeIframe(
   "quiz-bm-aufstellen-su",
-  "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BaumdiagrammErstellen_Var1InfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BaumdiagrammErstellen_Var2InfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BaumdiagrammErstellen_Var3InfoUnabh.json"
+  "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BaumdiagrammErstellen_Var1InfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BaumdiagrammErstellen_Var2InfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_BaumdiagrammErstellen_Var3InfoUnabh.json&single=true"
 );
 
 ladeIframe(
@@ -35,7 +35,7 @@ ladeIframe(
 
 ladeIframe(
   "quiz-vft-aufstellen-su",
-  "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var1InfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var2InfoUnabh.json"
+  "/quiz.html?sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var1InfoUnabh.json&sammlung=Stochastik_Allgemein_Methoden%20der%20Wahrscheinlichkeitsrechnung_VierFelderTafelErstellen_Var2InfoUnabh.json&single=true"
 );
 
 ladeIframe(
