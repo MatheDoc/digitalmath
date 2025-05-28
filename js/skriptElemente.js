@@ -2,7 +2,7 @@ function resizeIframe(iframe) {
   try {
     const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
     const height = iframeDoc.body.scrollHeight;
-    iframe.style.height = height + 20 + "px";
+    iframe.style.height = height + 30 + "px";
     iframe.style.width = "100%";
     iframe.style.border = "none";
   } catch (e) {

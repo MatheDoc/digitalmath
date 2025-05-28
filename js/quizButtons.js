@@ -1,185 +1,224 @@
- // alle richtigen Antworten anzeigen
- function showAllAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        const questionId = input.id.replace('answer', '');
-        const correctAnswer = input.getAttribute('data-correct-answer');
-        const feedbackElement = document.getElementById(`feedback${questionId}`);
+// alle richtigen Antworten anzeigen
+function showAllAnswers(iconElement) {
+  // Finde das umgebende Aufgaben-DIV
+  const aufgabenDiv = iconElement.closest(".aufgabe");
+  if (!aufgabenDiv) return;
+
+  // Finde alle relevanten Inputs innerhalb dieses DIVs
+  aufgabenDiv
+    .querySelectorAll('input[type="text"], select.mch')
+    .forEach((input) => {
+      const questionId = input.id.replace("answer", "");
+      const correctAnswer = input.getAttribute("data-correct-answer");
+      const feedbackElement = document.getElementById(`feedback${questionId}`);
+      if (feedbackElement) {
         feedbackElement.innerHTML = correctAnswer;
         feedbackElement.style.color = "blue";
         feedbackElement.style.opacity = 1;
-        input.style.display = "none";
+      }
+      input.style.display = "none";
     });
 
-    document.querySelectorAll('select.mch').forEach(select => {
-        const questionId = select.id.replace('answer', '');
-        const correctAnswer = select.getAttribute('data-correct-answer');
-        const feedbackElement = document.getElementById(`feedback${questionId}`);
-        feedbackElement.innerHTML = correctAnswer;
-        feedbackElement.style.color = "blue";
-        feedbackElement.style.opacity = 1;  
-        MathJax.typesetPromise([feedbackElement]);
-        
-        // Select2-Container ausblenden
-        const select2Container = select.nextElementSibling; // Nächstes Geschwisterelement nach select
-        if (select2Container && select2Container.classList.contains('select2')) {
-            select2Container.style.display = "none";
-        }
+  document.querySelectorAll("select.mch").forEach((select) => {
+    const questionId = select.id.replace("answer", "");
+    const correctAnswer = select.getAttribute("data-correct-answer");
+    const feedbackElement = document.getElementById(`feedback${questionId}`);
+    feedbackElement.innerHTML = correctAnswer;
+    feedbackElement.style.color = "blue";
+    feedbackElement.style.opacity = 1;
+    MathJax.typesetPromise([feedbackElement]);
 
-    });
+    // Select2-Container ausblenden
+    const select2Container = select.nextElementSibling; // Nächstes Geschwisterelement nach select
+    if (select2Container && select2Container.classList.contains("select2")) {
+      select2Container.style.display = "none";
+    }
+  });
 
-    document.querySelectorAll('.check-icon').forEach(icon => {
-        icon.style.display = "none";
-    });
+  document.querySelectorAll(".check-icon").forEach((icon) => {
+    icon.style.display = "none";
+  });
 }
 
+// alle Antworten ausblenden
+function hideAllAnswers(iconElement) {
+  const aufgabenDiv = iconElement.closest(".aufgabe");
+  if (!aufgabenDiv) return;
 
- // alle Antworten ausblenden
-function hideAllAnswers() {
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        const questionId = input.id.replace('answer', '');
-        const feedbackElement = document.getElementById(`feedback${questionId}`);
-        feedbackElement.innerHTML = ''
-        input.style.display = "inline";
+  aufgabenDiv.querySelectorAll('input[type="text"]').forEach((input) => {
+    const questionId = input.id.replace("answer", "");
+    const feedbackElement = document.getElementById(`feedback${questionId}`);
+    feedbackElement.innerHTML = "";
+    input.style.display = "inline";
+  });
+
+  aufgabenDiv.querySelectorAll("select.mch").forEach((select) => {
+    const questionId = select.id.replace("answer", "");
+    const feedbackElement = document.getElementById(`feedback${questionId}`);
+    feedbackElement.innerHTML = "";
+    $(select).select2("destroy");
+    select.style.display = "inline";
+
+    $(select).select2({
+      placeholder: "Antwort",
+      minimumResultsForSearch: Infinity,
+      width: "auto",
+      dropdownAutoWidth: true,
+      templateResult: renderWithMathJax,
+      templateSelection: renderWithMathJax,
     });
 
-    // Select2 Dropdowns zurücksetzen und erneut initialisieren
-    document.querySelectorAll('select.mch').forEach(select => {
-        const questionId = select.id.replace('answer', '');
-        const feedbackElement = document.getElementById(`feedback${questionId}`);
-        feedbackElement.innerHTML = ''; // Feedback zurücksetzen
+    adjustSelect2Width(select);
+  });
 
-
-        // Entferne Select2 und setze Dropdown auf den Originalzustand
-        $(select).select2('destroy'); // Select2-Widget entfernen
-        select.style.display = "inline"; // Dropdown sichtbar machen
-
-        // Select2 erneut initialisieren
-        $(select).select2({
-            placeholder: "Antwort",
-            minimumResultsForSearch: Infinity,
-            width: 'auto',
-            dropdownAutoWidth: true,
-            templateResult: renderWithMathJax,
-            templateSelection: renderWithMathJax
-        });
-
-        // Breite anpassen
-        adjustSelect2Width(select);
-    });
-
-    document.querySelectorAll('.check-icon').forEach(icon => {
-        icon.style.display = "inline";
-    });
+  aufgabenDiv.querySelectorAll(".check-icon").forEach((icon) => {
+    icon.style.display = "inline";
+  });
 }
-
 
 // pdf Export
-function printToPDF() {
-window.print();
+function printSingleTask(iconElement) {
+  const aufgabenDiv = iconElement.closest(".aufgabe");
+  if (!aufgabenDiv) return;
+
+  const originalContent = document.body.innerHTML;
+  const aufgabeContent = aufgabenDiv.outerHTML;
+
+  document.body.innerHTML = aufgabeContent;
+  window.print();
+  document.body.innerHTML = originalContent;
+
+  // Optionale Nachbearbeitung wie MathJax neu setzen
+  MathJax.typesetPromise();
 }
 
-// neu laden
-function reload(){
+// neu laden: Wenn der "single" Parameter vorhanden ist, wird die Seite neu geladen, damit wieder alle Aufgaben zur Verfügung stehen.
+function reloadSingleTask(iconElement) {
+  const params = new URLSearchParams(window.location.search);
+  const single = params.get("single");
+  if (single) {
     window.location.reload();
+  } else {
+    // Wenn kein "single" Parameter vorhanden ist, aktive Sammlung neuladen
+    const aufgabeDiv = iconElement.closest(".aufgabe");
+    if (aufgabeDiv) {
+      aufgabeDiv.style.backgroundColor = "#fff";
+      const id = aufgabeDiv.id; // z.B. "aufgabe-2"
+      const sammlung = aufgabeDiv.getAttribute("data-sammlung");
+      zeigeZufallsfrageAusSammlung(sammlung, id);
+    }
+  }
 }
 
 function checkNumericalAnswer(questionId, correctAnswer, tolerance) {
-    let userAnswerString = document.getElementById(`answer${questionId}`).value;
-    let sanitizedUserAnswerString = userAnswerString.replace(/^=/, '').replace(',', '.').trim();
-    const userAnswer = parseFloat(sanitizedUserAnswerString);
-    const feedbackElement = document.getElementById(`feedback${questionId}`);
+  let userAnswerString = document.getElementById(`answer${questionId}`).value;
+  let sanitizedUserAnswerString = userAnswerString
+    .replace(/^=/, "")
+    .replace(",", ".")
+    .trim();
+  const userAnswer = parseFloat(sanitizedUserAnswerString);
+  const feedbackElement = document.getElementById(`feedback${questionId}`);
 
-    if (!isNaN(userAnswer)) {
-        if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
-            feedbackElement.innerHTML = userAnswer + ' ist richtig!';
-            if (userAnswer !== correctAnswer) { 
-                feedbackElement.innerHTML += ' (Die genauere Antwort ist ' + correctAnswer +'.)';
-            }
-            feedbackElement.style.color = "green";
-            return true
-        } else {
-            feedbackElement.innerHTML = userAnswer + ' ist falsch. Die richtige Antwort ist ' + correctAnswer +'.';
-            feedbackElement.style.color = "red";
-            document.body.style.backgroundColor = "#fdbdbd";
-        }
-        feedbackElement.style.transition = "opacity 0.5s ease-in-out";
-        feedbackElement.style.opacity = 1;
+  if (!isNaN(userAnswer)) {
+    if (Math.abs(userAnswer - correctAnswer) <= parseFloat(tolerance)) {
+      feedbackElement.innerHTML = userAnswer + " ist richtig!";
+      if (userAnswer !== correctAnswer) {
+        feedbackElement.innerHTML +=
+          " (Die genauere Antwort ist " + correctAnswer + ".)";
+      }
+      feedbackElement.style.color = "green";
+      return true;
     } else {
-        feedbackElement.textContent = "Ungültige Eingabe";
-        feedbackElement.style.color = "orange";
+      feedbackElement.innerHTML =
+        userAnswer +
+        " ist falsch. Die richtige Antwort ist " +
+        correctAnswer +
+        ".";
+      feedbackElement.style.color = "red";
+      //document.body.style.backgroundColor = "#fdbdbd";
     }
+    feedbackElement.style.transition = "opacity 0.5s ease-in-out";
+    feedbackElement.style.opacity = 1;
+  } else {
+    feedbackElement.textContent = "Ungültige Eingabe";
+    feedbackElement.style.color = "orange";
+  }
 }
 function checkMultipleChoiceAnswer(questionId) {
-    const select = document.getElementById(`answer${questionId}`);
-    const userAnswer = select.value;
-    const correctAnswer = select.dataset.correctAnswer;
+  const select = document.getElementById(`answer${questionId}`);
+  const userAnswer = select.value;
+  const correctAnswer = select.dataset.correctAnswer;
 
-    const feedback = document.getElementById(`feedback${questionId}`);
-    if (userAnswer === correctAnswer) {
-        feedback.textContent = "Richtig!";
-        feedback.style.color = "green";
-        return true
-    } else {
-        feedback.textContent = "Falsch. Die richtige Antwort ist: " + correctAnswer;
-        feedback.style.color = "red";
-        MathJax.typesetPromise([feedback]);
-    }
+  const feedback = document.getElementById(`feedback${questionId}`);
+  if (userAnswer === correctAnswer) {
+    feedback.textContent = "Richtig!";
+    feedback.style.color = "green";
+    return true;
+  } else {
+    feedback.textContent = "Falsch. Die richtige Antwort ist: " + correctAnswer;
+    feedback.style.color = "red";
+    //document.body.style.backgroundColor = "#fdbdbd";
+    MathJax.typesetPromise([feedback]);
+  }
 }
-
 
 //alle Fragen überprüfen
-function checkAllQuestions() {
-    let correctCount = 0; // Zähler für korrekte Antworten
-    let totalCount = 0; // Gesamtzahl der Fragen
+function checkAllQuestions(iconElement) {
+  const aufgabenDiv = iconElement.closest(".aufgabe");
+  if (!aufgabenDiv) return;
 
-    // Alle numerischen Antworten überprüfen
-    document.querySelectorAll('input[type="text"]').forEach(input => {
-        totalCount++; // Erhöhe die Gesamtzahl der Fragen
-        const questionId = input.id.replace('answer', '');
-        const correctAnswer = input.getAttribute('data-correct-answer');
-        const tolerance = input.getAttribute('data-tolerance');
-        // Überprüfe die Antwort und zähle korrekt
-        if (checkNumericalAnswer(questionId, parseFloat(correctAnswer), parseFloat(tolerance))) {
-            correctCount++; // Erhöhe den Zähler für korrekte Antworten
-        }
-    });
+  let correctCount = 0;
+  let totalCount = 0;
 
-    // Alle Multiple-Choice-Antworten überprüfen
-    document.querySelectorAll('select.mch').forEach(select => {
-        totalCount++;
-        const questionId = select.id.replace('answer', '');
+  aufgabenDiv.querySelectorAll('input[type="text"]').forEach((input) => {
+    totalCount++;
+    const questionId = input.id.replace("answer", "");
+    const correctAnswer = input.getAttribute("data-correct-answer");
+    const tolerance = input.getAttribute("data-tolerance");
 
-        if (checkMultipleChoiceAnswer(questionId)) {
-            correctCount++;
-        }
-    });
-
-    // Feedback
-    if (totalCount > 0) { // Sicherstellen, dass Fragen vorhanden sind
-        // Hintergrundfarbe basierend auf der Anzahl der richtigen Antworten ändern
-        if (correctCount === totalCount) {
-            document.body.classList.add('strobe-background');
-            document.body.style.backgroundColor = "#c4fcbf";
-        } else {
-            document.body.style.backgroundColor = "#fdbdbd"; // Nicht alle richtig
-        }
-    } else {
-        alert("Es wurden keine Fragen gefunden."); // Nachricht, wenn keine Fragen vorhanden sind
+    if (
+      checkNumericalAnswer(
+        questionId,
+        parseFloat(correctAnswer),
+        parseFloat(tolerance)
+      )
+    ) {
+      correctCount++;
     }
+  });
+
+  aufgabenDiv.querySelectorAll("select.mch").forEach((select) => {
+    totalCount++;
+    const questionId = select.id.replace("answer", "");
+    if (checkMultipleChoiceAnswer(questionId)) {
+      correctCount++;
+    }
+  });
+
+  if (totalCount > 0) {
+    if (correctCount === totalCount) {
+      aufgabenDiv.style.backgroundColor = "#c4fcbf";
+    } else {
+      aufgabenDiv.style.backgroundColor = "#fdbdbd";
+    }
+  } else {
+    alert("Es wurden keine Fragen gefunden.");
+  }
 }
 
-
 // check all icon ausblenden, falls Lösung angezeigt wurde
-function addCheckIconListeners() {
-document.querySelectorAll('.check-icon, .check-all-icon, .eye-icon').forEach(icon => {
-    icon.addEventListener('click', function() {
-        const checkAllIcon = document.querySelector('.check-all-icon'); 
+function addCheckIconListeners(container) {
+  container
+    .querySelectorAll(".check-icon, .check-all-icon, .eye-icon")
+    .forEach((icon) => {
+      icon.addEventListener("click", function () {
+        const checkAllIcon = container.querySelector(".check-all-icon");
         if (checkAllIcon) {
-            checkAllIcon.style.color = '#7e7e7e'
-            checkAllIcon.onclick = null
-            checkAllIcon.title = " "
-            checkAllIcon.style.cursor = "auto"
+          checkAllIcon.style.color = "#7e7e7e";
+          checkAllIcon.onclick = null;
+          checkAllIcon.title = " ";
+          checkAllIcon.style.cursor = "auto";
         }
+      });
     });
-});
 }
