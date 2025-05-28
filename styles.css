@@ -51,6 +51,11 @@ h4 {
   color: var(--hauptfarbe);
 }
 
+h4 {
+  margin-top: 0px;
+  font-size: 1em;
+}
+
 h5 {
   color: var(--hauptfarbe);
   font-size: 1em;
