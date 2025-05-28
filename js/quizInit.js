@@ -37,7 +37,12 @@ function zeigeZufallsfrageAusSammlung(sammlung, containerId = null) {
           aufgabeDiv.classList.add("aufgabe");
           document.getElementById("aufgaben").appendChild(aufgabeDiv);
         }
-        aufgabeDiv.innerHTML = ""; // Inhalt löschen, um neu zu befüllen
+        // Inhalt außer h3 tag löschen, um neu zu befüllen
+        Array.from(aufgabeDiv.children).forEach((child) => {
+          if (child.tagName !== "H3") {
+            aufgabeDiv.removeChild(child);
+          }
+        });
       } else {
         // neues Div anlegen
         aufgabeDiv = document.createElement("div");
