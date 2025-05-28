@@ -110,6 +110,20 @@ function reloadSingleTask(iconElement) {
   }
 }
 
+// Auf WhatsApp teilen
+function shareWhatsApp(iconElement) {
+  const aufgabenDiv = iconElement.closest(".aufgabe");
+  if (!aufgabenDiv) return;
+
+  const sammlung = aufgabenDiv.getAttribute("data-sammlung");
+  const url = `https://www.mathechecks.de/quiz.html?sammlung=${encodeURIComponent(
+    sammlung
+  )}`;
+  const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(url)}`;
+
+  window.open(whatsappUrl, "_blank");
+}
+
 function checkNumericalAnswer(questionId, correctAnswer, tolerance) {
   let userAnswerString = document.getElementById(`answer${questionId}`).value;
   let sanitizedUserAnswerString = userAnswerString

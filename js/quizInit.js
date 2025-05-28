@@ -163,6 +163,11 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
             title="Neue Aufgabe anzeigen"
             onclick="reloadSingleTask(this)"
           ></i>
+          <i
+            class="fab fa-whatsapp icon whatapp-icon"
+            title="Auf WhatsApp teilen"
+            onclick="shareWhatsApp(this)"
+          ></i>
         </div><p>${selectedTask.einleitung}</p></div>`; // Korrekt eingebundener Inhalt
 
     // Fragen und Antworten einfügen
