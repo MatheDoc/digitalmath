@@ -54,6 +54,7 @@ h4 {
 h4 {
   margin-top: 0px;
   font-size: 1em;
+  
 }
 
 h5 {
@@ -748,7 +749,7 @@ a.link-homepage:hover {
 
 @media print {
   @page {
-    margin: 2cm;
+    margin: 1cm;
   }
 
   body {
@@ -807,6 +808,7 @@ a.link-homepage:hover {
   }
 
   h1,
+  h2,
   nav,
   footer,
   .symbolleiste,
@@ -849,7 +851,7 @@ a.link-homepage:hover {
   }
 
   img {
-    max-width: 50%;
+    max-width: 50% !important;
   }
 
   li .check-icon {

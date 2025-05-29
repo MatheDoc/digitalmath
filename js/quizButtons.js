@@ -116,9 +116,10 @@ function shareWhatsApp(iconElement) {
   if (!aufgabenDiv) return;
 
   const sammlung = aufgabenDiv.getAttribute("data-sammlung");
-  const url = `https://www.mathechecks.de/quiz.html?sammlung=${encodeURIComponent(
-    sammlung
-  )}`;
+  const url =
+    `https://www.mathechecks.de/quiz.html?sammlung=${encodeURIComponent(
+      sammlung
+    )}` + `&exam=yes`;
   const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(url)}`;
 
   window.open(whatsappUrl, "_blank");
