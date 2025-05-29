@@ -54,7 +54,6 @@ h4 {
 h4 {
   margin-top: 0px;
   font-size: 1em;
-  
 }
 
 h5 {
@@ -229,6 +228,11 @@ select.mch + .select2-container .select2-selection--single {
 }
 
 /* Quiz */
+
+.in-iframe main {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .quiz h3 {
   text-align: center;

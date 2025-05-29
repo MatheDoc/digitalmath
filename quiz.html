@@ -75,5 +75,11 @@
 
     <script src="js/quizInit.js"></script>
     <script src="js/quizButtons.js"></script>
+    <script>
+      if (window.self !== window.top) {
+        // Seite ist im iframe geladen
+        document.documentElement.classList.add("in-iframe");
+      }
+    </script>
   </body>
 </html>
