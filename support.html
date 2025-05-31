@@ -64,6 +64,25 @@
         border-radius: 20px;
         margin-bottom: 20px;
       }
+
+      #video-container.small {
+        position: fixed;
+        width: 200px !important;
+        height: 112px; /* entspricht 16:9 bei 200px Breite */
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      #video-container.small video {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+        border-radius: 8px;
+        border: none;
+      }
     </style>
   </head>
 
@@ -81,20 +100,14 @@
 
     <main>
       <h4 id="quiz-title"></h4>
-      <div style="text-align: center; position: sticky; top: 0">
-        <!--<img src="alex.png" alt="Alex" />-->
-        <!--<iframe
-          width="500"
-          height="500"
-          style="border-radius: 10px"
-          src="https://www.youtube.com/embed/83n4qp7nz9M?si=FskAVCqZ7ezGG7qP&rel=0&modestbranding=1"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>-->
-        <video controls width="400" preload="metadata" poster="alex.png">
+      <div id="video-container" style="text-align: center">
+        <video
+          id="myVideo"
+          controls
+          width="400"
+          preload="metadata"
+          poster="alex.png"
+        >
           <source src="Videotest.mp4" type="video/mp4" />
           Ihr Browser unterstützt das Video-Tag nicht.
         </video>
@@ -110,6 +123,20 @@
         // Seite ist im iframe geladen
         document.documentElement.classList.add("in-iframe");
       }
+
+      window.addEventListener("scroll", function () {
+        const videoContainer = document.getElementById("video-container");
+        const video = document.getElementById("myVideo");
+
+        const rect = video.getBoundingClientRect();
+
+        // Wenn das Video aus dem sichtbaren Bereich nach oben scrollt
+        if (rect.bottom < 0) {
+          videoContainer.classList.add("small");
+        } else {
+          videoContainer.classList.remove("small");
+        }
+      });
     </script>
   </body>
 </html>
