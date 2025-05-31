@@ -1,74 +1,85 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Skript">
-  <meta name="author" content="Dr. Sven Führing">
-  <meta name='robots' content='index,follow'>    
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
- 
-  <title>MatheChecks</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Skript" />
+    <meta name="author" content="Dr. Sven Führing" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-  <!-- Einbinden der externen CSS-Datei -->
-  <link rel="stylesheet" href="styles.css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>MatheChecks</title>
 
-  <!-- charts-->
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <!--<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
-  <!-- eigene Diagrammvorlagen-->
- <script src="js/skriptElemente.js"></script>
+    <!-- Einbinden der externen CSS-Datei -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
-  <!-- 1. marked.js -->
-  <!-- neue Version, aber Probleme bei automatisch generierten ids
+    <!-- charts-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- eigene Diagrammvorlagen-->
+    <script src="js/skriptElemente.js"></script>
+
+    <!-- 1. marked.js -->
+    <!-- neue Version, aber Probleme bei automatisch generierten ids
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
 -->
-  <script src="https://cdn.jsdelivr.net/npm/marked@2.1.3/marked.min.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/marked@2.1.3/marked.min.js"
+      defer
+    ></script>
 
-  <!-- 2. MathJax‑Konfiguration -->
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$']],
-        displayMath: [['$$', '$$']]
-      },
-      startup: {
-        typeset: false,
-        ready: () => {
-          MathJax.startup.defaultReady();
-          document.dispatchEvent(new Event('mathjax-ready'));
-        }
-      }
-    };
-  </script>
+    <!-- 2. MathJax‑Konfiguration -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["$", "$"]],
+          displayMath: [["$$", "$$"]],
+        },
+        startup: {
+          typeset: false,
+          ready: () => {
+            MathJax.startup.defaultReady();
+            document.dispatchEvent(new Event("mathjax-ready"));
+          },
+        },
+      };
+    </script>
 
-  <!-- 3. MathJax‑Core (Defer für richtige Reihenfolge) -->
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
-    
-</head>
+    <!-- 3. MathJax‑Core (Defer für richtige Reihenfolge) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+      defer
+    ></script>
+  </head>
 
-<body class="script">
-  <header class="web-header">
-    <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
-      <h1>MatheChecks</h1>
-    </a>
-    <h2></h2>
-  </header>
-  
-  <header class="pdf-header">
-    <div class="left-text">Mein Haupttitel</div>
-    <div class="center-text">Untertitel der Arbeit</div>
-    <div class="right-text">Seite <span class="pageNumber"></span> von <span class="totalPages"></span></div>
-  </header>
+  <body class="script">
+    <header class="web-header">
+      <a
+        href="https://mathedoc.github.io/digitalmath/index"
+        class="link-homepage"
+        title="home"
+      >
+        <h1>MatheChecks</h1>
+      </a>
+      <h2></h2>
+    </header>
 
-  <main id="content">Lade Inhalt…</main>
+    <header class="pdf-header">
+      <div class="left-text">Mein Haupttitel</div>
+      <div class="center-text">Untertitel der Arbeit</div>
+      <div class="right-text">
+        Seite <span class="pageNumber"></span> von
+        <span class="totalPages"></span>
+      </div>
+    </header>
 
+    <main id="content">Lade Inhalt…</main>
 
-  <script src="/js/skriptInit.js"></script>
+    <script src="/js/skriptInit.js"></script>
 
-<script>
-
-</script>
-</body>
+    <script></script>
+  </body>
 </html>

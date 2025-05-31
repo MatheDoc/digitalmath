@@ -8,11 +8,11 @@ Eine **Zufallsgröße** $X$ ordnet jedem Ergebnis eines Zufallsexperiment eine r
 
 Ein Biathlet A absolviert eine Schießeinheit mit fünf Schüssen auf Zielscheiben. Die Zufallsgröße $X$ beschreibt die Anzahl der Fehlschüsse. Aus langfristigen Beobachtungen ergeben sich die folgenden Wahrscheinlichkeiten für die möglichen Werte von $X$:
 
-| Fehlschüsse $x_i$  | $0$    | $1$    | $2$    | $3$    | $4$    | $5$    |
-|-----------------------|------|------|------|------|------|------|
+| Fehlschüsse $x_i$ | $0$      | $1$      | $2$      | $3$      | $4$      | $5$ |
+| ----------------- | -------- | -------- | -------- | -------- | -------- | --- |
 | $P(X = x_i)$      | $0{,}03$ | $0{,}33$ | $0{,}57$ | $0{,}03$ | $0{,}04$ | $0$ |
 
-Beispielsweise bedeutet $P(X=2)=0{,}19$, dass die Wahrscheinlichkeit, mit der Biathlet A genau zweimal das Ziel verfehlt, 19&nbsp;\%  beträgt. Das zugehörige Histogramm hat folgende Darstellung:
+Beispielsweise bedeutet $P(X=2)=0{,}19$, dass die Wahrscheinlichkeit, mit der Biathlet A genau zweimal das Ziel verfehlt, 19&nbsp;\% beträgt. Das zugehörige Histogramm hat folgende Darstellung:
 
 <div id="histogramm-biathlet-A" class="diagramm"></div>
 
@@ -20,8 +20,8 @@ Beispielsweise bedeutet $P(X=2)=0{,}19$, dass die Wahrscheinlichkeit, mit der Bi
 
 Die Wahrscheinlichkeitsverteilung sowie das Histogramm eines weiteren Biathleten B könnten wie folgt aussehen:
 
-| Fehlschüsse $x_i$  | $0$    | $1$    | $2$    | $3$    | $4$    | $5$    |
-|-----------------------|------|------|------|------|------|------|
+| Fehlschüsse $x_i$ | $0$      | $1$      | $2$      | $3$      | $4$      | $5$      |
+| ----------------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | $P(X = x_i)$      | $0{,}37$ | $0{,}16$ | $0{,}18$ | $0{,}08$ | $0{,}09$ | $0{,}12$ |
 
 <div id="histogramm-biathlet-B" class="diagramm"></div>
@@ -35,8 +35,8 @@ Wie lässt sich nun feststellen, welcher Biathlet der treffsicherere ist? Um die
 Der Erwartungswert einer (diskreten) Zufallsgröße $X$ ergibt sich aus der Summe der Produkte der einzelnen Werte $x_i$ mit ihren jeweiligen Wahrscheinlichkeiten $P(X = x_i)$:
 
 \begin{align*}
-E(X) &= x_1 \cdot P(X = x_1) + x_2 \cdot P(X = x_2) + \ldots + x_n \cdot P(X = x_n) \\\\
-     &= \sum_{i=1}^{n} x_i \cdot P(X = x_i)
+E(X) &= x*1 \cdot P(X = x_1) + x_2 \cdot P(X = x_2) + \ldots + x_n \cdot P(X = x_n) \\\\
+&= \sum*{i=1}^{n} x_i \cdot P(X = x_i)
 \end{align*}
 
 In der Statistik, in der Wahrscheinlichkeiten häufig als relative Häufigkeiten interpretiert werden, entspricht der Erwartungswert dem **gewichteten arithmetischen Mittel**. Das bedeutet: Häufigere (wahrscheinlichere) Werte fließen stärker in den Mittelwert ein als seltenere.
@@ -63,6 +63,8 @@ Der Erwartungswert für Biathlet B beträgt also $1{,}72$. Auch Biathlet B verfe
 
 Wären die Erwartungswerte der beiden Biathleten unterschiedlich gewesen, hätten wir eine fundierte Entscheidungsgrundlage gehabt, um zu entscheiden, welcher der treffsicherere Biathlet ist.
 
+##### Musteraufgabe: Bestimmung des Erwartungswerts
+
 ##### Übung: Bestimmung des Erwartungswerts
 
 <div id="quiz-erwartungswert-allgemein"></div>
@@ -74,8 +76,8 @@ Wie lassen sich die Werte der Biathleten noch unterscheiden? Im Mittel erwarten 
 Wir suchen nun eine Kennzahl, mit der wir genau messen können, wie stark eine Zufallsgröße von ihrem Erwartungswert abweicht. Die grundlegende Idee ist es, die Summe der quadrierten, mit den Wahrscheinlichkeiten gewichteten Abweichungen vom Erwartungswert zu betrachten und anschließend die Wurzel zu ziehen. Diese Kennzahl nennen wir **Standardabweichung** $\sigma(X)$ (lies: Sigma von X):
 
 \begin{align*}
-\sigma(X)  &= \sqrt{(x_1-E(X))^2 \cdot P(X = x_1) + (x_2-E(X))^2 \cdot P(X = x_2) + \ldots + (x_n-E(X))^2 \cdot P(X = x_n)} \\\\\\\\
-           &=  \sqrt{\sum_{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
+\sigma(X) &= \sqrt{(x*1-E(X))^2 \cdot P(X = x_1) + (x_2-E(X))^2 \cdot P(X = x_2) + \ldots + (x_n-E(X))^2 \cdot P(X = x_n)} \\\\\\\\
+&= \sqrt{\sum*{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
 \end{align*}
 
 Auch der Ausdruck unter der Wurzel eignet sich, die Schwankungen zu messen. Er wird **Varianz** genannt und mit $\sigma^2$ bezeichnet.
@@ -118,6 +120,7 @@ Auch hier beträgt der Erwartungswert $E(X) = 1{,}72$. Wir berechnen zunächst d
 \end{align*}
 
 Nun ziehen wir die Wurzel, um die Standardabweichung zu berechnen:
+
 $$
 \sigma(X) = \sqrt{3{,}0825} \approx 1{,}75
 $$
@@ -156,8 +159,8 @@ Welcher Biathlet ist nun der "Bessere"? Diese Frage lässt sich nicht pauschal b
 
 Die Entscheidung, welcher Biathlet der "Bessere" ist, hängt letztlich von der Präferenz des Entscheiders ab. Biathlet A ist konstanter, während Biathlet B mehr Schwankungen aufweist. Dies könnte in verschiedenen Kontexten unterschiedliche Bedeutung haben:
 
-* In einem Qualifikationslauf, bei dem es vor allem darauf ankommt, eine bestimmte Zeit zu erreichen oder eine konstante Leistung zu zeigen, könnte Biathlet A bevorzugt werden, da er weniger Risiken eingeht und seine Fehlschüsse stabiler sind.
-* In einem Finalrennen, bei dem der erste Platz das Ziel ist und möglicherweise ein höheres Risiko erforderlich ist, könnte Biathlet B die bessere Wahl sein. Wenn die Schwankungen in die richtige Richtung ausschlagen, ist der erste Platz wahrscheinlicher.
+- In einem Qualifikationslauf, bei dem es vor allem darauf ankommt, eine bestimmte Zeit zu erreichen oder eine konstante Leistung zu zeigen, könnte Biathlet A bevorzugt werden, da er weniger Risiken eingeht und seine Fehlschüsse stabiler sind.
+- In einem Finalrennen, bei dem der erste Platz das Ziel ist und möglicherweise ein höheres Risiko erforderlich ist, könnte Biathlet B die bessere Wahl sein. Wenn die Schwankungen in die richtige Richtung ausschlagen, ist der erste Platz wahrscheinlicher.
 
 Letztlich hängt die Entscheidung davon ab, ob der Fokus auf Konstanz oder auf der Fähigkeit liegt, auch in schwierigen Situationen hohe Leistungen zu bringen.
 
@@ -188,7 +191,7 @@ Wir betrachten die Standardabweichng zunächst ohne den Erwartungswert als eine 
 $$
 f(x)=\sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - x)^2}
 $$
-Durch eine REchnung lässt sich zeigen, dass $f$ für 
+Durch eine REchnung lässt sich zeigen, dass $f$ für
 -->
 
 ### Vervollständigung von Wahrscheinlichkeitsverteilungen
@@ -199,16 +202,16 @@ Häufig stehen wir vor der Aufgabe, eine teilweise gegebene Verteilung zu vervol
 
 Die Wahrscheinlichkeitsverteilung lautet:
 
-| $x_i$         | $-4$     | $-2$     | $-1$     | $2$      | $5$      |
-|---------------|----------|----------|----------|----------|----------|
-| $P(X = x_i)$  | $0{,}07$ | $0{,}06$ |      | $0{,}41$ | $0{,}44$ |
+| $x_i$        | $-4$     | $-2$     | $-1$ | $2$      | $5$      |
+| ------------ | -------- | -------- | ---- | -------- | -------- |
+| $P(X = x_i)$ | $0{,}07$ | $0{,}06$ |      | $0{,}41$ | $0{,}44$ |
 
 Hier kann leicht der fehlende Wert berechnet werden, da die Summe der Wahrscheinlichkeiten 1 ergeben muss. Daher ist
 
 \begin{align*}
 P(X = -1) & = 1 - (0,07 + 0,06 + 0,41 + 0,44) \\\\
-          & = 1 - 0,98 \\\\
-          & = 0,02
+& = 1 - 0,98 \\\\
+& = 0,02
 \end{align*}
 
 #### Übung: Fehlende Wahrscheinlichkeit
@@ -219,9 +222,9 @@ P(X = -1) & = 1 - (0,07 + 0,06 + 0,41 + 0,44) \\\\
 
 Die Wahrscheinlichkeitsverteilung lautet:
 
-| $x_i$         | $-5$     | $x$     | $0$     | $1$      | $4$      |
-|---------------|----------|----------|----------|----------|----------|
-| $P(X = x_i)$  | $0{,}05$ | $0{,}39$ |  $0{,}37$    | $0{,}09$ | $0{,}1$ |
+| $x_i$        | $-5$     | $x$      | $0$      | $1$      | $4$     |
+| ------------ | -------- | -------- | -------- | -------- | ------- |
+| $P(X = x_i)$ | $0{,}05$ | $0{,}39$ | $0{,}37$ | $0{,}09$ | $0{,}1$ |
 
 Außerdem ist bekannt, dass $E(X)=-0{,}93$.
 
@@ -247,18 +250,18 @@ x&=-3
 
 Die Wahrscheinlichkeitsverteilung lautet:
 
-| $x_i$         | $-4$     | $-2$     | $-1$     | $1$      | $4$      |
-|---------------|----------|----------|----------|----------|----------|
-| $P(X = x_i)$  | $0{,}15$ | $0{,}27$ |  $x$    | $0{,}08$ | $y$ |
+| $x_i$        | $-4$     | $-2$     | $-1$ | $1$      | $4$ |
+| ------------ | -------- | -------- | ---- | -------- | --- |
+| $P(X = x_i)$ | $0{,}15$ | $0{,}27$ | $x$  | $0{,}08$ | $y$ |
 
 Außerdem ist bekannt, dass $E(X)=0{,}29$
 
 Da wir zwei Unbekannte haben, sind auch zwei Gleichungen nötig, um sie zu bestimmen:
 
 1. Die Summe der Wahrscheinlichkeiten muss 1 ergeben:
-$0{,}15 + 0{,}27 + x + 0{,}08 +y = 1$
+   $0{,}15 + 0{,}27 + x + 0{,}08 +y = 1$
 2. Der gegebene Erwartungswert:
-$0{,}29 = (-4 \cdot 0{,}15) + (-2 \cdot 0{,}27) + (-1 \cdot x) + (1 \cdot 0{,}08) + (4 \cdot y)$
+   $0{,}29 = (-4 \cdot 0{,}15) + (-2 \cdot 0{,}27) + (-1 \cdot x) + (1 \cdot 0{,}08) + (4 \cdot y)$
 
 Die Gleichungen lassen sich vereinfachen:
 
