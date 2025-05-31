@@ -56,13 +56,15 @@
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
       video {
-        width: 50vw; /* feste Breite */
-        height: 50vw; /* gleiche Höhe für Quadrat */
-        max-width: 400px;
-        max-height: 400px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        max-width: 480px;
+        max-height: 270px;
         object-fit: cover; /* Video wird zugeschnitten, damit es das Quadrat füllt */
-        border-radius: 20px;
+        border-radius: 10px;
         margin-bottom: 20px;
+        border-radius: 20px;
       }
 
       #video-container.small {
@@ -100,14 +102,8 @@
 
     <main>
       <h4 id="quiz-title"></h4>
-      <div id="video-container" style="text-align: center">
-        <video
-          id="myVideo"
-          controls
-          width="400"
-          preload="metadata"
-          poster="alex.png"
-        >
+      <div id="video-container" style="text-align: center; border-radius: 20px">
+        <video id="myVideo" controls preload="metadata" poster="alex2.png">
           <source src="Videotest.mp4" type="video/mp4" />
           Ihr Browser unterstützt das Video-Tag nicht.
         </video>
@@ -123,6 +119,16 @@
         // Seite ist im iframe geladen
         document.documentElement.classList.add("in-iframe");
       }
+
+      const checkInterval = setInterval(() => {
+        const symbole = document.getElementsByClassName("symbolleiste");
+        if (symbole.length > 0) {
+          for (let i = 0; i < symbole.length; i++) {
+            symbole[i].style.display = "none";
+          }
+          clearInterval(checkInterval); // Prüfung stoppen, sobald gefunden
+        }
+      }, 100); // alle 100 ms prüfen
 
       window.addEventListener("scroll", function () {
         const videoContainer = document.getElementById("video-container");
