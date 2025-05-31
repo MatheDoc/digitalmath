@@ -63,27 +63,17 @@
         max-height: 270px;
         object-fit: cover; /* Video wird zugeschnitten, damit es das Quadrat füllt */
         border-radius: 10px;
-        margin-bottom: 20px;
-        border-radius: 20px;
+        margin-bottom: 30px;
       }
-
-      #video-container.small {
-        position: fixed;
-        width: 150px !important;
-        height: 150px; /* entspricht 16:9 bei 200px Breite */
-        bottom: 20px;
-        right: 20px;
-        z-index: 1000;
-        border-radius: 8px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      }
-
-      #video-container.small video {
-        width: 100% !important;
-        height: 100% !important;
-        object-fit: cover;
-        border-radius: 8px;
-        border: none;
+      .sticky-element {
+        position: sticky;
+        top: 0;
+        background: linear-gradient(
+          to bottom,
+          #f8f8f8 80%,
+          rgba(255, 255, 255, 0)
+        );
+        z-index: 10;
       }
     </style>
   </head>
@@ -102,7 +92,22 @@
 
     <main>
       <h4 id="quiz-title"></h4>
-      <div id="video-container" style="text-align: center; border-radius: 20px">
+
+      <div
+        id="video-container"
+        style="
+          text-align: center;
+          position: sticky;
+          top: 0px;
+          background: linear-gradient(
+            to bottom,
+            #f8f8f8 90%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          padding-bottom: 0px;
+          z-index: 10;
+        "
+      >
         <video id="myVideo" controls preload="metadata" poster="alex2.png">
           <source src="Videotest.mp4" type="video/mp4" />
           Ihr Browser unterstützt das Video-Tag nicht.
@@ -130,7 +135,7 @@
         }
       }, 100); // alle 100 ms prüfen
 
-      window.addEventListener("scroll", function () {
+      /*window.addEventListener("scroll", function () {
         const videoContainer = document.getElementById("video-container");
         const video = document.getElementById("myVideo");
 
@@ -142,7 +147,7 @@
         } else {
           videoContainer.classList.remove("small");
         }
-      });
+      });*/
     </script>
   </body>
 </html>
