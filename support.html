@@ -54,6 +54,15 @@
       };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+      video {
+        width: 400px; /* feste Breite */
+        height: 400px; /* gleiche Höhe für Quadrat */
+        object-fit: cover; /* Video wird zugeschnitten, damit es das Quadrat füllt */
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+    </style>
   </head>
 
   <body class="quiz">
@@ -83,7 +92,7 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>-->
-        <video controls width="600" preload="metadata">
+        <video controls width="400" preload="metadata" poster="alex.png">
           <source src="Videotest.mp4" type="video/mp4" />
           Ihr Browser unterstützt das Video-Tag nicht.
         </video>
