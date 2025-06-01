@@ -96,7 +96,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(65, 65, 65, 0.8); /* dunkelgrau */
+    background: rgba(65, 65, 65, 0.9); /* dunkelgrau */
     padding: 0px 0px;
     color: white;
     font-family: sans-serif;
@@ -135,32 +135,35 @@
   margin: 0 10px;
   cursor: pointer;
 }
+
+/*
+
 #progress {
   -webkit-appearance: none;
   width: 100%;
-  height: 6px; /* dünn */
+  height: 6px;
   background: #ddd;
   border-radius: 3px;
   overflow: hidden;
 }
 
-/* Fortschrittsfarbe: rot */
 #progress::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 0;
-  height: 0;
-  box-shadow: -1000px 0 0 1000px red; /* simuliert den Fortschritt */
+  width: 10px;
+  height: 10px;
+  box-shadow: -1000px 0 0 1000px red; 
   cursor: pointer;
   background: none;
   border: none;
 }
 
 #progress::-moz-range-thumb {
-  width: 0;
-  height: 0;
+  width: 10px;
+  height: 10px;
+  box-shadow: -1000px 0 0 1000px red; 
+  cursor: pointer;
   background: none;
   border: none;
-  cursor: pointer;
 }
 
 #progress::-moz-range-track {
@@ -168,6 +171,9 @@
   height: 6px;
   border-radius: 3px;
 }
+
+
+
 #volume {
   -webkit-appearance: none;
   width: 80px;
@@ -178,12 +184,11 @@
   cursor: pointer;
 }
 
-/* Fortschrittsfarbe (Lautstärke) */
 #volume::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 0;
   height: 0;
-  box-shadow: -1000px 0 0 1000px #ccc; /* heller Fortschritt */
+  box-shadow: -1000px 0 0 1000px #ccc;
   border: none;
   background: none;
 }
@@ -200,7 +205,7 @@
   height: 6px;
   border-radius: 3px;
 }
-
+*/
 </style>
   </head>
 
