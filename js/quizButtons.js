@@ -111,11 +111,24 @@ function reloadSingleTask(iconElement) {
 }
 
 // Assistenzmodus starten
-function zeigeAssistenz(iconElement) {
+async function zeigeAssistenz(iconElement) {
   const aufgabeDiv = iconElement.closest(".aufgabe");
   if (aufgabeDiv) {
     const sammlung = aufgabeDiv.getAttribute("data-sammlung");
-    window.open(`assistenz.html?sammlung=${sammlung}`, "_blank");
+    const mp4Url = `assistenz/mp4/${sammlung.replace(".json", ".mp4")}`;
+    const jsonUrl = `assistenz/json/${sammlung}`;
+
+    // Prüfe, ob beide Dateien existieren
+    const [mp4Ok, jsonOk] = await Promise.all([
+      fetch(mp4Url, { method: "HEAD" }).then((r) => r.ok).catch(() => false),
+      fetch(jsonUrl, { method: "HEAD" }).then((r) => r.ok).catch(() => false),
+    ]);
+
+    if (mp4Ok && jsonOk) {
+      window.open(`assistenz.html?sammlung=${sammlung}`, "_blank");
+    } else {
+      alert("Assistenz noch nicht verfügbar");
+    }
   }
 }
 

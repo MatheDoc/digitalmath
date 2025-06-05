@@ -456,12 +456,6 @@ footer {
 .xml-icon:hover {
   color: #5882ff;
 }
-.copy-icon {
-  color: #5882ffb0;
-}
-.copy-icon:hover {
-  color: #5882ff;
-}
 .test-icon {
   color: #e72f8bb0;
 }
@@ -470,12 +464,12 @@ footer {
 }
 .check-icon,
 .check-all-icon {
-  color: var(--hauptfarbe);
+  color: #156082ce;
   cursor: pointer;
 }
 .check-icon:hover,
 .check-all-icon:hover {
-  color: #5882ff;
+  color: #156082;
 }
 .auswahl-icon {
   color: #19a35ead;
@@ -501,10 +495,10 @@ footer {
 .pdf-icon:hover {
   color: #e03c31;
 }
-.trash-icon {
+.assistenz-icon {
   color: #693c77a4;
 }
-.trash-icon:hover {
+.assistenz-icon:hover {
   color: #693c77e4;
 }
 .whatapp-icon {
