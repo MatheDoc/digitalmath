@@ -105,8 +105,17 @@ function reloadSingleTask(iconElement) {
       aufgabeDiv.style.backgroundColor = "#fff";
       const id = aufgabeDiv.id; // z.B. "aufgabe-2"
       const sammlung = aufgabeDiv.getAttribute("data-sammlung");
-      zeigeZufallsfrageAusSammlung(sammlung, id);
+      zeigeZufallsfrage(sammlung, id);
     }
+  }
+}
+
+// Assistenzmodus starten
+function zeigeAssistenz(iconElement) {
+  const aufgabeDiv = iconElement.closest(".aufgabe");
+  if (aufgabeDiv) {
+    const sammlung = aufgabeDiv.getAttribute("data-sammlung");
+    window.open(`assistenz.html?sammlung=${sammlung}`, "_blank");
   }
 }
 
@@ -236,4 +245,25 @@ function addCheckIconListeners(container) {
         }
       });
     });
+}
+
+function toggleAllAnswers(iconElement) {
+  const aufgabenDiv = iconElement.closest(".aufgabe");
+  if (!aufgabenDiv) return;
+
+  const isShown = iconElement.classList.contains("fa-eye-slash");
+
+  if (isShown) {
+    // Lösungen ausblenden
+    hideAllAnswers(iconElement);
+    iconElement.classList.remove("fa-eye-slash");
+    iconElement.classList.add("fa-eye");
+    iconElement.title = "Lösungen anzeigen";
+  } else {
+    // Lösungen anzeigen
+    showAllAnswers(iconElement);
+    iconElement.classList.remove("fa-eye");
+    iconElement.classList.add("fa-eye-slash");
+    iconElement.title = "Lösungen ausblenden";
+  }
 }

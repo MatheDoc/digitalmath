@@ -52,14 +52,12 @@ h4 {
 }
 
 h4 {
-  margin-top: 0px;
   font-size: 1em;
 }
 
 h5 {
   color: var(--hauptfarbe);
   font-size: 1em;
-  margin-bottom: 0;
 }
 
 /* Offset für die Scrollposition bei Ankerlinks */
@@ -122,9 +120,8 @@ figure {
   display: flex;
   justify-content: center;
   padding: 10px;
-  margin: 10px auto;
+  margin: 15px auto;
   gap: 15px;
-  margin-top: 20px;
 }
 
 .center-text {
@@ -170,7 +167,7 @@ main {
 }
 
 .script h4 {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .script p {
@@ -229,9 +226,18 @@ select.mch + .select2-container .select2-selection--single {
 
 /* Quiz */
 
+.in-iframe h1,
+.in-iframe h2 {
+  display: none;
+}
+
 .in-iframe main {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.in-iframe-assistenz .symbolleiste {
+  display: none;
 }
 
 .quiz h3 {

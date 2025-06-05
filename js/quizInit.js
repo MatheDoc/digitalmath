@@ -1,14 +1,82 @@
 let aufgabenZaehler = 1; // Initialisiere den Zähler für die Aufgaben
 let questionId = 1; // Eindeutige Frage-ID für jede Aufgabe
 
-async function zeigeZufallsfrageAusSammlungAsync(sammlung, containerId = null) {
+// Die einzige, vereinheitlichte Funktion zum Anzeigen einer Zufallsfrage
+async function zeigeZufallsfrage(sammlung, containerId = null) {
   try {
-    const response = await fetch(
-      `https://raw.githubusercontent.com/MatheDoc/digitalmath/main/json/${sammlung}`
-    );
+    // Prüfe, ob die Parent-Seite assistenz.html ist
+    let jsonPath = `json/${sammlung}`;
+    if (window.location.pathname.endsWith("assistenz.html")) {
+      jsonPath = `assistenz/json/${sammlung}`;
+    }
+    const response = await fetch(jsonPath);
+    //`https://raw.githubusercontent.com/MatheDoc/digitalmath/main/json/${sammlung}`
     if (!response.ok) throw new Error(`Status: ${response.status}`);
     const data = await response.json();
-    zeigeZufallsfrageAusSammlung(sammlung, containerId, data);
+
+    let aufgabeDiv;
+
+    if (containerId) {
+      // vorhandenes Div aktualisieren
+      aufgabeDiv = document.getElementById(containerId);
+      if (!aufgabeDiv) {
+        console.warn(
+          `Container mit ID ${containerId} nicht gefunden, erstelle neu.`
+        );
+        aufgabeDiv = document.createElement("div");
+        aufgabeDiv.id = containerId;
+        aufgabeDiv.classList.add("aufgabe");
+        document.getElementById("aufgaben").appendChild(aufgabeDiv);
+      }
+      // Inhalt außer h3 tag löschen, um neu zu befüllen
+      Array.from(aufgabeDiv.children).forEach((child) => {
+        if (child.tagName !== "H3") {
+          aufgabeDiv.removeChild(child);
+        }
+      });
+    } else {
+      // neues Div anlegen
+      aufgabeDiv = document.createElement("div");
+      aufgabeDiv.id = `aufgabe-${aufgabenZaehler}`;
+      aufgabeDiv.classList.add("aufgabe");
+      // Überschrift einfügen
+      const aufgabenTitel = document.createElement("h3");
+      aufgabenTitel.textContent = `${aufgabenZaehler}. Aufgabe`;
+      aufgabeDiv.appendChild(aufgabenTitel);
+      // Zähler erhöhen
+      aufgabenZaehler++;
+      document.getElementById("aufgaben").appendChild(aufgabeDiv);
+    }
+
+    aufgabeDiv.setAttribute("data-sammlung", sammlung);
+
+    // WICHTIG: await hier verwenden, da zeigeZufaelligeAufgabeAusSammlung ein Promise zurückgibt
+    const aufgabenInhalt = await zeigeZufaelligeAufgabeAusSammlung(
+      sammlung,
+      data
+    );
+    const tempContainer = document.createElement("div");
+    tempContainer.innerHTML = aufgabenInhalt;
+    aufgabeDiv.appendChild(tempContainer);
+
+    // Select2 initialisieren
+    const selector = `#${aufgabeDiv.id} select.mch`;
+    const $select = $(selector);
+    $select.select2({
+      placeholder: "Antwort",
+      minimumResultsForSearch: Infinity,
+      width: "auto",
+      dropdownAutoWidth: true,
+      templateResult: renderWithMathJax,
+      templateSelection: renderWithMathJax,
+    });
+    adjustSelect2Width(selector);
+
+    // MathJax rendern
+    MathJax.typesetPromise([aufgabeDiv]);
+
+    // Listener für Icons hinzufügen
+    addCheckIconListeners(aufgabeDiv);
   } catch (error) {
     console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
     document.getElementById(
@@ -17,99 +85,11 @@ async function zeigeZufallsfrageAusSammlungAsync(sammlung, containerId = null) {
   }
 }
 
-function zeigeZufallsfrageAusSammlung(sammlung, containerId = null) {
-  fetch(
-    `https://raw.githubusercontent.com/MatheDoc/digitalmath/main/json/${sammlung}`
-  )
-    .then((response) => response.json())
-    .then((data) => {
-      let aufgabeDiv;
-
-      if (containerId) {
-        // vorhandenes Div aktualisieren
-        aufgabeDiv = document.getElementById(containerId);
-        if (!aufgabeDiv) {
-          console.warn(
-            `Container mit ID ${containerId} nicht gefunden, erstelle neu.`
-          );
-          aufgabeDiv = document.createElement("div");
-          aufgabeDiv.id = containerId;
-          aufgabeDiv.classList.add("aufgabe");
-          document.getElementById("aufgaben").appendChild(aufgabeDiv);
-        }
-        // Inhalt außer h3 tag löschen, um neu zu befüllen
-        Array.from(aufgabeDiv.children).forEach((child) => {
-          if (child.tagName !== "H3") {
-            aufgabeDiv.removeChild(child);
-          }
-        });
-      } else {
-        // neues Div anlegen
-        aufgabeDiv = document.createElement("div");
-        aufgabeDiv.id = `aufgabe-${aufgabenZaehler}`;
-        aufgabeDiv.classList.add("aufgabe");
-        // Überschrift einfügen
-        const aufgabenTitel = document.createElement("h3");
-        aufgabenTitel.textContent = `${aufgabenZaehler}. Aufgabe`;
-        aufgabeDiv.appendChild(aufgabenTitel);
-        // Zähler erhöhen
-        aufgabenZaehler++;
-        document.getElementById("aufgaben").appendChild(aufgabeDiv);
-      }
-
-      aufgabeDiv.setAttribute("data-sammlung", sammlung);
-
-      // Aufgabe generieren und anhängen
-      const aufgabenInhalt = zeigeZufaelligeAufgabeAusSammlung(sammlung, data);
-      const tempContainer = document.createElement("div");
-      tempContainer.innerHTML = aufgabenInhalt;
-      aufgabeDiv.appendChild(tempContainer);
-
-      // Select2 initialisieren
-      const selector = `#${aufgabeDiv.id} select.mch`;
-      const $select = $(selector);
-      $select.select2({
-        placeholder: "Antwort",
-        minimumResultsForSearch: Infinity,
-        width: "auto",
-        dropdownAutoWidth: true,
-        templateResult: renderWithMathJax,
-        templateSelection: renderWithMathJax,
-      });
-      adjustSelect2Width(selector);
-
-      MathJax.typesetPromise([aufgabeDiv]);
-
-      addCheckIconListeners(aufgabeDiv);
-    })
-    .catch((error) => {
-      console.error(`Fehler beim Laden der JSON-Datei für ${sammlung}:`, error);
-      document.getElementById(
-        "aufgaben"
-      ).innerHTML += `<p>Es gab ein Problem beim Laden der Aufgaben aus der Sammlung ${sammlung}.</p>`;
-    });
-}
-
 // neue Aufgabe anzeigen
 async function zeigeNeuesQuiz() {
   const params = new URLSearchParams(window.location.search);
   let sammlungen = params.getAll("sammlung");
-  const titel = params.get("titel");
-  const exam = params.get("exam");
   const single = params.get("single");
-
-  if (titel && exam === "no") {
-    const h3Element = document.getElementById("quiz-title");
-    h3Element.textContent = titel;
-    const metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription.setAttribute("content", titel);
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    if (exam === "yes") {
-      document.querySelector("h4").style.display = "none";
-    }
-  });
 
   if (sammlungen.length > 0) {
     if (single) {
@@ -122,7 +102,7 @@ async function zeigeNeuesQuiz() {
     }
 
     for (const sammlung of sammlungen) {
-      await zeigeZufallsfrageAusSammlungAsync(sammlung);
+      await zeigeZufallsfrage(sammlung);
     }
   } else {
     console.error("Keine Sammlung in der URL gefunden.");
@@ -131,13 +111,15 @@ async function zeigeNeuesQuiz() {
 }
 
 // Aufgabe aus der Sammlung anzeigen
-function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
+async function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
   if (aufgaben.length > 0) {
     const randomIndex = Math.floor(Math.random() * aufgaben.length);
     const selectedTask = aufgaben[randomIndex];
+    // War vorher: const ichKannText = getTitelAusSammlung(sammlung);
+    const ichKannText = await getTitelAusSammlung(sammlung); // <--- await!
 
     // html Inhalt mit Einführung
-    let htmlContent = `<div class="einleitung"> <div class="symbolleiste">
+    let htmlContent = `<div class="einleitung"> <h4> Ich kann ${ichKannText} </h4> <div class="symbolleiste">
           <i
             class="fas fa-paper-plane icon check-all-icon"
             title="Alle Fragen abschicken"
@@ -146,12 +128,7 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
           <i
             class="fas fa-eye icon eye-icon"
             title="Lösungen anzeigen"
-            onclick="showAllAnswers(this)"
-          ></i>
-          <i
-            class="fas fa-trash-can icon trash-icon"
-            title="Lösungen löschen"
-            onclick="hideAllAnswers(this)"
+            onclick="toggleAllAnswers(this)"
           ></i>
           <i
             class="fas fa-file-pdf icon pdf-icon"
@@ -168,6 +145,13 @@ function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
             title="Auf WhatsApp teilen"
             onclick="shareWhatsApp(this)"
           ></i>
+          <i
+          <i
+            class="fas fa-user-graduate icon assistenz-icon"
+            title="Assistenz anzeigen"
+            onclick="zeigeAssistenz(this)"
+          ></i>
+
         </div><p>${selectedTask.einleitung}</p></div>`; // Korrekt eingebundener Inhalt
 
     // Fragen und Antworten einfügen
@@ -356,5 +340,15 @@ function renderWithMathJax(data) {
   return span;
 }
 
-// Initiales Laden eines Quiz
+function getTitelAusSammlung(sammlung) {
+  // Entferne .json am Ende, falls vorhanden
+  const sammlungOhneJson = sammlung.replace(/\.json$/, "");
+  return fetch("liste.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const eintrag = data.find((e) => e.Übung === sammlungOhneJson);
+      return eintrag ? eintrag["Ich kann…"] : null;
+    });
+}
+
 zeigeNeuesQuiz();

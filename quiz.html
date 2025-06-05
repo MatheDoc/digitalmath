@@ -69,7 +69,6 @@
     </header>
 
     <main>
-      <h4 id="quiz-title"></h4>
       <div id="aufgaben"></div>
     </main>
 
@@ -79,6 +78,18 @@
       if (window.self !== window.top) {
         // Seite ist im iframe geladen
         document.documentElement.classList.add("in-iframe");
+      }
+      try {
+        if (
+          // Seite ist im iframe geladen und auf Seite Assistenz
+          window.self !== window.top &&
+          window.top.location.pathname.endsWith("assistenz.html")
+        ) {
+          document.documentElement.classList.add("in-iframe");
+          document.documentElement.classList.add("in-iframe-assistenz");
+        }
+      } catch (e) {
+        // Zugriff auf window.top.location kann wegen CORS fehlschlagen
       }
     </script>
   </body>
