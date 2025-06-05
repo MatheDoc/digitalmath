@@ -251,10 +251,7 @@ function startExam() {
       }
     });
   if (urls.length > 0) {
-    var testUrl =
-      "https://mathedoc.github.io/digitalmath/quiz.html?" +
-      urls.map((url) => "sammlung=" + url).join("&") +
-      "&exam=yes";
+    var testUrl = "quiz.html?" + urls.map((url) => "sammlung=" + url).join("&");
 
     window.open(testUrl, "_blank");
   } else {
