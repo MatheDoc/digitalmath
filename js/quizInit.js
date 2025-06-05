@@ -146,13 +146,17 @@ async function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
             onclick="shareWhatsApp(this)"
           ></i>
           <i
+
+
+        </div><p>${selectedTask.einleitung}</p></div>`; // Korrekt eingebundener Inhalt
+
+    /* Icon für Assistenz
           <i
             class="fas fa-user-graduate icon assistenz-icon"
             title="Assistenz anzeigen"
             onclick="zeigeAssistenz(this)"
           ></i>
-
-        </div><p>${selectedTask.einleitung}</p></div>`; // Korrekt eingebundener Inhalt
+          */
 
     // Fragen und Antworten einfügen
     if (selectedTask.fragen.length === 1) {
