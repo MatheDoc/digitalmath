@@ -145,7 +145,7 @@ async function zeigeZufaelligeAufgabeAusSammlung(sammlung, aufgaben) {
             title="Auf WhatsApp teilen"
             onclick="shareWhatsApp(this)"
           ></i>
-          <i
+          
 
 
         </div><p>${selectedTask.einleitung}</p></div>`; // Korrekt eingebundener Inhalt
