@@ -6,7 +6,7 @@ async function zeigeZufallsfrage(sammlung, containerId = null) {
   try {
     // Prüfe, ob die Parent-Seite assistenz.html ist
     let jsonPath = `json/${sammlung}`;
-    if (window.location.pathname.endsWith("assistenz.html")) {
+    if (window.parent.location.pathname.endsWith("assistenz.html")) {
       jsonPath = `assistenz/json/${sammlung}`;
     }
     const response = await fetch(jsonPath);
