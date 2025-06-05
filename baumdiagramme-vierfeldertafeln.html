@@ -272,6 +272,11 @@
         });
       });
 
+      if (window.self !== window.top) {
+        // Seite ist im iframe geladen
+        document.documentElement.classList.add("in-iframe");
+      }
+
       // Initiales Diagramm
       updateFromInputs();
     </script>
