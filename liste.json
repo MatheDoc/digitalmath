@@ -1545,8 +1545,8 @@
     "Teilgebiet": "Binomialverteilung",
     "Schwerpunkt": "Allgemein",
     "Situation": "Intervallwahrscheinlichkeiten",
-    "Ich kann…": "die Parameter von Intervallwahrscheinlichkeiten der Binomialverteilung angeben.",
-    "Übung": "Stochastik_Allgemein_Binomialverteilung_Bereichsparameter_Angabe",
+    "Ich kann…": "die Parameter von Intervallwahrscheinlichkeiten der Binomialverteilung entsprechend der Eingabe im GTR angeben.",
+    "Übung": "Stochastik_Allgemein_Binomialverteilung_Bereichsparameter_GTR",
     "Info": "",
     "Index": 96
   },
@@ -2055,5 +2055,16 @@
     "Übung": "Stochastik_Allgemein_Zufallsgrößen_Kennzahlen_ZweiFehlendeWkt",
     "Info": "",
     "Index": 137
+  },
+  {
+    "Auswahl": "",
+    "Gebiet": "Stochastik",
+    "Teilgebiet": "Binomialverteilung",
+    "Schwerpunkt": "Allgemein",
+    "Situation": "Intervallwahrscheinlichkeiten",
+    "Ich kann…": "Intervallwahrscheinlichkeiten der Binomialverteilung mithilfe kumulierter Wahrscheinlichkeiten angeben.",
+    "Übung": "Stochastik_Allgemein_Binomialverteilung_Bereichsparameter_kumuliert",
+    "Info": "",
+    "Index": 189
   }
 ]
