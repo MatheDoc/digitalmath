@@ -148,11 +148,9 @@ function initializeTable() {
       });
     if (urls.length > 0) {
       var testUrl =
-        "https://mathedoc.github.io/digitalmath/quiz.html?" +
-        urls.map((url) => "sammlung=" + url).join("&") +
-        "&exam=yes";
+        "quiz.html?" + urls.map((url) => "sammlung=" + url).join("&");
 
-      window.open(testUrl, "_blank");
+      window.open(testUrl, "_self");
     } else {
       alert("Bitte wählen Sie mindestens eine Checkbox aus.");
     }
