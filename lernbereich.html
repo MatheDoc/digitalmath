@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Checke lineare Funktionen (innermathematisch).">
-    <meta name="author" content="Dr. Sven Führing">
-    <meta name='robots' content='index,follow'>    
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Checke lineare Funktionen (innermathematisch)."
+    />
+    <meta name="author" content="Dr. Sven Führing" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
     <title>MatheChecks</title>
 
     <!-- Einbinden der externen CSS-Datei -->
-    <link rel="stylesheet" href="styles.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <script>
       window.MathJax = {
-        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
-        svg: { fontCache: 'global' }
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+        },
+        svg: { fontCache: "global" },
       };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+      async
+    ></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-      <a href="https://mathedoc.github.io/digitalmath/index" class="link-homepage" title="home">
+      <a href="index.html" class="link-homepage" title="home">
         <h1>MatheChecks</h1>
       </a>
       <h2></h2>
@@ -33,45 +46,61 @@
 
     <main class="container">
       <div class="box">
-        <h3>Orientierung</h3>      
+        <h3>Orientierung</h3>
         <!-- Um was es geht-->
-        <button onclick="toggleInhalt(this,'um-was-es-geht')">Um was es hier geht<i class="fas fa-chevron-down"></i></button>
+        <button onclick="toggleInhalt(this,'um-was-es-geht')">
+          Um was es hier geht<i class="fas fa-chevron-down"></i>
+        </button>
         <div></div>
         <!-- Vorkenntnisse-->
-        <button onclick="toggleInhalt(this,'vorkenntnisse')">Vorkenntnisse<i class="fas fa-chevron-down"></i></button>
+        <button onclick="toggleInhalt(this,'vorkenntnisse')">
+          Vorkenntnisse<i class="fas fa-chevron-down"></i>
+        </button>
         <div></div>
         <!-- Worauf es ankommt-->
-        <button onclick="toggleInhalt(this,'worauf-es-ankommt')">Darauf kommt es an<i class="fas fa-chevron-down"></i></button>
+        <button onclick="toggleInhalt(this,'worauf-es-ankommt')">
+          Darauf kommt es an<i class="fas fa-chevron-down"></i>
+        </button>
         <div></div>
       </div>
-    
+
       <div class="box">
-        <h3>Material</h3>  
+        <h3>Material</h3>
         <!-- Skript -->
         <button id="skript">Skript <i class="fas fa-link"></i></button>
         <!-- Aufgaben dashbord-->
-        <button id="aufgaben-dashboard">Übungen<i class="fas fa-link"></i></button>
+        <button id="aufgaben-dashboard">
+          Übungen<i class="fas fa-link"></i>
+        </button>
         <!-- Ich kann liste-->
-        <button onclick="toggleInhalt(this,'ich-kann-liste')">Ich-kann-Liste <i class="fas fa-chevron-down"></i></button>
-        <div></div>  
+        <button onclick="toggleInhalt(this,'ich-kann-liste')">
+          Ich-kann-Liste <i class="fas fa-chevron-down"></i>
+        </button>
+        <div></div>
         <!-- Arbeitsblätter -->
         <!--<button onclick="toggleInhalt(this, 'arbeitsblaetter')">Ergänzungen<i class="fas fa-chevron-down"></i></button>
         <div></div>-->
         <!-- Lernvideos -->
         <!--<button onclick="toggleInhalt(this, 'lernvideos')">Lernvideos<i class="fas fa-chevron-down"></i></button>
         <div></div>-->
-      </div> 
+      </div>
 
       <div class="box">
         <h3>Aktivitäten</h3>
         <!-- Warm-up -->
-        <button onclick="toggleInhalt(this, 'warm-up')">Warm-up<i class="fas fa-chevron-down"></i></button>
-        <div></div>    
+        <button onclick="toggleInhalt(this, 'warm-up')">
+          Warm-up<i class="fas fa-chevron-down"></i>
+        </button>
+        <div></div>
         <!-- Fachbegriffe -->
-        <button onclick="toggleInhalt(this, 'fachbegriffe')">Fachbegriffe<i class="fas fa-chevron-down"></i></button>
+        <button onclick="toggleInhalt(this, 'fachbegriffe')">
+          Fachbegriffe<i class="fas fa-chevron-down"></i>
+        </button>
         <div></div>
         <!-- Rekapitulation -->
-        <button onclick="toggleInhalt(this, 'rekapitulation')">Rekapitulation<i class="fas fa-chevron-down"></i></button>
+        <button onclick="toggleInhalt(this, 'rekapitulation')">
+          Rekapitulation<i class="fas fa-chevron-down"></i>
+        </button>
         <div></div>
       </div>
       <!--
@@ -79,8 +108,7 @@
         <h3>Übersichten</h3>
       </div> 
       -->
- 
-      
+
       <!--<div class="box">
         <h3>???</h3>
         <button onclick="zeigeElement()">Skript <i class="fas fa-link"></i></button>
@@ -88,9 +116,8 @@
       
       </div>
       -->
-
     </main>
-  
+
     <div id="floating-box">
       <div id="floating-frage"></div>
       <div id="floating-antwort"></div>
@@ -98,15 +125,23 @@
     <div id="screensaver-overlay" class="overlay"></div>
 
     <footer>
-      <p>&copy; 2025 Dr. Sven Führing<i class="fas fa-envelope icon mail-icon" title="Kontakt" onclick="window.location.href='mailto:mathechecks@gmail.com'"></i>. 
-          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de" target="_blank">CC BY-NC-SA 4.0</a>
+      <p>
+        &copy; 2025 Dr. Sven Führing<i
+          class="fas fa-envelope icon mail-icon"
+          title="Kontakt"
+          onclick="window.location.href='mailto:mathechecks@gmail.com'"
+        ></i
+        >.
+        <a
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de"
+          target="_blank"
+          >CC BY-NC-SA 4.0</a
+        >
       </p>
     </footer>
 
-
-        <!-- Eigene JS-Dateien-->
-        <script src="/js/lernbereichInit.js"></script>
-        <script src="/js/screensaver.js"></script>
-
-</body>
+    <!-- Eigene JS-Dateien-->
+    <script src="/js/lernbereichInit.js"></script>
+    <script src="/js/screensaver.js"></script>
+  </body>
 </html>

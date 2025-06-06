@@ -94,13 +94,8 @@ function addButtons() {
         return "sammlung=" + sammlungsname;
       });
       // Url mit Params: sammlung, titel, exam = no
-      var testUrl =
-        "https://mathedoc.github.io/digitalmath/quiz.html?" +
-        links.join("&") +
-        "&titel=" +
-        encodeURIComponent(ichKannText) +
-        "&exam=no";
-      window.open(testUrl, "_blank"); // Öffne URL in einem neuen Tab/Fenster
+      var testUrl = "quiz.html?" + links.join("&");
+      window.open(testUrl, "_self"); // Öffne URL in einem neuen Tab/Fenster
     }
   });
 
@@ -113,10 +108,7 @@ function addButtons() {
       return;
     }
     var xmlName = rowData[6]; // XMLs in der 7. Spalte
-    var url =
-      "https://raw.githubusercontent.com/MatheDoc/digitalmath/main/xml/" +
-      xmlName +
-      ".xml";
+    var url = "xml/" + xmlName + ".xml";
 
     // XMLHttpRequest nutzen, um den Inhalt herunterzuladen
     var xhr = new XMLHttpRequest();

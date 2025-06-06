@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((url) => {
       const button = document.getElementById("aufgaben-dashboard");
       button.addEventListener("click", () => {
-        window.open(url, "_blank");
+        window.open(url, "_self");
       });
     })
     .catch((err) => {
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(() => {
       const button = document.getElementById("skript");
       button.addEventListener("click", () => {
-        window.open(skriptPfad, "_blank");
+        window.open(skriptPfad, "_self");
       });
     })
     .catch((err) => {
