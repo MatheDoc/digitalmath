@@ -35,8 +35,8 @@ Wie lässt sich nun feststellen, welcher Biathlet der treffsicherere ist? Um die
 Der Erwartungswert einer (diskreten) Zufallsgröße $X$ ergibt sich aus der Summe der Produkte der einzelnen Werte $x_i$ mit ihren jeweiligen Wahrscheinlichkeiten $P(X = x_i)$:
 
 \begin{align*}
-E(X) &= x*1 \cdot P(X = x_1) + x_2 \cdot P(X = x_2) + \ldots + x_n \cdot P(X = x_n) \\\\
-&= \sum*{i=1}^{n} x_i \cdot P(X = x_i)
+E(X) &= x_1 \cdot P(X = x_1) + x_2 \cdot P(X = x_2) + \ldots + x_n \cdot P(X = x_n) \\\\
+&= \sum_{i=1}^{n} x_i \cdot P(X = x_i)
 \end{align*}
 
 In der Statistik, in der Wahrscheinlichkeiten häufig als relative Häufigkeiten interpretiert werden, entspricht der Erwartungswert dem **gewichteten arithmetischen Mittel**. Das bedeutet: Häufigere (wahrscheinlichere) Werte fließen stärker in den Mittelwert ein als seltenere.
