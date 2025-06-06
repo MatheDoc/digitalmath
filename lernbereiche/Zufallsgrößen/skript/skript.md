@@ -76,8 +76,8 @@ Wie lassen sich die Werte der Biathleten noch unterscheiden? Im Mittel erwarten 
 Wir suchen nun eine Kennzahl, mit der wir genau messen können, wie stark eine Zufallsgröße von ihrem Erwartungswert abweicht. Die grundlegende Idee ist es, die Summe der quadrierten, mit den Wahrscheinlichkeiten gewichteten Abweichungen vom Erwartungswert zu betrachten und anschließend die Wurzel zu ziehen. Diese Kennzahl nennen wir **Standardabweichung** $\sigma(X)$ (lies: Sigma von X):
 
 \begin{align*}
-\sigma(X) &= \sqrt{(x*1-E(X))^2 \cdot P(X = x_1) + (x_2-E(X))^2 \cdot P(X = x_2) + \ldots + (x_n-E(X))^2 \cdot P(X = x_n)} \\\\\\\\
-&= \sqrt{\sum*{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
+\sigma(X) &= \sqrt{(x_1-E(X))^2 \cdot P(X = x_1) + (x_2-E(X))^2 \cdot P(X = x_2) + \ldots + (x_n-E(X))^2 \cdot P(X = x_n)} \\\\
+&= \sqrt{\sum_{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
 \end{align*}
 
 Auch der Ausdruck unter der Wurzel eignet sich, die Schwankungen zu messen. Er wird **Varianz** genannt und mit $\sigma^2$ bezeichnet.
