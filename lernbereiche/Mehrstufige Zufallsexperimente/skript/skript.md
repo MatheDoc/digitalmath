@@ -1,11 +1,11 @@
 ### Einführung
 
-Wenn mehrere Zufallsexperimente nacheinander durchgeführt werden, sprechen wir von einem mehrstufigen Zufallsexperiment. Zur übersichtlichen Darstellung nutzen wir häufig Baumdiagramme. Für jede Stufe des Zufallsexperiments werden die Ergebnisse des einzelnen Zufallsexperiments als Knotenpunkte dargestellt. Die Stufen werden dann durch Pfade miteinander verbunden. Ein Ergebnis des mehrstufigen Zufallsexperiment entspricht dann einem vollständigen Pfad im Baumdiagramm. An den einzelnen Pfaden stehen die entsprechenden Wahrscheinlichkeiten. Es gibt zwei wichtige Regeln:
+Wenn mehrere Zufallsexperimente nacheinander durchgeführt werden, sprechen wir von einem mehrstufigen Zufallsexperiment. Zur übersichtlichen Darstellung nutzen wir häufig Baumdiagramme. Für jede Stufe des Zufallsexperiments werden die Ergebnisse des einzelnen Zufallsexperiments als Knotenpunkte dargestellt. Die Stufen werden dann durch Pfade miteinander verbunden. Ein Ergebnis des mehrstufigen Zufallsexperiments entspricht dann einem vollständigen Pfad im Baumdiagramm. An den einzelnen Pfaden stehen die entsprechenden Wahrscheinlichkeiten. Es gibt zwei wichtige Regeln:
 
-* **Pfadmultiplikationsregel:** Die Wahrscheinlichkeit eines Ergebnisses ist das Produkt der Wahrscheinlichkeiten entlang des entsprechenden Pfades.
-* **Pfadadditionsregel:** Die Wahrscheinlichkeit eines Ereignisses ist die Summe der Wahrscheinlichkeiten der Ergebnisse, die zu diesem Ereignis führen.
+- **Pfadmultiplikationsregel:** Die Wahrscheinlichkeit eines Ergebnisses ist das Produkt der Wahrscheinlichkeiten entlang des entsprechenden Pfades.
+- **Pfadadditionsregel:** Die Wahrscheinlichkeit eines Ereignisses ist die Summe der Wahrscheinlichkeiten der Ergebnisse, die zu diesem Ereignis führen.
 
-Da generell die Summe aller Wahrscheinlichkeiten eines Zufallsexperiments immer gleich 1 ist, ist auch Summe der Wahrscheinlichkeiten aller Pfade, die von einem Knotenpunkt starten, gleich 1. Ebenso ist auch die Summe der Endwahrscheinlichkeiten gleich 1.
+Da generell die Summe aller Wahrscheinlichkeiten eines Zufallsexperiments immer gleich 1 ist, ist auch die Summe der Wahrscheinlichkeiten aller Pfade, die von einem Knotenpunkt starten, gleich 1. Ebenso ist auch die Summe der Endwahrscheinlichkeiten gleich 1.
 
 ##### Beispiel: Zweimaliger Münzwurf
 
@@ -31,6 +31,7 @@ Alle Jugendlichen, die den Großteil ihres Schulwegs an der frischen Luft verbri
 Von den Jugendlichen, die von ihren Eltern zur Schule gebracht werden, ist nur jeder 10. wach.
 
 Das entsprechende Baumdiagramm lautet:
+
  <figure>
   <img src="fahrradwach.png">
 </figure>
@@ -43,15 +44,12 @@ P(E)&=P(\\{E\overline{W}\\})+P(\\{SA\overline{W}\\})+P(\\{SÖ\overline{W}\\})\\\
 &=0{,}4157.
 \end{align*}
 
-<!--#### Achtung bei Prozentzahlen
-Verwenden wir für die Pfadwahrscheinlichkeiten die Prozentschreibweise, so müssen wir darauf achten, die Prozentzahlen korrekt zu multiplizieren. Im Fall eines zweimaligen Münzwurfs ohne Beachtung der Reihenfolge gilt ja bekanntlich auf jedem Pfad $0,5\cdot 0,5=0,25$. Wir erinnern daran, dass aber $50\\%\cdot 50\\% \neq 2500\\%$ ist.-->
-
 ### Mehrstufige Zufallsexperimente mit zwei Ereignissen
 
 Häufig liegt eine Situation vor, in der zwei Ereignisse $A$ und $B$ und deren Gegenereignisse auftreten. Zum Beispiel:
 
-* $A$: Eine Person putzt sich regelmäßig die Zähne.
-* $B$: Eine Person hat gesunde Zähne.
+- $A$: Eine Person putzt sich regelmäßig die Zähne.
+- $B$: Eine Person hat gesunde Zähne.
 
 Das Baumdiagramm habe die Gestalt
 
@@ -59,19 +57,19 @@ Das Baumdiagramm habe die Gestalt
 
 Hinweise:
 
-* Die Ergebnisemenge ist $S=\\{AB, A\overline{B}, \overline{A}B, \overline{A}\overline{B}\\}$.
-* Es gilt $A=\\{AB, A\overline{B}\\}$ und $B=\\{AB, \overline{A}B\\}$.
-* Auf der ersten Stufe stehen die Wahrscheinlichkeiten von $A$ und $\overline{A}$: $P(A)=0{,}5$ und $P(\overline{A})=0{,}5$.
-* Auf der zweiten Stufe stehen die Wahrscheinlichkeiten von $B$ und $\overline{B}$ **in Abhängigkeit** davon, ob $A$ eingetreten ist oder nicht (diese Wahrscheinlichkeiten sind im Allgemeinen nicht $P(B)$ und $P(\overline{B})$).
-* Da $B=\\{AB, \overline{A}B\\}$ haben wir $P(B)=0{,}2+0{,}05=0{,}25$. Die Wahrscheinlichkeit, dass eine Person gesunde Zähne hat, beträgt also 25&nbsp;\%.
-* "$\cap$-Ereignisse": Wegen $A\cap B=\\{AB\\}$ etc. entspricht jeder Pfad genau dem entsprechenden "$\cap$-Ereignis". Dann folgt $P(A\cap B)=0{,}2$. Die Wahrscheinlichkeit, dass eine Person sich regelmäßig die Zähne putzt und gesunde Zähne hat, beträgt also 20&nbsp;\%.
-* "$\cup$-Ereignisse": Wegen $\overline{A}\cup B=\\{AB, \overline{A}B, \overline{A}\overline{B}\\}$ etc. gehören zu jedem "$\cup$-Ereignis" immer genau drei Pfade. Dann folgt
-\begin{align*}
-P(\overline{A}\cup B)&=P(\\{AB\\}) + P(\\{\overline{A}B\\})  + P(\\{\overline{A}\overline{B}\\})\\\\
-&=0{,}2+0,05+0{,}45\\\\
-&=0{,}7.
-\end{align*}
-Die Wahrscheinlichkeit, dass eine Person sich nicht regelmäßig die Zähne putzt oder gesunde Zähne hat, beträgt also 70&nbsp;\%.
+- Die Ergebnisemenge ist $S=\\{AB, A\overline{B}, \overline{A}B, \overline{A}\overline{B}\\}$.
+- Es gilt $A=\\{AB, A\overline{B}\\}$ und $B=\\{AB, \overline{A}B\\}$.
+- Auf der ersten Stufe stehen die Wahrscheinlichkeiten von $A$ und $\overline{A}$: $P(A)=0{,}5$ und $P(\overline{A})=0{,}5$.
+- Auf der zweiten Stufe stehen die Wahrscheinlichkeiten von $B$ und $\overline{B}$ **in Abhängigkeit** davon, ob $A$ eingetreten ist oder nicht (diese Wahrscheinlichkeiten sind im Allgemeinen nicht $P(B)$ und $P(\overline{B})$).
+- Da $B=\\{AB, \overline{A}B\\}$ haben wir $P(B)=0{,}2+0{,}05=0{,}25$. Die Wahrscheinlichkeit, dass eine Person gesunde Zähne hat, beträgt also 25&nbsp;\%.
+- "$\cap$-Ereignisse": Wegen $A\cap B=\\{AB\\}$ etc. entspricht jeder Pfad genau dem entsprechenden "$\cap$-Ereignis". Dann folgt $P(A\cap B)=0{,}2$. Die Wahrscheinlichkeit, dass eine Person sich regelmäßig die Zähne putzt und gesunde Zähne hat, beträgt also 20&nbsp;\%.
+- "$\cup$-Ereignisse": Wegen $\overline{A}\cup B=\\{AB, \overline{A}B, \overline{A}\overline{B}\\}$ etc. gehören zu jedem "$\cup$-Ereignis" immer genau drei Pfade. Dann folgt
+  \begin{align*}
+  P(\overline{A}\cup B)&=P(\\{AB\\}) + P(\\{\overline{A}B\\}) + P(\\{\overline{A}\overline{B}\\})\\\\
+  &=0{,}2+0,05+0{,}45\\\\
+  &=0{,}7.
+  \end{align*}
+  Die Wahrscheinlichkeit, dass eine Person sich nicht regelmäßig die Zähne putzt oder gesunde Zähne hat, beträgt also 70&nbsp;\%.
 
 ##### Übung: Baumdiagramm interpretieren
 
@@ -92,6 +90,7 @@ Sind alle Pfadwahrscheinlichkeiten gegeben – gegebenenfalls durch Berechnung v
 ##### Beispiel 2
 
 Gegeben ist das folgende Baumdiagramm:
+
  <figure>
   <img src="Baum1.png">
 </figure>
@@ -104,6 +103,7 @@ Die Wahrscheinlichkeit 4 wird mit $x$ bezeichnet und kann wie folgt berechnet we
 ##### Beispiel 3
 
 Gegeben ist das folgende Baumdiagramm:
+
  <figure>
   <img src="Baum2.png">
 </figure>
@@ -112,6 +112,87 @@ Die Wahrscheinlichkeit 2 wird mit $x$ bezeichnet und kann wie folgt berechnet we
 ##### Übung: Baumdiagramm vervollständigen 3
 
 <div id="quiz-bm-aufstellen3"></div>
+
+#### Weitere Beispiele
+
+##### Elektronikfachmarkt
+
+Für eine statistische Untersuchung wurden in einem großen Elektronikfachmarkt Aufzeichnungen über die Verkäufe von Laptops mit Windows- bzw. macOS-Betriebssystem geführt. Zusätzlich wurden drei Gerätekategorien erfasst: Einsteigergeräte (E), Mittelklassegeräte (M) und Premiumgeräte (P). Von den Einsteigergeräten liefen ein Fünftel und von den Mittelklassegeräten die Hälfe mit Windows. Von den insgesamt 80.000 erfassten Laptops waren 45&nbsp;\% mit Windows ausgestattet, es wurden 16.000 Einsteigergeräte und 8.000 Premiumgeräte verkauft.
+
+Mithilfe dieser Angaben ergibt sich das folgende Baumdiagramm. Dabei wurde bereits berücksichtigt, dass die Summe aller Pfadwahrscheinlichkeiten, die von einem Knoten ausgehen, gleich 1 ist. Außerdem wurden die Pfadendwahrscheinlichkeiten berechnet.
+
+ <figure>
+  <img src="Elektronikfachmarkt.png">
+</figure>
+
+Da insgesamt 45&nbsp;\% der Laptops mit Windows ausgestattet sind, gilt
+
+$$
+0{,}04+0{,}35+y=0{,}45 \Rightarrow y=0{,}06.
+$$
+
+Die Multiplikationsregel auf den $P$–$W$-Pfad angewendet ergibt
+
+$$
+0{,}1\cdot x = 0{,}06 \\Rightarrow x=0{,}6.
+$$
+
+Schließlich gilt für $z$
+
+$$
+z=0{,}1\cdot 0{,}4=0{,}04.
+$$
+
+Nun könnten wir beispielsweise die Wahrscheinlichkeiten folgender Ereignisse bestimmen:
+
+- $E$: Ein zufällig ausgewählter Laptop ist entweder mit macOS ausgestattet oder ein Einsteigergerät.
+  \begin{align*}
+  P(E)&=P(\\{EW\\})+P(\\{Em\\})+P(\\{Mm\\})+P(\\{Pm\\})\\\\
+  &=0{,}04+0{,}16+0{,}35+0{,}04\\\\
+  &=0{,}59
+  \end{align*}
+- $F$: Ein zufällig ausgewählter Premium-Laptop ist mit Windows ausgestattet.
+  $$
+  P(F)=0{,}6
+  $$
+
+##### Lern-Apps
+
+Was halten Jugendliche von Lern-Apps? Zu dieser Frage wurde eine Befragung unter 2.000 Schülerinnen und Schülern durchgeführt. 35,7&nbsp;\% der Befragten nutzen kostenlose Starter-Versionen (S) von Lern-Apps zur Unterhaltung (U), beispielsweise für Quizspiele. 24,3&nbsp;\% verwenden Starter-Versionen gezielt zur Vorbereitung auf Prüfungen (V).
+224 Jugendliche nutzen kostenpflichtige Pro-Versionen (P) zur gezielten Vorbereitung auf Prüfungen. Darüber hinaus gibt es auch einige Jugendliche mit Pro-Versionen, die die App lediglich zur Unterhaltung nutzen.
+480 Befragten haben bislang noch keine Lern-App (k) verwendet.
+
+Mithilfe dieser Angaben ergibt sich das folgende Baumdiagramm. Dabei wurde bereits berücksichtigt, dass die Summe aller Pfadwahrscheinlichkeiten, die von einem Knoten ausgehen, gleich 1 ist.
+
+ <figure>
+  <img src="Lernapp.png">
+</figure>
+
+Da die Summe aller Pfadenwahrscheinlichkeiten 1 ergeben muss, haben wir $d=1-0{,}357-0{,}243-0{,}112-0{,}24=0{,}048$. Außerdem ist $a=0{,}37+0{,}167=0{,}6$.
+Die Multiplikationsregel auf den $S$–$U$-Pfad angewendet ergibt
+
+$$
+0{,}6\cdot b=0{,}357 \Rightarrow b=0{,}595.
+$$
+
+Die Multiplikationsregel auf den $P$–$U$-Pfad angewendet ergibt
+
+$$
+(0{,}76-0{,}6)\cdot c=0{,}048 \Rightarrow c=0{,}3.
+$$
+
+Nun könnten wir beispielsweise die Wahrscheinlichkeiten folgender Ereignisse bestimmen:
+
+- $E$: Ein zufällig ausgewählter Jugendlicher verwendet eine Pro-Version.
+  $$
+  P(E)=0{,}16
+  $$
+- $F$: Ein zufällig ausgewählter Jugendlicher verwendet eine Lern-App zur Unterhaltung.
+  \begin{align*}
+  P(F)&=P(\\{SU\\})+P(\\{PU\\})\\\\
+  &=0{,}357+0{,}048\\\\
+  &=0{,}405
+  \end{align*}
 
 <!--### Urnenmodelle
 Ein wichtiges Beipsiel für mehrstufige Zufallsexperimente sind das Ziehen von Kugeln aus einer Urne. Hier müssen wir unterscheiden, ob Kugeln zurückgegelgt werden oder nicht.
