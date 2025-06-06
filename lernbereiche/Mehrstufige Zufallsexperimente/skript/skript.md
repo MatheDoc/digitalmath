@@ -117,7 +117,7 @@ Die Wahrscheinlichkeit 2 wird mit $x$ bezeichnet und kann wie folgt berechnet we
 
 ##### Elektronikfachmarkt
 
-Für eine statistische Untersuchung wurden in einem großen Elektronikfachmarkt Aufzeichnungen über die Verkäufe von Laptops mit Windows- bzw. macOS-Betriebssystem geführt. Zusätzlich wurden drei Gerätekategorien erfasst: Einsteigergeräte (E), Mittelklassegeräte (M) und Premiumgeräte (P). Von den Einsteigergeräten liefen ein Fünftel und von den Mittelklassegeräten die Hälfe mit Windows. Von den insgesamt 80.000 erfassten Laptops waren 45&nbsp;\% mit Windows ausgestattet, es wurden 16.000 Einsteigergeräte und 8.000 Premiumgeräte verkauft.
+Für eine statistische Untersuchung wurden in einem großen Elektronikfachmarkt Aufzeichnungen über die Verkäufe von Laptops mit Windows (W)- bzw. macOS (m)-Betriebssystem geführt. Zusätzlich wurden drei Gerätekategorien erfasst: Einsteigergeräte (E), Mittelklassegeräte (M) und Premiumgeräte (P). Von den Einsteigergeräten liefen ein Fünftel und von den Mittelklassegeräten die Hälfe mit Windows. Von den insgesamt 80.000 erfassten Laptops waren 45&nbsp;\% mit Windows ausgestattet, es wurden 16.000 Einsteigergeräte und 8.000 Premiumgeräte verkauft.
 
 Mithilfe dieser Angaben ergibt sich das folgende Baumdiagramm. Dabei wurde bereits berücksichtigt, dass die Summe aller Pfadwahrscheinlichkeiten, die von einem Knoten ausgehen, gleich 1 ist. Außerdem wurden die Pfadendwahrscheinlichkeiten berechnet.
 

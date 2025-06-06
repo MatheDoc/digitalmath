@@ -279,11 +279,58 @@ und setzen gleich: $0{,}5 -y = 4y - 1{,}35$. Es folgt $1{,}85 = 5y$ und so $y=0{
 
 <div id="quiz-zweiFehlendeWkt"></div>
 
-<!--
-##### Beispiel: Wurf zweier Würfel
-Die Ergebnismenge ist $S=\\{(1;1),(1;2),\ldots,(6;6)\\}$. Die Zufallsgröße bestehe nun darin, jedem Ergebnis die Summe der Augenzahlen zuzuordnen: $(1;1) \mapsto 2$, $(1;2) \mapsto 3$, $\ldots$, $(6;6) \mapsto 12$.
+#### Weitere Beispiele
 
-| $x_i$            | $2$            | $3$            | $4$            | $5$            | $6$            | $7$            | $8$            | $9$            | $10$           | $11$           | $12$           |
-|------------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|
-| $P(X = x_i)$     | $\frac{1}{36}$ | $\frac{2}{36}$ | $\frac{3}{36}$ | $\frac{4}{36}$ | $\frac{5}{36}$ | $\frac{6}{36}$ | $\frac{5}{36}$ | $\frac{4}{36}$ | $\frac{3}{36}$ | $\frac{2}{36}$ | $\frac{1}{36}$ |
--->
+##### Elektronikfachmarkt
+
+In [diesem Beispiel](skript.html?thema=Mehrstufige%20Zufallsexperimente#elektronikfachmarkt) wurden für eine statistische Untersuchung in einem großen Elektronikfachmarkt Aufzeichnungen über die Verkäufe von Laptops mit Windows- bzw. macOS-Betriebssystem geführt. Zusätzlich wurden drei Gerätekategorien erfasst: Einsteigergeräte (E), Mittelklassegeräte (M) und Premiumgeräte (P).
+
+Der Sachverhalt ist in folgendem Baumdiagramm dargestellt:
+
+ <figure>
+  <img src="Elektronikfachmarkt.png">
+</figure>
+
+Der Gewinn bei Windows-Geräten beträgt unabhängig von der Gerätekategorie 180&nbsp;€ pro Stück. Bei macOS-Geräten beläuft sich der Gewinn auf 130&nbsp;€ für Einsteigergeräte, 210&nbsp;€ für Mittelklassegeräte und 290 € für Premiumgeräte.
+
+Die Wahrscheinlichkeitsverteilung der Zufallsgröße, die den Gewinn pro Laptop angibt, lautet:
+
+| $x_i$        | $180$    | $130$    | $210$    | $290$    |
+| ------------ | -------- | -------- | -------- | -------- |
+| $P(X = x_i)$ | $0{,}45$ | $0{,}16$ | $0{,}35$ | $0{,}04$ |
+
+Hierbei wurde $P(\\{W\\})=0{,}04+0{,}35+0{,}06=0{,}45$ berechnet.
+
+Der erwartete Gewinn pro Laptop beträgt dann
+\begin{align*}
+E(X) &= 180 \cdot 0{,}45 + 130 \cdot 0{,}16 + 210 \cdot 0{,}35 + 290 \cdot 0{,}04 \\\\
+&= 81 + 20{,}8 + 73{,}5 + 11{,}6 \\\\
+&= 186{,}9.
+\end{align*}
+
+Werden insgesamt z.B. 80.000 Laptops verkauft, so beträgt der Gesamtgewinn $186{,}9 \cdot 80.000=14.952.000$ €.
+
+##### Lern-Apps
+
+In [diesem Beispiel](skript.html?thema=Mehrstufige%20Zufallsexperimente#lern-apps) wurden 2.000 Schülerinnen und Schülern befragt, welche Versionen von Lern-Apps sie nutzen: Starter-Versionen (S), Pro-Versionen (P) oder keine Lern-Apps (k). Außerdem wurde untersucht, ob sie die Apps zur Unterhaltung (U) oder zur Vorbereitung auf Prüfungen (V) verwenden.
+
+Der Sachverhalt ist in folgendem Baumdiagramm dargestellt:
+
+ <figure>
+  <img src="Lernapp.png">
+</figure>
+
+Jugendliche, die mit Pro-Versionen von Lern-Apps gezielt für Prüfungen gelernt haben, erreichen in der Abiturprüfung im Durchschnitt 11,3 Punkte. Diejenigen, die mit Starter-Versionen gezielt gelernt haben, erzielen im Mittel 10,4 Punkte, jene, die Lern-Apps zur Unterhaltung nutzen, 9,1 Punkte. Jugendliche ohne Nutzung von Lern-Apps erreichen durchschnittlich 7,3 Punkte.
+
+Die Wahrscheinlichkeitsverteilung der Zufallsgröße, die die Punkte in der Abiturprüfung angibt, lautet:
+
+| $x_i$        | $11{,}3$  | $10{,}4$  | $9{,}1$   | $7{,}3$  |
+| ------------ | --------- | --------- | --------- | -------- |
+| $P(X = x_i)$ | $0{,}112$ | $0{,}243$ | $0{,}405$ | $0{,}24$ |
+
+Der erwarteten Punkte je Abiturprüfung betragen dann
+\begin{align*}
+E(X) &= 11{,}3 \cdot 0{,}112 + 10{,}4 \cdot 0{,}243 + 9{,}1 \cdot 0{,}405 + 7{,}3 \cdot 0{,}24 \\\\
+&= 1{,}2656 + 2{,}5272 + 3{,}6855 + 1{,}752 \\\\
+&= 9{,}2303.
+\end{align*}
