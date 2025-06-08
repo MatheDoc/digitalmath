@@ -125,36 +125,47 @@ Mithilfe dieser Angaben ergibt sich das folgende Baumdiagramm. Dabei wurde berei
   <img src="Elektronikfachmarkt.png">
 </figure>
 
-Da insgesamt 45&nbsp;\% der Laptops mit Windows ausgestattet sind, gilt
-
+<details class="flip-card">
+<summary>Welchen Wert hat $y$ ?</summary>
+<div>Da insgesamt 45 % der Laptops mit Windows ausgestattet sind, gilt
 $$
 0{,}04+0{,}35+y=0{,}45 \Rightarrow y=0{,}06.
+$$</div>
+</details>
+
+<details class="flip-card">
+<summary>Welchen Wert hat $x$ ?</summary>
+<div>Die Multiplikationsregel auf den $P$–$W$-Pfad angewendet ergibt
 $$
+0{,}1\cdot x = 0{,}06 \Rightarrow x=0{,}6.
+$$</div>
+</details>
 
-Die Multiplikationsregel auf den $P$–$W$-Pfad angewendet ergibt
+<details class="flip-card">
+<summary>Welchen Wert hat $z$ ?</summary>
+<div>$$
+z=0{,}1\cdot (1-0{,}6)=0{,}04.
+$$</div>
+</details>
 
-$$
-0{,}1\cdot x = 0{,}06 \\Rightarrow x=0{,}6.
-$$
-
-Schließlich gilt für $z$
-
-$$
-z=0{,}1\cdot 0{,}4=0{,}04.
-$$
-
-Nun könnten wir beispielsweise die Wahrscheinlichkeiten folgender Ereignisse bestimmen:
-
-- $E$: Ein zufällig ausgewählter Laptop ist entweder mit macOS ausgestattet oder ein Einsteigergerät.
-  \begin{align*}
-  P(E)&=P(\\{EW\\})+P(\\{Em\\})+P(\\{Mm\\})+P(\\{Pm\\})\\\\
-  &=0{,}04+0{,}16+0{,}35+0{,}04\\\\
+Wie lauten die Wahrscheinlichkeiten der folgenden Ereignisse?
+<details class="flip-card">
+<summary>$E$: Ein zufällig ausgewählter Laptop ist entweder mit macOS ausgestattet oder ein Einsteigergerät.</summary>
+<div>  \begin{align*}
+  P(E)&=P(\{EW\})+P(\{Em\})+P(\{Mm\})+P(\{Pm\})\\
+  &=0{,}04+0{,}16+0{,}35+0{,}04\\
   &=0{,}59
-  \end{align*}
-- $F$: Ein zufällig ausgewählter Premium-Laptop ist mit Windows ausgestattet.
-  $$
+  \end{align*}</div>
+</details>
+
+<details class="flip-card">
+<summary>$F$: Ein zufällig ausgewählter Premium-Laptop ist mit Windows ausgestattet.</summary>
+<div>
+$$
   P(F)=0{,}6
   $$
+  </div>
+</details>
 
 ##### Lern-Apps
 
@@ -168,31 +179,65 @@ Mithilfe dieser Angaben ergibt sich das folgende Baumdiagramm. Dabei wurde berei
   <img src="Lernapp.png">
 </figure>
 
-Da die Summe aller Pfadenwahrscheinlichkeiten 1 ergeben muss, haben wir $d=1-0{,}357-0{,}243-0{,}112-0{,}24=0{,}048$. Außerdem ist $a=0{,}37+0{,}167=0{,}6$.
-Die Multiplikationsregel auf den $S$–$U$-Pfad angewendet ergibt
+<details class="flip-card">
+<summary>Welchen Wert hat $d$ ?</summary>
+<div>
+Da die Summe aller Pfadenwahrscheinlichkeiten 1 ergeben muss, haben wir
+$$
+d=1-0{,}357-0{,}243-0{,}112-0{,}24=0{,}048.
+$$
+</div>
+</details>
 
+<details class="flip-card">
+<summary>Welchen Wert hat $a$ ?</summary>
+<div>
+Die Pfadadditionsregel auf den  $S$–$U$- und  $S$–$V$-Pfad angewendet ergibt
+$$
+a=0{,}357+0{,}243=0{,}6.
+$$
+</div>
+</details>
+
+<details class="flip-card">
+<summary>Welchen Wert hat $b$ ?</summary>
+<div>
+Die Multiplikationsregel auf den $S$–$U$-Pfad angewendet ergibt
 $$
 0{,}6\cdot b=0{,}357 \Rightarrow b=0{,}595.
 $$
+</div>
+</details>
 
+<details class="flip-card">
+<summary>Welchen Wert hat $c$ ?</summary>
+<div>
 Die Multiplikationsregel auf den $P$–$U$-Pfad angewendet ergibt
-
 $$
 (0{,}76-0{,}6)\cdot c=0{,}048 \Rightarrow c=0{,}3.
 $$
+</div>
+</details>
 
-Nun könnten wir beispielsweise die Wahrscheinlichkeiten folgender Ereignisse bestimmen:
 
-- $E$: Ein zufällig ausgewählter Jugendlicher verwendet eine Pro-Version.
-  $$
-  P(E)=0{,}16
-  $$
-- $F$: Ein zufällig ausgewählter Jugendlicher verwendet eine Lern-App zur Unterhaltung.
-  \begin{align*}
-  P(F)&=P(\\{SU\\})+P(\\{PU\\})\\\\
-  &=0{,}357+0{,}048\\\\
+
+Wie lauten die Wahrscheinlichkeiten der folgenden Ereignisse?
+<details class="flip-card">
+<summary>$E$: Ein zufällig ausgewählter Jugendlicher verwendet eine Pro-Version.</summary>
+<div>    $$
+  P(E)=0{,}76 - 0{,}6 = 0{,}16
+  $$</div>
+</details>
+
+<details class="flip-card">
+<summary>$F$: Ein zufällig ausgewählter Jugendlicher verwendet eine Lern-App zur Unterhaltung.</summary>
+<div>    \begin{align*}
+  P(F)&=P(\{SU\})+P(\{PU\})\\
+  &=0{,}357+0{,}048\\
   &=0{,}405
-  \end{align*}
+  \end{align*}</div>
+</details>
+
 
 <!--### Urnenmodelle
 Ein wichtiges Beipsiel für mehrstufige Zufallsexperimente sind das Ziehen von Kugeln aus einer Urne. Hier müssen wir unterscheiden, ob Kugeln zurückgegelgt werden oder nicht.

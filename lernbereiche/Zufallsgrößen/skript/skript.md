@@ -36,7 +36,7 @@ Der Erwartungswert einer (diskreten) Zufallsgröße $X$ ergibt sich aus der Summ
 
 \begin{align*}
 E(X) &= x_1 \cdot P(X = x_1) + x_2 \cdot P(X = x_2) + \ldots + x_n \cdot P(X = x_n) \\\\
-&= \sum_{i=1}^{n} x_i \cdot P(X = x_i)
+&= \sum*{i=1}^{n} x_i \cdot P(X = x_i)
 \end{align*}
 
 In der Statistik, in der Wahrscheinlichkeiten häufig als relative Häufigkeiten interpretiert werden, entspricht der Erwartungswert dem **gewichteten arithmetischen Mittel**. Das bedeutet: Häufigere (wahrscheinlichere) Werte fließen stärker in den Mittelwert ein als seltenere.
@@ -77,7 +77,7 @@ Wir suchen nun eine Kennzahl, mit der wir genau messen können, wie stark eine Z
 
 \begin{align*}
 \sigma(X) &= \sqrt{(x_1-E(X))^2 \cdot P(X = x_1) + (x_2-E(X))^2 \cdot P(X = x_2) + \ldots + (x_n-E(X))^2 \cdot P(X = x_n)} \\\\
-&= \sqrt{\sum_{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
+&= \sqrt{\sum*{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
 \end{align*}
 
 Auch der Ausdruck unter der Wurzel eignet sich, die Schwankungen zu messen. Er wird **Varianz** genannt und mit $\sigma^2$ bezeichnet.
@@ -293,22 +293,32 @@ Der Sachverhalt ist in folgendem Baumdiagramm dargestellt:
 
 Der Gewinn bei Windows-Geräten beträgt unabhängig von der Gerätekategorie 180&nbsp;€ pro Stück. Bei macOS-Geräten beläuft sich der Gewinn auf 130&nbsp;€ für Einsteigergeräte, 210&nbsp;€ für Mittelklassegeräte und 290 € für Premiumgeräte.
 
-Die Wahrscheinlichkeitsverteilung der Zufallsgröße, die den Gewinn pro Laptop angibt, lautet:
+<details class="flip-card">
+<summary>Wie lautet die Wahrscheinlichkeitsverteilung der Zufallsgröße, die den Gewinn pro Laptop angibt?
+</summary>
+<div>
+Zunächst berechnen wir $P(\\{W\\})=0{,}04+0{,}35+0{,}06=0{,}45$. Wir erhalten:
 
 | $x_i$        | $180$    | $130$    | $210$    | $290$    |
 | ------------ | -------- | -------- | -------- | -------- |
 | $P(X = x_i)$ | $0{,}45$ | $0{,}16$ | $0{,}35$ | $0{,}04$ |
 
-Hierbei wurde $P(\\{W\\})=0{,}04+0{,}35+0{,}06=0{,}45$ berechnet.
+</div>
+</details>
 
-Der erwartete Gewinn pro Laptop beträgt dann
+<details class="flip-card">
+<summary>Wie hoch ist der erwartete Gewinn pro Laptop? Und wie hoch ist der Gesamtgewinn bei 80.000 verkauften Laptops?
+</summary>
+<div> Wir berechnen den Erwartungswert:
 \begin{align*}
 E(X) &= 180 \cdot 0{,}45 + 130 \cdot 0{,}16 + 210 \cdot 0{,}35 + 290 \cdot 0{,}04 \\\\
 &= 81 + 20{,}8 + 73{,}5 + 11{,}6 \\\\
 &= 186{,}9.
 \end{align*}
 
-Werden insgesamt z.B. 80.000 Laptops verkauft, so beträgt der Gesamtgewinn $186{,}9 \cdot 80.000=14.952.000$ €.
+Der Gesamtgewinn beträgt dann $186{,}9 \cdot 80.000 = 14.952.000$ €.
+</div>
+</details>
 
 ##### Lern-Apps
 
@@ -322,15 +332,28 @@ Der Sachverhalt ist in folgendem Baumdiagramm dargestellt:
 
 Jugendliche, die mit Pro-Versionen von Lern-Apps gezielt für Prüfungen gelernt haben, erreichen in der Abiturprüfung im Durchschnitt 11,3 Punkte. Diejenigen, die mit Starter-Versionen gezielt gelernt haben, erzielen im Mittel 10,4 Punkte, jene, die Lern-Apps zur Unterhaltung nutzen, 9,1 Punkte. Jugendliche ohne Nutzung von Lern-Apps erreichen durchschnittlich 7,3 Punkte.
 
-Die Wahrscheinlichkeitsverteilung der Zufallsgröße, die die Punkte in der Abiturprüfung angibt, lautet:
+<details class="flip-card">
+<summary>
+Wie lautet die Wahrscheinlichkeitsverteilung der Zufallsgröße, die die Punkte in der Abiturprüfung angibt?
+</summary>
+<div>
+Die Wahrscheinlichkeit, dass ein Jugendlicher Lern-Apps nur zur Unterhaltung nutzt beträgt $0{,}357+0{,}048=0{,}405$. Wir erhalten:
 
 | $x_i$        | $11{,}3$  | $10{,}4$  | $9{,}1$   | $7{,}3$  |
 | ------------ | --------- | --------- | --------- | -------- |
 | $P(X = x_i)$ | $0{,}112$ | $0{,}243$ | $0{,}405$ | $0{,}24$ |
 
-Der erwarteten Punkte je Abiturprüfung betragen dann
+</div>
+</details>
+
+<details class="flip-card">
+<summary>Wie viele Punkte erreichen Jugendliche in der Abiturprüfung im langfristen Mittel?</summary>
+<div>
+Wir berechnen den Erwarrtungswert:
 \begin{align*}
 E(X) &= 11{,}3 \cdot 0{,}112 + 10{,}4 \cdot 0{,}243 + 9{,}1 \cdot 0{,}405 + 7{,}3 \cdot 0{,}24 \\\\
 &= 1{,}2656 + 2{,}5272 + 3{,}6855 + 1{,}752 \\\\
 &= 9{,}2303.
 \end{align*}
+</div>
+</details>
