@@ -1,182 +1,182 @@
 ﻿[
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,13 \\)</td>        <td>\\( 0,29 \\)</td>        <td>\\( 0,34 \\)</td>        <td>\\( 0,04 \\)</td>        <td>\\( 0,2 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,01 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,36 \\)</td>        <td>\\( 0,17 \\)</td>        <td>\\( 0,22 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,22\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 1,7\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=2,5596:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,1977:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,26 \\)</td>        <td>\\( 0,38 \\)</td>        <td>\\( 0,01 \\)</td>        <td>\\( 0,09 \\)</td>        <td>\\( 0,26 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,05 \\)</td>        <td>\\( 0,16 \\)</td>        <td>\\( 0,13 \\)</td>        <td>\\( 0,2 \\)</td>        <td>\\( 0,46 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 1,54\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 1,77\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=2,6511:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,4733:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,09 \\)</td>        <td>\\( 0,09 \\)</td>        <td>\\( 0,26 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,32 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,07 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,27 \\)</td>        <td>\\( 0,18 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 3,45\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 2,8\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=3,0179:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=1,9131:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,06 \\)</td>        <td>\\( 0,28 \\)</td>        <td>\\( 0,29 \\)</td>        <td>\\( 0,14 \\)</td>        <td>\\( 0,23 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,05 \\)</td>        <td>\\( 0,34 \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,41 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 2,92\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 1,98\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=2,7989:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=1,9441:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 5 \\)</td>        <td>\\( 8 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,12 \\)</td>        <td>\\( 0,19 \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,33 \\)</td>        <td>\\( 0,26 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 6 \\)</td>        <td>\\( 9 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,28 \\)</td>        <td>\\( 0,18 \\)</td>        <td>\\( 0,14 \\)</td>        <td>\\( 0,3 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 3,98\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 3,88\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=3,2588:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=4,038:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 5 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,12 \\)</td>        <td>\\( 0,42 \\)</td>        <td>\\( 0,13 \\)</td>        <td>\\( 0,01 \\)</td>        <td>\\( 0,32 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -5 \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 3 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,33 \\)</td>        <td>\\( 0,19 \\)</td>        <td>\\( 0,26 \\)</td>        <td>\\( 0,12 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 2,73\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -1,25\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=3,146:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,451:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -5 \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 1 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,23 \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,18 \\)</td>        <td>\\( 0,25 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,28 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,07 \\)</td>        <td>\\( 0,17 \\)</td>        <td>\\( 0,24 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -1,78\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 1,05\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=2,322:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,6014:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 1 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,11 \\)</td>        <td>\\( 0,09 \\)</td>        <td>\\( 0,09 \\)</td>        <td>\\( 0,36 \\)</td>        <td>\\( 0,35 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -5 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,19 \\)</td>        <td>\\( 0,28 \\)</td>        <td>\\( 0,31 \\)</td>        <td>\\( 0,19 \\)</td>        <td>\\( 0,03 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,36\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,98\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=1,559:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,5337:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -5 \\)</td>        <td>\\( -3 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 2 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,15 \\)</td>        <td>\\( 0,25 \\)</td>        <td>\\( 0,17 \\)</td>        <td>\\( 0,27 \\)</td>        <td>\\( 0,16 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,28 \\)</td>        <td>\\( 0,08 \\)</td>        <td>\\( 0,05 \\)</td>        <td>\\( 0,37 \\)</td>        <td>\\( 0,22 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,91\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 2,61\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=2,4662:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=3,385:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 1 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,07 \\)</td>        <td>\\( 0,07 \\)</td>        <td>\\( 0,26 \\)</td>        <td>\\( 0,27 \\)</td>        <td>\\( 0,33 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,11 \\)</td>        <td>\\( 0,27 \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,28 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,35\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 2,69\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=1,3666:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=3,3873:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 6 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,27 \\)</td>        <td>\\( 0,09 \\)</td>        <td>\\( 0,17 \\)</td>        <td>\\( 0,29 \\)</td>        <td>\\( 0,18 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,18 \\)</td>        <td>\\( 0,14 \\)</td>        <td>\\( 0,39 \\)</td>        <td>\\( 0,19 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 3,23\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 1,63\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=3,5661:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,4966:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,06 \\)</td>        <td>\\( 0,04 \\)</td>        <td>\\( 0,53 \\)</td>        <td>\\( 0,11 \\)</td>        <td>\\( 0,26 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -5 \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,21 \\)</td>        <td>\\( 0,03 \\)</td>        <td>\\( 0,36 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,16 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 3,16\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,62\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=2,6295:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,8802:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,18 \\)</td>        <td>\\( 0,14 \\)</td>        <td>\\( 0,21 \\)</td>        <td>\\( 0,21 \\)</td>        <td>\\( 0,26 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,11 \\)</td>        <td>\\( 0,34 \\)</td>        <td>\\( 0,17 \\)</td>        <td>\\( 0,05 \\)</td>        <td>\\( 0,33 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 0,78\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 0,64\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=2,4802:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,6778:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 2 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,1 \\)</td>        <td>\\( 0,05 \\)</td>        <td>\\( 0,35 \\)</td>        <td>\\( 0,16 \\)</td>        <td>\\( 0,34 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,13 \\)</td>        <td>\\( 0,29 \\)</td>        <td>\\( 0,31 \\)</td>        <td>\\( 0,03 \\)</td>        <td>\\( 0,24 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,17\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 2,34\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=1,8658:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=3,2748:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -3 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 6 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,13 \\)</td>        <td>\\( 0,26 \\)</td>        <td>\\( 0,34 \\)</td>        <td>\\( 0,16 \\)</td>        <td>\\( 0,11 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -4 \\)</td>        <td>\\( -3 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,23 \\)</td>        <td>\\( 0,05 \\)</td>        <td>\\( 0,37 \\)</td>        <td>\\( 0,2 \\)</td>        <td>\\( 0,15 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,16\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 0,28\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=3,1296:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=3,0986:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 4 \\)</td>        <td>\\( 5 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,25 \\)</td>        <td>\\( 0,26 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,04 \\)</td>        <td>\\( 0,21 \\)</td>    </tr></table>",
-"fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 2,39\\)."
-],
-"antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=3,2677:0,0001}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,02 \\)</td>        <td>\\( 0,33 \\)</td>        <td>\\( 0,01 \\)</td>        <td>\\( 0,31 \\)</td>        <td>\\( 0,33 \\)</td>    </tr></table>",
-"fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 1,54\\)."
-],
-"antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=2,6848:0,0001}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,29 \\)</td>        <td>\\( 0,34 \\)</td>        <td>\\( 0,26 \\)</td>        <td>\\( 0,09 \\)</td>        <td>\\( 0,02 \\)</td>    </tr></table>",
-"fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,55\\)."
-],
-"antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=1,5835:0,0001}"
-]
-},
-{
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 1 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,18 \\)</td>        <td>\\( 0,32 \\)</td>        <td>\\( 0,17 \\)</td>        <td>\\( 0,3 \\)</td>        <td>\\( 0,03 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -5 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,32 \\)</td>        <td>\\( 0,12 \\)</td>        <td>\\( 0,3 \\)</td>        <td>\\( 0,16 \\)</td>        <td>\\( 0,1 \\)</td>    </tr></table>",
 "fragen":[
 "Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -1,32\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=1,1652:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=3,1902:0,0001}"
 ]
 },
 {
-"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 5 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,28 \\)</td>        <td>\\( 0,31 \\)</td>        <td>\\( 0,23 \\)</td>        <td>\\( 0,16 \\)</td>        <td>\\( 0,02 \\)</td>    </tr></table>",
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -5 \\)</td>        <td>\\( -2 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 3 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,5 \\)</td>        <td>\\( 0,26 \\)</td>        <td>\\( 0,16 \\)</td>        <td>\\( 0,05 \\)</td>        <td>\\( 0,03 \\)</td>    </tr></table>",
 "fragen":[
-"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -0,73\\)."
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = -2,99\\)."
 ],
 "antworten":[
-"\\( S(X)= \\) {1:NUMERICAL:=1,8539:0,0001}"
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,2869:0,0001}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 2 \\)</td>        <td>\\( 5 \\)</td>        <td>\\( 6 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,31 \\)</td>        <td>\\( 0,24 \\)</td>        <td>\\( 0,03 \\)</td>        <td>\\( 0,14 \\)</td>        <td>\\( 0,28 \\)</td>    </tr></table>",
+"fragen":[
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 1,27\\)."
+],
+"antworten":[
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=3,8881:0,0001}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -3 \\)</td>        <td>\\( -1 \\)</td>        <td>\\( 0 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 4 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,28 \\)</td>        <td>\\( 0,21 \\)</td>        <td>\\( 0,02 \\)</td>        <td>\\( 0,25 \\)</td>        <td>\\( 0,24 \\)</td>    </tr></table>",
+"fragen":[
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 0,66\\)."
+],
+"antworten":[
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,8956:0,0001}"
+]
+},
+{
+"einleitung":"Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsgröße X.<table class=\"TabelleEinleitung\">    <tr>        <td>\\( x \\)</td>        <td>\\( -2 \\)</td>        <td>\\( 1 \\)</td>        <td>\\( 3 \\)</td>        <td>\\( 5 \\)</td>        <td>\\( 7 \\)</td>    </tr>    <tr>        <td>\\( P \\)</td>        <td>\\( 0,05 \\)</td>        <td>\\( 0,09 \\)</td>        <td>\\( 0,3 \\)</td>        <td>\\( 0,39 \\)</td>        <td>\\( 0,17 \\)</td>    </tr></table>",
+"fragen":[
+"Bestimmen Sie die Standardabweichung (auf 4 NKS gerundet). Es ist bekannt, dass \\( E(X) = 4,03\\)."
+],
+"antworten":[
+"\\( \\sigma(X)= \\) {1:NUMERICAL:=2,1975:0,0001}"
 ]
 }
 ]

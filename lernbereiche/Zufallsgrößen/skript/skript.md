@@ -36,7 +36,7 @@ Der Erwartungswert einer (diskreten) Zufallsgröße $X$ ergibt sich aus der Summ
 
 \begin{align*}
 E(X) &= x_1 \cdot P(X = x_1) + x_2 \cdot P(X = x_2) + \ldots + x_n \cdot P(X = x_n) \\\\
-&= \sum*{i=1}^{n} x_i \cdot P(X = x_i)
+&= \sum_{i=1}^{n} x_i \cdot P(X = x_i)
 \end{align*}
 
 In der Statistik, in der Wahrscheinlichkeiten häufig als relative Häufigkeiten interpretiert werden, entspricht der Erwartungswert dem **gewichteten arithmetischen Mittel**. Das bedeutet: Häufigere (wahrscheinlichere) Werte fließen stärker in den Mittelwert ein als seltenere.
@@ -63,8 +63,6 @@ Der Erwartungswert für Biathlet B beträgt also $1{,}72$. Auch Biathlet B verfe
 
 Wären die Erwartungswerte der beiden Biathleten unterschiedlich gewesen, hätten wir eine fundierte Entscheidungsgrundlage gehabt, um zu entscheiden, welcher der treffsicherere Biathlet ist.
 
-##### Musteraufgabe: Bestimmung des Erwartungswerts
-
 ##### Übung: Bestimmung des Erwartungswerts
 
 <div id="quiz-erwartungswert-allgemein"></div>
@@ -77,7 +75,7 @@ Wir suchen nun eine Kennzahl, mit der wir genau messen können, wie stark eine Z
 
 \begin{align*}
 \sigma(X) &= \sqrt{(x_1-E(X))^2 \cdot P(X = x_1) + (x_2-E(X))^2 \cdot P(X = x_2) + \ldots + (x_n-E(X))^2 \cdot P(X = x_n)} \\\\
-&= \sqrt{\sum*{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
+&= \sqrt{\sum_{i=1}^{n} (x_i - E(X))^2\cdot P(X=x_i)}
 \end{align*}
 
 Auch der Ausdruck unter der Wurzel eignet sich, die Schwankungen zu messen. Er wird **Varianz** genannt und mit $\sigma^2$ bezeichnet.
@@ -137,7 +135,7 @@ Die Standardabweichung von Biathlet B beträgt also ungefähr $1{,}75$. Die Anza
 
 Die Erwartungswerte der beiden Biathleten sind gleich: $E(X_A)=1,72$ und $E(X_B)=1,72$. Das bedeutet, dass sie im Mittel die gleiche Anzahl an Fehlschüssen haben.
 
-Die Standardabweichungen entscheiden sich allerdings deutlich: $\sigma(X_A) \approx 0{,}75$ und $\sigma(X_B) \approx 1{,}75$. Eine präzise Interpretation dieser Standardabweichungen ist an dieser Stelle nicht unmittelbar möglich. Vereinfacht gesagt, liegt ein Großteil der Werte in einem Intervall von etwa einer Standardabweichung um den Erwartungswert. Dieses Intervall umfasst also typischerweise die „häufigen“ Werte der Zufallsgröße.
+Die Standardabweichungen entscheiden sich allerdings deutlich: $\sigma(X_A) \approx 0{,}75$ und $\sigma(X_B) \approx 1{,}75$. Eine präzise Interpretation der Standardabweichungen ist an dieser Stelle nicht unmittelbar möglich. Vereinfacht gesagt, liegt ein Großteil der Werte in einem Intervall von etwa einer Standardabweichung um den Erwartungswert. Dieses Intervall umfasst also die „häufigen“ Werte der Zufallsgröße.
 
 Für Biathlet A gilt:
 \begin{align*}
@@ -311,8 +309,8 @@ Zunächst berechnen wir $P(\\{W\\})=0{,}04+0{,}35+0{,}06=0{,}45$. Wir erhalten:
 </summary>
 <div> Wir berechnen den Erwartungswert:
 \begin{align*}
-E(X) &= 180 \cdot 0{,}45 + 130 \cdot 0{,}16 + 210 \cdot 0{,}35 + 290 \cdot 0{,}04 \\\\
-&= 81 + 20{,}8 + 73{,}5 + 11{,}6 \\\\
+E(X) &= 180 \cdot 0{,}45 + 130 \cdot 0{,}16 + 210 \cdot 0{,}35 + 290 \cdot 0{,}04 \\
+&= 81 + 20{,}8 + 73{,}5 + 11{,}6 \\
 &= 186{,}9.
 \end{align*}
 
@@ -351,8 +349,8 @@ Die Wahrscheinlichkeit, dass ein Jugendlicher Lern-Apps nur zur Unterhaltung nut
 <div>
 Wir berechnen den Erwarrtungswert:
 \begin{align*}
-E(X) &= 11{,}3 \cdot 0{,}112 + 10{,}4 \cdot 0{,}243 + 9{,}1 \cdot 0{,}405 + 7{,}3 \cdot 0{,}24 \\\\
-&= 1{,}2656 + 2{,}5272 + 3{,}6855 + 1{,}752 \\\\
+E(X) &= 11{,}3 \cdot 0{,}112 + 10{,}4 \cdot 0{,}243 + 9{,}1 \cdot 0{,}405 + 7{,}3 \cdot 0{,}24 \\
+&= 1{,}2656 + 2{,}5272 + 3{,}6855 + 1{,}752 \\
 &= 9{,}2303.
 \end{align*}
 </div>
