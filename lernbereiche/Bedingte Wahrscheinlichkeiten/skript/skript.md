@@ -331,7 +331,7 @@ Wir erkennen, dass $0{,}6 \cdot 0{,}75 = 0{,}45$ ist. Die Vier-Felder-Tafel ist 
 
 Sind zwei Ereignisse $A$ und $B$ stochastisch unabhängig, so können wir diese Information beim Erstellen von Baumdiagrammen und Vier-Felder-Tafeln gezielt nutzen.
 
-##### Beispiel: Baumdiagramm
+##### Beispiel: Baumdiagramme
 
 Ein Baumdiagramm habe die Gestalt
 
@@ -349,7 +349,7 @@ Zudem sei bekannt, dass $A$ und $B$ stochastisch unabhängig sind. Damit gilt $P
 
 <div id="quiz-bm-folgern-su"></div>
 
-##### Beispiel: Vier-Felder-Tafel
+##### Beispiel: Vier-Felder-Tafeln
 
 Eine Vier-Felder-Tafel habe die Gestalt
 
