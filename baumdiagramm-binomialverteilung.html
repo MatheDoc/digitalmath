@@ -2,15 +2,22 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <title>Bernoulli-Baumdiagramm farbige Knoten ohne Beschriftung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Baumdiagramme der Binomialverteilung" />
+    <meta name="author" content="Dr. Sven Führing" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>Baumdiagramme der Binomialverteilung</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
     <style>
       .diagramm-row {
         display: flex;
-        gap: 10px; /* Abstand zwischen den Elementen */
+        gap: 10px;
         justify-content: center;
         align-items: flex-start;
-        flex-wrap: wrap; /* Optional: Zeilenumbruch auf kleinen Bildschirmen */
+        flex-wrap: wrap;
       }
 
       .eingabe-box {
@@ -44,20 +51,27 @@
       .eingabe-zeile:last-child {
         justify-content: center;
       }
+
       input[type="range"]:hover {
-        cursor: ew-resize; /* oder z. B. 'grab', 'crosshair', etc. */
+        cursor: ew-resize;
       }
     </style>
   </head>
   <body>
-    <h2>Bernoulli-Baumdiagramm mit farbigen Knoten (ohne Text)</h2>
+    <header>
+      <a href="index.html" class="link-homepage" title="home">
+        <h1>MatheChecks</h1>
+      </a>
+      <h2>Baumdiagramme der Binomialverteilung</h2>
+    </header>
+
     <div class="eingabe-box">
       <div class="eingabe-zeile">
-        <label for="nSlider">n = <span id="nWert">10</span></label>
+        <label for="nSlider">n = <span id="nWert">3</span></label>
         <input type="range" id="nSlider" min="1" max="10" value="3" />
       </div>
       <div class="eingabe-zeile">
-        <label for="pSlider">p = <span id="pWert">0.7</span></label>
+        <label for="pSlider">p = <span id="pWert">0.5</span></label>
         <input
           type="range"
           id="pSlider"
@@ -67,14 +81,17 @@
           step="0.01"
         />
       </div>
+      <div class="eingabe-zeile">
+        <label for="kSlider">k = <span id="kWert">0</span></label>
+        <input type="range" id="kSlider" min="0" max="10" value="0" />
+      </div>
     </div>
-    <div id="baum" style="width: 800px; border: black solid"></div>
+    <div id="baum" style="max-width: 800px" class="diagramm"></div>
 
     <script>
       function generateBernoulliTree(n, p) {
         const nodes = {};
         const edges = [];
-
         const leaves = Array.from({ length: Math.pow(2, n) }, (_, i) => {
           return i
             .toString(2)
@@ -121,17 +138,30 @@
         return { nodes, edges };
       }
 
-      function plotBernoulliTree(n = 3, p = 0.7) {
+      function plotBernoulliTree(n = 3, p = 0.5, k = null) {
         const { nodes, edges } = generateBernoulliTree(n, p);
 
-        const nodeColors = [];
+        const highlightedEdges = new Set();
+        for (const key in nodes) {
+          if (key.length === n) {
+            const numSuccesses = (key.match(/N/g) || []).length;
+            if (k !== null && numSuccesses === k) {
+              for (let i = 1; i <= key.length; i++) {
+                const from = key.slice(0, i - 1);
+                const to = key.slice(0, i);
+                highlightedEdges.add(`${from}->${to}`);
+              }
+            }
+          }
+        }
+
         const nodeX = [];
         const nodeY = [];
+        const nodeColors = [];
 
         for (const key in nodes) {
           nodeX.push(nodes[key].x);
           nodeY.push(nodes[key].y);
-
           if (key === "") {
             nodeColors.push("black");
           } else if (key.endsWith("T")) {
@@ -146,7 +176,6 @@
         const nodeTrace = {
           x: nodeX,
           y: nodeY,
-          text: [],
           mode: "markers",
           type: "scatter",
           marker: { size: 12, color: nodeColors },
@@ -161,18 +190,22 @@
           const x1 = nodes[edge.to].x;
           const y1 = nodes[edge.to].y;
 
-          // Kante zeichnen ohne Text
+          const edgeKey = `${edge.from}->${edge.to}`;
+          const isHighlighted = highlightedEdges.has(edgeKey);
+
           edgeTraces.push({
             x: [x0, x1],
             y: [y0, y1],
             mode: "lines",
             type: "scatter",
-            line: { color: "gray" },
+            line: {
+              color: isHighlighted ? "gold" : "gray",
+              width: isHighlighted ? 4 : 1,
+            },
             hoverinfo: "none",
             showlegend: false,
           });
 
-          // Wahrscheinlichkeit als weißer Hintergrund-Text leicht versetzt
           edgeTraces.push({
             x: [(x0 + x1) / 2],
             y: [(y0 + y1) / 2],
@@ -187,60 +220,59 @@
               color: "black",
               family: "Arial",
             },
-            marker: {
-              color: "white",
-              size: 18,
-              line: { width: 1, color: "black" },
-            },
           });
         }
-
-        const spacing = 1;
-        const leafCount = Math.pow(2, n);
-        const plotHeight = spacing * leafCount * 50; // 50 px pro Einheit, anpassbar
 
         const yValues = Object.values(nodes).map((n) => n.y);
         const yMin = Math.min(...yValues);
         const yMax = Math.max(...yValues);
 
         const layout = {
-          title: `Bernoulli-Baumdiagramm (n = ${n}, p = ${p})`,
           xaxis: { visible: false },
           yaxis: {
             visible: false,
-            range: [yMin - 1, yMax + 1], // etwas Puffer oben/unten
+            range: [yMin - 1, yMax + 1],
           },
           plot_bgcolor: "white",
           margin: { l: 20, r: 20, t: 40, b: 20 },
-          height: plotHeight,
+          height: 50 * Math.pow(2, n),
           showlegend: false,
         };
 
         Plotly.newPlot("baum", [...edgeTraces, nodeTrace], layout);
       }
 
-      // Beispielaufruf mit n=3, p=0.7
-      plotBernoulliTree(6, 0.7);
-
-      // Nach dem Laden der Seite:
       document.addEventListener("DOMContentLoaded", () => {
         const nSlider = document.getElementById("nSlider");
         const pSlider = document.getElementById("pSlider");
+        const kSlider = document.getElementById("kSlider");
+
         const nWert = document.getElementById("nWert");
         const pWert = document.getElementById("pWert");
+        const kWert = document.getElementById("kWert");
 
         function updatePlot() {
           const n = parseInt(nSlider.value, 10);
           const p = parseFloat(pSlider.value);
+          let k = parseInt(kSlider.value, 10);
+
           nWert.textContent = n;
           pWert.textContent = p;
-          plotBernoulliTree(n, p);
+
+          kSlider.max = n;
+          if (k > n) {
+            k = n;
+            kSlider.value = n;
+          }
+          kWert.textContent = k;
+
+          plotBernoulliTree(n, p, k);
         }
 
         nSlider.addEventListener("input", updatePlot);
         pSlider.addEventListener("input", updatePlot);
+        kSlider.addEventListener("input", updatePlot);
 
-        // Initial zeichnen mit aktuellen Sliderwerten
         updatePlot();
       });
     </script>

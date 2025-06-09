@@ -14,7 +14,7 @@ Ein Biathlet A absolviert eine Schießeinheit mit fünf Schüssen auf Zielscheib
 
 Beispielsweise bedeutet $P(X=2)=0{,}19$, dass die Wahrscheinlichkeit, mit der Biathlet A genau zweimal das Ziel verfehlt, 19&nbsp;\% beträgt. Das zugehörige Histogramm hat folgende Darstellung:
 
-<div id="histogramm-biathlet-A" class="diagramm-tool"></div>
+<div id="histogramm-biathlet-A" class="diagramm"></div>
 
 ##### Beispiel: Biathlet B
 
