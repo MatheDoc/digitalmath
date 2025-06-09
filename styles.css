@@ -137,10 +137,11 @@ figure {
   flex: 1;
 }
 
-table {
+.script table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
   border-collapse: collapse;
-  margin: 0 auto;
-  max-width: 99%;
 }
 
 /* Skript-Einstellungen */
