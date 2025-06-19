@@ -5,7 +5,7 @@
     "Teilgebiet": "Exponentialfunktionen",
     "Schwerpunkt": "Allgemein",
     "Situation": "Differentialrechnung",
-    "Ich kann…": "Exponentialfunktionen ableiten (Variante 1).",
+    "Ich kann…": "Funktionen vom Typ \"Faktor mal e-Funktion\" ableiten.",
     "Übung": "Analysis_Wirtschaft_Produktlebenszyklus_Differenzieren_Polynom0Exp",
     "Info": "Funktionsart f(x)=a*exp(sx)+t",
     "Index": 1
@@ -16,7 +16,7 @@
     "Teilgebiet": "Exponentialfunktionen",
     "Schwerpunkt": "Allgemein",
     "Situation": "Differentialrechnung",
-    "Ich kann…": "Exponentialfunktionen ableiten (Variante 2).",
+    "Ich kann…": "Funktionen vom Typ \"lineare Funktion mal e-Funktion\" ableiten.",
     "Übung": "Analysis_Wirtschaft_Produktlebenszyklus_Differenzieren_Polynom1Exp",
     "Info": "Funktionsart f(x)=(ax+b)*exp(sx)+t",
     "Index": 2
@@ -27,7 +27,7 @@
     "Teilgebiet": "Exponentialfunktionen",
     "Schwerpunkt": "Allgemein",
     "Situation": "Differentialrechnung",
-    "Ich kann…": "Exponentialfunktionen ableiten (Variante 3).",
+    "Ich kann…": "Funktionen vom Typ \"quadratische Funktion mal e-Funktion\" ableiten.",
     "Übung": "Analysis_Wirtschaft_Produktlebenszyklus_Differenzieren_Polynom2Exp",
     "Info": "Funktionsart f(x)=(ax^2+b+c)*exp(sx)+t",
     "Index": 3
@@ -38,7 +38,7 @@
     "Teilgebiet": "Exponentialfunktionen",
     "Schwerpunkt": "Allgemein",
     "Situation": "Differentialrechnung",
-    "Ich kann…": "Exponentialfunktionen ableiten (Variante 4).",
+    "Ich kann…": "Funktionen vom Typ \"kubische Funktion mal e-Funktion\" ableiten.",
     "Übung": "Analysis_Wirtschaft_Produktlebenszyklus_Differenzieren_Polynom3Exp",
     "Info": "Funktionsart f(x)=(ax^3+bx^2+cx+d)*exp(sx)+t",
     "Index": 4
@@ -1182,7 +1182,7 @@
     "Teilgebiet": "",
     "Schwerpunkt": "Allgemein",
     "Situation": "Dreisatz",
-    "Ich kann…": "den proportionalen Dreisatz anwenden (Variante 1).",
+    "Ich kann…": "den proportionalen Dreisatz anwenden, wenn die erste gegebene Größe den Wert 1 hat.",
     "Übung": "Sekundar_Dreisatz_1zuN",
     "Info": "",
     "Index": 161
@@ -1193,7 +1193,7 @@
     "Teilgebiet": "",
     "Schwerpunkt": "Allgemein",
     "Situation": "Dreisatz",
-    "Ich kann…": "den proportionalen Dreisatz anwenden (Variante 2).",
+    "Ich kann…": "den proportionalen Dreisatz anwenden.",
     "Übung": "Sekundar_Dreisatz_MzuN",
     "Info": "",
     "Index": 162
@@ -1204,7 +1204,7 @@
     "Teilgebiet": "",
     "Schwerpunkt": "Allgemein",
     "Situation": "Dreisatz",
-    "Ich kann…": "den proportionalen Dreisatz anwenden (Variante 3).",
+    "Ich kann…": "den proportionalen Dreisatz anwenden, wenn ein Wert erhöht wird.",
     "Übung": "Sekundar_Dreisatz_MerhöhtZuN",
     "Info": "",
     "Index": 163

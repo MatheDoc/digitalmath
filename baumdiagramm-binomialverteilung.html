@@ -10,6 +10,17 @@
 
     <title>Baumdiagramme der Binomialverteilung</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+        },
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <style>
       .diagramm-row {
@@ -68,22 +79,34 @@
     <div class="eingabe-box">
       <div class="eingabe-zeile">
         <label for="nSlider">n = <span id="nWert">3</span></label>
-        <input type="range" id="nSlider" min="1" max="10" value="3" />
+        <input type="range" id="nSlider" min="1" max="10" value="4" />
       </div>
       <div class="eingabe-zeile">
-        <label for="pSlider">p = <span id="pWert">0.5</span></label>
+        <label for="pSlider">p = <span id="pWert">0.7</span></label>
         <input
           type="range"
           id="pSlider"
           min="0"
           max="1"
-          value="0.5"
+          value="0.7"
           step="0.01"
         />
       </div>
       <div class="eingabe-zeile">
-        <label for="kSlider">k = <span id="kWert">0</span></label>
-        <input type="range" id="kSlider" min="0" max="10" value="0" />
+        <label for="kSlider">k = <span id="kWert">2</span></label>
+        <input type="range" id="kSlider" min="0" max="10" value="2" />
+      </div>
+      <div class="eingabe-zeile">Anzahl der Pfade mit k Treffern:</div>
+      <div class="eingabe-zeile" style="justify-content: center">
+        <span id="anzahlPfade"></span>
+      </div>
+      <div class="eingabe-zeile">Pfadendwahrscheinlichkeit:</div>
+      <div class="eingabe-zeile" style="justify-content: center">
+        <span id="pfadwkeit"></span>
+      </div>
+      <div class="eingabe-zeile">Wahrscheinlichkeit für genau k Treffer:</div>
+      <div class="eingabe-zeile">
+        <span id="bernoulli"></span>
       </div>
     </div>
     <div id="baum" style="max-width: 800px" class="diagramm"></div>
@@ -242,6 +265,15 @@
         Plotly.newPlot("baum", [...edgeTraces, nodeTrace], layout);
       }
 
+      function binom(n, k) {
+        if (k < 0 || k > n) return 0;
+        let res = 1;
+        for (let i = 1; i <= k; i++) {
+          res = (res * (n - i + 1)) / i;
+        }
+        return res;
+      }
+
       document.addEventListener("DOMContentLoaded", () => {
         const nSlider = document.getElementById("nSlider");
         const pSlider = document.getElementById("pSlider");
@@ -250,6 +282,8 @@
         const nWert = document.getElementById("nWert");
         const pWert = document.getElementById("pWert");
         const kWert = document.getElementById("kWert");
+        const anzahlPfadeWert = document.getElementById("anzahlPfade");
+        const pfadwkeitWert = document.getElementById("pfadwkeit");
 
         function updatePlot() {
           const n = parseInt(nSlider.value, 10);
@@ -266,6 +300,34 @@
           }
           kWert.textContent = k;
 
+          // Anzahl Pfade mit k Treffern anzeigen
+          const anzahlPfade = binom(n, k);
+          anzahlPfadeWert.textContent = `$ \\binom{n}{k}=  ${anzahlPfade} $`;
+          MathJax.typesetPromise([document.getElementById("anzahlPfade")]);
+
+          // Pfadendwahrscheinlichkeit anzeigen
+          const pfadwkeit = Math.pow(p, k) * Math.pow(1 - p, n - k);
+          pfadwkeitWert.textContent = `$ p^${k} \\cdot (1-p)^${
+            n - k
+          } =  ${pfadwkeit.toLocaleString(undefined, {
+            maximumFractionDigits: 4,
+          })}$`;
+          MathJax.typesetPromise([document.getElementById("pfadwkeit")]);
+
+          // Wkt. für genau k Treffer anzeigen
+          const bernoulli =
+            binom(n, k) * Math.pow(p, k) * Math.pow(1 - p, n - k);
+          document.getElementById(
+            "bernoulli"
+          ).textContent = `\\begin{align*} P(X=k) &= \\binom{n}{k} \\cdot p^k \\cdot (1-p)^{n-k} \\\\ &=${anzahlPfade}\\cdot ${pfadwkeit.toLocaleString(
+            undefined,
+            {
+              maximumFractionDigits: 4,
+            }
+          )} \\\\ &=  ${bernoulli.toLocaleString(undefined, {
+            maximumFractionDigits: 4,
+          })}\\end{align*}`;
+          MathJax.typesetPromise([document.getElementById("bernoulli")]);
           plotBernoulliTree(n, p, k);
         }
 
@@ -275,6 +337,11 @@
 
         updatePlot();
       });
+
+      if (window.self !== window.top) {
+        // Seite ist im iframe geladen
+        document.documentElement.classList.add("in-iframe");
+      }
     </script>
   </body>
 </html>
